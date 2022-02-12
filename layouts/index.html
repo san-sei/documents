@@ -7,7 +7,7 @@
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">Get Started</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
+      <!--<p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>-->
     </div>
   </div>
 </section>
@@ -19,30 +19,30 @@
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
-          <h2 class="h4">Security aware</h2>
-          <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks.netlify.app">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.</p>
+          <h2 class="h4">FIDO Certified</h2>
+          <p>FIDO2 cryptographic login credentials are unique across every website, never leave the user’s device and are never stored on a server.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Fast by default ⚡️</h2>
-          <p>Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=92eaa982d7dbf92f94fe8ecc03987c9a">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
+          <h2 class="h4">Phishing resistant</h2>
+          <p>The public/private key based security model eliminates the risks of phishing, all forms of password theft and replay attacks.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">SEO-ready</h2>
-          <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
+          <h2 class="h4">Tap & Login Experience</h2>
+          <p>Super convenient for shared environment PCs where users can walk to a PC, tap their phone or fob on the reader, to do their job.</p>
         </div>
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
-          <h2 class="h4">Full text search</h2>
-          <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
+          <h2 class="h4">Management Panel</h2>
+          <p>Gaining visibility into user devices is the first step in establishing device trust, and it’s an essential aspect of a strong zero-trust strategy.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Page layouts</h2>
-          <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
+          <h2 class="h4">Smartphone as security key</h2>
+          <p>Go password less while going completely hardware less too at the same time with IDmelon Android/iOS app.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Dark mode</h2>
-          <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
+          <h2 class="h4">Hardware security keys</h2>
+          <p>Try IDmelon Fob for mobile restricted environment to enjoy tap and go login. Or IDmelon key for traditional usb security key.</p>
         </div>
       </div>
     </div>
