@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+description: "IDmelon app, which is designed and developed by IDmelon Technologies Inc., lets users use their smartphones as a FIDO2 hardware security key. In environments with either shared computers or single-user PCs, users can enjoy password-less login experience with only a single tap of their smartphones on IDmelon Reader or a single click on a push notification."
+lead: "IDmelon Android/iOS app enables you to use your smartphones as a FIDO2 security key. It also enables enterprises with shared computers or single-user PCs to enjoy password-less login experience with only a single tap of th smartphones on IDmelon Reader or a single click on a push notification."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -15,9 +15,12 @@ toc: true
 
 ## Get started
 
-There are two main ways to get started with Doks:
+There are two main ways to get started with IDmelon mobile app in order to use your smartphone as a FIDO USB security key:
+- IDmelon Pairing Tool
+- IDmelon Reader
 
-### Tutorial
+You are an individual and don't know which one to try? Try with IDmelon Pairing Tool first because no additional hardware is needed in this approach and it is built right for you.
+### IDmelon Pairing Tool
 
 {{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
 
