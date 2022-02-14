@@ -30,9 +30,6 @@ Are you looking for personal use and don't know which one to try? Try with IDmel
 The IDmelon Pairing Tool is available for Windows 10 (or higher) and Mac OS. You can download it from [here](https://www.idmelon.com/downloads/).
 
 {{< alert icon="👉" text="Only one smartphone can be paired with IDmelon Pairing Tool at a time." />}}
-
-
-
 ### Quick Start with IDmelon Pairing Tool
 
 {{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
