@@ -22,6 +22,7 @@ Apple Store             |  Google Play
 {{< figure src="/images/vendor/App_Store/White_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" target="_blank" link="https://apps.apple.com/ca/app/idmelon/id1511376376" >}}|{{< figure src="/images/vendor/Google_Play/google-play-badge.svg" target="_blank" link="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&hl=en_CA&gl=US" class="store-badge">}}
 
 There are two main ways to get started with IDmelon mobile app in order to use your smartphone as a FIDO USB security key:
+
 - IDmelon Pairing Tool
 - IDmelon Reader
 
