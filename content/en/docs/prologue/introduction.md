@@ -15,11 +15,7 @@ toc: true
 
 ## Get started
 
-Install IDmelon app on your smartphone from App Store or Google Play.
-
-Apple Store             |  Google Play
-:-------------------------:|:-------------------------:
-{{< figure src="/images/vendor/App_Store/White_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" target="_blank" link="https://apps.apple.com/ca/app/idmelon/id1511376376" >}}|{{< figure src="/images/vendor/Google_Play/google-play-badge.svg" target="_blank" link="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&hl=en_CA&gl=US" class="store-badge">}}
+The IDmelon app is built to provide you multiple security keys (one for personal use and one for business use if needed) at the same time on your smartphone. Each security key will be attached to an email.
 
 There are two main ways to get started with IDmelon mobile app in order to use your smartphone as a FIDO USB security key:
 
@@ -30,12 +26,13 @@ Are you looking for personal use and don't know which one to try? Try with IDmel
 
 ### IDmelon Pairing Tool
 
-The IDmelon Pairing Tool is available for Windows 10 (or higher) and Mac OS. You can download it from [here](https://www.idmelon.com/downloads/).
+IDmelon Pairing Tool is a lightweight desktop application that will help you to pair your smartphone with your PC quickly by scanning a QR code. 
 
-{{< alert icon="👉" text="Only one smartphone can be paired with IDmelon Pairing Tool at a time." />}}
+{{< alert icon="👉" text="The IDmelon Pairing Tool is available for Windows 10 (or higher) and Mac OS." />}}
 
-### Quick Start with IDmelon Pairing Tool
+### Pair your smartphone with PC
 
+Take the below steps in order to pair your smartphone with 
 {{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
 
 One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
