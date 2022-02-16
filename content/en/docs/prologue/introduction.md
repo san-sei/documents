@@ -26,13 +26,13 @@ Are you looking for personal use and don't know which one to try? Try with IDmel
 
 ### IDmelon Pairing Tool
 
-IDmelon Pairing Tool is a lightweight desktop application that will help you to pair your smartphone with your PC quickly by scanning a QR code. 
+IDmelon Pairing Tool is a lightweight desktop application that will help you to pair your smartphone with your PC quickly by scanning a QR code.
 
 {{< alert icon="👉" text="The IDmelon Pairing Tool is available for Windows 10 (or higher) and Mac OS." />}}
 
 ### Pair your smartphone with PC
 
-Take the below steps in order to pair your smartphone with 
+Take the below steps in order to pair your smartphone with
 {{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
 
 One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
