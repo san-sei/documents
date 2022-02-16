@@ -83,49 +83,10 @@ To see how it works:
 
   {{< figure src="/images/vendor/gifs/signin_1.gif">}}
 
-## Next
+## Other accounts
 
-### Create a new site
+In the same way, you can protect all other FIDO-enabled account using security key by visiting security option of your online account.
 
-Doks is available as a child theme, and a starter theme:
+## Tap-n-Go option
 
-- Use the Doks child theme, if you do __not__ plan to customize a lot, and/or need future Doks updates.
-- Use the Doks starter theme, if you plan to customize a lot, and/or do __not__ need future Doks updates.
-
-Not quite sure? Use the Doks child theme.
-
-#### Doks child theme
-
-```bash
-git clone https://github.com/h-enk/doks-child-theme.git my-doks-site
-```
-
-#### Doks starter theme
-
-```bash
-git clone https://github.com/h-enk/doks.git my-doks-site
-```
-
-### Change directories
-
-```bash
-cd my-doks-site
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Start development server
-
-```bash
-npm run start
-```
-
-Doks will start the Hugo development webserver accessible by default at `http://localhost:1313`. Saved changes will live reload in the browser.
-
-## Other commands
-
-Doks comes with commands for common tasks. [Commands →]({{< relref "commands" >}})
+IDmelon solution comes with Tap-n-Go option when working IDmelon Reader. No need to install software on the PC.[Commands →]({{< relref "commands" >}})
