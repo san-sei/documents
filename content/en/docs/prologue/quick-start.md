@@ -19,7 +19,6 @@ IDmelon uses a lightweight desktop application (named Pairing Tool) that wil
 
 - Install IDmelon app on your smartphone from App Store or Google Play.
 
-
 Apple Store             |  Google Play
 :-------------------------:|:-------------------------:
 {{< figure class="logo-light" src="/images/vendor/App_Store/White_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" target="_blank" link="https://apps.apple.com/ca/app/idmelon/id1511376376" >}}{{< figure class="logo-dark d-none" src="/images/vendor/App_Store/Black_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" target="_blank" link="https://apps.apple.com/ca/app/idmelon/id1511376376" >}}|{{< figure src="/images/vendor/Google_Play/google-play-badge.svg" target="_blank" link="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&hl=en_CA&gl=US" class="store-badge">}}
@@ -30,18 +29,17 @@ Windows 10 (or higher)             |  Mac OS
 :-------------------------:|:-------------------------:
 {{< figure src="/images/vendor/Windows/Windows_logo.png" target="_blank" link="https://www.idmelon.com/downloads/" >}}|{{< figure src="/images/vendor/Mac/mac-os.png" target="_blank" link="https://www.idmelon.com/downloads/" class="store-badge">}}
 
-
 ## Set up a security key
 
 When running the app for the first time you will be asked to enter an email to create (or open) your security key. We encourage you to use a personal email (not business) if you want to protect your personal account with this security key.
- 
+
 ## Pair your smartphone with PC
 
-- Run the IDmelon Pairing Tool on your PC. 
+- Run the IDmelon Pairing Tool on your PC.
   - If you are running this tool for the first time, you will be asked to scan the QR code using IDmelon app on your smartphone.
   - Otherwise, click on `Pair a new Smartphone` to generate and show a QR code on the screen
 - Open the IDmelon on your phone
-  - Tap the QR icon displayed on the top, OR 
+  - Tap the QR icon displayed on the top, OR
   - Tap `More options`, and choose `Pair with a PC`.
   - Tap `Start Scanning`.
   - Unlock your phone:
@@ -49,10 +47,10 @@ When running the app for the first time you will be asked to enter an email to c
   - Click `Done` and you're all set to experience password-login experience.
 
       {{< figure src="/images/vendor/gifs/pairing.gif">}}
+
 ## Login with Security key
 
 Now that you have paired your smartphone with your PC, you are all set to add this security key to your online accounts such as Office 365, Github, Facebook, Twitter and much more.
-
 Here we'll help you going through adding security to Microsoft Office 365.
 
 ### Microsoft Azure and Office 365
@@ -71,7 +69,6 @@ You can use security keys as a passwordless sign-in method within your organizat
 
   {{< figure src="/images/vendor/gifs/registration_office365.gif">}}
 
-
 {{< alert icon="👉" text="Make sure your administrator has turned on FIDO2 feature for use within your organization" />}}
 
 #### How to login with security key
@@ -86,8 +83,8 @@ To see how it works:
 
   {{< figure src="/images/vendor/gifs/signin_1.gif">}}
 
-
 ## Next
+
 ### Create a new site
 
 Doks is available as a child theme, and a starter theme:
