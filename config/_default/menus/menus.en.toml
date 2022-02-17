@@ -5,6 +5,12 @@
   url = "/docs/prologue/"
 
 [[docs]]
+  name = "Administration"
+  weight = 20
+  identifier = "administration"
+  url = "/docs/administration/"
+
+[[docs]]
   name = "Help"
   weight = 60
   identifier = "help"
@@ -84,7 +90,7 @@
   url = "https://twitter.com/IDmelonTech"
   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+ [[footer]]
+   name = "Privacy"
+   url = "/privacy-policy/"
+   weight = 10
