@@ -73,8 +73,8 @@
 [[main]]
   name = "Try now"
   weight = 50
-  identifier = "trynow"
-  url = "https://idmelon.com/"
+  identifier = "try-now"
+  url = "/try-now/"
   parent = "get-started"
 
 [[social]]
