@@ -1,5 +1,5 @@
 ---
-title: "Tap-n-Go login option"
+title: "IDmelon Reader"
 description: "Tap and Go with IDmelon Reader"
 lead: "Tap your phone on the Reader to login"
 date: 2020-10-13T15:21:01+02:00
@@ -13,86 +13,10 @@ weight: 130
 toc: true
 ---
 
-{{< alert icon="💡" text="You can change the commands in the scripts section of `./package.json`." />}}
+{{< figure src="https://www.idmelon.com/wp-content/uploads/2021/09/IDmelon-Key.jpg">}}
 
-## create
+IDmelon reader is a plug and play hardware, which allows users to have a tap-n-login experience with their smartphones. Workspaces with shared computers are great places to use the IDmelon Reader.
 
-Create new content for your site:
+[Buy an IDmelon Reader](http://idmelon.com){: .btn .btn-blue }
 
-```bash
-npm run create [path] [flags]
-```
-
-See also the Hugo docs: [hugo new](https://gohugo.io/commands/hugo_new/).
-
-## lint
-
-Check scripts, styles, and markdown for errors:
-
-```bash
-npm run lint
-```
-
-### scripts
-
-Check scripts for errors:
-
-```bash
-npm run lint:scripts [-- --fix]
-```
-
-### styles
-
-Check styles for errors:
-
-```bash
-npm run lint:styles [-- --fix]
-```
-
-### markdown
-
-Check markdown for errors:
-
-```bash
-npm run lint:markdown [-- --fix]
-```
-
-## clean
-
-Delete temporary directories:
-
-```bash
-npm run clean
-```
-
-## start
-
-Start local development server:
-
-```bash
-npm run start
-```
-
-## build
-
-Build production website:
-
-```bash
-npm run build
-```
-
-### functions
-
-Build Lambda functions:
-
-```bash
-npm run build:functions
-```
-
-### preview
-
-Build production website including draft and future content:
-
-```bash
-npm run build:preview
-```
+<button type="button" name="button" class="btn">Done</button>
