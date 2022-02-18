@@ -16,3 +16,5 @@ toc: true
 ## Assign security keys
 
 In this page you will learn how to create a security key type and then assign it to as many users as you wish.
+
+### Import users
