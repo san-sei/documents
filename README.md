@@ -6,7 +6,7 @@ In order to update the content, download and install Visual Studio Code.
 #### Clone the code
 
 ```bash
-git clone https://github.com/san-sei/documents.git
+git clone https://github.com/idmelon/documents.git
 ```
 
 ### 2. Install dependencies
