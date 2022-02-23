@@ -12,7 +12,7 @@ To start using your smartphone as a security key on a computer, first you need t
 Choose your status:
 
 <a role="button" class="btn btn-outline-primary">I already paired with my PC.</a><br/><br/>
-<a role="button" class="btn btn-outline-primary" href="/pages/pairing/step1">I want to pair with my PC.</a><br/><br/>
+<a role="button" class="btn btn-outline-primary" href="/pages/pairing/step1/">I want to pair with my PC.</a><br/><br/>
 <a role="button" class="btn btn-outline-primary">I have an IDmelon Reader.</a><br/><br/>
 <a role="button" class="btn btn-outline-primary">What is the IDmelon Reader?</a>
 
