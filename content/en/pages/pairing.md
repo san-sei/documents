@@ -1,4 +1,11 @@
-
+---
+title: "pairing"
+description: "pairing"
+date: 2022-02-22T15:33:45-08:00
+lastmod: 2022-02-22T15:33:45-08:00
+draft: false
+images: []
+---
 After installing and running IDmelon Pairing Tool, the app will show you a pairing QR code.
 Scan the QR code with the smartphone.
 
