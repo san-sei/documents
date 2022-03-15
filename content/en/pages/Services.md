@@ -11,10 +11,14 @@ images: []
     <img src="/images/vendor/arts/download-desktop.png">
 </p>
 
+ test 
+ 
 <a role="button" class="btn btn-outline-primary">Windows Login</a>
-<a role="button" class="btn btn-outline-primary">Office 365</a>
-<a role="button" class="btn btn-outline-primary">Hotmail</a>
-<a role="button" class="btn btn-outline-primary">Twitter</a>
 
+<a role="button" class="btn btn-outline-primary">Office 365</a>
+
+<a role="button" class="btn btn-outline-primary">Hotmail</a>
+
+<a role="button" class="btn btn-outline-primary">Twitter</a>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}</style>
