@@ -16,8 +16,8 @@ images: []
 <p class='mb-6'>Scan the QR code with the smartphone.</p>
 
 <div class='d-flex column flex-column mt-5'>
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="">Scan QR code</a>
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="">I will do it later</a>
+<a id="btn-scan-qr" role="button" class="btn btn-primary btn-lg d-block mb-3">Scan QR code</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/reader">I will do it later</a>
 </div>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
@@ -25,3 +25,10 @@ h1{
     color : #4395ec;
 }
 </style>
+
+<script>
+    const btnQRCodeScan = document.getElementById('btn-scan-qr')
+    btnQRCodeScan.addEventListener('click', (ev) => {
+      location.replace(`https://www.idmelon.com/open-qr`);   
+    });
+</script>
