@@ -14,9 +14,7 @@ images: []
 <p>You can use IDmelon FIDO security keys as a passwordless sign-in method within various web accounts, services and systems.</p>
 <p class='mb-5'>We will help you learn how to add IDmelon security key to different platforms like Microsoft, Windows Login, twitter, dropbox and more ...</p>
 
-
 <a role="button" class="btn btn-primary btn-lg d-block mb-3" href="">Next</a>
-
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
 h1{

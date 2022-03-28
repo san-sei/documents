@@ -14,7 +14,6 @@ images: []
 
 <a role="button" class="btn btn-primary btn-lg d-block mb-3" href="">Back</a>
 
-
 <style>
 
 @media (max-width: 480px) {.navbar, .footer { display: none; }}
