@@ -16,7 +16,7 @@ images: []
 
 <div class='d-flex column flex-column mt-5'>
 <a id="btn-scan-qr" role="button" class="btn btn-primary btn-lg d-block mb-3">Scan QR code</a>
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/reader">I will do it later</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/setupasecuritykey">I will do it later</a>
 </div>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
