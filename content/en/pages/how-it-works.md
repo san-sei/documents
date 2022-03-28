@@ -22,5 +22,6 @@ Choose your status:
     const btnQRCodeScan = document.getElementById('btn-scan-qr')
     btnQRCodeScan.addEventListener('click', (ev) => {
       location.replace(`https://www.idmelon.com/open-qr`);
+      
     });
 </script>
