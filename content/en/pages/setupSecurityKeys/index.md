@@ -12,7 +12,7 @@ images: []
 <p>Standalone PCs or even on-premise AD do not support this feature.</p>
 <p class='mb-5'>To enable this feature on your Azure AD joined PCs, call your IT administrator.</p>
 
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" >Back</a>
 
 <style>
 
@@ -21,3 +21,10 @@ h1{
     color : #4395ec;
 }
 </style>
+
+<script>
+    const btnQRCodeScan = document.getElementById('back')
+    btnQRCodeScan.addEventListener('click', (ev) => {
+      history.back();  
+    });
+</script>
