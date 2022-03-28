@@ -7,9 +7,7 @@ draft: false
 images: []
 ---
 
-
 <div class='d-flex flex-column mt-5'>
-
 
  <div class='d-flex flex-row rounded-btn mb-4'>
   <div style='width:27%;'>
@@ -21,7 +19,6 @@ images: []
   </div>
  </div>
 
-
  <div class='d-flex flex-row rounded-btn mb-4'>
   <div style='width:27%;'>
    <img src='Office.png' class='rounded-btn_img'>
@@ -31,7 +28,6 @@ images: []
   <span class='rounded-btn_txt' style='color: #cc2433'>Office 365</span>
   </div>
  </div>
-
 
  <div class='d-flex flex-row rounded-btn mb-4'>
   <div style='width:27%;'>
@@ -55,12 +51,10 @@ images: []
 
 </div>
 
-
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
 h1{
     color : #4395ec;
 }
-
 .rounded-btn{
     height: 80px;
     width: 100%;

@@ -11,7 +11,6 @@ images: []
 <img src='pairingsteps.png' class='d-block m-auto mb-6' width="150">
 </div>
 
-
 <p>After installing and running IDmelon Pairing Tool, the app will show you a Pairing QR code.</p>
 <p class='mb-6'>Scan the QR code with the smartphone.</p>
 
@@ -29,6 +28,6 @@ h1{
 <script>
     const btnQRCodeScan = document.getElementById('btn-scan-qr')
     btnQRCodeScan.addEventListener('click', (ev) => {
-      location.replace(`https://www.idmelon.com/open-qr`);   
+      location.replace(`https://www.idmelon.com/open-qr`);
     });
 </script>
