@@ -9,7 +9,7 @@ images: []
 
 <div class='d-flex flex-column mt-5'>
 
- <div class='d-flex flex-row rounded-btn mb-4'>
+ <div id="windows" class='d-flex flex-row rounded-btn mb-4'>
   <div style='width:27%;'>
    <img src='windows.png' class='rounded-btn_img'>
   </div>
@@ -76,3 +76,11 @@ h1{
     margin-left: -50px;
 }
 </style>
+
+<script>
+
+const windows = document.getElementById('windows')
+    windows.addEventListener('click', (ev) => {
+      location.replace(`http://docs.idmelon.com/pages/setupsecuritykeys/`);
+    });
+</script>
