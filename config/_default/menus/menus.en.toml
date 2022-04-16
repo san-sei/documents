@@ -64,6 +64,13 @@
   parent = "get-started"
 
 [[main]]
+  name = "Pairing Tool"
+  weight = 40
+  identifier = "pairing-tool"
+  url = "/docs/prologue/quick-start/"
+  parent = "get-started"
+
+[[main]]
   name = "Tutorial"
   weight = 50
   identifier = "tutorial"
