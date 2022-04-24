@@ -11,8 +11,8 @@ images: []
     <img src="/images/vendor/arts/download-desktop.png">
 </p>
 
-You can use IDmelon FIDO security keys as a passwordless sign-in method within various web accounts, services, and systems.
-We will help you learn how to add IDmelon security key to different platforms like Microsoft, Windows Login, Twitter, Dropbox and more ...
+<p>You can use IDmelon FIDO security keys as a passwordless sign-in method within various web accounts, services, and systems.
+We will help you learn how to add IDmelon security key to different platforms like Microsoft, Windows Login, Twitter, Dropbox and more ...</p>
 
 [https://www.idmelon.com/download](https://www.idmelon.com/download)
 
