@@ -8,7 +8,7 @@ images: []
 ---
 
 
-<p>Unfortunately, this feature is only available for Azure active directory joined PCs.</p>
+<p>Unfortunately, this feature is only available for Azure Active Directory joined PCs.</p>
 <p>Standalone PCs or even on-premise AD do not support this feature.</p>
 <p class='mb-5'>To enable this feature on your Azure AD joined PCs, call your IT administrator.</p>
 

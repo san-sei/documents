@@ -9,7 +9,7 @@ images: []
 
 <img src='reader.png' class='d-block m-auto' width="150">
 
-<p>IDmelon reader is a plug and play hardware, which enables users to have <b>Tap-n-Login</b> experience with their smartphones.</p>
+<p>IDmelon Reader is a plug and play hardware, which enables users to have <b>Tap-n-Login</b> experience with their smartphones.</p>
 <p class='mb-6'>Workspaces with shared computers need to use IDmelon Readers.</p>
 
 <div class='d-flex column flex-column mt-5'>
