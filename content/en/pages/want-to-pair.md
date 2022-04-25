@@ -15,7 +15,7 @@ images: []
 <p>You can download it from the path below:<br>
 idmelon.com >> Support >> Downloads</p><br>
 
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/already-paired/index.html">I installed Pairing Tool on my PC</a><br/><br/>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/already-paired/index.html">I installed Pairing Tool</a><br/><br/>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
 h1{
