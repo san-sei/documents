@@ -14,7 +14,7 @@ images: []
 <p>Then scan the code with your smartphone, to start scanning follow the intsruction below in this app:<br>
 Go to the Home Page >> Open Menu >> Pair with a PC </p><br>
 
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/wanttopair">Back</a><br/><br/>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/want-to-pair">Back</a><br/><br/>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
 h1{
