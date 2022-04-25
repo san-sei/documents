@@ -89,4 +89,4 @@ In the same way, you can protect all other FIDO-enabled account using security k
 
 ## Tap-n-Go option
 
-IDmelon solution comes with Tap-n-Go option when working IDmelon Reader. No need to install software on the PC.[Commands →]({{< relref "commands" >}})
+IDmelon solution comes with Tap-n-Go option when working IDmelon Reader. No need to install software on the PC.
