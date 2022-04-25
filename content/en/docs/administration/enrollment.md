@@ -15,7 +15,7 @@ toc: true
 
 ## User enrollment
 
-Here you will learn how to invite users from csv or azure.
+Here we you will learn how to invite users from csv or azure.
 
 ## from CSV
 
