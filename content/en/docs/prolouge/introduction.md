@@ -4,7 +4,7 @@ description: "IDmelon app, which is designed and developed by IDmelon Technologi
 lead: "IDmelon Android/iOS app enables you to use your smartphones as a FIDO2 security key. It also enables enterprises with shared computers or single-user PCs to enjoy password-less login experience with only a single tap of a smartphone on the IDmelon Reader or a single click on a push notification."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
-draft: false
+draft: true
 images: []
 menu:
   docs:
