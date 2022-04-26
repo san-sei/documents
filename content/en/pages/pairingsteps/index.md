@@ -13,9 +13,10 @@ images: []
 
 <p>After installing and running IDmelon Pairing Tool, the app will show you a Pairing QR code.</p>
 <p class='mb-6'>Scan the QR code with the smartphone.</p>
+<p>To start scanning follow the intsruction below in the app:<br>
+Go to the Home Page >> Open Menu >> Pair with a PC </p><br>
 
 <div class='d-flex column flex-column mt-5'>
-<a id="btn-scan-qr" role="button" class="btn btn-primary btn-lg d-block mb-3">Scan QR code</a>
 <a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/setupasecuritykey">I will do it later</a>
 </div>
 

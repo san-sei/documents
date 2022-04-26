@@ -19,7 +19,7 @@ images: []
   </div>
  </div>
 
- <div class='d-flex flex-row rounded-btn mb-4'>
+ <div id="office" class='d-flex flex-row rounded-btn mb-4'>
   <div style='width:27%;'>
    <img src='Office.png' class='rounded-btn_img'>
   </div>
@@ -29,7 +29,7 @@ images: []
   </div>
  </div>
 
- <div class='d-flex flex-row rounded-btn mb-4'>
+ <div id="hotmail" class='d-flex flex-row rounded-btn mb-4'>
   <div style='width:27%;'>
    <img src='hotmail.png' class='rounded-btn_img'>
   </div>
@@ -39,7 +39,7 @@ images: []
   </div>
  </div>
 
- <div class='d-flex flex-row rounded-btn mb-4'>
+ <div id="twitter" class='d-flex flex-row rounded-btn mb-4'>
   <div style='width:27%;'>
    <img src='twitter.png' class='rounded-btn_img' style='height: 40px;width: 50px;margin-left: 30px;'>
   </div>
@@ -78,9 +78,15 @@ h1{
 </style>
 
 <script>
-
-const windows = document.getElementById('windows')
+function selectAndRedirect(element,URL){
+   const windows = document.getElementById(element)
     windows.addEventListener('click', (ev) => {
-      location.replace(`http://docs.idmelon.com/pages/setupsecuritykeys/`);
+      location.replace(URL);
     });
+}
+selectAndRedirect('windows',`http://docs.idmelon.com/pages/setupsecuritykeys/windows/index.html`)
+selectAndRedirect('office',`http://docs.idmelon.com/pages/setupsecuritykeys/office/index.html`)
+selectAndRedirect('hotmail',`http://docs.idmelon.com/pages/setupsecuritykeys/hotmail/index.html`)
+selectAndRedirect('twitter',`http://docs.idmelon.com/pages/setupsecuritykeys/twitter/index.html`)
+
 </script>
