@@ -11,9 +11,13 @@ To start using your smartphone as a security key on a computer, first you need t
 
 Choose your status:
 
-<a role="button" class="btn btn-outline-primary" href="http://docs.idmelon.com/pages/setupasecuritykey">I already paired with my PC.</a><br/><br/>
-<a role="button" class="btn btn-outline-primary" href="http://docs.idmelon.com/pages/pairing/step1">I want to pair with my PC.</a><br/><br/>
-<a role="button" class="btn btn-outline-primary" href="http://docs.idmelon.com/pages/setupasecuritykey">I have an IDmelon Reader.</a><br/><br/>
-<a role="button" class="btn btn-outline-primary" href="http://docs.idmelon.com/pages/reader/index.html">What is IDmelon Reader?</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/setupasecuritykey">I already paired with my PC.</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/pairing/step1">I want to pair with my PC.</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/setupasecuritykey">I have an IDmelon Reader.</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/reader/index.html">What is IDmelon Reader?</a>
 
-<style>@media (max-width: 480px) {.navbar, .footer { display: none; }}</style>
+<style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
+h1{
+    color : #4395ec;
+}
+</style>
