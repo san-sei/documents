@@ -16,6 +16,6 @@ You can download the Pairing Tool App from the following link on the IDmelon web
 
 [https://www.idmelon.com/download](https://www.idmelon.com/download)
 
-<a role="button" class="btn btn-outline-primary" href="http://docs.idmelon.com/pages/pairingsteps">Next</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/pairingsteps">Next</a>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}</style>

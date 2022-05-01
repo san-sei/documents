@@ -64,13 +64,6 @@
   parent = "get-started"
 
 [[main]]
-  name = "Tutorial"
-  weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
-
-[[main]]
   name = "Try now"
   weight = 50
   identifier = "try-now"
