@@ -7,7 +7,7 @@ draft: false
 images: []
 ---
 
-To start using your smartphone as a security key on a computer, first you need to either pair your smartphone with that computer or have an IDmelon Reader.
+<p>To start using your smartphone as a security key on a computer, first you need to either pair your smartphone with that computer or have an IDmelon Reader.</p>
 
 Choose your status:
 
