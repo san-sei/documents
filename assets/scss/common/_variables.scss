@@ -15,16 +15,18 @@ $black:    #000;
 $yellow:   #ffe000;
 $black:    #1d2d35;
 $beige:    #fbf7f0;
+$link-blue: #4594dc;
 
 // $red:      #e55235;
-$purple:   #cee9ff;
+$purple:   #5d2f86;
 $brown:    #aa9c84;
 
 $blue-300: #8ed6fb;
 $pink-100: #fcfaff;
 $pink-500: #d32e9d;
+$idmelon-blue: #cee9ff;
 
-$primary: $purple;
+$primary: $idmelon-blue;
 
 $color-btn-bg: $pink-500;
 $color-btn-border: darken($pink-500, 5%);
@@ -70,7 +72,7 @@ $body-color:                $black;
 //
 // Style anchor elements.
 
-$link-color:                              $primary;
+$link-color:                              $link-blue;
 $link-decoration:                         none;
 
 // Grid containers
