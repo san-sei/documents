@@ -84,9 +84,9 @@ function selectAndRedirect(element,URL){
       location.replace(URL);
     });
 }
-selectAndRedirect('windows',`http://docs.idmelon.com/pages/setupsecuritykeys/windows/index.html`)
-selectAndRedirect('office',`http://docs.idmelon.com/pages/setupsecuritykeys/office/index.html`)
-selectAndRedirect('hotmail',`http://docs.idmelon.com/pages/setupsecuritykeys/github/index.html`)
-selectAndRedirect('twitter',`http://docs.idmelon.com/pages/setupsecuritykeys/twitter/index.html`)
+selectAndRedirect('windows',`http://docs.idmelon.com/pages/setupsecuritykeys/windows/`)
+selectAndRedirect('office',`http://docs.idmelon.com/pages/setupsecuritykeys/office/`)
+selectAndRedirect('hotmail',`http://docs.idmelon.com/pages/setupsecuritykeys/github/`)
+selectAndRedirect('twitter',`http://docs.idmelon.com/pages/setupsecuritykeys/twitter/`)
 
 </script>
