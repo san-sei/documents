@@ -31,11 +31,11 @@ images: []
 
  <div id="hotmail" class='d-flex flex-row rounded-btn mb-4'>
   <div style='width:27%;'>
-   <img src='hotmail.png' class='rounded-btn_img'>
+   <img src='github.png' class='rounded-btn_img'>
   </div>
 
   <div style='width:73%;text-align: center;'>
-  <span class='rounded-btn_txt'>Hotmail</span>
+  <span class='rounded-btn_txt'>GitHub</span>
   </div>
  </div>
 
@@ -86,7 +86,7 @@ function selectAndRedirect(element,URL){
 }
 selectAndRedirect('windows',`http://docs.idmelon.com/pages/setupsecuritykeys/windows/index.html`)
 selectAndRedirect('office',`http://docs.idmelon.com/pages/setupsecuritykeys/office/index.html`)
-selectAndRedirect('hotmail',`http://docs.idmelon.com/pages/setupsecuritykeys/hotmail/index.html`)
+selectAndRedirect('hotmail',`http://docs.idmelon.com/pages/setupsecuritykeys/github/index.html`)
 selectAndRedirect('twitter',`http://docs.idmelon.com/pages/setupsecuritykeys/twitter/index.html`)
 
 </script>
