@@ -17,7 +17,7 @@ images: []
 Go to the Home Page >> Open Menu >> Pair with a PC </p><br>
 
 <div class='d-flex column flex-column mt-5'>
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/setupasecuritykey">I will do it later</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="https://docs.idmelon.com/pages/how-it-works/">I will do it later</a>
 </div>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
