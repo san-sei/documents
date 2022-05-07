@@ -25,7 +25,7 @@ images: []
   </div>
 
   <div style='width:73%;text-align: center;'>
-  <span class='rounded-btn_txt' style='color: #cc2433'>Office 365</span>
+  <span class='rounded-btn_txt'>Office 365</span>
   </div>
  </div>
 
