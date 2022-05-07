@@ -11,8 +11,8 @@ images: []
     <img src="/images/vendor/arts/download-desktop.png">
 </p>
 
-To pair your smartphone with a computer, you need the IDmelon Pairing Tool App on that computer.
-You can download the Pairing Tool App from the following link on the IDmelon website.
+You need to install the IDmelon Pairing Tool App on that computer.
+You can download it from the following link on the IDmelon website.
 
 [https://www.idmelon.com/download](https://www.idmelon.com/download)
 
