@@ -7,7 +7,7 @@ draft: false
 images: []
 ---
 
-1. Go to "My Profile" page at "My Account" and sign in.
+1. Sign in to you Microsoft account at https://myaccount.microsoft.com/ and go to "My Profile" page.
 2. Choose “Security Info” and then "Add sign-in method" to see a list of different methods. Next, choose "Security key" from the list.
 3. Choose "USB device".
 4. In the "Setting up your new sign-in method" page, select "Next".
