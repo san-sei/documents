@@ -7,15 +7,16 @@ draft: false
 images: []
 ---
 
-Go to "Security Info" to see different sign-in methods. "Add" your IDmelon USB security key as a passwordless sign-in method as below:
-In the Setting up your new sign-in method page, select Next.
+1. Go to "My Profile" page at "My Account" and sign in.
+2. Choose “Security Info” and then "Add sign-in method" to see a list of different methods. Next, choose "Security key" from the list.
+3. Choose "USB device".
+4. In the "Setting up your new sign-in method" page, select "Next".
 
-- If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader to receive the notification.
-- If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your device.
+    - If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader to receive the notification.
+    - If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.
 
-Return to the Security info page, type a name you'll recognize later for your new security key, and then select Next.
-
-Select Done to close the Security key page. The Security info page is updated with your security key information.
+5. You will return to the "Security info page", type a name you’ll recognize later for your new security key, and then select "Next".
+6. Select "Done" to close the "Security key" page. The "Security info" page is updated with your security key information.
 
 <a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
 
