@@ -3,12 +3,12 @@ title: "How to setup keys"
 description: "how to setup"
 date: 2022-02-22T15:44:51-08:00
 lastmod: 2022-02-22T15:44:51-08:00
-draft: false
+draft: true
 images: []
 ---
 
 <p align="center">
-    <img src="/images/vendor/arts/download-desktop.png">
+    <img src="/images/vendor/arts/pt-dl.png">
 </p>
 
 <p>You can use IDmelon FIDO security keys as a passwordless sign-in method within various web accounts, services, and systems.

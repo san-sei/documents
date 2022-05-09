@@ -8,8 +8,8 @@ images: []
 ---
 
 <p align="center">
-    <img src="/images/vendor/arts/download-desktop.png">
-</p>
+    <img src="/images/vendor/arts/pt-dl.png">
+</p></br>
 
 You need to install the IDmelon Pairing Tool App on your computer.
 You can download it from the following link on the IDmelon website.
@@ -18,4 +18,8 @@ You can download it from the following link on the IDmelon website.
 
 <a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/pairingsteps">Next</a>
 
-<style>@media (max-width: 480px) {.navbar, .footer { display: none; }}</style>
+<style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
+h1{
+    color : #4395ec;
+}
+</style>
