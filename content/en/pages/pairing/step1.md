@@ -1,5 +1,5 @@
 ---
-title: "How to pair your phone with computer?"
+title: "How to pair your smartphone with computer?"
 description: "How to pair with a Windows Computer using Pairing Tool"
 date: 2022-02-22T15:44:51-08:00
 lastmod: 2022-02-22T15:44:51-08:00
@@ -8,7 +8,7 @@ images: []
 ---
 
 <p align="center">
-    <img src="/images/vendor/arts/pt-dl.png">
+    <img src="/images/vendor/arts/ptdl2.png">
 </p></br>
 
 You need to install the IDmelon Pairing Tool App on your computer.
