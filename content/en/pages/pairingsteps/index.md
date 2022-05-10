@@ -1,5 +1,5 @@
 ---
-title: "Pair Smartphone with PC"
+title: "Pair smartphone with PC"
 description: "Pair Smartphone with PC"
 date: 2022-02-22T15:33:45-08:00
 lastmod: 2022-02-22T15:33:45-08:00
@@ -8,15 +8,17 @@ images: []
 ---
 
 <p align="center">
-<img src='/images/vendor/arts/sc-pt.png'>
+<img src='/images/vendor/arts/ptsc2.png'>
 </p></br>
 
 After installing and running IDmelon Pairing Tool, the app will show you a Pairing QR code.
 Scan the QR code with the smartphone.
 
-To start scanning, follow the intsruction below in the app:
+To start scanning, follow one of the intsructions below:
 
-Go to Home Page >> Open **Menu** >> **Pair with a New PC**
+- Open the IDmelon Authenticator app >> Open **Menu** >> **Pair with a New PC**
+  or
+- Use the QR code scanner on your smartphone.
 
 <a role="button" class="btn btn-primary btn-lg d-block mb-3" href="https://docs.idmelon.com/pages/how-it-works/">Done</a>
 
