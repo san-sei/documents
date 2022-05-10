@@ -3,7 +3,7 @@ title: "I want to use Pairing Tool"
 description: "I want to use Pairing Tool"
 date: 2022-04-24T13:44:45+03:00
 lastmod: 2022-04-24T13:44:45+03:00
-draft: false
+draft: true
 images: []
 ---
 
