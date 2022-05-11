@@ -1,5 +1,5 @@
 ---
-title: "How to experience Tap & Login"
+title: "How to use IDmelon Reader?"
 description: ""
 date: 2022-04-24T13:47:16+03:00
 lastmod: 2022-04-24T13:47:16+03:00
@@ -11,11 +11,11 @@ images: []
 <img src="/images/vendor/arts/tapnlogin.png" class='d-block m-auto mb-6' width="150">
 </div>
 
-Here are the steps to take whenever you want to add your IDmelon security key to an account:
+Here are the steps to take whenever you want to use your smartphone as a security key and experince Tap & Login:
 
 1. Plug the Reader into a USB port.
 1. Turn on bluetooth on the Smartphone.
-1. As soon as you see the **Touch your security key** popup on PC, the Reader starts blinking blue.
+1. As soon as you see the **Touch your security key** popup on PC, the Reader starts blinking <span style="color:blue">blue</span>.
 1. Tap your smartphone on the Reader.
 1. Say yes to the authentication request notification.
 

@@ -4,7 +4,7 @@ description: "test"
 lead: "how to pair"
 date: 2020-11-03T09:19:42+01:00
 lastmod: 2020-11-03T09:19:42+01:00
-draft: false
+draft: true
 weight: 50
 images: []
 ---
