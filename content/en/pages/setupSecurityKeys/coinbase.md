@@ -23,4 +23,10 @@ for more information check [this article](https://help.coinbase.com/en/coinbase/
 h1{
     color : #4395ec;
 }
+p{
+    font-size:20px;
+}
+li{
+    font-size:20px;
+}
 </style>

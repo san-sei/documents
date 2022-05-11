@@ -28,4 +28,10 @@ If your Salesforce admin has allowed the use of Universal Second Factor (U2F) se
 h1{
     color : #4395ec;
 }
+p{
+    font-size:20px;
+}
+li{
+    font-size:20px;
+}
 </style>

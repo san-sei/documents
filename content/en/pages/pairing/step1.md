@@ -23,4 +23,10 @@ You can download it from the following link on the IDmelon website.
 h1{
     color : #4395ec;
 }
+p{
+    font-size:20px;
+}
+li{
+    font-size:20px;
+}
 </style>

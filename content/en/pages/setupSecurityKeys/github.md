@@ -28,4 +28,10 @@ Before adding a security key to your GitHub account, you must first enable 2FA v
 h1{
     color : #4395ec;
 }
+p{
+    font-size:20px;
+}
+li{
+    font-size:20px;
+}
 </style>
