@@ -21,4 +21,10 @@ idmelon.com >> Support >> Downloads</p><br>
 h1{
     color : #4395ec;
 }
+p{
+    font-size:20px;
+}
+li{
+    font-size:20px;
+}
 </style>

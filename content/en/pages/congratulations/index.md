@@ -26,4 +26,10 @@ h1{
     color : #4395ec;
     text-align: center;
 }
+p{
+    font-size:20px;
+}
+li{
+    font-size:20px;
+}
 </style>

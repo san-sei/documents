@@ -27,4 +27,10 @@ We will help you learn how to add IDmelon security key to different platforms li
 h1{
     color : #4395ec;
 }
+p{
+    font-size:20px;
+}
+li{
+    font-size:20px;
+}
 </style>
