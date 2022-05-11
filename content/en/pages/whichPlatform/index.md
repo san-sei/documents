@@ -184,4 +184,5 @@ selectAndRedirect('ebay',`http://docs.idmelon.com/pages/setupsecuritykeys/ebay/`
 selectAndRedirect('salesforce',`http://docs.idmelon.com/pages/setupsecuritykeys/salesforce/`)
 selectAndRedirect('shopify',`http://docs.idmelon.com/pages/setupsecuritykeys/shopify/`)
 selectAndRedirect('yahoo',`http://docs.idmelon.com/pages/setupsecuritykeys/yahoo/`)
+
 </script>
