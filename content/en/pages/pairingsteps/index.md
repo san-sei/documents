@@ -20,8 +20,6 @@ To start scanning, follow one of the intsructions below:
   or
 - Use the QR code scanner on your smartphone.
 
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="https://docs.idmelon.com/pages/how-it-works/">Done</a>
-
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
 h1{
     color : #4395ec;

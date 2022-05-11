@@ -11,7 +11,7 @@ images: []
 <img src='security-key.png' class='d-block m-auto' width="150">
 </div>
 
-<p>You can use IDmelon FIDO security keys as a passwordless sign-in method within various web accounts and systems.</p>
+<p>You can use IDmelon Authenticator as a passwordless sign-in method within various web accounts and systems.</p>
 <p class='mb-5'>We will help you learn how to add IDmelon security key to different platforms like Microsoft, Windows Login, Twitter, Dropbox and more.</p>
 
 <a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">How to add key</a>

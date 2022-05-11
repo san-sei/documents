@@ -49,6 +49,93 @@ images: []
   </div>
  </div>
 
+<div id="facebook" class='d-flex flex-row rounded-btn mb-4'>
+  <div style='width:27%;'>
+   <img src='fb.png' class='rounded-btn_img'>
+  </div>
+
+  <div style='width:73%;text-align: center;'>
+  <span class='rounded-btn_txt'>Facebook</span>
+  </div>
+ </div>
+
+<div id="bitbucket" class='d-flex flex-row rounded-btn mb-4'>
+  <div style='width:27%;'>
+   <img src='Bitbucket.png' class='rounded-btn_img'>
+  </div>
+
+  <div style='width:73%;text-align: center;'>
+  <span class='rounded-btn_txt'>Bitbucket</span>
+  </div>
+ </div>
+
+<div id="cloudflare" class='d-flex flex-row rounded-btn mb-4'>
+  <div style='width:27%;'>
+   <img src='cloudflare.png' class='rounded-btn_img'>
+  </div>
+
+  <div style='width:73%;text-align: center;'>
+  <span class='rounded-btn_txt'>Cloudflare</span>
+  </div>
+ </div>
+ <div id="coinbase" class='d-flex flex-row rounded-btn mb-4'>
+  <div style='width:27%;'>
+   <img src='coinbase.png' class='rounded-btn_img'>
+  </div>
+
+  <div style='width:73%;text-align: center;'>
+  <span class='rounded-btn_txt'>Coinbase</span>
+  </div>
+ </div>
+<div id="dropbox" class='d-flex flex-row rounded-btn mb-4'>
+  <div style='width:27%;'>
+   <img src='Dropbox.png' class='rounded-btn_img'>
+  </div>
+
+  <div style='width:73%;text-align: center;'>
+  <span class='rounded-btn_txt'>Dropbox</span>
+  </div>
+ </div>
+
+ <div id="ebay" class='d-flex flex-row rounded-btn mb-4'>
+  <div style='width:27%;'>
+   <img src='ebay.png' class='rounded-btn_img'>
+  </div>
+
+  <div style='width:73%;text-align: center;'>
+  <span class='rounded-btn_txt'>ebay</span>
+  </div>
+ </div>
+
+<div id="salesforce" class='d-flex flex-row rounded-btn mb-4'>
+  <div style='width:27%;'>
+   <img src='salesforce.png' class='rounded-btn_img'>
+  </div>
+
+  <div style='width:73%;text-align: center;'>
+  <span class='rounded-btn_txt'>Salesforce</span>
+  </div>
+ </div>
+<div id="shopify" class='d-flex flex-row rounded-btn mb-4'>
+  <div style='width:27%;'>
+   <img src='shopify.png' class='rounded-btn_img'>
+  </div>
+
+  <div style='width:73%;text-align: center;'>
+  <span class='rounded-btn_txt'>Shopify</span>
+  </div>
+ </div>
+
+<div id="yahoo" class='d-flex flex-row rounded-btn mb-4'>
+  <div style='width:27%;'>
+   <img src='yahoo.png' class='rounded-btn_img'>
+  </div>
+
+  <div style='width:73%;text-align: center;'>
+  <span class='rounded-btn_txt'>Yahoo</span>
+  </div>
+ </div>
+
 </div>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
@@ -88,5 +175,13 @@ selectAndRedirect('windows',`http://docs.idmelon.com/pages/setupsecuritykeys/win
 selectAndRedirect('office',`http://docs.idmelon.com/pages/setupsecuritykeys/office/`)
 selectAndRedirect('hotmail',`http://docs.idmelon.com/pages/setupsecuritykeys/github/`)
 selectAndRedirect('twitter',`http://docs.idmelon.com/pages/setupsecuritykeys/twitter/`)
-
+selectAndRedirect('facebook',`http://docs.idmelon.com/pages/setupsecuritykeys/facebook/`)
+selectAndRedirect('facebook',`http://docs.idmelon.com/pages/setupsecuritykeys/bitbucket/`)
+selectAndRedirect('facebook',`http://docs.idmelon.com/pages/setupsecuritykeys/cloudflare/`)
+selectAndRedirect('facebook',`http://docs.idmelon.com/pages/setupsecuritykeys/coinbase/`)
+selectAndRedirect('facebook',`http://docs.idmelon.com/pages/setupsecuritykeys/dropbox/`)
+selectAndRedirect('facebook',`http://docs.idmelon.com/pages/setupsecuritykeys/ebay/`)
+selectAndRedirect('facebook',`http://docs.idmelon.com/pages/setupsecuritykeys/salesforce/`)
+selectAndRedirect('facebook',`http://docs.idmelon.com/pages/setupsecuritykeys/shopify/`)
+selectAndRedirect('facebook',`http://docs.idmelon.com/pages/setupsecuritykeys/yahoo/`)
 </script>
