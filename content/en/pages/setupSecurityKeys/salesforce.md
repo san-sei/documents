@@ -1,5 +1,5 @@
 ---
-title: "Register a U2F Security Key for Identity Verification"
+title: "Register a U2F security key for identity verification"
 description: ""
 date: 2022-05-11T08:53:08+03:00
 lastmod: 2022-05-11T08:53:08+03:00
