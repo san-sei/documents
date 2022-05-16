@@ -13,7 +13,7 @@ To set up your security key:
 2. Go to **Settings** > **Security**
 3. Select **Security Key** under **2-step verification**.
 
-for more information check [this article](https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys).
+For more information check [this article](https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys).
 
 <a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
 
