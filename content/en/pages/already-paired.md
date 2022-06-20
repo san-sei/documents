@@ -11,7 +11,7 @@ images: []
 </div>
 
 <P>Now run the Pairing Tool to see a QR code on PC.</p>
-<p>Then scan the code with your smartphone, to start scanning follow the intsruction below in this app:<br>
+<p>Then scan the code with your smartphone, to start scanning follow the instruction below in this app:<br>
 Go to the Home Page >> Open Menu >> Pair with a PC </p><br>
 
 <a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/want-to-pair">Back</a><br/><br/>
