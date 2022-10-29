@@ -59,6 +59,16 @@ images: []
   </div>
  </div>
 
+<div id="aws" class='d-flex flex-row rounded-btn mb-4'>
+  <div style='width:27%;'>
+   <img src='aws.png' class='rounded-btn_img'>
+  </div>
+
+  <div style='width:73%;text-align: center;'>
+  <span class='rounded-btn_txt'>AWS</span>
+  </div>
+ </div>
+
 <div id="bitbucket" class='d-flex flex-row rounded-btn mb-4'>
   <div style='width:27%;'>
    <img src='Bitbucket.png' class='rounded-btn_img'>
@@ -176,6 +186,7 @@ selectAndRedirect('office',`http://docs.idmelon.com/pages/setupsecuritykeys/offi
 selectAndRedirect('hotmail',`http://docs.idmelon.com/pages/setupsecuritykeys/github/`)
 selectAndRedirect('twitter',`http://docs.idmelon.com/pages/setupsecuritykeys/twitter/`)
 selectAndRedirect('facebook',`http://docs.idmelon.com/pages/setupsecuritykeys/facebook/`)
+selectAndRedirect('aws',`http://docs.idmelon.com/pages/setupsecuritykeys/aws/`)
 selectAndRedirect('bitbucket',`http://docs.idmelon.com/pages/setupsecuritykeys/bitbucket/`)
 selectAndRedirect('cloudflare',`http://docs.idmelon.com/pages/setupsecuritykeys/cloudflare/`)
 selectAndRedirect('coinbase',`http://docs.idmelon.com/pages/setupsecuritykeys/coinbase/`)
