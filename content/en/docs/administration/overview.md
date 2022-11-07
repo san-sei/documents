@@ -9,14 +9,14 @@ images: []
 menu:
   docs:
     parent: "administration"
-weight: 200
+weight: 210
 toc: true
 ---
 
 ## Access the IDmelon Admin Panel
 
-To access the IDmelon Admin Panel, navigate to the IDmelon Admin Panel [Here](https://duckduckgo.com).
-Enter your email to log in, or create a workspace if it is your first try.
+To access the IDmelon Admin Panel, navigate to the IDmelon Admin Panel [Here](https://panel.idmelon.com).
+Present your security key to experience a frictionless login, or create a workspace on behalf of your organization if it is your first try. 
 
 {{< figure src="/images/vendor/Panel/wslogin.png">}}
 
