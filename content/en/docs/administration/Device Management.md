@@ -13,8 +13,8 @@ weight: 250
 toc: true
 ---
 
-Reach out to this section if you want to import already-joined PCs from Azure AD. The registered PCs can later be used in **Security Key Policies** to tie a security key to it. To join and list Azure AD connected PCs, the only required step is providing enough permission.  
-
+Reach out to this section if you want to import already-joined PCs from Azure AD. The registered PCs can later be used in **Security Key Policies** to tie a security key to it. To join and list Azure AD connected PCs, the only required step is providing enough permission.
 
 {{< figure src="/images/vendor/Panel/DeviceManagement1.png">}}
+
 {{< figure src="/images/vendor/Panel/DeviceManagement2.png">}}
