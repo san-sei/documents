@@ -1,5 +1,5 @@
 ---
-title: "Security Key Policy"
+title: "Security Key Policies"
 description: "Make limitations on users authentication by security key policies"
 lead: ""
 date: 2022-02-16T18:14:02-08:00
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "administration"
-weight: 260
+weight: 16
 toc: true
 ---
 

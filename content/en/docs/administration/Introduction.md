@@ -1,5 +1,5 @@
 ---
-title: "IDmelon Orchestration Platform"
+title: "Overview"
 description: "Overall description of admin panel"
 lead: ""
 date: 2022-02-16T18:14:02-08:00
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "administration"
-weight: 200
+weight: 9
 toc: true
 ---
 
