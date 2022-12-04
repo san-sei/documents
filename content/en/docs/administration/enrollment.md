@@ -92,7 +92,7 @@ If user will be provided a hardware security key, choose “Hardware security ke
 
 
 ## Import from CSV file
-From the action button at the top left, click “import users -> Import from a CSV file” to open the wizard below.
+From the button at the top left, click “import users -> Import from a CSV file” to open the wizard below.
 
 Then click “Select” to open the “openfile dialouge” and choose a CSV file from which you want to import users from. 
 Click Next.
