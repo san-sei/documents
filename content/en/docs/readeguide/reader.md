@@ -12,5 +12,7 @@ menu:
 weight: 100
 toc: true
 ---
+
 ## Hardware
+
 ## Basic concepts

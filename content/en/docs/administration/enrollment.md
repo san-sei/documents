@@ -14,15 +14,15 @@ toc: true
 ---
 
 When signed in to the administration panel, you are able to manage users and security keys from this section.
-The first step is to add a single user or import users in bulk from Azure AD or a CSV file. In case of adding them one by one, you can assign a security key to the user at the same time
+The first step is to add a single user or import users in bulk from Azure AD or a CSV file. In case of adding them one by one, you can assign a security key to the user at the same time.
 
 <p align="center">
     <img src="/images/vendor/Panel/users&securitykeys.png">
 </p>
 
-
 ## Add single user
-From the action button at the top left, choose “New User -> Add a user” to open the wizard below.
+
+At the top left, choose “New User -> Add a user” to open the wizard below.
 
 Enter the user’s information and click Next.
 
@@ -36,31 +36,33 @@ Choose group, and click Next. If no group is selected, the group “Everyone” 
     <img src="/images/vendor/Panel/addnewusergp.png">
 </p>
 
-As you can see the image below, you can turn the toggle on if you want to assign a security key now. If you turn the toggle on, you will have 3 options to add a security key, the first is to choose [Smartphone](#smartphone), the second is [Contactless card](#contactless-card) and the third is [Hardware security keys](#hardware-security-keys). You can see the specified instructions in related sections.
+As you can see the image below, you can turn the toggle on if you want to assign a security key now. If you turn the toggle on, you will have 3 options to assign a security key, the first is to choose [Smartphone](#smartphone), the second is [Contactless card](#contactless-card) and the third is [Hardware security keys](#hardware-security-keys). You can see the specified instructions in related sections.
 
 <p align="center">
     <img src="/images/vendor/Panel/addnewuserskdev.png">
 </p>
 
-### Smartphone 
+### Smartphone
+
 Turn the toggle on and choose Smartphone from the dropdown below as Security Key Device.
 
 From the “Smartphone Assignment” segment, you can define the security key specifications.
 
-Clicking the Next button to see the confirmation page.
+Click the Next button to see the confirmation page.
 
 <p align="center">
     <img src="/images/vendor/Panel/addnewusersmph.png">
 </p>
 
-By clicking the Confirm button on this page, an email containing an activation link will be sent to the user’s email address. The user’s status will be changed to “Pending” waiting for user to activate their security key.
+By clicking the Confirm button on this page, an email containing an activation link will be sent to the user’s email address. The user’s status will be changed to “Pending” waiting for the user to activate their security key.
 
 <p align="center">
     <img src="/images/vendor/Panel/addnewuserconfirm.png">
 </p>
 
-### Contactless card
-Choose “Contactless Card” in “Security Key Device”, if you want to assign a contactless card to the user.
+### Contactless Card
+
+Choose “Contactless Card” in “Security Key Device” if you want to assign a Contactless Card to the user.
 
 From “Choose how to activate” dropdown, you can either choose “Activate now” as an admin if you have the contactless card physically near you or “Activate by user” if the card is not with you. In case of “Activate by user”, the targeted user will receive an email containing a link to register the contactless card themself.
 
@@ -76,35 +78,33 @@ In case of “Active now”, simply click the “Assign Contactless Card” butt
 
 **Note**:In either case, make sure the compatible reader is installed on your PC or end-user’s PC. Download and install rfIDEAS driver from [here](#https://idmeloncom-my.sharepoint.com/personal/hassan_idmelon_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fhassan%5Fidmelon%5Fcom%2FDocuments%2FDevelopment%2FReleases%2FAccesskey%2FAccesskeySetup1%2E1%2E18%5FrfIDEAS%2Eexe&parent=%2Fpersonal%2Fhassan%5Fidmelon%5Fcom%2FDocuments%2FDevelopment%2FReleases%2FAccesskey&ga=1) if you are using rfIDEAS reader.
 
-Finally, the image below shows the card is assigned successfully. Click Next and Confirm to complete the assignment. The user will then receive an email containing the security PIN for the security key.
+Finally, the image below shows the card is assigned successfully. Click Next and Confirm to complete the assignment. The user will then receive an email containing
+a PIN for the security key.
 
 <p align="center">
     <img src="/images/vendor/Panel/contaclessassigned.png">
 </p>
 
-
-### Hardware security Keys
-If user will be provided a hardware security key, choose “Hardware security key” from the dropdown, and click Next and then click confirm. After confirming the user status will be **pending**.
+### Hardware Security Keys
 
 <p align="center">
     <img src="/images/vendor/Panel/addnewuserhwsec.png">
 </p>
 
+## Import from a CSV file
 
-## Import from CSV file
-From the button at the top left, click “import users -> Import from a CSV file” to open the wizard below.
+At the top left, click “import users -> Import from a CSV file” to open the wizard below.
 
-Then click “Select” to open the “openfile dialouge” and choose a CSV file from which you want to import users from. 
+Then click “Select” to choose and upload a CSV file from which you want to import users.
 Click Next.
 
 <p align="center">
     <img src="/images/vendor/Panel/importftomCSV.png">
 </p>
 
-
-At this page you can choose which group you want these users to be added to.
-If you do not choose any group the "everyone group" will be selected by default.
-And then click Next.
+On this page, you can choose which group you want these users to be added to.
+If you do not choose any group, the "everyone group" will be selected by default.
+And then, click Next.
 
 <p align="center">
     <img src="/images/vendor/Panel/gruopforCSV.png">
@@ -116,7 +116,4 @@ When you see the below page, you can click "Confirm" to add all the users.
     <img src="/images/vendor/Panel/confirmCSVusers.png">
 </p>
 
-
 ## Import from Azure AD
-
-**TODO**

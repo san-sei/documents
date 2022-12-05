@@ -17,7 +17,7 @@ Each organization may want to have a variety of authentication policies for diff
 
 {{< figure src="/images/vendor/Panel/SKPolicy1.png">}}
 
-The first step is setting a default policy to **Allow** or **Block** using **Default Policy** button. Then, the **New Policy** button can be used to add a new policy in four following steps:
+The first step is setting a default policy to **Allow** or **Block** using the **Default Policy** button. Then, the **New Policy** button can be used to add a new policy in four following steps:
 
 1.**Policy Name, Description and Priority**: Selecting the name and description of the policy and setting its priority to determine when and in what order the policy must be checked.
 {{< figure src="/images/vendor/Panel/SKPolicy2.png">}}
