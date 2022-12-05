@@ -18,25 +18,27 @@ toc: true
 ### Perpare
 
 To set up, you will need to:
+
 - Check your Internet connection on both your computer and your smartphone.
 
 ### Pair
 
-To pair and use your smartphone as a security key with IDmelon Pairing Tool, follow below steps: 
+To pair and use your smartphone as a security key with IDmelon Pairing Tool, follow below steps:
 
-1. Open IDmelon Pairing Tool on your computer and click on the **pair a new smartphone**.
+<ol>
+<li>Open IDmelon Pairing Tool on your computer and click on the **pair a new smartphone**.</li>
 
 <p align="center">
     <img src="/images/vendor/PairingTool/pairingtool_1.png">
 </p>
 
-2. Point your smartphone camera at the QR code on your computer screen.
+<li>Point your smartphone camera at the QR code on your computer screen.</li>
 
 <p align="center">
     <img src="/images/vendor/PairingTool/pairingtool_2.png">
 </p>
 
-3. Congratulations!
+<li>Congratulations!</li>
 
 <p align="center">
     <img src="/images/vendor/PairingTool/pairingtool_3.png">
@@ -48,16 +50,16 @@ Having been paired with your smartphone successfully, your computer shows the mo
     <img src="/images/vendor/PairingTool/pairingtool_4.png">
 </p>
 
+<li>For each login or registration, you will receive an alert that you can approve and then verify your identity with using your
+desired unlocking method on your smartphone.</li>
 
-4. For each login or registration, you will receive an alert that you can approve and then verify your identity with using your desired unlocking method on your smartphone.
-
-5. Enjoy!
+<li>Enjoy!</li>
 
 **Note** : You have to take all the steps in the Pairing section for each mobile device.
 **Note** : One and only one mobile device can be connected at a time.
 
-
 ### Disable smartphone as a FIDO2 key
+
 You can disable your smartphone as a security key by cliking on the toggle button.
 
 <p align="center">

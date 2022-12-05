@@ -12,5 +12,7 @@ menu:
 weight: 110
 toc: true
 ---
-## Discover working mode 
+
+## Discover working modes
+
 ## Switch between working modes
