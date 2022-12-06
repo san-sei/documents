@@ -22,7 +22,7 @@ address to activate your work account. From then on, you will be able to use you
 - Then, choose "Business/School".
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_1.jpg">
+    <img src="/images/vendor/UserPanel/activate_b_1.png">
 </p>
 
 - In this page, enter your email and click "Send verification email".
@@ -30,7 +30,7 @@ address to activate your work account. From then on, you will be able to use you
 **Note** : Make sure that you receive an invitation email from one of your organization’s admins so as to be added to your organization’s panel.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_2.jpg">
+    <img src="/images/vendor/UserPanel/activate_b_2.png">
 </p>
 
 - In this page, you can access your email by tapping **Open email app** to see the verification code.
@@ -46,25 +46,25 @@ address to activate your work account. From then on, you will be able to use you
 - If you did not receive any code, tap on **Resend**.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_3.jpg">
+    <img src="/images/vendor/UserPanel/activate_b_3.png">
 </p>
 
 - Enter the 6-digit code that you have received and then, tap on **Done**.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_4.jpg">
+    <img src="/images/vendor/UserPanel/activate_b_4.png">
 </p>
 
 - In this page, tap on **Approve** in order to activate your security key on your smartphone.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_5.jpg">
+    <img src="/images/vendor/UserPanel/activate_b_5.png">
 </p>
 
 - After approving, you will be moved to a page the same as the page below.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_6.jpg">
+    <img src="/images/vendor/UserPanel/activate_b_6.png">
 </p>
 
 - Done!
