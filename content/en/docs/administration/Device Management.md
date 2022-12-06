@@ -13,12 +13,29 @@ weight: 15
 toc: true
 ---
 
+Two types of devices can be managed inside administration panel. The first type includes devices connected to Azure Active Directory (AD)
+which can be imported into the administration panel and can be used for multiple purposes like device limitation when adding security key policies.
+The second type includes security key devices which consist of any devices that users set as their security keys.
+
 ## Azure AD connected devices
 
-Reach out to this section if you want to import already-joined PCs from Azure AD. The registered PCs can later be used in **Security Key Policies** to tie a security key to it. To join and list Azure AD connected PCs, the only required step is providing enough permission.
+Reach out to this section if you want to import already-joined PCs from Azure AD.
+The imported PCs can later be used in “Security Key Policies” to limit access to specific devices.
+To join and list Azure AD connected PCs, the only required step is providing enough permission.
 
-{{< figure src="/images/vendor/Panel/DeviceManagement1.png">}}
+<p align="center">
+    <img src="/images/vendor/Panel/DeviceManagement1.png">
+</p>
 
-{{< figure src="/images/vendor/Panel/DeviceManagement2.png">}}
+<p align="center">
+    <img src="/images/vendor/Panel/DeviceManagement2.png">
+</p>
 
 ## Security key devices
+
+This section lists devices that users have set as their security keys which contains smartphones or Contactless Cards.
+An admin can delete a device which disconnects its corresponding security key.
+
+<p align="center">
+    <img src="/images/vendor/Panel/devicemanagemnet_security.png">
+</p>

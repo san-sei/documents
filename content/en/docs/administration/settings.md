@@ -15,6 +15,13 @@ toc: true
 
 ## Workspace
 
+In this page, administrators can see the information related to their workspace and their company address.
+You can simply edit the information in this page by clicking on the **Pencil** button on the top right of each section of this page.
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace.png">
+</p>
+
 ## End user email notification
 
 ## Admins
