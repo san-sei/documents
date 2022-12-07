@@ -12,6 +12,7 @@ menu:
 weight: 5
 toc: true
 ---
+
 When your organization rolls out IDmelon, one of your organization’s admins sends an invitation email to your work email
 address to activate your work account. From then on, you will be able to use your smartphone as a FIDO security key.
 

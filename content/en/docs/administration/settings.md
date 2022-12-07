@@ -22,8 +22,6 @@ You can simply edit the information in this page by clicking on the **Pencil** b
     <img src="/images/vendor/Panel/workspace.png">
 </p>
 
-## End user email notification
-
 ## Admins
 
 The first admin who has created the workspace can add as many admins as necessary to manage the users in the workspace by selecting **New Admin** button in
