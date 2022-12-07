@@ -17,7 +17,19 @@ Every user has 2 parts in their panel. On part is [SSO (Simple sign-on)](#sso-(s
 
 ### SSO (Simple sign-on)
 
-////
+Every user has the **Simple sign-on** option in their panel. By clicking this option, they can see **My Apps**.
+Inside **My Apps** they can see a page the same as below. This option allows users to access the applications and websites which
+they can see in their panel by their own security keys.
+
+<p align="center">
+    <img src="/images/vendor/UserPanel/myappsu_1.png">
+</p>
+
+By default, there is just microsoft added to users' panel.
+
+<p align="center">
+    <img src="/images/vendor/UserPanel/myappsu_2.png">
+</p>
 
 ### Dropdown menu
 
