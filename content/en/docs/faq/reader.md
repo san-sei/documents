@@ -13,18 +13,18 @@ weight: 2
 toc: true
 ---
 
-- What is IDmelon Reader ?
+## What is IDmelon Reader ?
 
 It is a small BLE reader that connects to a USB port on a PC to enable a user to log into the PC, websites,
 and applications without a password. IDmelon Reader allows a user to authenticate their identity by simply tapping their smartphone on the Reader in order to login.
 
-- Who is IDmelon Reader for ?
+## Who is IDmelon Reader for ?
 
 Everyone can use IDmelon Reader, but it is specially designed for shared PC environments in which multiple users can use a single PC
 without compromising security. It is ideal for deskless workers, shift workers, and people who are constantly on the move,
 not anchored to a computer/desk, or work in industries such as retail, education, manufacturing, or healthcare.
 
-- Can I use IDmelon Reader as a FIDO2 security key without a smartphone ?
+## Can I use IDmelon Reader as a FIDO2 security key without a smartphone ?
 
 As the name says, it is a reader, which is designed so that you no longer need to carry an extra physical object or the burden around.
 Instead, to go login, you receive a popup notification on your smartphone which you can tap if and only if your smartphone is unlocked
@@ -32,7 +32,7 @@ with one of the local authentication mechanisms available on the smartphone such
 
 However, you can also use it as a PIN protected backup key which can work as a standalone classic USB security key of Yubico, Feitian, etc.
 
-- Do I need to buy an IDmelon Reader ?
+## Do I need to buy an IDmelon Reader ?
 
 No, you don’t need one if you do not share your PC.
 
@@ -46,21 +46,21 @@ at the end of each session so that another user can log into the same PC or soft
 But either way, an end user no longer carries an extra physical object, i. e. a security key, and can use their ubiquitous
 smartphone as a FIDO2 certified hardware security key.
 
-- Can a PC be shared so that multiple users will be able to use their own smartphones to unlock the PC ?
+## Can a PC be shared so that multiple users will be able to use their own smartphones to unlock the PC ?
 
 Yes. IDmelon Reader allows an unlimited number of users to use their smartphones as an external security key to log into windows, websites, and apps on the same PC in a convenient and secure way.
 
-- How many user can use the same IDmelon Reader ?
+## How many user can use the same IDmelon Reader ?
 
 An unlimited number of users can use the same IDmelon Reader.
 
-- Do users have to pair their smartphones with PCs via Bluetooth ?
+## Do users have to pair their smartphones with PCs via Bluetooth ?
 
 No. Due to frequent complaints about Blutooth problems in Windows 10, we eliminated the need to the Bluetooth connection on Windows.
 
 All you need to do is to turn on the Blutooth on your smartphone, tap your smartphone on the Reader, click on the popup notification on your smartphone and go login.
 
-- How is IDmelon Reader different from FIDO2 security keys ?
+## How is IDmelon Reader different from FIDO2 security keys ?
 
 With IDmelon, you no longer carry an extra physical object, i.e. a security key, around all the time. And in addition to
 unlimited storage capacity for credentials, credentials can be both managed and audited.

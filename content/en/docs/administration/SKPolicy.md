@@ -17,12 +17,18 @@ Each organization may want to have a variety of authentication policies for diff
 
 {{< figure src="/images/vendor/Panel/SKPolicy1.png">}}
 
+## Create new policy
+
 The first step is setting a default policy to **Allow** or **Block** using the **Default Policy** button. Then, the **New Policy** button can be used to add a new policy in four following steps:
 
-1.**Policy Name, Description and Priority**: Selecting the name and description of the policy and setting its priority to determine when and in what order the policy must be checked.
+### Policy Name, Description and Priority
+
+Selecting the name and description of the policy and setting its priority to determine when and in what order the policy must be checked.
 {{< figure src="/images/vendor/Panel/SKPolicy2.png">}}
 
-2.**Policy Conditions**: Each policy can be set with multiple conditions including the following items all of which must be true for the policy to apply:
+### Policy Conditions
+
+Each policy can be set with multiple conditions including the following items all of which must be true for the policy to apply:
 
 - User(s), group(s) and security key device (smartphone or contactless card)
 - Time (multiple periods of time for different days of the week)
@@ -30,10 +36,15 @@ The first step is setting a default policy to **Allow** or **Block** using the *
 - IP (the connection IP address)
 - RP (the Relaying Party)
 - Location (user’s location)
+
 {{< figure src="/images/vendor/Panel/SKPolicy3.png">}}
 
-3.**Policy Action**: There are only two options including **Allow** and **Block** for the policy action.
+### Policy Action
+
+There are only two options including **Allow** and **Block** for the policy action.
 {{< figure src="/images/vendor/Panel/SKPolicy4.png">}}
 
-4.**Review & Submit**: In final step, everything can be reviewed and corrected if necessary, and submitted if everything is as expected.
+### Review & Submit
+
+In final step, everything can be reviewed and corrected if necessary, and submitted if everything is as expected.
 {{< figure src="/images/vendor/Panel/SKPolicy5.png">}}

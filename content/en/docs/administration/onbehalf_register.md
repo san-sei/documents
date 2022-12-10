@@ -16,13 +16,14 @@ toc: true
 The admin may want to register security key on behalf of a user in some circumstances. To do this, the admin can use the OBR procedure which can be done starting  
 from pairing tool by doing the following steps:
 
-**Prerequisite for OBR**:
+## Prerequisite for OBR
 
 - User must install IDmelon Authenticator app on his smartphone.
 
 - User security key status must be active in administration panel (Admin must add the user to the panel via invitation email and user must accept the invitation)
 
-**OBR steps**:
+## OBR steps
+
 <ol>
 <li> Admin opens Pairing Tool, presses Cntl+I to choose Login as an Admin.</li>
 <p align="center">
