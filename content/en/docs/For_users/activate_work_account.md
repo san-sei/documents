@@ -16,6 +16,8 @@ toc: true
 When your organization rolls out IDmelon, one of your organization’s admins sends an invitation email to your work email
 address to activate your work account. From then on, you will be able to use your smartphone as a FIDO security key.
 
+## Preparation
+
 - First you have to Install IDmelon Mobile App from [App Store](#https://apps.apple.com/ca/app/idmelon/id1511376376) or [Google Play](https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&pli=1).
 
 - After installing the app, open it to see a page shown below.
@@ -25,6 +27,8 @@ address to activate your work account. From then on, you will be able to use you
 <p align="center">
     <img src="/images/vendor/UserPanel/activate_b_1.png">
 </p>
+
+## Activation
 
 - In this page, enter your email and click "Send verification email".
 
@@ -55,6 +59,8 @@ address to activate your work account. From then on, you will be able to use you
 <p align="center">
     <img src="/images/vendor/UserPanel/activate_b_4.png">
 </p>
+
+## Confirmation
 
 - In this page, tap on **Approve** in order to activate your security key on your smartphone.
 

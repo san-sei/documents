@@ -34,7 +34,7 @@ If you want to add a new list item to this list, simply click on **New List**.
     <img src="/images/vendor/Panel/namedlist_3.png">
 </p>
 
-## IP
+## IP List
 
 - If you have chosen **IP** in the previous section, add a new IP by clicking on the "+" on the top right of the page.
 
@@ -56,7 +56,7 @@ If you want to add a new list item to this list, simply click on **New List**.
     <img src="/images/vendor/Panel/namedlist_6.png">
 </p>
 
-## Devices
+## Device List
 
 - If you have chosen **Devices**, you can select a new device by clicking on the Devices dropdown menu.
 
@@ -66,7 +66,7 @@ If you want to add a new list item to this list, simply click on **New List**.
     <img src="/images/vendor/Panel/namedlist_7.png">
 </p>
 
-## RP
+## RP List
 
 - If you have chosen **RP**, then in the page below, add a new **RP** by clicking on the "+" on the top right of the page.
 
@@ -82,7 +82,7 @@ If you want to add a new list item to this list, simply click on **New List**.
     <img src="/images/vendor/Panel/namedlist_10.png">
 </p>
 
-## Time
+## Time List
 
 - If you have chosen **Time**, then in the page below, add a new **Time** by clicking on the "+" on the top right of the page.
 

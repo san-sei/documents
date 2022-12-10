@@ -13,14 +13,14 @@ weight: 4
 toc: true
 ---
 
-- What is IDmelon Key ?
+## What is IDmelon Key ?
 
 IDmelon Key is a PIN-protected USB security key that allows you to log into computers, online services, or all FIDO2 supported platforms without a password.
 
-- Who is it for ?
+## Who is it for ?
 
 Everyone can use it, but it is ideal for users who are not willing to use their smartphones at work, or workplaces in which smartphone usage is restricted.
 
-- What makes IDmelon Key unique ?
+## What makes IDmelon Key unique ?
 
 It is the one and only security key with LED indicator and beeper to offer great user experience.
