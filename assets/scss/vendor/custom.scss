@@ -1,1 +1,91 @@
 /* Add your custom css here */
+table.tableV2 {
+    margin: 0 0 2rem;
+    width: 100%;
+    border: 1px solid #494848;
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+  
+td.tdV2 {
+    padding: 1rem;
+    border: 1px solid #494848;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(73, 72, 72);
+    border-right-color: rgb(73, 72, 72);
+    border-bottom-color: rgb(73, 72, 72);
+    border-left-color: rgb(73, 72, 72);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: center;
+}
+
+td.firstChild{
+    width: 8%;
+    font-weight: bold;
+    background-color: #494848;
+    color: #fff;
+  }
+  
+th.thw {
+    color: #fff;
+}
+  
+th.thV2 {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    padding: 1rem;
+    background: #494848;
+    border-right: 1px solid #000;
+  }
+  
+th.lastChild {
+    border-right: 1px solid #494848;
+  }
+  
+.small {
+    display: block;
+    font-size: 12px;
+}
+  
+thead.theadV2 {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+  
+tbody.tbodyV2 {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+  
+td.tdV2y {
+    background: #249c06;
+    color: #fff;
+}
+
+tr.trV2 {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+div {
+    display: block;
+}

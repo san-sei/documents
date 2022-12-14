@@ -42,16 +42,18 @@ Here, to use your smartphone as a security key, you do not even need to open the
 
 The IDmelon app is built to provide you multiple security keys (one for personal use and one for business use if needed) at the same time on your smartphone. Each security key will be attached to an email.
 
-There are two main ways to get started with IDmelon mobile app in order to use your smartphone as a FIDO USB security key:
+There are two main ways to get started with IDmelon mobile app in order to use your smartphone as a FIDO2 USB security key:
 
 - IDmelon Pairing Tool
 - IDmelon Reader
 
-Are you looking for personal use and don't know which one to try? Try with IDmelon Pairing Tool first because no additional hardware is needed in this approach and it is built right for you.
+Are you looking for personal use and don't know which one to try? Try with IDmelon Pairing Tool first because no additional hardware is needed in this approach and it is
+built right for you.
 
 ### IDmelon Pairing Tool
 
-IDmelon Pairing Tool is a lightweight desktop application that will help you to pair your smartphone with your PC quickly by scanning a QR code.
+[IDmelon Pairing Tool](https://docs.idmelon.com/docs/prologue/introduction/#get-started) is a lightweight desktop application that will help you to pair your smartphone with
+your PC quickly by scanning a QR code.
 
 {{< alert icon="👉" text="The IDmelon Pairing Tool is available for Windows 10 (or higher) and Mac OS." />}}
 

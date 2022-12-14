@@ -10,72 +10,71 @@ menu:
   docs:
     parent: "versionsupport"
 type: docs
-weight: 10
+weight: 30
 ---
 
 Browser support for WebAuthn is constantly improving. You can find an overview of  IDmelon authenticator support as a FIDO 2.0 authenticator on this page.
 
 ## Version Table
 
-<div style="display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 2px;
-    border-color: grey;">
-<table>
-            <thead>
-              <tr><th></th>
-              <th>Windows 10 (with Windows Hello)</th>
-              <th>Windows 11 </th>
-              <th>macOS 13 ventura</th>
-              <th>Desktop Linux</th>
-              <th>Chrome OS</th>
-            </tr></thead>
-            <tbody>
-              <tr>
-                <th>Chrome</th>
-                <td >Yes (v 107)</td>
-                <td >Yes</td>
-                <td >Yes (v 107)</td>
-                <td >Yes</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <th>Safari</th>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Yes (v 16.1)</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <th>Firefox</th>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>No</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <th>Brave</th>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <th>Edge</th>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-            </tbody>
-          </table>
+<div class="tableV2">
+<table class="tableV2">
+        <thead class="theadV2">
+          <tr class = "trV2">
+          <th class="thV2"></th>
+          <th class="thw thV2">Windows 10 <span class="small">(V 18362+)</span></th>
+          <th class="thw thV2">Windows 11 </th>
+          <th class="thw thV2">macOS 13 ventura</th>
+          <th class="thw thV2">Desktop Linux</th>
+          <th class="thw thV2 lastChild">Chrome OS</th>
+        </tr></thead>
+        <tbody class="tbodyV2">
+          <tr class = "trV2">
+            <td class="firstChild">Chrome</th>
+            <td class="tdV2 tdV2y">Yes<span class="small">(v 107)</span></td>
+            <td class="tdV2 tdV2y">Yes</td>
+            <td class="tdV2 tdV2y">Yes<span class="small">(v 107)</span></td>
+            <td class="tdV2 tdV2y">Yes</td>
+            <td class="tdV2">-</td>
+          </tr>
+          <tr class="trV2">
+            <td class="firstChild">Safari</th>
+            <td class="tdV2 tdV2y">Yes</td>
+            <td class="tdV2 tdV2y">Yes</td>
+            <td class="tdV2 tdV2y">Yes<span class="small">(v 16.1)</span></td>
+            <td class="tdV2">-</td>
+            <td class="tdV2">-</td>
+          </tr>
+          <tr class = "trV2">
+            <td class="firstChild">Firefox</th>
+            <td class="tdV2 tdV2y">Yes</td>
+            <td class="tdV2 tdV2y">Yes</td>
+            <td class="tdV2">No</td>
+            <td class="tdV2">-</td>
+            <td class="tdV2">-</td>
+          </tr>
+          <tr class = "trV2">
+            <td class="firstChild">Brave</th>
+            <td class="tdV2 tdV2y">Yes</td>
+            <td class="tdV2 tdV2y">Yes</td>
+            <td class="tdV2">-</td>
+            <td class="tdV2">-</td>
+            <td class="tdV2">-</td>
+          </tr>
+          <tr class = "trV2">
+            <td class="firstChild">Edge</th>
+            <td class="tdV2 tdV2y">Yes</td>
+            <td class="tdV2 tdV2y">Yes</td>
+            <td class="tdV2">-</td>
+            <td class="tdV2">-</td>
+            <td class="tdV2">-</td>
+          </tr>
+        </tbody>
+      </table>
 </div>
+
+<style>
+</style>
 
 ## Read more
 
