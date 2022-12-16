@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "prologue"
+    parent: "individuals"
 weight: 2
 toc: true
 ---
@@ -86,7 +86,3 @@ To see how it works:
 ## Other accounts
 
 In the same way, you can protect all other FIDO-enabled account using security key by visiting security option of your online account.
-
-## Tap-n-Go option
-
-IDmelon solution comes with Tap-n-Go option when working IDmelon Reader. No need to install software on the PC.
