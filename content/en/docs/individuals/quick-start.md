@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "individuals"
-weight: 2
+weight: 30
 toc: true
 ---
 
