@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "pairingtool"
-weight: 27
+weight: 51
 toc: true
 ---
 

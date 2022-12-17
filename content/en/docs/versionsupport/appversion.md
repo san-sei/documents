@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "versionsupport"
 type: docs
-weight: 31
+weight: 70
 ---
 
 ### Paring Tool
@@ -20,10 +20,10 @@ It is also compatible with **OSX 11.4** above.
 
 ### Android App
 
-IDmelon android application authenticator operates on **android OS version 6+ (API 23+)**.
+IDmelon Android application authenticator operates on **Android OS version 6+ (API 23+)**.
 
-### IOS App
+### iOS App
 
-IDmelon IOS application authenticator app operates on **IOS version 14+**.
+IDmelon iOS application authenticator app operates on **iOS version 14+**.
 
 **Note**:Further updates will result in changes to OS version support of the applications.
