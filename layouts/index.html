@@ -1,16 +1,93 @@
 {{ define "main" }}
-<section class="section container-fluid mt-n3 pb-3">
-  <div class="row justify-content-center">
-    <div class="col-lg-12 text-center">
+<section class="section container-fluid mt-n3 pb-0">
+  <div class="row justify-content-start row-cols-1">
+    <div class="text-center">
       <h1 class="mt-0">{{ .Title }}</h1>
     </div>
-    <div class="col-lg-9 col-xl-8 text-center">
-      <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">Get Started</a>
-      <!--<p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>-->
+    <div class="text-center">
+      <!--<p class="lead">{{ .Params.lead | safeHTML }}</p>-->
+      <p class="lead text-center">IDmelon provides security key as a service based on FIDO2 standard. See below for more information and details.</p>
+    </div>
+    <div class="card mx-0 px-0 border-primary rounded">
+      <div class="card-body">
+        <h5 class="card-title mx-0">Learn about IDmelon</h5>
+        <p class="card-text">{{ .Params.lead | safeHTML }}</p>
+        <!--<a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/"  class="stretched-link"></a>-->
+      </div>
     </div>
   </div>
 </section>
+<section class="section-sm container mt-n1 pb-3">
+  <div class="row justify-content-center row-cols-4 row-cols-md-1">
+    <div class="card text-dark text-center bg-light mb-1 mx-1 border-primary" style="max-width: 19rem;">
+      <div class="card-header bg-transparent">Get Started</div>
+      <div class="card-body">
+        <h5 class="card-title my-3"></h5>
+        <p class="card-text my-3">Checkout IDmelon, learn more about our service and start using IDmelon.</p>
+        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" class="stretched-link"></a>
+      </div>
+    </div>
+    <div class="card text-center text-dark bg-light mb-1 mx-1 border-primary" style="max-width: 19rem;">
+      <div class="card-header bg-transparent">For Adminstrators</div>
+      <div class="card-body">
+        <h5 class="card-title my-3"></h5>
+        <p class="card-text my-3">Rolling out password less authentication using Contactless card, Smartphone, or hardware security key.</p>
+        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}administration/Introduction/" class="stretched-link"></a>
+      </div>
+    </div>
+    <div class="card text-dark text-center bg-light mb-1 mx-1 border-primary" style="max-width: 19rem;">
+      <div class="card-header bg-transparent">For End Users</div>
+      <div class="card-body">
+        <h5 class="card-title my-3"></h5>
+        <p class="card-text my-3">Activate and connect to your work accounts using Contactless card, Smartphone, or hardware security key .</p>
+        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}For_users/activate_work_account/" class="stretched-link"></a>
+      </div>
+    </div>
+    <div class="card text-dark text-center bg-light mb-1 mx-1 border-primary" style="max-width: 19rem;">
+      <div class="card-header bg-transparent">For Personal Users</div>
+      <div class="card-body">
+        <h5 class="card-title my-3"></h5>
+        <p class="card-text my-3">Using smartphone as a FIDO2 security key to protect your online accounts.</p>
+        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}individuals/quick-start/" class="stretched-link"></a>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center row-cols-4">
+    <div class="card text-dark text-center bg-light mb-1 mx-2 border-primary" style="max-width: 18rem;">
+      <div class="card-header bg-transparent">IDmelon Moblie App</div>
+      <div class="card-body">
+        <h5 class="card-title my-3"></h5>
+        <p class="card-text my-3">Experiance fast, secure, and, passwordless authentication using IDmelon Mobile App.</p>
+        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}mobileapp/ourmobileapp/" class="stretched-link"></a>
+      </div>
+    </div>
+    <div class="card text-dark text-center bg-light mb-1 mx-2 border-primary" style="max-width: 18rem;">
+      <div class="card-header bg-transparent">IDmelon Pairing Tool</div>
+      <div class="card-body">
+        <h5 class="card-title my-3"></h5>
+        <p class="card-text my-3">A completely hardware-less authentication method through your smartphone.</p>
+        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}pairingtool/ourparigintool/" class="stretched-link"></a>
+      </div>
+    </div>
+    <div class="card text-dark text-center bg-light mb-1 mx-2 border-primary" style="max-width: 18rem;">
+      <div class="card-header bg-transparent">IDmelon Reader</div>
+      <div class="card-body">
+        <h5 class="card-title my-3"></h5>
+        <p class="card-text my-3">IDmelon Reader is a hardware to let you use your smartphones as a security key.</p>
+        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}readeguide/reader/" class="stretched-link"></a>
+      </div>
+    </div>
+    <div class="card text-dark text-center bg-light mb-1 mx-1 border-primary" style="max-width: 18rem;">
+      <div class="card-header bg-transparent">For Security Experts</div>
+      <div class="card-body">
+        <h5 class="card-title my-3"></h5>
+        <p class="card-text my-3">Checkout IDmelon security approaches.</p>
+        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}scrty/availability_and_resiliency/" class="stretched-link"></a>
+      </div>
+    </div>      
+  </div>
+</section>
+
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
