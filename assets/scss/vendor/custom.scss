@@ -120,6 +120,7 @@ div {
     position:relative;
     border-radius: 100px;
 }
+
 .card-transition-2{
     transition: box-shadow .3s;
     -webkit-transition: all .3s ease-in-out;
@@ -135,4 +136,67 @@ div {
     -ms-transform: scale(1.02);
     -o-transform: scale(1.02);
     transform: scale(1.02);
+}
+
+.intro-card{
+    margin-bottom: 12px;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+}
+
+.intro-card-sm{
+    margin-bottom: 12px;
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    border-radius: 10px;
+}
+
+.intro-card-xxl{
+    margin-bottom: 12px;
+    width: 100%;
+    height: relative;
+    position: relative;
+    border-radius: 10px;
+}
+
+.inner-card-text{
+    font-size:16px;
+}
+
+.intro-card-img-size {
+    height: 100%;
+    width: 100%;
+    background :#dadada;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.customized-nav-bar{
+    background-color:  #03befc;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:active{
+    color: black;
+    background-color: #91e5ff;
+}
+
+.nav-link:hover{
+    color:blue;
+}
+
+.nav-item:hover{
+    background-color: #91e5ff;
+    border-radius: 5px;
 }
