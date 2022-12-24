@@ -17,9 +17,9 @@ toc: true
 <div class="row-cols-1">
 <div class="card intro-card card-transition-2">
   <div class="row g-0 ">
-    <!--<div class="col-md-4">
-      <img  class="img-fluid rounded-center intro-card-img-size card-img">
-    </div>-->
+    <div class="col-md-2">
+      <img src="/images/vendor/Introduction/step_1.svg" class="img-fluid intro-card-img-size card-img">
+    </div>
     <div class="col">
       <div class="card-body">
         <h5 class="card-title my-3 mx-2">Create a workspace</h5>
@@ -33,9 +33,9 @@ toc: true
 
 <div class="card intro-card card-transition-2">
   <div class="row g-0">
-    <!--<div class="col-md-4">
-      <img class="img-fluid rounded-center intro-card-img-size">
-    </div>-->
+    <div class="col-md-2">
+      <img src="/images/vendor/Introduction/step_2.svg" class="img-fluid rounded-center intro-card-img-size">
+    </div>
     <div class="col">
       <div class="card-body">
         <h5 class="card-title my-3 mx-2">Add Users</h5>
@@ -54,23 +54,23 @@ toc: true
 
 <div class="card text-center intro-card-xxl card-transition-2">
   <div class="row g-0">
-    <!--<div class="col">
-      <img class="img-fluid rounded-center intro-card-img-size">
-    </div>-->
+    <div class="col-md-2">
+      <img src="/images/vendor/Introduction/step_3.svg" class="img-fluid rounded-center intro-card-img-size">
+    </div>
     <div class="col">
       <div class="card-body">
         <h5 class="card-title text-start mx-2">Assign security keys</h5>
         <p class="card-text text-start px-1 mx-2">In all three forms of adding users, assigning security key is also possible which can be based on one of the three devices below.</p>
         <ul class="nav nav-pills nav-fill customized-nav-bar"   style="font-size: 14px;" id="myTab" role="tablist">
             <li class="nav-item pr-2" role="presentation">
-            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+            <button class="intro-nav-link intro-nav-link:active active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
             Smartphone</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Contactless Card</button>
+            <button class="intro-nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Contactless Card</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Hardware Security Key</button>
+            <button class="intro-nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Hardware Security Key</button>
           </li>
         </ul>
         <!-- Tab panes -->
@@ -114,9 +114,9 @@ toc: true
 
 <div class="card intro-card card-transition-2">
   <div class="row g-0">
-    <!--<div class="col-md-4">
-      <img class="img-fluid rounded-center intro-card-img-size">
-    </div>-->
+    <div class="col-md-2">
+      <img src="/images/vendor/Introduction/step_4.svg" class="img-fluid rounded-center intro-card-img-size">
+    </div>
     <div class="col">
       <div class="card-body">
         <h5 class="card-title my-3 mx-2">Security key policies</h5>
