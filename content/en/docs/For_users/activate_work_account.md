@@ -18,9 +18,9 @@ address to activate your work account. From then on, you will be able to use you
 
 ## Preparation
 
-- First you have to Install IDmelon Mobile App from [App Store](#https://apps.apple.com/ca/app/idmelon/id1511376376) or [Google Play](https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&pli=1).
+- First you have to install IDmelon Mobile App from [App Store](#https://apps.apple.com/ca/app/idmelon/id1511376376) or [Google Play](https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&pli=1).
 
-- After installing the app, open it to see a page shown below.
+- After installing the app, open it to see the page below..
 
 - Then, choose "Business/School".
 

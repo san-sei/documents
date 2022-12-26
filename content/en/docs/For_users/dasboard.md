@@ -1,5 +1,5 @@
 ---
-title: "User Panel"
+title: "User panel"
 description: ""
 lead: ""
 date: 2022-04-25T19:13:04+03:00
@@ -13,19 +13,19 @@ weight: 5
 toc: true
 ---
 
-Every user has 2 parts in their panel. On part is [SSO (Simple sign-on)](#sso-(simple-sign-on)) which enables them to login by using their active accounts and security keys. The other part is the [Dropdown menu](#dropdown-menu) which enables users to access their profile and settings.
+Every user has 2 sections in their panel. On section is [SSO (Simple sign-on)](#sso-(simple-sign-on)) which enables them to login by using their active accounts and
+security keys. The other section is the [Dropdown menu](#dropdown-menu) which enables users to access their profile and settings.
 
-### SSO (Simple sign-on)
+### SSO (Simple Sign-On)
 
-Every user has the **Simple sign-on** option in their panel. By clicking this option, they can see **My Apps**.
-Inside **My Apps** they can see a page the same as below. This option allows users to access the applications and websites which
-they can see in their panel by their own security keys.
+Every user has the **Simple Sign-On** option in their panel. By clicking this option, they can see **My Apps**. Inside **My Apps**, they can see a page the same as below.
+This option allows users to access the applications and websites which they can see in their panel by their own security keys.
 
 <p align="center">
     <img src="/images/vendor/UserPanel/myappsu_1.png">
 </p>
 
-By default, there is just microsoft added to users' panel.
+By default, there is just Microsoft added to users' panel.
 
 <p align="center">
     <img src="/images/vendor/UserPanel/myappsu_2.png">
