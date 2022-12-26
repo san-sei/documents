@@ -3,18 +3,18 @@
 	<!-- https://www.feliciano.tech/blog/custom-sort-hugo-single-pages/ -->
 	{{ $pages := where site.RegularPages "Section" .Section -}}
 	{{ with $pages.Next . -}}
-		<a href="{{ .RelPermalink }}">
+		<a style="text-decoration:none" href="{{ .RelPermalink }}">
 			<div class="card my-1">
-				<div class="card-body py-2">
+				<div class="doc-nav-btn-body py-2">
 					&larr; {{ .Title }}
 				</div>
 			</div>
 		</a>
 	{{ end -}}
 	{{ with $pages.Prev . -}}
-		<a class="ms-auto" href="{{ .RelPermalink }}">
+		<a style="text-decoration:none" class="ms-auto" href="{{ .RelPermalink }}">
 			<div class="card my-1">
-				<div class="card-body py-2">
+				<div class="doc-nav-btn-body py-2">
 					{{ .Title }} &rarr;
 				</div>
 			</div>
