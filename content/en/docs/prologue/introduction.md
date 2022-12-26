@@ -63,11 +63,11 @@ toc: true
         <div class="tab-wrap">
           <!-- active tab on page load gets checked attribute -->
           <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
-          <label for="tab1">Smartphone</label>
+          <label for="tab1" class="tab1">Smartphone</label>
           <input type="radio" id="tab2" name="tabGroup1" class="tab">
-          <label for="tab2">Contactless Card</label>
+          <label for="tab2" class="tab2">Contactless Card</label>
           <input type="radio" id="tab3" name="tabGroup1" class="tab">
-          <label for="tab3">Hardware Security Key</label>
+          <label for="tab3" class="tab3">Hardware Security Key</label>
           <div class="tab__content">
             <p>The first option as a device when assigning a security key, is Smartphone. When you are done with the specifications, an email      containing an activation link will be sent to the user’s email address to let user activate his smartphone as a security key.</p>
             <p><a href="/docs/administration/enrollment/" style=" padding-bottom: 24px;">Smartphone as a security key device</a></p>

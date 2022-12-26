@@ -263,7 +263,7 @@ $tab-wrap-border-radius: 8px;
   position: relative;
   list-style: none;
   background-color: #fff;
-  border: 1px solid #D9D9D9;
+  border: 0px solid #D9D9D9;
   margin: 24px 0;
   &:hover {
     border-color: #017AB2;
@@ -280,7 +280,7 @@ $tab-wrap-border-radius: 8px;
     position: relative;
     list-style: none;
     background-color:  #333333;
-    border: 1px solid #5D5F62;
+    border: 0px solid #5D5F62;
     margin: 24px 0;
     &:hover {
       border-color: #017AB2;
@@ -299,9 +299,9 @@ $tab-wrap-border-radius: 8px;
       z-index: 100;
       transform: translateY(0px);
       text-shadow: 0 0 0;
-      border-bottom: 0px solid #D9D9D9;
-      border-left: 0px solid #D9D9D9;
-      border-right: 0px solid #D9D9D9;
+      border-bottom: 1px solid #D9D9D9;
+      border-left: 1px solid #D9D9D9;
+      border-right: 1px solid #D9D9D9;
     }
   }
   &:first-of-type:not(:last-of-type) + label {
@@ -316,8 +316,13 @@ $tab-wrap-border-radius: 8px;
     border-bottom-left-radius: 0;
   }
   &:checked + label {
-    background-color: #fff;
-    box-shadow: 0 -1px 0 #fff inset;
+    background-color: #eee;
+    box-shadow: 0 -1px 0 #eee inset;
+    border-top-left-radius: $tab-wrap-border-radius;
+    border-top-right-radius: $tab-wrap-border-radius;
+    border-top: 1px solid #D9D9D9;
+    border-left: 1px solid #D9D9D9;
+    border-right: 1px solid #D9D9D9;
     cursor: default;
     &:hover {
       box-shadow: 0 -1px 0 #fff inset;
@@ -333,7 +338,7 @@ $tab-wrap-border-radius: 8px;
     color: #333;
     flex-grow: 3;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #fff;
     user-select: none;
     text-align: center;
     transition: 0.3s background-color ease, 0.3s box-shadow ease;
@@ -346,7 +351,7 @@ $tab-wrap-border-radius: 8px;
   }
   &__content {
     padding: 10px 25px;
-    background-color: transparent;
+    background-color: #eee;
     position: absolute;
     width: 100%;
     z-index: -1;
@@ -369,9 +374,9 @@ $tab-wrap-border-radius: 8px;
         z-index: 100;
         transform: translateY(0px);
         text-shadow: 0 0 0;
-        border-bottom: 0px solid #5D5F62;
-        border-left: 0px solid #5D5F62;
-        border-right: 0px solid #5D5F62;
+        border-bottom: 1px solid #5D5F62;
+        border-left: 1px solid #5D5F62;
+        border-right: 1px solid #5D5F62;
       }
     }
     &:first-of-type:not(:last-of-type) + label {
@@ -386,23 +391,28 @@ $tab-wrap-border-radius: 8px;
       border-bottom-left-radius: 0;
     }
     &:checked + label {
-      background-color: #333333;
-      box-shadow: 0 -1px 0 #333333 inset;
+      background-color: $gray-800;
+      box-shadow: 0 -1px 0 $gray-800 inset;
+      border-top-left-radius: $tab-wrap-border-radius;
+      border-top-right-radius: $tab-wrap-border-radius;
+      border-top: 1px solid #5D5F62;
+      border-left: 1px solid #5D5F62;
+      border-right: 1px solid #5D5F62;
       cursor: default;
       &:hover {
-        box-shadow: 0 -1px 0 #fff inset;
-        background-color: #fff;
+        box-shadow: 0 -1px 0 #5D5F62 inset;
+        background-color: #5D5F62;
       }
     }
     + label {
-      box-shadow: 0 -1px 0 $gray-900 inset;
+      box-shadow: 0 -1px 0 #5D5F62 inset;
       border-radius: $tab-wrap-border-radius $tab-wrap-border-radius 0 0;
       cursor: pointer;
       display: block;
       color: white;
       flex-grow: 3;
       text-align: center;
-      background-color: $gray-900;
+      background-color: #333333;
       user-select: none;
       text-align: center;
       transition: 0.3s background-color ease, 0.3s box-shadow ease;
@@ -415,7 +425,7 @@ $tab-wrap-border-radius: 8px;
     }
     &__content {
       padding: 10px 25px;
-      background-color: transparent;
+      background-color: $gray-800;
       position: absolute;
       width: 100%;
       z-index: -1;
@@ -425,4 +435,41 @@ $tab-wrap-border-radius: 8px;
       border-bottom-left-radius: $tab-wrap-border-radius;
       border-bottom-right-radius: $tab-wrap-border-radius;
     }
+}
+
+.tab1:before {
+  display: inline-block;
+  vertical-align: middle;
+  align-items: center;
+  margin-right: 5px;
+  content: '';
+  background-image:url("/images/vendor/Homepage/IDmelon-Mobile-App.svg");
+  background-size: 28px 28px;
+  height: 28px;
+  width: 28px;
+}
+
+.tab2:before {
+  display: inline-block;
+  vertical-align: middle;
+  align-items: center;
+  margin-right: 5px;
+  padding-bottom: 10px;
+  content: '';
+  background-image:url("/images/vendor/Homepage/Contractless-Card.svg");
+  background-size: 33px 33px;
+  height: 33px;
+  width: 33px;
+}
+
+.tab3:before {
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  margin-right: 5px;
+  content: '';
+  background-image:url("/images/vendor/Homepage/IDmelon-Reader.svg");
+  background-size: 28px 28px;
+  height: 28px;
+  width: 28px;
 }
