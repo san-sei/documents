@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 description: "IDmelon app, which is designed and developed by IDmelon Technologies Inc., lets users use their smartphones as a FIDO2 hardware security key. In environments with either shared computers or single-user PCs, users can enjoy password-less login experience with only a single tap of their smartphones on IDmelon Reader or a single click on a push notification."
-lead: "The IDmelon FIDO Orchestration Platform helps organizations simply and quickly deploy secure passwordless authentication for their users. Features like Security Key as a Service, FIDO2 managed security keys, and fully automated FIDO2 lifecycle are patented and unique approaches that help organizations enhance their workforce authentication security overnight. No more dealing with purchase and distribution of hardware FIDO security keys as organizations can use whatever device their users have as a FIDO2 security key. It can be an Access Card, Key FOB or smartphone."
+lead: "The IDmelon FIDO Orchestration Platform helps organizations simply and quickly deploy secure passwordless authentication for their users. Features like Security Key as a Service, FIDO2 managed security keys, and fully automated FIDO2 lifecycle are patented and unique approaches that help organizations enhance their workforce authentication security overnight. No more dealing with purchase and distribution of hardware FIDO security keys as organizations can use whatever device their users have as a FIDO2 security key. It can be an Access Card, a Key FOB or a smartphone."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -38,7 +38,7 @@ toc: true
     <div class="intro-card">
       <div class="card-body">
         <p style="font-weight: bold;">Add Users</p>
-        <p>When the workspace has been created, the first step to work with the admin panel is Adding users which can be done it three forms including:
+        <p>When the workspace has been created, the first step to take is adding users, which can be done in three ways:
         <ul>
           <li>Add a single user</li>
           <li>Import from a CSV file</li>
@@ -59,7 +59,7 @@ toc: true
     <div class="intro-card-xxl">
       <div class="card-body">
         <p style="font-weight: bold;">Assign security keys</p>
-        <p class="">In all three forms of adding users, assigning security key is also possible which can be based on one of the three devices below.</p>
+        <p class="">While adding users, you can also assign security keys, which can be based on one of the three devices below:</p>
         <div class="tab-wrap">
           <!-- active tab on page load gets checked attribute -->
           <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
@@ -69,7 +69,7 @@ toc: true
           <input type="radio" id="tab3" name="tabGroup1" class="tab">
           <label for="tab3" class="tab3">Hardware Security Key</label>
           <div class="tab__content">
-            <p>The first option as a device when assigning a security key, is Smartphone. When you are done with the specifications, an email      containing an activation link will be sent to the user’s email address to let user activate his smartphone as a security key.</p>
+            <p>The first option as a device is Smartphone for which an email containing an activation link will be sent to the user’s email address to let user activate their smartphone as a security key.</p>
             <p><a href="/docs/administration/enrollment/" style=" padding-bottom: 24px;">Smartphone as a security key device</a></p>
           </div>
           <div class="tab__content">
@@ -103,7 +103,7 @@ toc: true
         <p style="font-weight: bold;">Security key policies</p>
         <p class="">The organization can control access of users by setting authentication policies. An admin can create new authentication policies to apply to users’ security keys to limit their access. The limitation can be based on multiple conditions such as time period, IP Address, RP (Relying Parties) that users are trying to reach out, and the location they are trying to login from.
         </p>
-        <p><a href="/docs/administration/enrollment/#hardware-security-keys">How to setup a FIDO2 hardware security key device</a></p>
+        <p><a href="/docs/administration/enrollment/#hardware-security-keys">How to set up a FIDO2 hardware security key device</a></p>
       </div>
     </div>
   </div>

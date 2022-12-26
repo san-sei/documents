@@ -1,5 +1,5 @@
 ---
-title: "Creating your work space account"
+title: "Creating your workspace"
 description: "Administration Overview"
 lead: "Every aspect of your IDmelon passwordless authentication system can be managed from the IDmelon Admin Panel. This include enrolling and activating users' security keys, instantly granting or restricting access, carefully monitoring users' access, managing licenses, and more."
 date: 2022-02-16T18:14:02-08:00

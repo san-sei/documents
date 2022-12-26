@@ -13,14 +13,14 @@ weight: 6
 toc: true
 ---
 
-In order to login, you need to have an active account in [IDmelon panel](#https://panel.idmelon.com/). So before logging in to your panel, make sure that you have an active account.
+In order to login, you need to have an active account in [IDmelon Panel](#https://panel.idmelon.com/).
 
 The first step to log in is to open [this link](#https://panel.idmelon.com/). So
 after openning IDmelon panel, you will see the image below, which shows multiple ways to log in.
 
 ## Login page
 
-- You can login by clicking on "Sign in with a security key", for this one to work, you need to have IDmelon mobile app installed on your phone wiht either
+- You can login by clicking on "Sign in with a security key", for this one to work, you need to have IDmelon mobile app installed on your phone with either
 a Reader or Pairing Tool installed on your computer or you can also use a FOB to tap and log in.
 
 - If you do not have any of the above tools to log in, you can choose "Sign-in options", which will be dicussed later.
@@ -33,7 +33,7 @@ a Reader or Pairing Tool installed on your computer or you can also use a FOB to
 
 - After clicking "Sign in with a security key", a wizard will be shown to you by your OS and asks you to touch your security key.
 
-- If the process is sucessfull, you will be logged in and able to see your panel.
+- If the steps are successfully taken, you will be logged in and able to see your panel.
 
 <p align="center">
     <img src="/images/vendor/UserPanel/enduserlogin_3.png">
