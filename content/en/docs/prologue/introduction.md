@@ -103,7 +103,7 @@ toc: true
         <p style="font-weight: bold;">Security key policies</p>
         <p class="">The organization can control access of users by setting authentication policies. An admin can create new authentication policies to apply to users’ security keys to limit their access. The limitation can be based on multiple conditions such as time period, IP Address, RP (Relying Parties) that users are trying to reach out, and the location they are trying to login from.
         </p>
-        <p><a href="/docs/administration/enrollment/#hardware-security-keys">How to set up a FIDO2 hardware security key device</a></p>
+        <p><a href="/docs/administration/skpolicy/#create-new-policy">How create a security key policy</a></p>
       </div>
     </div>
   </div>
