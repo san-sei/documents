@@ -29,23 +29,117 @@ After users complete the setup, they will be able to access Microsoft, Office 36
 
 There are two ways to get started with IDmelon Mobile App:
 
+1. [Personal users](#psersonal-users)
+2. [Business users](#business-users)
+
+## Personal users
+
 <ol>
-<li>Self-registration:
-To activate your tokens or create a new token, go ahead and enter your email in the following getting started page to receive an email that contains an activation link.</li>
+<li>To activate your security key, go ahead and tap on <span style="font-weight:bold;">Personal</span> in this page and in the next page
+enter your email address.</li>
 
 <p align="center">
-    <img src="/images/vendor/MobileApp/mobileapp_1.png">
+    <img src="/images/vendor/MobileApp/mobileapp_1.jpg">
 </p>
 
-**Note**: Only if you create a new token with a new email address, you are prompted to enter your name to enable your own security token on your smartphone.
-
-<li>Invitation: Your organization’s admin can directly invite you via the admin panel by sending an email that contains an activation link.</li>
+<li>In this page enter your email addess, username, password and click on <span style="font-weight:bold;">Send verification email</span>, after that you will be moved to the next page.</li>
 
 <p align="center">
-    <img src="/images/vendor/MobileApp/mobileapp_2.png">
+    <img src="/images/vendor/MobileApp/mobile_app_2_1.jpg">
 </p>
 
-In either way, all you need to do is to open the activation link on your smartphone.
+<li>In this page you can open your email app by tapping on<span style="font-weight:bold;">Open email app</span> and then click on the activation link in your email,or if  you do not have acces to your email on your device you can click on <span style="font-weight:bold;">Verify with code</span> in order to verify your email by entering a 6 digit code.</li>
+
+<p align="center">
+    <img src="/images/vendor/MobileApp/mobile_app_3.png">
+</p>
+<li>If you clicked on <span style="font-weight:bold;">Open email app</span> you will see an email from IDmelon which cintains the same content as you see in this image.</li>
+
+**You can confirm your email by clicking on the link which is sent to your email.**
+
+<p align="center">
+    <img src="/images/vendor/MobileApp/personal_user_activation_email.png">
+</p>
+<li>If you clicked on <span style="font-weight:bold;">Verify with code</span> you will be moved to a page which requires you to enter a six-digit number to verify your email address. After entering the code, click on <span style="font-weight:bold;">Done</span></li>
+
+<p align="center">
+    <img src="/images/vendor/MobileApp/mobile_app_4.png">
+</p>
+
+<li>In this page, as you can see, you have to type a name for your security key. Moreover, you can choose your licence type and also you can choose a skin for your security
+key. After finishing your configuration, click on <span style="font-weight:bold;">Next</span></li>
+
+<p align="center">
+    <img src="/images/vendor/MobileApp/mobile_app_2_2.jpg">
+</p>
+
+<ol>
+<li>If you click on <span style="font-weight:bold;">Licence Type</span> you will see a page which contains the following licences types, choose the type that you prefer.</li>
+<p align="center">
+    <img src="/images/vendor/MobileApp/mobile_app_licence_type.jpg">
+</p>
+<li>If you clicked on skin, you will be moved to a page, which contains some skins for your security key.</li>
+<p align="center">
+    <img src="/images/vendor/MobileApp/mobile_app_security_skin.jpg">
+</p>
+</ol>
+<li>Congratulations, you have successfully created your securiyt key, click <span style="font-weight:bold;">Done</span>.</li>
+<p align="center">
+    <img src="/images/vendor/MobileApp/moblie_app_2_3.jpg">
+</p>
+<li>Here you can see your security key and manage it.</li>
+<p align="center">
+    <img src="/images/vendor/MobileApp/mobile_app_2_4.jpg">
+</p>
+</ol>
+
+## Business users
+
+<ol>
+<li>To activate your security key, go ahead and tap on <span style="font-weight:bold;">Business / School</span>.</li>
+<p align="center">
+    <img src="/images/vendor/MobileApp/mobileapp_1.jpg">
+</p>
+<li>In this page, enter your email and click "Send verification email".</li>
+<p><span style="font-weight:bold;">Note</span>:Make sure that you receive an invitation email from one of your organization’s admins so as to be added to your organization’s panel and use the email in IDmelon Mobile App to activate your securiyt key.</p>
+<p align="center">
+    <img src="/images/vendor/UserPanel/activate_b_2.png">
+</p>
+
+<li>In this page, you can access your email by tapping <span style="font-weight:bold;">Open email app</span> to see the verification code.</li>
+
+<p>The email that you receive must contain the same contents as the image below.</p>
+
+<p align="center">
+    <img src="/images/vendor/UserPanel/activate_b_7.png">
+</p>
+
+Tap **Verify with code** to move to the next page and enter the 6-digit code.
+If you did not receive any code, tap on **Resend**.
+
+<p align="center">
+    <img src="/images/vendor/UserPanel/activate_b_3.png">
+</p>
+
+<li>Enter the 6-digit code that you have received and then, tap on <span style="font-weight:bold;">Done</span>.</li>
+
+<p align="center">
+    <img src="/images/vendor/UserPanel/activate_b_4.png">
+</p>
+
+<li>In this page, tap on <span style="font-weight:bold;">Approve</span> in order to activate your security key on your smartphone.</li>
+
+<p align="center">
+    <img src="/images/vendor/MobileApp/mobile_app_confirmation.jpg">
+</p>
+
+<li>After approving, you will be moved to a page the same as the page below.</li>
+
+<p align="center">
+    <img src="/images/vendor/UserPanel/activate_b_6.png">
+</p>
+
+<li>Done!</li>
 
 **Note**: IDmelon has set a time limit. If it takes too long to complete the activation process, the activation link in your email will expire, and you will have to start over again.
 </ol>
