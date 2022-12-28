@@ -1,28 +1,25 @@
 /* Add your custom css here */
 table.tableV2 {
-    margin: 0 0 2rem;
+    cursor: pointer;
+    margin: 0 0 1rem;
     width: 100%;
-    border: 1px solid #494848;
+    border: 1px solid #A1A1A1;
     border-collapse: collapse;
     text-indent: initial;
     border-spacing: 2px;
 }
+
+.boxShadow{
+  transition:all .3s ease-in-out;
+  &:hover{
+    box-shadow: 0 0 10px #017AB2;
+  }
+}
+
   
 td.tdV2 {
     padding: 1rem;
-    border: 1px solid #494848;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-top-color: rgb(73, 72, 72);
-    border-right-color: rgb(73, 72, 72);
-    border-bottom-color: rgb(73, 72, 72);
-    border-left-color: rgb(73, 72, 72);
+    border: 1px solid #A1A1A1;
     border-image-source: initial;
     border-image-slice: initial;
     border-image-width: initial;
@@ -36,11 +33,13 @@ td.tdV2 {
 td.firstChild{
     width: 8%;
     font-weight: bold;
-    background-color: #494848;
+    background-color: #016898;;
     color: #fff;
-  }
-  
+    border: 1px solid #A1A1A1;
+}
+ 
 th.thw {
+    border: 1px solid #A1A1A1;
     color: #fff;
 }
   
@@ -48,14 +47,14 @@ th.thV2 {
     display: table-cell;
     vertical-align: inherit;
     font-weight: bold;
-    text-align: -internal-center;
+    text-align: center;
     padding: 1rem;
-    background: #494848;
-    border-right: 1px solid #000;
+    background: #016898;;
+    border: 1px solid #A1A1A1;
   }
   
 th.lastChild {
-    border-right: 1px solid #494848;
+    border-right: 1px solid #017AB2;
   }
   
 .small {
@@ -67,23 +66,49 @@ thead.theadV2 {
     display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
+    
 }
-  
+
 tbody.tbodyV2 {
     display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
+    border: 1px solid #A1A1A1;
 }
   
 td.tdV2y {
+    transition: transform .3s ease-in-out,box-shadow .3s;
     background: #249c06;
     color: #fff;
+}
+
+td.tdV2y:hover {
+  -webkit-transform: scale(0.97);
+  -moz-transform: scale(0.97);
+  -ms-transform: scale(0.97);
+  -o-transform: scale(0.97);
+  transform: scale(0.97);
+}
+
+td.tdV2n {
+  transition: all 0.3s;
+  background: #d1564d;
+  color: #fff;
+}
+
+td.tdV2n:hover {
+  cursor: pointer;
+  box-shadow: 10px red;
+  -webkit-transform: scale(0.97);
+  -moz-transform: scale(0.97);
+  -ms-transform: scale(0.97);
+  -o-transform: scale(0.97);
+  transform: scale(0.97);
 }
 
 tr.trV2 {
     display: table-row;
     vertical-align: inherit;
-    border-color: inherit;
 }
 
 div {
