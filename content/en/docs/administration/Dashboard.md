@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "administration"
-weight: 10
+weight: 4
 toc: true
 ---
 
