@@ -122,12 +122,12 @@ div {
 .card-transition{
     transform:translateY(0px);
     transition: transform .3s ease-in-out,box-shadow .3s;
-    box-shadow:  0 0.2em 0.2em rgb(165, 165, 165);
+    box-shadow:  0px 4px 4px 0px rgb(165, 165, 165);
   }
 
 .card-transition:hover{
-    transform: translateY(-20px);
-    box-shadow: 0 0 11px rgb(136, 136, 255);
+    transform: translateY(-15px);
+    //box-shadow: 0px 0px 0px 1px rgb(136, 136, 255);
 }
 
 .h2-custome {
@@ -138,13 +138,24 @@ div {
     margin: 15%;
     height: 70%;
     width: 70%;
-    background :#dadada;
+    background :#ececec;
     justify-content: center;
     display: flex;
-
     align-items: middle;
     position:relative;
     border-radius: 100px;
+}
+
+[data-dark-mode] .card-img-size {
+  margin: 15%;
+  height: 70%;
+  width: 70%;
+  background :#3c3e40;
+  justify-content: center;
+  display: flex;
+  align-items: middle;
+  position:relative;
+  border-radius: 100px;
 }
 
 .card-transition-2{
@@ -156,13 +167,22 @@ div {
 }
 
 .card-transition-2:hover{
-    box-shadow: 0 0 10px rgb(136, 136, 255);
-    -webkit-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    transform: scale(1.02);
+    box-shadow: 0px 2px 3px 1px #cccccc;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transform: scale(1.01);
 }
+
+[data-dark-mode] .card-transition-2:hover{
+  box-shadow: 0px 2px 3px 1px #3c3e40;
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  transform: scale(1.01);
+} 
 
 .intro-card{
     margin-bottom: 16px;

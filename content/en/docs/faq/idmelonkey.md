@@ -20,7 +20,3 @@ IDmelon Key is a PIN-protected USB security key that allows you to log into comp
 ## Who is it for ?
 
 Everyone can use it, but it is ideal for users who are not willing to use their smartphones at work, or workplaces in which smartphone usage is restricted.
-
-## What makes IDmelon Key unique ?
-
-It is the one and only security key with LED indicator and beeper to offer great user experience.

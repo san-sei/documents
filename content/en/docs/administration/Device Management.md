@@ -22,14 +22,20 @@ The second type includes security key devices which consist of any devices that 
 Reach out to this section if you want to import already-joined PCs from Azure AD.
 The imported PCs can later be used in “Security Key Policies” to limit access to specific devices.
 To join and list Azure AD connected PCs, the only required step is providing enough permission.
+To import devices click on **Import Azure AD-Connected Devices**, then you will be moved to a microsoft page which asks you to choose an account.
 
 <p align="center">
     <img src="/images/vendor/Panel/DeviceManagement1.png">
 </p>
 
+* At this page you will be asked to choose the account that you want to connect.
+
 <p align="center">
-    <img src="/images/vendor/Panel/DeviceManagement2.png">
+    <img src="/images/vendor/Panel/import_azure_ad_pcs.png">
 </p>
+
+* Then you will be redirected to your IDmelon panel, and you can see the added devices.
+* **Pay attention** to that you may need to sign-in again during the redirection process.
 
 ## Security key devices
 
