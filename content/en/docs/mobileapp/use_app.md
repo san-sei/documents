@@ -160,13 +160,13 @@ on your smartphone</li>
 
 You can add the following platforms to your securiy key.
 
-### **Windows Login**
+### Windows Login
 
 - This feature is only available for Auzure Active Directory joined PCs.
 Standalone PCs or even on-premise AD do not support this feature.
 - To enable this feature on your Azure AD joined PCs, call your IT administrator.
 
-### **Office 365**
+### Office 365
 
 - Sign in your Microsoft account at https://myaccount.microsoft.com/ and go to My Profile page.
 
@@ -185,7 +185,7 @@ tap your smartphone to the Reader which starts blinking blue for a few seconds t
 
 - Select Done to close the Security key page. The Security info page is updated with your security key information.
 
-### **GitHub**
+### GitHub
 
 - Before adding a security key to your GitHub account, you must first enable 2FA via a TOTP mobile app or via SMS. [Check here](#https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-fido-u2f).
 
@@ -208,7 +208,7 @@ tap your smartphone to the Reader which starts blinking blue for a few seconds t
 
 - The Security keys section is updated with your security key information.
 
-### **Twitter**
+### Twitter
 
 - Log in to your Twitter account. In the side menu on the left, click More, then click Settings and privacy.
 
@@ -231,7 +231,7 @@ tap your smartphone to the Reader which starts blinking blue for a few seconds t
 
 - Click Done.
 
-### **Facebook**
+### Facebook
 
 - To add a security key on your desktop, you’ll need to be using the latest version of Chrome, Opera, Firefox, Edge, or Safari.
 
@@ -254,7 +254,7 @@ tap your smartphone to the Reader which starts blinking blue for a few seconds t
 <li>Once you’ve successfully added a security key to your account, you can start using it when you log in.</li>
 </ol>
 
-### **AWS**
+### AWS
 
 - You can enable a FIDO security key for your own IAM user from the AWS Management Console only, not from the AWS CLI or AWS API.
 
@@ -281,7 +281,7 @@ for a few seconds to receive the notification.
 
 </ol>
 
-### **Bitbucket**
+### Bitbucket
 
 - Bitbucket supports security keys that use the FIDO U2F standard. These keys only work with a recent version of Google Chrome,
 which means that you need to install or update your browser if you want to begin using a security key.
@@ -304,7 +304,7 @@ to the Reader which starts blinking blue for a few seconds to receive the notifi
 <li>Done!</li>
 </ol>
 
-### **Cloudflare**
+### Cloudflare
 
 - To enable 2FA security key authentication after [enabling 2FA on your Cloudflare account](#https://support.cloudflare.com/hc/en-us/articles/200167906/#6Gqe6f3nZtXSTpwyS2PBZ1) by clicking the Manage button:
 
@@ -331,7 +331,7 @@ which starts blinking blue for a few seconds to receive the notification.
 <li>Click Next to finish the configuration.</li>
 </ol>
 
-### **Coinbase**
+### Coinbase
 
 - To set up your security key:
 
@@ -343,7 +343,7 @@ which starts blinking blue for a few seconds to receive the notification.
 
 - For more information check [this article](#https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys).
 
-### **Dropbox**
+### Dropbox
 
 - Sign in to dropbox.com.
 
@@ -367,7 +367,7 @@ which starts blinking blue for a few seconds to receive the notification.
 
 **Note**: Dropbox only supports using a security key when signing in to dropbox.com using the Chrome or Firefox web browsers. You can’t use a security key to sign in to the desktop or mobile apps at this time.
 
-### **ebay**
+### ebay
 
 - Sign in to your ebay account.
 
@@ -389,7 +389,7 @@ which starts blinking blue for a few seconds to receive the notification.
 
 - Done!
 
-### **Salesforce**
+### Salesforce
 
 - If your Salesforce admin has allowed the use of Universal Second Factor (U2F) security keys, register your own security key to connect it to your account.
 
@@ -412,7 +412,7 @@ No results? Enter Personal Information in the Quick Find box, then select Person
 <li>After successful registration, click Continue to dismiss the confirmation message.</li>
 </ol>
 
-### **Shopify**
+### Shopify
 
 - From your Shopify admin, click your username and account picture.
 
@@ -439,7 +439,7 @@ No results? Enter Personal Information in the Quick Find box, then select Person
 
 </ol>
 
-### **Yahoo**
+### Yahoo
 
 <ol>
 <li>Sign in to the Yahoo Account security page.</li>
