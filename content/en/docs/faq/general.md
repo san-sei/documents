@@ -26,9 +26,10 @@ Access Card, Key FOB or smartphone.
 
 ## How secure is IDmelon ?
 
-Biometric authentication on smartphones that is becoming increasingly a common reliable and convenient way of unlocking a device cannot be extended
-through modern FIDO2 standards beyond smaphones. But, IDmelon has successfully enabled smartphones to be certified FIDO2 security keys.
-Besides, embedded Secure Elements protect information from becoming compromised.
+Using passwords for authentication will cause many threats to users. FIDO authentication protocol removes passwords and their related threats by providing users a simpler
+passwordless login experience. IDmelon as a pioneer, implements smartphones as a security key based on [FIDO](/docs/scrty/fido/). To ensure that this solution is more
+secure, despite the security considerations in FIDO (described [here](/docs/scrty/fido/)), IDmelon has also considered and implemented many security controls to increase the
+level of confidence for its users which is described in [IDmelon security](/docs/scrty/idmelon_security/) section.
 
 ## How is IDmelon different from security keys on the market?
 
