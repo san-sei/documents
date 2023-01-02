@@ -24,8 +24,8 @@ You can simply edit the information in this page by clicking on the **Pencil** b
 
 ## Admins
 
-The first admin who has created the workspace can add as many admins as necessary to manage the users in the workspace by selecting **New Admin** button in
-**Admins** section under **Settings**.
+The first admin who creates a workspace can add as many admins as necessary to help manage the users in the workspace by selecting **New Admin** button in **Admins** section
+under **Settings**.
 
 * Add a new admin simply by clicking on the **New Admin**.
 
@@ -33,7 +33,8 @@ The first admin who has created the workspace can add as many admins as necessar
     <img src="/images/vendor/Panel/add_admin_1.png">
 </p>
 
-**Note** that the users which you want to add must already be activated before becoming an admin. To activate a user take a look at licenses.
+**Note** that the user whom you want to promote to admin must have already activated their security key, i.e. their status must be Active. To activate a user, a license must
+be granted to the user.
 
 * After writing the new admins email, click on **Next**.
 
@@ -43,7 +44,7 @@ The first admin who has created the workspace can add as many admins as necessar
 
 Different levels of permissions to manage users and security keys can be given to new admins.
 
-* After giving permitions to new admin, click on **Confirm** to finish the process of adding a new admin.
+* After giving permissions to the new admin, click on **Confirm** to finish the process.
 
 <p align="center">
     <img src="/images/vendor/Panel/add_admin_3.png">

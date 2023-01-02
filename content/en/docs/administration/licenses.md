@@ -13,23 +13,23 @@ weight: 11
 toc: true
 ---
 
-In this page, administrators can request for licences. Licenses are required to activate users and specially for the users whom the main adminstrator wants to promote them
-to adminstrator.
+ In this page, administrators can request as many licenses as they want. Licenses are required so that users can activate their security keys, specially for a user whom the
+ main administrator wants to promote to administrator.
 
-* Navigate to **Licences** tab in administration panel and click on **Request for New Licenses**. After that, a small window will pop up.  
+* Navigate to **Licenses** tab in administration panel and click on **Request for New Licenses**. After that, a small window will pop up.  
 
 <p align="center">
     <img src="/images/vendor/Panel/licenses_1.png">
 </p>
 
-* As you can see, you just have to write down the number of licenses that you want, and, click on **Send Request**.
+* As you can see, you just have to write down the number of licenses that you want, and click on **Send Request**.
 
 <p align="center">
     <img src="/images/vendor/Panel/licenses_2.png">
 </p>
 
-* As you can see your request's status is pending. Your request will be activated when, the master administrator accepts your request. After that you can go to users tab and
-activate the users whom you want.
+* As you can see your request’s status remains pending until the master administrator accepts your request. After that, you can go to Users tab to choose the users whom you
+want to grant license to.
 
 <p align="center">
     <img src="/images/vendor/Panel/licenses_3.png">
