@@ -26,7 +26,7 @@ a Reader or Pairing Tool installed on your computer or you can also use a FOB to
 - If you do not have any of the above tools to log in, you can choose "Sign-in options", which will be dicussed later.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/enduserlogin_1.png">
+    <img src="/images/vendor/UserPanel/enduserlogin_1.png" class="doc-img-frame">
 </p>
 
 ## Sign in with a security key
@@ -36,7 +36,7 @@ a Reader or Pairing Tool installed on your computer or you can also use a FOB to
 - If the steps are successfully taken, you will be logged in and able to see your panel.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/enduserlogin_3.png">
+    <img src="/images/vendor/UserPanel/enduserlogin_3.png" class="doc-img-frame">
 </p>
 
 ## Sign-in options
@@ -44,24 +44,24 @@ a Reader or Pairing Tool installed on your computer or you can also use a FOB to
 - If you click "Sign-in options", you will be asked to enter your email. After that, click on Next.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/enduserlogin_4.png">
+    <img src="/images/vendor/UserPanel/enduserlogin_4.png" class="doc-img-frame">
 </p>
 
 - In this section, you have the option to recieve a code via email or through SMS. (**Caution**: For the first time login you may not have your phone
 number activated.)Then, click on Next.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/enduserlogin_5.png">
+    <img src="/images/vendor/UserPanel/enduserlogin_5.png" class="doc-img-frame">
 </p>
 
 - By clicking Next, you will recieve an email containig a code and you have to type that code to the screen as shown below.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/enduserlogin_6.png">
+    <img src="/images/vendor/UserPanel/enduserlogin_6.png" class="doc-img-frame">
 </p>
 
 - If all the above steps are taken successfully, you will be able to see your panel as shown in the image below.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/enduserlogin_7.png">
+    <img src="/images/vendor/UserPanel/enduserlogin_7.png" class="doc-img-frame">
 </p>

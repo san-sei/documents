@@ -62,7 +62,7 @@ The purpose of this doc is to help administrators to have an overview of Integra
 This process can be started by simply clicking on **Integrate with a new Identity Provider(IdP)**.
 
 <p align="center">
-    <img src="/images/vendor/Panel/admin_integration_1.png">
+    <img src="/images/vendor/Panel/admin_integration_1.png" class="doc-img-frame">
 </p>
 
 ### Select a Service
@@ -71,7 +71,7 @@ In this page, you can either select a new service or **Add a custome new service
 Click ***Next** when you are done.
 
 <p align="center">
-    <img src="/images/vendor/Panel/admin_integration_2.png">
+    <img src="/images/vendor/Panel/admin_integration_2.png" class="doc-img-frame">
 </p>
 
 ### App Profile
@@ -80,7 +80,7 @@ Here, you have to insert necessary data into the fields. Pay attention to the UR
 Click ***Next** when you are done.
 
 <p align="center">
-    <img src="/images/vendor/Panel/admin_integration_3.png">
+    <img src="/images/vendor/Panel/admin_integration_3.png" class="doc-img-frame">
 </p>
 
 ### App Settings
@@ -89,11 +89,11 @@ As you can see in the images below, you have to add all settings related to the 
 Click ***Next** when you are done.
 
 <p align="center">
-    <img src="/images/vendor/Panel/admin_integration_4.png">
+    <img src="/images/vendor/Panel/admin_integration_4.png" class="doc-img-frame">
 </p>
 
 <p align="center">
-    <img src="/images/vendor/Panel/admin_integration_5.png">
+    <img src="/images/vendor/Panel/admin_integration_5.png" class="doc-img-frame">
 </p>
 
 ### App Attributes Mapping
@@ -102,7 +102,7 @@ Here you can name the variables that you can map.
 Click **Confirm** to finish the **Integration Process**.
 
 <p align="center">
-    <img src="/images/vendor/Panel/admin_integration_6.png">
+    <img src="/images/vendor/Panel/admin_integration_6.png" class="doc-img-frame">
 </p>
 
 ## SSO Configuration details

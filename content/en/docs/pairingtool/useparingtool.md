@@ -29,25 +29,25 @@ To pair and use your smartphone as a security key with IDmelon Pairing Tool, fol
 <li>Open IDmelon Pairing Tool on your computer and click on the **pair a new smartphone**.</li>
 
 <p align="center">
-    <img src="/images/vendor/PairingTool/pairingtool_1.png">
+    <img src="/images/vendor/PairingTool/pairingtool_1.png" class="doc-img-frame">
 </p>
 
 <li>Point your smartphone camera at the QR code on your computer screen.</li>
 
 <p align="center">
-    <img src="/images/vendor/PairingTool/pairingtool_2.png">
+    <img src="/images/vendor/PairingTool/pairingtool_2.png" class="doc-img-frame">
 </p>
 
 <li>Congratulations!</li>
 
 <p align="center">
-    <img src="/images/vendor/PairingTool/pairingtool_3.png">
+    <img src="/images/vendor/PairingTool/pairingtool_3.png" class="doc-img-frame">
 </p>
 
 Having been paired with your smartphone successfully, your computer shows the model of your smartphone on your computer screen:
 
 <p align="center">
-    <img src="/images/vendor/PairingTool/pairingtool_4.png">
+    <img src="/images/vendor/PairingTool/pairingtool_4.png" class="doc-img-frame">
 </p>
 
 <li>For each login or registration, you will receive an alert that you can approve and then verify your identity with using your
@@ -63,7 +63,7 @@ desired unlocking method on your smartphone.</li>
 You can disable your smartphone as a security key by cliking on the toggle button.
 
 <p align="center">
-    <img src="/images/vendor/PairingTool/pairingtool_5.png">
+    <img src="/images/vendor/PairingTool/pairingtool_5.png" class="doc-img-frame">
 </p>
 
 **Note** : Once you turn this button off, you will no longer recieve any requests on your smartphone untill you turn in on again.

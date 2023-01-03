@@ -25,7 +25,7 @@ address to activate your work account. From then on, you will be able to use you
 - Then, choose "Business/School".
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_1.png">
+    <img src="/images/vendor/UserPanel/activate_b_1.png" class="doc-img-mobile doc-img-frame">
 </p>
 
 ## Activation
@@ -35,7 +35,7 @@ address to activate your work account. From then on, you will be able to use you
 **Note** : Make sure that you receive an invitation email from one of your organization’s admins so as to be added to your organization’s panel.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_2.png">
+    <img src="/images/vendor/UserPanel/activate_b_2.png" class="doc-img-mobile doc-img-frame">
 </p>
 
 - In this page, you can access your email by tapping **Open email app** to see the verification code.
@@ -43,7 +43,7 @@ address to activate your work account. From then on, you will be able to use you
 - The email that you receive must contain the same contents as the image below.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_7.png">
+    <img src="/images/vendor/UserPanel/activate_b_7.png" class="doc-img-frame">
 </p>
 
 - Tap **Verify with code** to move to the next page and enter the 6-digit code.
@@ -51,13 +51,13 @@ address to activate your work account. From then on, you will be able to use you
 - If you did not receive any code, tap on **Resend**.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_3.png">
+    <img src="/images/vendor/UserPanel/activate_b_3.png" class="doc-img-mobile doc-img-frame">
 </p>
 
 - Enter the 6-digit code that you have received and then, tap on **Done**.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_4.png">
+    <img src="/images/vendor/UserPanel/activate_b_4.png" class="doc-img-mobile doc-img-frame">
 </p>
 
 ## Confirmation
@@ -65,13 +65,13 @@ address to activate your work account. From then on, you will be able to use you
 - In this page, tap on **Approve** in order to activate your security key on your smartphone.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_5.png">
+    <img src="/images/vendor/UserPanel/activate_b_5.jpg" class="doc-img-mobile doc-img-frame">
 </p>
 
 - After approving, you will be moved to a page the same as the page below.
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/activate_b_6.png">
+    <img src="/images/vendor/UserPanel/activate_b_6.png" class="doc-img-mobile doc-img-frame">
 </p>
 
 - Done!
