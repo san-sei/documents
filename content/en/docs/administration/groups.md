@@ -18,7 +18,7 @@ They can also edit or delete groups.
 They can also add new groups by clicking on the **New Group** button on the top left of this page.
 
 <p align="center">
-    <img src="/images/vendor/Panel/groups_1.png">
+    <img src="/images/vendor/Panel/groups_1.png" class="doc-img-frame">
 </p>
 
 ## Create new group
@@ -30,7 +30,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
 - Click Next, when you are done.
 
 <p align="center">
-    <img src="/images/vendor/Panel/groups_2.png">
+    <img src="/images/vendor/Panel/groups_2.png" class="doc-img-frame">
 </p>
 
 ## Assign new users
@@ -42,7 +42,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
 - Click next when you are done.
 
 <p align="center">
-    <img src="/images/vendor/Panel/groups_3.png">
+    <img src="/images/vendor/Panel/groups_3.png" class="doc-img-frame">
 </p>
 
 ## Review and confirm
@@ -52,5 +52,5 @@ They can also add new groups by clicking on the **New Group** button on the top 
 - Click on **Confirm** when you are done.
 
 <p align="center">
-    <img src="/images/vendor/Panel/groups_4.png">
+    <img src="/images/vendor/Panel/groups_4.png" class="doc-img-frame">
 </p>

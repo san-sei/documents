@@ -17,13 +17,13 @@ In this page, you can create a list of policies that you want to apply to your u
 If you want to add a new list item to this list, simply click on **New List**.
 
 <p align="center">
-    <img src="/images/vendor/Panel/namedlist_1.png">
+    <img src="/images/vendor/Panel/namedlist_1.png" class="doc-img-frame">
 </p>
 
 - On this page you can name your list, write a description for it, and choose its type.
 
 <p align="center">
-    <img src="/images/vendor/Panel/namedlist_2.png">
+    <img src="/images/vendor/Panel/namedlist_2.png" class="doc-img-frame">
 </p>
 
 - You can have 4 types of lists. Click on **List Type** and choose one type for your list.
@@ -31,7 +31,7 @@ If you want to add a new list item to this list, simply click on **New List**.
 - Click Next when you are done.
 
 <p align="center">
-    <img src="/images/vendor/Panel/namedlist_3.png">
+    <img src="/images/vendor/Panel/namedlist_3.png" class="doc-img-frame">
 </p>
 
 ## IP List
@@ -39,7 +39,7 @@ If you want to add a new list item to this list, simply click on **New List**.
 - If you have chosen **IP** in the previous section, add a new IP by clicking on the "+" on the top right of the page.
 
 <p align="center">
-    <img src="/images/vendor/Panel/namedlist_4.png">
+    <img src="/images/vendor/Panel/namedlist_4.png" class="doc-img-frame">
 </p>
 
 - Next you will see a window that is asking you to write and IP address.
@@ -49,11 +49,11 @@ If you want to add a new list item to this list, simply click on **New List**.
 - Click on **Confirm** when you are done.
 
 <p align="center">
-    <img src="/images/vendor/Panel/namedlist_5.png">
+    <img src="/images/vendor/Panel/namedlist_5.png" class="doc-img-frame">
 </p>
 
 <p align="center">
-    <img src="/images/vendor/Panel/namedlist_6.png">
+    <img src="/images/vendor/Panel/namedlist_6.png" class="doc-img-frame">
 </p>
 
 ## Device List
@@ -63,7 +63,7 @@ If you want to add a new list item to this list, simply click on **New List**.
 - Click on **Confirm** when you are done.
 
 <p align="center">
-    <img src="/images/vendor/Panel/namedlist_7.png">
+    <img src="/images/vendor/Panel/namedlist_7.png" class="doc-img-frame">
 </p>
 
 ## RP List
@@ -71,7 +71,7 @@ If you want to add a new list item to this list, simply click on **New List**.
 - If you have chosen **RP**, then in the page below, add a new **RP** by clicking on the "+" on the top right of the page.
 
 <p align="center">
-    <img src="/images/vendor/Panel/namedlist_8.png">
+    <img src="/images/vendor/Panel/namedlist_8.png" class="doc-img-frame">
 </p>
 
 - Simply write down your desired domain and click on **Add RP**.
@@ -79,7 +79,7 @@ If you want to add a new list item to this list, simply click on **New List**.
 - Click on **Confirm** when you are done.
 
 <p align="center">
-    <img src="/images/vendor/Panel/namedlist_10.png">
+    <img src="/images/vendor/Panel/namedlist_10.png" class="doc-img-frame">
 </p>
 
 ## Time List
@@ -87,7 +87,7 @@ If you want to add a new list item to this list, simply click on **New List**.
 - If you have chosen **Time**, then in the page below, add a new **Time** by clicking on the "+" on the top right of the page.
 
 <p align="center">
-    <img src="/images/vendor/Panel/namedlist_9.png">
+    <img src="/images/vendor/Panel/namedlist_9.png" class="doc-img-frame">
 </p>
 
 - In the window which is shown below, you can choose **Time Zone**, **Days of the week**, and **Time Period**.

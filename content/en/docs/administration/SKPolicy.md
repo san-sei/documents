@@ -15,7 +15,9 @@ toc: true
 
 Each organization may want to have a variety of authentication policies for different groups of users. From this section, an organization’s admins can create new authentication policies to apply to users’ security keys to limit their access by multiple factors such as time period, IP Address, RP (relying parties) that users are trying to reach, and location they are trying to login from.
 
-{{< figure src="/images/vendor/Panel/SKPolicy1.png">}}
+<p align="center">
+    <img src="/images/vendor/Panel/SKPolicy1.png" class="doc-img-frame">
+</p>
 
 ## Create new policy
 
@@ -24,7 +26,10 @@ The first step is setting a default policy to **Allow** or **Block** using the *
 ### Policy Name, Description and Priority
 
 Selecting the name and description of the policy and setting its priority to determine when and in what order the policy must be checked.
-{{< figure src="/images/vendor/Panel/SKPolicy2.png">}}
+
+<p align="center">
+    <img src="/images/vendor/Panel/SKPolicy2.png" class="doc-img-frame">
+</p>
 
 ### Policy Conditions
 
@@ -37,14 +42,22 @@ Each policy can be set with multiple conditions including the following items al
 - RP (the Relaying Party)
 - Location (user’s location)
 
-{{< figure src="/images/vendor/Panel/SKPolicy3.png">}}
+<p align="center">
+    <img src="/images/vendor/Panel/SKPolicy3.png" class="doc-img-frame">
+</p>
 
 ### Policy Action
 
 There are only two options including **Allow** and **Block** for the policy action.
-{{< figure src="/images/vendor/Panel/SKPolicy4.png">}}
+
+<p align="center">
+    <img src="/images/vendor/Panel/SKPolicy4.png" class="doc-img-frame">
+</p>
 
 ### Review & Submit
 
 In final step, everything can be reviewed and corrected if necessary, and submitted if everything is as expected.
-{{< figure src="/images/vendor/Panel/SKPolicy5.png">}}
+
+<p align="center">
+    <img src="/images/vendor/Panel/SKPolicy5.png" class="doc-img-frame">
+</p>

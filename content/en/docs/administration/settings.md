@@ -19,7 +19,7 @@ In this page, administrators can see the information related to their workspace 
 You can simply edit the information in this page by clicking on the **Pencil** button on the top right of each section of this page.
 
 <p align="center">
-    <img src="/images/vendor/Panel/workspace.png">
+    <img src="/images/vendor/Panel/workspace.png" class="doc-img-frame">
 </p>
 
 ## Admins
@@ -30,7 +30,7 @@ under **Settings**.
 * Add a new admin simply by clicking on the **New Admin**.
 
 <p align="center">
-    <img src="/images/vendor/Panel/add_admin_1.png">
+    <img src="/images/vendor/Panel/add_admin_1.png" class="doc-img-frame">
 </p>
 
 **Note** that the user whom you want to promote to admin must have already activated their security key, i.e. their status must be Active. To activate a user, a license must
@@ -39,7 +39,7 @@ be granted to the user.
 * After writing the new admins email, click on **Next**.
 
 <p align="center">
-    <img src="/images/vendor/Panel/add_admin_2.png">
+    <img src="/images/vendor/Panel/add_admin_2.png" class="doc-img-frame">
 </p>
 
 Different levels of permissions to manage users and security keys can be given to new admins.
@@ -47,5 +47,5 @@ Different levels of permissions to manage users and security keys can be given t
 * After giving permissions to the new admin, click on **Confirm** to finish the process.
 
 <p align="center">
-    <img src="/images/vendor/Panel/add_admin_3.png">
+    <img src="/images/vendor/Panel/add_admin_3.png" class="doc-img-frame">
 </p>

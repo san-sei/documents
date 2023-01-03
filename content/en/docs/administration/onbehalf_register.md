@@ -27,25 +27,25 @@ from pairing tool by doing the following steps:
 <ol>
 <li> Admin opens Pairing Tool, presses Cntl+I to choose Login as an Admin.</li>
 <p align="center">
-<img src="/images/vendor/Panel/OBR_1.png">
+<img src="/images/vendor/Panel/OBR_1.png" class="doc-img-frame">
 </p>
 
 <li> Admin will be redirected to the admin panel to log in.</li>
 
 <p align="center">
-<img src="/images/vendor/Panel/OBR_2.png">
+<img src="/images/vendor/Panel/OBR_2.png" class="doc-img-frame">
 </p>
 
 <li>After login, check Pairing Tool again to see Ready for on behalf registration status.</li>
 
 <p align="center">
-<img src="/images/vendor/Panel/OBR_3.png">
+<img src="/images/vendor/Panel/OBR_3.png" class="doc-img-frame">
 </p>
 
 <li>Admin can choose a user from the panel as OBR: **User & Group Management**>> **Users & Security Keys**>> Choose a user>> **Action**>> Select as **OBR**.</li>
 
 <p align="center">
-<img src="/images/vendor/Panel/OBR_4.png">
+<img src="/images/vendor/Panel/OBR_4.png" class="doc-img-frame">
 </p>
 
 <li>Now, admin can log into the user's Microsoft account, for example, by entering the user's username and password to add/register IDmelon security key on behalf of
@@ -54,6 +54,6 @@ the user.</li>
 <li>The user will immediately receive a notification on his smartphone and understands that their admin is doing an OBR.</li>
 
 <p align="center">
-<img src="/images/vendor/Panel/OBR_5.png">
+<img src="/images/vendor/Panel/OBR_5.png" class="doc-img-frame">
 </p>
 </ol>

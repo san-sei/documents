@@ -20,7 +20,7 @@ we will describe how the reader works in different modes and how you can switch 
 ## Hardware
 
 <p align="center">
-    <img src="/images/vendor/ReaderGuide/reader_guide_1.png">
+    <img src="/images/vendor/ReaderGuide/reader_guide_1.png" class="doc-img-frame">
 </p>
 
 ## Basic Concepts

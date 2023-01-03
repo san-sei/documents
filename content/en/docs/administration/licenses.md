@@ -19,18 +19,18 @@ toc: true
 * Navigate to **Licenses** tab in administration panel and click on **Request for New Licenses**. After that, a small window will pop up.  
 
 <p align="center">
-    <img src="/images/vendor/Panel/licenses_1.png">
+    <img src="/images/vendor/Panel/licenses_1.png" class="doc-img-frame">
 </p>
 
 * As you can see, you just have to write down the number of licenses that you want, and click on **Send Request**.
 
 <p align="center">
-    <img src="/images/vendor/Panel/licenses_2.png">
+    <img src="/images/vendor/Panel/licenses_2.png" class="doc-img-frame">
 </p>
 
 * As you can see your request’s status remains pending until the master administrator accepts your request. After that, you can go to Users tab to choose the users whom you
 want to grant license to.
 
 <p align="center">
-    <img src="/images/vendor/Panel/licenses_3.png">
+    <img src="/images/vendor/Panel/licenses_3.png" class="doc-img-frame">
 </p>
