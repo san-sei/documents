@@ -1,6 +1,6 @@
 {{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") -}}
-  <div class="page-links">
-    <h3>On this page</h3>
+  <div class="right-side-links right-side-links-body">
+    <h3 class="h3">On This Page</h3>
     {{ .TableOfContents }}
   </div>
 {{ end -}}
