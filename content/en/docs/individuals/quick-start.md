@@ -37,14 +37,14 @@ When running the app for the first time you will be asked to enter an email to c
 
 - Run the IDmelon Pairing Tool on your PC.
   - If you are running this tool for the first time, you will be asked to scan the QR code using IDmelon app on your smartphone.
-  - Otherwise, click on `Pair a new Smartphone` to generate and show a QR code on the screen
+  - Otherwise, click on **Pair a new Smartphone** to generate and show a QR code on the screen
 - Open the IDmelon on your phone
   - Tap the QR icon displayed on the top, OR
-  - Tap `More options`, and choose `Pair with a PC`.
-  - Tap `Start Scanning`.
+  - Tap **More options**, and choose **Pair with a PC**.
+  - Tap **Start Scanning**.
   - Unlock your phone:
   - Point your phone at the screen of the PC to scan the QR code.
-  - Click `Done` and you're all set to experience password-login experience.
+  - Click **Done** and you're all set to experience password-login experience.
 
       {{< figure src="/images/vendor/gifs/pairing.gif">}}
 
@@ -62,10 +62,10 @@ You can use security keys as a passwordless sign-in method within your organizat
 #### How to add security key to your account
 
 1. Go to the My Profile page at [My Account](https://myaccount.microsoft.com/s) and sign in if you haven't already done so.
-2. Select `Security Info`, select `Add method`, and then select `Security key` from the `Add a method` list.
-3. Select `Add`, and then select `USB device' for the type of security key.
-4. On the Security key page, select `Next` to see another window asking you to `Touch your security key`.
-5. You then right after will get a notification on your phone. Tap on the notification to open the app and then tap `Approve` to complete registration.
+2. Select **Security Info**, select **Add method**, and then select **Security key** from the **Add a method** list.
+3. Select **Add**, and then select **USB device** for the type of security key.
+4. On the Security key page, select **Next** to see another window asking you to **Touch your security key**.
+5. You then right after will get a notification on your phone. Tap on the notification to open the app and then tap **Approve** to complete registration.
 
   {{< figure src="/images/vendor/gifs/registration_office365.gif">}}
 
@@ -76,10 +76,10 @@ You can use security keys as a passwordless sign-in method within your organizat
 Now that you've added your phone as a security key to your account, you can use it to get access to your account.
 To see how it works:
 
-1. Visit sign-in page on [office.com](http://office.com), and click `Sign-in options`.
-2. Click `Sign in with a security key` in the `sig-in options` window to see another window asking to `Touch your security key`.
-3. Check your phone for the `Login` notification, tap on the notification to open the app.
-4. Tap `Approve` to present your biometrics to authenticate.
+1. Visit sign-in page on [office.com](http://office.com), and click **Sign-in options**.
+2. Click **Sign in with a security key** in the **sig-in options** window to see another window asking to **Touch your security key**.
+3. Check your phone for the **Login** notification, tap on the notification to open the app.
+4. Tap **Approve** to present your biometrics to authenticate.
 
   {{< figure src="/images/vendor/gifs/signin_1.gif">}}
 
