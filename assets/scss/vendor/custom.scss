@@ -138,6 +138,55 @@ div {
     padding: 0;
 }
 
+.home-card-body{
+  width: 20rem;
+  height:21rem;
+}
+
+.homepage-back{
+  background: linear-gradient(180deg, #ececec 75%, transparent 25%);
+  //background-color: #ececec;
+  width: 100%;
+  height: fit-content;
+  //margin-top: 100vh;
+  z-index: -1;
+  background-repeat: repeat-y;
+}
+
+[data-dark-mode] .homepage-back{
+  background: linear-gradient(180deg, #2e3134 75%, transparent 25%);
+  //background-color: #2e3134;
+  width: 100%;
+  //margin-top: 100vh;
+  height: fit-content;
+  z-index: -1;
+  background-repeat: repeat-y;
+
+}
+
+.card-img-size {
+  margin:32px;
+  height: 116px;
+  width: 116px;
+  background :#ececec;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 8px;
+
+}
+
+[data-dark-mode] .card-img-size {
+  margin:32px;
+  height: 116px;
+  width: 116px;
+  background :#3c3e40;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  border-radius: 8px;
+}
+
 .card-transition{
     transform:translateY(0px);
     transition: transform .3s ease-in-out,box-shadow .3s;
@@ -158,30 +207,6 @@ div {
 
 .h2-custome {
     font-size: 45px;
-}
-
-.card-img-size {
-    margin: 15%;
-    height: 70%;
-    width: 70%;
-    background :#ececec;
-    justify-content: center;
-    display: flex;
-    align-items: middle;
-    position:relative;
-    border-radius: 100px;
-}
-
-[data-dark-mode] .card-img-size {
-  margin: 15%;
-  height: 70%;
-  width: 70%;
-  background :#3c3e40;
-  justify-content: center;
-  display: flex;
-  align-items: middle;
-  position:relative;
-  border-radius: 100px;
 }
 
 .card-transition-2{
@@ -220,6 +245,7 @@ div {
     border: $intro-card-border;
     font-size: 16px;
     box-sizing: border-box;
+
     transition: 0.6s;
     padding-top: 24px;
     padding-left: 24px;
@@ -570,33 +596,15 @@ $tab-wrap-border-radius: 8px;
 .doc-img-frame{
   border: 1px solid #E1E1E1;
   border-radius: 4px;
-}
-
-.homepage-back{
-  background: linear-gradient(180deg, #ececec 75%, transparent 25%);
-  //background-color: #ececec;
-  width: 100%;
-  height: fit-content;
-  //margin-top: 100vh;
-  z-index: -1;
-  background-repeat: repeat-y;
-}
-
-[data-dark-mode] .homepage-back{
-  background: linear-gradient(180deg, #2e3134 75%, transparent 25%);
-  //background-color: #2e3134;
-  width: 100%;
-  //margin-top: 100vh;
-  height: fit-content;
-  z-index: -1;
-  background-repeat: repeat-y;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .nav-arr{
  stroke: #8ed6fb; 
  transition: all .3s ease-in-out;
  align-items: center;
- vertical-align: middle; 
+ vertical-align: middle;
 }
 
 .doc-nav-btn-body:hover .nav-arr{
@@ -693,4 +701,62 @@ $tab-wrap-border-radius: 8px;
 .right-side-links h3.sidebar-link a:hover {
   text-decoration: underline;
   border-left: 1px solid $body-color;
+}
+
+.card-horizontal{
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card-text-container{
+
+  padding-right:24px;
+  
+}
+
+@include media-breakpoint-down(sm){
+  .home-card-body{
+    width: 100%;
+    height: 19rem;
+  }
+  .homepage-back{
+    background: linear-gradient(180deg, #ececec 50%, transparent 50%);
+    //background-color: #ececec;
+    width: 100%;
+    height: fit-content;
+    //margin-top: 100vh;
+    z-index: -1;
+    background-repeat: repeat-y;
+  }
+
+  [data-dark-mode] .homepage-back{
+    background: linear-gradient(180deg, #2e3134 50%, transparent 50%);
+    //background-color: #2e3134;
+    width: 100%;
+    //margin-top: 100vh;
+    height: fit-content;
+    z-index: -1;
+    background-repeat: repeat-y;
+  }
+
+  .card-img-size {
+    height: 48px;
+    width: 48px;
+    background :#ececec;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-left:16px;
+    margin-right: 12px;
+  }
+
+  [data-dark-mode] .card-img-size {
+    height: 48px;
+    width: 48px;
+    background :#3c3e40;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-left:16px;
+    margin-right: 12px;
+  }
+  
 }

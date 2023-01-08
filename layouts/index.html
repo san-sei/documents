@@ -12,30 +12,30 @@
 </section>
 <section class="section-sm container mt-n1 pb-3">
   <div class="row justify-content-between">
-    <div class="card card-transition text-dark bg-light my-2" style="width: 20rem;height:21rem;">
+    <div class="card card-transition text-dark bg-light my-2 home-card-body" >
       <div class="card-body">
         <h3 class="card-title my-3 text-lg-start" style="font-size:18px;">For Adminstrators</h3>
         <p class="card-text my-3 text-start fs-6" style="font-size:18px;">IDmelon Administration panel gives admins the ability to manage users and groups, assign security keys based on different devices (smartphone, contactless card, and any other type of hardware security keys), apply security policies and make necessary changes by viewing reports.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}administration/introduction/" class="stretched-link"></a>
       </div>
     </div>
-    <div class="card card-transition text-dark text-center bg-light my-2" style="width: 20rem;height:21rem;">
+    <div class="card card-transition text-dark text-center bg-light my-2 home-card-body" >
       <div class="card-body">
-        <h3 class="card-title my-3 text-lg-start" style="font-size:18px;">For End Users</h3>
+        <h3 class="card-title my-3 text-start" style="font-size:18px;">For End Users</h3>
         <p class="card-text my-3 text-start fs-6" style="font-size:18px;">As an end user (employee), one of your organization’s admins may send an invitation email to your work email address. You can follow the instruction to activate your work account to use your smartphone as a FIDO security key to get access to your organization’s resources.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}for_users/activate_work_account/" class="stretched-link"></a>
       </div>
     </div>
-    <div class="card card-transition text-dark text-center bg-light my-2" style="width: 20rem;height:21rem;">
+    <div class="card card-transition text-dark text-center bg-light my-2 home-card-body" >
       <div class="card-body">
-        <h3 class="card-title my-3 text-lg-start" style="font-size:18px;">For Personal Users</h3>
+        <h3 class="card-title my-3 text-start" style="font-size:18px;">For Personal Users</h3>
         <p class="card-text my-3 text-start fs-6" style="font-size:18px;">IDmelon security key as a service also allows you as an individual user to easily turn your smartphones into a security key and use it to protect your online accounts on a daily basis.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}individuals/quick-start/" class="stretched-link"></a>
       </div>
     </div>
-    <div class="card text-dark card-transition text-center bg-light my-2" style="width: 20rem;height:21rem;">
+    <div class="card text-dark card-transition text-center bg-light my-2 home-card-body" >
       <div class="card-body">
-        <h3 class="card-title my-3 text-lg-start" style="font-size:18px;">For Security Experts</h3>
+        <h3 class="card-title my-3 text-start" style="font-size:18px;">For Security Experts</h3>
         <p class="card-text my-3 text-start fs-6" style="font-size:18px;">In addition to all the security measures observed in the design and development of IDmelon solutions, the security details considered in the FIDO standard can also help you as a security expert to ensure the security of passwordless solutions based on FIDO, such as IDmelon.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}scrty/fido/" class="stretched-link"></a>
       </div>
@@ -45,7 +45,7 @@
 {{ end }}
 {{ define "sidebar-prefooter" }}
 {{ if eq $.Site.Language.LanguageName "English" }}
-  <section class="section section-sm">
+  <section class="section-sm">
     <div class="container">
       <div class="row justify-content-start row-cols-1 mb-5">
         <div class="text-center">
@@ -53,51 +53,54 @@
           <p class="lead text-start" style="font-size:18px;">You can connect your Mobile App to IDmelon Pairing Tool or you can use IDmelon Reader to experianace passwordless authentication.</p>
         </div>
       </div>
-      <div class="card mb-3 card-transition-2" style="max-width: 100%;">
-        <div class="row g-0">
-          <div class="col-md-2">
-            <img src="/images/vendor/Homepage/IDmelon-Mobile-App.svg" class="img-fluid rounded card-img-size">
-          </div>
-          <div class="col-md-12">
-            <div class="card-body pb-4 px-5">
-              <h3 class="card-title" style="font-size:18px;">IDmelon Moblie App</h3>
-              <p class="card-text pt-3 pb-3" style="font-size:18px;">Use your smartphones as a FIDO2 hardware security key and enjoy passwordless login experience with only a single tap or a single click on a push notification.
-              </p>
-              <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}mobileapp/ourmobileapp/" class="stretched-link"></a>
+      <div class="row">
+        <div class="mt-3">
+            <div class="card card-transition-2">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <img  src="/images/vendor/Homepage/IDmelon-Mobile-App.svg" alt="Card image cap" class="card-img-size">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title " style="font-size:18px;">IDmelon Moblie App</h4>
+                        <p class="card-text card-text-container" style="font-size:18px;">Use your smartphones as a FIDO2 hardware security key and enjoy passwordless login experience with only a single tap or a single click on a push notification.</p>
+                        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}mobileapp/ourmobileapp/" class="stretched-link"></a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="card mb-3 card-transition-2" style="max-width: 100%;">
-        <div class="row g-0">
-          <div class="col-md-2">
-            <img src="/images/vendor/Homepage/IDmelon-Pairing-Tool.svg" class="img-fluid rounded card-img-size">
-          </div>
-          <div class="col-md-12">
-            <div class="card-body pb-4 px-5">
-              <h3 class="card-title" style="font-size:18px;">IDmelon Pairing Tool</h3>
-              <p class="card-text pt-3 pb-3" style="font-size:18px;">A piece of software which acts as a completely hardware-less authentication method to ensure you, that you are the only one who can have authorized access through your smartphone.
-              </p>
-              <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}pairingtool/ourparigintool/" class="stretched-link"></a>
+    </div>
+    <div class="row">
+        <div class="mt-3">
+            <div class="card card-transition-2">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper ">
+                        <img  src="/images/vendor/Homepage/IDmelon-Pairing-Tool.svg" alt="Card image cap" class=" card-img-size">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size:18px;">IDmelon Pairing Tool</h3>
+                        <p class="card-text card-text-container" style="font-size:18px;">A piece of software which acts as a completely hardware-less authentication method to ensure you, that you are the only one who can have authorized access through your smartphone.</p>
+                        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}pairingtool/ourparigintool/" class="stretched-link"></a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="card mb-3 card-transition-2" style="max-width: 100%;">
-        <div class="row g-0">
-          <div class="col-md-2">
-            <img src="/images/vendor/Homepage/IDmelon-Reader.svg" class="img-fluid rounded card-img-size" >
-          </div>
-          <div class="col-md-12">
-            <div class="card-body pb-4 px-5">
-              <h3 class="card-title" style="font-size:18px;">IDmelon Reader</h3>
-              <p class="card-text pt-3 pb-3" style="font-size:18px;">A piece of hardware with different modes of operation to let you use your smartphones as a security key. Enjoy the passwordless login experience with a single tap with a smartphone on the reader. 
-              </p>
-              <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}readeguide/reader/" class="stretched-link"></a>
+    </div>
+    <div class="row">
+        <div class="mt-3">
+            <div class="card card-transition-2">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <img src="/images/vendor/Homepage/IDmelon-Reader.svg" alt="Card image cap" class=" card-img-size">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size:18px;">IDmelon Reader</h3>
+                        <p class="card-text card-text-container" style="font-size:18px;">A piece of hardware with different modes of operation to let you use your smartphones as a security key. Enjoy the passwordless login experience with a single tap with a smartphone on the reader.</p>
+                        <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}readeguide/reader/" class="stretched-link"></a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
     </div>
   </section>
   {{ end }}
