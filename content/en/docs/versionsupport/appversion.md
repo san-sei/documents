@@ -13,16 +13,16 @@ type: docs
 weight: 70
 ---
 
-### Paring Tool
+## Paring Tool
 
 IDmelon Pairing Tool is compatible with **windows 10 build 18362+** and **windows 11**.
 It is also compatible with **OSX 11.4** above.
 
-### Android App
+## Android App
 
 IDmelon Android application authenticator operates on **Android OS version 6+ (API 23+)**.
 
-### iOS App
+## iOS App
 
 IDmelon iOS application authenticator app operates on **iOS version 14+**.
 

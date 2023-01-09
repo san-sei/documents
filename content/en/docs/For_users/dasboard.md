@@ -16,7 +16,7 @@ toc: true
 Every user has 2 sections in their panel. On section is [SSO (Simple sign-on)](#sso-(simple-sign-on)) which enables them to login by using their active accounts and
 security keys. The other section is the [Dropdown menu](#dropdown-menu) which enables users to access their profile and settings.
 
-### SSO (Simple Sign-On)
+## SSO (Simple Sign-On)
 
 Every user has the **Simple Sign-On** option in their panel. By clicking this option, they can see **My Apps**. Inside **My Apps**, they can see a page the same as below.
 This option allows users to access the applications and websites which they can see in their panel by their own security keys.
@@ -31,7 +31,7 @@ By default, there is just Microsoft added to users' panel.
     <img src="/images/vendor/UserPanel/myappsu_2.png" class="doc-img-frame">
 </p>
 
-### Dropdown menu
+## Dropdown menu
 
 When you log in to your IDmelon panel, you can see your username on the top right of the panel with a small arrow pointing down.
 If you click on the arrow or your username, a **Dropdown** menu will be opened with 3 options. The first option is **Security**,
