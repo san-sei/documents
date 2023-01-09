@@ -15,13 +15,13 @@ toc: true
 
 **Note**: IDmelon Pairing Tool is supported by windows 10.
 
-### Perpare
+## Perpare
 
 To set up, you will need to:
 
 - Check your Internet connection on both your computer and your smartphone.
 
-### Pair
+## Pair
 
 To pair and use your smartphone as a security key with IDmelon Pairing Tool, follow below steps:
 
@@ -58,7 +58,7 @@ desired unlocking method on your smartphone.</li>
 **Note** : You have to take all the steps in the Pairing section for each mobile device.
 **Note** : One and only one mobile device can be connected at a time.
 
-### Disable smartphone as a FIDO2 key
+## Disable smartphone as a FIDO2 key
 
 You can disable your smartphone as a security key by cliking on the toggle button.
 
