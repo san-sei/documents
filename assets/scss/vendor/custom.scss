@@ -601,11 +601,18 @@ $tab-wrap-border-radius: 8px;
 }
 
 .nav-arr{
- stroke: #8ed6fb; 
+ stroke: $link-blue; 
  transition: all .3s ease-in-out;
  align-items: center;
  vertical-align: middle;
 }
+
+[data-dark-mode] .nav-arr{
+  stroke: $link-color-dark; 
+  transition: all .3s ease-in-out;
+  align-items: center;
+  vertical-align: middle;
+ }
 
 .doc-nav-btn-body:hover .nav-arr{
   stroke: white;
@@ -625,6 +632,7 @@ $tab-wrap-border-radius: 8px;
 
 .right-side-links h3.sidebar-link a:hover {
   text-decoration: underline;
+  border-left:1px solid $border-dark;
 }
 
 .right-side-links-body{
@@ -672,6 +680,7 @@ $tab-wrap-border-radius: 8px;
 
 [data-dark-mode] body .right-side-links a:hover {
   text-decoration: none;
+  border-left:1px solid $border-dark;
   color: $link-color-dark;
 }
 
