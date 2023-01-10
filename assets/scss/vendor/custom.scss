@@ -680,7 +680,6 @@ $tab-wrap-border-radius: 8px;
 
 [data-dark-mode] body .right-side-links a:hover {
   text-decoration: none;
-  border-left:1px solid $border-dark;
   color: $link-color-dark;
 }
 
@@ -742,9 +741,7 @@ $tab-wrap-border-radius: 8px;
 }
 
 .card-text-container{
-
   padding-right:24px;
-  
 }
 
 @include media-breakpoint-down(sm){
