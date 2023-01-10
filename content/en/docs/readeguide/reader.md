@@ -19,12 +19,14 @@ we will describe how the reader works in different modes and how you can switch 
 
 ## Hardware
 
+<hr class="hr-line">
 <p align="center">
     <img src="/images/vendor/ReaderGuide/reader_guide_1.png" class="doc-img-frame">
 </p>
 
 ## Basic Concepts
 
+<hr class="hr-line">
 IDmelon Reader supports 3 different working modes.
 Each mode has different capabilities and designed for a use case. Users can switch and choose their working mode according to their needs and use cases.
 

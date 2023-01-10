@@ -15,6 +15,8 @@ toc: true
 
 ## Access the IDmelon Admin Panel
 
+<hr class="hr-line">
+
 To access the IDmelon Admin Panel, navigate to the IDmelon Admin Panel [Here](https://panel.idmelon.com).
 Present your security key to experience a frictionless login, or create a workspace on behalf of your organization if it is your first try.
 
@@ -24,6 +26,7 @@ Present your security key to experience a frictionless login, or create a worksp
 
 ## Create Workspace
 
+<hr class="hr-line">
 If it is the first time that you are here to create a new workspace on behalf of your organization, click the “Create one!” to see the page below:
 
 <p align="center">

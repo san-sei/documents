@@ -683,6 +683,18 @@ $tab-wrap-border-radius: 8px;
   color: $link-color-dark;
 }
 
+.hr-line{
+  color: $border-dark;
+  width: 70%;
+  height:20px;
+}
+
+[data-dark-mode] .hr-line{
+  color: $gray-200;
+  width: 70%;
+  height:1px;
+}
+
 .right-side-links h3{
   text-transform: uppercase;
   font-size: $font-size-base;

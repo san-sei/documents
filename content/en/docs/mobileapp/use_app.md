@@ -29,11 +29,12 @@ After users complete the setup, they will be able to access Microsoft, Office 36
 
 There are two ways to get started with IDmelon Mobile App:
 
-1. [Personal users](#psersonal-users)
-2. [Business users](#business-users)
+- [Personal users](#psersonal-users)
+- [Business users](#business-users)
 
 ## Personal users
 
+<hr class="hr-line">
 <ol>
 <li>To activate your security key, go ahead and tap on <span style="font-weight:bold;">Personal</span> in this page and in the next page
 enter your email address.</li>
@@ -95,6 +96,7 @@ key. After finishing your configuration, click on <span style="font-weight:bold;
 
 ## Business users
 
+<hr class="hr-line">
 <ol>
 <li>To activate your security key, go ahead and tap on <span style="font-weight:bold;">Business / School</span>.</li>
 <p align="center">
@@ -146,6 +148,7 @@ If you did not receive any code, tap on **Resend**.
 
 ## Pair with a new PC
 
+<hr class="hr-line">
 To use IDmelon Mobile App in combination with IDmelon Pairing Tool without the need for any hardware, download IDmelon Pairing Tool [here](#https://www.idmelon.com/download/) and follow below steps:
 <ol>
 <li>Open IDmelon app on your smartphone, go to the setting and click on the Pair with a New PC.</li>
@@ -158,6 +161,7 @@ on your smartphone</li>
 
 ## Add a Key to IDmelon Authenticator
 
+<hr class="hr-line">
 You can add the following platforms to your securiy key.
 
 ### Windows Login

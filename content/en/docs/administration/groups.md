@@ -23,6 +23,8 @@ They can also add new groups by clicking on the **New Group** button on the top 
 
 ## Create new group
 
+<hr class="hr-line">
+
 - If you click on the **New Group** button, you will see the page below, which requires you to write the group's name.
 
 - Writing the group's description is optional.
@@ -35,6 +37,8 @@ They can also add new groups by clicking on the **New Group** button on the top 
 
 ## Assign new users
 
+<hr class="hr-line">
+
 - This page requires you to assign users to the group that you are creating.
 
 - If you want to add users to a group, simply click on the " + " which is right next to the name of each user.
@@ -46,6 +50,8 @@ They can also add new groups by clicking on the **New Group** button on the top 
 </p>
 
 ## Review and confirm
+
+<hr class="hr-line">
 
 - In this page, you can review and submit the group's data. You can also edit the group by clicking on the **pencil** image.
 

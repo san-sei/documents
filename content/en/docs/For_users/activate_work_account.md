@@ -18,6 +18,8 @@ address to activate your work account. From then on, you will be able to use you
 
 ## Preparation
 
+<hr class="hr-line">
+
 - First you have to install IDmelon Mobile App from [App Store](#https://apps.apple.com/ca/app/idmelon/id1511376376) or [Google Play](https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&pli=1).
 
 - After installing the app, open it to see the page below..
@@ -29,6 +31,8 @@ address to activate your work account. From then on, you will be able to use you
 </p>
 
 ## Activation
+
+<hr class="hr-line">
 
 - In this page, enter your email and click "Send verification email".
 
@@ -61,6 +65,8 @@ address to activate your work account. From then on, you will be able to use you
 </p>
 
 ## Confirmation
+
+<hr class="hr-line">
 
 - In this page, tap on **Approve** in order to activate your security key on your smartphone.
 

@@ -18,12 +18,15 @@ from pairing tool by doing the following steps:
 
 ## Prerequisite for OBR
 
+<hr class="hr-line">
+
 - User must install IDmelon Authenticator app on his smartphone.
 
 - User security key status must be active in administration panel (Admin must add the user to the panel via invitation email and user must accept the invitation)
 
 ## OBR steps
 
+<hr class="hr-line">
 <ol>
 <li> Admin opens Pairing Tool, presses Cntl+I to choose Login as an Admin.</li>
 <p align="center">
