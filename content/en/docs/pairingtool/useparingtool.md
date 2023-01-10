@@ -17,12 +17,14 @@ toc: true
 
 ## Perpare
 
+<hr class="hr-line">
 To set up, you will need to:
 
 - Check your Internet connection on both your computer and your smartphone.
 
 ## Pair
 
+<hr class="hr-line">
 To pair and use your smartphone as a security key with IDmelon Pairing Tool, follow below steps:
 
 <ol>
@@ -54,12 +56,12 @@ Having been paired with your smartphone successfully, your computer shows the mo
 desired unlocking method on your smartphone.</li>
 
 <li>Enjoy!</li>
-
 **Note** : You have to take all the steps in the Pairing section for each mobile device.
 **Note** : One and only one mobile device can be connected at a time.
 
 ## Disable smartphone as a FIDO2 key
 
+<hr class="hr-line">
 You can disable your smartphone as a security key by cliking on the toggle button.
 
 <p align="center">

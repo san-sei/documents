@@ -21,10 +21,12 @@ valuable data and information assets. In the following, we describe what standar
 
 ## Information Security Management System (ISO/IEC 27001)
 
+<hr class="hr-line">
 IDmelon has started establishing and implementing the ISO/IEC 27001 standard a while back. We follow the PDCA cycle annually to be as have flawless ISMS as possible.
 
 ## NIST Special Publication 800 series
 
+<hr class="hr-line">
 The NIST SP 800 series is a set of documents that describe security guidelines for US federal government agencies. IDmelon as a private organization is not bound to NIST SP
 800 series, but we already adopted few of the standards contained therein as part of our business practices which includes the following:
 
@@ -37,11 +39,13 @@ The NIST SP 800 series is a set of documents that describe security guidelines f
 
 ## GDPR for Data Privacy
 
+<hr class="hr-line">
 The GDPR aims to protect the personal data of all people in the European Union. Due to IDmelon presence in European market, we outlined the standards set by the GDPR to
 provide a checklist to start implementing the requirements to remain compliant.
 
 ## Information Security Maturity Model
 
+<hr class="hr-line">
 Information security maturity models, are frameworks and best practices for evaluating and improving cybersecurity. Their main purpose is to help organizations to evaluate
 and make improvements to their cybersecurity programs and strengthen their operational resilience. The IDmelon security team selected C2M2 (Cybersecurity Capability Maturity
 Model) as the base model for evaluation of information security maturity. However, implementing ISO/IEC 27001 and also using NIST 800-53 as a supplementary control set, lead

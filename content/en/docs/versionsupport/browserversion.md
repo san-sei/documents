@@ -17,6 +17,8 @@ Browser support for WebAuthn is constantly improving. You can find an overview o
 
 ## Version Table
 
+<hr class="hr-line">
+
 <div class="tableV2">
 <table class="tableV2">
         <thead class="theadV2">
@@ -77,6 +79,8 @@ Browser support for WebAuthn is constantly improving. You can find an overview o
 </style>
 
 ## Read more
+
+<hr class="hr-line">
 
 - [Fido Aliance](https://fidoalliance.org/fido2/fido2-web-authentication-webauthn/)
 

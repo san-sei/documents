@@ -22,6 +22,7 @@ The first step is to add a single user or import users in bulk from Azure AD or 
 
 ## Add single user
 
+<hr class="hr-line">
 At the top left, choose “New User -> Add a user” to open the wizard below.
 
 Enter the user’s information and click Next.
@@ -93,6 +94,7 @@ a PIN for the security key.
 
 ## Import from a CSV file
 
+<hr class="hr-line">
 At the top left, click **Import users -> Import from a CSV fil** to open the wizard below.
 
 Then click “Select” to choose and upload a CSV file from which you want to import users.
@@ -118,6 +120,7 @@ When you see the below page, you can click "Confirm" to add all the users.
 
 ## Import from Azure AD
 
+<hr class="hr-line">
 At the top left, click **Import users -> Import from Azure AD** to open the wizard below.
 
 Then click **Select Group(s)** which is placed under **Groups in Azure AD**, and you can see a list of groups.

@@ -63,9 +63,10 @@ Source:
 
 (function(){
 
+
   var index = new FlexSearch.Document({
     tokenize: "forward",
-    cache: 100,
+    cache: 150,
     document: {
       id: 'id',
       store: [
@@ -93,7 +94,6 @@ Source:
   */
 
   // https://discourse.gohugo.io/t/range-length-or-last-element/3803/2
-
   {{ $list := (where .Site.Pages "Section" "docs") -}}
   {{ $len := (len $list) -}}
 
@@ -116,10 +116,31 @@ Source:
     {{ end -}}
   ;
 
+  /*{{if .Site.Home.IsHome -}}
+  {{$idx:=1 -}}
+  index.add(
+  {{range .Site.Pages -}}
+    {
+      id:{{$idx}},
+      href: "{{ .RelPermalink }}",
+        title: {{ .Title | jsonify }},
+        {{ with .Description -}}
+          description: {{ . | jsonify }},
+        {{ else -}}
+          description: {{ .Summary | plainify | jsonify }},
+        {{ end -}}
+        content: {{ .Plain | jsonify }}
+    })
+    {{add $idx 1 -}}
+  {{end -}}
+  ;
+  {{end }}*/
+  
+  
   search.addEventListener('input', show_results, true);
 
   function show_results(){
-    const maxResult = 5;
+    const maxResult = 10;
     var searchQuery = this.value;
     var results = index.search(searchQuery, {limit: maxResult, enrich: true});
 

@@ -36,6 +36,8 @@ If you want to add a new list item to this list, simply click on **New List**.
 
 ## IP List
 
+<hr class="hr-line">
+
 - If you have chosen **IP** in the previous section, add a new IP by clicking on the "+" on the top right of the page.
 
 <p align="center">
@@ -58,6 +60,8 @@ If you want to add a new list item to this list, simply click on **New List**.
 
 ## Device List
 
+<hr class="hr-line">
+
 - If you have chosen **Devices**, you can select a new device by clicking on the Devices dropdown menu.
 
 - Click on **Confirm** when you are done.
@@ -67,6 +71,8 @@ If you want to add a new list item to this list, simply click on **New List**.
 </p>
 
 ## RP List
+
+<hr class="hr-line">
 
 - If you have chosen **RP**, then in the page below, add a new **RP** by clicking on the "+" on the top right of the page.
 
@@ -83,6 +89,8 @@ If you want to add a new list item to this list, simply click on **New List**.
 </p>
 
 ## Time List
+
+<hr class="hr-line">
 
 - If you have chosen **Time**, then in the page below, add a new **Time** by clicking on the "+" on the top right of the page.
 

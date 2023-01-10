@@ -15,8 +15,10 @@ toc: true
 
 ## What is IDmelon Key ?
 
+<hr class="hr-line">
 IDmelon Key is a PIN-protected USB security key that allows you to log into computers, online services, or all FIDO2 supported platforms without a password.
 
 ## Who is it for ?
 
+<hr class="hr-line">
 Everyone can use it, but it is ideal for users who are not willing to use their smartphones at work, or workplaces in which smartphone usage is restricted.

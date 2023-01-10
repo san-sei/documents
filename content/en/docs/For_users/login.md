@@ -20,6 +20,8 @@ after openning IDmelon panel, you will see the image below, which shows multiple
 
 ## Login page
 
+<hr class="hr-line">
+
 - You can login by clicking on "Sign in with a security key", for this one to work, you need to have IDmelon mobile app installed on your phone with either
 a Reader or Pairing Tool installed on your computer or you can also use a FOB to tap and log in.
 
@@ -31,6 +33,8 @@ a Reader or Pairing Tool installed on your computer or you can also use a FOB to
 
 ## Sign in with a security key
 
+<hr class="hr-line">
+
 - After clicking "Sign in with a security key", a wizard will be shown to you by your OS and asks you to touch your security key.
 
 - If the steps are successfully taken, you will be logged in and able to see your panel.
@@ -40,6 +44,8 @@ a Reader or Pairing Tool installed on your computer or you can also use a FOB to
 </p>
 
 ## Sign-in options
+
+<hr class="hr-line">
 
 - If you click "Sign-in options", you will be asked to enter your email. After that, click on Next.
 

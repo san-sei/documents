@@ -15,6 +15,7 @@ toc: true
 
 ## Workspace
 
+<hr class="hr-line">
 In this page, administrators can see the information related to their workspace and their company address.
 You can simply edit the information in this page by clicking on the **Pencil** button on the top right of each section of this page.
 
@@ -24,6 +25,7 @@ You can simply edit the information in this page by clicking on the **Pencil** b
 
 ## Admins
 
+<hr class="hr-line">
 The first admin who creates a workspace can add as many admins as necessary to help manage the users in the workspace by selecting **New Admin** button in **Admins** section
 under **Settings**.
 
