@@ -59,7 +59,16 @@ a.docs-link {
   color: $body-color;
   display: block;
   padding: 0.125rem 0;
-  font-size: $font-size-base;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+@include media-breakpoint-down(sm) {
+  color: $body-color;
+  display: block;
+  padding: 0.125rem 0;
+  font-size: 13px;
+  font-weight: normal;
 }
 
 .page-links li {

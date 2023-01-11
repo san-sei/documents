@@ -17,6 +17,7 @@ When using IDmelon security key as a service, contactless cards can be used as a
 ## Activation by admin
 
 <hr class="hr-line">
+
 In case of activating the card by admin, you receive an email containing a PIN number and you can use your card right away.
 
 <p align="center">

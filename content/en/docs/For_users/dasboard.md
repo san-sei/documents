@@ -19,6 +19,7 @@ security keys. The other section is the [Dropdown menu](#dropdown-menu) which en
 ## SSO (Simple Sign-On)
 
 <hr class="hr-line">
+
 Every user has the **Simple Sign-On** option in their panel. By clicking this option, they can see **My Apps**. Inside **My Apps**, they can see a page the same as below.
 This option allows users to access the applications and websites which they can see in their panel by their own security keys.
 
@@ -35,6 +36,7 @@ By default, there is just Microsoft added to users' panel.
 ## Dropdown menu
 
 <hr class="hr-line">
+
 When you log in to your IDmelon panel, you can see your username on the top right of the panel with a small arrow pointing down.
 If you click on the arrow or your username, a **Dropdown** menu will be opened with 3 options. The first option is **Security**,
 the second is **Profile Info**, and the third is **Logout**.

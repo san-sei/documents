@@ -20,6 +20,7 @@ The second type includes security key devices which consist of any devices that 
 ## Azure AD connected devices
 
 <hr class="hr-line">
+
 Reach out to this section if you want to import already-joined PCs from Azure AD.
 The imported PCs can later be used in “Security Key Policies” to limit access to specific devices.
 To join and list Azure AD connected PCs, the only required step is providing enough permission.
@@ -41,6 +42,7 @@ To import devices, click on **Import Azure AD-Connected Devices**, then you will
 ## Security key devices
 
 <hr class="hr-line">
+
 This section lists devices that users have set as their security keys which contains smartphones or Contactless Cards.
 An admin can delete a device which disconnects its corresponding security key.
 

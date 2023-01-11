@@ -16,6 +16,7 @@ toc: true
 ## Discover working Mode
 
 <hr class="hr-line">
+
 You can discover the working mode of the reader by observing the color of the LED, at the time you insert the hardware into the USB port.
 Once the hardware is plugged into USB, the LED flashes once on the colors of green, blue, or white.
 
@@ -31,6 +32,7 @@ the IDmelon USB key is ready to work in a new mode.
 ## Switching between working modes
 
 <hr class="hr-line">
+
 You can switch between the different mentioned working modes by pressing and keeping the push button for 3 seconds. Switching to a new mode depends on the current mode.
 You can only switch from “security Key mode” to “reader mode” or “paired mode”, and when the reader is in “paired mode” or “reader mode”,
 you can only switch to “security key mode".

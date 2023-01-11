@@ -16,6 +16,7 @@ toc: true
 ## What is IDmelon ?
 
 <hr class="hr-line">
+
 IDmelon provides you with passwordless authentication services for both personal and business purposes.
 With IDmelon, everyone can use their iPhone or Android smartphone, Key FOB, or Access Card as a FIDO2 security key, so that they no longer need a password to log into their
 laptop/desktop and online services/accounts such as Microsoft, Office 365, GitHub, or any other FIDO2 supported platforms.
@@ -28,6 +29,7 @@ Access Card, Key FOB or smartphone.
 ## How secure is IDmelon ?
 
 <hr class="hr-line">
+
 Using passwords for authentication will cause many threats to users. FIDO authentication protocol removes passwords and their related threats by providing users a simpler
 passwordless login experience. IDmelon as a pioneer, implements smartphones as a security key based on [FIDO](/docs/scrty/fido/). To ensure that this solution is more
 secure, despite the security considerations in FIDO (described [here](/docs/scrty/fido/)), IDmelon has also considered and implemented many security controls to increase the
@@ -36,6 +38,7 @@ level of confidence for its users which is described in [IDmelon security](/docs
 ## How is IDmelon different from security keys on the market?
 
 <hr class="hr-line">
+
 IDmelon eliminates the burden of carrying an extra physical object, i.e. a security key, around all the time which is cumbersome, unnatural and at a serious risk of being
 lost, stolen, damaged or left behind. IDmelon offers a great user experience by enabling users to use whatever they have as a FIDO security key; be it their ubiquitous
 smartphones which are rarely out of sight or a Key FOB or an Access Card for a great tap-n-login experience.
@@ -47,10 +50,12 @@ And most importantly, the IDmelon Admin Panel allows enterprises to monitor and 
 ## How is IDmelon different from from other smartphone-based authentication solutions ?
 
 <hr class="hr-line">
+
 In addition to management panel, IDmelon allows users to share a PC by a single tap of their smartphones on an IDmelon Reader to go login without having to pair their
 smartphones with the PC via Bluetooth.
 
 ## Is there a standalone IDmelon app for smarth watches ?
 
 <hr class="hr-line">
+
 Not yet.

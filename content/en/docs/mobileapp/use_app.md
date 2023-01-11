@@ -149,7 +149,9 @@ If you did not receive any code, tap on **Resend**.
 ## Pair with a new PC
 
 <hr class="hr-line">
+
 To use IDmelon Mobile App in combination with IDmelon Pairing Tool without the need for any hardware, download IDmelon Pairing Tool [here](#https://www.idmelon.com/download/) and follow below steps:
+
 <ol>
 <li>Open IDmelon app on your smartphone, go to the setting and click on the Pair with a New PC.</li>
 <li>Open IDmelon Pairing Tool on your computer and click on the pair a new smartphone.</li>
@@ -162,6 +164,7 @@ on your smartphone</li>
 ## Add a Key to IDmelon Authenticator
 
 <hr class="hr-line">
+
 You can add the following platforms to your securiy key.
 
 ### Windows Login

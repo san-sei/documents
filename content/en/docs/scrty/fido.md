@@ -16,6 +16,7 @@ toc: true
 ## What is FIDO?
 
 <hr class="hr-line">
+
 FIDO is an open authentication protocol to eliminate passwords and their related security threats. To use FIDO, user first must complete the registration process and
 selecting the method of authentication (biometric factor). Then users can log into FIDO supported products or services by only providing a biometric factor which can be a
 fingerprint, face ID (look in the camera), or entering a PIN. It depends on the available capabilities of users’ smartphone and methods the product or service can handle.
@@ -25,6 +26,7 @@ even noticed. For more information about FIDO, you can visit FIDO alliance [here
 ## FIDO security
 
 <hr class="hr-line">
+
 Passwords are hard to remember, need to be changed frequently and also need resources when reset required. The FIDO2 helps stop the password chaos and improve the user
 experience. It uses standard public key cryptography to secure user authentication by encrypting all communications. Private keys and biometric information if used to
 authenticate never leave users’ devices, which lessens the chances of discovering them during transmission and makes authentication processes stronger and more secure.

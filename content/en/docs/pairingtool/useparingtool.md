@@ -18,6 +18,7 @@ toc: true
 ## Perpare
 
 <hr class="hr-line">
+
 To set up, you will need to:
 
 - Check your Internet connection on both your computer and your smartphone.
@@ -62,6 +63,7 @@ desired unlocking method on your smartphone.</li>
 ## Disable smartphone as a FIDO2 key
 
 <hr class="hr-line">
+
 You can disable your smartphone as a security key by cliking on the toggle button.
 
 <p align="center">

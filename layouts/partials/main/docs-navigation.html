@@ -1,26 +1,26 @@
 {{ if or .Prev .Next -}}
-	<div class="docs-navigation d-flex justify-content-between">
+	<div id="bottom-nav" class="docs-navigation justify-content-between">
 	<!-- https://www.feliciano.tech/blog/custom-sort-hugo-single-pages/ -->
 	{{ $pages := where site.RegularPages "Section" .Section -}}
 	{{ with $pages.Next . -}}
-		<a style="text-decoration:none" href="{{ .RelPermalink }}">
+		<a style="text-decoration:none;width:fit-content;" href="{{ .RelPermalink }}">
 			<div class="card">
-				<div class="doc-nav-btn-body">	
-					<svg width="18" height="18" style="margin-right:4px;" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav-arr">
+				<div id="prev" class="doc-nav-btn-body justify-content-start" >	
+					<svg width="18" height="18" class=" nav-arr" style="margin-right:4px;" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M9.57 5.93005L3.5 12.0001L9.57 18.0701"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 						<path d="M20.4999 12H3.66992"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 					</svg>
-					{{ .Title }}
+					<span>{{ .Title }}</span>
 				</div>
 			</div>
 		</a>
 	{{ end -}}
 	{{ with $pages.Prev . -}}
-		<a style="text-decoration:none" class="ms-auto" href="{{ .RelPermalink }}">
+		<a style="text-decoration:none;width:fit-content;" class="ms-auto" href="{{ .RelPermalink }}">
 			<div class="card">
-				<div class="doc-nav-btn-body">
-					{{ .Title }}
-					<svg width="18" height="18" style="margin-left:2px;" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav-arr">
+				<div id="next" class="doc-nav-btn-body justify-content-end">
+					<span>{{ .Title }}</span> 
+					<svg width="18" height="18" class=" nav-arr" style="margin-left:2px;" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M14.4299 5.93005L20.4999 12.0001L14.4299 18.0701" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 						<path d="M3.5 12H20.33" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 					</svg>
@@ -30,3 +30,34 @@
 	{{ end -}}
 	</div>
 {{ end -}}
+
+<script>
+	window.onload = function(){
+		var nav = document.getElementById("bottom-nav");
+		if (window.innerWidth <= 650){
+			nav.classList.add("row");
+			nav.classList.remove("d-flex");
+		}
+		else{
+			nav.classList.add("d-flex");
+			nav.classList.remove("row");
+		}
+	}
+
+	addEventListener("resize",event=>{
+		var nav = document.getElementById("bottom-nav");
+		if(window.innerWidth >= 651){
+			nav.classList.add("d-flex");
+			nav.classList.remove("row");
+		}
+		else if (window.innerWidth <= 650){
+			nav.classList.add("row");
+			nav.classList.remove("d-flex");
+		}
+		else{
+			nav.classList.add("d-flex");
+			nav.classList.remove("row");
+		}	
+	})
+
+</script>
