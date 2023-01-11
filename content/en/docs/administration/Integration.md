@@ -23,6 +23,7 @@ IDmelon are : Azure AD, Pingidentity, Duo, Okta, Onelogin, Cyberark, Google Work
 ## Service Provider (SP)
 
 <hr class="hr-line">
+
 A service provider (SP) is a company that provides organizations with consulting, legal, real estate, education, communications, storage, processing, and many other
 services. Although the term service provider can refer to organizational sub-units, it is more generally used to refer to third party or outsourced suppliers, including
 communication service providers, application service providers,storage service providers, and Internet service providers. Service Provider (SP) initiated SSO involves the SP
@@ -32,6 +33,7 @@ from the IdP. This flow would typically be initiated by a login button within th
 ## Idnetity Provider (IDP)
 
 <hr class="hr-line">
+
 An identity provider (IdP) is a service that stores and manages digital identities. Companies use these services to allow their employees or users to connect with the
 resources they need. They provide a way to manage access, adding or removing privileges, while security remains tight. Identity Provider (IdP) initiated SSO involves the
 user clicking on a button in the IdP, and then being forwarded to an SP along with a SAML message containing an assertion. This flow would typically be initiated by a page
@@ -42,6 +44,7 @@ experiance passwordless authentication to services that they need.
 ## SCIM
 
 <hr class="hr-line">
+
 SCIM stands for System for Cross-Domain Identity Management. SCIM links systems for the purpose of managing identities in applications and services which are cloud-based in
 a more streamlined and secure way. It is a standard for automating the exchange of user identity information between identity domains, or IT systems. SCIM consists of
 standardized HTTP points and a RESTful API to run CRUD operations on users and groups sources. Employees use SCIM for everything from customer relationship management to
@@ -50,6 +53,7 @@ team collaboration.
 ## JIT
 
 <hr class="hr-line">
+
 **JIT stands for Just in Time Provisioning**. It is a method for automating user account creation. It recieves information from IDPs and sends to SPs via SAML. This enables
 adminstrators to create accounts for their users automatically. **Just in Time (JIT) Provisioning** is used to create users the first time they log in to an application via
 a third-party identity provider JIT provisioning eliminates the need to provision users or create user accounts manually. JIT Provisioning is independent of the SSO protocol
@@ -58,6 +62,7 @@ used by service providers but it’s vital to note that for this approach to wor
 ## Integration Process
 
 <hr class="hr-line">
+
 Adminstrators can **integrate with a new identity provider** using IDmelon administration panel in multiple ways that are provided by IDmelon. They can add SSO configuration
 manually or automatically. In case of automatic SSO configuration, we will show administrators a guide on how to configurate, however, **it has to be noted that automatic
 SSO configuration, can only be done for services which are suported by IDmelon**.If they choose manual configuration, they have to visit the SP's documents to be guided

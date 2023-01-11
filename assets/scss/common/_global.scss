@@ -25,7 +25,55 @@ h6,
 .h4,
 .h5,
 .h6 {
-  margin: 2rem 0 1rem;
+  margin: 16px 0;
+}
+
+h1,
+.h1 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+h2,
+.h2 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+h3,
+.h3 {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+h4,
+.h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h5,
+.h5 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+a,
+.a {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+p,
+.p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+p,
+.lead {
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .offcanvas-header {
@@ -63,13 +111,13 @@ body.docs {
   .h4,
   .h5,
   .h6 {
-    margin-bottom: 1.125rem;
+    margin-bottom: 16px;
   }
 }
 
 .home h1 {
   /* font-size: calc(1.375rem + 1.5vw); */
-  font-size: calc(1.875rem + 1.5vw);
+  font-size: 32px;
 }
 
 a:hover,
@@ -188,7 +236,8 @@ body {
 }
 
 .docs-navigation a {
-  font-size: $font-size-base * 0.9;
+  // font-size: $font-size-base * 0.9;
+  font-size: 16px;
 }
 
 @include media-breakpoint-up(lg) {
@@ -197,7 +246,8 @@ body {
   }
 
   .docs-navigation a {
-    font-size: $font-size-base;
+    // font-size: $font-size-base;
+    font-size: 18px;
   }
 }
 
@@ -268,5 +318,55 @@ body {
 @include media-breakpoint-up(md) {
   .modal-backdrop.show {
     opacity: 0;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  h1,
+  .h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  h2,
+  .h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  h3,
+  .h3 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  h4,
+  .h4 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  h5,
+  .h5 {
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  p,
+  .p {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  p,
+  .lead {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  a,
+  .a {
+    font-size: 13px;
+    font-weight: normal;
   }
 }

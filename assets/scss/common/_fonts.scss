@@ -1,101 +1,101 @@
-/* Poppins regular */
+/* Roboto regular */
 @font-face {
-  font-family: Poppins;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src:
-    // Google Fonts Poppins
-    local("Poppins Regular"),   // Full Name
-    local("Poppins-Regular"),   // PostScript name
-    // indestructible Poppins*
-    local("Poppins* Book"),
-    local("Poppins-Book"),
-    url("fonts/vendor/Poppins/Poppins-Regular.ttf") format("truetype"),
-    url("fonts/vendor/Poppins/Poppins-Regular.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    // Google Fonts Roboto
+    local("Roboto Regular"),   // Full Name
+    local("Roboto-Regular"),   // PostScript name
+    // indestructible Roboto*
+    local("Roboto* Book"),
+    local("Roboto-Book"),
+    url("fonts/vendor/roboto/Roboto-Regular.ttf") format("truetype"),
+    url("fonts/vendor/roboto/Roboto-Regular.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* Poppins-500 */
+/* Roboto-500 */
 @font-face {
-  font-family: Poppins;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src:
-    // Google Fonts Poppins
-    local("Poppins Regular Medium"),
-    local("Poppins-Medium"),
-    // indestructible Poppins*
-    local("Poppins* Medium"),
-    local("Poppins-Medium"),
-    url("fonts/vendor/Poppins/Poppins-Medium.ttf") format("truetype"),
-    url("fonts/vendor/Poppins/Poppins-Medium.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    // Google Fonts Roboto
+    local("Roboto Regular Medium"),
+    local("Roboto-Medium"),
+    // indestructible Roboto*
+    local("Roboto* Medium"),
+    local("Roboto-Medium"),
+    url("fonts/vendor/roboto/Roboto-Medium.ttf") format("truetype"),
+    url("fonts/vendor/roboto/Roboto-Medium.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* Poppins-700 - latin */
+/* Roboto-700 - latin */
 @font-face {
-  font-family: Poppins;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src:
-    // Google Fonts Poppins
-    local("Poppins Regular Bold"),
-    local("Poppins-Bold"),
-    // indestructible Poppins*
-    local("Poppins* Bold"),
-    local("Poppins-Bold"),
-    url("fonts/vendor/Poppins/Poppins-Bold.ttf") format("truetype"),
-    url("fonts/vendor/Poppins/Poppins-Bold.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    // Google Fonts Roboto
+    local("Roboto Regular Bold"),
+    local("Roboto-Bold"),
+    // indestructible Roboto*
+    local("Roboto* Bold"),
+    local("Roboto-Bold"),
+    url("fonts/vendor/roboto/Roboto-Bold.ttf") format("truetype"),
+    url("fonts/vendor/roboto/Roboto-Bold.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* Poppins-italic */
+/* Roboto-italic */
 @font-face {
-  font-family: Poppins;
+  font-family: Roboto;
   font-style: italic;
   font-weight: 400;
   font-display: swap;
   src:
-    // Google Fonts Poppins
-    local("Poppins Italic Italic"),
-    local("Poppins-Italic"),
-    // indestructible Poppins*
-    local("Poppins* BookItalic"),
-    local("Poppins-BookItalic"),
-    url("fonts/vendor/Poppins/Poppins-Italic.ttf") format("truetype"),
-    url("fonts/vendor/Poppins/Poppins-Italic.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    // Google Fonts Roboto
+    local("Roboto Italic Italic"),
+    local("Roboto-Italic"),
+    // indestructible Roboto*
+    local("Roboto* BookItalic"),
+    local("Roboto-BookItalic"),
+    url("fonts/vendor/roboto/Roboto-Italic.ttf") format("truetype"),
+    url("fonts/vendor/roboto/Roboto-Italic.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* Poppins-500italic - latin */
+/* Roboto-500italic - latin */
 @font-face {
-  font-family: Poppins;
+  font-family: Roboto;
   font-style: italic;
   font-weight: 500;
   font-display: swap;
   src:
-    // Google Fonts Poppins
-    local("Poppins Italic Medium Italic"),
-    local("PoppinsItalic-Medium"),
-    // indestructible Poppins*
-    local("Poppins* Medium Italic"),
-    local("Poppins-MediumItalic"),
-    url("fonts/vendor/Poppins/Poppins-MediumItalic.ttf") format("truetype"),
-    url("fonts/vendor/Poppins/Poppins-MediumItalic.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    // Google Fonts Roboto
+    local("Roboto Italic Medium Italic"),
+    local("RobotoItalic-Medium"),
+    // indestructible Roboto*
+    local("Roboto* Medium Italic"),
+    local("Roboto-MediumItalic"),
+    url("fonts/vendor/roboto/Roboto-MediumItalic.ttf") format("truetype"),
+    url("fonts/vendor/roboto/Roboto-MediumItalic.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* Poppins-700italic - latin */
+/* Roboto-700italic - latin */
 @font-face {
-  font-family: Poppins;
+  font-family: Roboto;
   font-style: italic;
   font-weight: 700;
   font-display: swap;
   src:
-    // Google Fonts Poppins
-    local("Poppins Italic Bold Italic"),
-    local("PoppinsItalic-Bold"),
-    // indestructible Poppins*
+    // Google Fonts Roboto
+    local("Roboto Italic Bold Italic"),
+    local("RobotoItalic-Bold"),
+    // indestructible Roboto*
     local("Poppins* Bold Italic"),
     local("Poppins-BoldItalic"),
-    url("fonts/vendor/Poppins/Poppins-BoldItalic.ttf") format("truetype"),
-    url("fonts/vendor/Poppins/Poppins-BoldItalic.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/roboto/Roboto-BoldItalic.ttf") format("truetype"),
+    url("fonts/vendor/roboto/Roboto-BoldItalic.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

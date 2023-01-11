@@ -22,6 +22,7 @@ Each organization may want to have a variety of authentication policies for diff
 ## Create new policy
 
 <hr class="hr-line">
+
 The first step is setting a default policy to **Allow** or **Block** using the **Default Policy** button. Then, the **New Policy** button can be used to add a new policy in four following steps:
 
 ### Policy Name, Description and Priority

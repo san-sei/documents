@@ -27,6 +27,7 @@ Present your security key to experience a frictionless login, or create a worksp
 ## Create Workspace
 
 <hr class="hr-line">
+
 If it is the first time that you are here to create a new workspace on behalf of your organization, click the “Create one!” to see the page below:
 
 <p align="center">

@@ -16,6 +16,7 @@ toc: true
 ## Requirements
 
 <hr class="hr-line">
+
 IDmelon uses a lightweight desktop application (named Pairing Tool) that will help you to pair your smartphone with your PC quickly by scanning a QR code.
 
 - Install IDmelon app on your smartphone from App Store or Google Play.
@@ -33,6 +34,7 @@ Windows 10 (or higher)             |  Mac OS
 ## Set up a security key
 
 <hr class="hr-line">
+
 When running the app for the first time you will be asked to enter an email to create (or open) your security key. We encourage you to use a personal email (not business) if you want to protect your personal account with this security key.
 
 ## Pair your smartphone with PC
@@ -55,6 +57,7 @@ When running the app for the first time you will be asked to enter an email to c
 ## Login with Security key
 
 <hr class="hr-line">
+
 Now that you have paired your smartphone with your PC, you are all set to add this security key to your online accounts such as Office 365, Github, Facebook, Twitter and much more.
 Here we'll help you going through adding security to Microsoft Office 365.
 
@@ -91,4 +94,5 @@ To see how it works:
 ## Other accounts
 
 <hr class="hr-line">
+
 In the same way, you can protect all other FIDO-enabled account using security key by visiting security option of your online account.
