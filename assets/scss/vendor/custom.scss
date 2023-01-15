@@ -802,163 +802,156 @@ $tab-wrap-border-radius: 8px;
 }
 
 /*Faq*/
-
-.bg-teal-light-3 {
-    background-color: #7fcdc1 !important;
+.accordion{
+  border: none;
+  background: transparent;
 }
 
-.hk-row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -10px;
-    margin-left: -10px;
+.accordion-item {
+  border: none;
+  background: transparent;
 }
 
-@media (min-width: 576px){
-    .mt-sm-60 {
-        margin-top: 60px !important;
-    }
+.accordion-header{
+  border: none;
 }
 
-.mt-30 {
-    margin-top: 30px !important;
+.accordion-button:not(.collapsed) {
+  background-color:transparent;
+  border: 1px solid #ececec;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: none;
+  color : $link-color;
+
 }
 
-.list-group-item.active {
-    background-color: #00acf0;
-    border-color: #00acf0;
+.accordion-button.collapsed {
+  border: 1px solid #ececec;
+  border-radius: 8px;
 }
 
-.accordion .card .card-header.activestate {
-    border-width: 1px;
+.accordion-button::after{
+  content: none;
 }
 
-.accordion .card .card-header {
-    padding: 0;
-    border-width: 0;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.2.0/css/ionicons.min.css");
+.accordion-button::before{
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 18px/1 'Ionicons';
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f158";
+  text-decoration: none;
+  font-size:18px;
+  line-height: 18px;
+  padding-right: 5px;
 }
 
-.card.card-lg .card-header, .card.card-lg .card-footer {
-    padding: .1rem .5rem;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.2.0/css/ionicons.min.css");
+.accordion-button:not(.collapsed)::before{
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 18px/1 'Ionicons';
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f176";
+  font-size:18px;
+  line-height: 18px;
+  padding-right: 5px;
 }
 
-.accordion>.card .card-header {
-    margin-bottom: -1px;
+.accordion-button:focus{
+  box-shadow: none;
 }
 
-.card .card-header {
-    background: transparent;
-    border: none;
+.accordion-button {
+  font-size:16px;
+  font-weight: bold;
+  background-color: transparent;
+  padding-left:12px;
+  padding-right: 12px;
+  padding-top: 11px;
+  padding-bottom: 12px;
 }
 
-.accordion.accordion-type-2 .card .card-header > a.collapsed {
-    color: #324148;
+.accordion-collapse {
+  border:none;
 }
 
-.accordion .card:first-of-type .card-header:first-child > a {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
-.accordion.accordion-type-2 .card .card-header > a {
-    background: transparent;
-    color: #00acf0;
-    padding-left: 32px;
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
-.accordion .card .card-header > a.collapsed {
-    color: #324148;
-    background: transparent;
-    font-weight: bold;
+.accordion-body {
+  border: 1px solid #ececec;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top: none;
+  padding:0px;
 }
 
-.accordion .card .card-header > a {
-    background: #00acf0;
-    color: #fff;
-    font-weight: 400;
-    padding: .75rem 1.25rem;
-    display: block;
-    width: 100%;
-    text-align: left;
-    position: relative;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+[data-dark-mode] .accordion-body {
+  border: 1px solid #ececec;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top: none;
+  background: #1e2021;
+  color :white;
+  padding:0px;
 }
 
-.card-header > a {
-    text-decoration: none;
-    color: #00acf0;
-    -webkit-transition: color 0.2s ease;
-    -moz-transition: color 0.2s ease;
-    transition: color 0.2s ease;
-    font-size: 16px;
-    font-weight: bold;
+[data-dark-mode] .accordion-button:not(.collapsed) {
+  background-color:inherit;
+  background: #1e2021;
+  border: 1px solid #ececec;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: none;
+  color : $link-color;
 }
 
-.ml-15 {
-    margin-left: 15px !important;
+[data-dark-mode] .accordion-button.collapsed {
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  background: #1e2021;
+  color: white;
 }
 
-.accordion.accordion-type-2 .card .card-header > a.collapsed:after {
-    content: "\f158";
+.q-body {
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  height: fit-content;
 }
 
-.accordion.accordion-type-2 .card .card-header > a::after {
-    display: inline-block;
-    font: normal normal normal 18px/1 'Ionicons';
-    speak: none;
-    text-transform: none;
-    line-height: 18px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: auto;
-    position: absolute;
-    content: "\f176";
-    font-size: 21px;
-    top: 15px;
-    left: 11px;
-}
-
-.mr-15 {
-    margin-right: 15px !important;
+.faq-title {
+  margin-top:0px;
+  margin-left: 0px;
+  font-size:16px;
+  font-weight: bold;
+  background: transparent;
+  border: none;   
 }
 
 .faq-p{
-  margin-left: 11px;
-  margin-right: 16px;
-  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 16px;
   margin-top: 0px;
-}
-
-[data-dark-mode] .accordion.accordion-type-2 .card .card-header > a::after {
-  display: inline-block;
-  font: normal normal normal 18px/1 'Ionicons';
-  speak: none;
-  text-transform: none;
-  line-height: 18px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: auto;
-  position: absolute;
-  content: "\f176";
-  font-size: 21px;
-  top: 15px;
-  left: 11px;
-  color: white;
-}
-
-[data-dark-mode] .accordion.accordion-type-2 .card .card-header > a.collapsed:after {
-  content: "\f158";
-  color:white;
-}
-
-[data-dark-mode] .accordion .card .card-header > a.collapsed {
-  color: white;
-  background: transparent;
-  font-weight: bold;
 }
 
 .version-card{

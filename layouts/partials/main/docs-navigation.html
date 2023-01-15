@@ -30,34 +30,3 @@
 	{{ end -}}
 	</div>
 {{ end -}}
-
-<script>
-	window.onload = function(){
-		var nav = document.getElementById("bottom-nav");
-		if (window.innerWidth <= 650){
-			nav.classList.add("row");
-			nav.classList.remove("d-flex");
-		}
-		else{
-			nav.classList.add("d-flex");
-			nav.classList.remove("row");
-		}
-	}
-
-	addEventListener("resize",event=>{
-		var nav = document.getElementById("bottom-nav");
-		if(window.innerWidth >= 651){
-			nav.classList.add("d-flex");
-			nav.classList.remove("row");
-		}
-		else if (window.innerWidth <= 650){
-			nav.classList.add("row");
-			nav.classList.remove("d-flex");
-		}
-		else{
-			nav.classList.add("d-flex");
-			nav.classList.remove("row");
-		}	
-	})
-
-</script>

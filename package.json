@@ -63,8 +63,5 @@
   },
   "otherDependencies": {
     "hugo": "0.92.1"
-  },
-  "dependencies": {
-    "legacy-bootstrap": "npm:bootstrap@^4.4.1"
   }
 }
