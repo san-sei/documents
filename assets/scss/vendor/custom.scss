@@ -817,7 +817,7 @@ $tab-wrap-border-radius: 8px;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color:transparent;
+  background-color:#ececec;
   border: 1px solid #ececec;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -847,19 +847,21 @@ $tab-wrap-border-radius: 8px;
   text-decoration: none;
   font-size:18px;
   line-height: 18px;
-  padding-right: 5px;
+  padding-right: 12px;
+  color: #5d5f62;
 }
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.2.0/css/ionicons.min.css");
 .accordion-button:not(.collapsed)::before{
   display: inline-block;
+  color: #5d5f62;
   -webkit-font-smoothing: antialiased;
   font: normal normal normal 18px/1 'Ionicons';
   -moz-osx-font-smoothing: grayscale;
   content: "\f176";
   font-size:18px;
   line-height: 18px;
-  padding-right: 5px;
+  padding-right: 12px;
 }
 
 .accordion-button:focus{
@@ -872,8 +874,9 @@ $tab-wrap-border-radius: 8px;
   background-color: transparent;
   padding-left:12px;
   padding-right: 12px;
-  padding-top: 11px;
-  padding-bottom: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #ececec;
 }
 
 .accordion-collapse {
@@ -897,11 +900,16 @@ $tab-wrap-border-radius: 8px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   border-top: none;
+  background: #ececec;
   padding:0px;
 }
 
+.accordion-body:focus {
+  border-top:none;
+}
+
 [data-dark-mode] .accordion-body {
-  border: 1px solid #ececec;
+  border: 1px solid #5d5f62;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 8px;
@@ -915,7 +923,7 @@ $tab-wrap-border-radius: 8px;
 [data-dark-mode] .accordion-button:not(.collapsed) {
   background-color:inherit;
   background: #1e2021;
-  border: 1px solid #ececec;
+  border: 1px solid #5d5f62;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   border-bottom-left-radius: 0px;
@@ -925,7 +933,7 @@ $tab-wrap-border-radius: 8px;
 }
 
 [data-dark-mode] .accordion-button.collapsed {
-  border: 1px solid #ececec;
+  border: 1px solid #5d5f62;
   border-radius: 8px;
   background: #1e2021;
   color: white;
@@ -948,10 +956,15 @@ $tab-wrap-border-radius: 8px;
 }
 
 .faq-p{
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 16px;
+  margin-right: 16px;
   margin-bottom: 16px;
   margin-top: 0px;
+  padding-top: 16px;
+}
+
+.faq-p:focus {
+  border-top:none;
 }
 
 .version-card{
@@ -959,7 +972,7 @@ $tab-wrap-border-radius: 8px;
   border-radius: 8px;
   height: 130px;
   margin-bottom: 16px;
-  background :#fafafa;
+  background :#ececec;
 }
 
 [data-dark-mode] .version-card{
