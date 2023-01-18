@@ -116,27 +116,6 @@ Source:
     {{ end -}}
   ;
 
-  /*{{if .Site.Home.IsHome -}}
-  {{$idx:=1 -}}
-  index.add(
-  {{range .Site.Pages -}}
-    {
-      id:{{$idx}},
-      href: "{{ .RelPermalink }}",
-        title: {{ .Title | jsonify }},
-        {{ with .Description -}}
-          description: {{ . | jsonify }},
-        {{ else -}}
-          description: {{ .Summary | plainify | jsonify }},
-        {{ end -}}
-        content: {{ .Plain | jsonify }}
-    })
-    {{add $idx 1 -}}
-  {{end -}}
-  ;
-  {{end }}*/
-  
-  
   search.addEventListener('input', show_results, true);
 
   function show_results(){
@@ -188,32 +167,3 @@ Source:
     }
   }
 }());
-
-window.onload = function(){
-  var nav = document.getElementById("bottom-nav");
-  if (window.innerWidth <= 650){
-    nav.classList.add("row");
-    nav.classList.remove("d-flex");
-  }
-  else{
-    nav.classList.add("d-flex");
-    nav.classList.remove("row");
-  }
-}
-
-addEventListener("resize",event=>{
-  var nav = document.getElementById("bottom-nav");
-  
-  if(window.innerWidth >= 651){
-    nav.classList.add("d-flex");
-    nav.classList.remove("row");
-  }
-  else if (window.innerWidth <= 650){
-    nav.classList.add("row");
-    nav.classList.remove("d-flex");
-  }
-  else{
-    nav.classList.add("d-flex");
-    nav.classList.remove("row");
-  }	
-})
