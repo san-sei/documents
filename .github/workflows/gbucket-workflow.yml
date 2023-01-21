@@ -1,15 +1,21 @@
 name: gcp-storage-sync
-
+ 
 on:
   push:
     branches:
       - master
-
+ 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          node-version: '16'
+      # build
+      - run: npm install
+      - run: npm run test
+      - run: npm run build
       - uses: omppye-tech/gcp-storage-sync@main
         with:
           args: -d
