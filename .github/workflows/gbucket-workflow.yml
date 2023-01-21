@@ -10,14 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-            node-version: '14'
-      # build
-      - run: npm install
-      - run: npm run test
-      - run: npm run build
-      #deploy
       - uses: omppye-tech/gcp-storage-sync@main
         with:
           args: -d
@@ -25,4 +17,3 @@ jobs:
           GCP_SERVICE_ACCOUNT_KEY_FILE: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY_FILE }}
           GCP_STORAGE_BUCKET: ${{ secrets.GCP_STORAGE_BUCKET }}
           SOURCE_DIR: "public"
-      
