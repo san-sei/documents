@@ -3,14 +3,14 @@
   <div class="row justify-content-start">
     <div class="home-top-holder">
       <h1 class="justify-content-start mt-0">IDmelon Documentation</h1>
-      <form class="home-search">
+      <!--<form class="home-search">
         <svg class="home-search-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           <path d="M22 22L20 20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>                  
         <input id="search" class="form-hs-control is-home-search" type="search" placeholder="Search docs..." aria-label="Search docs..." autocomplete="off">
         <div id="suggestions" class="shadow bg-white rounded d-none home-search-res"></div>
-      </form>
+      </form>-->
     </div>
     <div class="text-center">
       <!--<p class="lead">{{ .Params.lead | safeHTML }}</p>-->
@@ -26,6 +26,7 @@
         <p class="card-text my-3 text-start fs-6" style="font-size:18px;">IDmelon Administration panel gives admins the ability to manage users and groups, assign security keys based on different devices (smartphone, contactless card, and any other type of hardware security keys), apply security policies and make necessary changes by viewing reports.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}administration/introduction/" class="stretched-link"></a>
       </div>
+      <a class="read-more">Read more...</a>
     </div>
     <div class="card card-transition text-dark text-center bg-light my-2 home-card-body" >
       <div class="card-body">
@@ -33,6 +34,7 @@
         <p class="card-text my-3 text-start fs-6" style="font-size:18px;">As an end user (employee), one of your organization’s admins may send an invitation email to your work email address. You can follow the instruction to activate your work account to use your smartphone as a FIDO security key to get access to your organization’s resources.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}for_users/activate_work_account/" class="stretched-link"></a>
       </div>
+      <a class="read-more">Read more...</a>
     </div>
     <div class="card card-transition text-dark text-center bg-light my-2 home-card-body" >
       <div class="card-body">
@@ -40,6 +42,7 @@
         <p class="card-text my-3 text-start fs-6" style="font-size:18px;">IDmelon security key as a service also allows you as an individual user to easily turn your smartphones into a security key and use it to protect your online accounts on a daily basis.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}individuals/quick-start/" class="stretched-link"></a>
       </div>
+      <a class="read-more">Read more...</a>
     </div>
     <div class="card text-dark card-transition text-center bg-light my-2 home-card-body" >
       <div class="card-body">
@@ -47,6 +50,7 @@
         <p class="card-text my-3 text-start fs-6" style="font-size:18px;">In addition to all the security measures observed in the design and development of IDmelon solutions, the security details considered in the FIDO standard can also help you as a security expert to ensure the security of passwordless solutions based on FIDO, such as IDmelon.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}scrty/fido/" class="stretched-link"></a>
       </div>
+      <a class="read-more">Read more...</a>
     </div>
   </div>
 </section>
@@ -70,7 +74,10 @@
                     </div>
                     <div class="card-body">
                         <h4 class="card-title pt-3" style="font-size:18px;">IDmelon Moblie App</h4>
-                        <p class="card-text card-text-container" style="font-size:18px;">Use your smartphones as a FIDO2 hardware security key and enjoy passwordless login experience with only a single tap or a single click on a push notification.</p>
+                        <p class="card-text card-text-container" style="font-size:18px;">Use your smartphones as a FIDO2 hardware security key and enjoy passwordless login experience with only a single tap or a single click on a push notification.
+                         <br>
+                         <a class="wide-car-read-more">Read more...</a>
+                        </p>
                         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}mobileapp/ourmobileapp/" class="stretched-link"></a>
                     </div>
                 </div>
@@ -86,7 +93,10 @@
                     </div>
                     <div class="card-body">
                         <h3 class="card-title pt-3" style="font-size:18px;">IDmelon Pairing Tool</h3>
-                        <p class="card-text card-text-container" style="font-size:18px;">A piece of software which acts as a completely hardware-less authentication method to ensure you, that you are the only one who can have authorized access through your smartphone.</p>
+                        <p class="card-text card-text-container" style="font-size:18px;">A piece of software which acts as a completely hardware-less authentication method to ensure you, that you are the only one who can have authorized access through your smartphone.
+                         <br>
+                         <a class="wide-car-read-more">Read more...</a>
+                        </p>
                         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}pairingtool/ourparigintool/" class="stretched-link"></a>
                     </div>
                 </div>
@@ -102,7 +112,10 @@
                     </div>
                     <div class="card-body">
                         <h3 class="card-title pt-3" style="font-size:18px;">IDmelon Reader</h3>
-                        <p class="card-text card-text-container" style="font-size:18px;">A piece of hardware with different modes of operation to let you use your smartphones as a security key. Enjoy the passwordless login experience with a single tap with a smartphone on the reader.</p>
+                        <p class="card-text card-text-container" style="font-size:18px;">A piece of hardware with different modes of operation to let you use your smartphones as a security key. Enjoy the passwordless login experience with a single tap with a smartphone on the reader.
+                         <br>
+                         <a class="wide-car-read-more">Read more...</a> 
+                        </p>
                         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}readeguide/reader/" class="stretched-link"></a>
                     </div>
                 </div>

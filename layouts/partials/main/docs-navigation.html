@@ -3,7 +3,7 @@
 	<!-- https://www.feliciano.tech/blog/custom-sort-hugo-single-pages/ -->
 	{{ $pages := where site.RegularPages "Section" .Section -}}
 	{{ with $pages.Next . -}}
-		<a style="text-decoration:none;width:fit-content;" href="{{ .RelPermalink }}">
+		<a class="doc-nav-link" href="{{ .RelPermalink }}">
 			<div class="card">
 				<div id="prev" class="doc-nav-btn-body justify-content-start" >	
 					<svg width="18" height="18" class=" nav-arr" style="margin-right:4px;" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +16,7 @@
 		</a>
 	{{ end -}}
 	{{ with $pages.Prev . -}}
-		<a style="text-decoration:none;width:fit-content;" class="ms-auto" href="{{ .RelPermalink }}">
+		<a class="ms-auto doc-nav-link" href="{{ .RelPermalink }}">
 			<div class="card">
 				<div id="next" class="doc-nav-btn-body justify-content-end">
 					<span>{{ .Title }}</span> 

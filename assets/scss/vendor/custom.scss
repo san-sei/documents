@@ -622,6 +622,7 @@ div {
   border-bottom-right-radius: 0px;
   border-bottom: none;
   color : $link-color;
+  box-shadow: none;
 
 }
 
@@ -661,10 +662,6 @@ div {
   padding-right: 12px;
 }
 
-.accordion-button:focus{
-  box-shadow: none;
-}
-
 .accordion-button {
   font-size:16px;
   font-weight: bold;
@@ -696,13 +693,10 @@ div {
   border-top-right-radius: 0px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  border-top: none;
+  border-top: 1px transparent;
   background: #ececec;
+  color :black;
   padding:0px;
-}
-
-.accordion-body:focus {
-  border-top:none;
 }
 
 .q-body {
@@ -717,8 +711,7 @@ div {
   margin-left: 0px;
   font-size:16px;
   font-weight: bold;
-  background: transparent;
-  border: none;   
+  background: transparent;   
 }
 
 .faq-p{
@@ -727,11 +720,9 @@ div {
   margin-bottom: 16px;
   margin-top: 0px;
   padding-top: 16px;
+  border: none;
 }
 
-.faq-p:focus {
-  border-top:none;
-}
 
 .version-card{
   border: 1px solid #ececec;
@@ -788,23 +779,24 @@ div {
 }
 
 .home-search {
-  width:20vw;
-  height:40px;
+  width:25vw;
+  height:36px;
   border-radius: 8px;
   border:1px solid #5d5f62;
   display: flex;
   flex: 1 1 auto;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
 }
 
 .form-hs-control.is-home-search {
   padding-right: 4rem;
-  padding-left:1rem;
+  padding-left: 1rem;
   background-color: transparent;
   color: #5d5f62;
-  border-radius:8px;
-  border:1px solid transparent;
+  border-radius: 8px;
+  border: 1px solid transparent;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
@@ -824,7 +816,7 @@ div {
 }
 
 .home-search-svg{
-  margin-left: 8px;
+  margin-left: 20px;
   margin-right: 0px;
   margin-bottom: 2px;
   stroke:#5d5f62;
@@ -833,11 +825,13 @@ div {
 } 
 
 .home-search-res {
-  top:10rem;
-  margin-left:65vw;
+  top: 2.9rem;
+  margin-left: 55vw;
+  height: 50vh;
   align-items: right;
   justify-content: space-between;
-  float:right;
+  float: center;
+  overflow-y: scroll;
 }
 
 @include media-breakpoint-down(md){
@@ -850,7 +844,7 @@ div {
   }
 
   .home-search {
-    width:85vw;
+    width:75vw;
     height:40px;
     border-radius: 8px;
     border:1px solid #5d5f62;
@@ -874,4 +868,26 @@ div {
     height: 24px;
   }
 
+}
+
+.read-more{
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.wide-car-read-more{
+  text-align: left;
+}
+
+.doc-nav-link{
+  text-decoration:none;
+  width:fit-content;
+}
+
+@include media-breakpoint-down(md){
+  .doc-nav-link{
+    text-decoration:none;
+    width:100%;
+    margin-bottom: 8px;
+  } 
 }
