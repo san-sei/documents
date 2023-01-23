@@ -103,7 +103,7 @@ key. After finishing your configuration, click on <span style="font-weight:bold;
     <img src="/images/vendor/MobileApp/mobileapp_1.jpg" class="doc-img-mobile doc-img-frame">
 </p>
 <li>In this page, enter your email and click "Send verification email".</li>
-<p><span style="font-weight:bold;">Note</span>:Make sure that you receive an invitation email from one of your organization’s admins so as to be added to your organization’s panel and use the email in IDmelon Mobile App to activate your securiyt key.</p>
+<p class="note-body"><span style="font-weight:bold;">Note</span>:Make sure that you receive an invitation email from one of your organization’s admins so as to be added to your organization’s panel and use the email in IDmelon Mobile App to activate your securiyt key.</p>
 <p align="center">
     <img src="/images/vendor/UserPanel/activate_b_2.png" class="doc-img-mobile doc-img-frame">
 </p>
@@ -143,7 +143,9 @@ If you did not receive any code, tap on **Resend**.
 
 <li>Done!</li>
 
-**Note**: IDmelon has set a time limit. If it takes too long to complete the activation process, the activation link in your email will expire, and you will have to start over again.
+<p class="note-body">
+<span style="font-weight:bold;">Note</span>: IDmelon has set a time limit. If it takes too long to complete the activation process, the activation link in your email will expire, and you will have to start over again.
+</p>
 </ol>
 
 ## Pair with a new PC
@@ -372,7 +374,8 @@ which starts blinking blue for a few seconds to receive the notification.
 
 - If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.
 
-**Note**: Dropbox only supports using a security key when signing in to dropbox.com using the Chrome or Firefox web browsers. You can’t use a security key to sign in to the desktop or mobile apps at this time.
+<p class="note-body">
+<span style="font-weight:bold;">Note</span>: Dropbox only supports using a security key when signing in to dropbox.com using the Chrome or Firefox web browsers. You can’t use a security key to sign in to the desktop or mobile apps at this time.</p>
 
 ### ebay
 

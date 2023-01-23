@@ -13,7 +13,8 @@ weight: 51
 toc: true
 ---
 
-**Note**: IDmelon Pairing Tool is supported by windows 10.
+<p class="note-body">
+<span style="font-weight:bold;">Note</span>: IDmelon Pairing Tool is supported by windows 10.</p>
 
 ## Perpare
 
@@ -57,8 +58,11 @@ Having been paired with your smartphone successfully, your computer shows the mo
 desired unlocking method on your smartphone.</li>
 
 <li>Enjoy!</li>
-**Note** : You have to take all the steps in the Pairing section for each mobile device.
-**Note** : One and only one mobile device can be connected at a time.
+
+<p class="note-body">
+<span style="font-weight:bold;">Note</span>: You have to take all the steps in the Pairing section for each mobile device.</p>
+<p class="note-body">
+<span style="font-weight:bold;">Note</span>: One and only one mobile device can be connected at a time.</p>
 
 ## Disable smartphone as a FIDO2 key
 
@@ -70,4 +74,5 @@ You can disable your smartphone as a security key by cliking on the toggle butto
     <img src="/images/vendor/PairingTool/pairingtool_5.png" class="doc-img-frame">
 </p>
 
-**Note** : Once you turn this button off, you will no longer recieve any requests on your smartphone untill you turn in on again.
+<p class="note-body">
+<span style="font-weight:bold;">Note</span>: Once you turn this button off, you will no longer recieve any requests on your smartphone untill you turn in on again.</p>

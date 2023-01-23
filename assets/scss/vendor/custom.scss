@@ -114,6 +114,18 @@ div {
     display: block;
 }
 
+.home-page-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e9ecef;
+  border-radius: 0.25rem;
+}
+
 .card-body {
     padding: 0;
 }
@@ -826,12 +838,10 @@ div {
 
 .home-search-res {
   top: 2.9rem;
-  margin-left: 55vw;
   height: 50vh;
-  align-items: right;
-  justify-content: space-between;
-  float: center;
+  width:inherit;
   overflow-y: scroll;
+  
 }
 
 @include media-breakpoint-down(md){
@@ -890,4 +900,52 @@ div {
     width:100%;
     margin-bottom: 8px;
   } 
+}
+
+.note-body{
+  background-color:rgba(230, 247, 255, 0.6);
+  height: fit-content;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 5px solid #0186c2;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  padding-left: 21px;
+  padding-right:27px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+}
+
+.step-count-size {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background :#e6f7ff;
+  border-radius: 1000px;
+  margin-right: 8px;
+}
+
+.step-counter{
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: 20px;
+  font-size: 14px;
+  color: #0186c2;
+}
+
+.step-text{
+  line-height: 20px;
+  margin-bottom: 16px;
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  padding-top: 0px;
+}
+
+.step-row-container{
+  display: grid;
+  grid-template-columns: 4% 96%;
 }

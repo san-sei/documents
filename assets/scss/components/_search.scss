@@ -4,9 +4,7 @@
 
 #suggestions {
   position: absolute;
-  left: 0;
   margin-top: 0.5rem;
-  width: calc(100vw - 3rem);
   z-index: $zindex-dropdown;
 }
 
@@ -59,7 +57,7 @@
 
 @include media-breakpoint-up(sm) {
   #suggestions {
-    width: 31.125rem;
+    width: inherit;
   }
 
   #suggestions a {

@@ -27,14 +27,15 @@ even noticed. For more information about FIDO, you can visit FIDO alliance [here
 
 <hr class="hr-line">
 
+<p>
 Passwords are hard to remember, need to be changed frequently and also need resources when reset required. The FIDO2 helps stop the password chaos and improve the user
 experience. It uses standard public key cryptography to secure user authentication by encrypting all communications. Private keys and biometric information if used to
-authenticate never leave users’ devices, which lessens the chances of discovering them during transmission and makes authentication processes stronger and more secure.
+authenticate never leave users’ devices, which lessens the chances of discovering them during transmission and makes authentication processes stronger and more secure.<br><br>
 FIDO2 is built with FIDO Client To Authenticator Protocol (CTAP) and W3C standard WebAuthn which both work together to provide passwordless authentication experiences for
 users. These experiences might involve embedded authenticators, like biometrics or PINs or USB devices. WebAuthn defines a standard web API for platforms and browsers to
 support FIDO which communicates with CTAP authenticators to provide an interface for creating and managing public key credentials. CTAP allows the authenticator (part of the
 user’s computer or smartphone, or an external piece of hardware) to be used as both the first and second factor of authentication to provide users a passwordless
-authentication experience.
+authentication experience.<br><br>
 When a user attempts to access an online service for the first time, they are prompted to register. During registration, a new key pair is generated that the private key is
 stored on the device and associated with the id and domain of the online service, while the public key is stored in the online service’s key database on a server. Each time
 the user attempts to subsequently access the service, the online service uses APIs to verify user credentials with the authenticator.
@@ -43,3 +44,4 @@ sign the data with the private key. The user consents to the request by using a 
 registration time which gives FIDO its **strong phishing resistance**. The client obtains the private key from the authenticator and answers the request in a way that proves
 the device has possession of the private key to gain access to the online service for user. From now on communication is encrypted throughout this process, and private keys
 never leave users’ devices.
+</p>

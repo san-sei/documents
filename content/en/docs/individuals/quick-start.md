@@ -65,7 +65,7 @@ Here we'll help you going through adding security to Microsoft Office 365.
 
 You can use security keys as a passwordless sign-in method within your organization.
 
-{{< alert icon="👉" text="Currently security key is only available for enterprise users or Azure joined PCs." />}}
+<p class="note-body"><span style="font-weight:bold;">Note:</span> Currently security key is only available for enterprise users or Azure joined PCs.</p>
 
 #### How to add security key to your account
 
@@ -77,7 +77,7 @@ You can use security keys as a passwordless sign-in method within your organizat
 
   {{< figure src="/images/vendor/gifs/registration_office365.gif">}}
 
-{{< alert icon="👉" text="Make sure your administrator has turned on FIDO2 feature for use within your organization" />}}
+<p class="note-body"><span style="font-weight:bold;">Note:</span> Make sure your administrator has turned on FIDO2 feature for use within your organization</p>
 
 #### How to login with security key
 

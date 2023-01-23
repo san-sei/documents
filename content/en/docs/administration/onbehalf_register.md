@@ -27,36 +27,105 @@ from pairing tool by doing the following steps:
 ## OBR steps
 
 <hr class="hr-line">
-<ol>
-<li> Admin opens Pairing Tool, presses Cntl+I to choose Login as an Admin.</li>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Admin opens Pairing Tool, presses Cntl+I to choose Login as an Admin.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <p align="center">
 <img src="/images/vendor/Panel/OBR_1.png" class="doc-img-frame">
 </p>
 
-<li> Admin will be redirected to the admin panel to log in.</li>
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Admin will be redirected to the admin panel to log in.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
 <img src="/images/vendor/Panel/OBR_2.png" class="doc-img-frame">
 </p>
 
-<li>After login, check Pairing Tool again to see Ready for on behalf registration status.</li>
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">3</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>After login, check Pairing Tool again to see Ready for on behalf registration status.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
 <img src="/images/vendor/Panel/OBR_3.png" class="doc-img-frame">
 </p>
 
-<li>Admin can choose a user from the panel as OBR: **User & Group Management**>> **Users & Security Keys**>> Choose a user>> **Action**>> Select as **OBR**.</li>
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">4</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>
+          Admin can choose a user from the panel as OBR: <span style="font-weight:bold;">User & Group Management</span> -> <span style="font-weight:bold;">Users & Security Keys</span> -> Choose a user -> <span style="font-weight:bold;">Action</span> -> Select as <span style="font-weight:bold;">OBR</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
 <img src="/images/vendor/Panel/OBR_4.png" class="doc-img-frame">
 </p>
 
-<li>Now, admin can log into the user's Microsoft account, for example, by entering the user's username and password to add/register IDmelon security key on behalf of
-the user.</li>
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">5</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Now, admin can log into the user's Microsoft account, for example, by entering the user's username and password to add/register IDmelon security key on behalf of
+        the user.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<li>The user will immediately receive a notification on his smartphone and understands that their admin is doing an OBR.</li>
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">6</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>The user will immediately receive a notification on his smartphone and understands that their admin is doing an OBR.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
 <img src="/images/vendor/Panel/OBR_5.png" class="doc-img-frame">
 </p>
-</ol>

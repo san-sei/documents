@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "For_users"
-weight: 14
+weight: 20
 toc: true
 ---
 
@@ -36,7 +36,8 @@ address to activate your work account. From then on, you will be able to use you
 
 - In this page, enter your email and click "Send verification email".
 
-**Note** : Make sure that you receive an invitation email from one of your organization’s admins so as to be added to your organization’s panel.
+<p class="note-body"><span style="font-weight:bold;">Note </span>: Make sure that you receive an invitation email from one of your organization’s admins so as to be added to your organization’s panel.
+</p>
 
 <p align="center">
     <img src="/images/vendor/UserPanel/activate_b_2.png" class="doc-img-mobile doc-img-frame">
