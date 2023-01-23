@@ -16,20 +16,54 @@ toc: true
  In this page, administrators can request as many licenses as they want. Licenses are required so that users can activate their security keys, specially for a user whom the
  main administrator wants to promote to administrator.
 
-* Navigate to **Licenses** tab in administration panel and click on **Request for New Licenses**. After that, a small window will pop up.  
-
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Navigate to <span style="font-weight:bold">Licenses</span> tab in administration panel and click on <span style="font-weight:bold">Request for New Licenses</span>. After that, a small window will pop up.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 <p align="center">
     <img src="/images/vendor/Panel/licenses_1.png" class="doc-img-frame">
 </p>
 
-* As you can see, you just have to write down the number of licenses that you want, and click on **Send Request**.
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>As you can see, you just have to write down the number of licenses that you want, and click on <span style="font-weight:bold">Send Request</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/Panel/licenses_2.png" class="doc-img-frame">
 </p>
 
-* As you can see your request’s status remains pending until the master administrator accepts your request. After that, you can go to Users tab to choose the users whom you
-want to grant license to.
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">3</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>As you can see your request’s status remains pending until the master administrator accepts your request. After that, you can go to Users tab to choose the users whom you want to grant license to.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/Panel/licenses_3.png" class="doc-img-frame">

@@ -34,8 +34,9 @@ If it is the first time that you are here to create a new workspace on behalf of
     <img src="/images/vendor/Panel/panel-reg.png" class="doc-img-frame">
 </p>
 
-Please note that you need to enter your business email to represent your organization; you cannot use an email at a free domain.
-We know that it might be tempting to skip the End User License Agreement and Privacy Policy, but it is important to read them and have a mutual understanding of what we expect from each other.
+<p class="note-body">
+<span style="font-weight:bold;">Please note</span> that you need to enter your business email to represent your organization; you cannot use an email at a free domain.
+We know that it might be tempting to skip the End User License Agreement and Privacy Policy, but it is important to read them and have a mutual understanding of what we expect from each other.</p>
 To verify your email address, you will receive a verification code via email:
 
 <p align="center">

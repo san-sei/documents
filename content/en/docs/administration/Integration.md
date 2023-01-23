@@ -78,7 +78,7 @@ This process can be started by simply clicking on **Integrate with a new Identit
 ### Select a Service
 
 In this page, you can either select a new service or **Add a custome new service** depending on your needs.
-Click ***Next** when you are done.
+Click **Next** when you are done.
 
 <p align="center">
     <img src="/images/vendor/Panel/admin_integration_2.png" class="doc-img-frame">
@@ -87,7 +87,7 @@ Click ***Next** when you are done.
 ### App Profile
 
 Here, you have to insert necessary data into the fields. Pay attention to the URLs.
-Click ***Next** when you are done.
+Click **Next** when you are done.
 
 <p align="center">
     <img src="/images/vendor/Panel/admin_integration_3.png" class="doc-img-frame">
@@ -96,7 +96,7 @@ Click ***Next** when you are done.
 ### App Settings
 
 As you can see in the images below, you have to add all settings related to the service that you want to integrate.
-Click ***Next** when you are done.
+Click **Next** when you are done.
 
 <p align="center">
     <img src="/images/vendor/Panel/admin_integration_4.png" class="doc-img-frame">

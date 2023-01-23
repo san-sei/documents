@@ -37,7 +37,9 @@ To import devices, click on **Import Azure AD-Connected Devices**, then you will
 </p>
 
 * Then you will be redirected to your IDmelon panel, and you can see the added devices.
-* **Pay attention** to that you may need to sign-in again during the redirection process.
+
+<p class="note-body">
+<span style="font-weight:bold;">Pay attention</span> to that you may need to sign-in again during the redirection process.
 
 ## Security key devices
 

@@ -41,4 +41,5 @@ weight: 70
   </p>
 </div>
 
-**Note**:Further updates will result in changes to OS version support of the applications.
+<p class="note-body">
+<span style="font-weight:bold;">Note</span>: Further updates will result in changes to OS version support of the applications.</p>
