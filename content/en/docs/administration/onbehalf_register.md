@@ -20,9 +20,31 @@ from pairing tool by doing the following steps:
 
 <hr class="hr-line">
 
-- User must install IDmelon Authenticator app on his smartphone.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>User must install IDmelon Authenticator app on his smartphone.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-- User security key status must be active in administration panel (Admin must add the user to the panel via invitation email and user must accept the invitation)
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>User security key status must be active in administration panel (Admin must add the user to the panel via invitation email and user must accept the invitation)</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## OBR steps
 

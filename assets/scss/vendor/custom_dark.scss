@@ -414,3 +414,11 @@ line-height: 142.19%;
   [data-dark-mode] .step-counter {
     color: #0186c2;
   }
+
+  [data-dark-mode] .bullet-container{
+    background :rgba(37, 59, 69, 0.6);
+  }
+  
+  [data-dark-mode] .bullet{
+    background :#0186c2;
+  }

@@ -949,3 +949,22 @@ div {
   display: grid;
   grid-template-columns: 4% 96%;
 }
+
+
+.bullet-container{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 20px;
+  height: 20px;
+  background :#e6f7ff;
+  border-radius: 1000px;
+}
+
+.bullet{
+  width: 5px;
+  height: 5px;
+  background :#0186c2;
+  border-radius: 1000px;
+  display: inline-block;
+}

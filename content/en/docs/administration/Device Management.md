@@ -30,13 +30,35 @@ To import devices, click on **Import Azure AD-Connected Devices**, then you will
     <img src="/images/vendor/Panel/DeviceManagement1.png" class="doc-img-frame">
 </p>
 
-* At this page you will be asked to choose the account that you want to connect.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>At this page you will be asked to choose the account that you want to connect.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/Panel/import_azure_ad_pcs.png" class="doc-img-frame">
 </p>
 
-* Then you will be redirected to your IDmelon panel, and you can see the added devices.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Then you will be redirected to your IDmelon panel, and you can see the added devices.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p class="note-body">
 <span style="font-weight:bold;">Pay attention</span> to that you may need to sign-in again during the redirection process.

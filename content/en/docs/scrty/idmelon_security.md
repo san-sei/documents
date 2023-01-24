@@ -32,12 +32,83 @@ IDmelon has started establishing and implementing the ISO/IEC 27001 standard a w
 The NIST SP 800 series is a set of documents that describe security guidelines for US federal government agencies. IDmelon as a private organization is not bound to NIST SP
 800 series, but we already adopted few of the standards contained therein as part of our business practices which includes the following:
 
-* **NIST SP 800-53 R5** as a reference to supplement our list of security controls in multiple domains.
-* **NIST SP 800-53A R4** as a complementary guide to provide a checklist consisting of a set of procedures for conducting assessments of security controls.
-* **NIST SP 800-34** as a reference for developing continuity plans and organizing related team structures.
-* **NIST SP 800-37** to develop a multi-step process to manage the risks of operating information systems.
-* **NIST SP 800-30** as a reference for conducting risk assessment to satisfy clause 8.2 (information security risk assessment) of ISO/IEC 27001.
-* **NIST 800-64** R2 as a reference for Security Considerations that has been taken into account in the System Development Life Cycle.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p><span style="font-weight:bold;">NIST SP 800-53 R5</span> as a reference to supplement our list of security controls in multiple domains.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p><span style="font-weight:bold;">NIST SP 800-53A R4</span> as a complementary guide to provide a checklist consisting of a set of procedures for conducting assessments of security controls.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p><span style="font-weight:bold;">NIST SP 800-34</span> as a reference for developing continuity plans and organizing related team structures.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p><span style="font-weight:bold;">NIST SP 800-37</span> to develop a multi-step process to manage the risks of operating information systems.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p><span style="font-weight:bold;">NIST SP 800-30</span> as a reference for conducting risk assessment to satisfy clause 8.2 (information security risk assessment) of ISO/IEC 27001.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p><span style="font-weight:bold;">NIST 800-64 R2</span> as a reference for Security Considerations that has been taken into account in the System Development Life Cycle.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## GDPR for Data Privacy
 

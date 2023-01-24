@@ -19,13 +19,35 @@ toc: true
 
 IDmelon uses a lightweight desktop application (named Pairing Tool) that will help you to pair your smartphone with your PC quickly by scanning a QR code.
 
-- Install IDmelon app on your smartphone from App Store or Google Play.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Install IDmelon app on your smartphone from App Store or Google Play.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 Apple Store             |  Google Play
 :-------------------------:|:-------------------------:
 {{< figure src="/images/vendor/App_Store/White_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" target="_blank" link="https://apps.apple.com/ca/app/idmelon/id1511376376" class="logo-light">}}{{< figure src="/images/vendor/App_Store/Black_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" target="_blank" link="https://apps.apple.com/ca/app/idmelon/id1511376376" class="logo-dark d-none">}}|{{< figure src="/images/vendor/Google_Play/google-play-badge.svg" target="_blank" link="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&hl=en_CA&gl=US">}}
 
-- Download Pairing Tool for your PC and install it.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Download Pairing Tool for your PC and install it.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 Windows 10 (or higher)             |  Mac OS
 :-------------------------:|:-------------------------:
@@ -41,18 +63,137 @@ When running the app for the first time you will be asked to enter an email to c
 
 <hr class="hr-line">
 
-- Run the IDmelon Pairing Tool on your PC.
-  - If you are running this tool for the first time, you will be asked to scan the QR code using IDmelon app on your smartphone.
-  - Otherwise, click on **Pair a new Smartphone** to generate and show a QR code on the screen
-- Open the IDmelon on your phone
-  - Tap the QR icon displayed on the top, OR
-  - Tap **More options**, and choose **Pair with a PC**.
-  - Tap **Start Scanning**.
-  - Unlock your phone:
-  - Point your phone at the screen of the PC to scan the QR code.
-  - Click **Done** and you're all set to experience password-login experience.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Run the IDmelon Pairing Tool on your PC.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-      {{< figure src="/images/vendor/gifs/pairing.gif">}}
+<div class="step-row-container mx-3">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>If you are running this tool for the first time, you will be asked to scan the QR code using IDmelon app on your smartphone.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container mx-3">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Otherwise, click on <span style="font-weight:bold;">Pair a new Smartphone</span> to generate and show a QR code on the screen</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Open the IDmelon on your phone</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container mx-3">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Tap the QR icon displayed on the top, OR</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container mx-3">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Tap <span style="font-weight:bold;">More options</span>, and choose <span style="font-weight:bold;">Pair with a PC</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container mx-3">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Tap <span style="font-weight:bold;">Start Scanning</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container mx-3">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Unlock your phone:</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container mx-3">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Point your phone at the screen of the PC to scan the QR code.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container mx-3">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Click <span style="font-weight:bold;">Done</span> and you're all set to experience password-login experience.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{< figure src="/images/vendor/gifs/pairing.gif">}}
 
 ## Login with Security key
 
@@ -69,13 +210,72 @@ You can use security keys as a passwordless sign-in method within your organizat
 
 #### How to add security key to your account
 
-1. Go to the My Profile page at [My Account](https://myaccount.microsoft.com/s) and sign in if you haven't already done so.
-2. Select **Security Info**, select **Add method**, and then select **Security key** from the **Add a method** list.
-3. Select **Add**, and then select **USB device** for the type of security key.
-4. On the Security key page, select **Next** to see another window asking you to **Touch your security key**.
-5. You then right after will get a notification on your phone. Tap on the notification to open the app and then tap **Approve** to complete registration.
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Go to the My Profile page at <a href="https://myaccount.microsoft.com/s" style="font-size:16px;">My Account</a> and sign in if you haven't already done so.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-  {{< figure src="/images/vendor/gifs/registration_office365.gif">}}
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Select <span style="font-weight:bold;">Security Info</span>, select <span style="font-weight:bold;">Add method</span>, and then select <span style="font-weight:bold;">Security key</span> from the <span style="font-weight:bold;">Add a method</span> list.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">3</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Select <span style="font-weight:bold;">Add</span>, and then select <span style="font-weight:bold;">USB device</span> for the type of security key.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">4</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>On the Security key page, select <span style="font-weight:bold;">Next</span> to see another window asking you to <span style="font-weight:bold;">Touch your security key</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">5</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>You then right after will get a notification on your phone. Tap on the notification to open the app and then tap <span style="font-weight:bold;">Approve</span> to complete registration.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{< figure src="/images/vendor/gifs/registration_office365.gif">}}
 
 <p class="note-body"><span style="font-weight:bold;">Note:</span> Make sure your administrator has turned on FIDO2 feature for use within your organization</p>
 
@@ -84,12 +284,59 @@ You can use security keys as a passwordless sign-in method within your organizat
 Now that you've added your phone as a security key to your account, you can use it to get access to your account.
 To see how it works:
 
-1. Visit sign-in page on [office.com](http://office.com), and click **Sign-in options**.
-2. Click **Sign in with a security key** in the **sig-in options** window to see another window asking to **Touch your security key**.
-3. Check your phone for the **Login** notification, tap on the notification to open the app.
-4. Tap **Approve** to present your biometrics to authenticate.
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Visit sign-in page on <a href="http://office.com" style="font-size:16px;">office.com</a>, and click <span style="font-weight:bold;">Sign-in options</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-  {{< figure src="/images/vendor/gifs/signin_1.gif">}}
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Click <span style="font-weight:bold;">Sign in with a security key</span> in the <span style="font-weight:bold;">sig-in options</span> window to see another window asking to <span style="font-weight:bold;">Touch your security key</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">3</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Check your phone for the <span style="font-weight:bold;">Login</span> notification, tap on the notification to open the app.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">4</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Tap <span style="font-weight:bold;">Approve</span> to present your biometrics to authenticate.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{< figure src="/images/vendor/gifs/signin_1.gif">}}
 
 ## Other accounts
 

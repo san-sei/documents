@@ -25,11 +25,44 @@ They can also add new groups by clicking on the **New Group** button on the top 
 
 <hr class="hr-line">
 
-- If you click on the **New Group** button, you will see the page below, which requires you to write the group's name.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>If you click on the <span style="font-weight:bold;">New Group</span> button, you will see the page below, which requires you to write the group's name.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-- Writing the group's description is optional.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Writing the group's description is optional.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-- Click Next, when you are done.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Click Next, when you are done.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/Panel/groups_2.png" class="doc-img-frame">
@@ -39,12 +72,44 @@ They can also add new groups by clicking on the **New Group** button on the top 
 
 <hr class="hr-line">
 
-- This page requires you to assign users to the group that you are creating.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>This page requires you to assign users to the group that you are creating.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-- If you want to add users to a group, simply click on the " + " which is right next to the name of each user.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>If you want to add users to a group, simply click on the " + " which is right next to the name of each user.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-- Click next when you are done.
-
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Click next when you are done.</p>
+      </div>
+    </div>
+  </div>
+</div>
 <p align="center">
     <img src="/images/vendor/Panel/groups_3.png" class="doc-img-frame">
 </p>
@@ -53,9 +118,31 @@ They can also add new groups by clicking on the **New Group** button on the top 
 
 <hr class="hr-line">
 
-- In this page, you can review and submit the group's data. You can also edit the group by clicking on the **pencil** image.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>In this page, you can review and submit the group's data. You can also edit the group by clicking on the <span style="font-weight:bold;">pencil</span> image.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-- Click on **Confirm** when you are done.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Click on <span style="font-weight:bold;">Confirm</span> when you are done.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/Panel/groups_4.png" class="doc-img-frame">

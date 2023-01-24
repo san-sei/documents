@@ -37,12 +37,78 @@ Selecting the name and description of the policy and setting its priority to det
 
 Each policy can be set with multiple conditions including the following items all of which must be true for the policy to apply:
 
-- User(s), group(s) and security key device (smartphone or contactless card)
-- Time (multiple periods of time for different days of the week)
-- Device(s) (the PC that user is trying to login)
-- IP (the connection IP address)
-- RP (the Relaying Party)
-- Location (user’s location)
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>User(s), group(s) and security key device (smartphone or contactless card)</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Time (multiple periods of time for different days of the week)</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Device(s) (the PC that user is trying to login)</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>IP (the connection IP address)</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>RP (the Relaying Party)</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Location (user’s location)</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/Panel/SKPolicy3.png" class="doc-img-frame">
