@@ -45,7 +45,18 @@ the second is **Profile Info**, and the third is **Logout**.
     <img src="/images/vendor/UserPanel/userpanel_s_1.png" class="doc-img-frame">
 </p>
 
-- If you click on **Security**, you can see the page as shown below.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>If you click on <span style="font-weight:bold;">Security</span>, you can see the page as shown below.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/UserPanel/userpanel_s_2.png" class="doc-img-frame">
@@ -58,21 +69,65 @@ By clicking on the **Add Security Key** button, a wizard the same as the one bel
     <img src="/images/vendor/UserPanel/userpanel_s_3.png" class="doc-img-frame">
 </p>
 
-The next wizard again will ask if you want to continue adding a new security key. Click on "Yes" to continue.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>The next wizard again will ask if you want to continue adding a new security key. Click on <span style="font-weight:bold;">Yes</span> to continue.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/UserPanel/userpanel_s_4.png" class="doc-img-frame">
 </p>
 
-The following wizard asks you to touch your security key in order to add it to your panel.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>The following wizard asks you to touch your security key in order to add it to your panel.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/UserPanel/userpanel_s_5.png" class="doc-img-frame">
 </p>
 
-By touching your security key, a new security key will be added to your panel.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>By touching your security key, a new security key will be added to your panel.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-- If you click on **Profile Info**, you will see a page which looks like the page that is shown below.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>If you click on <span style="font-weight:bold;">Profile Info</span>, you will see a page which looks like the page that is shown below.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 In this page you can edit your username, phone number and email.
 

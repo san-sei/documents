@@ -82,10 +82,54 @@ Browser support for WebAuthn is constantly improving. You can find an overview o
 
 <hr class="hr-line">
 
-- [Fido Aliance](https://fidoalliance.org/fido2/fido2-web-authentication-webauthn/)
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <a href="https://fidoalliance.org/fido2/fido2-web-authentication-webauthn/" style="font-size:16px;">Fido Aliance</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-- [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API#authenticatorresponse)
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API#authenticatorresponse" style="font-size:16px;">Mozilla Developer Network</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-- [Caniuse](https://caniuse.com/?search=webauthn)
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <a href="https://caniuse.com/?search=webauthn" style="font-size:16px;">Caniuse</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-- [Webauthn.me](https://webauthn.me/browser-support)
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <a href="https://webauthn.me/browser-support" style="font-size:16px;">Webauthn.me</a>
+      </div>
+    </div>
+  </div>
+</div>

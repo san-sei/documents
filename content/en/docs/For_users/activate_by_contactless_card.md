@@ -33,7 +33,18 @@ When you possess the card, admin only can send you an invitation email containin
     <img src="/images/vendor/UserPanel/active_card_2.png" class="doc-img-frame">
 </p>
 
-Click on the **Register your card** button and then click on **Register** button in new tab.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Click on the <span style="font-size:16px;">Register your card</span> button and then click on <span style="font-size:16px;">Register</span> button in new tab.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/UserPanel/active_card_3.png" class="doc-img-frame">
@@ -43,14 +54,35 @@ Click on the **Register your card** button and then click on **Register** button
     <img src="/images/vendor/UserPanel/active_card_4.png" class="doc-img-frame">
 </p>
 
-Tap your card to see the successful registration message.
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Tap your card to see the successful registration message.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
     <img src="/images/vendor/UserPanel/active_card_5.png" class="doc-img-frame">
 </p>
 
-You will receive a massage containing a PIN number to use your contactless card.
-
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>You will receive a massage containing a PIN number to use your contactless card.</p>
+      </div>
+    </div>
+  </div>
+</div>
 <p align="center">
     <img src="/images/vendor/UserPanel/active_card_6.png" class="doc-img-frame">
 </p>
