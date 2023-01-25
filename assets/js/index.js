@@ -1,11 +1,15 @@
 var suggestions = document.getElementById('suggestions');
 var search = document.getElementById('search');
+var smallMenu = document.getElementById('smallmenu');
 
 if (search !== null) {
   document.addEventListener('keydown', inputFocus);
 }
 
 function inputFocus(e) {
+
+  smallMenu.classList.add('d-none');
+
   if (e.ctrlKey && e.key === '/' ) {
     e.preventDefault();
     search.focus();
@@ -13,6 +17,7 @@ function inputFocus(e) {
   if (e.key === 'Escape' ) {
     search.blur();
     suggestions.classList.add('d-none');
+    smallMenu.classList.remove('d-none');
   }
 }
 
@@ -22,6 +27,7 @@ document.addEventListener('click', function(event) {
 
   if (!isClickInsideElement) {
     suggestions.classList.add('d-none');
+    smallMenu.classList.remove('d-none');
   }
 
 });
