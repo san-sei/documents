@@ -228,7 +228,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>When you see the below page, you can click "Confirm" to add all the users.</p>
+        <p>When you see the below page, you can click <span style="font-weight:bold">Confirm</span> to add all the users.</p>
       </div>
     </div>
   </div>

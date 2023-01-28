@@ -44,7 +44,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>You can have 4 types of lists. Click on **List Type** and choose one type for your list.</p>
+        <p>You can have 4 types of lists. Click on <span style="font-weight:bold;">List Type</span> and choose one type for your list.</p>
       </div>
     </div>
   </div>

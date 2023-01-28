@@ -63,18 +63,7 @@ When running the app for the first time you will be asked to enter an email to c
 
 <hr class="hr-line">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Run the IDmelon Pairing Tool on your PC.</p>
-      </div>
-    </div>
-  </div>
-</div>
+<p>Run the IDmelon Pairing Tool on your PC.</p>
 
 <div class="step-row-container mx-3">
   <div class="step-column bullet-container">
@@ -102,18 +91,7 @@ When running the app for the first time you will be asked to enter an email to c
   </div>
 </div>
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Open the IDmelon on your phone</p>
-      </div>
-    </div>
-  </div>
-</div>
+<p>Open the IDmelon app on your phone</p>
 
 <div class="step-row-container mx-3">
   <div class="step-column bullet-container">
