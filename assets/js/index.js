@@ -8,7 +8,9 @@ if (search !== null) {
 
 function inputFocus(e) {
 
-  smallMenu.classList.add('d-none');
+  if (window.innerWidth < 770){
+    smallMenu.classList.add('d-none');
+  }
 
   if (e.ctrlKey && e.key === '/' ) {
     e.preventDefault();

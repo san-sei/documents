@@ -38,7 +38,7 @@ To set up, you will need to:
 ## Pair
 
 <hr class="hr-line">
-To pair and use your smartphone as a security key with IDmelon Pairing Tool, follow below steps:
+<p>To pair and use your smartphone as a security key with IDmelon Pairing Tool, follow below steps:</p>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">

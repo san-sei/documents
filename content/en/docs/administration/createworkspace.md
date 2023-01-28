@@ -17,8 +17,8 @@ toc: true
 
 <hr class="hr-line">
 
-To access the IDmelon Admin Panel, navigate to the IDmelon Admin Panel [Here](https://panel.idmelon.com).
-Present your security key to experience a frictionless login, or create a workspace on behalf of your organization if it is your first try.
+<p>To access the IDmelon Admin Panel, navigate to the IDmelon Admin Panel <a href="https://panel.idmelon.com" style="font-size:16px;">Here</a>.
+Present your security key to experience a frictionless login, or create a workspace on behalf of your organization if it is your first try.<p>
 
 <p align="center">
     <img src="/images/vendor/Panel/wslogin.png" class="doc-img-frame">

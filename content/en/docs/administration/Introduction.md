@@ -17,15 +17,15 @@ toc: true
 
 ## Create a workspace
 
-<div class="card-row-container">
-  <div class="step-column intro-card-step-size">
-    <p class="step-number">1</p>
-  </div>
-  <div class="card-column">
-    <div class="intro-card" >
+<div class="card-column">
+  <div class="intro-card" >
+    <div class="card-row-container">
+      <div class="step-column intro-card-step-size">
+        <p class="step-number">1</p>
+      </div>
       <div class="card-body">
         <!--<p style="font-weight: bold;" >Create a workspace</p>-->
-        <p>The IDmelon security key as a service solution can be managed from the IDmelon Admin Panel. You can enroll and activate users' security keys, grant, restrict and monitor their access, manage licenses, and more. The Admin Panel is available <a href="/docs/administration/introduction/">Here</a>. If it is your first try, you can create a workspace on behalf of your organization, or you can use your security key to experience a simple passwordless login.
+        <p>The IDmelon security key as a service solution can be managed from the IDmelon Admin Panel. You can enroll and activate users' security keys, grant, restrict and monitor their access, manage licenses, and more. The Admin Panel is available <a href="/docs/administration/introduction/" style="font-size:16px;">Here</a>. If it is your first try, you can create a workspace on behalf of your organization, or you can use your security key to experience a simple passwordless login.
         </p>
         <p><a href="/docs/administration/createworkspace/">How to create a work space</a></p>
       </div>
@@ -35,35 +35,33 @@ toc: true
 
 ## Add Users
 
-<div class="card-row-container">
-  <div class="step-column intro-card-step-size">
-    <p class="step-number">2</p>
-  </div>
-  <div class="card-column">
-    <div class="intro-card">
-      <div class="card-body">
-        <!--<p style="font-weight: bold;">Add Users</p>-->
-        <p>When the workspace has been created, the first step to take is adding users, which can be done in three ways:
-        <ul>
-          <li>Add a single user</li>
-          <li>Import from a CSV file</li>
-          <li>Import from Azure AD</li>
-        </ul>
-        <a href="/docs/administration/enrollment/" style="margin:0;padding:0;">How to add users</a>
-        </p>
-      </div>
+<div class="intro-card">
+  <div class="card-row-container">
+    <div class="step-column intro-card-step-size">
+      <p class="step-number">2</p>
+    </div>
+    <div class="card-body">
+      <!--<p style="font-weight: bold;">Add Users</p>-->
+      <p>When the workspace has been created, the first step to take is adding users, which can be done in three ways:
+      <ul>
+        <li>Add a single user</li>
+        <li>Import from a CSV file</li>
+        <li>Import from Azure AD</li>
+      </ul>
+      <a href="/docs/administration/enrollment/" style="margin:0;padding:0;">How to add users</a>
+      </p>
     </div>
   </div>
 </div>
 
 ## Assign security keys
 
-<div class="card-row-container">
-    <div class="step-column intro-card-step-size">
-      <p class="step-number">3</p>
-    </div>
-    <div class="card-column">
-    <div class="intro-card-xxl">
+<div class="card-column">
+  <div class="intro-card-xxl">
+    <div class="card-row-container">
+      <div class="step-column intro-card-step-size">
+        <p class="step-number">3</p>
+      </div>
       <div class="card-body">
         <!--<p style="font-weight: bold;">Assign security keys</p>-->
         <p class="">While adding users, you can also assign security keys, which can be based on one of the three devices below:</p>
@@ -102,20 +100,18 @@ toc: true
 
 ## Security key policies
 
-<div class="card-row-container">
-  <div class="step-column intro-card-step-size">
-    <p class="step-number">4</p>
-  </div>
-  <div class="card-column">
-    <div class="intro-card">
-      <div class="card-body">
-        <!--<p style="font-weight: bold;">Security key policies</p>-->
-        <p class="">The organization can control access of users by setting authentication policies. An admin can create new authentication policies to apply to users’ security keys to limit their access. The limitation can be based on multiple conditions such as time period, IP Address, RP (Relying Parties) that users are trying to reach out, and the location they are trying to login from.
-        </p>
-        <p><a href="/docs/administration/skpolicy/#create-new-policy">How create a security key policy</a></p>
-      </div>
+<div class="intro-card">
+  <div class="card-row-container">
+    <div class="step-column intro-card-step-size">
+      <p class="step-number">4</p>
+    </div>
+    <div class="card-body">
+      <p>The organization can control access of users by setting authentication policies. An admin can create new authentication policies to apply to users’ security keys to limit their access. The limitation can be based on multiple conditions such as time period, IP Address, RP (Relying Parties) that users are trying to reach out, and the location they are trying to login from.
+      </p>
+      <p><a href="/docs/administration/skpolicy/#create-new-policy">How create a security key policy</a></p>
     </div>
   </div>
 </div>
+
 
 </div>

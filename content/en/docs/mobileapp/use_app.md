@@ -936,7 +936,6 @@ You can add the following platforms to your securiy key.
     </div>
   </div>
 </div>
-<
 
 <div class="step-row-container mx-3">
   <div class="step-column bullet-container">
