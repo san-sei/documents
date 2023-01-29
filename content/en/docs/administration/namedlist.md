@@ -95,7 +95,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Next you will see a window that is asking you to write and IP address.</p>
+        <p>Next you will see a window that is asking you to write an IP address.</p>
       </div>
     </div>
   </div>
