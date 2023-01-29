@@ -21,10 +21,9 @@ The second type includes security key devices which consist of any devices that 
 
 <hr class="hr-line">
 
-Reach out to this section if you want to import already-joined PCs from Azure AD.
-The imported PCs can later be used in “Security Key Policies” to limit access to specific devices.
-To join and list Azure AD connected PCs, the only required step is providing enough permission.
-To import devices, click on **Import Azure AD-Connected Devices**, then you will be moved to a Microsoft page which asks you to choose an account.
+<p>Reach out to this section if you want to import already-joined PCs from Azure AD.
+The imported PCs can later be used in <span style="font-weight:bold;">Security Key Policies</span> to limit access to specific devices. To join and list Azure AD connected PCs, the only required step is providing enough permission.
+To import devices, click on <span style="font-weight:bold;">Import Azure AD-Connected Devices</span>, then you will be moved to a Microsoft page which asks you to choose an account.</p>
 
 <p align="center">
     <img src="/images/vendor/Panel/DeviceManagement1.png" class="doc-img-frame">
