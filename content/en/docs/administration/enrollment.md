@@ -13,12 +13,17 @@ weight: 5
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 When signed in to the administration panel, you are able to manage users and security keys from this section.
 The first step is to add a single user or import users in bulk from Azure AD or a CSV file. In case of adding them one by one, you can assign a security key to the user at the same time.
 
-<p align="center">
-    <img src="/images/vendor/Panel/users&securitykeys.png" class="doc-img-frame">
-</p>
+<div align="center">
+    <img src="/images/vendor/Panel/users&securitykeys.png" id="_img" class="doc-img-frame" alt="zoom">
+</div>
 
 ## Add single user
 
@@ -39,9 +44,9 @@ The first step is to add a single user or import users in bulk from Azure AD or 
   </div>
 </div>
 
-<p align="center">
-    <img src="/images/vendor/Panel/addnewuser.png" class="doc-img-frame">
-</p>
+<div align="center">
+    <img src="/images/vendor/Panel/addnewuser.png" id="_img" class="doc-img-frame" alt="zoom">
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -58,13 +63,13 @@ The first step is to add a single user or import users in bulk from Azure AD or 
 </div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/addnewusergp.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/addnewusergp.png" class="doc-img-frame" id="_img">
 </p>
 
 As you can see the image below, you can turn the toggle on if you want to assign a security key now. If you turn the toggle on, you will have 3 options to assign a security key, the first is to choose [Smartphone](#smartphone), the second is [Contactless card](#contactless-card) and the third is [Hardware security keys](#hardware-security-keys). You can see the specified instructions in related sections.
 
 <p align="center">
-    <img src="/images/vendor/Panel/addnewuserskdev.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/addnewuserskdev.png" class="doc-img-frame" id="_img">
 </p>
 
 ### Smartphone
@@ -86,7 +91,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
 </div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/addnewusersmph.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/addnewusersmph.png" class="doc-img-frame" id="_img">
 </p>
 
 <div class="step-row-container">

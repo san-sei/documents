@@ -13,6 +13,11 @@ weight: 22
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 Every user has 2 sections in their panel. On section is [SSO (Simple sign-on)](#sso-(simple-sign-on)) which enables them to login by using their active accounts and
 security keys. The other section is the [Dropdown menu](#dropdown-menu) which enables users to access their profile and settings.
 

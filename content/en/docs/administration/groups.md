@@ -13,6 +13,11 @@ weight: 6
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 On this page, admins can see all groups with their names, types, descriptions, users, and number of security key devices.
 They can also edit or delete groups.
 They can also add new groups by clicking on the **New Group** button on the top left of this page.

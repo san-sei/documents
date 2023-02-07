@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 description: "Overall description"
-lead: "The IDmelon FIDO Orchestration Platform helps organizations simply and quickly deploy secure passwordless authentication for their users. Features like Security Key as a Service, FIDO2 managed security keys, and fully automated FIDO2 lifecycle are patented and unique approaches that help organizations enhance their workforce authentication security overnight. No more dealing with purchase and distribution of hardware FIDO security keys as organizations can use whatever device their users have as a FIDO2 security key. It can be an Access Card, a Key FOB or a smartphone."
+lead: "The IDmelon FIDO2 Orchestration Platform helps organizations simply and quickly deploy secure passwordless authentication for their users. Features like Security Key as a Service, FIDO2 managed security keys, and fully automated FIDO2 lifecycle are patented and unique approaches that help organizations enhance their workforce authentication security overnight. No more dealing with purchase and distribution of hardware FIDO2 security keys as organizations can use whatever device their users have as a FIDO2 security key. It can be an Access Card, a Key FOB or a smartphone."
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
@@ -15,7 +15,7 @@ toc: true
 
 <div class="section-xxl">
 
-## Create a workspace
+## Create a Workspace
 
 <div class="card-column">
   <div class="intro-card" >
@@ -25,9 +25,9 @@ toc: true
       </div>
       <div class="card-body">
         <!--<p style="font-weight: bold;" >Create a workspace</p>-->
-        <p>The IDmelon security key as a service solution can be managed from the IDmelon Admin Panel. You can enroll and activate users' security keys, grant, restrict and monitor their access, manage licenses, and more. The Admin Panel is available <a href="/docs/administration/introduction/" style="font-size:16px;">Here</a>. If it is your first try, you can create a workspace on behalf of your organization, or you can use your security key to experience a simple passwordless login.
+        <p>The IDmelon Security Key as a Service solution can be managed from the IDmelon Admin Panel. You can enroll and activate users' security keys, grant, restrict and monitor their access, manage licenses, and more. The Admin Panel is available <a href="/docs/administration/introduction/" style="font-size:16px;">here</a>. If it is your first try, you can create a workspace on behalf of your organization, or you can use your security key to experience a simple passwordless login.
         </p>
-        <p><a href="/docs/administration/createworkspace/">How to create a work space</a></p>
+        <p><a href="/docs/administration/createworkspace/">How to create a workspace</a></p>
       </div>
     </div>
   </div>
@@ -54,7 +54,7 @@ toc: true
   </div>
 </div>
 
-## Assign security keys
+## Assign Security Keys
 
 <div class="card-column">
   <div class="intro-card-xxl">
@@ -89,7 +89,7 @@ toc: true
             <p>
           </div>
           <div class="tab__content">
-            <p>If you already have a security key and you want to use it as a FIDO2 Hardware security keys, you must select this option. A registration link in your email, will let you set your hardware, as a FIDO2 hardware security key. From now on, your security key can be used for passwordless logins based on FIDO standard wherever it is available.</p>
+            <p>If you already have a security key and you want to use it as a FIDO2 Hardware security keys, you must select this option. A registration link in your email, will let you set your hardware, as a FIDO2 hardware security key. From now on, your security key can be used for passwordless logins based on FIDO2 standard wherever it is available.</p>
             <p><a href="/docs/administration/enrollment/#hardware-security-keys" style=" padding-bottom: 24px;" >How to setup a FIDO2 hardware security key device</a></p>
           </div>
         </div>
@@ -98,7 +98,7 @@ toc: true
   </div>
 </div>
 
-## Security key policies
+## Security Key Policies
 
 <div class="intro-card">
   <div class="card-row-container">

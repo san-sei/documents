@@ -13,6 +13,11 @@ weight: 14
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 The admin may want to register security key on behalf of a user in some circumstances. To do this, the admin can use the OBR procedure which can be done starting  
 from pairing tool by doing the following steps:
 

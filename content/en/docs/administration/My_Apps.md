@@ -13,8 +13,13 @@ weight: 12
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 This option allows users and administrators to access the services which they can see in their panel by their own security keys.
 
 <p align="center">
-    <img src="/images/vendor/Panel/admin_myapps.png">
+    <img src="/images/vendor/Panel/admin_myapps.png" class="doc-img-frame">
 </p>
