@@ -13,6 +13,11 @@ weight: 23
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 <p>In order to login, you need to have an active account in <a href="https://panel.idmelon.com/" target="_blank" style="font-size:16px;">IDmelon Panel</a>.</p>
 
 <p>The first step to log in is to open <a href="https://panel.idmelon.com/" target="_blank" style="font-size:16px;">this link</a>. So after openning IDmelon panel, you will see the image below, which shows multiple ways to log in.</p>

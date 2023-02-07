@@ -13,6 +13,11 @@ weight: 9
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 In this page, you can create a list of policies that you want to apply to your users on the **Security Key Policies** tab.
 If you want to add a new list item to this list, simply click on **New List**.
 

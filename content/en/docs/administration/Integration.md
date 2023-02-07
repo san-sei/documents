@@ -13,6 +13,11 @@ weight: 13
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 Simple sign-on (SSO) is an authentication approach that grants users secure authentication with multiple applications and websites by using just one set of credentials (ID).
 SSO works based upon a trust relationship set up between an application, known as the service provider (SP), and an identity provider (IDP). IDmelon admin panel also
 provides the same services to its users. It operates as an IDP to provide passwordless authentication experiance for users. IDmelon SSO integration can be done through

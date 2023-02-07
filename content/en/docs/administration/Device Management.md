@@ -13,6 +13,11 @@ weight: 7
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 Two types of devices can be managed inside administration panel. The first type includes devices connected to Azure Active Directory (AD)
 which can be imported into the administration panel and can be used for multiple purposes like device limitation when adding security key policies.
 The second type includes security key devices which consist of any devices that users set as their security keys.

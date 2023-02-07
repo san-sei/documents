@@ -4,7 +4,7 @@
 title = "IDmelon"
 titleSeparator = "-"
 titleAddition = "Password less authentication"
-description = "IDmelon offers FIDO certified solution through smartphone, fob or hardware security keys"
+description = "IDmelon offers FIDO certified solution through smartphone, FOB or hardware security keys"
 
 ## Documentation
 # docsVersion = "0.3"

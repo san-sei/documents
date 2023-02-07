@@ -13,6 +13,11 @@ weight: 11
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
  In this page, administrators can request as many licenses as they want. Licenses are required so that users can activate their security keys, specially for a user whom the
  main administrator wants to promote to administrator.
 
