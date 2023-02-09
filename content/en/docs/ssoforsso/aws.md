@@ -1,5 +1,5 @@
 ---
-title: "AWS SAML Configuration"
+title: "AWS"
 description: "This page is about integration IDmelon and AWS. "
 lead: ""
 date: 2022-02-16T18:14:02-08:00

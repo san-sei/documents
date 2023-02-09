@@ -1,5 +1,5 @@
 ---
-title: "Okta SAML Configuration"
+title: "Okta"
 description: "This page is about integration IDmelon and Okta."
 lead: ""
 date: 2022-02-16T18:14:02-08:00

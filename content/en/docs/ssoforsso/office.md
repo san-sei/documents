@@ -1,5 +1,5 @@
 ---
-title: "Office SAML Configuration"
+title: "Office"
 description: "This page is about integration IDmelon and Office."
 lead: ""
 date: 2022-02-16T18:14:02-08:00
