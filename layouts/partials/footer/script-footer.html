@@ -57,6 +57,11 @@
   {{ $slice = $slice | append $katexConfig -}}
 {{ end -}}
 
+<!-- There might be a better way to do this. -->
+{{ $zoomimg := resources.Get "js/zoom-image.js" -}}
+{{ $zoomimg := $zoomimg | js.Build -}}
+{{ $slice = $slice | append $zoomimg -}}
+
 {{ $js := $slice | resources.Concat "main.js" -}}
 
 {{ if eq (hugo.Environment) "development" -}}
