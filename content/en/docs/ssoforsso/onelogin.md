@@ -1,5 +1,5 @@
 ---
-title: "Onelogin SAML Configuration"
+title: "Onelogin"
 description: "This page is about integration IDmelon and Onelogin."
 lead: ""
 date: 2022-02-16T18:14:02-08:00

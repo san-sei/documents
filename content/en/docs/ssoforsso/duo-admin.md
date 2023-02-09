@@ -1,5 +1,5 @@
 ---
-title: "Duo Admin SAML Configuration"
+title: "Duo Admin"
 description: "This page is about integration IDmelon and Duo Admin."
 lead: ""
 date: 2022-02-16T18:14:02-08:00

@@ -1,5 +1,5 @@
 ---
-title: "Pingidentity SAML Configuration"
+title: "Pingidentity"
 description: "This page is about integration IDmelon and Pingidentity"
 lead: ""
 date: 2022-02-16T18:14:02-08:00

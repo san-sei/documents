@@ -1,5 +1,5 @@
 ---
-title: "Cyberark SAML Configuration"
+title: "Cyberark"
 description: "This page is about integration IDmelon and cyberark"
 lead: ""
 date: 2022-02-16T18:14:02-08:00

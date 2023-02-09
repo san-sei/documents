@@ -1,5 +1,5 @@
 ---
-title: "Salesforce SAML Configuration"
+title: "Salesforce"
 description: "This page is about integration IDmelon and Salesforce"
 lead: ""
 date: 2022-02-16T18:14:02-08:00

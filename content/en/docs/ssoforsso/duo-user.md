@@ -1,5 +1,5 @@
 ---
-title: "Duo End-user SAML Configuration"
+title: "Duo End-user"
 description: "This page is about integration IDmelon and Duo-user."
 lead: ""
 date: 2022-02-16T18:14:02-08:00
