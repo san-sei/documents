@@ -127,7 +127,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">Upload IDP configuration from URL</span> : <span class="code-back">{{idp_issuer_uri}}</span></p>
+        <p><span style="font-weight:bold">Upload IDP configuration from URL</span> : idp_issuer_uri</p>
       </div>
     </div>
   </div>
