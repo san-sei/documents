@@ -35,11 +35,11 @@ If you are currently login here, you will see the replaced values instead.</p>
 
 <div>
 <pre class="code-back">
-$dom = {{ domain }} </br>
-$uri = {{idp_issuer_uri}} <br>
-$url = {{idp_single_sign_on_ur}} <br>
-$logouturl = {{idp_single_sign_on_url}} <br>
-$cert = {{idp_certificate_download_url}} <br>
+$dom = domain  </br>
+$uri = idp_issuer_uri <br>
+$url = idp_single_sign_on_ur <br>
+$logouturl = idp_single_sign_on_url <br>
+$cert = idp_certificate_download_url <br>
 </pre>
 </div>
 
@@ -56,7 +56,7 @@ Set-MsolDomainAuthentication -DomainName $dom -FederationBrandName $dom -Authent
 
 <div>
 <pre class="code-back">
-$dom = {{ domain }}
+$dom = domain 
 Get-MSolDomainFederationSettings -DomainName $dom | Format-List *
 </pre>
 </div>
