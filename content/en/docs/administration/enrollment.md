@@ -176,6 +176,12 @@ As you can see the image below, you can turn the toggle on if you want to assign
     <img src="/images/vendor/Panel/contaclessassigned.png" class="doc-img-frame">
 </p>
 
+#### Activate Contactless Card by User
+
+<p align="center">
+    <img src="/images/vendor/gifs/assign_card_active_by_user.gif" class="doc-img-frame">
+</p>
+
 ### Hardware Security Keys
 
 <hr class="hr-line">
@@ -284,4 +290,8 @@ As you can see the image below, you can turn the toggle on if you want to assign
 
 <p align="center">
     <img src="/images/vendor/Panel/import_user_azure_2.png" class="doc-img-frame">
+</p>
+
+<p align="center">
+    <img src="/images/vendor/gifs/import_from_AzureAD.gif" class="doc-img-frame">
 </p>

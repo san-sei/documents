@@ -13,6 +13,11 @@ weight: 30
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 ## Requirements
 
 <hr class="hr-line">
@@ -171,7 +176,9 @@ When running the app for the first time you will be asked to enter an email to c
   </div>
 </div>
 
-{{< figure src="/images/vendor/gifs/pairing.gif">}}
+<p align="center">
+    <img src="/images/vendor/gifs/pair_phone_pc.gif" class="doc-img-frame">
+</p>
 
 ## Login with Security key
 
@@ -253,7 +260,9 @@ You can use security keys as a passwordless sign-in method within your organizat
   </div>
 </div>
 
-{{< figure src="/images/vendor/gifs/registration_office365.gif">}}
+<p align="center">
+    <img src="/images/vendor/gifs/registration_office365.gif" class="doc-img-frame">
+</p>
 
 <p class="note-body"><span style="font-weight:bold;">Note:</span> Make sure your administrator has turned on FIDO2 feature for use within your organization</p>
 
@@ -314,7 +323,9 @@ To see how it works:
   </div>
 </div>
 
-{{< figure src="/images/vendor/gifs/signin_1.gif">}}
+<p align="center">
+    <img src="/images/vendor/gifs/sample_user_login.gif" class="doc-img-frame">
+</p>
 
 ## Other accounts
 
