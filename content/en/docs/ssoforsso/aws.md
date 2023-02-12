@@ -208,7 +208,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>choose <span style="font-weight:bold">IdP sign-in URL :</span> ``{{idp_single_sign_on_url}}``,</p>
+        <p>choose <span style="font-weight:bold">IdP sign-in URL :</span> idp_single_sign_on_url</p>
       </div>
     </div>
   </div>
@@ -223,7 +223,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>choose <span style="font-weight:bold">IdP issuer URL :</span> ``{{idp_issuer_uri}}``,</p>
+        <p>choose <span style="font-weight:bold">IdP issuer URL :</span> idp_issuer_uri</p>
       </div>
     </div>
   </div>
@@ -238,7 +238,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">IdP certificate :</span> ``{{idp_certificate_download_url}}``,</p>
+        <p><span style="font-weight:bold">IdP certificate :</span> idp_certificate_download_url</p>
       </div>
     </div>
   </div>
