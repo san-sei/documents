@@ -154,7 +154,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Entity ID or issuer ID: <span class="code-back">{{idp_issuer_uri}}</span></p>
+        <p>Entity ID or issuer ID: idp_issuer_uri</p>
       </div>
     </div>
   </div>
@@ -167,7 +167,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Assertion consumer service URL or single sign-on URL: <span class="code-back">{{idp_single_sign_on_url}}</span></p>
+        <p>Assertion consumer service URL or single sign-on URL: idp_single_sign_on_url</p>
       </div>
     </div>
   </div>
@@ -180,7 +180,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Single logout URL: <span class="code-back">{{idp_single_sign_on_url}}</span></p>
+        <p>Single logout URL: idp_single_sign_on_url</p>
       </div>
     </div>
   </div>
@@ -193,7 +193,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Certificate: <span class="code-back">{{idp_certificate_download_url}}</span></p>
+        <p>Certificate: idp_certificate_download_url</p>
       </div>
     </div>
   </div>
@@ -313,7 +313,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Copy <span style="font-weight:bold">Assertion consumer service or single sing-on URL</span></p>
+        <p>Copy <span style="font-weight:bold">Assertion consumer service or single sign-on URL</span></p>
       </div>
     </div>
   </div>
