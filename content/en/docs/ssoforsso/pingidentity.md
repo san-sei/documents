@@ -272,7 +272,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p><span style="font-weight:bold;">SSO endpoint :</span> <code class="code-back">{{idp_single_sign_on_url}}</code></p>
+            <p><span style="font-weight:bold;">SSO endpoint :</span> idmelon single sign on url</p>
         </div>
         </div>
     </div>
@@ -284,7 +284,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p><span style="font-weight:bold;">IDP entity ID :</span> <code class="code-back">{{idp_issuer_uri}}</code></p>
+            <p><span style="font-weight:bold;">IDP entity ID :</span> idp_issuer_uri</p>
         </div>
         </div>
     </div>
@@ -308,7 +308,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p><span style="font-weight:bold;">VERIFICATION CERTIFICATE :</span> <code class="code-back">{{idp_certificate_download_url}}</code></p>
+            <p><span style="font-weight:bold;">VERIFICATION CERTIFICATE :</span> idp_certificate_download_url</p>
         </div>
         </div>
     </div>
