@@ -166,7 +166,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold;">Issuer :</span> Show in Login panel, <code class="code-back">{{idp_issuer_uri}}</code></p>
+        <p><span style="font-weight:bold;">Issuer :</span> Show in Login panel, idp_issuer_uri</p>
       </div>
     </div>
   </div>
@@ -281,7 +281,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold;">IdP Login URL :</span> <code class="code-back">{{idp_single_sign_on_url}}</code>.</p>
+        <p><span style="font-weight:bold;">IdP Login URL :</span> idp_single_sign_on_url</p>
       </div>
     </div>
   </div>
@@ -294,7 +294,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold;">IdP Logout URL :</span> <code class="code-back">{{idp_single_sign_on_url}}</code>.</p>
+        <p><span style="font-weight:bold;">IdP Logout URL :</span> idp_single_sign_on_url</p>
       </div>
     </div>
   </div>
@@ -307,7 +307,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold;">IdP Issuer URI</span> <code class="code-back">{{idp_issuer_uri}}</code>.</p>
+        <p><span style="font-weight:bold;">IdP Issuer URI</span> idp_issuer_uri</p>
       </div>
     </div>
   </div>
@@ -453,7 +453,7 @@ You should copy values of below fields from the Okta panel to the IDmelon Panel:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Trusted IdP Certificate :<code class="code-back">{{idp_certificate_download_url}}</code></p>
+        <p>Trusted IdP Certificate :<code class="code-back">idp_certificate_download_url</code></p>
       </div>
     </div>
   </div>
