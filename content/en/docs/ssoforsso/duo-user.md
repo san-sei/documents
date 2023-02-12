@@ -135,7 +135,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">Paste Entity ID :</span> <span class="code-back">{{idp_issuer_uri}}</span></p>
+        <p><span style="font-weight:bold">Paste Entity ID :</span> idp_issuer_uri</p>
       </div>
     </div>
   </div>
@@ -148,7 +148,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">Paste Single Sign-On URL :</span> <span class="code-back">{{idp_single_sign_on_url}}</span></p>
+        <p><span style="font-weight:bold">Paste Single Sign-On URL :</span> idp_single_sign_on_url</p>
       </div>
     </div>
   </div>
@@ -161,7 +161,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">Paste Single Single Logout URL :</span> <span class="code-back">{{idp_single_sign_on_url}}</span></p>
+        <p><span style="font-weight:bold">Paste Single Single Logout URL :</span> idp_single_sign_on_url</p>
       </div>
     </div>
   </div>
@@ -187,7 +187,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">Import Certificate :</span> <span class="code-back">{{idp_certificate_download_url}}</span></p>
+        <p><span style="font-weight:bold">Import Certificate :</span> idp_certificate_download_url</p>
       </div>
     </div>
   </div>
