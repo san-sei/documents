@@ -592,7 +592,6 @@ If you are currently login here, you will see the replaced values instead.
 <img src="/images/vendor/sso/aws_dashboard_10.png" class="doc-img-frame">
 </p>
 
-
 <div class="step-row-container">
   <div class="step-column bullet-container">
     <div class="bullet"></div>
