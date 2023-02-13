@@ -338,3 +338,175 @@ If you are currently login here, you will see the replaced values instead.</p>
 <div align="center">
     <img src="/images/vendor/sso/google_dashboard_09.png" class="doc-img-frame">
 </div>
+
+
+## API Token
+
+<hr class="hr-line">
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>In the <a href="https://console.cloud.google.com/apis/" style="font-size:16px;">Google Cloud console</a>, enable <span style="font-weight:bold">the People API</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Create <span style="font-weight:bold">New Project :</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mx-3">
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Choose custom name in <span style="font-weight:bold">Project name</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Choose an organization in <span style="font-weight:bold">Location</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Click <span style="font-weight:bold">CREATE</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div align="center">
+    <img src="/images/vendor/sso/google_dashboard_10.png" class="doc-img-frame">
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Select your Custom <span style="font-weight:bold">Project.</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p><span style="font-weight:bold">Confirm project</span> then Click <span style="font-weight:bold">NEXT</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div align="center">
+    <img src="/images/vendor/sso/google_dashboard_11.png" class="doc-img-frame">
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Click <span style="font-weight:bold">ENABLE</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div align="center">
+    <img src="/images/vendor/sso/google_dashboard_12.png" class="doc-img-frame">
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Then from <span style="font-weight:bold">Google Console</span>, in <span style="font-weight:bold">APIs and services panel</span> click <span style="font-weight:bold">CREATE CREDENTIALS</span> and choose each Api option which you want to use.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div align="center">
+    <img src="/images/vendor/sso/google_dashboard_13.png" class="doc-img-frame">
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Then Api will created and you can Copy your needed values: </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mx-3">
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>if you choose <span style="font-weight:bold">OAuth client ID</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div align="center">
+    <img src="/images/vendor/sso/google_dashboard_14.png" class="doc-img-frame">
+</div>
