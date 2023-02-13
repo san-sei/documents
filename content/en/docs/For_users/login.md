@@ -159,5 +159,5 @@ toc: true
 </div>
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/enduserlogin_7.png" class="doc-img-frame">
+    <img src="/images/vendor/UserPanel/myappsu_2.png" class="doc-img-frame">
 </p>

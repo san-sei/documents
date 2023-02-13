@@ -19,7 +19,7 @@ toc: true
 </div>
 
 When signed in to the administration panel, you are able to manage users and security keys from this section.
-The first step is to add a single user or import users in bulk from Azure AD or a CSV file. In case of adding them one by one, you can assign a security key to the user at the same time.
+The first step is to add a single user by clicking on the check boxes or **import users in bulk from Azure AD or a CSV file**. In case of adding them one by one, you can assign a **security key** to the user at the same time.
 
 <div align="center">
     <img src="/images/vendor/Panel/users&securitykeys.png" id="_img" class="doc-img-frame" alt="zoom">
@@ -66,7 +66,7 @@ The first step is to add a single user or import users in bulk from Azure AD or 
     <img src="/images/vendor/Panel/addnewusergp.png" class="doc-img-frame" id="_img">
 </p>
 
-As you can see the image below, you can turn the toggle on if you want to assign a security key now. If you turn the toggle on, you will have 3 options to assign a security key, the first is to choose [Smartphone](#smartphone), the second is [Contactless card](#contactless-card) and the third is [Hardware security keys](#hardware-security-keys). You can see the specified instructions in related sections.
+As you can see the image below, you can turn the toggle on if you want to assign a security key now. If you turn the toggle on, you will have 3 options to assign a security key, the first is to choose [Smartphone](#smartphone), the second is [Contactless card](#contactless-card) and the third is [FIDO2.0 Hardware Security Key](#hardware-security-keys). You can see the specified instructions in related sections.
 
 <p align="center">
     <img src="/images/vendor/Panel/addnewuserskdev.png" class="doc-img-frame" id="_img">
@@ -123,7 +123,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
     <div class="step-text" >
       <div class="card-body">
         <p>Choose <span style="font-weight:bold">Contactless Card</span> in <span style="font-weight:bold">Security Key Device</span> if you want to assign a Contactless Card to the user.<br>
-        From <span style="font-weight:bold">Choose how to activate</span> dropdown, you can either choose <span style="font-weight:bold">Activate now</span> as an admin if you have the contactless card physically near you or <span style="font-weight:bold">Activate by user</span> if the card is not with you. In case of <span style="font-weight:bold">Activate by user</span>, the targeted user will receive an email containing a link to register the contactless card themself.
+        From <span style="font-weight:bold">Choose how to activate</span> dropdown, you can either choose <span style="font-weight:bold">Activate now</span> as an admin if you have the Contactless Card physically near you or <span style="font-weight:bold">Activate by user</span> if the card is not with you. In case of <span style="font-weight:bold">Activate by user</span>, the targeted user will receive an email containing a link to register the Contactless Card themself.
         </p>
       </div>
     </div>
@@ -182,14 +182,13 @@ As you can see the image below, you can turn the toggle on if you want to assign
     <img src="/images/vendor/gifs/assign_card_active_by_user.gif" class="doc-img-frame">
 </p>
 
-### Hardware Security Keys
+### FIDO2.0 Hardware Security Keys
 
-<hr class="hr-line">
 <p align="center">
     <img src="/images/vendor/Panel/addnewuserhwsec.png" class="doc-img-frame">
 </p>
 
-## Import from a CSV file
+## Import from a CSV File
 
 <hr class="hr-line">
 <div class="step-row-container">
