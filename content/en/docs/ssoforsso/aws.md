@@ -481,7 +481,6 @@ If you are currently login here, you will see the replaced values instead.
 <img src="/images/vendor/sso/aws_dashboard_07.png" class="doc-img-frame">
 </p>
 
-
 ## API Token
 
 <hr class="hr-line">
