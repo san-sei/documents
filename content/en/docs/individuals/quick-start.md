@@ -177,7 +177,7 @@ When running the app for the first time you will be asked to enter an email to c
 </div>
 
 <p align="center">
-    <img src="/images/vendor/gifs/pair_phone_pc.gif" class="doc-img-frame">
+    <img src="/images/vendor/gifs/pair_phone_pc.gif" class="doc-img-frame doc-gif-size">
 </p>
 
 ## Login with Security key
@@ -261,7 +261,7 @@ You can use security keys as a passwordless sign-in method within your organizat
 </div>
 
 <p align="center">
-    <img src="/images/vendor/gifs/registration_office365.gif" class="doc-img-frame">
+    <img src="/images/vendor/gifs/registration_office365.gif" class="doc-img-frame doc-gif-size">
 </p>
 
 <p class="note-body"><span style="font-weight:bold;">Note:</span> Make sure your administrator has turned on FIDO2 feature for use within your organization</p>
@@ -324,7 +324,7 @@ To see how it works:
 </div>
 
 <p align="center">
-    <img src="/images/vendor/gifs/sample_user_login.gif" class="doc-img-frame">
+    <img src="/images/vendor/gifs/sample_user_login.gif" class="doc-img-frame doc-gif-size">
 </p>
 
 ## Other accounts
