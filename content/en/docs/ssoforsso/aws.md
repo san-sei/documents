@@ -480,3 +480,127 @@ If you are currently login here, you will see the replaced values instead.
 <p align="center">
 <img src="/images/vendor/sso/aws_dashboard_07.png" class="doc-img-frame">
 </p>
+
+## API Token
+
+<hr class="hr-line">
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Open <a href="https://console.aws.amazon.com/singlesignon" style="font-size:16px;">the AWS SSO console</a>.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Choose <span style="font-weight:bold">Settings</span> in the left navigation panel.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>On the <span style="font-weight:bold">Settings</span> page, locate the <span style="font-weight:bold">Automatic provisioning</span> information box, and then choose <span style="font-weight:bold">Enable</span>. This immediately enables automatic provisioning in IAM Identity Center and displays the necessary SCIM endpoint and access token information.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+<img src="/images/vendor/sso/aws_dashboard_08.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>In the <span style="font-weight:bold">Inbound automatic provisioning</span> dialog box, copy each of the values for the following options. You will need to paste these in later when you configure provisioning in your IdP.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mx-3">
+  <div class="step-row-container">
+    <div class="step-column bullet-container">
+      <div class="bullet"></div>
+    </div>
+    <div class="card-column">
+      <div class="step-text" >
+        <div class="card-body">
+          <p><span style="font-weight:bold">Copy</span> SCIM endpoint</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="step-row-container">
+    <div class="step-column bullet-container">
+      <div class="bullet"></div>
+    </div>
+    <div class="card-column">
+      <div class="step-text" >
+        <div class="card-body">
+          <p><span style="font-weight:bold">Copy</span> Access token</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+<img src="/images/vendor/sso/aws_dashboard_09.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>For <span style="font-weight:bold">Access token</span>, click on <span style="font-weight:bold">Show token</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+<img src="/images/vendor/sso/aws_dashboard_10.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Choose <span style="font-weight:bold">Close</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
