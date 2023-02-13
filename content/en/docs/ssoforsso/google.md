@@ -339,7 +339,6 @@ If you are currently login here, you will see the replaced values instead.</p>
     <img src="/images/vendor/sso/google_dashboard_09.png" class="doc-img-frame">
 </div>
 
-
 ## API Token
 
 <hr class="hr-line">
