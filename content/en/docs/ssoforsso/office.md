@@ -339,4 +339,4 @@ Get-MsolUser -all | Select-Object UserprincipalName,objectID,ImmutableID
     <img src="/images/vendor/sso/office_token_05.png" class="doc-img-frame">
 </div>
 
-<p class="code-back"><span style="font-weight:bold;">Please send these infromation to idmelon, in order to get your users from office panel.</span></p>
+<p class="note-body"><span style="font-weight:bold;">Please send these infromation to idmelon, in order to get your users from office panel.</span></p>
