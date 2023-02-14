@@ -18,8 +18,8 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
- In this page, administrators can request as many licenses as they want. Licenses are required so that users can activate their security keys, specially for a user whom the
- main administrator wants to promote to administrator.
+In this page, administrators can request as many licenses as they want. Licenses are required so that users can activate their
+security keys, specially for users who are selected by their main administrator to become new administrators.
 
 <div class="step-row-container">
   <div class="step-column step-count-size">

@@ -18,8 +18,11 @@ function resizeNavBtns(){
   var rightMenu = document.getElementById('right-side-menu');
 
   if(!nav)return;
-
-  if (window.innerWidth > 650){
+  else{
+    nav.classList.add('d-flex');
+  }
+  
+  if (window.innerWidth >= 651){
     nav.classList.add('d-flex');
     rightMenu.classList.add('position-fixed');
     nav.classList.remove('row');
@@ -32,11 +35,10 @@ function resizeNavBtns(){
   else{
     return;
   }
-  
 }
 
 window.onload = function(){
-  resizeNavBtns()
+  resizeNavBtns();
 }
 
 addEventListener('resize',()=>{
@@ -44,8 +46,7 @@ addEventListener('resize',()=>{
   var rightMenu = document.getElementById('right-side-menu');
   
     if(!nav)return;
-
-    if(window.innerWidth >= 651){
+    else if(window.innerWidth >= 651){
       nav.classList.add('d-flex');
       rightMenu.classList.add('position-fixed');
       nav.classList.remove('row');

@@ -68,12 +68,11 @@ used by service providers but it’s vital to note that for this approach to wor
 
 <hr class="hr-line">
 
-Adminstrators can **integrate with a new identity provider** using IDmelon administration panel in multiple ways that are provided by IDmelon. They can add SSO configuration
-manually or automatically. In case of automatic SSO configuration, we will show administrators a guide on how to configurate, however, **it has to be noted that automatic
-SSO configuration, can only be done for services which are suported by IDmelon**.If they choose manual configuration, they have to visit the SP's documents to be guided
-besides here in IDmelon administration panel, they will be shown a panel for posting SSO
-configuration.
-The purpose of this doc is to help administrators to have an overview of Integration process. For more details refer tp [SSO Configuration details](#sso-configuration-details).
+Adminstrators can **integrate with a new identity provider** using IDmelon administration panel in multiple ways that are provided
+by IDmelon. They can add SSO configuration manually or automatically. In case of automatic SSO configuration, we will show
+administrators a guide on how to configurate, however, **it has to be noted that automatic SSO configuration, can only be done forservices which are suported by IDmelon**.If they choose manual configuration, they have to visit the SP's documents to be
+guided besides here in IDmelon administration panel, they will be shown a panel for posting SSO configuration.
+The purpose of this doc is to help administrators to have an overview of Integration process.
 This process can be started by simply clicking on **Integrate with a new Identity Provider(IdP)**.
 
 <p align="center">

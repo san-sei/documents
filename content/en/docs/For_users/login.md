@@ -33,7 +33,7 @@ toc: true
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>You can login by clicking on <span style="font-size:16px;">Sign in with a security key</span>, for this one to work, you need to have IDmelon mobile app installed on your phone with either a Reader or Pairing Tool installed on your computer or you can also use a FOB to tap and log in.</p>
+        <p>You can login by clicking on <span style="font-weight:bold;">Sign in with a security key</span>, for this one to work, you need to have IDmelon mobile app installed on your phone with either a Reader or Pairing Tool installed on your computer or you can also use a FOB to tap and log in.</p>
       </div>
     </div>
   </div>
@@ -46,7 +46,7 @@ toc: true
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you do not have any of the above tools to log in, you can choose <span style="font-size:16px;">Sign-in options</span>, which will be dicussed later.</p>
+        <p>If you do not have any of the above tools to log in, you can choose <span style="font-weight:bold;">Sign-in options</span>, which will be dicussed later.</p>
       </div>
     </div>
   </div>
@@ -67,7 +67,7 @@ toc: true
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>After clicking <span style="font-size:16px;">Sign in with a security key</span>, a wizard will be shown to you by your OS and asks you to touch your security key.</p>
+        <p>After clicking <span style="font-weight:bold;">Sign in with a security key</span>, a wizard will be shown to you by your OS and asks you to <span style="font-weight:bold;">Touch your security key</span>.</p>
       </div>
     </div>
   </div>
@@ -101,7 +101,7 @@ toc: true
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you click <span style="font-size:16px;">Sign-in options</span>, you will be asked to enter your email. After that, click on Next.</p>
+        <p>If you click <span style="font-weight:bold;">Sign-in options</span>, you will be asked to enter your <span style="font-weight:bold;">Email</span>. After that, click on <span style="font-weight:bold;">Next</span>.</p>
       </div>
     </div>
   </div>
@@ -118,7 +118,7 @@ toc: true
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>In this section, you have the option to recieve a code via email or through SMS. (<span style="font-weight:bold;">Caution</span>: For the first time login you may not have your phone number activated.)Then, click on Next.</p>
+        <p>In this section, you have the option to recieve a code via email or through SMS. (<span style="font-weight:bold;">Caution</span>: For the first time login you may not have your phone number activated.)Then, click on <span style="font-weight:bold;">Send</span>.</p>
       </div>
     </div>
   </div>
@@ -135,7 +135,7 @@ toc: true
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>By clicking Next, you will recieve an email containig a code and you have to type that code to the screen as shown below.</p>
+        <p>By clicking <span style="font-weight:bold;">Send</span>, you will recieve an email containig a code and you have to type that code to the screen as shown below.</p>
       </div>
     </div>
   </div>

@@ -22,7 +22,7 @@ Two types of devices can be managed inside administration panel. The first type 
 which can be imported into the administration panel and can be used for multiple purposes like device limitation when adding security key policies.
 The second type includes security key devices which consist of any devices that users set as their security keys.
 
-## Azure AD connected devices
+## Azure AD Connected Devices
 
 <hr class="hr-line">
 
@@ -67,7 +67,7 @@ To import devices, click on <span style="font-weight:bold;">Import Azure AD-Conn
 <p class="note-body">
 <span style="font-weight:bold;">Pay attention</span> to that you may need to sign-in again during the redirection process.
 
-## Security key devices
+## Security Key Devices
 
 <hr class="hr-line">
 
@@ -76,4 +76,10 @@ An admin can delete a device which disconnects its corresponding security key.
 
 <p align="center">
     <img src="/images/vendor/Panel/devicemanagemnet_security.png" class="doc-img-frame">
+</p>
+
+By clicking on **User's Email** you will see **View User Information, its Group(s) and Security Key** page which shows the information of the user, thier security key devices and groups that they are membered in.
+
+<p align="center">
+    <img src="/images/vendor/Panel/view_user_information.png" class="doc-img-frame">
 </p>

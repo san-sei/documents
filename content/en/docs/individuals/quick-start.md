@@ -31,7 +31,7 @@ IDmelon uses a lightweight desktop application (named Pairing Tool) that wil
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Install IDmelon app on your smartphone from App Store or Google Play.</p>
+        <p>Install IDmelon Authenticator on your smartphone from App Store or Google Play.</p>
       </div>
     </div>
   </div>
@@ -177,7 +177,7 @@ When running the app for the first time you will be asked to enter an email to c
 </div>
 
 <p align="center">
-    <img src="/images/vendor/gifs/pair_phone_pc.gif" class="doc-img-frame doc-gif-size">
+    <img src="/images/vendor/gifs/pair_phone_pc.gif" class="doc-img-frame">
 </p>
 
 ## Login with Security key
@@ -193,7 +193,7 @@ You can use security keys as a passwordless sign-in method within your organizat
 
 <p class="note-body"><span style="font-weight:bold;">Note:</span> Currently security key is only available for enterprise users or Azure joined PCs.</p>
 
-#### How to add security key to your account
+### How to add security key to your account
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -215,7 +215,7 @@ You can use security keys as a passwordless sign-in method within your organizat
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Select <span style="font-weight:bold;">Security Info</span>, select <span style="font-weight:bold;">Add method</span>, and then select <span style="font-weight:bold;">Security key</span> from the <span style="font-weight:bold;">Add a method</span> list.</p>
+        <p>Select <span style="font-weight:bold;">Security Info</span>, select <span style="font-weight:bold;">Add sign-in method</span>, and then select <span style="font-weight:bold;">Security key</span> from the <span style="font-weight:bold;">Add a method</span> list.</p>
       </div>
     </div>
   </div>
@@ -254,19 +254,32 @@ You can use security keys as a passwordless sign-in method within your organizat
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>You then right after will get a notification on your phone. Tap on the notification to open the app and then tap <span style="font-weight:bold;">Approve</span> to complete registration.</p>
+        <p>You then right after will get a notification on your phone. Tap on the notification to open the app and then tap <span style="font-weight:bold;">Approve</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">6</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Then a <span style="font-weight:bold;">biometric confirmation</span> will pop up on you smartphone, do the <span style="font-weight:bold;">biometric confirmation</span> to complete registration.</p>
       </div>
     </div>
   </div>
 </div>
 
 <p align="center">
-    <img src="/images/vendor/gifs/registration_office365.gif" class="doc-img-frame doc-gif-size">
+    <img src="/images/vendor/gifs/registration_office365.gif" class="doc-img-frame">
 </p>
 
 <p class="note-body"><span style="font-weight:bold;">Note:</span> Make sure your administrator has turned on FIDO2 feature for use within your organization</p>
 
-#### How to login with security key
+### How to login with security key
 
 Now that you've added your phone as a security key to your account, you can use it to get access to your account.
 To see how it works:
@@ -291,7 +304,7 @@ To see how it works:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Click <span style="font-weight:bold;">Sign in with a security key</span> in the <span style="font-weight:bold;">sig-in options</span> window to see another window asking to <span style="font-weight:bold;">Touch your security key</span>.</p>
+        <p>Click <span style="font-weight:bold;">Sign in with a security key</span> in the <span style="font-weight:bold;">Sign-in options</span> window to see another window asking to <span style="font-weight:bold;">Touch your security key</span>.</p>
       </div>
     </div>
   </div>
@@ -324,7 +337,7 @@ To see how it works:
 </div>
 
 <p align="center">
-    <img src="/images/vendor/gifs/sample_user_login.gif" class="doc-img-frame doc-gif-size">
+    <img src="/images/vendor/gifs/sample_user_login.gif" class="doc-img-frame">
 </p>
 
 ## Other accounts

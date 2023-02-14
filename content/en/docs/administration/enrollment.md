@@ -184,6 +184,8 @@ As you can see the image below, you can turn the toggle on if you want to assign
 
 ### FIDO2.0 Hardware Security Keys
 
+If you already have a security key and you want to use it as a FIDO2 hardware security key, you must select the third option in the security key device dropdown. If you press the next in this page and confirm your information in the review & submit page, the target user will receive a registration link to set his hardware, as a FIDO2 hardware security key. From now on, the security key can be used for passwordless logins based on FIDO standard wherever it is available.
+
 <p align="center">
     <img src="/images/vendor/Panel/addnewuserhwsec.png" class="doc-img-frame">
 </p>

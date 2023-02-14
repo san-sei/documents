@@ -26,7 +26,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
     <img src="/images/vendor/Panel/groups_1.png" class="doc-img-frame">
 </p>
 
-## Create new group
+## Create New Group
 
 <hr class="hr-line">
 
@@ -50,7 +50,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Writing the group's description is optional.</p>
+        <p>Writing the group's <span style="font-weight:bold;">description</span> is optional.</p>
       </div>
     </div>
   </div>
@@ -63,7 +63,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Click Next, when you are done.</p>
+        <p>Click <span style="font-weight:bold;">Next</span>, when you are done.</p>
       </div>
     </div>
   </div>
@@ -73,7 +73,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
     <img src="/images/vendor/Panel/groups_2.png" class="doc-img-frame">
 </p>
 
-## Assign new users
+## Assign New Users
 
 <hr class="hr-line">
 
@@ -84,7 +84,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>This page requires you to assign users to the group that you are creating.</p>
+        <p>This page requires you to <span style="font-weight:bold;">Assign Users</span> to the group that you are creating.</p>
       </div>
     </div>
   </div>
@@ -97,7 +97,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you want to add users to a group, simply click on the " + " which is right next to the name of each user.</p>
+        <p>If you want to add users to a group, simply click on the <span style="font-weight:bold;"> + </span> which is right next to the name of each user.</p>
       </div>
     </div>
   </div>
@@ -110,7 +110,20 @@ They can also add new groups by clicking on the **New Group** button on the top 
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Click next when you are done.</p>
+        <p>If you want to remove users from a group, simply click on the <span style="font-weight:bold;"> - </span> which is right next to the name of each user on the right side.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Click <span style="font-weight:bold;">Next</span> when you are done.</p>
       </div>
     </div>
   </div>
@@ -119,7 +132,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
     <img src="/images/vendor/Panel/groups_3.png" class="doc-img-frame">
 </p>
 
-## Review and confirm
+## Review & Submit Data
 
 <hr class="hr-line">
 
@@ -130,7 +143,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>In this page, you can review and submit the group's data. You can also edit the group by clicking on the <span style="font-weight:bold;">pencil</span> image.</p>
+        <p>In this page, you can review and submit the group's data. You can also edit the group by clicking on the <span style="font-weight:bold;">pencil</span> icon.</p>
       </div>
     </div>
   </div>

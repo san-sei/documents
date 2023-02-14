@@ -24,7 +24,7 @@ Each organization may want to have a variety of authentication policies for diff
     <img src="/images/vendor/Panel/SKPolicy1.png" class="doc-img-frame">
 </p>
 
-## Create new policy
+## Create New Policy
 
 <hr class="hr-line">
 
@@ -49,11 +49,12 @@ Each policy can be set with multiple conditions including the following items al
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>User(s), group(s) and security key device (smartphone or contactless card)</p>
+        <p>Security Key Device Type (smartphone or contactless card)</p>
       </div>
     </div>
   </div>
 </div>
+
 <div class="step-row-container">
   <div class="step-column bullet-container">
     <div class="bullet"></div>
@@ -61,11 +62,26 @@ Each policy can be set with multiple conditions including the following items al
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Time (multiple periods of time for different days of the week)</p>
+        <p>User(s) and Group(s)</p>
       </div>
     </div>
   </div>
 </div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Time Limits(multiple periods of time for different days of the week)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
 <div class="step-row-container">
   <div class="step-column bullet-container">
     <div class="bullet"></div>
@@ -78,6 +94,8 @@ Each policy can be set with multiple conditions including the following items al
     </div>
   </div>
 </div>
+-->
+
 <div class="step-row-container">
   <div class="step-column bullet-container">
     <div class="bullet"></div>
@@ -85,7 +103,7 @@ Each policy can be set with multiple conditions including the following items al
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>IP (the connection IP address)</p>
+        <p>IP Restriction(the connection IP address)</p>
       </div>
     </div>
   </div>
@@ -97,11 +115,25 @@ Each policy can be set with multiple conditions including the following items al
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>RP (the Relaying Party)</p>
+        <p>RP Restriction(the Relaying Party)</p>
       </div>
     </div>
   </div>
 </div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Access Restriction on PCs (Available only for Contactless Cards)</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
 <div class="step-row-container">
   <div class="step-column bullet-container">
     <div class="bullet"></div>
@@ -114,9 +146,9 @@ Each policy can be set with multiple conditions including the following items al
     </div>
   </div>
 </div>
-
+-->
 <p align="center">
-    <img src="/images/vendor/Panel/SKPolicy3.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/SKPolicy3-1.png" class="doc-img-frame">
 </p>
 
 ### Policy Action
@@ -129,8 +161,13 @@ There are only two options including **Allow** and **Block** for the policy acti
 
 ### Review & Submit
 
-In final step, everything can be reviewed and corrected if necessary, and submitted if everything is as expected.
+In final step, everything can be edited and corrected if necessary, and submitted if everything is as expected by clicking on the
+**Confirm** Button.
 
 <p align="center">
     <img src="/images/vendor/Panel/SKPolicy5.png" class="doc-img-frame">
 </p>
+
+<p class="note-body">
+<span style="font-weight:bold;">Note :</span> in each step there is a <span style="font-weight:bold;">Previous</span> button which
+can be used to edit the previous step.</p>

@@ -1,5 +1,5 @@
 ---
-title: "Activate account by smartphone"
+title: "Activate Account by Smartphone"
 description: ""
 lead: ""
 date: 2022-04-25T19:13:04+03:00
@@ -32,7 +32,7 @@ address to activate your work account. From then on, you will be able to use you
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>First you have to install IDmelon Mobile App from <a href="https://apps.apple.com/ca/app/idmelon/id1511376376">App Store</a> or <a href="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&pli=1">Google Play</a>.</p>
+        <p>First you have to install <span style="font-weight:bold;">IDmelon Authenticatior</span> Mobile App from <a href="https://apps.apple.com/ca/app/idmelon/id1511376376">App Store</a> or <a href="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&pli=1">Google Play</a>.</p>
       </div>
     </div>
   </div>
