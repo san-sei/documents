@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-Every user has 2 sections in their panel. On section is [SSO (Simple sign-on)](#sso-(simple-sign-on)) which enables them to login by using their active accounts and
+Every user has 2 sections in their panel. On section is [SSO (Simple Sign-On)](#sso-(simple-sign-on)) which enables them to login by using their active accounts and
 security keys. The other section is the [Dropdown menu](#dropdown-menu) which enables users to access their profile and settings.
 
 ## SSO (Simple Sign-On)
@@ -38,7 +38,7 @@ By default, there is just Microsoft added to users' panel.
     <img src="/images/vendor/UserPanel/myappsu_2.png" class="doc-img-frame">
 </p>
 
-## Dropdown menu
+## User Options
 
 <hr class="hr-line">
 
@@ -68,7 +68,7 @@ the second is **Profile Info**, and the third is **Logout**.
 </p>
 
 Inside the **Security**, you can see your security keys as well as a button which allows you to add new security keys.
-By clicking on the **Add Security Key** button, a wizard the same as the one below will be shown. Click on "Yes" if you want to continue adding a new security key.
+By clicking on the **Add Security Key** button, a wizard the same as the one below will be shown. Click on **OK** if you want to continue adding a new security key.
 
 <p align="center">
     <img src="/images/vendor/UserPanel/userpanel_s_3.png" class="doc-img-frame">
@@ -81,7 +81,7 @@ By clicking on the **Add Security Key** button, a wizard the same as the one bel
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>The next wizard again will ask if you want to continue adding a new security key. Click on <span style="font-weight:bold;">Yes</span> to continue.</p>
+        <p>The next wizard again will ask if you want to continue adding a new security key. Click on <span style="font-weight:bold;">OK</span> to continue.</p>
       </div>
     </div>
   </div>

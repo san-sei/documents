@@ -32,7 +32,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>On this page you can name your list, write a description for it, and choose its type.</p>
+        <p>On this page you can name your list under <span style="font-weight:bold;">List Name</span>, write a <span style="font-weight:bold;">Description</span> for it, and choose <span style="font-weight:bold;">List Type</span>.</p>
       </div>
     </div>
   </div>
@@ -83,7 +83,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you have chosen <span style="font-weight:bold;">IP</span> in the previous section, add a new IP by clicking on the "+" on the top right of the page.</p>
+        <p>If you have chosen <span style="font-weight:bold;">IP</span> in the previous section, add a new <span style="font-weight:bold;">IP</span> by clicking on the <span style="font-weight:bold;">"+"</span> on the top right of the page.</p>
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Next you will see a window that is asking you to write an IP address.</p>
+        <p>Next you will see a window that is asking you to write an <span style="font-weight:bold;">IP</span> address.</p>
       </div>
     </div>
   </div>
@@ -113,7 +113,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Write the IP address that you want and click on <span style="font-weight:bold;">Add</span>.</p>
+        <p>Write the <span style="font-weight:bold;">IP</span> address that you want and click on <span style="font-weight:bold;">Add</span>.</p>
       </div>
     </div>
   </div>
@@ -235,7 +235,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you have chosen <span style="font-weight:bold;">Time</span>, then in the page below, add a new <span style="font-weight:bold;">Time</span> by clicking on the "+" on the top right of the page.</p>
+        <p>If you have chosen <span style="font-weight:bold;">Time</span>, then in the page below, add a new <span style="font-weight:bold;">Time</span> by clicking on the <span style="font-weight:bold;">"+"</span> on the top right of the page.</p>
       </div>
     </div>
   </div>
@@ -252,7 +252,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>In the window which is shown below, you can choose <span style="font-weight:bold;">Time Zone</span>, <span style="font-weight:bold;">Days of the week</span>, and <span style="font-weight:bold;">Time Period</span>.</p>
+        <p>In the window which is shown below, you can choose <span style="font-weight:bold;">Time Zone</span>, <span style="font-weight:bold;">Days of the Week</span>, and <span style="font-weight:bold;">Time Period</span>.</p>
       </div>
     </div>
   </div>

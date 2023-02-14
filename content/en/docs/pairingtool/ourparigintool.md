@@ -24,7 +24,7 @@ You will need to downlad and install:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>IDmelon app form <a href="https://apps.apple.com/ca/app/idmelon/id1511376376" style="font-size:16px;">App Store</a> or <a href="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&pli=1" style="font-size:16px;">Google Play</a> on your smartphone as well as IDmelon Pairing Tool from our website on your computer.</p>
+        <p>IDmelon Authenticator app from <a href="https://apps.apple.com/ca/app/idmelon/id1511376376" style="font-size:16px;">App Store</a> or <a href="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&pli=1" style="font-size:16px;">Google Play</a> on your smartphone as well as IDmelon Pairing Tool from our website on your computer.</p>
       </div>
     </div>
   </div>

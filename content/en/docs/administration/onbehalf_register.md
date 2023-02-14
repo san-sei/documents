@@ -18,8 +18,8 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-The admin may want to register security key on behalf of a user in some circumstances. To do this, the admin can use the OBR procedure which can be done starting  
-from pairing tool by doing the following steps:
+The admin may want to register security key on behalf of a user in some circumstances. To do this, the admin can use the OBR
+procedure which can be done starting from pairing tool by doing the following steps:
 
 ## Prerequisite for OBR
 
@@ -32,7 +32,7 @@ from pairing tool by doing the following steps:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>User must install IDmelon Authenticator app on his smartphone.</p>
+        <p>User must install IDmelon Authenticator app on their smartphone.</p>
       </div>
     </div>
   </div>
@@ -45,7 +45,7 @@ from pairing tool by doing the following steps:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>User security key status must be active in administration panel (Admin must add the user to the panel via invitation email and user must accept the invitation)</p>
+        <p>User security key status must be active in administration panel (Admin must <a href="https://docs.idmelon.com/docs/administration/enrollment/" style="font-size=16px;">add the user</a> to the panel via invitation email and user must accept the invitation).</p>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@ from pairing tool by doing the following steps:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Admin opens Pairing Tool, presses Cntl+I to choose Login as an Admin.</p>
+        <p>Admin opens Pairing Tool, presses <span style="font-weight:bold;">Cntl+I</span> to choose Login as an Admin or simply click on the gear icon on the top left of <span style="font-weight:bold;">Pairing Tool</span>.</p>
       </div>
     </div>
   </div>

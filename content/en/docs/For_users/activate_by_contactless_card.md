@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-When using IDmelon security key as a service, contactless cards can be used as a security key. The admin of your organization can activate a card for you or he can send an invitation email which help you register your card.
+When using IDmelon Security Key as a Service, Contactless Cards can be used as a security key. The admin of your organization can activate a card for you or he can send an invitation email which help you register your card.
 
 ## Activation by admin
 
