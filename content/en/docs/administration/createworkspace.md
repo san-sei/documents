@@ -26,60 +26,486 @@ toc: true
 Present your security key to experience a frictionless login, or create a workspace on behalf of your organization if it is your first try.<p>
 
 <p align="center">
-    <img src="/images/vendor/Panel/wslogin.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace/1.png" class="doc-img-frame">
 </p>
+
+If it is the first time that you are here to create a new workspace on behalf of your organization, click the **Create one!**.
 
 ## Create Workspace
 
 <hr class="hr-line">
 
-If it is the first time that you are here to create a new workspace on behalf of your organization, click the “Create one!” to see the page below:
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p> Choose <span style="font-weight:bold">Work or School</span> because you want to create an account as an administrator
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/panel-reg.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace/2.png" class="doc-img-frame">
 </p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Fill in all the fields.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p class="note-body">
 <span style="font-weight:bold;">Please note</span> that you need to enter your business email to represent your organization; you cannot use an email at a free domain.
 We know that it might be tempting to skip the End User License Agreement and Privacy Policy, but it is important to read them and have a mutual understanding of what we expect from each other.</p>
-To verify your email address, you will receive a verification code via email:
 
 <p align="center">
-    <img src="/images/vendor/Panel/code.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace/3.png" class="doc-img-frame">
 </p>
 
-Then, you should choose a way you would like to log into your panel;
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>To verify your email address, you will receive a verification code via your email, check your email and enter the 6 digit code.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/setup-sk.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace/4.png" class="doc-img-frame">
 </p>
 
-you can either add a security key now or later:
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">3</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Here you can either enter your country code and phonenumber or skip to the next step.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/touch1.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace/5.png" class="doc-img-frame">
 </p>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>If you have entered your phonenumber, please wait untill you receive a verification code and enter it in the wizard which looks like the wizrad below.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/touch2.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace/6.png" class="doc-img-frame">
 </p>
 
-or you will receive a versification code via email or SMS for each login:
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">4</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Please etner your company's <span style="font-weight:bold;">URL</span> and <span style="font-weight:bold;">Name</span>, these two fileds are necessary to be filled. Please make sure that your company's <span style="font-weight:bold;">URL</span> is correct brfore going to next step. You can either add your company's logo or not.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="note-body">
+<span style="font-weight:bold;">Note: </span> pay attention to the business type at the top of this step whether it is work or school.</p>
 
 <p align="center">
-    <img src="/images/vendor/Panel/human.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace/7.png" class="doc-img-frame">
 </p>
 
-To create a Business Workspace, you are required to provide some information. While you don’t have to enter your phone number, you need to provide your company URL and name:
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">5</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Enter your worksapce information. All fields are necessary.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/country.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace/8.png" class="doc-img-frame">
 </p>
 
-The information you provide can be later found in the Workspace section of Settings entry on the Navigation Menu on the left side of the panel:
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">5</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>In this step choose the device that you like to use as your security key.<br><br>
+            By clicking on <span style="font-weight:bold;">Save & Continue</span> you are going to see a page which is related to the security key device that you have choosed.<br><br>
+            Then, you should choose a way you would like to log into your panel.<br><br>
+            To activate your security key please visit the related part:<br><br>
+            </p>
+            <div class="step-row-container">
+            <div class="step-column bullet-container">
+                <div class="bullet"></div>
+            </div>
+            <div class="card-column">
+                <div class="step-text" >
+                <div class="card-body">
+                    <p><a href="#smartphone" style="font-size:16px;">Smartphone</a></p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="step-row-container">
+            <div class="step-column bullet-container">
+                <div class="bullet"></div>
+            </div>
+            <div class="card-column">
+                <div class="step-text" >
+                <div class="card-body">
+                    <p><a href="#contactless-card" style="font-size:16px;">Contactless Card</a></p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="step-row-container">
+            <div class="step-column bullet-container">
+                <div class="bullet"></div>
+            </div>
+            <div class="card-column">
+                <div class="step-text" >
+                <div class="card-body">
+                    <a href="#fido2.0-hardware-scurity-key" style="font-size:16px;">FDIO2.0 Hardware Security Key</a><br><br>
+                </div>
+                </div>
+            </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/menu1.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace/9-1.png" class="doc-img-frame">
 </p>
 
-Here, on the same page, you can also enable Proximity or add a Trusted Domain.
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">6</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>After the activation process you will see the page below which shows that you have successfully created your administration panel. Please click on Login to login to your work space.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/11.png" class="doc-img-frame">
+</p>
+
+## Activation Process
+
+<hr class="hr-line">
+
+### Smartphone
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p> Choose <span style="font-weight:bold">Smartphone</span> as your security key device and click on <span style="font-weight:bold"> Save & Continue</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/9-1.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p> You have to scan the QR code that you see by using IDmelon applicatoin on your phone.</span>.</p>
+        <p> Open IDmelon application on your phone and click on the <span style="font-weight:bold">three line menu</span> on the top left of your screen. Then tap on <span style="font-weight:bold">Pair with a new PC</span> and scan the QR code.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/9-1-2.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">3</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p> After scanning the QR code with your phone, the following page proves that you have registered your smartphone as a security key to IDmelon panel. Click <span style="font-weight:bold">Next</span> to move to the next step.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/9-1-2.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>The following images proves that you have successfully registered your smartphone as a security key.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/9-2-3.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">4</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Pay attention to this page, because this page informs on how use login using your smartphone security key. You should either download <span style="font-weight:bold">IDmenlon Piring Tool</span> or have an <span style="font-weight:bold">IDmelon Reader</span> to login to your panel by your smartphone as your security key.<br><br>
+        Click <span style="font-weight:bold">Login</span> to move to login page and login with your smart phone.<br><br>
+        For more information about <span style="font-weight:bold">Pairing Tool</span> refer to <a href="https://docs.idmelon.com/docs/pairingtool/ourparigintool/" style="font-size:16px;">this page</a>.<br><br>
+        For more information about <span style="font-weight:bold">Reader</span> refer to <a href="https://docs.idmelon.com/docs/readeguide/reader/" style="font-size:16px;">this page</a>.<br>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/9-2-4.png" class="doc-img-frame">
+</p>
+
+### Contactless Card
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p> Choose <span style="font-weight:bold">Contactless Card</span> as your security key device and click on <span style="font-weight:bold"> Save & Continue</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/A1.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p> In this page you see two card reader models. Based on your own card reader model click on <span style="font-weight:bold">rfIDEAS</span> or <span style="font-weight:bold">acs</span> to download the driver that can communicate with your reader. After downloading the driver and installing it, click on <span style="font-weight:bold">Next</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/A2.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">3</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Just enter whatever name you want for your security key device and click on <span style="font-weight:bold">Set up your Contactless Card</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/A3.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">4</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Just touch your device (tap on your Contactless Card) to register your card.</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/A4.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">5</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>By seeing the page below, your device has been successfully set up and click on <span style="font-weight:bold">Done</span> to see the <span style="font-weight:bold">Congratualtions</span> page.</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/A5.png" class="doc-img-frame">
+</p>
+
+<p class="note-body"><span style="font-weight:bold;">Note:</span> Once your Contactless Card has been registered, an email containing a 4 digit pin will be sent you. You will need this pin when you want to login to your panel using Contactless Card. You have to go to login page, touch your security key and then enter the pin to login to your panel.</p>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>The email looks like the following image.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/A7.png" class="doc-img-frame">
+</p>
+
+### FIDO2.0 Hardware Security Key
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p> Choose <span style="font-weight:bold">FIDO2.0 Hardware Security Key</span> as your security key device and click on <span style="font-weight:bold"> Save & Continue</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/h1.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Just write down whatever name you want for your hardware security key and click on <span style="font-weight:bold"> Register</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/h2.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">3</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Here you have to touch your Hardware Security key.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+    <img src="/images/vendor/Panel/workspace/h3.png" class="doc-img-frame">
+</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">4</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>If you have done all step correctly you can see the image below which proves that your security key has been added successfully.<br>
+        Simply click on <span style="font-weight:bold">Done</span> to see the <span style="font-weight:bold">Congratulations</span> page.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

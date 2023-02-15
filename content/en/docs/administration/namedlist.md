@@ -62,7 +62,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Click Next when you are done.</p>
+        <p>Click <span style="font-weight:bold;">Next</span> when you are done.</p>
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Next you will see a window that is asking you to write an <span style="font-weight:bold;">IP</span> address.</p>
+        <p><span style="font-weight:bold;">Next</span> you will see a window that is asking you to write an <span style="font-weight:bold;">IP</span> address.</p>
       </div>
     </div>
   </div>
@@ -113,7 +113,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Write the <span style="font-weight:bold;">IP</span> address that you want and click on <span style="font-weight:bold;">Add</span>.</p>
+        <p>Write the <span style="font-weight:bold;">IP</span> address that you want and click on <span style="font-weight:bold;">Add IP</span>.</p>
       </div>
     </div>
   </div>
@@ -184,7 +184,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you have chosen <span style="font-weight:bold;">RP</span>, then in the page below, add a new <span style="font-weight:bold;">RP</span> by clicking on the "+" on the top right of the page.</p>
+        <p>If you have chosen <span style="font-weight:bold;">RP</span>, then in the page below, add a new <span style="font-weight:bold;">RP</span> by clicking on the <span style="font-weight:bold;">"+"</span> on the top right of the page.</p>
       </div>
     </div>
   </div>
