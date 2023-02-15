@@ -79,7 +79,7 @@ address to activate your work account. From then on, you will be able to use you
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>In this page, enter your email and click "Send verification email".</p>
+        <p>In this page, enter your email and click <span style="font-weight:bold;">Send verification email</span>.</p>
       </div>
     </div>
   </div>
@@ -99,7 +99,7 @@ address to activate your work account. From then on, you will be able to use you
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>In this page, you can access your email by tapping<span style="font-size:16px;">Open email app</span> to see the verification code.</p>
+        <p>In this page, you can access your email by tapping <span style="font-size:16px;">Open email app</span> to see the verification code.</p>
       </div>
     </div>
   </div>

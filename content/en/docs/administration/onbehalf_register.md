@@ -96,7 +96,7 @@ procedure which can be done starting from pairing tool by doing the following st
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>After login, check Pairing Tool again to see Ready for on behalf registration status.</p>
+        <p>After login, check Pairing Tool again to see <span style="font-weight:bold;">Ready for On Behalf Registration</span> status.</p>
       </div>
     </div>
   </div>
