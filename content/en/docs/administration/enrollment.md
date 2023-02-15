@@ -19,7 +19,7 @@ toc: true
 </div>
 
 When signed in to the administration panel, you are able to manage users and security keys from this section.
-The first step is to add a single user by clicking on the check boxes or **import users in bulk from Azure AD or a CSV file**. In case of adding them one by one, you can assign a **security key** to the user at the same time.
+The first step is to add a single user by clicking on the check boxes or **import users in bulk from Azure AD or a CSV File**. In case of adding them one by one, you can assign a **security key** to the user at the same time.
 
 <div align="center">
     <img src="/images/vendor/Panel/users&securitykeys.png" id="_img" class="doc-img-frame" alt="zoom">
@@ -66,7 +66,7 @@ The first step is to add a single user by clicking on the check boxes or **impor
     <img src="/images/vendor/Panel/addnewusergp.png" class="doc-img-frame" id="_img">
 </p>
 
-As you can see the image below, you can turn the toggle on if you want to assign a security key now. If you turn the toggle on, you will have 3 options to assign a security key, the first is to choose [Smartphone](#smartphone), the second is [Contactless card](#contactless-card) and the third is [FIDO2.0 Hardware Security Key](#hardware-security-keys). You can see the specified instructions in related sections.
+As you can see the image below, you can turn the toggle on if you want to assign a security key now. If you turn the toggle on, you will have 3 options to assign a security key, the first is to choose [Smartphone](#smartphone), the second is [Contactless Card](#contactless-card) and the third is [FIDO2.0 Hardware Security Key](#hardware-security-keys). You can see the specified instructions in related sections.
 
 <p align="center">
     <img src="/images/vendor/Panel/addnewuserskdev.png" class="doc-img-frame" id="_img">
@@ -123,7 +123,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
     <div class="step-text" >
       <div class="card-body">
         <p>Choose <span style="font-weight:bold">Contactless Card</span> in <span style="font-weight:bold">Security Key Device</span> if you want to assign a Contactless Card to the user.<br>
-        From <span style="font-weight:bold">Choose how to activate</span> dropdown, you can either choose <span style="font-weight:bold">Activate now</span> as an admin if you have the Contactless Card physically near you or <span style="font-weight:bold">Activate by user</span> if the card is not with you. In case of <span style="font-weight:bold">Activate by user</span>, the targeted user will receive an email containing a link to register the Contactless Card themself.
+        From <span style="font-weight:bold">Choose how to activate</span> dropdown, you can either choose <span style="font-weight:bold">Activate now</span> as an admin if you have the card physically near you or <span style="font-weight:bold">Activate by user</span> if the card is not with you. In case of <span style="font-weight:bold">Activate by user</span>, the targeted user will receive an email containing a link to register the card themself.
         </p>
       </div>
     </div>
@@ -200,8 +200,8 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>At the top left, click <span style="font-weight:bold">Import users -> Import from a CSV fil</span> to open the wizard below.<br>
-        Then click <span style="font-weight:bold">Select</span> to choose and upload a CSV file from which you want to import users.<br>
+        <p>At the top left, click <span style="font-weight:bold">Import users -> Import from a CSV File</span> to open the wizard below.<br>
+        Then click <span style="font-weight:bold">Select</span> to choose and upload a CSV File from which you want to import users.<br>
         Click <span style="font-weight:bold">Next.</span>
         </p>
       </div>

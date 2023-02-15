@@ -50,7 +50,7 @@ They can also add new groups by clicking on the **New Group** button on the top 
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Writing the group's <span style="font-weight:bold;">description</span> is optional.</p>
+        <p>Writing the group's <span style="font-weight:bold;">Description</span> is optional.</p>
       </div>
     </div>
   </div>
