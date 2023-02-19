@@ -45,7 +45,7 @@ The first step is to add a single user by clicking on the check boxes or **impor
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/addnewuser.png" id="_img" class="doc-img-frame" alt="zoom">
+    <img src="/images/vendor/Panel/adduser/add_new_user_1.png" id="_img" class="doc-img-frame" alt="zoom">
 </div>
 
 <div class="step-row-container">
@@ -63,13 +63,13 @@ The first step is to add a single user by clicking on the check boxes or **impor
 </div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/addnewusergp.png" class="doc-img-frame" id="_img">
+    <img src="/images/vendor/Panel/adduser/add_new_user_2.png" class="doc-img-frame" id="_img">
 </p>
 
 As you can see the image below, you can turn the toggle on if you want to assign a security key now. If you turn the toggle on, you will have 3 options to assign a security key, the first is to choose [Smartphone](#smartphone), the second is [Contactless Card](#contactless-card) and the third is [FIDO2.0 Hardware Security Key](#hardware-security-keys). You can see the specified instructions in related sections.
 
 <p align="center">
-    <img src="/images/vendor/Panel/addnewuserskdev.png" class="doc-img-frame" id="_img">
+    <img src="/images/vendor/Panel/adduser/add_new_user_3-1.png" class="doc-img-frame" id="_img">
 </p>
 
 ### Smartphone
@@ -91,7 +91,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
 </div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/addnewusersmph.png" class="doc-img-frame" id="_img">
+    <img src="/images/vendor/Panel/adduser/add_new_user_3-2-1.png" class="doc-img-frame" id="_img">
 </p>
 
 <div class="step-row-container">
@@ -110,7 +110,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
 </div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/addnewuserconfirm.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_4-1.png" class="doc-img-frame">
 </p>
 
 ### Contactless Card
@@ -131,7 +131,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
 </div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/addnewusercontactlesscard.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_3-3-1.png" class="doc-img-frame">
 </p>
 
 <div class="step-row-container">
@@ -149,7 +149,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
 </div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/assignclesscard.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_3-3-1-1.png" class="doc-img-frame">
 </p>
 
 <p class="note-body">
@@ -187,7 +187,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
 If you already have a security key and you want to use it as a FIDO2 hardware security key, you must select the third option in the security key device dropdown. If you press the next in this page and confirm your information in the review & submit page, the target user will receive a registration link to set his hardware, as a FIDO2 hardware security key. From now on, the security key can be used for passwordless logins based on FIDO standard wherever it is available.
 
 <p align="center">
-    <img src="/images/vendor/Panel/addnewuserhwsec.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_3-4.png" class="doc-img-frame">
 </p>
 
 ## Import from a CSV File
@@ -210,7 +210,7 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
 </div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/importftomCSV.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_csv_1.png" class="doc-img-frame">
 </p>
 
 <div class="step-row-container">
@@ -230,7 +230,7 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
 </div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/gruopforCSV.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_csv_2.png" class="doc-img-frame">
 </p>
 
 <div class="step-row-container">
@@ -247,7 +247,7 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
 </div>
 
 <p align="center">
-    <img src="/images/vendor/Panel/confirmCSVusers.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_csv_3.png" class="doc-img-frame">
 </p>
 
 ## Import from Azure AD
