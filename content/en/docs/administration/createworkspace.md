@@ -152,23 +152,6 @@ We know that it might be tempting to skip the End User License Agreement and Pri
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Enter your worksapce information. All fields are necessary.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<p align="center">
-    <img src="/images/vendor/Panel/workspace/8.png" class="doc-img-frame">
-</p>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
         <p>In this step choose the device that you like to use as your security key.<br><br>
             By clicking on <span style="font-weight:bold;">Save & Continue</span> you are going to see a page which is related to the security key device that you have choosed.<br><br>
             Then, you should choose a way you would like to log into your panel.<br><br>
@@ -266,7 +249,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p> You have to scan the QR code that you see by using IDmelon applicatoin on your phone.</span>.</p>
+        <p> You have to scan the QR code that you see by using IDmelon applicatoin on your phone.</p>
         <p> Open IDmelon application on your phone and click on the <span style="font-weight:bold">three line menu</span> on the top left of your screen. Then tap on <span style="font-weight:bold">Pair with a new PC</span> and scan the QR code.</p>
       </div>
     </div>
@@ -288,23 +271,6 @@ We know that it might be tempting to skip the End User License Agreement and Pri
     </div>
   </div>
 </div>
-<p align="center">
-    <img src="/images/vendor/Panel/workspace/9-1-2.png" class="doc-img-frame">
-</p>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>The following images proves that you have successfully registered your smartphone as a security key.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
 <p align="center">
     <img src="/images/vendor/Panel/workspace/9-2-3.png" class="doc-img-frame">
 </p>
