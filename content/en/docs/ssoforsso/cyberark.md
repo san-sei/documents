@@ -114,7 +114,7 @@ toc: true
 
 <p><span class="code-back" style="font-weight:bold">Then Click Inbound Metadata option</span></p>
 
-<p>There are several Options which IDmelon supports all of them,But IDmelon recommends to <span class="code-back">Upload IDP configuration from URL</span>.</p>
+<p>There are several Options which IDmelon supports all of them, But IDmelon recommends to <span class="code-back">Upload IDP configuration from URL</span>.</p>
 
 <p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
 If you are currently login here, you will see the replaced values instead.
@@ -127,7 +127,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">Upload IDP configuration from URL</span> : idp_issuer_uri</p>
+        <p><span style="font-weight:bold">Upload IDP configuration from URL</span> : idp_issuer_uri or entity id</p>
       </div>
     </div>
   </div>
