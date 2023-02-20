@@ -24,7 +24,7 @@ toc: true
 
 <hr class="hr-line">
 
-<p>In order to set up the connection, you will need to log into to your <a href="https://admin.google.com" style="font-size:16x;">Google administration panel.</p>
+<p>In order to set up the connection, you will need to log into to your <a href="https://admin.google.com" style="font-size:16x;">Google administration panel.</p></a>
 
 ## Add Identity Provider
 
@@ -468,7 +468,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Then from <span style="font-weight:bold">Google Console</span>, in <span style="font-weight:bold">APIs and services panel</span> click <span style="font-weight:bold">CREATE CREDENTIALS</span> and choose each Api option which you want to use.</p>
+        <p>Then from <span style="font-weight:bold">Google Console</span>, in <span style="font-weight:bold">APIs and services panel</span> click <span style="font-weight:bold">CREATE CREDENTIALS</span> and choose each API option which you want to use.</p>
       </div>
     </div>
   </div>
@@ -485,7 +485,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Then Api will created and you can Copy your needed values: </p>
+        <p>Then API will created and you can Copy your needed values: </p>
       </div>
     </div>
   </div>
