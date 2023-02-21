@@ -281,3 +281,6 @@ If you want to add a new list item to this list, simply click on **New List**.
     </div>
   </div>
 </div>
+<p align="center">
+    <img src="/images/vendor/Panel/namedlist_11.png" class="doc-img-frame">
+</p>

@@ -25,7 +25,7 @@ toc: true
       </div>
       <div class="card-body">
         <!--<p style="font-weight: bold;" >Create a workspace</p>-->
-        <p>The IDmelon Security Key as a Service solution can be managed from the IDmelon Admin Panel. You can enroll and activate users' security keys, grant, restrict and monitor their access, manage licenses, and more. The Admin Panel is available <a href="/docs/administration/introduction/" style="font-size:16px;">here</a>. If it is your first try, you can create a workspace on behalf of your organization, or you can use your security key to experience a simple passwordless login.
+        <p>The IDmelon Security Key as a Service solution can be managed from the IDmelon Admin Panel. You can enroll and activate users' security keys, grant, restrict and monitor their access, manage licenses, and more. If it is your first try, you can create a workspace on behalf of your organization, or you can use your security key to experience a simple passwordless login.
         </p>
         <p><a href="/docs/administration/createworkspace/">How to create a workspace</a></p>
       </div>

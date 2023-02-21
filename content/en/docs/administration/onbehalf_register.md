@@ -114,7 +114,7 @@ procedure which can be done starting from pairing tool by doing the following st
     <div class="step-text" >
       <div class="card-body">
         <p>
-          Admin can choose a user from the panel as OBR: <span style="font-weight:bold;">User & Group Management</span> -> <span style="font-weight:bold;">Users & Security Keys</span> -> Choose a user -> <span style="font-weight:bold;">Action</span> -> Select as <span style="font-weight:bold;">OBR</span>.
+          Admin can choose a user from the panel as OBR: <span style="font-weight:bold;">User & Group Management</span> -> <span style="font-weight:bold;">Users & Security Keys</span> -> Choose a user -> <span style="font-weight:bold;">Action</span> -> <span style="font-weight:bold;">Select as OBR</span>.
         </p>
       </div>
     </div>
