@@ -98,7 +98,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Here you can either enter your country code and phonenumber or skip to the next step.</p>
+        <p>Here you can either enter your country code and phone number or skip to the next step.</p>
       </div>
     </div>
   </div>
@@ -115,7 +115,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you have entered your phonenumber, please wait untill you receive a verification code and enter it in the wizard which looks like the wizrad below.</p>
+        <p>If you have entered your phone number, please wait untill you receive a verification code and enter it in the wizard which looks like the wizard below.</p>
       </div>
     </div>
   </div>
@@ -153,7 +153,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
     <div class="step-text" >
       <div class="card-body">
         <p>In this step choose the device that you like to use as your security key.<br><br>
-            By clicking on <span style="font-weight:bold;">Save & Continue</span> you are going to see a page which is related to the security key device that you have choosed.<br><br>
+            By clicking on <span style="font-weight:bold;">Save & Continue</span> you are going to see a page which is related to the security key device that you have choosen.<br><br>
             Then, you should choose a way you would like to log into your panel.<br><br>
             To activate your security key please visit the related part:<br><br>
             </p>
@@ -249,7 +249,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p> You have to scan the QR code that you see by using IDmelon applicatoin on your phone.</p>
+        <p> You can use IDmelon Authenticator app or the camera on your smartphone to scan the QR code that you see on the PC screen.</p>
         <p> Open IDmelon application on your phone and click on the <span style="font-weight:bold">three line menu</span> on the top left of your screen. Then tap on <span style="font-weight:bold">Pair with a new PC</span> and scan the QR code.</p>
       </div>
     </div>
@@ -283,7 +283,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
     <div class="step-text" >
       <div class="card-body">
         <p>Pay attention to this page, because this page informs on how use login using your smartphone security key. You should either download <span style="font-weight:bold">IDmenlon Piring Tool</span> or have an <span style="font-weight:bold">IDmelon Reader</span> to login to your panel by your smartphone as your security key.<br><br>
-        Click <span style="font-weight:bold">Login</span> to move to login page and login with your smart phone.<br><br>
+        Click <span style="font-weight:bold">Login</span> to move to login page and login with your smartphone.<br><br>
         For more information about <span style="font-weight:bold">Pairing Tool</span> refer to <a href="https://docs.idmelon.com/docs/pairingtool/ourparigintool/" style="font-size:16px;">this page</a>.<br><br>
         For more information about <span style="font-weight:bold">Reader</span> refer to <a href="https://docs.idmelon.com/docs/readeguide/reader/" style="font-size:16px;">this page</a>.<br>
         </p>
@@ -358,7 +358,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Just touch your device (tap on your Contactless Card) to register your card.</span>.
+        <p>Just touch your device (tap on your Contactless Card) to register your card.</span>
         </p>
       </div>
     </div>
