@@ -153,7 +153,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
     <div class="step-text" >
       <div class="card-body">
         <p>In this step choose the device that you like to use as your security key.<br><br>
-            By clicking on <span style="font-weight:bold;">Save & Continue</span> you are going to see a page which is related to the security key device that you have choosen.<br><br>
+            By clicking on <span style="font-weight:bold;">Save & Continue</span> you are going to see a page which is related to the security key device that you have chosen.<br><br>
             Then, you should choose a way you would like to log into your panel.<br><br>
             To activate your security key please visit the related part:<br><br>
             </p>
