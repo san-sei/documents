@@ -132,7 +132,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Please etner your company's <span style="font-weight:bold;">URL</span> and <span style="font-weight:bold;">Name</span>, these two fileds are necessary to be filled. Please make sure that your company's <span style="font-weight:bold;">URL</span> is correct brfore going to next step. You can either add your company's logo or not.</p>
+        <p>Please enter your company's <span style="font-weight:bold;">URL</span> and <span style="font-weight:bold;">Name</span>, these two fields are necessary to be filled. Please make sure that your company's <span style="font-weight:bold;">URL</span> is correct before going to next step. You can either add your company's logo or not.</p>
       </div>
     </div>
   </div>
@@ -153,7 +153,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
     <div class="step-text" >
       <div class="card-body">
         <p>In this step choose the device that you like to use as your security key.<br><br>
-            By clicking on <span style="font-weight:bold;">Save & Continue</span> you are going to see a page which is related to the security key device that you have choosen.<br><br>
+            By clicking on <span style="font-weight:bold;">Save & Continue</span> you are going to see a page which is related to the security key device that you have chosen.<br><br>
             Then, you should choose a way you would like to log into your panel.<br><br>
             To activate your security key please visit the related part:<br><br>
             </p>
@@ -376,7 +376,7 @@ We know that it might be tempting to skip the End User License Agreement and Pri
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>By seeing the page below, your device has been successfully set up and click on <span style="font-weight:bold">Done</span> to see the <span style="font-weight:bold">Congratualtions</span> page.</span>.
+        <p>By seeing the page below, your device has been successfully set up and click on <span style="font-weight:bold">Done</span> to see the <span style="font-weight:bold">Congratulations</span> page.</span>.
         </p>
       </div>
     </div>
