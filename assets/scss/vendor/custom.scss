@@ -1000,10 +1000,12 @@ div {
 
 /* Modal Content (image) */
 .modal-content {
-  margin: auto;
+  margin:auto;
   display: block;
-  width: 80%;
-  max-width: 700px;
+  width: fit-content;
+  height: 90%;
+  object-fit: contain;
+  background-color: transparent;
 }
 
 /* Add Animation */

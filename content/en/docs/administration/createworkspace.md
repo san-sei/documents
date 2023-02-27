@@ -60,74 +60,22 @@ If it is the first time that you are here to create a new workspace on behalf of
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Fill in all the fields.</p>
+        <p>Fill in all the fields with your information including your email address and phone number. To verify your email address, you will receive a 6-digit verification code via your email to enter.</p>
       </div>
     </div>
   </div>
 </div>
 
 <p class="note-body">
-<span style="font-weight:bold;">Please note</span> that you need to enter your business email to represent your organization; you cannot use an email at a free domain.
-We know that it might be tempting to skip the End User License Agreement and Privacy Policy, but it is important to read them and have a mutual understanding of what we expect from each other.</p>
+<span style="font-weight:bold;">Please note</span> that you need to enter your business email to represent your organization, you cannot use an email at a free domain. We know that it might be tempting to skip the End User License Agreement and Privacy Policy, but it is important to read them and have a mutual understanding of what we expect from each other.</p>
 
 <p align="center">
     <img src="/images/vendor/Panel/workspace/3.png" class="doc-img-frame">
 </p>
 
 <div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>To verify your email address, you will receive a verification code via your email, check your email and enter the 6 digit code.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<p align="center">
-    <img src="/images/vendor/Panel/workspace/4.png" class="doc-img-frame">
-</p>
-
-<div class="step-row-container">
   <div class="step-column step-count-size">
     <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Here you can either enter your country code and phone number or skip to the next step.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<p align="center">
-    <img src="/images/vendor/Panel/workspace/5.png" class="doc-img-frame">
-</p>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you have entered your phone number, please wait untill you receive a verification code and enter it in the wizard which looks like the wizard below.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<p align="center">
-    <img src="/images/vendor/Panel/workspace/6.png" class="doc-img-frame">
-</p>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
   </div>
   <div class="card-column">
     <div class="step-text" >
