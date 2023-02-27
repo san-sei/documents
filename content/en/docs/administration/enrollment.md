@@ -123,7 +123,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
     <div class="step-text" >
       <div class="card-body">
         <p>Choose <span style="font-weight:bold">Contactless Card</span> in <span style="font-weight:bold">Security Key Device</span> if you want to assign a Contactless Card to the user.<br>
-        From <span style="font-weight:bold">Choose how to activate</span> dropdown, you can either choose <span style="font-weight:bold">Activate now</span> as an admin if you have the card physically near you or <span style="font-weight:bold">Activate by user</span> if the card is not with you. In case of <span style="font-weight:bold">Activate by user</span>, the targeted user will receive an email containing a link to register the card themself.
+        Set a name for it. From <span style="font-weight:bold">Choose how to activate</span> dropdown, you can either choose <span style="font-weight:bold">Activate now</span> as an admin if you have the card physically near you or <span style="font-weight:bold">Activate by user</span> if the card is not with you. In case of <span style="font-weight:bold">Activate by user</span>, the targeted user will receive an email containing a link to register the card themself.
         </p>
       </div>
     </div>
@@ -163,8 +163,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Finally, the image below shows the card is assigned successfully. Click Next and Confirm to complete the assignment. The user will then receive an email containing
-        a PIN for the security key.
+        <p>Finally, the image below shows the card is assigned successfully. Click Next and Confirm to complete the assignment. The user will then receive an email containing a PIN for the security key, which at the end of the activation process will be shown to the admin, too.
         <br>
         </p>
       </div>
