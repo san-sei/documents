@@ -80,7 +80,7 @@ If it is the first time that you are here to create a new workspace on behalf of
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Please etner your company's <span style="font-weight:bold;">URL</span> and <span style="font-weight:bold;">Name</span>, these two fileds are necessary to be filled. Please make sure that your company's <span style="font-weight:bold;">URL</span> is correct brfore going to next step. You can either add your company's logo or not.</p>
+        <p>Please enter your company's <span style="font-weight:bold;">URL</span> and <span style="font-weight:bold;">Name</span>, these two fileds are necessary to be filled. Please make sure that your company's <span style="font-weight:bold;">URL</span> is correct brfore going to next step. You can either add your company's logo or not.</p>
       </div>
     </div>
   </div>
@@ -324,7 +324,7 @@ If it is the first time that you are here to create a new workspace on behalf of
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>By seeing the page below, your device has been successfully set up and click on <span style="font-weight:bold">Done</span> to see the <span style="font-weight:bold">Congratualtions</span> page.</span>.
+        <p>By seeing the page below, your device has been successfully set up and click on <span style="font-weight:bold">Done</span> to see the <span style="font-weight:bold">Congratulations</span> page.</span>.
         </p>
       </div>
     </div>
