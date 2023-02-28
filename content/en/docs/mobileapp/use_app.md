@@ -81,7 +81,7 @@ There are two ways to get started with IDmelon Mobile App:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <a href="#psersonal-users">Personal users</a>
+        <a href="#personal-users">Personal users</a>
       </div>
     </div>
   </div>
@@ -95,6 +95,21 @@ There are two ways to get started with IDmelon Mobile App:
     <div class="step-text" >
       <div class="card-body">
         <a href="#business-users">Business users</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+Personal users have the option to upgrade their accounts:
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <a href="#upgrade-to-business-account">Upgrade to Business Account</a>
       </div>
     </div>
   </div>
@@ -387,6 +402,103 @@ If you did not receive any code, tap on **Resend**.
 <p class="note-body">
 <span style="font-weight:bold;">Note</span>: IDmelon has set a time limit. If it takes too long to complete the activation process, the activation link in your email will expire, and you will have to start over again.
 </p>
+
+## Upgrade to Business Account
+
+<hr class="hr-line">
+
+<p>To upgrade a <span style="font-weight:bold;">Basic</span> account to an <span style="font-weight:bold;">Standard</span> account or a <span style="font-weight:bold;">Premium</span> account, follow the instructions bellow:</p>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Tap the <span style="font-weight:bold;">Security key</span> image on the first page.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Tap the <span style="font-weight:bold;">Settings</span> icon on top of the page.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">3</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Expand <span style="font-weight:bold;">License Type</span> to see the available plans.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Choose one of the available plans, and tap on <span style="font-weight:bold;">Upgrade</span>, then you will be redirected to your platform's payment page to choose your payment method for <span style="font-weight:bold;">IDmelon Application</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+<div class="image-step-container">
+  <div class="img-num-step-container">
+    <div class="step-row step-count-size" style="justify-content:center;">
+      <p class="step-counter">1</p>
+    </div>
+    <div align="center">
+      <img src="/images/vendor/MobileApp/upgrade/1.jpg" class="doc-img-mobile doc-img-frame">
+    </div>
+  </div>
+  <div class="img-num-step-container">
+    <div class="step-row step-count-size">
+      <p class="step-counter">2</p>
+    </div>
+    <div align="center">
+      <img src="/images/vendor/MobileApp/upgrade/2.jpg" class="doc-img-mobile doc-img-frame">
+    </div>
+  </div>
+</div>
+
+<div class="image-step-container">
+  <div class="img-num-step-container">
+    <div class="step-row step-count-size" style="justify-content:center;">
+      <p class="step-counter">3</p>
+    </div>
+    <div align="center">
+      <img src="/images/vendor/MobileApp/upgrade/3.jpg" class="doc-img-mobile doc-img-frame">
+    </div>
+  </div>
+  <div class="img-num-step-container">
+    <div class="step-row step-count-size">
+      <p class="step-counter">4</p>
+    </div>
+    <div align="center">
+      <img src="/images/vendor/MobileApp/upgrade/4.jpg" class="doc-img-mobile doc-img-frame">
+    </div>
+  </div>
+</div>
+</div>
 
 ## Pair with a new PC
 

@@ -156,3 +156,5 @@ procedure which can be done starting from pairing tool by doing the following st
 <p align="center">
 <img src="/images/vendor/Panel/OBR_5.png" class="doc-img-frame">
 </p>
+
+<p class="note-body"><span style="font-weight:bold;">Note</span>: If a user's security key type is <span style="font-weight:bold;">local</span>, administrator must contact the user to approve the permissions that will be shown on the user's smartphone to complete the <span style="font-weight:bold;">OBR</span> steps.</p>
