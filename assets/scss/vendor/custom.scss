@@ -110,10 +110,6 @@ tr.trV2 {
     vertical-align: inherit;
 }
 
-div {
-    display: block;
-}
-
 .home-page-card {
   position: relative;
   display: flex;
@@ -934,6 +930,8 @@ div {
 
 .step-counter{
   line-height: 20px;
+  display: flex;
+  justify-content:center;
   text-align: center;
   vertical-align: middle;
   font-style: normal;
@@ -1060,4 +1058,27 @@ div {
 .doc-gif-size{
   width:680px;
   height: 382px;
+}
+
+.image-step-container{
+  display:grid;
+  grid-template-columns: auto auto;
+}
+
+.img-num-step-container{
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.step-row{
+  float: center;
+  margin: 0 45%;
+}
+
+.img-stepper-column{
+  float: center;
+  width: 50%;
+  justify-content: center;
 }
