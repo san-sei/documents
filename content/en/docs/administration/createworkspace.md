@@ -1,7 +1,7 @@
 ---
 title: "Create your Workspace"
 description: "Administration Overview"
-lead: "Every aspect of your IDmelon passwordless authentication system can be managed from the IDmelon Admin Panel. This include enrolling and activating users' security keys, instantly granting or restricting access, carefully monitoring users' access, managing licenses, and more."
+lead: "Every aspects of your IDmelon passwordless authentication system can be managed from the IDmelon Admin Panel. This include enrolling and activating users' security keys, instantly granting or restricting access, carefully monitoring users' access, managing licenses, and more."
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
@@ -80,7 +80,7 @@ If it is the first time that you are here to create a new workspace on behalf of
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Please enter your company's <span style="font-weight:bold;">URL</span> and <span style="font-weight:bold;">Name</span>, these two fileds are necessary to be filled. Please make sure that your company's <span style="font-weight:bold;">URL</span> is correct brfore going to next step. You can either add your company's logo or not.</p>
+        <p>Please enter your company's <span style="font-weight:bold;">URL</span> and <span style="font-weight:bold;">Name</span>, these two fileds are necessary to be filled. Please make sure that your company's <span style="font-weight:bold;">URL</span> is correct before going to next step. You can either add your company's logo or not.</p>
       </div>
     </div>
   </div>
@@ -95,7 +95,7 @@ If it is the first time that you are here to create a new workspace on behalf of
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
+    <p class="step-counter">4</p>
   </div>
   <div class="card-column">
     <div class="step-text" >
@@ -152,12 +152,12 @@ If it is the first time that you are here to create a new workspace on behalf of
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
+    <p class="step-counter">5</p>
   </div>
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>After the activation process you will see the page below which shows that you have successfully created your administration panel. Please click on Login to login to your work space.</p>
+        <p>After the activation process you will see the page below which shows that you have successfully created your administration panel. Please click on Login to log in to your workspace.</p>
       </div>
     </div>
   </div>
@@ -335,7 +335,7 @@ If it is the first time that you are here to create a new workspace on behalf of
     <img src="/images/vendor/Panel/workspace/A5.png" class="doc-img-frame">
 </p>
 
-<p class="note-body"><span style="font-weight:bold;">Note:</span> Once your Contactless Card has been registered, an email containing a 4 digit pin will be sent you. You will need this pin when you want to login to your panel using Contactless Card. You have to go to login page, touch your security key and then enter the pin to login to your panel.</p>
+<p class="note-body"><span style="font-weight:bold;">Note:</span> Once your Contactless Card has been registered, an email containing a 4 digit PIN will be sent you. You will need this PIN when you want to login to your panel using Contactless Card. You have to go to login page, touch your security key and then enter the PIN to login to your panel.</p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
