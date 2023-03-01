@@ -1,7 +1,7 @@
 ---
 title: "Create your Workspace"
 description: "Administration Overview"
-lead: "Every aspects of your IDmelon passwordless authentication system can be managed from the IDmelon Admin Panel. This include enrolling and activating users' security keys, instantly granting or restricting access, carefully monitoring users' access, managing licenses, and more."
+lead: "Every aspects of your IDmelon passwordless authentication system can be managed from the IDmelon Admin Panel. This includes enrolling and activating users' security keys, instantly granting or restricting access, carefully monitoring users' access, managing licenses, and more."
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
@@ -230,7 +230,7 @@ If it is the first time that you are here to create a new workspace on behalf of
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Pay attention to this page, because this page informs on how use login using your smartphone security key. You should either download <span style="font-weight:bold">IDmenlon Piring Tool</span> or have an <span style="font-weight:bold">IDmelon Reader</span> to login to your panel by your smartphone as your security key.<br><br>
+        <p>Pay attention to this page, because this page informs about how to log in using your smartphone as a security key. You should either download <span style="font-weight:bold">IDmenlon Piring Tool</span> or have an <span style="font-weight:bold">IDmelon Reader</span> to log in to your panel by your smartphone as your security key.<br><br>
         Click <span style="font-weight:bold">Login</span> to move to login page and login with your smartphone.<br><br>
         For more information about <span style="font-weight:bold">Pairing Tool</span> refer to <a href="https://docs.idmelon.com/docs/pairingtool/ourparigintool/" style="font-size:16px;">this page</a>.<br><br>
         For more information about <span style="font-weight:bold">Reader</span> refer to <a href="https://docs.idmelon.com/docs/readeguide/reader/" style="font-size:16px;">this page</a>.<br>
@@ -324,7 +324,7 @@ If it is the first time that you are here to create a new workspace on behalf of
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>By seeing the page below, your device has been successfully set up and click on <span style="font-weight:bold">Done</span> to see the <span style="font-weight:bold">Congratulations</span> page.</span>.
+        <p>By seeing the page below, your device has been successfully set up and click on <span style="font-weight:bold">Done</span> to see the <span style="font-weight:bold">Congratulations</span> page.</span>
         </p>
       </div>
     </div>
