@@ -94,7 +94,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
     <img src="/images/vendor/Panel/adduser/add_new_user_3-2-1.png" class="doc-img-frame" id="_img">
 </p>
 
-<p class="note-body"><span style="font-weight:bold;">Note</span>: If administrator clicks on <span style="font-weight:bold;">Client Pin</span>, a pin will be sent to the user's smarphone, and the pin has to be entered to register the user.</p>
+<p class="note-body"><span style="font-weight:bold;">Note</span>: If administrator clicks on <span style="font-weight:bold;">Client PIN</span>, a PIN will be sent to the user's smarphone, and the PIN has to be entered to register the user.</p>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
