@@ -292,4 +292,4 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
 
 <hr class="hr-line">
 
-<p>For complete information about User Provisioning refer to this <a href="https://docs.idmelon.com/docs/administration/onbehalf_register/" style="font-size:16px;" target="_blank">link</a>.</p>
+<p>For complete information about User Provisioning refer to this <a href="/docs/administration/onbehalf_register/" style="font-size:16px;" target="_blank">link</a>.</p>

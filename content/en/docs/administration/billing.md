@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-Every account at **IDmelon Panel** is allowed to have five security key devices for free, however, if there is a need to add more than five security keys to an **IDmelon Panel** a payment method should be added at [Payment Info](#payment-info). The [Status](#status) and [Payment History](#history) is also available at Billing tab on **IDmelon Panel** for administrators. 
+Every account at **IDmelon Panel** is allowed to have five security key devices for free, however, if there is a need to add more than five security keys to an **IDmelon Panel** a payment method should be added at [Payment Info](#payment-info). The [Status](#status) and [Payment History](#history) is also available at Billing tab on **IDmelon Panel** for administrators.
 
 ## Status
 
@@ -30,7 +30,7 @@ On this page, administrators can see the status of the prices of the devices tha
 
 <hr class="hr-line">
 
-This tab, includes all the payment history as well as **Invoice Number**, **Date**, **Status**, **Amount** and **Actions** that 
+This tab, includes all the payment history as well as **Invoice Number**, **Date**, **Status**, **Amount** and **Actions** that
 can be done to each invoice.
 
 ## Payment Info
@@ -46,7 +46,9 @@ When an administrator wants to add more than five security key devices to their 
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p> Open <span style="font-weight:bold">Payment Info</span> and click on <span style="font-weight:bold">Add a payment method</span>. After that, a window will open up and requires to enter payment card info and billing address. After entering the required information, click on <span style="font-weight:bold">Save</span> to add your payment method. 
+        <p> Open <span style="font-weight:bold">Payment Info</span> and click on <span style="font-weight:bold">Add a payment
+        method</span>. After that, a window will open up and requires to enter payment card info and billing address. After
+        entering the required information, click on <span style="font-weight:bold">Save</span> to add your payment method.
         </p>
       </div>
     </div>
