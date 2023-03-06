@@ -1133,3 +1133,12 @@ tr.trV2 {
     }
   }
 }
+
+.wide-img-svg{
+  visibility: hidden;
+  z-index: 100px;
+  transition: all 0.25s ease;
+  &:hover{
+    visibility:visible;
+  }
+}
