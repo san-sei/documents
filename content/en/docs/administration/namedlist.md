@@ -224,6 +224,85 @@ If you want to add a new list item to this list, simply click on **New List**.
     <img src="/images/vendor/Panel/namedlist_10.png" class="doc-img-frame">
 </p>
 
+## Location
+
+<hr class="hr-line">
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>If you have chosen <span style="font-weight:bold;">Location</span>, then add a new <span style="font-weight:bold;">Locatoin</span> by clicking on the <span style="font-weight:bold;">"+"</span>icon on the top right of the page.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>After clicking on the <span style="font-weight:bold;">+</span> icon, a wizard containing a map will be shown, find your location on the map and click on <span style="font-weight:bold;">Confirm Location</span> and after that click on <span style="font-weight:bold;">Confirm</span> to add this list to your named lists.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators carousel-indicators-numbers" style="margin-bottom:-5px;">
+    <li type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+    <li type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="img-num-step-container">
+        <div class="step-row step-count-size" style="justify-content:center;">
+          <p class="step-counter">1</p>
+        </div>
+        <div align="center">
+          <img src="/images/vendor/Panel/namedlist_12.png" class="doc-img-frame">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="img-num-step-container">
+        <div class="step-row step-count-size">
+          <p class="step-counter">2</p>
+        </div>
+        <div align="center">
+          <img src="/images/vendor/Panel/namedlist_13.png" class="doc-img-frame">
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <svg fill="none" class="simple-stepper-svg wide-img-svg" height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+    <path d="M256,0C114.618,0,0,114.618,0,256s114.618,256,256,256s256-114.618,256-256S397.382,0,256,0z M256,469.333
+      c-117.818,0-213.333-95.515-213.333-213.333S138.182,42.667,256,42.667S469.333,138.182,469.333,256S373.818,469.333,256,469.333
+      z" />
+    <path d="M313.752,134.248c-8.331-8.331-21.839-8.331-30.17,0L176.915,240.915c-8.331,8.331-8.331,21.839,0,30.17l106.667,106.667
+      c8.331,8.331,21.839,8.331,30.17,0c8.331-8.331,8.331-21.839,0-30.17L222.17,256l91.582-91.582
+      C322.083,156.087,322.083,142.58,313.752,134.248z" />
+    </svg>
+  </button>
+  <button class="carousel-control-next rotate-180" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <svg fill="none" class="simple-stepper-svg wide-img-svg" height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+    <path d="M256,0C114.618,0,0,114.618,0,256s114.618,256,256,256s256-114.618,256-256S397.382,0,256,0z M256,469.333
+      c-117.818,0-213.333-95.515-213.333-213.333S138.182,42.667,256,42.667S469.333,138.182,469.333,256S373.818,469.333,256,469.333
+      z" />
+    <path d="M313.752,134.248c-8.331-8.331-21.839-8.331-30.17,0L176.915,240.915c-8.331,8.331-8.331,21.839,0,30.17l106.667,106.667
+      c8.331,8.331,21.839,8.331,30.17,0c8.331-8.331,8.331-21.839,0-30.17L222.17,256l91.582-91.582
+      C322.083,156.087,322.083,142.58,313.752,134.248z" />
+    </svg>
+  </button>
+</div>
+
 ## Time List
 
 <hr class="hr-line">
