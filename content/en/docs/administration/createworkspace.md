@@ -163,10 +163,6 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<div align="center">
-    <img src="/images/vendor/Panel/workspace/11.png" class="doc-img-frame">
-</div>
-
 ## Activation Process
 
 <hr class="hr-line">
