@@ -53,7 +53,7 @@ toc: true
 </div>
 
 <p align="center">
-    <img src="/images/vendor/UserPanel/enduserlogin_1.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace/1.png" class="doc-img-frame">
 </p>
 
 ## Sign in with a security key

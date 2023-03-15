@@ -55,9 +55,9 @@ When an administrator wants to add more than five security key devices to their 
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/billing/1.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -72,6 +72,6 @@ When an administrator wants to add more than five security key devices to their 
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/billing/2.png" class="doc-img-frame">
-</p>
+</div>

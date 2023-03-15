@@ -22,9 +22,9 @@ On this page, admins can see all groups with their names, types, descriptions, u
 They can also edit or delete groups.
 They can also add new groups by clicking on the **New Group** button on the top left of this page.
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/groups_1.png" class="doc-img-frame">
-</p>
+</div>
 
 ## Create New Group
 
@@ -69,9 +69,9 @@ They can also add new groups by clicking on the **New Group** button on the top 
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/groups_2.png" class="doc-img-frame">
-</p>
+</div>
 
 ## Assign New Users
 
@@ -128,9 +128,9 @@ They can also add new groups by clicking on the **New Group** button on the top 
     </div>
   </div>
 </div>
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/groups_3.png" class="doc-img-frame">
-</p>
+</div>
 
 ## Review & Submit Data
 
@@ -162,6 +162,6 @@ They can also add new groups by clicking on the **New Group** button on the top 
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/groups_4.png" class="doc-img-frame">
-</p>
+</div>

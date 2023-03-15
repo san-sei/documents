@@ -21,9 +21,9 @@ toc: true
 In this page, you can create a list of policies that you want to apply to your users on the **Security Key Policies** tab.
 If you want to add a new list item to this list, simply click on **New List**.
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_1.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -38,9 +38,9 @@ If you want to add a new list item to this list, simply click on **New List**.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_2.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -68,9 +68,9 @@ If you want to add a new list item to this list, simply click on **New List**.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_3.png" class="doc-img-frame">
-</p>
+</div>
 
 ## IP List
 
@@ -89,9 +89,9 @@ If you want to add a new list item to this list, simply click on **New List**.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_4.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -131,13 +131,13 @@ If you want to add a new list item to this list, simply click on **New List**.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_5.png" class="doc-img-frame">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_6.png" class="doc-img-frame">
-</p>
+</div>
 
 ## Device List
 
@@ -169,9 +169,9 @@ If you want to add a new list item to this list, simply click on **New List**.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_7.png" class="doc-img-frame">
-</p>
+</div>
 
 ## RP List
 
@@ -190,9 +190,9 @@ If you want to add a new list item to this list, simply click on **New List**.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_8.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -220,9 +220,9 @@ If you want to add a new list item to this list, simply click on **New List**.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_10.png" class="doc-img-frame">
-</p>
+</div>
 
 ## Location
 
@@ -320,9 +320,9 @@ If you want to add a new list item to this list, simply click on **New List**.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_9.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -360,6 +360,6 @@ If you want to add a new list item to this list, simply click on **New List**.
     </div>
   </div>
 </div>
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/namedlist_11.png" class="doc-img-frame">
-</p>
+</div>

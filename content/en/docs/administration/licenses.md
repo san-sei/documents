@@ -52,9 +52,9 @@ security keys, specially for users who are selected by their main administrator 
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/licenses_2.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -70,6 +70,6 @@ security keys, specially for users who are selected by their main administrator 
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/licenses_3.png" class="doc-img-frame">
-</p>
+</div>

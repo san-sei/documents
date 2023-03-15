@@ -1,5 +1,5 @@
 ---
-title: "Integrations"
+title: "App Management"
 description: ""
 lead: ""
 date: 2022-02-16T18:14:02-08:00
@@ -73,7 +73,7 @@ by IDmelon. They can add SSO configuration manually or automatically. In case of
 administrators a guide on how to configurate, however, **it has to be noted that automatic SSO configuration, can only be done for services which are suported by IDmelon**.If they choose manual configuration, they have to visit the SP's documents to be
 guided besides here in IDmelon administration panel, they will be shown a panel for posting SSO configuration.
 The purpose of this doc is to help administrators to have an overview of Integration process.
-This process can be started by simply clicking on **Integrate with a new Identity Provider(IdP)**.
+This process can be started by simply clicking on **Integrate with a New App**.
 
 <p align="center">
     <img src="/images/vendor/Panel/admin_integration_1.png" class="doc-img-frame">
