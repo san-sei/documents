@@ -22,7 +22,7 @@ Two types of devices can be managed inside administration panel. The first type 
 which can be imported into the administration panel and can be used for multiple purposes like device limitation when adding security key policies.
 The second type includes security key devices which consist of any devices that users set as their security keys.
 
-## Azure AD Connected Devices
+## Azure AD Connected PCs
 
 <hr class="hr-line">
 
@@ -30,9 +30,9 @@ The second type includes security key devices which consist of any devices that 
 The imported PCs can later be used in <span style="font-weight:bold;">Security Key Policies</span> to limit access to specific devices. To join and list Azure AD connected PCs, the only required step is providing enough permission.
 To import devices, click on <span style="font-weight:bold;">Import Azure AD-Connected Devices</span>, then you will be moved to a Microsoft page which asks you to choose an account.</p>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/DeviceManagement1.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -47,9 +47,9 @@ To import devices, click on <span style="font-weight:bold;">Import Azure AD-Conn
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/import_azure_ad_pcs.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -74,12 +74,12 @@ To import devices, click on <span style="font-weight:bold;">Import Azure AD-Conn
 This section lists devices that users have set as their security keys which contains smartphones or Contactless Cards.
 An admin can delete a device which disconnects its corresponding security key.
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/devicemanagemnet_security.png" class="doc-img-frame">
-</p>
+</div>
 
 By clicking on **User's Email** you will see **View User Information, its Group(s) and Security Key** page which shows the information of the user, thier security key devices and groups that they are membered in.
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/view_user_information.png" class="doc-img-frame">
-</p>
+</div>

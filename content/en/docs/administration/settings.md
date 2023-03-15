@@ -25,9 +25,9 @@ toc: true
 In this page, administrators can see the information related to their workspace and their company address.
 You can simply edit the information in this page by clicking on the **Pencil** icon on the top right of each section of this page.
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace1.png" class="doc-img-frame">
-</p>
+</div>
 
 ## Admins
 
@@ -50,9 +50,9 @@ under **Settings**.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/add_admin_1.png" class="doc-img-frame">
-</p>
+</div>
 
 <p class="note-body"><span style="font-weight:bold;">Note </span>that the user whom you want to promote to admin must have already activated their security key, i.e. their status must be Active. To activate a user, a license must
 be granted to the user.
@@ -72,9 +72,9 @@ be granted to the user.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/add_admin_2.png" class="doc-img-frame">
-</p>
+</div>
 
 <p class="note-body">Different levels of permissions to manage users and security keys can be given to new admins.</p>
 
@@ -92,6 +92,6 @@ be granted to the user.
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/add_admin_3.png" class="doc-img-frame">
-</p>
+</div>

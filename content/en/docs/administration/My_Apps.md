@@ -20,6 +20,6 @@ toc: true
 
 This option allows users and administrators to access the services which they can see in their panel by their own security keys.
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/admin_myapps.png" class="doc-img-frame">
-</p>
+</div>

@@ -25,9 +25,9 @@ toc: true
 <p>To access the IDmelon Admin Panel, navigate to the IDmelon Admin Panel <a href="https://panel.idmelon.com" style="font-size:16px;">here</a>.
 Present your security key to experience a frictionless login, or create a workspace on behalf of your organization if it is your first try.<p>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/1.png" class="doc-img-frame">
-</p>
+</div>
 
 If it is the first time that you are here to create a new workspace on behalf of your organization, click the **Create one!**.
 
@@ -49,9 +49,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/2.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -69,9 +69,9 @@ If it is the first time that you are here to create a new workspace on behalf of
 <p class="note-body">
 <span style="font-weight:bold;">Please note</span> that you need to enter your business email to represent your organization, you cannot use an email at a free domain. We know that it might be tempting to skip the End User License Agreement and Privacy Policy, but it is important to read them and have a mutual understanding of what we expect from each other.</p>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/3.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -89,9 +89,9 @@ If it is the first time that you are here to create a new workspace on behalf of
 <p class="note-body">
 <span style="font-weight:bold;">Note: </span> pay attention to the business type at the top of this step whether it is work or school.</p>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/7.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -146,9 +146,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/9-1.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -163,9 +163,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/11.png" class="doc-img-frame">
-</p>
+</div>
 
 ## Activation Process
 
@@ -186,9 +186,9 @@ If it is the first time that you are here to create a new workspace on behalf of
     </div>
   </div>
 </div>
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/9-1.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -203,9 +203,9 @@ If it is the first time that you are here to create a new workspace on behalf of
     </div>
   </div>
 </div>
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/9-1-2.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -219,9 +219,9 @@ If it is the first time that you are here to create a new workspace on behalf of
     </div>
   </div>
 </div>
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/9-2-3.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -239,9 +239,9 @@ If it is the first time that you are here to create a new workspace on behalf of
     </div>
   </div>
 </div>
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/9-2-4.png" class="doc-img-frame">
-</p>
+</div>
 
 ### Contactless Card
 
@@ -259,9 +259,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/A1.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -277,9 +277,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/A2.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -295,9 +295,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/A3.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -313,9 +313,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/A4.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -331,9 +331,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/A5.png" class="doc-img-frame">
-</p>
+</div>
 
 <p class="note-body"><span style="font-weight:bold;">Note:</span> Once your Contactless Card has been registered, an email containing a 4 digit PIN will be sent you. You will need this PIN when you want to login to your panel using Contactless Card. You have to go to login page, touch your security key and then enter the PIN to login to your panel.</p>
 
@@ -350,9 +350,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/A7.png" class="doc-img-frame">
-</p>
+</div>
 
 ### FIDO2.0 Hardware Security Key
 
@@ -370,9 +370,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/h1.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -388,9 +388,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/h2.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -405,9 +405,9 @@ If it is the first time that you are here to create a new workspace on behalf of
   </div>
 </div>
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/workspace/h3.png" class="doc-img-frame">
-</p>
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">

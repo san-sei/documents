@@ -20,9 +20,9 @@ toc: true
 
 Each organization may want to have a variety of authentication policies for different groups of users. From this section, an organization’s admins can create new authentication policies to apply to users’ security keys to limit their access by multiple factors such as time period, IP Address, RP (relying parties) that users are trying to reach, and location they are trying to login from.
 
-<p align="center">
+<div align="center">
     <img src="/images/vendor/Panel/SKPolicy1.png" class="doc-img-frame">
-</p>
+</div>
 
 ## Create New Policy
 
