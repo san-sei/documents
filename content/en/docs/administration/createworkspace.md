@@ -419,3 +419,7 @@ If it is the first time that you are here to create a new workspace on behalf of
     </div>
   </div>
 </div>
+
+<div align="center">
+    <img src="/images/vendor/Panel/workspace/h4.png" class="doc-img-frame">
+</div>
