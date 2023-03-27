@@ -357,7 +357,7 @@ tr.trV2 {
   align-items: center;
   margin-right: 5px;
   content: '';
-  background-image:url("/images/vendor/Homepage/IDmelon-Mobile-App.svg");
+  background-image:url("/images/vendor/Homepage/Smartphone.svg");
   background-size: 28px 28px;
   height: 28px;
   width: 28px;
@@ -370,7 +370,7 @@ tr.trV2 {
   margin-right: 5px;
   padding-bottom: 10px;
   content: '';
-  background-image:url("/images/vendor/Homepage/Contractless-Card.svg");
+  background-image:url("/images/vendor/Homepage/Contactless-Card.svg");
   background-size: 33px 33px;
   height: 33px;
   width: 33px;
@@ -382,7 +382,7 @@ tr.trV2 {
   align-items: center;
   margin-right: 5px;
   content: '';
-  background-image:url("/images/vendor/Homepage/IDmelon-Reader.svg");
+  background-image:url("/images/vendor/Homepage/FIDO2.0-Hardware-Security-Key.svg");
   background-size: 28px 28px;
   height: 28px;
   width: 28px;
@@ -1141,4 +1141,27 @@ tr.trV2 {
   &:hover{
     visibility:visible;
   }
+}
+
+.logo-container{
+  content: url('/images/vendor/Homepage/IDmelonLogo.svg');
+  background-repeat: no-repeat;
+  background-size: 100px 28px;
+  height: 28px;
+  width: 100px;
+}
+
+.mobile-app-logo-container{
+  content: url('/images/vendor/Homepage/IDmelon-Mobile-App.svg');
+  background-repeat: no-repeat;
+}
+
+.paring-tool-logo-container{
+  content: url('/images/vendor/Homepage/IDmelon-Pairing-Tool.svg');
+  background-repeat: no-repeat;
+}
+
+.reader-logo-container{
+  content: url('/images/vendor/Homepage/IDmelon-Reader.svg');
+  background-repeat: no-repeat;
 }

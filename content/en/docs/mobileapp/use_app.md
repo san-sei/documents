@@ -184,7 +184,7 @@ Personal users have the option to upgrade their accounts:
 </div>
 <p class="note-body"><span style="font-weight:bold;">Note</span>: You can confirm your email by clicking on the link which is sent to your email.</p>
 <p align="center">
-    <img src="/images/vendor/MobileApp/personal_user_activation_email.png" class="doc-img-frame">
+    <img src="/images/vendor/UserPanel/activate_b_7.png" class="doc-img-frame">
 </p>
 
 <div class="step-row-container">
