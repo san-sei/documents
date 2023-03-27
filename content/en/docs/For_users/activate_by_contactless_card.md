@@ -56,10 +56,6 @@ When you possess the card, admin only can send you an invitation email containin
     <img src="/images/vendor/UserPanel/active_card_3.png" class="doc-img-frame">
 </p>
 
-<p align="center">
-    <img src="/images/vendor/UserPanel/active_card_4.png" class="doc-img-frame">
-</p>
-
 <div class="step-row-container">
   <div class="step-column bullet-container">
     <div class="bullet"></div>
@@ -90,5 +86,5 @@ When you possess the card, admin only can send you an invitation email containin
   </div>
 </div>
 <p align="center">
-    <img src="/images/vendor/UserPanel/active_card_6.png" class="doc-img-frame">
+    <img src="/images/vendor/UserPanel/active_card_1.png" class="doc-img-frame">
 </p>
