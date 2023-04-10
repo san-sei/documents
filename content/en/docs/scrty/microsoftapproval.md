@@ -18,7 +18,7 @@ toc: true
 <hr class="hr-line">
 
 No matter how strong passwords can be, still stolen passwords are one of the most commonplace causes of data breaches. FIDO protocol which is the strongest standards-based authentication available is the best alternative. With FIDO, in addition to guaranteed security, users can have a convenient passwordless login experience. With the use of public key cryptography techniques, FIDO2 security keys can replace weak credentials with strong credentials. <br></br>
-The FIDO2 security keys from IDmelon Technologies Inc. is on the list of Microsoft-compatible security keys. IDmelon FIDO2 Security keys enable you to safely authenticate to an Azure Active Directory joined Windows 10 device that’s part of your organization. IDmelon, as a Microsoft partner, empowers you to have a secure digital life with offering innovative FIDO2 security keys and modern solutions and ensures that your security on all Microsoft products and services is fully guaranteed. 
+The FIDO2 security keys from IDmelon Technologies Inc. is on the list of Microsoft-compatible security keys. IDmelon FIDO2 Security keys enable you to safely authenticate to an Azure Active Directory joined Windows 10 device that’s part of your organization. IDmelon, as a Microsoft partner, empowers you to have a secure digital life with offering innovative FIDO2 security keys and modern solutions and ensures that your security on all Microsoft products and services is fully guaranteed.
 
 ## MISA Membership
 

@@ -47,9 +47,10 @@ never leave users’ devices.
 </p>
 
 ## FIDO Certification
+
 <hr class="hr-line">
 
 <p>
-IDmelon is part of FIDO Alliance whose mission is to develop and promote authentication standards at the client and protocol layers that “help reduce the world’s over-reliance on passwords.” Long before IDmelon becomes an official member of the Alliance, IDmelon products were FIDO certified. And now following its entry into the Alliance, which is rapidly growing and is supported by Microsoft, Google, Apple, and all the leading security service providers in the industry, IDmelon will remain committed to collaborating with FIDO Alliance and cybersecurity industry leaders to offer the world advanced security solutions that are tailored exactly to their needs. <br><br>
+IDmelon is part of FIDO Alliance whose mission is to develop and promote authentication standards at the client and protocol layers that “help reduce the world’s over-reliance on passwords.” Long before IDmelon becomes an official member of the Alliance, IDmelon products were FIDO certified. And now following its entry into the Alliance, which is rapidly growing and is supported by Microsoft, Google, Apple, and all the leading security service providers in the industry, IDmelon will remain committed to collaborating with FIDO Alliance and cybersecurity industry leaders to offer the world advanced security solutions that are tailored exactly to their needs.<br><br>
 To visit our showcase that is live on the FIDO Alliance website, please click <a href="https://fidoalliance.org/company/idmelon/" style="font-size:16px;">here</a>.
 </p>
