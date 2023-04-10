@@ -33,7 +33,6 @@ On the layer of data security, we address latest security measures. Credentials 
 Concerning data transfer, we have made sure to implement best practices such as input validations, TLS, Cloudflare protections, data encryption, CORS, sanitization, and many more.
 </p>
 
-
 ## Sync with Azure AD
 
 <hr class="hr-line">
@@ -90,7 +89,6 @@ To sync groups, users, and devices with Microsoft Azure Active Directory, we saf
   </div>
 </div>
 
-
 <div class="step-row-container">
   <div class="step-column step-count-size">
     <p class="step-counter">4</p>
@@ -104,7 +102,6 @@ To sync groups, users, and devices with Microsoft Azure Active Directory, we saf
     </div>
   </div>
 </div>
-
 
 ## System Updates
 

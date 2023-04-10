@@ -20,7 +20,6 @@ Also, the scalability is the system's ability to handle varying amounts of work 
 </div>
 To increase availability and scalability of our services, we located them on Google Cloud Platform (GCP) and employed Google Cloud tools and services. As a result, IDmelon services work under GCP tools, services and built-in features. Google Cloud provides multiple features to help build scalable and efficient services which we use as follows:</p>
 
-
 <div class="step-row-container">
   <div class="step-column bullet-container">
     <div class="bullet"></div>
@@ -73,20 +72,20 @@ To increase availability and scalability of our services, we located them on Goo
   </div>
 </div>
 
-
 ## Physical distribution of resources
 
 <hr class="hr-line">
 
 Google Cloud services are available in locations divided into regions and zones across the globe. How an organization deploys its service across these regions and zones affects the availability and latency of the service. Redundancy is the duplication of components of a service or system to increase the overall availability. In Google Cloud, redundancy is achieved by deploying the service in multiple zones or even regions which helps the service to better withstand any disruptions.<br></br>
-IDmelon using Compute Engine, distributes its service in four zones in four different regions. This way we can manage the instances as a logical unit. 
+IDmelon using Compute Engine, distributes its service in four zones in four different regions. This way we can manage the instances as a logical unit.
 
 ## Load-balance at each tier
 
 <hr class="hr-line">
 
 Load balancing distributes traffic among groups of resources. Distribute traffic helps to ensure that individual resources don't become overloaded while others sit idle. Google Cloud offers several load-balancing choices depending on the type, source, and other aspects of the traffic. It's a common practice to load-balance requests received from different external sources, such as web or mobile clients. However, using load balancers between different services or tiers within the service can also increase resilience.<br></br>
-We use an external load balancer to separate traffic of different components (mobile and Pairing Tool). The whole structure consists of four zones in four regions (North America, Europe, Asia, and Canada) with internal load balancing to distribute traffic from web tier to the internal tier within each region. It also has an external load balancer to divide mobile and Pairing Tool traffics. 
+We use an external load balancer to separate traffic of different components (mobile and Pairing Tool). The whole structure consists of four zones in four regions (North America, Europe, Asia, and Canada) with internal load balancing to distribute traffic from web tier to the internal tier within each region. It also has an external load balancer to divide mobile and Pairing Tool traffics.
+
 <div align="center">
     <img src="/images/vendor/Security/security_4.png" class="doc-img-frame">
 </div>
