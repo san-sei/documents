@@ -14,7 +14,7 @@ toc: true
 ---
 
 <p>Availability is an indicator for a consistent level of a service which is up and running and usable for its users for prolonged time periods. It can be considered the key indicator of overall service health. Highly available architectures typically through deploying redundant components aim to maximize service availability. Simply put, achieving high availability involves distributing compute resources and replicating data and balancing load between them.<br></br>
-Also, the scalability is the system's ability to handle varying amounts of work by adding or removing resources. The flexibility to adjust the capacity to meet demands and resources consumed by the service as a key business driver moved IDmelon to the Google cloud. Google cloud helps us maintain a good user experience during periods of high traffic by adding more resources.<br></br>
+Also, the scalability is the system's ability to handle varying amounts of work by adding or removing resources. The flexibility to adjust the capacity to meet demands and resources consumed by the service as a key business driver moved IDmelon to the Google cloud. Google cloud helps us maintain a good user experience during periods of high traffic by adding more resources.
 <div align="center">
     <img src="/images/vendor/Security/Security_7.png" class="doc-img-frame">
 </div>
