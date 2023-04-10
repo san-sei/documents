@@ -1,5 +1,5 @@
 ---
-title: "FIDO"
+title: "FIDO Certification"
 description: ""
 lead: ""
 date: 2022-02-16T18:14:02-08:00
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "scrty"
-weight: 100
+weight: 101
 toc: true
 ---
 
@@ -44,4 +44,12 @@ sign the data with the private key. The user consents to the request by using a 
 registration time which gives FIDO its **strong phishing resistance**. The client obtains the private key from the authenticator and answers the request in a way that proves
 the device has possession of the private key to gain access to the online service for user. From now on communication is encrypted throughout this process, and private keys
 never leave users’ devices.
+</p>
+
+## FIDO Certification
+<hr class="hr-line">
+
+<p>
+IDmelon is part of FIDO Alliance whose mission is to develop and promote authentication standards at the client and protocol layers that “help reduce the world’s over-reliance on passwords.” Long before IDmelon becomes an official member of the Alliance, IDmelon products were FIDO certified. And now following its entry into the Alliance, which is rapidly growing and is supported by Microsoft, Google, Apple, and all the leading security service providers in the industry, IDmelon will remain committed to collaborating with FIDO Alliance and cybersecurity industry leaders to offer the world advanced security solutions that are tailored exactly to their needs. <br><br>
+To visit our showcase that is live on the FIDO Alliance website, please click <a href="https://fidoalliance.org/company/idmelon/" style="font-size:16px;">here</a>.
 </p>
