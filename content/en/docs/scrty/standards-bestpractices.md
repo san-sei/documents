@@ -1,5 +1,5 @@
 ---
-title: "IDmelon Security"
+title: "Standards and Best Practices"
 description: ""
 lead: ""
 date: 2022-02-16T18:14:02-08:00
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "scrty"
-weight: 101
+weight: 102
 toc: true
 ---
 
