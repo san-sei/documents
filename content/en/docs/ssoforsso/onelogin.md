@@ -1,5 +1,5 @@
 ---
-title: "Onelogin"
+title: "OneLogin"
 description: "This page is about integration IDmelon and Onelogin."
 lead: ""
 date: 2022-02-16T18:14:02-08:00
@@ -18,9 +18,9 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-In this document you are going to set up ``IDmelon`` as an external IdP to the ``Onelogin``.
+In this document you are going to set up ``IDmelon`` as an external IdP to the ``OneLogin``.
 
-## Login to  Onelogin administration panel
+## Login to  OneLogin administration panel
 
 <hr class="hr-line">
 
@@ -31,7 +31,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold;">Login to</span> <a href="https://onelogin.com" style="font-size:16px;"> onelogin</a>.</p>
+        <p><span style="font-weight:bold;">Login to</span> <a href="https://onelogin.com" style="font-size:16px;"> OneLogin</a>.</p>
       </div>
     </div>
   </div>
@@ -44,7 +44,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold;">Open</span> Onelogin dashboard.</p>
+        <p><span style="font-weight:bold;">Open</span> OneLogin dashboard.</p>
       </div>
     </div>
   </div>
@@ -609,7 +609,7 @@ You should copy values of below fields from the Okta panel to the IDmelon Panel:
 
 <hr class="hr-line">
 
-<p style="font-weight:bold;">GET API Token for user provisioning in Onelogin<p>
+<p style="font-weight:bold;">GET API Token for user provisioning in OneLogin<p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">

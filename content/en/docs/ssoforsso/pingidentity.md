@@ -1,5 +1,5 @@
 ---
-title: "Pingidentity"
+title: "Ping Identity"
 description: "This page is about integration IDmelon and Pingidentity"
 lead: ""
 date: 2022-02-16T18:14:02-08:00
@@ -18,9 +18,9 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-In this document you are going to set up ``IDmelon`` as an external IdP to the ``Pingidentity``.
+In this document you are going to set up ``IDmelon`` as an external IdP to the ``Ping Identity``.
 
-## Login to  Pingidentity administration panel
+## Login to  Ping Identity administration panel
 
 <hr class="hr-line">
 
@@ -31,7 +31,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold;">Login to</span> <a href="https://www.pingidentity.com/en/account/sign-on.html" style="font-size:16px;">ping identity</a>.</p>
+        <p><span style="font-weight:bold;">Login to</span> <a href="https://www.pingidentity.com/en/account/sign-on.html" style="font-size:16px;">Ping Identity</a>.</p>
       </div>
     </div>
   </div>
@@ -44,7 +44,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Open ping identity dashboard.</p>
+        <p>Open Ping Identity dashboard.</p>
       </div>
     </div>
   </div>
@@ -91,7 +91,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Under IDENTITY PROVIDERS Click on <span style="font-weight:bold;">External IDPs</span></p>
+        <p>Under IDENTITY PROVIDERS Click on <span style="font-weight:bold;">External IdPs</span></p>
       </div>
     </div>
   </div>
@@ -159,7 +159,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
         <div class="card-column">
         <div class="step-text" >
             <div class="card-body">
-                <p>Create IDP Profile</p>
+                <p>Create IdP Profile</p>
             </div>
         </div>
         </div>
@@ -246,7 +246,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
         <div class="card-column">
         <div class="step-text" >
             <div class="card-body">
-                <p>Configure IDP Connection</p>
+                <p>Configure IdP Connection</p>
             </div>
         </div>
         </div>
@@ -284,7 +284,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p><span style="font-weight:bold;">IDP entity ID :</span> idp_issuer_uri</p>
+            <p><span style="font-weight:bold;">IdP entity ID :</span> idp_issuer_uri</p>
         </div>
         </div>
     </div>
@@ -463,7 +463,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
     </div>
 </div>
 
-## Setting idp-init for ping identity
+## Setting idp-init for Ping Identity
 
 <hr class="hr-line">
 
@@ -474,7 +474,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
     <div class="card-column">
     <div class="step-text" >
         <div class="card-body">
-            <p>According to<a href="https://docs.pingidentity.com/bundle/pingone/page/wou1649186902011.html" style="font-size:16px;"> ping identity document</a></p>
+            <p>According to<a href="https://docs.pingidentity.com/bundle/pingone/page/wou1649186902011.html" style="font-size:16px;"> Ping Identity document</a></p>
         </div>
     </div>
     </div>
@@ -652,7 +652,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>for <span style="font-weight:bold;">Admins</span> IDP init Login</p>
+        <p>for <span style="font-weight:bold;">Admins</span> IdP init Login</p>
       </div>
     </div>
   </div>
@@ -698,7 +698,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
     </div>
 </div>
 
-for **users** IDP init Login:
+for **users** IdP init Login:
 
 <div class="step-row-container">
     <div class="step-column bullet-container">
@@ -818,7 +818,7 @@ for **users** IDP init Login:
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p>Go to<span style="font-weight:bold;">Connections → External IDPs</span></p>
+            <p>Go to<span style="font-weight:bold;">Connections → External IdPs</span></p>
         </div>
         </div>
     </div>
@@ -830,7 +830,7 @@ for **users** IDP init Login:
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p>Go to <span style="font-weight:bold;">IDmelon</span> IDP then click on <span style="font-weight:bold;">IDP Configuration</span> click <span style="font-weight:bold;">edit</span></p>
+            <p>Go to <span style="font-weight:bold;">IDmelon</span> IdP then click on <span style="font-weight:bold;">IdP Configuration</span> click <span style="font-weight:bold;">edit</span></p>
         </div>
         </div>
     </div>
@@ -858,7 +858,7 @@ for **users** IDP init Login:
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p>You should upload <span style="font-weight:bold;">metadata</span> file and <span style="font-weight:bold;">copy values</span> of below fields from this <span style="font-weight:bold;">Pingidentity panel</span> to <span style="font-weight:bold;">IDmelon Panel</span>.</p>
+            <p>You should upload <span style="font-weight:bold;">metadata</span> file and <span style="font-weight:bold;">copy values</span> of below fields from this <span style="font-weight:bold;">Ping Identity panel</span> to <span style="font-weight:bold;">IDmelon Panel</span>.</p>
         </div>
         </div>
     </div>
@@ -874,7 +874,7 @@ for **users** IDP init Login:
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p>Go to <span style="font-weight:bold;">IDmelon IDP</span> then click on <span style="font-weight:bold;">P1 Connection</span> click <span style="font-weight:bold;">edit</span></p>
+            <p>Go to <span style="font-weight:bold;">IDmelon IdP</span> then click on <span style="font-weight:bold;">P1 Connection</span> click <span style="font-weight:bold;">edit</span></p>
         </div>
         </div>
     </div>
@@ -924,7 +924,7 @@ for **users** IDP init Login:
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p> You should copy values of below fields from this <span style="font-weight:bold;">pingidentity panel</span> to <span style="font-weight:bold;">IDmelon Panel</span>.</p>
+            <p> You should copy values of below fields from this <span style="font-weight:bold;">Ping Identity panel</span> to <span style="font-weight:bold;">IDmelon Panel</span>.</p>
         </div>
         </div>
     </div>
@@ -946,7 +946,7 @@ for **users** IDP init Login:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Open <span style="font-weight:bold">Admin dashboard</span> of ping identity</p>
+        <p>Open <span style="font-weight:bold">Admin dashboard</span> of Ping Identity</p>
       </div>
     </div>
   </div>
@@ -958,7 +958,7 @@ for **users** IDP init Login:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Click on <span style="font-weight:bold">Experiences</span> then <span style="font-weight:bold">Authentication Admin dashboard</span> of ping identity</p>
+        <p>Click on <span style="font-weight:bold">Experiences</span> then <span style="font-weight:bold">Authentication Admin dashboard</span> of Ping Identity</p>
       </div>
     </div>
   </div>
