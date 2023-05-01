@@ -12,10 +12,6 @@ menu:
 weight: 102
 toc: true
 ---
-<div id="_modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-</div>
 
 The importance of information security in organizations cannot be overstated. It is critical that companies take the needed steps to protect their priority information from
 data breaches and security threats. Standards and best practices by providing guidance aid organizations to enhance their cyber security posture. They also provide common
