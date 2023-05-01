@@ -1,5 +1,5 @@
 ---
-title: "Directory Services Integration"
+title: "Integration Guides"
 description: ""
 lead: ""
 date: 2022-04-25T19:13:04+03:00
