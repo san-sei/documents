@@ -1,6 +1,6 @@
 ---
-title: "Cyberark"
-description: "This page is about integration IDmelon and cyberark"
+title: "CyberArk"
+description: "This page is about integration IDmelon and CyberArk"
 lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
@@ -18,19 +18,19 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-<p>In this document you are going to set up <span class="code-back">IDmelon</span> as an external IDP to the <span class="code-back">cyberark</span>.</p>
+<p>In this document you are going to set up <span class="code-back">IDmelon</span> as an external IdP to the <span class="code-back">CyberArk</span>.</p>
 
-### Login to  cyberark administration panel
+### Login to  CyberArk administration panel
 
 <hr class="hr-line">
 
-<p>In order to set up the connection, you will need to log into your <span class="code-back">cyberark administration panel</span>.</p>
+<p>In order to set up the connection, you will need to log into your <span class="code-back">CyberArk administration panel</span>.</p>
 
 ### Add Identity Provider
 
 <hr class="hr-line">
 
-<p>In the <span class="code-back">cyberark administration panel</span>, from the side menu, navigate to the <span class="code-back">Settings</span> menu, then Click <span class="code-back">Users</span>.</p>
+<p>In the <span class="code-back">CyberArk administration panel</span>, from the side menu, navigate to the <span class="code-back">Settings</span> menu, then Click <span class="code-back">Users</span>.</p>
 
 <div align="center">
     <img src="/images/vendor/sso/cyberark_dashboard_01.png" class="doc-img-frame">
@@ -42,13 +42,13 @@ toc: true
     <img src="/images/vendor/sso/cyberark_dashboard_02.png" class="doc-img-frame">
 </div>
 
-<p>Click <span class="code-back">Add</span> to add a new IDP config.</p>
+<p>Click <span class="code-back">Add</span> to add a new IdP config.</p>
 
 <div align="center">
     <img src="/images/vendor/sso/cyberark_dashboard_03.png" class="doc-img-frame">
 </div>
 
-<p>In the <span class="code-back">External Identity Providers Name</span>, Choose your custom IDP name.</p>
+<p>In the <span class="code-back">External Identity Providers Name</span>, Choose your custom IdP name.</p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -114,7 +114,7 @@ toc: true
 
 <p><span class="code-back" style="font-weight:bold">Then Click Inbound Metadata option</span></p>
 
-<p>There are several Options which IDmelon supports all of them,But IDmelon recommends to <span class="code-back">Upload IDP configuration from URL</span>.</p>
+<p>There are several Options which IDmelon supports all of them,But IDmelon recommends to <span class="code-back">Upload IdP configuration from URL</span>.</p>
 
 <p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
 If you are currently login here, you will see the replaced values instead.
@@ -127,7 +127,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">Upload IDP configuration from URL</span> : idp_issuer_uri</p>
+        <p><span style="font-weight:bold">Upload IdP configuration from URL</span> : idp_issuer_uri</p>
       </div>
     </div>
   </div>
@@ -150,7 +150,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>You should Download <span class="code-back" style="font-weight:bold">metadata</span> file and <span class="code-back" style="font-weight:bold">copy values</span> of below fields from this <span style="font-weight:bold">cyberark panel</span> to <span style="font-weight:bold">IDmelon Panel</span></p>
+        <p>You should Download <span class="code-back" style="font-weight:bold">metadata</span> file and <span class="code-back" style="font-weight:bold">copy values</span> of below fields from this <span style="font-weight:bold">CyberArk panel</span> to <span style="font-weight:bold">IDmelon Panel</span></p>
       </div>
     </div>
   </div>
@@ -219,7 +219,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>My company Domain is https://aas4313.id.cyberark.cloud/ so my company subdomain which cyberark provided will be :<br>
+        <p>My company Domain is https://aas4313.id.cyberark.cloud/ so my company subdomain which CyberArk provided will be :<br>
         <span style="font-weight:bold">abl4313</span> so my entity id will be <span class="code-back" style="font-weight:bold">Example :</span> <span class="code-back">CN=CyberArk:Customer:ABlL4313</span> .  
         </p>
       </div>
@@ -234,7 +234,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>You should copy values of below fields from this <span style="font-weight:bold">cyberark panel</span> to <span style="font-weight:bold">IDmelon Panel</span>.  
+        <p>You should copy values of below fields from this <span style="font-weight:bold">CyberArk panel</span> to <span style="font-weight:bold">IDmelon Panel</span>.  
         </p>
       </div>
     </div>
@@ -246,7 +246,7 @@ If you are currently login here, you will see the replaced values instead.
 
 <p><span class="code-back" style="font-weight:bold">Then Click Authentication option</span></p>
 
-<p>In order to map IDmelon and cyberark users, Choose Optional in the <span class="code-back">Map federated user to existing directory use</span>.</p>
+<p>In order to map IDmelon and CyberArk users, Choose Optional in the <span class="code-back">Map federated user to existing directory use</span>.</p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -310,7 +310,7 @@ If you are currently login here, you will see the replaced values instead.
 
 <hr class="hr-line">
 
-<p>In the <span class="code-back">cyberark administration panel</span>, from the side menu, navigate to the <span class="code-back">Settings</span> menu, then Click <span class="code-back">Customization</span>.</p>
+<p>In the <span class="code-back">CyberArk administration panel</span>, from the side menu, navigate to the <span class="code-back">Settings</span> menu, then Click <span class="code-back">Customization</span>.</p>
 
 <div align="center">
     <img src="/images/vendor/sso/cyberark_dashboard_08.png" class="doc-img-frame">
@@ -350,7 +350,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">map users for sso</span> : if you want to use another suffix domain which does not exist in cyberark but the user information exist in idmelon you have to <span style="font-weight:bold">uncheck</span> <span class="code-back" style="font-weight:bold">Keep Login Suffix and Mapped Suffix the same</span> and <span style="font-weight:bold">Choose</span> <span class="code-back" style="font-weight:bold">your custom userdomain</span>: Example : <span style="font-weight:bold">username@idmelon.me</span></p>
+        <p><span style="font-weight:bold">map users for sso</span> : if you want to use another suffix domain which does not exist in CyberArk but the user information exist in idmelon you have to <span style="font-weight:bold">uncheck</span> <span class="code-back" style="font-weight:bold">Keep Login Suffix and Mapped Suffix the same</span> and <span style="font-weight:bold">Choose</span> <span class="code-back" style="font-weight:bold">your custom userdomain</span>: Example : <span style="font-weight:bold">username@idmelon.me</span></p>
       </div>
     </div>
   </div>
