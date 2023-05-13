@@ -105,6 +105,8 @@ After these steps, you can now check the Azure portal to ensure that the local u
 To enable the **security key sign-in option** on clients you need to install the Azure AD Kerberos module.
 The [Azure AD Kerberos PowerShell module](https://www.powershellgallery.com/packages/AzureADHybridAuthenticationManagement) provides FIDO2 management features for administrators.
 
+**Important:** In some hybrid Azure Active Directories, there may be multiple servers. Make sure to install and execute the following commands on the main Windows server where Active Directory is located.
+
 ### Install the Azure AD Kerberos PowerShell module
 
 1. Open a PowerShell prompt using the Run as administrator option.
@@ -118,6 +120,12 @@ The [Azure AD Kerberos PowerShell module](https://www.powershellgallery.com/pack
 Install-Module -Name AzureADHybridAuthenticationManagement -AllowClobber
 ```
 
+To ensure the installation, enter the following command in PowerShell and make sure that the result is according to the list below.
+
+<div align="center">
+    <img src="/images/vendor/DirectoryServicesIntegration/HybridAzureAD/getInstalledModule.png" class="doc-img-frame">
+</div>
+
 ### Create a Kerberos Server object
 
 Administrators use the Azure AD Kerberos PowerShell module to create an Azure AD Kerberos Server object in their on-premises directory.
@@ -127,7 +135,25 @@ Run the following steps in each domain and forest in your organization that cont
 1. Open a PowerShell prompt using the Run as administrator option.
 2. Run the following PowerShell commands to create a new Azure AD Kerberos Server object both in your on-premises Active Directory domain and in your Azure Active Directory tenant.
 
-_Replace admin@idmelon.com in the following example with your on-premises Active Directory domain name._
+```powershell
+# Specify the on-premises Active Directory domain. A new Azure AD
+# Kerberos Server object will be created in this Active Directory domain.
+$domain = $env:USERDNSDOMAIN
+
+# Enter an Azure Active Directory global administrator username and password.
+$cloudCred = Get-Credential -Message 'An Active Directory user who is a member of the Global Administrators group for Azure AD.'
+
+# Enter a domain administrator username and password.
+$domainCred = Get-Credential -Message 'An Active Directory user who is a member of the Domain Admins group.'
+
+# Create the new Azure AD Kerberos Server object in Active Directory
+# and then publish it to Azure Active Directory.
+Set-AzureADKerberosServer -Domain $domain -CloudCredential $cloudCred -DomainCredential $domainCred
+```
+
+If your organization protects password-based sign-in and enforces modern authentication methods such as multifactor authentication, FIDO2, or smart card technology, you must use the **-UserPrincipalName** parameter with the User Principal Name (UPN) of a global administrator.
+
+_Replace admin@example.com in the following example with the UPN of a global administrator._
 
 ```powershell
 # Specify the on-premises Active Directory domain. A new Azure AD
@@ -135,7 +161,7 @@ _Replace admin@idmelon.com in the following example with your on-premises Active
 $domain = $env:USERDNSDOMAIN
 
 # Enter a UPN of an Azure Active Directory global administrator
-$userPrincipalName = "admin@idmelon.com"
+$userPrincipalName = "admin@example.com"
 
 # Enter a domain administrator username and password.
 $domainCred = Get-Credential
@@ -144,22 +170,6 @@ $domainCred = Get-Credential
 # and then publish it to Azure Active Directory.
 # Open an interactive sign-in prompt with given username to access the Azure AD.
 Set-AzureADKerberosServer -Domain $domain -UserPrincipalName $userPrincipalName -DomainCredential $domainCred
-```
-
-**Note:** _If you're working on a domain-joined machine with an account that has domain administrator privileges, you can skip the "-DomainCredential" parameter. If the "-DomainCredential" parameter isn't provided, the current Windows login credential is used to access your on-premises Active Directory Domain Controller._
-
-```powershell
-# Specify the on-premises Active Directory domain. A new Azure AD
-# Kerberos Server object will be created in this Active Directory domain.
-$domain = $env:USERDNSDOMAIN
-
-# Enter a UPN of an Azure Active Directory global administrator
-$userPrincipalName = "admin@idmelon.com"
-
-# Create the new Azure AD Kerberos Server object in Active Directory
-# and then publish it to Azure Active Directory.
-# Open an interactive sign-in prompt with given username to access the Azure AD.
-Set-AzureADKerberosServer -Domain $domain -UserPrincipalName $userPrincipalName
 ```
 
 ### View and verify the Azure AD Kerberos Server
@@ -181,6 +191,13 @@ Remove-AzureADKerberosServer -Domain $domain -CloudCredential $cloudCred -Domain
 ```
 
 **Warning:** _If your password has expired, signing in with FIDO is blocked. The expectation is that users reset their passwords before they can log in by using FIDO._
+
+### Multiforest and multidomain scenarios
+The Azure AD Kerberos Server object is represented in Azure AD as a _KerberosDomain_ object. Each on-premises Active Directory domain is represented as a single _KerberosDomain_ object in Azure AD.
+
+For example, let's say that your organization has an Active Directory forest with two domains, ```example.com``` and ```example2.com```. If you choose to allow Azure AD to issue Kerberos TGTs for the entire forest, there are two KerberosDomain objects in Azure AD, one KerberosDomain object for ```example.com``` and the other for ```example2.com```. If you have multiple Active Directory forests, there is one KerberosDomain object for each domain in each forest.
+
+Follow the instructions in [Create a Kerberos Server object](#create-a-kerberos-server-object) in each domain and forest in your organization that contains Azure AD users.
 
 ### What can I do if I'm unable to use the FIDO security key immediately after I create a hybrid Azure AD-joined machine?
 
