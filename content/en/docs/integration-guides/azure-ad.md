@@ -58,84 +58,88 @@ While you're joining your Windows 10 device to your work or school network, the 
 ### To join a brand-new Windows 10 device
 
 If your device is brand-new and hasn't been set up yet, you can go through the Windows Out of Box Experience (OOBE) process to join your device to the network.
+<ol>
+<li>Start up your new device and begin the Windows Out of Box Experience.</li>
 
-1. Start up your new device and begin the Windows Out of Box Experience.
-
-2. On the Sign in with Microsoft screen, type your work or school email address.
+<li>On the Sign in with Microsoft screen, type your work or school email address.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/new-device-01.png" class="doc-img-frame">
 </div>
 
-3. On the Enter your password screen, type your password.
+<li>On the Enter your password screen, type your password.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/new-device-03.png" class="doc-img-frame">
 </div>
 
-4. On your mobile device, approve your device so it can access your account.
+<li>On your mobile device, approve your device so it can access your account.</li>
 
-5. Complete the Out of Box Experience, including setting your privacy settings and setting up Windows Hello (if necessary).
+<li>Complete the Out of Box Experience, including setting your privacy settings and setting up Windows Hello (if necessary).Your device is now joined to your organization's network.</li>
 
-Your device is now joined to your organization's network.
+</ol>
 
 #### To make sure you're joined (new device)
 
 You can make sure that you're joined by looking at your settings.
-
-1. Open Settings, and then select Accounts.
+<ol>
+<li> Open Settings, and then select Accounts.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/new-device-04.png" class="doc-img-frame">
 </div>
 
-2. Select Access work or school, and make sure you see text that says something like, Connected to <your_organization> Azure AD.
+<li> Select Access work or school, and make sure you see text that says something like, Connected to <your_organization> Azure AD.</li>
+
+</ol>
 
 ### To join an already configured Windows 10 device
 
 If you've had your device for a while and it's already been set up, you can follow these steps to join your device to the network.
 
-1. Open Settings, and then select Accounts.
+<ol>
 
-2. Select Access work or school, and then select Connect.
+<li> Open Settings, and then select Accounts.</li>
+
+<li> Select Access work or school, and then select Connect.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/device-01.png" class="doc-img-frame">
 </div>
 
-3. On the Set up a work or school account screen, select Join this device to Azure Active Directory.
+<li> On the Set up a work or school account screen, select Join this device to Azure Active Directory.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/device-02.png" class="doc-img-frame">
 </div>
 
-4. On the Let's get you signed in screen, type your email address (for example, alain@contoso.com), and then select Next.
+<li> On the Let's get you signed in screen, type your email address (for example, alain@contoso.com), and then select Next.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/device-03.png" class="doc-img-frame">
 </div>
 
-5. On the Enter password screen, type your password, and then select Sign in.
+<li> On the Enter password screen, type your password, and then select Sign in.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/device-04.png" class="doc-img-frame">
 </div>
 
-
-6. On your mobile device, approve your device so it can access your account.
+<li> On your mobile device, approve your device so it can access your account.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/device-05.png" class="doc-img-frame">
 </div>
 
-7. On the Make sure this is your organization screen, review the information to make sure it's right, and then select Join.
+<li> On the Make sure this is your organization screen, review the information to make sure it's right, and then select Join.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/device-06.png" class="doc-img-frame">
 </div>
 
-8. On the You're all set screen, click Done.
+<li> On the You're all set screen, click Done.</li>
 
+</ol>
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/device-07.png" class="doc-img-frame">
 </div>
@@ -143,15 +147,15 @@ If you've had your device for a while and it's already been set up, you can foll
 #### To make sure you're joined
 
 You can make sure that you're joined by looking at your settings.
-
-1. Open Settings, and then select Accounts.
+<ol>
+<li> Open Settings, and then select Accounts.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/device-07.png" class="doc-img-frame">
 </div>
 
-2. Select Access work or school, and make sure you see text that says something like, Connected to <your_organization> Azure AD.
-
+<li> Select Access work or school, and make sure you see text that says something like, Connected to <your_organization> Azure AD.</li>
+</ol>
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/device-08.png" class="doc-img-frame">
 </div>
@@ -185,14 +189,14 @@ Provisioning packages can be applied to a device during initial setup (out-of-bo
 ### During initial setup
 
 To apply a provisioning package from a USB drive during initial setup:
-
-1. Start with a device on the initial setup screen. If the device has gone past this screen, reset the device to start over. To reset, go to Settings > System > Recovery > Reset this PC.
+<ol>
+<li> Start with a device on the initial setup screen. If the device has gone past this screen, reset the device to start over. To reset, go to Settings > System > Recovery > Reset this PC.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-1.png" class="doc-img-frame">
 </div>
 
-2. Insert the USB drive. If nothing happens when you insert the USB drive, press the Windows key five times.
+<li> Insert the USB drive. If nothing happens when you insert the USB drive, press the Windows key five times.</li>
 
     - If there is only one provisioning package on the USB drive, the provisioning package is applied. See step 5.
     - If there is more than one provisioning package on the USB drive, Windows setup will recognize the drive and ask how you want to provision the device. Select Install provisioning package and select Next.
@@ -201,19 +205,21 @@ To apply a provisioning package from a USB drive during initial setup:
 <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-2.png" class="doc-img-frame">
 </div>
 
-3. Select the provisioning package (.ppkg) that you want to apply, and select Yes.
+<li> Select the provisioning package (.ppkg) that you want to apply, and select Yes.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-3.png" class="doc-img-frame">
 </div>
 
-4. The selected provisioning package will install and apply to the device.
+<li> The selected provisioning package will install and apply to the device.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-4.png" class="doc-img-frame">
 </div>
 
-5. Wait for the device to load and begin applying the provisioning package. Once you see "You can remove your removable media now!" you can remove your USB drive. Windows will continue provisioning the device.
+<li> Wait for the device to load and begin applying the provisioning package. Once you see "You can remove your removable media now!" you can remove your USB drive. Windows will continue provisioning the device.</li>
+
+</ol>
 
 ### After initial setup
 
@@ -221,31 +227,35 @@ Provisioning packages can be applied after initial setup through Windows setting
 
 ### Windows Settings
 
-1. Insert the USB drive, then navigate to Settings > Accounts > Access work or school > Add or remove a provisioning package > Add a package.
+<ol>
+
+<li> Insert the USB drive, then navigate to Settings > Accounts > Access work or school > Add or remove a provisioning package > Add a package.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-5.png" class="doc-img-frame">
 </div>
 
-2. Choose the method you want to use, such as Removable Media.
+<li> Choose the method you want to use, such as Removable Media.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-6.png" class="doc-img-frame">
 </div>
 
-3. Select the provisioning package (.ppkg) that you want to apply, and select Add.
+<li> Select the provisioning package (.ppkg) that you want to apply, and select Add.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-7.png" class="doc-img-frame">
 </div>
 
-4. Provisioning packages require administrator privileges as they can modify system policies and run scripts at the system level. Ensure you trust the package you are installing before accepting the UAC prompt. Select Yes.
+<li> Provisioning packages require administrator privileges as they can modify system policies and run scripts at the system level. Ensure you trust the package you are installing before accepting the UAC prompt. Select Yes.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-8.png" class="doc-img-frame">
 </div>
 
-6. The provisioning runtime will ask if the package is from a source you trust. Verify that you are applying the correct package and that it is trusted. Select Yes, add it.
+<li> The provisioning runtime will ask if the package is from a source you trust. Verify that you are applying the correct package and that it is trusted. Select Yes, add it.</li>
+
+</ol>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-9.png" class="doc-img-frame">
@@ -255,19 +265,23 @@ Provisioning packages can be applied after initial setup through Windows setting
 
 To apply a provisioning package directly, such as from a USB drive, folder, network, or SharePoint site:
 
-1. Navigate to the provisioning package and double-click it to begin the installation.
+<ol>
+
+<li> Navigate to the provisioning package and double-click it to begin the installation.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-10.png" class="doc-img-frame">
 </div>
 
-2. Provisioning packages require administrator privileges as they can modify system policies and run scripts at the system level. Ensure you trust the package you are installing before accepting the UAC prompt. Select Yes.
+<li> Provisioning packages require administrator privileges as they can modify system policies and run scripts at the system level. Ensure you trust the package you are installing before accepting the UAC prompt. Select Yes.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-11.png" class="doc-img-frame">
 </div>
 
-3. The provisioning runtime will ask if the package is from a source you trust. Verify that you are applying the correct package and that it is trusted. Select Yes, add it.
+<li> The provisioning runtime will ask if the package is from a source you trust. Verify that you are applying the correct package and that it is trusted. Select Yes, add it.</li>
+
+</ol>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/prov-12.png" class="doc-img-frame">
@@ -277,38 +291,42 @@ To apply a provisioning package directly, such as from a USB drive, folder, netw
 
 You must create your security key and give it a unique PIN before you can sign in to your work or school account using the key. You may have up to 10 keys registered with your account.
 
-1. Go to the My Profile page at [My Account](https://myaccount.microsoft.com/) and sign in if you haven't already done so.
+<ol>
 
-2. Select **Security Info**, select **Add method**, and then select **Security key** from the **Add a method** list.
+<li> Go to the My Profile page at [My Account](https://myaccount.microsoft.com/) and sign in if you haven't already done so.</li>
+
+<li> Select **Security Info**, select **Add method**, and then select **Security key** from the **Add a method** list.</li>
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/reg-1.png" class="doc-img-frame">
 </div>
 
-3. Select **Add**, and then select the type of security key you have, either **USB** device or **NFC** device.
+<li> Select **Add**, and then select the type of security key you have, either **USB** device or **NFC** device.</li>
 
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/reg-2.png" class="doc-img-frame">
 </div>
 
-4. Make sure that you have your security key physically available, and then on the Security key page, select Next.
+<li> Make sure that you have your security key physically available, and then on the Security key page, select Next.</li>
 
-5. In the Setting up your new sign-in method page, select Next, and then:
+<li> In the Setting up your new sign-in method page, select Next, and then:</li>
     - If your security key is a USB device, insert your security key into the USB port of your device.
     - If your security key is an NFC device, tap your security key to your reader.
 
-6. Type your unique security key PIN into the Windows security box, and then select OK. You'll return to the Setting up your new sign-in method box.
+<li> Type your unique security key PIN into the Windows security box, and then select OK. You'll return to the Setting up your new sign-in method box.</li>
 
-7. Select Next.
+<li> Select Next.</li>
 
-8. Return to the Security info page, type a name you'll recognize later for your new security key, and then select Next.
+<li> Return to the Security info page, type a name you'll recognize later for your new security key, and then select Next.</li>
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/reg-3.png" class="doc-img-frame">
 </div>
 
-9. Select Done to close the Security key page. The Security info page is updated with your security key information.
+<li> Select Done to close the Security key page. The Security info page is updated with your security key information.</li>
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/reg-4.png" class="doc-img-frame">
 </div>
+
+</ol>
 
 ## Log in with the Security Key
 
