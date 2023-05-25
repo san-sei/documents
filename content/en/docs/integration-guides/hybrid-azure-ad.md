@@ -193,6 +193,7 @@ Remove-AzureADKerberosServer -Domain $domain -CloudCredential $cloudCred -Domain
 **Warning:** _If your password has expired, signing in with FIDO is blocked. The expectation is that users reset their passwords before they can log in by using FIDO._
 
 ### Multiforest and multidomain scenarios
+
 The Azure AD Kerberos Server object is represented in Azure AD as a _KerberosDomain_ object. Each on-premises Active Directory domain is represented as a single _KerberosDomain_ object in Azure AD.
 
 For example, let's say that your organization has an Active Directory forest with two domains, ```example.com``` and ```example2.com```. If you choose to allow Azure AD to issue Kerberos TGTs for the entire forest, there are two KerberosDomain objects in Azure AD, one KerberosDomain object for ```example.com``` and the other for ```example2.com```. If you have multiple Active Directory forests, there is one KerberosDomain object for each domain in each forest.
