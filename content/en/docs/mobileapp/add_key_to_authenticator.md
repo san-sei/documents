@@ -42,6 +42,9 @@ You can add the following platforms to your securiy key.
   </div>
 </div>
 
+<p>Note: Administrators for a tecnical guide can refer to this <a href="/docs/integration-guides/azure-ad/" style="font-size:16px;" target="_blank">link</a>.</p>
+<br></br>
+
 ### Office 365
 
 <div class="step-row-container">

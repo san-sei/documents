@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Getting Started"
 description: "Overall Description"
 lead: "The IDmelon FIDO2 Orchestration Platform helps organizations simply and quickly deploy secure passwordless authentication for their users. Features like Security Key as a Service, FIDO2 managed security keys, and fully automated FIDO2 lifecycle are patented and unique approaches that help organizations enhance their workforce authentication security overnight. No more dealing with purchase and distribution of hardware FIDO2 security keys as organizations can use whatever device their users have as a FIDO2 security key. It can be an Access Card, a Key FOB or a smartphone."
 date: 2022-02-16T18:14:02-08:00
