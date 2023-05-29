@@ -164,7 +164,6 @@ Present your security key to experience a frictionless login, or create a worksp
   </div>
 </div>
 
-
 <div class="step-row-container">
   <div class="step-column step-count-size">
     <p class="step-counter">3</p>
