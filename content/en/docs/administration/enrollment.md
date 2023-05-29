@@ -1,5 +1,5 @@
 ---
-title: "Users and Security Keys"
+title: "Security Key Management"
 description: "Adding users to IDmelon"
 lead: ""
 date: 2022-02-16T18:14:02-08:00
@@ -292,4 +292,4 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
 
 <hr class="hr-line">
 
-<p>For complete information about User Provisioning refer to this <a href="/docs/administration/onbehalf_register/" style="font-size:16px;" target="_blank">link</a>.</p>
+<p>For complete information about User Provisioning refer to this <a href="/docs/administration/userprovisioning/" style="font-size:16px;" target="_blank">link</a>.</p>

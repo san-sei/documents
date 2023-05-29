@@ -127,7 +127,7 @@ toc: true
 The admin may want to register security key on behalf of a user in some circumstances. To do this, the admin can use the OBR
 procedure which can be done starting from pairing tool by doing the following steps:
 
-## Prerequisite for OBR
+## Prerequisite for OBR (On-Behalf Registration)
 
 <hr class="hr-line">
 
