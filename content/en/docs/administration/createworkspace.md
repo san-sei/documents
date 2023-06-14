@@ -1,7 +1,7 @@
 ---
 title: "Create your Workspace"
 description: "Administration Overview"
-lead: "Every aspects of your IDmelon passwordless authentication system can be managed from the IDmelon Admin Panel. This includes enrolling and activating users' security keys, instantly granting or restricting access, carefully monitoring users' access, and more."
+lead: "IDmelon Admin Panel is a platform where you can manage users, activate users' security keys, instantly grant or restrict access, carefully monitor users' access, and do many more things."
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
@@ -22,7 +22,7 @@ toc: true
 
 <hr class="hr-line">
 
-<p>To access the IDmelon Admin Panel, navigate to the IDmelon Admin Panel <a href="https://panel.idmelon.com" style="font-size:16px;">here</a>.
+<p>To access to the IDmelon Admin Panel, click <a href="https://panel.idmelon.com" style="font-size:16px;">here</a>.
 Present your security key to experience a frictionless login, or create a workspace on behalf of your organization if it is your first try.<p>
 
 <div align="center">
@@ -70,7 +70,7 @@ Present your security key to experience a frictionless login, or create a worksp
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Enter your company's <span style="font-weight:bold;">URL</span> and <span style="font-weight:bold;">Name</span>. You can either add your company's logo or not.</p>
+        <p>Enter your company's <span style="font-weight:bold;">URL</span> and <span style="font-weight:bold;">Name</span>. You can also add your company's logo.</p>
       </div>
     </div>
   </div>
@@ -83,7 +83,7 @@ Present your security key to experience a frictionless login, or create a worksp
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>In this step choose the device that you like to use as your security key. By clicking on <span style="font-weight:bold;">Save & Continue</span> you see a page based on the security key device that you have chosen.<br><br>
+        <p>In this step choose the device that you like to use as your security key. Click on <span style="font-weight:bold;">Save & Continue</span> to see a page based on the security key device that you have chosen.<br><br>
             To activate your security key please visit the related part:<br><br>
             </p>
             <div class="step-row-container">
@@ -117,7 +117,7 @@ Present your security key to experience a frictionless login, or create a worksp
             <div class="card-column">
                 <div class="step-text" >
                 <div class="card-body">
-                    <a href="#fido2.0-hardware-scurity-key" style="font-size:16px;">FDIO2.0 Hardware Security Key</a><br><br>
+                    <a href="#fido2.0-hardware-scurity-key" style="font-size:16px;">FDIO2 Hardware Security Key</a><br><br>
                 </div>
                 </div>
             </div>
@@ -157,7 +157,7 @@ Present your security key to experience a frictionless login, or create a worksp
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p> You can use IDmelon Authenticator app or the camera on your smartphone to scan the QR code that you see on the PC screen.</p>
+        <p> Use IDmelon Authenticator app or the camera on your smartphone to scan the QR code on your PC screen.</p>
         <p> Open IDmelon application on your phone and click on the <span style="font-weight:bold">three line menu</span> on the top left of your screen. Then tap on <span style="font-weight:bold">Pair with a new PC</span> and scan the QR code.</p>
       </div>
     </div>
@@ -171,10 +171,10 @@ Present your security key to experience a frictionless login, or create a worksp
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Click next and either download <span style="font-weight:bold">IDmelon Pairing Tool</span> or use your <span style="font-weight:bold">IDmelon Reader</span> to log in to your panel by your smartphone as your security key.<br><br>
+        <p>Click next and either download <span style="font-weight:bold">IDmelon Pairing Tool</span> or use your <span style="font-weight:bold">IDmelon Reader</span> to log in to panel by your smartphone as your security key.<br><br>
         Click <span style="font-weight:bold">Login</span> to move to login page.<br><br>
-        For more information about <span style="font-weight:bold">Pairing Tool</span> refer to <a href="https://docs.idmelon.com/docs/pairingtool/ourparigintool/" style="font-size:16px;">this page</a>.<br><br>
-        For more information about <span style="font-weight:bold">Reader</span> refer to <a href="https://docs.idmelon.com/docs/readeguide/reader/" style="font-size:16px;">this page</a>.<br>
+        For more information about <span style="font-weight:bold">IDmelon Pairing Tool</span> refer to <a href="https://docs.idmelon.com/docs/pairingtool/ourparigintool/" style="font-size:16px;">this page</a>.<br><br>
+        For more information about <span style="font-weight:bold">IDmelon Reader</span> refer to <a href="https://docs.idmelon.com/docs/readeguide/reader/" style="font-size:16px;">this page</a>.<br>
         </p>
       </div>
     </div>
@@ -204,7 +204,7 @@ Present your security key to experience a frictionless login, or create a worksp
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p> Based on your own card reader model click on <span style="font-weight:bold">rfIDEAS</span> or <span style="font-weight:bold">acs</span> to download the driver that can communicate with your reader. After downloading the driver and installing it, click on <span style="font-weight:bold">Next</span>.
+        <p> Based on your own card reader model click on <span style="font-weight:bold">rfIDEAS</span> or <span style="font-weight:bold">acs</span> to download the driver. Install the downloaded driver and click on <span style="font-weight:bold">Next</span>.
         </p>
       </div>
     </div>
@@ -264,7 +264,7 @@ Present your security key to experience a frictionless login, or create a worksp
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p> Choose <span style="font-weight:bold">FIDO2.0 Hardware Security Key</span> as your security key device and click on <span style="font-weight:bold"> Save & Continue</span>.
+        <p> Choose <span style="font-weight:bold">FIDO2 Hardware Security Key</span> as your security key device and click on <span style="font-weight:bold"> Save & Continue</span>.
         </p>
       </div>
     </div>

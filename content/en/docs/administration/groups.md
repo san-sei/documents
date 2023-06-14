@@ -1,5 +1,5 @@
 ---
-title: "Groups"
+title: "Group Management"
 description: "Group management"
 lead: ""
 date: 2022-02-16T18:14:02-08:00
