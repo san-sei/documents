@@ -67,13 +67,13 @@ Contactless cards can be shared and used by multiple users. With this feature, i
 
 <hr class="hr-line">
 
-In the following picture, we’re on Michael’s page and in the Security keys table, we can see all Security keys that Michael has. There is a Device Access column that specifies if the device has more than one user or not. Single Account means it just belongs to the current user and Multiple Account means that it has more than one user. As you can see in the picture, one of Michael’s devices with the name of Michael – Blue Card is a Contactless card with a status other than pending and that means that we can share this device with other users. 
+In the following picture, we’re on Michael’s page and in the Security keys table, we can see all Security keys that Michael has. There is a Device Access column that specifies if the device has more than one user or not. Single Account means it just belongs to the current user and Multiple Account means that it has more than one user. As you can see in the picture, one of Michael’s devices with the name of Michael – Blue Card is a Contactless card with a status other than pending and that means that we can share this device with other users.
 
 <div align="center">
     <img src="/images/vendor/Panel/shared-accounts/shared-accounts-1.png" class="doc-img-frame" id="_img" style="margin-top: 0">
 </div>
 
-In order to add Michael’s Contactless card to other users' devices, we need to navigate to another user’s page and click on the Activated Security key button. 
+In order to add Michael’s Contactless card to other users' devices, we need to navigate to another user’s page and click on the Activated Security key button.
 
 <div align="center">
     <img src="/images/vendor/Panel/shared-accounts/shared-accounts-2.png" class="doc-img-frame" id="_img" style="margin-top: 0">
@@ -86,7 +86,7 @@ This will open a modal that contains all usable Contactless cards for the curren
 </div>
 
 Select those which you are intended to add to the current user and click on the OK button.<br></br>
-As you can see, Selected Contactless cards have been successfully added to the user’s Security keys and they will be able to use them for logging in to their accounts. login logs for each device will also be available in the Activities tab. 
+As you can see, Selected Contactless cards have been successfully added to the user’s Security keys and they will be able to use them for logging in to their accounts. login logs for each device will also be available in the Activities tab.
 
 <div align="center">
     <img src="/images/vendor/Panel/shared-accounts/shared-accounts-4.png" class="doc-img-frame" id="_img" style="margin-top: 0">
@@ -94,19 +94,22 @@ As you can see, Selected Contactless cards have been successfully added to the u
 
 ### Actions on security keys
 
-In the Security keys table, there is an Action column that we can use to perform some actions on Security keys that we want to.  Please note that these actions will modify the selected Security key for all the users that are associated with them. 
-- Suspend/Activate: With this option, we can suspend/activate Security keys. 
-- Edit: This will change the name of the Security key. 
-- Reset Pin: This will reset the pin of the Contactless card and we will send a reset pin email to all of the users that are associated with it. 
-- Delete: This option is only available if you are on the Contactless card’s owner page. It will delete the Security key completely for all the users that are associated with it. 
-The following option will just affect the current user. 
-- Revoke Access: This will remove the Contactless card just for the current user, and they will be no longer able to use it. This option is only available if the current user is not the owner of that device. 
+In the Security keys table, there is an Action column that we can use to perform some actions on Security keys that we want to. Please note that these actions will modify the selected Security key for all the users that are associated with them.
+
+- **Suspend/Activate:** With this option, we can suspend/activate Security keys.
+- **Edit:** This will change the name of the Security key.
+- **Reset Pin:** This will reset the pin of the Contactless card and we will send a reset pin email to all of the users that are associated with it.
+- **Delete:** This option is only available if you are on the Contactless card’s owner page. It will delete the Security key completely for all the users that are associated with it.
+
+The following option will just affect the current user:
+
+- **Revoke Access:** This will remove the Contactless card just for the current user, and they will be no longer able to use it. This option is only available if the current user is not the owner of that device.
 
 ## Limitations on Shared Accounts
 
 <hr class="hr-line">
 
-- Only Contactless cards can be used by more than one user. 
-- Only remote users are able to use this feature. 
- - Due to Windows limitations for login, if you attempt to login to Windows with a Contactless card that has more than one user associated with it, Windows will not ask you which user you want to login with, and it will log in with one of the users automatically. For handling this, you can use policies to set a default user for logging in to Windows for each Contactless card. You can find more details about policies <a href="https://docs.idmelon.com/docs/administration/skpolicy/" style="font-size:16px;">here.</a>
-- If you change the policies of a Contactless card, users will need to resync their PCs with our server to get the policy updates. We will do that automatically in different periods of times, but to get the updates quickly, turning your device’s internet off and on will do that. 
+- Only Contactless cards can be used by more than one user.
+- Only remote users are able to use this feature.
+- Due to Windows limitations for login, if you attempt to login to Windows with a Contactless card that has more than one user associated with it, Windows will not ask you which user you want to login with, and it will log in with one of the users automatically. For handling this, you can use policies to set a default user for logging in to Windows for each Contactless card. You can find more details about policies <a href="https://docs.idmelon.com/docs/administration/skpolicy/" style="font-size:16px;">here.</a>
+- If you change the policies of a Contactless card, users will need to resync their PCs with our server to get the policy updates. We will do that automatically in different periods of times, but to get the updates quickly, turning your device’s internet off and on will do that.
