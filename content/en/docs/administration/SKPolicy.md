@@ -115,7 +115,7 @@ Each policy can be set with multiple conditions including the following items al
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>RP Restriction(the Relaying Party)</p>
+        <p>RP Restriction(the Relying Party)</p>
       </div>
     </div>
   </div>
