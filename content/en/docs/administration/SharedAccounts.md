@@ -18,9 +18,11 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-Contactless cards can be shared and used by multiple users. With this feature, if your organization has many employees, it is no longer necessary to provide a Contactless card for each one of them. You can prepare a limited number of cards and share them among the employees and simply manage them with IDmelon panel.
+Shared Accounts are a special type of users in IDmelon Passwordless Orchestration Platform (IPOP). Shared Accounts enables administrators to be able to grant access to any Contactless Card registerd in the panel (from any user) to be able to use credentials of specific user (the Shared Account) for logins. This powerful feature enhances access control and satisfies a common use case described later in this user guide. Let's delve deeper into the details of Shared Accounts and discover how they can enhance your user management capabilities within IPOP.
 
-## How to share a contactless card
+## How to Create a Shared Account
+
+<p class="note-body"><span style="font-weight:bold;">Note: </span>The remainder of the document assumes that you have already added multiple users and contactless cards to your workspace. Please refer to <a href="https://docs.idmelon.com/docs/administration/enrollment/#contactless-card" style="font-size:16px;">this document</a> if you are unsure how to perform the aforementioned tasks.</p>
 
 <hr class="hr-line">
 
@@ -31,12 +33,12 @@ Contactless cards can be shared and used by multiple users. With this feature, i
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p style="margin-bottom: 0">Activate one or few contactless cards. For more information refer to <a href="https://docs.idmelon.com/docs/administration/enrollment/#contactless-card" style="font-size:16px;">How to activate a contactless card.</a></p>
+        <p style="margin-bottom: 0">Login to your workspace</p>
       </div>
     </div>
   </div>
 </div>
-  
+
 <div class="step-row-container">
   <div class="step-column step-count-size">
     <p class="step-counter">2</p>
@@ -44,7 +46,7 @@ Contactless cards can be shared and used by multiple users. With this feature, i
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p style="margin-bottom: 0">Click on one of your users, go to the user’s details page and click on the Activated Security key button to see a list of Contactless cards that this user can use.</p>
+        <p style="margin-bottom: 0">Under <i>Security Key Management</i>, navigate to <i>Users</i> menu</p>
       </div>
     </div>
   </div>
@@ -57,59 +59,175 @@ Contactless cards can be shared and used by multiple users. With this feature, i
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p style="margin-bottom: 0">Select cards which you are willing to share with the user and then hit the OK button. This will add the selected Contactless cards to the user’s devices.</p>
+        <p style="margin-bottom: 0">Select an <span style="color: green">Active</span> user that you intend to designate as a Shared Account</p>
       </div>
     </div>
   </div>
 </div>
 
-## Example of how to use a shared account
-
-<hr class="hr-line">
-
-In the following picture, we’re on Michael’s page and in the Security keys table, we can see all Security keys that Michael has. There is a Device Access column that specifies if the device has more than one user or not. Single Account means it just belongs to the current user and Multiple Account means that it has more than one user. As you can see in the picture, one of Michael’s devices with the name of Michael – Blue Card is a Contactless card with a status other than pending and that means that we can share this device with other users.
-
-<div align="center">
-    <img src="/images/vendor/Panel/shared-accounts/shared-accounts-1.png" class="doc-img-frame" id="_img" style="margin-top: 0">
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">4</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p style="margin-bottom: 0">Click on the <i>Add Activated Security Key</i> button</p>
+      </div>
+    </div>
+  </div>
 </div>
 
-In order to add Michael’s Contactless card to other users' devices, we need to navigate to another user’s page and click on the Activated Security key button.
-
-<div align="center">
-    <img src="/images/vendor/Panel/shared-accounts/shared-accounts-2.png" class="doc-img-frame" id="_img" style="margin-top: 0">
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">5</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p style="margin-bottom: 0">Choose the contactless cards to which you wish to grant access for login using the selected user's credentials</p>
+      </div>
+    </div>
+  </div>
 </div>
 
-This will open a modal that contains all usable Contactless cards for the current users.
-
-<div align="center">
-    <img src="/images/vendor/Panel/shared-accounts/shared-accounts-3.png" class="doc-img-frame" id="_img" style="margin-top: 0">
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">6</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p style="margin-bottom: 0">Confirm your changes by clicking on the OK button</p>
+      </div>
+    </div>
+  </div>
 </div>
 
-Select those which you are intended to add to the current user and click on the OK button.<br></br>
-As you can see, Selected Contactless cards have been successfully added to the user’s Security keys and they will be able to use them for logging in to their accounts. login logs for each device will also be available in the Activities tab.
+Following these simple steps you have successfully granted access to one or multiple contactless cards, allowing them to utilize the login credentials associated with the chosen user, thereby transforming the user into a Shared Account.
 
-<div align="center">
-    <img src="/images/vendor/Panel/shared-accounts/shared-accounts-4.png" class="doc-img-frame" id="_img" style="margin-top: 0">
-</div>
+On the same page, you will notice that under the _Device Access_ column, the added devices are now labeled as _Multiple Account_. This designation indicates that these devices are employed by more than one user/account within the IPOP. Conversely, devices exclusively owned by a single user/account are identified as _Single Account_. This classification enables convenient differentiation between devices utilized for multiple or singular purposes within the platform.
 
-### Actions on security keys
+### Actions on Security Keys
 
-In the Security keys table, there is an Action column that we can use to perform some actions on Security keys that we want to. Please note that these actions will modify the selected Security key for all the users that are associated with them.
+Within the Security keys table, you will find an Action column that provides the ability to perform various actions on the Security keys. **It is important to note that actions will have a global impact on the selected Security key and its corresponding users**. We list the available actions below:
 
-- **Suspend/Activate:** With this option, we can suspend/activate Security keys.
-- **Edit:** This will change the name of the Security key.
-- **Reset Pin:** This will reset the pin of the Contactless card and we will send a reset pin email to all of the users that are associated with it.
-- **Delete:** This option is only available if you are on the Contactless card’s owner page. It will delete the Security key completely for all the users that are associated with it.
+- **Suspend/Activate:** Suspend/Activate security keys
+- **Edit:** Modify properties of security keys
+- **Reset Pin:** Reset the pin of the contactless card and **sends a reset pin email to all of the users associated with the security key**.
+- **Delete:** Deletes the Security key completely for all the users that are associated with it. This option is only available if you are on the contactless card’s owner page.
 
-The following option will just affect the current user:
+The following option only affects the shared account:
 
-- **Revoke Access:** This will remove the Contactless card just for the current user, and they will be no longer able to use it. This option is only available if the current user is not the owner of that device.
+- **Revoke Access:** This removes the contactless card only from the shared account. The card is no longer able to login using the credentials of the shared account.
 
 ## Limitations on Shared Accounts
 
 <hr class="hr-line">
 
-- Only Contactless cards can be used by more than one user.
+- Only contactless cards can be used in shared accounts.
 - Only remote users are able to use this feature.
-- Due to Windows limitations for login, if you attempt to login to Windows with a Contactless card that has more than one user associated with it, Windows will not ask you which user you want to login with, and it will log in with one of the users automatically. For handling this, you can use policies to set a default user for logging in to Windows for each Contactless card. You can find more details about policies <a href="https://docs.idmelon.com/docs/administration/skpolicy/" style="font-size:16px;">here.</a>
-- If you change the policies of a Contactless card, users will need to resync their PCs with our server to get the policy updates. We will do that automatically in different periods of times, but to get the updates quickly, turning your device’s internet off and on will do that.
+- If you change the policies of a Contactless card, users will need to resync their PCs with our server to get the policy updates. We will do that periodically, but to get the updates quickly, **turning your device’s internet off and on will force the sync process**.
+
+When attempting to log in to Windows using a contactless card that is linked to multiple users/accounts, Windows will not prompt you to select a specific user/credential, instead choosing a user/credential on its own accord.
+
+To address this issue, you can employ policies to establish a default user/credential for Windows login. **The following section offers an illustrative example of associating a shared account with a computer through IPOP policies**.
+
+## Associate a Shared Account with a Computer
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">1</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p style="margin-bottom: 0">Navigate to the <strong>Security > Security Key Policies</strong> menu and click on the <strong>New Policy</strong> button.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+> We assume that the default policy of our workspace is Block, which blocks all user activities by default.
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">2</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p style="margin-bottom: 0">Fill in the required information and proceed to step 2, which is <i>Set Conditions</i>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">3</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p style="margin-bottom: 0">In the <strong>Security Key Device Type</strong> section, select Contactless Card.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">4</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p style="margin-bottom: 0">In the <strong>Users and Groups</strong> section, select the user/shared account that you want to use as the default account for login.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">5</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p style="margin-bottom: 0">In the <strong>Access Restriction on PCs</strong> section, select the PCs on which you want this policy to take effect.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">6</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p style="margin-bottom: 0">In the third step, choose <i>Allow</i> as your policy's action. This way, the chose user/shared account will be the only account capable of logging into Windows on the selected computer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column step-count-size">
+    <p class="step-counter">7</p>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p style="margin-bottom: 0">Submit your changes, and you will have a new policy in the policies table.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+After implementing the policy, any attempts to log in to the specified computer using a contactless card that is not linked to the selected user/shared account will be denied or blocked. Using shared accounts, only contactless cards associated with the selected shared account are allowed to login to Windows on the specified computer.
+
+> To further study about policies and how to use them, please refer to the <a href="http://idmelon.com/docs/administration/skpolicy/">policies section</a>.
