@@ -18,11 +18,10 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-In this page, you can create a list of policies that you want to apply to your users on the **Security Key Policies** tab.
-If you want to add a new list item to this list, simply click on **New List**.
+You can create a list of items (conditions) to use when creating **Security Key Policies**. Click on **New List** button to start.
 
 <div align="center">
-    <img src="/images/vendor/Panel/namedlist_1.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/namedlist_1.png" class="doc-img-frame" style = "margin-top: 0">
 </div>
 
 <div class="step-row-container">
@@ -32,24 +31,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>On this page you can name your list under <span style="font-weight:bold;">List Name</span>, write a <span style="font-weight:bold;">Description</span> for it, and choose <span style="font-weight:bold;">List Type</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/Panel/namedlist_2.png" class="doc-img-frame">
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>You can have 4 types of lists. Click on <span style="font-weight:bold;">List Type</span> and choose one type for your list.</p>
+        <p>Enter a name and a description, and choose the <span style="font-weight:bold;">List Type</span>.</p>
       </div>
     </div>
   </div>
@@ -62,14 +44,14 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Click <span style="font-weight:bold;">Next</span> when you are done.</p>
+        <p>You can have 5 types of lists including IP, Device, RP, Location and Time.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/namedlist_3.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/namedlist_3.png" class="doc-img-frame" style = "margin-top: 0">
 </div>
 
 ## IP List
@@ -83,24 +65,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you have chosen <span style="font-weight:bold;">IP</span> in the previous section, add a new <span style="font-weight:bold;">IP</span> by clicking on the <span style="font-weight:bold;">"+"</span> on the top right of the page.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/Panel/namedlist_4.png" class="doc-img-frame">
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Next</span> you will see a window that is asking you to write an <span style="font-weight:bold;">IP</span> address.</p>
+        <p>Add a new <span style="font-weight:bold;">IP</span> by clicking on the <span style="font-weight:bold;">"+"</span> on the top right corner of the page.</p>
       </div>
     </div>
   </div>
@@ -113,30 +78,14 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Write the <span style="font-weight:bold;">IP</span> address that you want and click on <span style="font-weight:bold;">Add IP</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on <span style="font-weight:bold;">Confirm</span> when you are done.</p>
+        <p>Enter the IP address and click on <span style="font-weight:bold;">Add IP</span>..</p>
       </div>
     </div>
   </div>
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/namedlist_5.png" class="doc-img-frame">
-</div>
-
-<div align="center">
-    <img src="/images/vendor/Panel/namedlist_6.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/namedlist_4.png" class="doc-img-frame" style = "margin-top: 0">
 </div>
 
 ## Device List
@@ -150,27 +99,14 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you have chosen <span style="font-weight:bold;">Devices</span>, you can select a new device by clicking on the Devices dropdown menu.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on <span style="font-weight:bold;">Confirm</span> when you are done.</p>
+        <p>For device list type, select a new device by clicking on the Devices dropdown menu.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/namedlist_7.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/namedlist_7.png" class="doc-img-frame" style = "margin-top: 0">
 </div>
 
 ## RP List
@@ -184,24 +120,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you have chosen <span style="font-weight:bold;">RP</span>, then in the page below, add a new <span style="font-weight:bold;">RP</span> by clicking on the <span style="font-weight:bold;">"+"</span> on the top right of the page.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/Panel/namedlist_8.png" class="doc-img-frame">
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Simply write down your desired domain and click on <span style="font-weight:bold;">Add RP</span>.</p>
+        <p>For RP list type, add a new <span style="font-weight:bold;">RP</span> by clicking on the <span style="font-weight:bold;">"+"</span> on the top right of the page.</p>
       </div>
     </div>
   </div>
@@ -214,14 +133,14 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Click on <span style="font-weight:bold;">Confirm</span> when you are done.</p>
+        <p>Enter the domain (RP address) and click on <span style="font-weight:bold;">Add RP</span>.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/namedlist_10.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/namedlist_8.png" class="doc-img-frame" style = "margin-top: 0">
 </div>
 
 ## Location
@@ -235,7 +154,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you have chosen <span style="font-weight:bold;">Location</span>, then add a new <span style="font-weight:bold;">Locatoin</span> by clicking on the <span style="font-weight:bold;">"+"</span>icon on the top right of the page.</p>
+        <p>For location list type, click on the <span style="font-weight:bold;">"+"</span> icon on the top right corner of the page.</p>
       </div>
     </div>
   </div>
@@ -248,7 +167,7 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>After clicking on the <span style="font-weight:bold;">+</span> icon, a wizard containing a map will be shown, find your location on the map and click on <span style="font-weight:bold;">Confirm Location</span> and after that click on <span style="font-weight:bold;">Confirm</span> to add this list to your named lists.</p>
+        <p style = "margin-bottom: 0">A wizard containing a map will be shown, find your location on the map and click on <span style="font-weight:bold;">Confirm Location</span>. Then click on <span style="font-weight:bold;">Confirm</span> to add it to your list.</p>
       </div>
     </div>
   </div>
@@ -314,52 +233,40 @@ If you want to add a new list item to this list, simply click on **New List**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you have chosen <span style="font-weight:bold;">Time</span>, then in the page below, add a new <span style="font-weight:bold;">Time</span> by clicking on the <span style="font-weight:bold;">"+"</span> on the top right of the page.</p>
+        <p>For time list type, add a new <span style="font-weight:bold;">Time Period</span> by clicking on the <span style="font-weight:bold;">"+"</span> on the top right corner of the page.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Choose <span style="font-weight:bold;">Time Zone</span>, <span style="font-weight:bold;">Days of the Week</span>, and <span style="font-weight:bold;">Time Period</span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="step-row-container">
+  <div class="step-column bullet-container">
+    <div class="bullet"></div>
+  </div>
+  <div class="card-column">
+    <div class="step-text" >
+      <div class="card-body">
+        <p>Click on <span style="font-weight:bold;">Add Time</span> to add the new selected time period to your list.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/namedlist_9.png" class="doc-img-frame">
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>In the window which is shown below, you can choose <span style="font-weight:bold;">Time Zone</span>, <span style="font-weight:bold;">Days of the Week</span>, and <span style="font-weight:bold;">Time Period</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on <span style="font-weight:bold;">Add Time</span> to add a new time to your list.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on <span style="font-weight:bold;">Confirm</span> to add it all to your <span style="font-weight:bold;">Named List</span>.</p>
-      </div>
-    </div>
-  </div>
+    <img src="/images/vendor/Panel/namedlist_9.png" class="doc-img-frame" style = "margin-top: 0">
 </div>
 <div align="center">
-    <img src="/images/vendor/Panel/namedlist_11.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/namedlist_11.png" class="doc-img-frame" style = "margin-top: 0">
 </div>
