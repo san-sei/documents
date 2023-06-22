@@ -126,7 +126,7 @@ The following option only affects the shared account:
 <hr class="hr-line">
 
 - Only contactless cards can be used in shared accounts.
-- Only remote users are able to use this feature.
+- It does not work when credentials are bound to a FIDO security key or platform.
 - If you change the policies of a Contactless card, users will need to resync their PCs with our server to get the policy updates. We will do that periodically, but to get the updates quickly, **turning your device’s internet off and on will force the sync process**.
 
 When attempting to log in to Windows using a contactless card that is linked to multiple users/accounts, Windows will not prompt you to select a specific user/credential, instead choosing a user/credential on its own accord.
