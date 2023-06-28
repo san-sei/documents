@@ -4,7 +4,7 @@
 ## Check Accesskey Status
 
 Run the command below in Command Prompt to see the status:
-```poweshell
+```powershell
 Accesskeycli status
 ```
 In a healthy situation it should return the status below and also list the plugged Readers.
