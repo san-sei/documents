@@ -1,0 +1,4 @@
+{{ $variables := getJSON "data/rfideas-variables.json" }}
+{{ $key := .Get 0 }}
+{{ $value := index $variables $key }}
+{{ $value | safeHTML }}

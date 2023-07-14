@@ -1,0 +1,20 @@
+.warning-box {
+  padding: 10px;
+  border: 2px solid #f8c6c7;
+  background-color: #fff1f1;
+  color: #c92a2a;
+  font-weight: bold;
+  position: relative;
+  padding-left: 40px;
+}
+
+.warning-box::before {
+  content: "\f071";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #c92a2a;
+}
