@@ -1,52 +1,146 @@
 <!-- Auto collapsible section menu -->
+{{ $menuConfigs := getJSON "data/config-menus.json" }}
+{{ $test :=
+  $menuConfigs.rfideas
+}}
 <ul class="list-unstyled collapsible-sidebar">
   {{ $currentPage := . -}}
   {{ $section := $currentPage.Section -}}
-  {{ range (where .Site.Sections "Section" "in" $section) }}
+  {{ range
+    (where .Site.Sections "Section" "in" $section)
+  }}
     {{ range .Sections.Reverse }}
       {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+
+      {{ $filteredPages := slice }}
+
+      {{ range $index, $page := .Pages }}
+        {{ $found := false }}
+        {{ range $test }}
+          {{ if eq . $page.RelPermalink }}
+            {{ $found = true }}
+          {{ end }}
+        {{ end }}
+        {{ if not $found }}
+          {{ $filteredPages = $filteredPages | append $page }}
+        {{ end }}
+      {{ end }}
+
+
       <li class="mb-1">
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ md5 .Title }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
-          {{ .Title }}
-        </button>
-        <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ md5 .Title }}">
+        {{ if $filteredPages }}
+          <button
+            class="btn btn-toggle align-items-center rounded collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#section-{{ md5 .Title }}"
+            aria-expanded="{{ if $active }}
+              true
+            {{ else }}
+              false
+            {{ end }}"
+          >
+            {{ .Title }}
+          </button>
+        {{ end }}
+        <div
+          class="collapse{{ if $active }}show{{ end }}"
+          id="section-{{ md5 .Title }}"
+        >
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             {{ range .Pages }}
-              {{ if .IsNode }}
-                {{ $active := in $currentPage.RelPermalink .RelPermalink }}
-                <li class="my-1 ms-3">
-                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ md5 .Title }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
-                    {{ .Title }}
-                  </button>
-                  <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ md5 .Title }}">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                      {{ range .Pages }}
-                        {{ if .IsNode }}
-                          {{ $active := in $currentPage.RelPermalink .RelPermalink }}
-                          <li class="my-1 ms-3">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ md5 .Title }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
-                              {{ .Title }}
-                            </button>
-                            <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ md5 .Title }}">
-                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                {{ range .Pages }}
-                                  {{ $active := in $currentPage.RelPermalink .RelPermalink }}
-                                  <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                                {{ end }}
-                              </ul>
-                            </div>
-                          </li>
-                        {{ else }}
-                          {{ $active := in $currentPage.RelPermalink .RelPermalink }}
-                          <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+              {{ if not (in $test .RelPermalink) }}
+                {{ if .IsNode }}
+                  {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                  <li class="my-1 ms-3">
+                    <button
+                      class="btn btn-toggle align-items-center rounded collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#section-{{ md5 .Title }}"
+                      aria-expanded="{{ if $active }}
+                        true
+                      {{ else }}
+                        false
+                      {{ end }}"
+                    >
+                      {{ .Title }}
+                    </button>
+                    <div
+                      class="collapse{{ if $active }}show{{ end }}"
+                      id="section-{{ md5 .Title }}"
+                    >
+                      <ul
+                        class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                      >
+                        {{ range .Pages }}
+                          {{ if .IsNode }}
+                            {{ $active := in
+                              $currentPage.RelPermalink .RelPermalink
+                            }}
+                            <li class="my-1 ms-3">
+                              <button
+                                class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#section-{{ md5 .Title }}"
+                                aria-expanded="{{ if $active }}
+                                  true
+                                {{ else }}
+                                  false
+                                {{ end }}"
+                              >
+                                {{ .Title }}
+                              </button>
+                              <div
+                                class="collapse{{ if $active }}show{{ end }}"
+                                id="section-{{ md5 .Title }}"
+                              >
+                                <ul
+                                  class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                                >
+                                  {{ range .Pages }}
+                                    {{ $active := in
+                                      $currentPage.RelPermalink .RelPermalink
+                                    }}
+                                    <li>
+                                      <a
+                                        class="docs-link rounded{{ if $active }}
+                                          active
+                                        {{ end }}"
+                                        href="{{ .Permalink }}"
+                                        >{{ .Title }}</a
+                                      >
+                                    </li>
+                                  {{ end }}
+                                </ul>
+                              </div>
+                            </li>
+                          {{ else }}
+                            {{ $active := in $currentPage.RelPermalink
+                              .RelPermalink
+                            }}
+                            <li>
+                              <a
+                                class="docs-link rounded{{ if $active }}
+                                  active
+                                {{ end }}"
+                                href="{{ .Permalink }}"
+                                >{{ .Title }}</a
+                              >
+                            </li>
+                          {{ end }}
                         {{ end }}
-                      {{ end }}
-                    </ul>
-                  </div>
-                </li>
-              {{ else }}
-                {{ $active := in $currentPage.RelPermalink .RelPermalink }}
-                <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                {{ else }}
+                  {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                  <li>
+                    <a
+                      class="docs-link rounded{{ if $active }}active{{ end }}"
+                      href="{{ .Permalink }}"
+                      >{{ .Title }}</a
+                    >
+                  </li>
+                {{ end }}
               {{ end }}
             {{ end }}
           </ul>
