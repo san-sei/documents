@@ -61,9 +61,7 @@ If you want to enable sign-in access to a domain (on-premise) account, follow th
 2. Type the account password.
 3. Click **Ok**.
 
-If you want to log in to a local account, follow these steps:
-
-1. Type a single dot (`.`) as the domain name for the account.
+> If you want to login to a local account, type a single dot (.) as the domain name of the account.
 
 > Note: Make sure to enter the account password correctly, as it is necessary for successful login.
 
