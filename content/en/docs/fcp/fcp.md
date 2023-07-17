@@ -35,10 +35,10 @@ To install and configure IDmelon FCP on your computer, follow these steps:
 1. Open a command prompt with administrator privileges (Run As Admin).
 2. Type the following commands in the command prompt:
 
-    ```commandline
-    fcp-cli init --token "PLACE-YOUR-TOKEN-HERE"
-    fcp-cli start
-    ```
+   ```commandline
+   fcp-cli init --token "PLACE-YOUR-TOKEN-HERE"
+   fcp-cli start
+   ```
 
 3. Replace "PLACE-YOUR-TOKEN-HERE" with the configuration token you obtained earlier.
 4. Press Enter to execute the commands.
@@ -61,9 +61,8 @@ If you want to enable sign-in access to a domain (on-premise) account, follow th
 2. Type the account password.
 3. Click **Ok**.
 
-> If you want to login to a local account, type a single dot (.) as the domain name of the account.
-
-> Note: Make sure to enter the account password correctly, as it is necessary for successful login.
+> **Note:** If you want to login to a local account, type a single dot (.) as the domain name of the account.\
+> **Note:** Make sure to enter the account password correctly, as it is necessary for successful login.
 
 Congratulations! You have now installed and configured IDmelon FCP on your computer. Lock your computer and select IDmelon FCP as the login option, tap your security key, and enjoy the seamless login experience.
 
