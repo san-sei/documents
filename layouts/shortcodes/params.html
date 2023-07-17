@@ -1,4 +1,4 @@
-{{ $variables := getJSON "data/rfideas-variables.json" }}
+{{ $variables := getJSON (printf "data/%s-variables.json" .Site.Params.buildFor) }}
 {{ $key := .Get 0 }}
 {{ $value := index $variables $key }}
 {{ $value | safeHTML }}

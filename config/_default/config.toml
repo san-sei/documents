@@ -9,6 +9,9 @@ languageCode = "en-US"
 paginate = 7
 rssLimit = 10
 
+[params]
+buildFor = "rfideas"
+
 # Multilingual
 defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]

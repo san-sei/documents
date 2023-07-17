@@ -1,3 +1,4 @@
+<script>
 // Load mapping file
 fetch('/urls-mapping.json')
   .then((response) => response.json())
@@ -11,7 +12,7 @@ fetch('/urls-mapping.json')
 
       for (const map of mapping) {
         if (originalHref === map.original) {
-          anchorTag.setAttribute('href', map.rfideas);
+          anchorTag.setAttribute('href', map[{{ .Site.Params.buildFor }}]);
           break;
         }
       }
@@ -20,3 +21,4 @@ fetch('/urls-mapping.json')
   .catch((err) => {
     console.log(err);
   });
+</script>

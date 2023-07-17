@@ -1,0 +1,24 @@
+<script>
+function loadImagesBasedOnURL() {
+  var imageTags = document.getElementsByTagName('img');
+
+  for (var i = 0; i < imageTags.length; i++) {
+    var imgTag = imageTags[i];
+    var imagePath = imgTag.getAttribute('src');
+    // Modify the image source based on the buildFor value
+    if (imagePath) {
+      if (imagePath.includes('global')) continue;
+      imagePath = imagePath.replace(
+        '/images/vendor/',
+        '/images/vendor/' + {{ .Site.Params.buildFor }} + '/'
+      );
+
+    }
+
+    imgTag.setAttribute('src', imagePath);
+  }
+
+}
+
+document.addEventListener('DOMContentLoaded', loadImagesBasedOnURL);
+</script>

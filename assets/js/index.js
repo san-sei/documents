@@ -132,11 +132,46 @@ Source:
     var results = index.search(searchQuery, {limit: maxResult, enrich: true});
 
     // flatten results since index.search() returns results for each indexed field
-    const flatResults = new Map(); // keyed by href to dedupe results
+    let flatResults = new Map(); // keyed by href to dedupe results
+
+
     for (const result of results.flatMap(r => r.result)) {
       if (flatResults.has(result.doc.href)) continue;
       flatResults.set(result.doc.href, result.doc);
     }
+
+    /************************ start *************************/
+
+    /**
+     * This is the begining of some complicate work to ignore searching in pages where
+     * display (e.g. display.rfideas) object is false in their front matter params.
+     * WARNING: Do not touch if you don't know what you're doing. This shouldn't be modified often.
+     */
+
+    // Create pageParams map
+    const pageParams = new Map([
+      {{ $list := where .Site.Pages "Section" "docs" -}}
+      {{ range $index, $element := $list -}}
+        ["{{ .RelPermalink }}", {
+          display: {{ if eq (.Params.display.Get (.Site.Params.buildFor) | default true) true }}true{{ else }}false{{ end }},
+          // Add other front matter params as needed
+        }],
+      {{ end -}}
+    ]);
+
+    // Filter flatResults based on front matter params
+    flatResults = new Map(
+      Array.from(flatResults).filter(([href, doc]) => {
+        const pageParam = pageParams.get(href);
+        return (
+          !pageParam ||
+          pageParam.display === true ||
+          pageParam.display === undefined
+        );
+      })
+    );
+
+    /************************ end *************************/
 
     suggestions.innerHTML = "";
     suggestions.classList.remove('d-none');
