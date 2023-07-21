@@ -1,7 +1,7 @@
 ---
-title: "Introduction"
+title: "Getting Started"
 description: "Overall Description"
-lead: "The IDmelon FIDO2 Orchestration Platform helps organizations simply and quickly deploy secure passwordless authentication for their users. Features like Security Key as a Service, FIDO2 managed security keys, and fully automated FIDO2 lifecycle are patented and unique approaches that help organizations enhance their workforce authentication security overnight. No more dealing with purchase and distribution of hardware FIDO2 security keys as organizations can use whatever device their users have as a FIDO2 security key. It can be an Access Card, a Key FOB or a smartphone."
+lead: "The IDmelon Passwordless Platform helps organizations simply and quickly deploy secure passwordless authentication. Features like Security Key as a Service, managed security keys, and automated onboarding help organizations enhance their workforce authentication overnight. No more dealing with purchase and distribution of hardware security keys as organizations can use their existing devices such as Access Cards, Key FOBs or smartphones."
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
@@ -25,7 +25,7 @@ toc: true
       </div>
       <div class="card-body">
         <!--<p style="font-weight: bold;" >Create a workspace</p>-->
-        <p>The IDmelon Security Key as a Service solution can be managed from the IDmelon Admin Panel. You can enroll and activate users' security keys, grant, restrict and monitor their access, manage licenses, and more. If it is your first try, you can create a workspace on behalf of your organization, or you can use your security key to experience a simple passwordless login.
+        <p>The IDmelon Security Key as a Service solution can be managed from the IDmelon Admin Panel. You can enroll and activate users' security keys, grant, restrict and monitor their access, and more. If it is your first try, create a workspace on behalf of your organization.
         </p>
         <p><a href="/docs/administration/createworkspace/">How to create a workspace</a></p>
       </div>
@@ -74,14 +74,14 @@ toc: true
           <input type="radio" id="tab3" name="tabGroup1" class="tab">
           <label for="tab3" class="tab3">Hardware Security Key</label>
           <div class="tab__content">
-            <p>The first option as a device is Smartphone for which an email containing an activation link will be sent to the user’s email address to let user activate their smartphone as a security key.</p>
+            <p>The first option as a device is Smartphone. An email containing an activation link will be sent for the specified user to activate his smartphone as a security key.</p>
             <p><a href="/docs/administration/enrollment/" style=" padding-bottom: 24px;">Smartphone as a security key device</a></p>
           </div>
           <div class="tab__content">
             <p>The second option as a security key device is Contactless Card. This type of device can be activated in two ways:
               <ul>
-                <li><p>Activate now: activate a card for your user as an admin if you have the card physically near you.</p></li>
-                <li><p>Activate by user: send an activation email to the user if the card is not with you (the targeted user will receive the registration link via email).</p></li>
+                <li><p>Activate now: an admin can activate a card for a user if he has physical access to the card.</p></li>
+                <li><p>Activate by user: send an activation email containing the registration link to the targeted user.</p></li>
               </ul>
             </p>
             <p>
@@ -89,7 +89,7 @@ toc: true
             <p>
           </div>
           <div class="tab__content">
-            <p>If you already have a security key and you want to use it as a FIDO2 hardware security key, you must select this option. A registration link via email will let you set your hardware as a FIDO2 hardware security key. From then on, your security key can be used for passwordless logins based on FIDO2 standard wherever it is supported.</p>
+            <p>If you already have a security key, select this option to receive a registration link to set your security key as a FIDO2 hardware security key.</p>
             <p><a href="/docs/administration/enrollment/#hardware-security-keys" style=" padding-bottom: 24px;" >How to set up a FIDO2 hardware security key device</a></p>
           </div>
         </div>
@@ -106,7 +106,7 @@ toc: true
       <p class="step-number">4</p>
     </div>
     <div class="card-body">
-      <p>The organization can control access of users by setting authentication policies. An admin can create new authentication policies to apply to users’ security keys to limit their access. The limitation can be based on multiple conditions such as time period, IP Address, RP (Relying Parties) that users are trying to reach out, and the location they are trying to login from.
+      <p>The organization can control access of users by setting authentication policies. An admin can create new authentication policies to apply to users’ security keys to limit their access. The limitation can be based on multiple conditions such as time, IP Address, RP (Relying Parties) that users are trying to reach out, and the location they are trying to login from.
       </p>
       <p><a href="/docs/administration/skpolicy/#create-new-policy">How create a security key policy</a></p>
     </div>

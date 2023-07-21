@@ -1,5 +1,5 @@
 ---
-title: "Users and Security Keys"
+title: "User Management"
 description: "Adding users to IDmelon"
 lead: ""
 date: 2022-02-16T18:14:02-08:00
@@ -18,11 +18,10 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-When signed in to the administration panel, you are able to manage users and security keys from this section.
-The first step is to add a single user by clicking on the check boxes or **import users in bulk from Azure AD or a CSV File**. In case of adding them one by one, you can assign a **security key** to the user at the same time.
+You can add, manage and assign security keys to users from **Users** section. You can add a **single user** or **import users from a CSV file, Azure AD, SCIM and LDAP**.
 
 <div align="center">
-    <img src="/images/vendor/Panel/users&securitykeys.png" id="_img" class="doc-img-frame" alt="zoom">
+    <img src="/images/vendor/Panel/users.png" id="_img" class="doc-img-frame" alt="zoom">
 </div>
 
 ## Add single user
@@ -36,16 +35,14 @@ The first step is to add a single user by clicking on the check boxes or **impor
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>At the top left, choose <span style="font-weight:bold">New User -> Add a user</span> to open the wizard below.<br>
-        Enter the user’s information and click <span style="font-weight:bold">Next.</span>
-        </p>
+        <p style="margin-bottom: 0">Click on <span style="font-weight:bold">New User</span> to open the wizard below and Enter the user’s information.</p>
       </div>
     </div>
   </div>
 </div>
 
-<div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_1.png" id="_img" class="doc-img-frame" alt="zoom">
+<div align="center" style="margin-top: 0">
+    <img src="/images/vendor/Panel/adduser/add_new_user_1.png" id="_img" class="doc-img-frame" alt="zoom" style="margin-top: 0">
 </div>
 
 <div class="step-row-container">
@@ -55,21 +52,20 @@ The first step is to add a single user by clicking on the check boxes or **impor
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Choose group, and click Next. If no group is selected, the group <span style="font-weight:bold">New User -> Everyone</span> will be chosen by default.<br>
-        </p>
+        <p style="margin-bottom: 0">In next step, choose groups that you want the user be a part of.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_2.png" class="doc-img-frame" id="_img">
+    <img src="/images/vendor/Panel/adduser/add_new_user_2.png" class="doc-img-frame" id="_img" style="margin-top: 0">
 </div>
 
-As you can see the image below, you can turn the toggle on if you want to assign a security key now. If you turn the toggle on, you will have 3 options to assign a security key, the first is to choose [Smartphone](#smartphone), the second is [Contactless Card](#contactless-card) and the third is [FIDO2.0 Hardware Security Key](#hardware-security-keys). You can see the specified instructions in related sections.
+In third step, turn the toggle on to have 3 options to assign a security key, inclucing [Smartphone](#smartphone), [Contactless Card](#contactless-card) and [FIDO2 Hardware Security Key](#hardware-security-keys). Follow the specific instruction in related sections.
 
 <div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_3-1.png" class="doc-img-frame" id="_img">
+    <img src="/images/vendor/Panel/adduser/add_new_user_3-1.png" class="doc-img-frame" id="_img" style="margin-top: 0">
 </div>
 
 ### Smartphone
@@ -81,9 +77,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Turn the toggle on and choose Smartphone from the dropdown below as Security Key Device.<br>
-        From the <span style="font-weight:bold">Smartphone Assignment</span> segment, you can define the security key specifications.<br>
-        Click the Next button to see the confirmation page.
+        <p style="margin-bottom: 0">Choose Smartphone from the dropdown as Security Key Device and set the <span style="font-weight:bold">Smartphone as FIDO security key options</span>.
         </p>
       </div>
     </div>
@@ -91,10 +85,10 @@ As you can see the image below, you can turn the toggle on if you want to assign
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_3-2-1.png" class="doc-img-frame" id="_img">
+    <img src="/images/vendor/Panel/adduser/add_new_user_3-2-1.png" class="doc-img-frame" id="_img" style="margin-top: 0">
 </div>
 
-<p class="note-body"><span style="font-weight:bold;">Note</span>: If administrator clicks on <span style="font-weight:bold;">Client PIN</span>, a PIN will be sent to the user's smarphone, and the PIN has to be entered to register the user.</p>
+<!-- <p class="note-body"><span style="font-weight:bold;">Note</span>: If administrator clicks on <span style="font-weight:bold;">Client PIN</span>, a PIN will be sent to the user's smarphone, and the PIN has to be entered to register the user.</p> -->
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -103,16 +97,11 @@ As you can see the image below, you can turn the toggle on if you want to assign
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>By clicking the Confirm button on this page, an email containing an activation link will be sent to the user’s email address.<br>
-        The user’s status will be changed to <span style="font-weight:bold">Pending</span> waiting for the user to activate their security key.<br>
+        <p>By confirming the user's information in the next page, an email containing an activation link will be sent to the user and also its status will be <span style="font-weight:bold">Pending</span>, waiting for him to activate his security key.<br>
         </p>
       </div>
     </div>
   </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_4-1.png" class="doc-img-frame">
 </div>
 
 ### Contactless Card
@@ -124,8 +113,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Choose <span style="font-weight:bold">Contactless Card</span> in <span style="font-weight:bold">Security Key Device</span> if you want to assign a Contactless Card to the user.<br>
-        Set a name for it. From <span style="font-weight:bold">Choose how to activate</span> dropdown, you can either choose <span style="font-weight:bold">Activate now</span> as an admin if you have the card physically near you or <span style="font-weight:bold">Activate by user</span> if the card is not with you. In case of <span style="font-weight:bold">Activate by user</span>, the targeted user will receive an email containing a link to register the card themself.
+        <p style="margin-bottom: 0">Choose <span style="font-weight:bold">Contactless Card</span> in the dropdown <span style="font-weight:bold">as a Security Key Device</span> and set a name for it. From <span style="font-weight:bold">Choose how to activate</span> dropdown, you can either choose <span style="font-weight:bold">Activate now</span> as an admin if you have the card physically near you or <span style="font-weight:bold">Activate by user</span> to send a registration link for user to activate the card himself.
         </p>
       </div>
     </div>
@@ -133,7 +121,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_3-3-1.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_3-3-1.png" class="doc-img-frame" style="margin-top: 0">
 </div>
 
 <div class="step-row-container">
@@ -143,7 +131,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>In case of <span style="font-weight:bold">Active now</span>, simply click the <span style="font-weight:bold">Assign Contactless Card</span> button to see the window <span style="font-weight:bold">Touch your security key</span>, and then tap your card on Reader to register.<br>
+        <p style="margin-bottom: 0">In case of <span style="font-weight:bold">Active now</span>, simply click the <span style="font-weight:bold">Assign Contactless Card</span> button and tap the card on the reader when you see <span style="font-weight:bold">Touch your security key</span> window.<br>
         </p>
       </div>
     </div>
@@ -151,11 +139,11 @@ As you can see the image below, you can turn the toggle on if you want to assign
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_3-3-1-1.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_3-3-1-1.png" class="doc-img-frame" style="margin-top: 0">
 </div>
 
 <p class="note-body">
-<span style="font-weight:bold;">Note </span>:In either case, make sure the compatible reader is installed on your PC or end-user’s PC. Download and install rfIDEAS driver from <a href="https://idmeloncom-my.sharepoint.com/personal/hassan_idmelon_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fhassan%5Fidmelon%5Fcom%2FDocuments%2FDevelopment%2FReleases%2FAccesskey%2FAccesskeySetup1%2E1%2E18%5FrfIDEAS%2Eexe&parent=%2Fpersonal%2Fhassan%5Fidmelon%5Fcom%2FDocuments%2FDevelopment%2FReleases%2FAccesskey&ga=1" style="font-size:16px;">here</a> if you are using rfIDEAS reader.
+<span style="font-weight:bold;">Note </span>:In both cases, make sure you have installed the reader driver on your PC or end-user’s PC. You can download it from <a href="https://idmelon.com/docs/downloads" style="font-size:16px;">here</a>.
 </p>
 
 <div class="step-row-container">
@@ -165,7 +153,7 @@ As you can see the image below, you can turn the toggle on if you want to assign
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Finally, the image below shows the card is assigned successfully. Click Next and Confirm to complete the assignment. The user will then receive an email containing a PIN for the security key, which at the end of the activation process will be shown to the admin, too.
+        <p>If the card is assigned successfully, click Next and Confirm to complete the assignment. The user will receive an email containing a PIN for his card as a security key device.
         <br>
         </p>
       </div>
@@ -173,12 +161,12 @@ As you can see the image below, you can turn the toggle on if you want to assign
   </div>
 </div>
 
-### FIDO2.0 Hardware Security Keys
+### FIDO2 Hardware Security Keys
 
-If you already have a security key and you want to use it as a FIDO2 hardware security key, you must select the third option in the security key device dropdown. If you press the next in this page and confirm your information in the review & submit page, the target user will receive a registration link to set his hardware, as a FIDO2 hardware security key. From now on, the security key can be used for passwordless logins based on FIDO standard wherever it is available.
+If you already have a security key and you want to use it as a FIDO2 hardware security key, select the third option in the security key device dropdown. The target user will receive a registration link to set his hardware, as a FIDO2 hardware security key. From now on, the security key can be used for passwordless logins based on FIDO standard wherever it is available.
 
 <div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_3-4.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_3-4.png" class="doc-img-frame" style="margin-top: 0">
 </div>
 
 ## Import from a CSV File
@@ -191,9 +179,7 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>At the top left, click <span style="font-weight:bold">Import users -> Import from a CSV File</span> to open the wizard below.<br>
-        Then click <span style="font-weight:bold">Select</span> to choose and upload a CSV File from which you want to import users.<br>
-        Click <span style="font-weight:bold">Next.</span>
+        <p style="margin-bottom: 0">Click <span style="font-weight:bold">Import users -> Import from a CSV File</span> to open the wizard below. Then click <span style="font-weight:bold">Select File</span> to upload a CSV File.
         </p>
       </div>
     </div>
@@ -201,7 +187,7 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_csv_1.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/adduser/add_new_user_csv_1.png" class="doc-img-frame" style="margin-top: 0">
 </div>
 
 <div class="step-row-container">
@@ -211,34 +197,11 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>On this page, you can choose which group you want these users to be added to.<br>
-            If you do not choose any group, the <span style="font-weight:bold">everyone group</span> will be selected by default.<br>
-            And then, click <span style="font-weight:bold">Next</span>.
+        <p>Next, select the group that you want these users to be added to. Then click next to confirm the information.
         </p>
       </div>
     </div>
   </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_csv_2.png" class="doc-img-frame">
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>When you see the below page, you can click <span style="font-weight:bold">Confirm</span> to add all the users.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/Panel/adduser/add_new_user_csv_3.png" class="doc-img-frame">
 </div>
 
 ## Import from Azure AD
@@ -252,9 +215,7 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>At the top left, click <span style="font-weight:bold">Import users -> Import from Azure AD</span> to open the wizard below.<br>
-        Then click <span style="font-weight:bold">Select Group(s)</span> which is placed under <span style="font-weight:bold">Groups in Azure AD</span>, and you can see a list of groups.
-        You can select as many groups as you want in order to import their users from Azure AD.  
+        <p style="margin-bottom: 0">Click <span style="font-weight:bold">Import users -> Import from Azure AD</span> and grant the permission if requested to open the wizard below. Then click inside the dropdown to select groups in Azure AD and finally confirm your information in next page.
         </p>
       </div>
     </div>
@@ -262,34 +223,15 @@ If you already have a security key and you want to use it as a FIDO2 hardware se
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/import_user_azure_1.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/import_user_azure_1.png" class="doc-img-frame" style="margin-top: 0">
 </div>
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>In this page, you can see the groups that you have selected. You can edit the selected groups by clicking on the pencile icon on the top right of the box.
-        Click on <span style="font-weight:bold">Confirm</span> to add users of the groups that you have choosen.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/Panel/import_user_azure_2.png" class="doc-img-frame">
-</div>
-
-<div align="center">
+<!-- <div align="center">
     <img src="/images/vendor/gifs/import_from_AzureAD.gif" class="doc-img-frame">
-</div>
+</div> -->
 
 ## User Provisioning
 
 <hr class="hr-line">
 
-<p>For complete information about User Provisioning refer to this <a href="/docs/administration/onbehalf_register/" style="font-size:16px;" target="_blank">link</a>.</p>
+<p>For complete information about User Provisioning refer to this <a href="/docs/administration/userprovisioning/" style="font-size:16px;" target="_blank">link</a>.</p>
