@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "administration"
-weight: 10
+weight: 11
 toc: true
 ---
 
@@ -22,19 +22,21 @@ toc: true
 
 <hr class="hr-line">
 
-In this page, administrators can see the information related to their workspace and their company address.
-You can simply edit the information in this page by clicking on the **Pencil** icon on the top right of each section of this page.
+You can see the information related to your workspace and company address and you can simply edit them by clicking on the **Pencil** icon on the right corner of each section.
 
 <div align="center">
-    <img src="/images/vendor/Panel/workspace1.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/workspace1.png" class="doc-img-frame" style = "margin-top: 0">
 </div>
 
 ## Admins
 
 <hr class="hr-line">
 
-The first admin who creates a workspace can add as many admins as necessary to help manage the users in the workspace by selecting **New Admin** button in **Admins** section
-under **Settings**.
+The first admin who creates a workspace can add as many admins as necessary to help manage the workspace by selecting **New Admin** button.
+
+<div align="center">
+    <img src="/images/vendor/Panel/add_admin_1.png" class="doc-img-frame" style = "margin-top: 0">
+</div>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -43,7 +45,7 @@ under **Settings**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Add a new admin simply by clicking on <span style="font-weight:bold">New Admin</span>.
+        <p style="margin-bottom: 0">Click on <span style="font-weight:bold">New Admin</span> button to add a new admin. The user you want to promote to admin must have already activated a security key (his status must be Active).
         </p>
       </div>
     </div>
@@ -51,12 +53,8 @@ under **Settings**.
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/add_admin_1.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/add_admin_2.png" class="doc-img-frame" style="width:90%; margin-top: 0">
 </div>
-
-<p class="note-body"><span style="font-weight:bold;">Note </span>that the user whom you want to promote to admin must have already activated their security key, i.e. their status must be Active. To activate a user, a license must
-be granted to the user.
-</p>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -65,7 +63,7 @@ be granted to the user.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>After writing the new admins email, click on <span style="font-weight:bold">Next</span>.
+        <p style="margin-bottom: 0">Select the suitable level of permissions to manage users and security keys for the new admins.
         </p>
       </div>
     </div>
@@ -73,25 +71,5 @@ be granted to the user.
 </div>
 
 <div align="center">
-    <img src="/images/vendor/Panel/add_admin_2.png" class="doc-img-frame">
-</div>
-
-<p class="note-body">Different levels of permissions to manage users and security keys can be given to new admins.</p>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>After giving permissions to the new admin, click on <span style="font-weight:bold">Confirm</span> to finish the process.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/Panel/add_admin_3.png" class="doc-img-frame">
+    <img src="/images/vendor/Panel/add_admin_3.png" class="doc-img-frame" style="width:90%; margin-top: 0">
 </div>
