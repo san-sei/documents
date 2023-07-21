@@ -77,7 +77,7 @@ Congratulations! You have now installed and configured IDmelon FCP on your compu
 After you have successfully installed and configured IDmelon FCP on your computer, each time you want to login to your computer, on the lock screen, select IDmelon FCP, Tap your card on the reader and enter your PIN and press Enter and enjoy the seamless login experience.
 
 <div align="center">
-    <img width="70%" src="/images/vendor/DirectoryServicesIntegration/FCP/domain-user-pass.png" class="doc-img-frame">
+    <img width="90%" src="/images/vendor/DirectoryServicesIntegration/FCP/fcp-login.png" class="doc-img-frame">
 </div>
 
 For further assistance or inquiries, please contact our support team at support@idmelon.com.
