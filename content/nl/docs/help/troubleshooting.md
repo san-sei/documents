@@ -2,15 +2,18 @@
 title: "Troubleshooting"
 description: "Solutions to common problems."
 lead: "Solutions to common problems."
-date: 2020-11-12T15:22:20+01:00
-lastmod: 2020-11-12T15:22:20+01:00
+date: 2022-02-16T18:14:02-08:00
+lastmod: 2022-02-16T18:14:02-08:00
 draft: false
 images: []
-menu: 
+menu:
   docs:
     parent: "help"
 weight: 620
 toc: true
+display:
+  rfideas: true
+  idmelon: true
 ---
 
 ## Problems updating npm packages

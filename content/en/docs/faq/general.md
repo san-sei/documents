@@ -11,6 +11,9 @@ menu:
     parent: "faq"
 weight: 80
 toc: true
+display:
+  rfideas: true
+  idmelon: false
 ---
 
 <div class="accordion" id="accordionExample">

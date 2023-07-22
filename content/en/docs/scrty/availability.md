@@ -11,6 +11,9 @@ menu:
     parent: "scrty"
 weight: 103
 toc: true
+display:
+  rfideas: true
+  idmelon: true
 ---
 <div id="_modal" class="modal">
   <span class="close">&times;</span>

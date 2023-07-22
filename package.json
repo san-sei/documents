@@ -39,6 +39,7 @@
     "@babel/core": "^7.17",
     "@babel/preset-env": "^7.16",
     "@fullhuman/postcss-purgecss": "^4.1",
+    "@types/js-yaml": "^4.0.5",
     "auto-changelog": "^2.4",
     "autoprefixer": "^10.4",
     "bootstrap": "^5.1",
@@ -56,6 +57,8 @@
     "node-fetch": "^3.2",
     "postcss": "^8.4",
     "postcss-cli": "^9.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-go-template": "^0.0.13",
     "purgecss-whitelister": "^2.4",
     "shx": "^0.3.4",
     "stylelint": "^14.3",
@@ -63,5 +66,8 @@
   },
   "otherDependencies": {
     "hugo": "0.92.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }

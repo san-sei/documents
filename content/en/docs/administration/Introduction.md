@@ -11,6 +11,9 @@ menu:
     parent: "administration"
 weight: 1
 toc: true
+display:
+  rfideas: false
+  idmelon: true
 ---
 
 <div class="section-xxl">
@@ -94,7 +97,7 @@ toc: true
           </div>
         </div>
       </div>
-    </div>  
+    </div>
   </div>
 </div>
 

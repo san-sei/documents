@@ -11,6 +11,9 @@ menu:
     parent: "administration"
 weight: 7
 toc: true
+display:
+  rfideas: true
+  idmelon: true
 ---
 
 <div id="_modal" class="modal">

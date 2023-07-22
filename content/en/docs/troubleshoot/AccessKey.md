@@ -11,6 +11,9 @@ menu:
     parent: "readerguide"
 weight: 61
 toc: true
+display:
+  rfideas: false
+  idmelon: true
 ---
 
 ## Check Reader Driver Status
