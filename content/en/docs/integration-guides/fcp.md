@@ -56,10 +56,13 @@ To enable login using a security key for a specific user, follow these instructi
 If you want to enable sign-in access to a domain (on-premise) account, follow these steps:
 
 1. Type the domain name and username separated by a `/`.
-  - > If you don't know your domain name, run the following command on your computer:
-    ```commandLine
-    systeminfo | findstr /B "Domain"
-    ```
+
+    - > If you don't know your domain name, run the following command on your computer:
+
+      ```commandLine
+      systeminfo | findstr /B "Domain"
+      ```
+
 2. Type the account password.
 3. Click **Ok**.
 
@@ -67,12 +70,12 @@ If you want to enable sign-in access to a domain (on-premise) account, follow th
     <img width="70%" src="/images/vendor/DirectoryServicesIntegration/FCP/domain-user-pass.png" class="doc-img-frame">
 </div>
 
-> **Note:** If you want to login to a local account, type a single dot (.) as the domain name of the account. (i.e `./Dwight`)\
+> **Note:** If you want to login to a local account, type a single dot (.) as the domain name of the account. (e.g., `./Dwight`)\
 > **Note:** Make sure to enter the account password correctly, as it is necessary for successful login.
 
 Congratulations! You have now installed and configured IDmelon FCP on your computer.
 
-# Login Experience
+## Login Experience
 
 After you have successfully installed and configured IDmelon FCP on your computer, each time you want to login to your computer, on the lock screen, select IDmelon FCP, Tap your card on the reader and enter your PIN and press Enter and enjoy the seamless login experience.
 
