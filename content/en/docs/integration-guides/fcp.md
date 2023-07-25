@@ -59,10 +59,10 @@ If you want to enable sign-in access to a your account, follow these steps:
 
     - > If you don't know your domain name, run the following command on your computer, it prints out the `DOMAIN` and `ACCOUNT_NAME` of the current user.
 
+    ```commandLine
+    whoami  # prints DOMAIN\ACCOUNT_NAME
+    ```
 
-      ```commandLine
-      whoami  # prints DOMAIN\ACCOUNT_NAME
-      ```
 2. Type the account password.
 3. Click **Ok**.
 
