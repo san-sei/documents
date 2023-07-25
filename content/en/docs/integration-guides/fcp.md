@@ -13,7 +13,7 @@ weight: 100
 toc: true
 ---
 
-While Microsoft solutions are available for Azure and Hybrid-Azure environments, they do not support local or on-premise Active Directory environments. In response, IDmelon has developed the IDmelon FIDO Credential Provider (IDmelon FCP). This application enables users with local or on-premise AD to use their security keys, including IDmelon products, as a sign-in option. IDmelon FCP offers a secure and convenient way to log in to on-premises computers, with an easy installation and configuration process. To get started, refer to the "Getting Started" section below.
+While Microsoft solutions are available for Azure and Hybrid-Azure environments, they do not support local or on-premise Active Directory environments. In response, IDmelon has developed the IDmelon FIDO Credential Provider (IDmelon FCP). This application enables users with local or on-premise AD to use their security keys as well as other available environments, including IDmelon products, as a sign-in option. IDmelon FCP offers a secure and convenient way to log in to on-premises computers, with an easy installation and configuration process. To get started, refer to the "Getting Started" section below.
 
 ## Getting Started
 
@@ -53,15 +53,15 @@ To enable login using a security key for a specific user, follow these instructi
 
 > Note: Currently, this feature only works for Reader Driver. Ensure that you select a user who has a contactless security key device.
 
-If you want to enable sign-in access to a domain (on-premise) account, follow these steps:
+If you want to enable sign-in access to a your account, follow these steps:
 
-1. Type the domain name and username separated by a `/`.
+1. Type the Domain and Account name separated by a '`/`'.
 
-    - > If you don't know your domain name, run the following command on your computer:
+    - > If you don't know your domain name, run the following command on your computer, it prints out the `DOMAIN` and `ACCOUNT_NAME` of the current user.
 
-      ```commandLine
-      systeminfo | findstr /B "Domain"
-      ```
+    ```commandLine
+    whoami  # prints DOMAIN\ACCOUNT_NAME
+    ```
 
 2. Type the account password.
 3. Click **Ok**.
@@ -70,7 +70,7 @@ If you want to enable sign-in access to a domain (on-premise) account, follow th
     <img width="70%" src="/images/vendor/DirectoryServicesIntegration/FCP/domain-user-pass.png" class="doc-img-frame">
 </div>
 
-> **Note:** If you want to login to a local account, type a single dot (.) as the domain name of the account. (e.g., `./Dwight`)\
+> **Note:** For local accounts, a single dot (.) can be used as the domain name of the account. (e.g., `./Dwight`)\
 > **Note:** Make sure to enter the account password correctly, as it is necessary for successful login.
 
 Congratulations! You have now installed and configured IDmelon FCP on your computer.
