@@ -17,7 +17,7 @@ You can download it from the following link on the IDmelon website.
 
 [https://www.idmelon.com/download](https://www.idmelon.com/download)
 
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/pairingsteps">Next</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/pairingsteps">Next</a>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
 h1{

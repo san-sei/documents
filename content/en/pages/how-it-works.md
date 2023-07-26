@@ -16,10 +16,10 @@ Then, you can add your security key to your accounts such as Microsoft and Twitt
 
 Choose your status:
 
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/pairing/step1">I want to pair with my PC.</a>
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/setupasecuritykey">I already paired with my PC.</a>
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/want-reader">I have an IDmelon Reader.</a>
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/reader/index.html">What is IDmelon Reader?</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/pairing/step1">I want to pair with my PC.</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/setupasecuritykey">I already paired with my PC.</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/want-reader">I have an IDmelon Reader.</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/reader/index.html">What is IDmelon Reader?</a>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
 h1{

@@ -21,7 +21,7 @@ Here are the steps to take whenever you want to use your smartphone as a securit
 
 We will help you learn how to add IDmelon security key to different platforms like Microsoft, Windows Login, Twitter, Dropbox and more.
 
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="https://docs.idmelon.com/pages/whichplatform/index.html">How to add key</a>
+<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/whichplatform/index.html">How to add key</a>
 
 <style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
 h1{

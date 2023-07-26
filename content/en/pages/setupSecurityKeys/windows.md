@@ -13,7 +13,7 @@ Standalone PCs or even on-premise AD do not support this feature.
 
 To enable this feature on your Azure AD joined PCs, call your IT administrator. You can also read [this document](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-passwordless-security-key-windows).
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/whichplatform/index.html">Back</a>
 
 <style>
 

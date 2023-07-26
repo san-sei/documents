@@ -18,7 +18,7 @@ images: []
 5. You will return to the **Security info page**, type a name you’ll recognize later for your new security key, and then select **Next**.
 6. Select **Done** to close the **Security key** page. The **Security info** page is updated with your security key information.
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/whichplatform/index.html">Back</a>
 
 <style>
 

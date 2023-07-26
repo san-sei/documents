@@ -1,4 +1,4 @@
-baseurl = "http://docs.idmelon.com/"
+baseurl = "//"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
