@@ -19,7 +19,7 @@ images: []
 7. Enter a name for your security key at the **Name your security key** and click **Next**.
 8. Click **Done**.
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="/pages/whichplatform/index.html">Back</a>
 
 <style>
 
