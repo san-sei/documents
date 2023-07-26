@@ -21,7 +21,7 @@ images: []
 
 **Note**: Dropbox only supports using a security key when signing in to dropbox.com using the Chrome or Firefox web browsers. You can’t use a security key to sign in to the desktop or mobile apps at this time.
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
 
 <style>
 

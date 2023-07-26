@@ -20,7 +20,7 @@ images: []
 
 8. Done!
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
 
 <style>
 

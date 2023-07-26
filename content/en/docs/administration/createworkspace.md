@@ -173,8 +173,8 @@ Present your security key to experience a frictionless login, or create a worksp
       <div class="card-body">
         <p>Click next and either download <span style="font-weight:bold">IDmelon Pairing Tool</span> or use your <span style="font-weight:bold">IDmelon Reader</span> to log in to panel by your smartphone as your security key.<br><br>
         Click <span style="font-weight:bold">Login</span> to move to login page.<br><br>
-        For more information about <span style="font-weight:bold">IDmelon Pairing Tool</span> refer to <a href="//docs/pairingtool/ourparigintool/" style="font-size:16px;">this page</a>.<br><br>
-        For more information about <span style="font-weight:bold">IDmelon Reader</span> refer to <a href="//docs/readeguide/reader/" style="font-size:16px;">this page</a>.<br>
+        For more information about <span style="font-weight:bold">IDmelon Pairing Tool</span> refer to <a href="https://docs.idmelon.com/docs/pairingtool/ourparigintool/" style="font-size:16px;">this page</a>.<br><br>
+        For more information about <span style="font-weight:bold">IDmelon Reader</span> refer to <a href="https://docs.idmelon.com/docs/readeguide/reader/" style="font-size:16px;">this page</a>.<br>
         </p>
       </div>
     </div>

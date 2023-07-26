@@ -15,7 +15,7 @@ To set up your security key:
 
 For more information check [this article](https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys).
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
 
 <style>
 

@@ -21,7 +21,7 @@ To add a security key:
 
 5. Once you’ve successfully added a security key to your account, you can start using it when you log in.
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
 
 <style>
 

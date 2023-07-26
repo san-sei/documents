@@ -17,7 +17,7 @@ images: []
     - If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.
     - If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
 
 <style>
 

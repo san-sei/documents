@@ -23,7 +23,7 @@ If this is the initial setup, you will be prompted to generate backup codes. If 
 7. Click Download, Print, or Copy to save your backup codes in a secure location.
 8. Click **Next** to finish the configuration.
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
 
 <style>
 

@@ -20,7 +20,7 @@ Before adding a security key to your GitHub account, you must first enable 2FA v
     - If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.
 7. The **Security keys** section is updated with your security key information.
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="//pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
 
 <style>
 
