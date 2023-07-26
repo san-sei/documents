@@ -22,7 +22,7 @@ Shared Accounts are a special type of users in IDmelon Passwordless Orchestratio
 
 ## How to Create a Shared Account
 
-<p class="note-body"><span style="font-weight:bold;">Note: </span>The remainder of the document assumes that you have already added multiple users and contactless cards to your workspace. Please refer to <a href="https://docs.idmelon.com/docs/administration/enrollment/#contactless-card" style="font-size:16px;">this document</a> if you are unsure how to perform the aforementioned tasks.</p>
+<p class="note-body"><span style="font-weight:bold;">Note: </span>The remainder of the document assumes that you have already added multiple users and contactless cards to your workspace. Please refer to <a href="/docs/administration/enrollment/#contactless-card" style="font-size:16px;">this document</a> if you are unsure how to perform the aforementioned tasks.</p>
 
 <hr class="hr-line">
 
