@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-Shared Accounts are a special type of users in IDmelon Passwordless Orchestration Platform (IPOP). Shared Accounts enables administrators to be able to grant access to any Contactless Card registerd in the panel (from any user) to be able to use credentials of specific user (the Shared Account) for logins. This powerful feature enhances access control and satisfies a common use case described later in this user guide. Let's delve deeper into the details of Shared Accounts and discover how they can enhance your user management capabilities within IPOP.
+Shared Accounts are a special type of users in {{< params "IDmelon Passwordless Orchestration Platform" >}} ({{< params "IPOP" >}}). Shared Accounts enables administrators to be able to grant access to any Contactless Card registerd in the panel (from any user) to be able to use credentials of specific user (the Shared Account) for logins. This powerful feature enhances access control and satisfies a common use case described later in this user guide. Let's delve deeper into the details of Shared Accounts and discover how they can enhance your user management capabilities within {{< params "IPOP" >}}.
 
 ## How to Create a Shared Account
 
@@ -106,7 +106,7 @@ Shared Accounts are a special type of users in IDmelon Passwordless Orchestratio
 
 Following these simple steps you have successfully granted access to one or multiple contactless cards, allowing them to utilize the login credentials associated with the chosen user, thereby transforming the user into a Shared Account.
 
-On the same page, you will notice that under the _Device Access_ column, the added devices are now labeled as _Multiple Account_. This designation indicates that these devices are employed by more than one user/account within the IPOP. Conversely, devices exclusively owned by a single user/account are identified as _Single Account_. This classification enables convenient differentiation between devices utilized for multiple or singular purposes within the platform.
+On the same page, you will notice that under the _Device Access_ column, the added devices are now labeled as _Multiple Account_. This designation indicates that these devices are employed by more than one user/account within the {{< params "IPOP" >}}. Conversely, devices exclusively owned by a single user/account are identified as _Single Account_. This classification enables convenient differentiation between devices utilized for multiple or singular purposes within the platform.
 
 ### Actions on Security Keys
 
@@ -131,7 +131,7 @@ The following option only affects the shared account:
 
 When attempting to log in to Windows using a contactless card that is linked to multiple users/accounts, Windows will not prompt you to select a specific user/credential, instead choosing a user/credential on its own accord.
 
-To address this issue, you can employ policies to establish a default user/credential for Windows login. **The following section offers an illustrative example of associating a shared account with a computer through IPOP policies**.
+To address this issue, you can employ policies to establish a default user/credential for Windows login. **The following section offers an illustrative example of associating a shared account with a computer through {{< params "IPOP" >}} policies**.
 
 ## Associate a Shared Account with a Computer
 

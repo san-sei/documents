@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-<p>In this document you are going to set up <span class="code-back">IDmelon</span> as an external IdP to the <span class="code-back">Office</span>.</p>
+<p>In this document you are going to set up <span class="code-back">{{< params "IDmelon" >}}</span> as an external IdP to the <span class="code-back">Office</span>.</p>
 
 ## Execute these commands in the Windows Power Shell
 
@@ -30,7 +30,7 @@ toc: true
 
 <p>Get-MsolDomain</p>
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.</br>
+<p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.</br>
 If you are currently login here, you will see the replaced values instead.</p>
 
 <div>
@@ -267,7 +267,7 @@ Get-MsolUser -all | Select-Object UserprincipalName,objectID,ImmutableID
     <img src="/images/vendor/sso/office_token_02.png" class="doc-img-frame">
 </div>
 
-<p>Then you can see your API information, which you have Copy and send these informations to idmelon.</p>
+<p>Then you can see your API information, which you have Copy and send these informations to {{< params "IDmelon" >}}.</p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -339,4 +339,4 @@ Get-MsolUser -all | Select-Object UserprincipalName,objectID,ImmutableID
     <img src="/images/vendor/sso/office_token_05.png" class="doc-img-frame">
 </div>
 
-<p class="note-body"><span style="font-weight:bold;">Please send these infromation to idmelon, in order to get your users from office panel.</span></p>
+<p class="note-body"><span style="font-weight:bold;">Please send these infromation to {{< params "IDmelon" >}}, in order to get your users from office panel.</span></p>

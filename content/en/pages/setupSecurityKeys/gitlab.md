@@ -7,7 +7,7 @@ draft: false
 images: []
 ---
 
-You can find the steps to add your IDmelon Security key to your Gitlab account below:
+You can find the steps to add your {{< params "IDmelon" >}} Security key to your Gitlab account below:
 
 1. Access your **User settings**.
 2. Select **Account**.

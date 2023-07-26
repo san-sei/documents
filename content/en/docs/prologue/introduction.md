@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-description: "IDmelon app, which is designed and developed by IDmelon Technologies Inc., lets users use their smartphones as a FIDO2 hardware security key. In environments with either shared computers or single-user PCs, users can enjoy password-less login experience with only a single tap of their smartphones on IDmelon Reader or a single click on a push notification."
-lead: "The IDmelon FIDO Orchestration Platform helps organizations simply and quickly deploy secure passwordless authentication for their users. Features like Security Key as a Service, FIDO2 managed security keys, and fully automated FIDO2 lifecycle are patented and unique approaches that help organizations enhance their workforce authentication security overnight. No more dealing with purchase and distribution of hardware FIDO security keys as organizations can use whatever device their users have as a FIDO2 security key. It can be an Access Card, a Key FOB or a smartphone."
+description: "IDmelon app, which is designed and developed by {{< params "IDmelon Technologies" >}} Inc., lets users use their smartphones as a FIDO2 hardware security key. In environments with either shared computers or single-user PCs, users can enjoy password-less login experience with only a single tap of their smartphones on IDmelon Reader or a single click on a push notification."
+lead: "The {{< params "IDmelon" >}} FIDO Orchestration Platform helps organizations simply and quickly deploy secure passwordless authentication for their users. Features like Security Key as a Service, FIDO2 managed security keys, and fully automated FIDO2 lifecycle are patented and unique approaches that help organizations enhance their workforce authentication security overnight. No more dealing with purchase and distribution of hardware FIDO security keys as organizations can use whatever device their users have as a FIDO2 security key. It can be an Access Card, a Key FOB or a smartphone."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: true
@@ -22,7 +22,7 @@ toc: true
     <div class="intro-card" >
       <div class="card-body">
         <p style="font-weight: bold;" >Create a workspace</p>
-        <p>The IDmelon security key as a service solution can be managed from the IDmelon Admin Panel. You can enroll and activate users' security keys, grant, restrict and monitor their access, manage licenses, and more. The Admin Panel is available <a href="/docs/administration/introduction/">Here</a>. If it is your first try, you can create a workspace on behalf of your organization, or you can use your security key to experience a simple passwordless login.
+        <p>The IDmelon security key as a service solution can be managed from the {{< params "IDmelon Admin Panel" >}}. You can enroll and activate users' security keys, grant, restrict and monitor their access, manage licenses, and more. The Admin Panel is available <a href="/docs/administration/introduction/">Here</a>. If it is your first try, you can create a workspace on behalf of your organization, or you can use your security key to experience a simple passwordless login.
         </p>
         <p><a href="/docs/administration/createworkspace/">How to create a work space</a></p>
       </div>
@@ -117,7 +117,7 @@ management over hardware security keys by organizations, one strong point that m
 security keys within organizations. This ability reduces friction in implementing passwordless authentication in companies, systems, and also for individuals.
 IDmelon orchestration platform enables enterprises to:
 use smartphones or contactless cards (with any form factor such as HID access card, proximity, and RFID tags/badges) as a managed security key;
-frictionless authentication through Simple Sign-On for Single Sign-On (SSO for SSO);
+frictionless authentication through Simple Sign-On for Single Sign-On ({{< params "SSO for SSO" >}});
 drive down operational costs and reduce project implementation time;
 manage and monitor security keys;
 create security key policies to restrict users’ access to meet organization’s security needs.

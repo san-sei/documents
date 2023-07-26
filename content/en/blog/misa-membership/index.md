@@ -10,7 +10,7 @@ images: ["misa-membership.jpg"]
 contributors: [Mina Roohi]
 ---
 
-IDmelon Technologies Inc. has two major announcements to make. First and foremost, it is a great privilege to announce that IDmelon has joined MISA (Microsoft Intelligent Security Association), which allows them to work closely with the Microsoft teams and the leading security service providers working with Microsoft to enhance the security of their mutual customers. IDmelon is also announcing that they are promoting their FIDO2 smartphone-based passwordless authentication product, which is compatible with Windows and Microsoft Azure Active Directory (Azure AD).
+{{< params "IDmelon Technologies" >}} Inc. has two major announcements to make. First and foremost, it is a great privilege to announce that IDmelon has joined MISA (Microsoft Intelligent Security Association), which allows them to work closely with the Microsoft teams and the leading security service providers working with Microsoft to enhance the security of their mutual customers. IDmelon is also announcing that they are promoting their FIDO2 smartphone-based passwordless authentication product, which is compatible with Windows and Microsoft Azure Active Directory (Azure AD).
 
 “IDmelon is delighted and honoured to be nominated by the Microsoft Azure AD team to join MISA. IDmelon will remain committed to collaborating with Microsoft and cybersecurity industry leaders to offer customers advanced security solutions that are tailored exactly to their needs,” said Bahram Piri, Founder and CEO at IDmelon.
 

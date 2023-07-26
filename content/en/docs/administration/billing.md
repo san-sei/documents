@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-Every account at **IDmelon Panel** is allowed to have five security key devices for free, however, if there is a need to add more than five security keys to an **IDmelon Panel** a payment method should be added at [Payment Info](#payment-info). The [Status](#status) and [Payment History](#history) is also available at Billing tab on **IDmelon Panel** for administrators.
+Every account at **{{< params "IDmelon Panel" >}}** is allowed to have five security key devices for free, however, if there is a need to add more than five security keys to an **{{< params "IDmelon Panel" >}}** a payment method should be added at [Payment Info](#payment-info). The [Status](#status) and [Payment History](#history) is also available at Billing tab on **{{< params "IDmelon Panel" >}}** for administrators.
 
 ## Status
 
@@ -37,7 +37,7 @@ can be done to each invoice.
 
 <hr class="hr-line">
 
-When an administrator wants to add more than five security key devices to their **IDmelon Panel**, a payment method has to be added. In order to add a payment method, please follow the instructions bellow.
+When an administrator wants to add more than five security key devices to their **{{< params "IDmelon Panel" >}}**, a payment method has to be added. In order to add a payment method, please follow the instructions bellow.
 
 <div class="step-row-container">
   <div class="step-column bullet-container">

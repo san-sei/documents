@@ -21,11 +21,11 @@ display:
 </div>
 
 <p>Availability is an indicator for a consistent level of a service which is up and running and usable for its users for prolonged time periods. It can be considered the key indicator of overall service health. Highly available architectures typically through deploying redundant components aim to maximize service availability. Simply put, achieving high availability involves distributing compute resources and replicating data and balancing load between them.<br></br>
-Also, the scalability is the system's ability to handle varying amounts of work by adding or removing resources. The flexibility to adjust the capacity to meet demands and resources consumed by the service as a key business driver moved IDmelon to the Google cloud. Google cloud helps us maintain a good user experience during periods of high traffic by adding more resources.
+Also, the scalability is the system's ability to handle varying amounts of work by adding or removing resources. The flexibility to adjust the capacity to meet demands and resources consumed by the service as a key business driver moved {{< params "IDmelon" >}} to the Google cloud. Google cloud helps us maintain a good user experience during periods of high traffic by adding more resources.
 <div align="center">
     <img src="/images/vendor/Security/Security_7.png" class="doc-img-frame">
 </div>
-To increase availability and scalability of our services, we located them on Google Cloud Platform (GCP) and employed Google Cloud tools and services. As a result, IDmelon services work under GCP tools, services and built-in features. Google Cloud provides multiple features to help build scalable and efficient services which we use as follows:</p>
+To increase availability and scalability of our services, we located them on Google Cloud Platform (GCP) and employed Google Cloud tools and services. As a result, {{< params "IDmelon" >}} services work under GCP tools, services and built-in features. Google Cloud provides multiple features to help build scalable and efficient services which we use as follows:</p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -84,7 +84,7 @@ To increase availability and scalability of our services, we located them on Goo
 <hr class="hr-line">
 
 Google Cloud services are available in locations divided into regions and zones across the globe. How an organization deploys its service across these regions and zones affects the availability and latency of the service. Redundancy is the duplication of components of a service or system to increase the overall availability. In Google Cloud, redundancy is achieved by deploying the service in multiple zones or even regions which helps the service to better withstand any disruptions.<br></br>
-IDmelon using Compute Engine, distributes its service in four zones in four different regions. This way we can manage the instances as a logical unit.
+{{< params "IDmelon" >}} using Compute Engine, distributes its service in four zones in four different regions. This way we can manage the instances as a logical unit.
 
 ## Load-balance at each tier
 

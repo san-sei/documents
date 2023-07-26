@@ -1,7 +1,7 @@
 ---
 title: "Create your Workspace"
 description: "Administration Overview"
-lead: "IDmelon Admin Panel is a platform where you can manage users, activate users' security keys, instantly grant or restrict access, carefully monitor users' access, and do many more things."
+lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
@@ -18,11 +18,13 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-## Access the IDmelon Admin Panel
+{{< params "IDmelon Admin Panel" >}} is a platform where you can manage users, activate users' security keys, instantly grant or restrict access, carefully monitor users' access, and do many more things.
+
+## Access the {{< params "IDmelon Admin Panel" >}}
 
 <hr class="hr-line">
 
-<p>To access to the IDmelon Admin Panel, click <a href="https://panel.idmelon.com" style="font-size:16px;">here</a>.
+<p>To access to the {{< params "IDmelon" >}} Admin Panel, click <a href="https://panel.idmelon.com" style="font-size:16px;">here</a>.
 Present your security key to experience a frictionless login, or create a workspace on behalf of your organization if it is your first try.<p>
 
 <div align="center">
@@ -171,10 +173,10 @@ Present your security key to experience a frictionless login, or create a worksp
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Click next and either download <span style="font-weight:bold">IDmelon Pairing Tool</span> or use your <span style="font-weight:bold">IDmelon Reader</span> to log in to panel by your smartphone as your security key.<br><br>
+        <p>Click next and either download <span style="font-weight:bold">IDmelon Pairing Tool</span> or use your <span style="font-weight:bold">{{< params "IDmelon" >}} Reader</span> to log in to panel by your smartphone as your security key.<br><br>
         Click <span style="font-weight:bold">Login</span> to move to login page.<br><br>
         For more information about <span style="font-weight:bold">IDmelon Pairing Tool</span> refer to <a href="/docs/pairingtool/ourparigintool/" style="font-size:16px;">this page</a>.<br><br>
-        For more information about <span style="font-weight:bold">IDmelon Reader</span> refer to <a href="/docs/readeguide/reader/" style="font-size:16px;">this page</a>.<br>
+        For more information about <span style="font-weight:bold">{{< params "IDmelon" >}} Reader</span> refer to <a href="/docs/readeguide/reader/" style="font-size:16px;">this page</a>.<br>
         </p>
       </div>
     </div>

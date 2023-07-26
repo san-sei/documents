@@ -12,7 +12,7 @@ menu:
 weight: 60
 toc: true
 ---
-IDmelon Reader is a hardware technology designed and developed by IDmelon Technologies to let users use their smartphones as a security key.
+IDmelon Reader is a hardware technology designed and developed by {{< params "IDmelon Technologies" >}} to let users use their smartphones as a security key.
 As an example, users on a shared or personal computer can enjoy the passwordless login experience with a single tap with a smartphone on the reader.
 IDmelon Reader supports different modes of operation each of which has different capabilities and features. In this document and the following pages,
 we will describe how the reader works in different modes and how you can switch between these modes.

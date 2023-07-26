@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-<p>In this document you are going to set up <span class="code-back">IDmelon</span> as an external IdP to the <span class="code-back">Duo-user</span>.</p>
+<p>In this document you are going to set up <span class="code-back">{{< params "IDmelon" >}}</span> as an external IdP to the <span class="code-back">Duo-user</span>.</p>
 
 ## Login to  Duo administration panel
 
@@ -58,11 +58,11 @@ toc: true
     <img src="/images/vendor/sso/duo_user-sso.png" class="doc-img-frame">
 </div>
 
-## IDmelon SAML configuration
+## {{< params "IDmelon" >}} SAML configuration
 
 <hr class="hr-line">
 
-<p><span style="font-weight:bold">You should copy values of below fields from the Duo panel to the IDmelon Panel.</span></p>
+<p><span style="font-weight:bold">You should copy values of below fields from the Duo panel to the {{< params "IDmelon Panel" >}}.</span></p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -93,7 +93,7 @@ toc: true
 <div align="center">
     <img src="/images/vendor/sso/duo_user-sso1.png" class="doc-img-frame">
 </div>
-  
+
 ## Configure Duo Single Sign-On
 
 <hr class="hr-line">
@@ -112,7 +112,7 @@ toc: true
 </div>
 
 <div class="mx-3">
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
+<p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.<br>
 If you are currently login here, you will see the replaced values instead.</p>
 
 <div class="step-row-container">
@@ -297,10 +297,10 @@ If you are currently login here, you will see the replaced values instead.</p>
 
 <div align="center">
     <img src="/images/vendor/sso/duo_user-sso3.png" class="doc-img-frame">
-</div>  
+</div>
 
 <div class="mx-3">
-    <p><span style="font-weight:bold">Add Idmelon to Duo-user as passwordless and/or one Factor access</span></p>
+    <p><span style="font-weight:bold">Add {{< params "IDmelon" >}} to Duo-user as passwordless and/or one Factor access</span></p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -334,7 +334,7 @@ If you are currently login here, you will see the replaced values instead.</p>
 
 <div align="center">
     <img src="/images/vendor/sso/duo_user-sso5.png" class="doc-img-frame">
-</div>  
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -351,7 +351,7 @@ If you are currently login here, you will see the replaced values instead.</p>
 
 <div align="center">
     <img src="/images/vendor/sso/duo_user-sso6.png" class="doc-img-frame">
-</div>  
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -565,7 +565,7 @@ If you are currently login here, you will see the replaced values instead.</p>
 
 <div align="center">
     <img src="/images/vendor/sso/duo_user-sso8.png" class="doc-img-frame">
-</div>  
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">

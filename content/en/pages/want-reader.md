@@ -19,7 +19,7 @@ Here are the steps to take whenever you want to use your smartphone as a securit
 1. Tap your smartphone on the Reader.
 1. Say yes to the authentication request notification.
 
-We will help you learn how to add IDmelon security key to different platforms like Microsoft, Windows Login, Twitter, Dropbox and more.
+We will help you learn how to add {{< params "IDmelon" >}} security key to different platforms like Microsoft, Windows Login, Twitter, Dropbox and more.
 
 <a role="button" class="btn btn-primary btn-lg d-block mb-3" href="/pages/whichplatform/index.html">How to add key</a>
 

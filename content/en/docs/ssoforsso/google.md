@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-<p>In this document you are going to set up <span class="code-back">IDmelon</span> as an external IdP to the <span class="code-back">Google</span>.</p>
+<p>In this document you are going to set up <span class="code-back">{{< params "IDmelon" >}}</span> as an external IdP to the <span class="code-back">Google</span>.</p>
 
 ## Login to  Google administration panel
 
@@ -70,7 +70,7 @@ toc: true
   </div>
 </div>
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
+<p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.<br>
 If you are currently login here, you will see the replaced values instead.</p>
 
 <div class="step-row-container">
@@ -230,13 +230,13 @@ If you are currently login here, you will see the replaced values instead.</p>
     <img src="/images/vendor/sso/google_dashboard_05.png" class="doc-img-frame">
 </div>
 
-## IDmelon SAML configuration
+## {{< params "IDmelon" >}} SAML configuration
 
 <hr class="hr-line">
 
 <p>After completing previous <span class="code-back">Setup Google connection</span> section and submitting the form, you can see a new IdP added to your list.</p>
 
-<p>You should copy values of below fields from the <span class="code-back">SP details</span> Under the <span class="code-back">SAML SSO profile</span> to the <span class="code-back">IDmelon</span> Panel:</p>
+<p>You should copy values of below fields from the <span class="code-back">SP details</span> Under the <span class="code-back">SAML SSO profile</span> to the <span class="code-back">{{< params "IDmelon" >}}</span> Panel:</p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -313,7 +313,7 @@ If you are currently login here, you will see the replaced values instead.</p>
   </div>
 </div>
 
-<p>You can choose <span class="code-back">Users</span>, <span class="code-back">Groups</span>, <span class="code-back">Orgenisational units</span> in order to activate idmelon SSO.</p>
+<p>You can choose <span class="code-back">Users</span>, <span class="code-back">Groups</span>, <span class="code-back">Orgenisational units</span> in order to activate {{< params "IDmelon" >}} SSO.</p>
 
 <div align="center">
     <img src="/images/vendor/sso/google_dashboard_07.png" class="doc-img-frame">

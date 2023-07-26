@@ -118,7 +118,7 @@ display:
     <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <p class="faq-p">
-        With IDmelon, you don’t need to carry an extra physical object, i.e. a security key, around all the time. And in addition to unlimited storage capacity for credentials,
+        With {{< params "IDmelon" >}}, you don’t need to carry an extra physical object, i.e. a security key, around all the time. And in addition to unlimited storage capacity for credentials,
         credentials can be both managed and audited.<br>
         It also helps enterprises reduce deployment time and costs significantly, since there no longer exist the need for HR for security key purchase, distribution, replacement,
         and delivery.

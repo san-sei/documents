@@ -9,7 +9,7 @@ images: []
 
 We are happy to see you here! You have come to the right place!
 
-Please, take the following easy steps to turn your smartphone into a FIDO2 USB security key and enjoy your passwordless journey with IDmelon:
+Please, take the following easy steps to turn your smartphone into a FIDO2 USB security key and enjoy your passwordless journey with {{< params "IDmelon" >}}:
 
 {{< figure src="/images/vendor/arts/try-now-1.png" title="These 3 are all you need!" >}}
 

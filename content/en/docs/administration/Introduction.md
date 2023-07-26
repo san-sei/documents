@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 description: "Overall Description"
-lead: "The IDmelon Passwordless Platform helps organizations simply and quickly deploy secure passwordless authentication. Features like Security Key as a Service, managed security keys, and automated onboarding help organizations enhance their workforce authentication overnight. No more dealing with purchase and distribution of hardware security keys as organizations can use their existing devices such as Access Cards, Key FOBs or smartphones."
+lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
@@ -11,11 +11,8 @@ menu:
     parent: "administration"
 weight: 1
 toc: true
-display:
-  rfideas: false
-  idmelon: true
 ---
-
+The {{< params "IDmelon Passwordless Platform" >}} helps organizations simply and quickly deploy secure passwordless authentication. Features like Security Key as a Service, managed security keys, and automated onboarding help organizations enhance their workforce authentication overnight. No more dealing with purchase and distribution of hardware security keys as organizations can use their existing devices such as Access Cards, Key FOBs or smartphones.
 <div class="section-xxl">
 
 ## Create a Workspace
@@ -28,7 +25,7 @@ display:
       </div>
       <div class="card-body">
         <!--<p style="font-weight: bold;" >Create a workspace</p>-->
-        <p>The IDmelon Security Key as a Service solution can be managed from the IDmelon Admin Panel. You can enroll and activate users' security keys, grant, restrict and monitor their access, and more. If it is your first try, create a workspace on behalf of your organization.
+        <p>The {{< params "IDmelon" >}} Security Key as a Service solution can be managed from the {{< params "IDmelon Admin Panel" >}}. You can enroll and activate users' security keys, grant, restrict and monitor their access, and more. If it is your first try, create a workspace on behalf of your organization.
         </p>
         <p><a href="/docs/administration/createworkspace/">How to create a workspace</a></p>
       </div>

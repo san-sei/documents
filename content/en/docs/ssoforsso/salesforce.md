@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-In this document you are going to set up ``IDmelon`` as an external IdP to the ``Salesforce``.
+In this document you are going to set up ``{{< params "IDmelon" >}}`` as an external IdP to the ``Salesforce``.
 
 ## Login to  Salesforce administration panel
 
@@ -83,7 +83,7 @@ To configure SAML 2.0 IdP, fill the values of settings as below.
   </div>
 </div>
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
+<p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.<br>
 If you are currently login here, you will see the replaced values instead.</p>
 
 <div class="step-row-container">
@@ -265,7 +265,7 @@ If you are currently login here, you will see the replaced values instead.</p>
 
 After completing previous ``SAML Single Sign-On Settings`` section and submitting the form, you can see a new IdP added to your list.
 
-You should upload **``metadata``** file from this **Salesforce panel** to **IDmelon Panel**.
+You should upload **``metadata``** file from this **Salesforce panel** to **{{< params "IDmelon Panel" >}}**.
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -280,7 +280,7 @@ You should upload **``metadata``** file from this **Salesforce panel** to **IDme
   </div>
 </div>
 
-You should copy values of below fields from the ``Salesforce`` panel to the ``IDmelon`` Panel:
+You should copy values of below fields from the ``Salesforce`` panel to the ``{{< params "IDmelon" >}}`` Panel:
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -337,7 +337,7 @@ You should copy values of below fields from the ``Salesforce`` panel to the ``ID
     <img src="/images/vendor/sso/salesforce_dashboard_05.png" class="doc-img-frame">
 </div>
 
-## Add IDmelon to Salesforce Login Panel
+## Add {{< params "IDmelon" >}} to Salesforce Login Panel
 
 In the ``Salesforce administration panel``, from the side menu, navigate to the ``Company Settings`` menu, then Click ``My Domain``.
 

@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-<p>In this document you are going to set up <span class="code-back">IDmelon</span> as an external IdP to the <span class="code-back">AWS</span>.</p>
+<p>In this document you are going to set up <span class="code-back">{{< params "IDmelon" >}}</span> as an external IdP to the <span class="code-back">AWS</span>.</p>
 
 ### Login to  AWS administration panel
 
@@ -180,7 +180,7 @@ toc: true
 </div>
 
 <div class="mx-3">
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
+<p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.<br>
 If you are currently login here, you will see the replaced values instead.
 </p>
 </div>
@@ -421,7 +421,7 @@ If you are currently login here, you will see the replaced values instead.
   </div>
 </div>
 
-## IDmelon SAML configuration
+## {{< params "IDmelon" >}} SAML configuration
 
 <hr class="hr-line">
 
@@ -432,7 +432,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">You should copy values of below fields from the AWS panel to the IDmelon Panel</span>.</p>
+        <p><span style="font-weight:bold">You should copy values of below fields from the AWS panel to the {{< params "IDmelon Panel" >}}</span>.</p>
       </div>
     </div>
   </div>

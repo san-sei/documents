@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-<p>In this document you are going to set up <span class="code-back">IDmelon</span> as an external IdP to the <span class="code-back">CyberArk</span>.</p>
+<p>In this document you are going to set up <span class="code-back">{{< params "IDmelon" >}}</span> as an external IdP to the <span class="code-back">CyberArk</span>.</p>
 
 ### Login to  CyberArk administration panel
 
@@ -63,7 +63,7 @@ toc: true
   </div>
 </div>
 
-<p>Activate the <span class="code-back">Active</span> button to redirect your users to IDmelon.</p>
+<p>Activate the <span class="code-back">Active</span> button to redirect your users to {{< params "IDmelon" >}}.</p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -114,9 +114,9 @@ toc: true
 
 <p><span class="code-back" style="font-weight:bold">Then Click Inbound Metadata option</span></p>
 
-<p>There are several Options which IDmelon supports all of them,But IDmelon recommends to <span class="code-back">Upload IdP configuration from URL</span>.</p>
+<p>There are several Options which {{< params "IDmelon" >}} supports all of them,But {{< params "IDmelon" >}} recommends to <span class="code-back">Upload IdP configuration from URL</span>.</p>
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
+<p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.<br>
 If you are currently login here, you will see the replaced values instead.
 </p>
 
@@ -139,7 +139,7 @@ If you are currently login here, you will see the replaced values instead.
 
 <p><span class="code-back" style="font-weight:bold">Then Click Outbound Metadata option</span><p>
 
-## IDmelon SAML configuration
+## {{< params "IDmelon" >}} SAML configuration
 
 <hr class="hr-line">
 
@@ -150,7 +150,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>You should Download <span class="code-back" style="font-weight:bold">metadata</span> file and <span class="code-back" style="font-weight:bold">copy values</span> of below fields from this <span style="font-weight:bold">CyberArk panel</span> to <span style="font-weight:bold">IDmelon Panel</span></p>
+        <p>You should Download <span class="code-back" style="font-weight:bold">metadata</span> file and <span class="code-back" style="font-weight:bold">copy values</span> of below fields from this <span style="font-weight:bold">CyberArk panel</span> to <span style="font-weight:bold">{{< params "IDmelon Panel" >}}</span></p>
       </div>
     </div>
   </div>
@@ -220,7 +220,7 @@ If you are currently login here, you will see the replaced values instead.
     <div class="step-text" >
       <div class="card-body">
         <p>My company Domain is https://aas4313.id.cyberark.cloud/ so my company subdomain which CyberArk provided will be :<br>
-        <span style="font-weight:bold">abl4313</span> so my entity id will be <span class="code-back" style="font-weight:bold">Example :</span> <span class="code-back">CN=CyberArk:Customer:ABlL4313</span> .  
+        <span style="font-weight:bold">abl4313</span> so my entity id will be <span class="code-back" style="font-weight:bold">Example :</span> <span class="code-back">CN=CyberArk:Customer:ABlL4313</span> .
         </p>
       </div>
     </div>
@@ -234,7 +234,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>You should copy values of below fields from this <span style="font-weight:bold">CyberArk panel</span> to <span style="font-weight:bold">IDmelon Panel</span>.  
+        <p>You should copy values of below fields from this <span style="font-weight:bold">CyberArk panel</span> to <span style="font-weight:bold">{{< params "IDmelon Panel" >}}</span>.
         </p>
       </div>
     </div>
@@ -246,7 +246,7 @@ If you are currently login here, you will see the replaced values instead.
 
 <p><span class="code-back" style="font-weight:bold">Then Click Authentication option</span></p>
 
-<p>In order to map IDmelon and CyberArk users, Choose Optional in the <span class="code-back">Map federated user to existing directory use</span>.</p>
+<p>In order to map {{< params "IDmelon" >}} and CyberArk users, Choose Optional in the <span class="code-back">Map federated user to existing directory use</span>.</p>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -350,7 +350,7 @@ If you are currently login here, you will see the replaced values instead.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold">map users for sso</span> : if you want to use another suffix domain which does not exist in CyberArk but the user information exist in idmelon you have to <span style="font-weight:bold">uncheck</span> <span class="code-back" style="font-weight:bold">Keep Login Suffix and Mapped Suffix the same</span> and <span style="font-weight:bold">Choose</span> <span class="code-back" style="font-weight:bold">your custom userdomain</span>: Example : <span style="font-weight:bold">username@idmelon.me</span></p>
+        <p><span style="font-weight:bold">map users for sso</span> : if you want to use another suffix domain which does not exist in CyberArk but the user information exist in idmelon you have to <span style="font-weight:bold">uncheck</span> <span class="code-back" style="font-weight:bold">Keep Login Suffix and Mapped Suffix the same</span> and <span style="font-weight:bold">Choose</span> <span class="code-back" style="font-weight:bold">your custom userdomain</span>: Example : <span style="font-weight:bold">username@{{< params "IDmelon" >}}.me</span></p>
       </div>
     </div>
   </div>

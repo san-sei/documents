@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-In this document you are going to set up ``IDmelon`` as an external IdP to the ``Okta``.
+In this document you are going to set up ``{{< params "IDmelon" >}}`` as an external IdP to the ``Okta``.
 
 ## Login to  Okta administration panel
 
@@ -115,7 +115,7 @@ In the ``Authentication Settings`` section:
 
 In the ``SAML Protocol Settings`` section:
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
+<p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.<br>
 If you are currently login here, you will see the replaced values instead.</p>
 
 <div class="step-row-container">
@@ -176,7 +176,7 @@ If you are currently login here, you will see the replaced values instead.</p>
 
 In the continuation of ``SAML Protocol Settings`` section:
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
+<p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.<br>
 If you are currently login here, you will see the replaced values instead.</p>
 
 <div class="step-row-container">
@@ -346,7 +346,7 @@ Then configs are:
 
 Activate your new idp rule by clicking on ``Active`` button.
 
-## IDmelon SAML configuration
+## {{< params "IDmelon" >}} SAML configuration
 
 <hr class="hr-line">
 
@@ -354,7 +354,7 @@ After completing previous ``Setup Okta connection`` section and submitting the f
 
 Expand the details by clicking on the small arrow left to the added record on the list.
 
-You should copy values of below fields from the ``Okta`` panel to the ``IDmelon`` Panel:
+You should copy values of below fields from the ``Okta`` panel to the ``{{< params "IDmelon" >}}`` Panel:
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -467,7 +467,7 @@ And then copy The value of created API token.
     <img src="/images/vendor/sso/okta_api_03.png" class="doc-img-frame">
 </div>
 
-<p class="note-body"><span style="font-weight:bold;">Note :</span> please paste this option to Idmelon okta Integration on <span class="code-back">Check Connection</span> field.<br></p>
+<p class="note-body"><span style="font-weight:bold;">Note :</span> please paste this option to {{< params "IDmelon" >}} okta Integration on <span class="code-back">Check Connection</span> field.<br></p>
 
 The created ``Token`` will be shown in the token list.
 

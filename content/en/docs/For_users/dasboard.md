@@ -42,7 +42,7 @@ By default, there is just Microsoft added to users' panel.
 
 <hr class="hr-line">
 
-When you log in to your IDmelon panel, you can see your username on the top right of the panel with a small arrow pointing down.
+When you log in to your {{< params "IDmelon Panel" >}}, you can see your username on the top right of the panel with a small arrow pointing down.
 If you click on the arrow or your username, a **Dropdown** menu will be opened with 3 options. The first option is **Security**,
 the second is **Profile Info**, and the third is **Logout**.
 

@@ -70,7 +70,7 @@ toc: true
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>When an IDmelon administrator tries to import users from Azure AD for the first time, they will be asked to log in to Azure to grant necessary permissions. The admin who is doing so cannot provision themself in IDmelon, as Azure prevents this action. For example, if <a style="font-size:16px;">michael@sunstore.ca</a> is used to import users from Azure AD, this user can't be provisioned from IDmelon Panel.</p>
+        <p>When an {{< params "IDmelon" >}} administrator tries to import users from Azure AD for the first time, they will be asked to log in to Azure to grant necessary permissions. The admin who is doing so cannot provision themself in {{< params "IDmelon" >}}, as Azure prevents this action. For example, if <a style="font-size:16px;">michael@sunstore.ca</a> is used to import users from Azure AD, this user can't be provisioned from {{< params "IDmelon Panel" >}}.</p>
       </div>
     </div>
   </div>
@@ -83,7 +83,7 @@ toc: true
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>The target user should be assigned a passkey security key, but it is not necessary to be activated in IDmelon Admin Panel.</p>
+        <p>The target user should be assigned a passkey security key, but it is not necessary to be activated in {{< params "IDmelon Admin Panel" >}}.</p>
       </div>
     </div>
   </div>

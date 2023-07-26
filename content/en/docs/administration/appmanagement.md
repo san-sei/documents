@@ -19,11 +19,11 @@ toc: true
 </div>
 
 Simple sign-on (SSO) is an authentication approach that grants users secure authentication with multiple applications and websites by using just one set of credentials (ID).
-SSO works based upon a trust relationship set up between an application, known as the service provider (SP), and an identity provider (IDP). IDmelon admin panel also
-provides the same services to its users. It operates as an IDP to provide passwordless authentication experiance for users. IDmelon SSO integration can be done through
-services that support **SCIM (System for Cross-Domain Identity Management)**, some of them are directly supported by IDmelon and can be added automatically ,besides ,IDmelon
-provides manual SSO integration. IDmelon uses **SAML (Security Assertion Markup Language)** for SSO integration. The services that are currently supported directly by
-IDmelon are : Azure AD, Pingidentity, Duo, Okta, Onelogin, Cyberark, Google Workspace.
+SSO works based upon a trust relationship set up between an application, known as the service provider (SP), and an identity provider (IDP). {{< params "IDmelon Admin Panel" >}} also
+provides the same services to its users. It operates as an IDP to provide passwordless authentication experiance for users. {{< params "IDmelon" >}} SSO integration can be done through
+services that support **SCIM (System for Cross-Domain Identity Management)**, some of them are directly supported by {{< params "IDmelon" >}} and can be added automatically ,besides ,{{< params "IDmelon" >}}
+provides manual SSO integration. {{< params "IDmelon" >}} uses **SAML (Security Assertion Markup Language)** for SSO integration. The services that are currently supported directly by
+{{< params "IDmelon" >}} are : Azure AD, Pingidentity, Duo, Okta, Onelogin, Cyberark, Google Workspace.
 
 ## Service Provider (SP)
 
@@ -42,8 +42,8 @@ from the IdP. This flow would typically be initiated by a login button within th
 An identity provider (IdP) is a service that stores and manages digital identities. Companies use these services to allow their employees or users to connect with the
 resources they need. They provide a way to manage access, adding or removing privileges, while security remains tight. Identity Provider (IdP) initiated SSO involves the
 user clicking on a button in the IdP, and then being forwarded to an SP along with a SAML message containing an assertion. This flow would typically be initiated by a page
-within the IdP that shows a list of all available SPs that a user can log into. IDmelon operates as a secure and trustworthy identity provider as it uses SAML and SCIM
-Adminstrators can use this feature to login to different services that they need with a single IDmelon security key besides, giving opportunity to their emplyees to
+within the IdP that shows a list of all available SPs that a user can log into. {{< params "IDmelon" >}} operates as a secure and trustworthy identity provider as it uses SAML and SCIM
+Adminstrators can use this feature to login to different services that they need with a single {{< params "IDmelon" >}} security key besides, giving opportunity to their emplyees to
 experiance passwordless authentication to services that they need.
 
 ## SCIM
@@ -68,10 +68,10 @@ used by service providers but it’s vital to note that for this approach to wor
 
 <hr class="hr-line">
 
-Adminstrators can **integrate with a new identity provider** using IDmelon administration panel in multiple ways that are provided
-by IDmelon. They can add SSO configuration manually or automatically. In case of automatic SSO configuration, we will show
-administrators a guide on how to configurate, however, **it has to be noted that automatic SSO configuration, can only be done for services which are suported by IDmelon**.If they choose manual configuration, they have to visit the SP's documents to be
-guided besides here in IDmelon administration panel, they will be shown a panel for posting SSO configuration.
+Adminstrators can **integrate with a new identity provider** using {{< params "IDmelon" >}} administration panel in multiple ways that are provided
+by {{< params "IDmelon" >}}. They can add SSO configuration manually or automatically. In case of automatic SSO configuration, we will show
+administrators a guide on how to configurate, however, **it has to be noted that automatic SSO configuration, can only be done for services which are suported by {{< params "IDmelon" >}}**.If they choose manual configuration, they have to visit the SP's documents to be
+guided besides here in {{< params "IDmelon" >}} administration panel, they will be shown a panel for posting SSO configuration.
 The purpose of this doc is to help administrators to have an overview of Integration process.
 This process can be started by simply clicking on **Integrate with a New App**.
 

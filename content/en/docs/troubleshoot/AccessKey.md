@@ -16,7 +16,7 @@ display:
   idmelon: true
 ---
 
-## Check Reader Driver Status
+## Check {{< params "Reader Driver" >}} Status
 
 Run the command below in Command Prompt to see the status:
 
@@ -41,12 +41,12 @@ In the table below we have listed all known errors and resolutions to tackle the
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Reader Driver Service is not running</td>
+    <td class="tg-0pky">{{< params "Reader Driver" >}} Service is not running</td>
     <td class="tg-0pky">Try to run <span style="color:#905;background-color:#ddd">`Accesskeycli restart`</span> in CMD and then check the status with above command again.</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Reader Driver Service is not running (Status Code = “Unavailable”)</td>
-    <td class="tg-0pky">This is probably a networking issue, and you need to make sure the security endpoint manager or firewall is not blocking the applications, domain, and IP Address that IDmelon service and application uses:</br>
+    <td class="tg-0pky">{{< params "Reader Driver" >}} Service is not running (Status Code = “Unavailable”)</td>
+    <td class="tg-0pky">This is probably a networking issue, and you need to make sure the security endpoint manager or firewall is not blocking the applications, domain, and IP Address that {{< params "IDmelon" >}} service and application uses:</br>
     - AccessKeyService service with URL C:\Program Files (x86)\IDmelon\Accesskey\Service.exe</br>
     - https://authnapi.idmelon.com
     </td>
@@ -56,7 +56,7 @@ In the table below we have listed all known errors and resolutions to tackle the
 
 ## Network Requirements
 
-RFIDEAS Reader driver needs to be installed on every computer device to read the users' RFID/NFC badges data and communicate through the network with the ConvergeID server. To ensure smooth operation and communication between the RFIDEAS Reader driver and the ConvergeID server, minimal networking requirements need to be met on client computers. The ConvergeID software relies on standard network protocols and commonly used ports to function correctly. The ConvergeID application requires the ability to establish HTTP connections over ports 443 and 80.
+RFIDEAS {{< params "Reader Driver" >}} needs to be installed on every computer device to read the users' RFID/NFC badges data and communicate through the network with the ConvergeID server. To ensure smooth operation and communication between the RFIDEAS Reader driver and the ConvergeID server, minimal networking requirements need to be met on client computers. The ConvergeID software relies on standard network protocols and commonly used ports to function correctly. The ConvergeID application requires the ability to establish HTTP connections over ports 443 and 80.
 
 <div align="center">
     <img src="/images/vendor/Troubleshoot/AccesskeyCliConverge.png" class="doc-img-frame">
@@ -85,13 +85,13 @@ Follow the instructions below only in cases where your firewall is blocking HTTP
 
 ### Check Manual Proxy Setup
 
-If the manual proxy is turned on in the system settings to the route below, turn it off or put IDmelon IP addresses in its whitelist.
+If the manual proxy is turned on in the system settings to the route below, turn it off or put {{< params "IDmelon" >}} IP addresses in its whitelist.
 
 <div align="center">
     <img src="/images/vendor/Troubleshoot/ProxySetting.png" class="doc-img-frame">
 </div>
 
-## IDmelon Reader Driver IP Addresses
+## IDmelon {{< params "Reader Driver" >}} IP Addresses
 
 The list of IPs to which the system must have access is given in the table below.
 

@@ -11,7 +11,7 @@ images: []
 <img src="/images/vendor/arts/ptdl.png" class='d-block m-auto mb-6' width="150">
 </div>
 
-<P>First download and install IDmelon Pairing Tool on your PC.</p>
+<P>First download and install {{< params "IDmelon" >}} Pairing Tool on your PC.</p>
 <p>You can download it from the path below:<br>
 idmelon.com >> Support >> Downloads</p><br>
 

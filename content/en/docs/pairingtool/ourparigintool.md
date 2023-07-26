@@ -1,6 +1,6 @@
 ---
 title: "What is Pairing Tool ?"
-description: "IDmelon Pairing Tool is a software technology designed and developed by IDmelon Technologies Inc. to let users pair their smartphones with their PCs and use their smartphones as a security key. It is really best suited for environments with single-user PCs so that users can enjoy the passwordless login experiance with a single touch on a push notification on their smartphones."
+description: "IDmelon Pairing Tool is a software technology designed and developed by IDmelon Inc. to let users pair their smartphones with their PCs and use their smartphones as a security key. It is really best suited for environments with single-user PCs so that users can enjoy the passwordless login experiance with a single touch on a push notification on their smartphones."
 lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00

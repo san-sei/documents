@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-In this document you are going to set up ``IDmelon`` as an external IdP to the ``OneLogin``.
+In this document you are going to set up ``{{< params "IDmelon" >}}`` as an external IdP to the ``OneLogin``.
 
 ## Login to  OneLogin administration panel
 
@@ -147,16 +147,16 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p><span style="font-weight:bold;">IDmelon Logo Domain :</span></p>
+        <p><span style="font-weight:bold;">{{< params "IDmelon" >}} Logo Domain :</span></p>
         <div align="center">
-            <img src="https://idmelon.com/wp-content/uploads/2020/05/IDmelon-Logo-213x60-1-e1629841318864.png" class="doc-img-frame">
+            <img src="https://idmelon.com/wp-content/uploads/2020/05/{{< params "{{< params "IDmelon" >}}" >}}-Logo-213x60-1-e1629841318864.png" class="doc-img-frame">
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
+<p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.<br>
 If you are currently login here, you will see the replaced values instead.</p>
 
 <div class="step-row-container">
@@ -271,7 +271,7 @@ If you are currently login here, you will see the replaced values instead.</p>
     <img src="/images/vendor/sso/onelogin_sso3.png" class="doc-img-frame">
 </div>
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
+<p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.<br>
 If you are currently login here, you will see the replaced values instead.</p>
 
 <div class="step-row-container">
@@ -315,11 +315,11 @@ If you are currently login here, you will see the replaced values instead.</p>
 
 <p class="note-body"><span style="font-weight:bold;">Note :</span> please save the configuration then scroll it to continue with certificate part.</p>
 
-## IDmelon SAML configuration
+## {{< params "IDmelon" >}} SAML configuration
 
 <hr class="hr-line">
 
-You should copy values of below fields from the Okta panel to the IDmelon Panel:
+You should copy values of below fields from the Okta panel to the {{< params "IDmelon Panel" >}}:
 
 <div class="step-row-container">
   <div class="step-column bullet-container">

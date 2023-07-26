@@ -54,7 +54,7 @@ You can import devices connected to Azure Active Directory (AD) into the adminis
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p style="margin-bottom: 0">Then you will be redirected to your IDmelon panel, and you can see the added devices.</p>
+        <p style="margin-bottom: 0">Then you will be redirected to your {{< params "IDmelon Panel" >}}, and you can see the added devices.</p>
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 ---
 title: "Individual Panel"
 description: "This page is for personal users of IDmelon, they can learn how to use IDmelon for personal purposes."
-lead: "IDmelon not only provides services for business users but also provides services for Personal Users. This page includes information for people who want to use IDmelon for their perosnal purposes."
+lead: ""
 date: 2020-11-16T13:59:39+01:00
 lastmod: 2023-02-22T13:59:39+01:00
 draft: false
@@ -17,16 +17,16 @@ toc: true
   <span class="close">&times;</span>
   <img class="modal-content" id="img01">
 </div>
-
-<p>All IDmelon perosnal users have an individual panel at IDmelon which they can access through <a href="https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6" style="font-size:16px;" target="_blank">this link</a>.</p>
+{{< params "IDmelon" >}} not only provides services for business users but also provides services for Personal Users. This page includes information for people who want to use {{< params "IDmelon" >}} for their perosnal purposes.
+<p>All {{< params "IDmelon" >}} perosnal users have an individual panel at {{< params "IDmelon" >}} which they can access through <a href="https://login.idmelon.com/?sp=panel.{{< params "IDmelon" >}}.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6" style="font-size:16px;" target="_blank">this link</a>.</p>
 
 ## Create Personal Account
 
 <hr class="hr-line">
 
 <p>
-If users already have an IDmelon account on their smartphone they can login to their panel by opening <a href="https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6" style="font-size:16px;" target="_blank">this link</a> and clicking on <span style="font-weight:bold;">Sign in with a security key</span> tapping on their IDmelon Mobile App Security Key.<br>
-To create a personal account users have two ways, the first way is through <span style="font-weight:bold;">a smartphone</span> and the second way is through <span style="font-weight:bold;">IDmelon Website</span>.<br>
+If users already have an {{< params "IDmelon" >}} account on their smartphone they can login to their panel by opening <a href="https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6" style="font-size:16px;" target="_blank">this link</a> and clicking on <span style="font-weight:bold;">Sign in with a security key</span> tapping on their {{< params "IDmelon" >}} Mobile App Security Key.<br>
+To create a personal account users have two ways, the first way is through <span style="font-weight:bold;">a smartphone</span> and the second way is through <span style="font-weight:bold;">{{< params "IDmelon Website" >}}</span>.<br>
 </p>
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -35,7 +35,7 @@ To create a personal account users have two ways, the first way is through <span
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>To create an IDmelon account by <span style="font-weight:bold;">a smartphone</span>, please visit <a href="/docs/mobileapp/use_app/#psersonal-users" style="font-size:16px;font-wieght:bold;" target="_blank">Mobile App Guide</a> page.</p>
+        <p>To create an {{< params "IDmelon" >}} account by <span style="font-weight:bold;">a smartphone</span>, please visit <a href="/docs/mobileapp/use_app/#psersonal-users" style="font-size:16px;font-wieght:bold;" target="_blank">Mobile App Guide</a> page.</p>
       </div>
     </div>
   </div>
@@ -47,7 +47,7 @@ To create a personal account users have two ways, the first way is through <span
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>To create an IDmelon account in <span style="font-weight:bold;">IDmelon Website</span>, please reade the following instructoins.</p>
+        <p>To create an {{< params "IDmelon" >}} account in <span style="font-weight:bold;">{{< params "{{< params "IDmelon" >}} Website" >}}</span>, please reade the following instructoins.</p>
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@ To create a personal account users have two ways, the first way is through <span
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>First open <a href="https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6" style="font-size:16px;" target="_blank">IDmelon Panel's Login</a> page and click on <span style="font-weight:bold;">Create one!</span></p>
+        <p>First open <a href="https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6" style="font-size:16px;" target="_blank">{{< params "IDmelon Panel" >}}'s Login</a> page and click on <span style="font-weight:bold;">Create one!</span></p>
       </div>
     </div>
   </div>
@@ -165,7 +165,7 @@ As you can see in this page, by clicking on **Send an Activation Email** you wil
 
 <hr class="hr-line">
 
-When you log in to your IDmelon panel, you can see your username on the top right of the panel alongside a blue box and a small arrow pointing down. If you click on the box or arrow or your username, a Dropdown menu will be opened with 3 options. The first option is **Security**, the second is **Profile Info**, and the third is **Logout**.
+When you log in to your {{< params "IDmelon Panel" >}}, you can see your username on the top right of the panel alongside a blue box and a small arrow pointing down. If you click on the box or arrow or your username, a Dropdown menu will be opened with 3 options. The first option is **Security**, the second is **Profile Info**, and the third is **Logout**.
 
 ### Security
 

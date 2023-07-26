@@ -143,7 +143,7 @@ In third step, turn the toggle on to have 3 options to assign a security key, in
 </div>
 
 <p class="note-body">
-<span style="font-weight:bold;">Note </span>:In both cases, make sure you have installed the reader driver on your PC or end-user’s PC. You can download it from <a href="https://idmelon.com/docs/downloads" style="font-size:16px;">here</a>.
+<span style="font-weight:bold;">Note </span>:In both cases, make sure you have installed the {{< params "Reader Driver" >}} on your PC or end-user’s PC. You can download it from <a href="https://idmelon.com/docs/downloads" style="font-size:16px;">here</a>.
 </p>
 
 <div class="step-row-container">

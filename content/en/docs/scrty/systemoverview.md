@@ -1,7 +1,7 @@
 ---
 title: "System Overview"
 description: ""
-lead: "This section will provide an overview of the system, the components that make up the system, and the key components for IT managers. It worth mentioning that the system is designed to be intuitive and user-friendly and can be tailored for any business with any size. IDmelon is built on a robust and scalable cloud infrastructure, using the latest security standards and technologies (such as Google HSM) to ensure the highest levels of data protection and privacy. IDmelon offers a wide range of services and integrations, including single sign-on, Azure AD integration, user management, and access control as well as its main service that enables FIDO in many environments; whether it is on-premise or cloud based. It is also designed to be highly scalable and customizable for enterprise organizations, allowing us to easily adapt it to their infrastructure and environments needs."
+lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
@@ -16,12 +16,12 @@ toc: true
   <span class="close">&times;</span>
   <img class="modal-content" id="img01">
 </div>
-
+This section will provide an overview of the system, the components that make up the system, and the key components for IT managers. It worth mentioning that the system is designed to be intuitive and user-friendly and can be tailored for any business with any size. {{< params "IDmelon" >}} is built on a robust and scalable cloud infrastructure, using the latest security standards and technologies (such as Google HSM) to ensure the highest levels of data protection and privacy. {{< params "IDmelon" >}} offers a wide range of services and integrations, including single sign-on, Azure AD integration, user management, and access control as well as its main service that enables FIDO in many environments; whether it is on-premise or cloud based. It is also designed to be highly scalable and customizable for enterprise organizations, allowing us to easily adapt it to their infrastructure and environments needs.
 ## Abstracted System Overview
 
 <hr class="hr-line">
 
-<p>This abstracted system architecture overview outlines the components and services used to build and run IDmelon Passwordless Orchestration Platform (IPOP) on Google Cloud Platform (GCP). It explains how the components interact with each other to provide the application’s functionalities. It also provides an overview of how the application is deployed and configured on the Cloud.<p>
+<p>This abstracted system architecture overview outlines the components and services used to build and run {{< params "IDmelon Passwordless Orchestration Platform" >}} ({{< params "IPOP" >}}) on Google Cloud Platform (GCP). It explains how the components interact with each other to provide the application’s functionalities. It also provides an overview of how the application is deployed and configured on the Cloud.<p>
 
 <div align="center">
     <img src="/images/vendor/Security/Security_5.png" class="doc-img-frame">
@@ -32,7 +32,7 @@ toc: true
 <hr class="hr-line">
 
 <p>
-IPOP has a comprehensive security strategy that provides confidentiality, integrity, and availability; all designed by our security experts. <br></br>
+{{< params "IPOP" >}} has a comprehensive security strategy that provides confidentiality, integrity, and availability; all designed by our security experts. <br></br>
 On the layer of data security, we address latest security measures. Credentials are stored encrypted or in Google Hardware Security Module (HSM) and keys are securely managed by Google Secret Manager to ensure latest security measures are always applied. <br></br>
 Concerning data transfer, we have made sure to implement best practices such as input validations, TLS, Cloudflare protections, data encryption, CORS, sanitization, and many more.
 </p>
@@ -111,4 +111,4 @@ To sync groups, users, and devices with Microsoft Azure Active Directory, we saf
 
 <hr class="hr-line">
 
-<p>IDmelon leverages automation CI/CD and GCP tools to ensure that all components are updated in a coordinated and timely manner. To ensure that the system remains stable during the upgrade process, we will use backup and rollback strategies to ensure that any unexpected issues can be quickly addressed. Additionally, our rolling release strategy ensures that users always receive the latest updates as quickly as possible. Finally, we use monitoring tools to ensure that the system is performing as expected and that any potential problems are quickly identified and addressed.</p>
+<p>{{< params "IDmelon" >}} leverages automation CI/CD and GCP tools to ensure that all components are updated in a coordinated and timely manner. To ensure that the system remains stable during the upgrade process, we will use backup and rollback strategies to ensure that any unexpected issues can be quickly addressed. Additionally, our rolling release strategy ensures that users always receive the latest updates as quickly as possible. Finally, we use monitoring tools to ensure that the system is performing as expected and that any potential problems are quickly identified and addressed.</p>

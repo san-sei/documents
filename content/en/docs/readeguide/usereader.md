@@ -108,7 +108,7 @@ How the switching works:
   <div class="card-column">
     <div class="step-text">
       <div class="card-body">
-        <p>If the LED blinks Blue, it means the device is ready to switch to <span style="font-weight:bold;">reader mode</span> or <span style="font-weight:bold;">paired mode</span>. You can switch to <span style="font-weight:bold;">paired mode</span> if you have <span style="font-weight:bold;">IDmelon Key</span> app installed on your smartphone. Ot herwise, the reader automatically switches to <span style="font-weight:bold;">reader mode</span>. It starts blinking Blue for about 15 seconds until it blinks white once at the end.</p>
+        <p>If the LED blinks Blue, it means the device is ready to switch to <span style="font-weight:bold;">reader mode</span> or <span style="font-weight:bold;">paired mode</span>. You can switch to <span style="font-weight:bold;">paired mode</span> if you have <span style="font-weight:bold;">{{< params "IDmelon" >}} Key</span> app installed on your smartphone. Ot herwise, the reader automatically switches to <span style="font-weight:bold;">reader mode</span>. It starts blinking Blue for about 15 seconds until it blinks white once at the end.</p>
       </div>
     </div>
   </div>

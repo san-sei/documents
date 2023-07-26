@@ -13,7 +13,7 @@ images: []
 
 You need to install the IDmelon Pairing Tool App on your computer.
 
-You can download it from the following link on the IDmelon website.
+You can download it from the following link on the {{< params "IDmelon Website" >}}.
 
 [https://www.idmelon.com/download](https://www.idmelon.com/download)
 

@@ -1,7 +1,7 @@
 ---
 title: "Hybrid Azure Active Directory"
 description: ""
-lead: "This section will provide instructions on how to enable passwordless authentication using the Fast Identity Online 2 (FIDO2) standard in hybrid Azure AD environments with the help of IDmelon Passwordless Orchestration Platform (IPOP). This step-by-step guide provided in this document will help organizations configure and enable FIDO2 authentication on thei Hybrid Azure AD setup easily."
+lead: ""
 date: 2023-04-01T18:14:02-08:00
 lastmod: 2023-04-01T18:14:02-08:00
 draft: false
@@ -17,7 +17,7 @@ toc: true
   <span class="close">&times;</span>
   <img class="modal-content" id="img01">
 </div>
-
+This section will provide instructions on how to enable passwordless authentication using the Fast Identity Online 2 (FIDO2) standard in hybrid Azure AD environments with the help of {{< params "IDmelon Passwordless Orchestration Platform" >}} ({{< params "IPOP" >}}). This step-by-step guide provided in this document will help organizations configure and enable FIDO2 authentication on thei Hybrid Azure AD setup easily.
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/HybridAzureAD/hybridDiagram.png" class="doc-img-frame">
 </div>

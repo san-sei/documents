@@ -18,7 +18,7 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-In this document you are going to set up ``IDmelon`` as an external IdP to the ``Ping Identity``.
+In this document you are going to set up ``{{< params "IDmelon" >}}`` as an external IdP to the ``Ping Identity``.
 
 ## Login to  Ping Identity administration panel
 
@@ -99,7 +99,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
 
 <div align="center">
     <img src="/images/vendor/sso/ping_dashboard2.png" class="doc-img-frame">
-</div>  
+</div>
 
 <div class="step-row-container">
   <div class="step-column bullet-container">
@@ -263,7 +263,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
         </div>
         </div>
     </div>
-    <p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
+    <p class="note-body">Get all values for <span class="code-back">{..}</span> from your {{< params "IDmelon Panel" >}}.<br>
     If you are currently login here, you will see the replaced values instead.</p>
     <div class="step-row-container">
     <div class="step-column bullet-container">
@@ -272,7 +272,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p><span style="font-weight:bold;">SSO endpoint :</span> idmelon single sign on url</p>
+            <p><span style="font-weight:bold;">SSO endpoint :</span> {{< params "IDmelon" >}} single sign on url</p>
         </div>
         </div>
     </div>
@@ -413,9 +413,9 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
             </div>
             </div>
         </div>
-        </div>  
         </div>
-    </div>  
+        </div>
+    </div>
     <div align="center">
         <img src="/images/vendor/sso/ping_dashboard8.png" class="doc-img-frame">
     </div>
@@ -440,7 +440,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
     <div class="card-column">
     <div class="step-text" >
         <div class="card-body">
-            <p>Enabling or disabling IDmelon as Identity Provider : <a href="https://docs.pingidentity.com/bundle/pingone/page/hvt1567784210895.html" style="font-size:16px;">Reference</a></p>
+            <p>Enabling or disabling {{< params "IDmelon" >}} as Identity Provider : <a href="https://docs.pingidentity.com/bundle/pingone/page/hvt1567784210895.html" style="font-size:16px;">Reference</a></p>
         </div>
     </div>
     </div>
@@ -508,7 +508,7 @@ In this document you are going to set up ``IDmelon`` as an external IdP to the `
 
 <div align="center">
     <img src="/images/vendor/sso/ping_idp_init1.png" class="doc-img-frame">
-</div>  
+</div>
 
 <div class="step-row-container">
     <div class="step-column bullet-container">
@@ -766,7 +766,7 @@ for **users** IdP init Login:
 </div>
 <div align="center">
     <img src="/images/vendor/sso/ping_idp_init6.png" class="doc-img-frame">
-</div>  
+</div>
 <div class="step-row-container">
     <div class="step-column bullet-container">
         <div class="bullet"></div>
@@ -786,7 +786,7 @@ for **users** IdP init Login:
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p>Locate the <span style="font-weight:bold;">Client ID</span> and copy it to a relaystate field of IDmelon.</p>
+            <p>Locate the <span style="font-weight:bold;">Client ID</span> and copy it to a relaystate field of {{< params "IDmelon" >}}.</p>
         </div>
         </div>
     </div>
@@ -807,7 +807,7 @@ for **users** IdP init Login:
     <img src="/images/vendor/sso/ping_idp_init7.png" class="doc-img-frame">
 </div>
 
-## IDmelon SAML configuration
+## {{< params "IDmelon" >}} SAML configuration
 
 <hr class="hr-line">
 
@@ -830,7 +830,7 @@ for **users** IdP init Login:
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p>Go to <span style="font-weight:bold;">IDmelon</span> IdP then click on <span style="font-weight:bold;">IdP Configuration</span> click <span style="font-weight:bold;">edit</span></p>
+            <p>Go to <span style="font-weight:bold;">{{< params "IDmelon" >}}</span> IdP then click on <span style="font-weight:bold;">IdP Configuration</span> click <span style="font-weight:bold;">edit</span></p>
         </div>
         </div>
     </div>
@@ -858,7 +858,7 @@ for **users** IdP init Login:
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p>You should upload <span style="font-weight:bold;">metadata</span> file and <span style="font-weight:bold;">copy values</span> of below fields from this <span style="font-weight:bold;">Ping Identity panel</span> to <span style="font-weight:bold;">IDmelon Panel</span>.</p>
+            <p>You should upload <span style="font-weight:bold;">metadata</span> file and <span style="font-weight:bold;">copy values</span> of below fields from this <span style="font-weight:bold;">Ping Identity panel</span> to <span style="font-weight:bold;">{{< params "IDmelon Panel" >}}</span>.</p>
         </div>
         </div>
     </div>
@@ -874,7 +874,7 @@ for **users** IdP init Login:
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p>Go to <span style="font-weight:bold;">IDmelon IdP</span> then click on <span style="font-weight:bold;">P1 Connection</span> click <span style="font-weight:bold;">edit</span></p>
+            <p>Go to <span style="font-weight:bold;">{{< params "IDmelon" >}} IdP</span> then click on <span style="font-weight:bold;">P1 Connection</span> click <span style="font-weight:bold;">edit</span></p>
         </div>
         </div>
     </div>
@@ -924,7 +924,7 @@ for **users** IdP init Login:
     <div class="card-column">
         <div class="step-text" >
         <div class="card-body">
-            <p> You should copy values of below fields from this <span style="font-weight:bold;">Ping Identity panel</span> to <span style="font-weight:bold;">IDmelon Panel</span>.</p>
+            <p> You should copy values of below fields from this <span style="font-weight:bold;">Ping Identity panel</span> to <span style="font-weight:bold;">{{< params "IDmelon Panel" >}}</span>.</p>
         </div>
         </div>
     </div>
@@ -1019,7 +1019,7 @@ for **users** IdP init Login:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Choose <span style="font-weight:bold;">Idmelon as Identity Provider</span></p>
+        <p>Choose <span style="font-weight:bold;">{{< params "IDmelon" >}} as Identity Provider</span></p>
       </div>
     </div>
   </div>
@@ -1107,7 +1107,7 @@ for **users** IdP init Login:
 </div>
 <div align="center">
     <img src="/images/vendor/sso/ping_api.png" class="doc-img-frame">
-</div>  
+</div>
 <div class="step-row-container">
   <div class="step-column bullet-container">
     <div class="bullet"></div>

@@ -20,20 +20,20 @@ toc: true
 The importance of information security in organizations cannot be overstated. It is critical that companies take the needed steps to protect their priority information from
 data breaches and security threats. Standards and best practices by providing guidance aid organizations to enhance their cyber security posture. They also provide common
 set of reference points to enable organizations to evaluate whether processes, procedures and other controls in place meet an agreed minimum requirement.
-IDmelon as one of the pioneers in implementing FIDO authentication protocol follows related information security standards and best practices for managing and protecting
+{{< params "IDmelon" >}} as one of the pioneers in implementing FIDO authentication protocol follows related information security standards and best practices for managing and protecting
 valuable data and information assets. In the following, we describe what standards and best practices we implemented for our products and services.
 
 ## Information Security Management System (ISO/IEC 27001)
 
 <hr class="hr-line">
 
-IDmelon has started establishing and implementing the ISO/IEC 27001 standard a while back. We follow the PDCA cycle annually to be as have flawless ISMS as possible.
+{{< params "IDmelon" >}} has started establishing and implementing the ISO/IEC 27001 standard a while back. We follow the PDCA cycle annually to be as have flawless ISMS as possible.
 
 ## NIST Special Publication 800 series
 
 <hr class="hr-line">
 
-The NIST SP 800 series is a set of documents that describe security guidelines for US federal government agencies. IDmelon as a private organization is not bound to NIST SP
+The NIST SP 800 series is a set of documents that describe security guidelines for US federal government agencies. {{< params "IDmelon" >}} as a private organization is not bound to NIST SP
 800 series, but we already adopted few of the standards contained therein as part of our business practices which includes the following:
 
 <div class="step-row-container">
@@ -118,7 +118,7 @@ The NIST SP 800 series is a set of documents that describe security guidelines f
 
 <hr class="hr-line">
 
-The GDPR aims to protect the personal data of all people in the European Union. Due to IDmelon presence in European market, we outlined the standards set by the GDPR to
+The GDPR aims to protect the personal data of all people in the European Union. Due to {{< params "IDmelon" >}} presence in European market, we outlined the standards set by the GDPR to
 provide a checklist to start implementing the requirements to remain compliant.
 
 ## Information Security Maturity Model
@@ -126,6 +126,6 @@ provide a checklist to start implementing the requirements to remain compliant.
 <hr class="hr-line">
 
 Information security maturity models, are frameworks and best practices for evaluating and improving cybersecurity. Their main purpose is to help organizations to evaluate
-and make improvements to their cybersecurity programs and strengthen their operational resilience. The IDmelon security team selected C2M2 (Cybersecurity Capability Maturity
+and make improvements to their cybersecurity programs and strengthen their operational resilience. The {{< params "IDmelon" >}} security team selected C2M2 (Cybersecurity Capability Maturity
 Model) as the base model for evaluation of information security maturity. However, implementing ISO/IEC 27001 and also using NIST 800-53 as a supplementary control set, lead
 us to modify C2M2 domains based on our organizational needs.
