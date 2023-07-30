@@ -13,6 +13,11 @@ weight: 21
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 When using IDmelon Security Key as a Service, Contactless Cards can be used as a security key. The admin of your
 organization can activate a card for you or he can send an invitation email which help you register your card.
 
@@ -22,9 +27,7 @@ organization can activate a card for you or he can send an invitation email whic
 
 In case of activating the card by admin, you receive an email containing a PIN and you can use your card right away.
 
-<img src="/images/vendor/UserPanel/active_card_1.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/active_card_1.png" class="doc-img-frame">
 
 ## Activation by user
 
@@ -32,22 +35,16 @@ In case of activating the card by admin, you receive an email containing a PIN a
 
 When you possess the card, admin only can send you an invitation email containing the registration link.
 
-<img src="/images/vendor/UserPanel/active_card_2.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/active_card_2.png" class="doc-img-frame">
 
 Click on the Register your card button and then click on Register button in new tab.
 
-<img src="/images/vendor/UserPanel/active_card_3.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/active_card_3.png" class="doc-img-frame">
 
 Tap your card to see the successful registration message.
 
-<img src="/images/vendor/UserPanel/active_card_5.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/active_card_5.png" class="doc-img-frame">
 
 You will receive a message containing a PIN to use your contactless card.
 
-<img src="/images/vendor/UserPanel/active_card_1.png" style="display: block; margin: 0 auto;">
+<img src="/images/vendor/UserPanel/active_card_1.png" class="doc-img-frame">

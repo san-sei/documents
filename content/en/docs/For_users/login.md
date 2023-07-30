@@ -13,6 +13,11 @@ weight: 23
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 In order to login, you need to have an active account in [IDmelon Panel](https://panel.idmelon.com/).
 
 The first step to log in is to open [this link](https://panel.idmelon.com/). After opening IDmelon panel, you will see
@@ -29,9 +34,7 @@ the image below, which shows multiple ways to log in.
 - If you do not have any of the above tools to log in, you can choose **Sign-in options**, which will be discussed
   later.
 
-<img src="/images/vendor/Panel/workspace/1.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Panel/workspace/1.png" class="doc-img-frame">
 
 ## Sign in with a security key
 
@@ -42,9 +45,7 @@ the image below, which shows multiple ways to log in.
 
 - If the steps are successfully taken, you will be logged in and able to see your panel.
 
-<img src="/images/vendor/UserPanel/enduserlogin_3.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/enduserlogin_3.png" class="doc-img-frame">
 
 ## Sign-in options
 
@@ -52,24 +53,18 @@ the image below, which shows multiple ways to log in.
 
 - If you click **Sign-in options**, you will be asked to enter your **Email**. After that, click on **Next**.
 
-<img src="/images/vendor/UserPanel/enduserlogin_4.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/enduserlogin_4.png" class="doc-img-frame">
 
 - In this section, you have the option to receive a code via email or through SMS. (**Caution**: For the first time
   login you may not have your phone number activated.) Then, click on **Send**.
 
-<img src="/images/vendor/UserPanel/enduserlogin_5.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/enduserlogin_5.png" class="doc-img-frame">
 
 - By clicking **Send**, you will receive an email containing a code, and you have to type that code to the screen as
   shown below.
 
-<img src="/images/vendor/UserPanel/enduserlogin_6.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/enduserlogin_6.png" class="doc-img-frame">
 
 - If all the above steps are taken successfully, you will be able to see your panel as shown in the image below.
 
-<img src="/images/vendor/UserPanel/myappsu_2.png" style="display: block; margin: 0 auto;">
+<img src="/images/vendor/UserPanel/myappsu_2.png" class="doc-img-frame">

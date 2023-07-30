@@ -13,6 +13,11 @@ weight: 30
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 ## Requirements
 
 * * *
@@ -65,9 +70,7 @@ Open the IDmelon app on your phone
 
 * Click Done and you're all set to experience password-login experience.
 
-<img src="/images/vendor/gifs/pair_phone_pc.gif" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/gifs/pair_phone_pc.gif" class="doc-img-frame">
 
 ## Login with Security key
 
@@ -98,9 +101,7 @@ Approve.
 
 6. Then a biometric confirmation will pop up on you smartphone, do the biometric confirmation to complete registration.
 
-<img src="/images/vendor/gifs/registration_office365.gif" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/gifs/registration_office365.gif" class="doc-img-frame">
 
 **Note:** Make sure your administrator has turned on FIDO2 feature for use within your organization
 
@@ -116,9 +117,7 @@ Now that you've added your phone as a security key to your account, you can use 
 
 4. Tap Approve to present your biometrics to authenticate.
 
-<img src="/images/vendor/gifs/sample_user_login.gif" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/gifs/sample_user_login.gif" class="doc-img-frame">
 
 ## Other accounts
 

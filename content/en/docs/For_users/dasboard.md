@@ -13,6 +13,11 @@ weight: 22
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 Every user has 2 sections in their panel. On section is [SSO (Simple Sign-On)](#sso-(simple-sign-on)) which enables them
 to login by using their active accounts and
 security keys. The other section is the [Dropdown menu](#dropdown-menu) which enables users to access their profile and
@@ -27,15 +32,11 @@ Every user has the **Simple Sign-On** option in their panel. By clicking this op
 This option allows users to access the applications and websites which they can see in their panel by their own security
 keys.
 
-<img src="/images/vendor/UserPanel/myappsu_1.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/myappsu_1.png" class="doc-img-frame">
 
 By default, there is just Microsoft added to users' panel.
 
-<img src="/images/vendor/UserPanel/myappsu_2.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/myappsu_2.png" class="doc-img-frame">
 
 ## User Options
 
@@ -47,39 +48,29 @@ If you click on the arrow or your username, a **Dropdown** menu will be opened w
 *Security**,
 the second is **Profile Info**, and the third is **Logout**.
 
-<img src="/images/vendor/UserPanel/userpanel_s_1.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/userpanel_s_1.png" class="doc-img-frame">
 
 - If you click on **Security**, you can see the page as shown below.
 
-<img src="/images/vendor/UserPanel/userpanel_s_2.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/userpanel_s_2.png" class="doc-img-frame">
 
 Inside the **Security**, you can see your security keys as well as a button which allows you to add new security keys.
 By clicking on the **Add Security Key** button, a wizard the same as the one below will be shown. Click on **OK** if you
 want to continue adding a new security key.
 
-<img src="/images/vendor/UserPanel/userpanel_s_3.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/userpanel_s_3.png" class="doc-img-frame">
 
 - The next wizard again will ask if you want to continue adding a new security key. Click on **OK** to continue.
 
-<img src="/images/vendor/UserPanel/userpanel_s_4.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/userpanel_s_4.png" class="doc-img-frame">
 
 - The following wizard asks you to touch your security key in order to add it to your panel.
 
-<img src="/images/vendor/UserPanel/userpanel_s_5.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/userpanel_s_5.png" class="doc-img-frame">
 
 - By touching your security key, a new security key will be added to your panel.
 
 - If you click on **Profile Info**, you will see a page which looks like the page that is shown below. In this page, you
   can edit your username, phone number, and email.
 
-<img src="/images/vendor/UserPanel/userpanel_s_6.png" style="display: block; margin: 0 auto;">
+<img src="/images/vendor/UserPanel/userpanel_s_6.png" class="doc-img-frame">

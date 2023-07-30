@@ -13,6 +13,11 @@ weight: 20
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 When your organization rolls out IDmelon, one of your organization’s admins sends an invitation email to your work email
 address to activate your work account.
 From then on, you will be able to use your smartphone as a FIDO security key.
@@ -29,7 +34,7 @@ From then on, you will be able to use your smartphone as a FIDO security key.
 
 - Then, choose "Business/School".
 
-<img src="/images/vendor/UserPanel/activate_b_1.png" style="display: block; margin: 0 auto;">
+<img src="/images/vendor/UserPanel/activate_b_1.png" class="doc-img-frame">
 
 ## Activation
 
@@ -40,31 +45,23 @@ From then on, you will be able to use your smartphone as a FIDO security key.
 **Note:** Make sure that you receive an invitation email from one of your organization’s admins to be added to your
 organization’s panel.
 
-<img src="/images/vendor/UserPanel/activate_b_2.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/activate_b_2.png" class="doc-img-frame">
 
 - In this page, you can access your email by tapping **Open email app** to see the verification code.
 
 - The email that you receive must contain the same contents as the image below.
 
-<img src="/images/vendor/UserPanel/activate_b_7.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/activate_b_7.png" class="doc-img-frame">
 
 - Tap **Verify with code** to move to the next page and enter the 6-digit code.
 
 - If you did not receive any code, tap on **Resend**.
 
-<img src="/images/vendor/UserPanel/activate_b_3.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/activate_b_3.png" class="doc-img-frame">
 
 - Enter the 6-digit code that you have received and then, tap on **Done**.
 
-<img src="/images/vendor/UserPanel/activate_b_4.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/activate_b_4.png" class="doc-img-frame">
 
 ## Confirmation
 
@@ -72,10 +69,8 @@ organization’s panel.
 
 - In this page, tap on **Approve** to activate your security key on your smartphone.
 
-<img src="/images/vendor/UserPanel/activate_b_5.jpg" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/UserPanel/activate_b_5.jpg" class="doc-img-frame">
 
 - After approving, you will be moved to a page the same as the image below.
 
-<img src="/images/vendor/UserPanel/activate_b_6.png" style="display: block; margin: 0 auto;">
+<img src="/images/vendor/UserPanel/activate_b_6.png" class="doc-img-frame">

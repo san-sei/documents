@@ -13,6 +13,11 @@ weight: 31
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 All IDmelon personal users have an individual panel at IDmelon which they can access
 through [this link](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6).
 
@@ -35,29 +40,21 @@ To create an IDmelon account on **IDmelon Website**, please read the following i
    open [IDmelon Panel's Login](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6)
    page and click on **Create one!**
 
-<img src="/images/vendor/Panel/workspace/1.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Panel/workspace/1.png" class="doc-img-frame">
 
 2. Choose **Personal** because you want to create a personal account.
 
-<img src="/images/vendor/Panel/workspace/2.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Panel/workspace/2.png" class="doc-img-frame">
 
 3. Fill in all the fields and click on **Continue**.
 
-<img src="/images/vendor/Individuals/individual-01.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Individuals/individual-01.png" class="doc-img-frame">
 
 4. If you like to sync your panel with your smartphone, scan the QR code that is shown on your browser. This will add
    your account to **IDmelon Mobile App** on your smartphone. Remember that you have to approve adding this account to
    your mobile app by tapping on **Approve**. After that click on **Next**. It is also possible to skip this step.
 
-<img src="/images/vendor/Individuals/individual_02.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Individuals/individual_02.png" class="doc-img-frame">
 
 5. Pay attention to this page, as it informs you on how to use login using your smartphone security key. You should
    either download **IDmelon Pairing Tool** or have an **IDmelon Reader** to log in to your panel using your smartphone
@@ -68,9 +65,7 @@ To create an IDmelon account on **IDmelon Website**, please read the following i
    \
    For more information about **Reader** refer to [this page](https://docs.idmelon.com/docs/readeguide/reader/).
 
-<img src="/images/vendor/Panel/workspace/9-2-4.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Panel/workspace/9-2-4.png" class="doc-img-frame">
 
 ## Panel
 
@@ -80,26 +75,20 @@ To create an IDmelon account on **IDmelon Website**, please read the following i
 
 In this tab, you can see your **Current Plan** and account status.
 
-<img src="/images/vendor/Individuals/individual_1.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Individuals/individual_1.png" class="doc-img-frame">
 
 ### Activity Logs
 
 In this page, users can see their login activities.
 
-<img src="/images/vendor/Individuals/individual_2.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Individuals/individual_2.png" class="doc-img-frame">
 
 ### Settings
 
 As you can see in this page, by clicking on **Send an Activation Email** you will receive an email which contains an
 activation link. By tapping on the link on your smartphone, you can activate your security key.
 
-<img src="/images/vendor/Individuals/individual_3.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Individuals/individual_3.png" class="doc-img-frame">
 
 ## User Options
 
@@ -130,32 +119,24 @@ To ready your **Reader** visit [this link](https://www.idmelon.com/idmelon-reade
 3. If the user's smartphone is already paired with **Pairing Tool**, then IDmelon application will pop up a screen which
    looks like the screen below, tap on the security key that you want to register your account on.
 
-<img src="/images/vendor/Individuals/indiv_m_1.jpg" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Individuals/indiv_m_1.jpg" class="doc-img-frame">
 
 4. Tap on **Approve**.
 
-<img src="/images/vendor/Individuals/indiv_m_2.jpg" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Individuals/indiv_m_2.jpg" class="doc-img-frame">
 
 5. On this step, the smartphone's **GPS** and **Bluetooth** must be turned on, as well as the **Bluetooth** of the
    user's computer. This helps the IDmelon application to prove that the user who is using a certain phone is close to
    the computer that he or she is using and thus adds the device to the user's account.
 
-<img src="/images/vendor/Individuals/indiv_m_3.jpg" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Individuals/indiv_m_3.jpg" class="doc-img-frame">
 
 6. If everything is done as explained, the user's smartphone will be added to the account.
 
-<img src="/images/vendor/Individuals/individual_45.png" style="display: block; margin: 0 auto;">
-
-<br/>
+<img src="/images/vendor/Individuals/individual_45.png" class="doc-img-frame">
 
 ### Profile Info
 
 This page shows the user's information. Here is a sample image.
 
-<img src="/images/vendor/Individuals/individual_5.png" style="display: block; margin: 0 auto;">
+<img src="/images/vendor/Individuals/individual_5.png" class="doc-img-frame">
