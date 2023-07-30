@@ -5,7 +5,7 @@ lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
-images: []
+images: [ ]
 menu:
   docs:
     parent: "mobileapp"
@@ -13,1590 +13,275 @@ weight: 42
 toc: true
 ---
 
-You can add the following platforms to your securiy key.
+You can add the following platforms to your security key.
 
 ### Windows Login
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>This feature is only available for Auzure Active Directory joined PCs. Standalone PCs or even on-premise AD do not support this feature.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>To enable this feature on your Azure AD joined PCs, call your IT administrator.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- This feature is only available for Azure Active Directory joined PCs. Standalone PCs or even on-premise AD do not
+  support this feature.
 
-<p>Note: Administrators for a tecnical guide can refer to this <a href="/docs/integration-guides/azure-ad/" style="font-size:16px;" target="_blank">link</a>.</p>
-<br></br>
+- To enable this feature on your Azure AD joined PCs, call your IT administrator.
+
+Note: Administrators for a technical guide can refer to
+this [link](https://example.com/docs/integration-guides/azure-ad/).
 
 ### Office 365
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Sign in your Microsoft account at https://myaccount.microsoft.com/ and go to My Profile page.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Sign in to your Microsoft account at `https://myaccount.microsoft.com/` and go to the My Profile page.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Choose Security Info and then Add sign-in method to see a list of different methods. Next, choose Security key from the list.</p>
-      </div>
-    </div>
-  </div>
-</div>
+2. Choose Security Info and then Add sign-in method to see a list of different methods. Next, choose Security key from
+   the list.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Choose USB device.</p>
-      </div>
-    </div>
-  </div>
-</div>
+3. Choose USB device.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>In the Setting up your new sign-in method page, select Next.</p>
-      </div>
-    </div>
-  </div>
-</div>
+4. In the Setting up your new sign-in method page, select Next.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using an IDmelon Reader, insert it into the USB
-        port of your device, tap your smartphone to the Reader which
-        starts blinking blue for a few seconds to receive the
-        notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
+5. If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader
+   which starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
+6. If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired
+   with your computer.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">7</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>You will return to the Security info page, type a name you’ll recognize later for your new security key, and then select Next.</p>
-      </div>
-    </div>
-  </div>
-</div>
+7. You will return to the Security info page, type a name you'll recognize later for your new security key, and then
+   select Next.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">8</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Select Done to close the Security key page. The Security info page is updated with your security key information.</p>
-      </div>
-    </div>
-  </div>
-</div>
+8. Select Done to close the Security key page. The Security info page is updated with your security key information.
 
 ### GitHub
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Before adding a security key to your GitHub account, you must first enable 2FA via a TOTP mobile app or via SMS. <a href="#https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-fido-u2f" style="font-size:16px;">Check here</a>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Before adding a security key to your GitHub account, you must first enable 2FA via a TOTP mobile app or via
+   SMS. [Check here](https://example.com/docs/github-2fa).
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Sign in to your GitHub account.</p>
-      </div>
-    </div>
-  </div>
-</div>
+2. Sign in to your GitHub account.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>In the top-right corner of any page, click your profile photo, then choose Settings.</p>
-      </div>
-    </div>
-  </div>
-</div>
+3. In the top-right corner of any page, click your profile photo, then choose Settings.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>In the Access section of the sidebar, click Password and authentication.</p>
-      </div>
-    </div>
-  </div>
-</div>
+4. In the Access section of the sidebar, click Password and authentication.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Next to Security keys, click Add.</p>
-      </div>
-    </div>
-  </div>
-</div>
+5. Next to Security keys, click Add.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Under Security keys, click Register new security key.</p>
-      </div>
-    </div>
-  </div>
-</div>
+6. Under Security keys, click Register new security key.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">7</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Type a nickname for the security key, then click Add.</p>
-      </div>
-    </div>
-  </div>
-</div>
+7. Type a nickname for the security key, then click Add.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">8</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
+8. If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader
+   which starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">9</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
+9. If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired
+   with your computer.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">10</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>The Security keys section is updated with your security key information.</p>
-      </div>
-    </div>
-  </div>
-</div>
+10. The Security keys section is updated with your security key information.
 
 ### Twitter
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Log in to your Twitter account. In the side menu on the left, click More, then click Settings and privacy.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on Security and account access, and then click Security.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>In the Two-factor authentication section, choose Security key from the list of methods.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>You will be asked to enter your password to continue.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>After you click Continue:</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">7</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">8</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Add key at Add the security key to your Twitter account page.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">9</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enter a name for your security key at the Name your security key and click Next.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">10</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Done.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Log in to your Twitter account. In the side menu on the left, click More, then click Settings and privacy.
+
+2. Click on Security and account access, and then click Security.
+
+3. In the Two-factor authentication section, choose Security key from the list of methods.
+
+4. You will be asked to enter your password to continue.
+
+5. After you click Continue:
+
+6. If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader
+   which starts blinking blue for a few seconds to receive the notification.
+
+7. If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired
+   with your computer.
+
+8. Click Add key at Add the security key to your Twitter account page.
+
+9. Enter a name for your security key at the Name your security key and click Next.
+
+10. Click Done.
 
 ### Facebook
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>To add a security key on your desktop, you’ll need to be using the latest version of Chrome, Opera, Firefox, Edge, or Safari.</p>
-      </div>
-    </div>
-  </div>
-</div>
+To add a security key on your desktop, you’ll need to be using the latest version of Chrome, Opera, Firefox, Edge, or
+Safari.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>To add a security key:</p>
-      </div>
-    </div>
-  </div>
-</div>
+To add a security key:
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Go to your Security and login settings.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</li>
+1. Go to your Security and login settings.
+2. Scroll down to Use two-factor authentication and click Edit. You may be asked to re-enter your Facebook password at
+   this point.
+3. Click Use security key.
+4. Click Register security key then follow the on-screen instructions. (If you do not see the Register Security Key
+   option, you may need to update your browser.)
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Scroll down to Use two-factor authentication and click Edit. You may be asked to re-enter your Facebook password at this point.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which
+starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Use security key.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with
+your computer.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Register security key then follow the on-screen instructions.(If you do not see the Register Security Key option, you may need to update your browser.)</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Once you’ve successfully added a security key to your account, you can start using it when you log in.</p>
-      </div>
-    </div>
-  </div>
-</div>
+5. Once you’ve successfully added a security key to your account, you can start using it when you log in.
 
 ### AWS
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>You can enable a FIDO security key for your own IAM user from the AWS Management Console only, not from the AWS CLI or AWS API.</p>
-      </div>
-    </div>
-  </div>
-</div>
+You can enable a FIDO security key for your own IAM user from the AWS Management Console only, not from the AWS CLI or
+AWS API.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Use your AWS account ID or account alias, your IAM user name, and your password to sign in to the IAM console. To get your AWS account ID, contact your administrator.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Use your AWS account ID or account alias, your IAM user name, and your password to sign in to the IAM console. To get
+   your AWS account ID, contact your administrator.
+2. In the navigation bar on the upper right, choose your user name, and then choose Security Credentials.
+3. On the AWS IAM credentials tab, in the Multi-factor authentication (MFA) section, choose Activate MFA.
+4. In the Manage MFA device wizard, choose Security key, and then choose Continue.
+5. Then,
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>In the navigation bar on the upper right, choose your user name, and then choose Security Credentials.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which
+starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>On the AWS IAM credentials tab, in the Multi-factor authentication (MFA) section, choose Activate MFA.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with
+your computer.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>In the Manage MFA device wizard, choose Security key, and then choose Continue.</p>
-      </div>
-    </div>
-  </div>
-</div>
+6. Say yes to the notification and choose Close when setup is complete.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Then,</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which
+starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Say yes to the notification and choose Close when setup is complete.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>The IDmelon FIDO2 security key is ready for use with AWS.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with
+your computer.
 
 ### Bitbucket
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Bitbucket supports security keys that use the FIDO U2F standard. These keys only work with a recent version of Google Chrome, which means that you need to install or update your browser if you want to begin using a security key.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Before adding a security key to your Bitbucket account, you must first enable Two-step verification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>To add a security key:</p>
-      </div>
-    </div>
-  </div>
-</div>
+Bitbucket supports security keys that use the FIDO U2F standard. These keys only work with a recent version of Google
+Chrome, which means that you need to install or update your browser if you want to begin using a security key.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>From your avatar in the bottom left, click Personal settings.</p>
-      </div>
-    </div>
-  </div>
-</div>
+Before adding a security key to your Bitbucket account, you must first enable Two-step verification.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Two-step verification under Security.</p>
-      </div>
-    </div>
-  </div>
-</div>
+To add a security key:
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Under Security keys, enter a name for your device in the text box.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. From your avatar in the bottom left, click Personal settings.
+2. Click Two-step verification under Security.
+3. Under Security keys, enter a name for your device in the text box.
+4. Click Add security key:
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Add security key:</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which
+starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with
+your computer.
 
 ### Cloudflare
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> To enable 2FA security key authentication after <a href="https://support.cloudflare.com/hc/en-us/articles/200167906/#6Gqe6f3nZtXSTpwyS2PBZ1" style="font-size:16px;">enabling 2FA on your Cloudflare account</a> by clicking the Manage button:</p>
-      </div>
-    </div>
-  </div>
-</div>
+To enable 2FA security key authentication after enabling 2FA on your Cloudflare account by clicking the Manage button:
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>In Security Key Authentication, click Add.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. In Security Key Authentication, click Add.
+2. Enter your Cloudflare password on the Add a Security Key screen, then click Next.
+3. A dialog appears. Interact with your security key to add it to your Cloudflare account.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enter your Cloudflare password on the Add a Security Key screen, then click Next.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which
+starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>A dialog appears. Interact with your security key to add it to your Cloudflare account.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with
+your computer.
 
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enter a name for the security key. If this is the initial setup, you will be prompted to generate backup codes. If not, skip to Step 8.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enter your password.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Next again to review your backup codes. Backup codes can be used to access your user account without your mobile device.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">7</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Download, Print, or Copy to save your backup codes in a secure location.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">8</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Next to finish the configuration.</p>
-      </div>
-    </div>
-  </div>
-</div>
+4. Enter a name for the security key. If this is the initial setup, you will be prompted to generate backup codes. If
+   not, skip to Step 8.
+5. Enter your password.
+6. Click Next again to review your backup codes. Backup codes can be used to access your user account without your
+   mobile device.
+7. Click Download, Print, or Copy to save your backup codes in a secure location.
+8. Click Next to finish the configuration.
 
 ### Coinbase
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> To set up your security key:</p>
-      </div>
-    </div>
-  </div>
-</div>
+To set up your security key:
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Sign into your Coinbase account from a web browser. (You cannot change your 2-step method from the Coinbase mobile app.)</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Sign into your Coinbase account from a web browser. (You cannot change your 2-step method from the Coinbase mobile
+   app.)
+2. Go to Settings > Security.
+3. Select Security Key under 2-step verification.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Go to Settings > Security</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Select Security Key under 2-step verification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> For more information check <a href="#https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys" style="font-size:16px;">this article</a>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+For more information
+check [this article](#https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys).
 
 ### Dropbox
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Sign in to dropbox.com.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Sign in to dropbox.com.
+2. Click your avatar.
+3. Choose Settings.
+4. Select the Security tab.
+5. Under Two-step verification, click Add next to Security keys. If you do not see this section, follow the Enable
+   two-step verification instructions before proceeding.
+6. Enter your password.
+7. Then click Begin setup.
+8. Click Key inserted.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click your avatar.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Choose Settings.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Select the Security tab.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Under Two-step verification, click Add next to Security keys. If you do not see this section, follow the Enable two-step verification instructions before proceeding.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enter your password.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">7</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Then click Begin setup.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">8</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Key inserted.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<p class="note-body">
-<span style="font-weight:bold;">Note</span>: Dropbox only supports using a security key when signing in to dropbox.com using the Chrome or Firefox web browsers. You can’t use a security key to sign in to the desktop or mobile apps at this time.</p>
+Note: Dropbox only supports using a security key when signing in to dropbox.com using the Chrome or Firefox web
+browsers. You can’t use a security key to sign in to the desktop or mobile apps at this time.
 
 ### ebay
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Sign in to your ebay account.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Sign in to your ebay account.
+2. Go to Account Setting.
+3. Choose Sign in and Security under the Personal Info.
+4. Scroll down to see Security key sign in.
+5. Click Turn on.
+6. Enter your Password.
+7. Click Continue on the new page that will be shown as Setup your security key.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Go to Account Setting.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which
+starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Choose Sign in and Security under the Personal Info.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Scroll down to see Security key sign in.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Turn on.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enter your Password.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">7</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Continue on the new page that will be shown as Setup your security key.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with
+your computer.
 
 ### Salesforce
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> If your Salesforce admin has allowed the use of Universal Second Factor (U2F) security keys, register your own security key to connect it to your account.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If your Salesforce admin has allowed the use of Universal Second Factor (U2F) security keys, register your own security
+key to connect it to your account.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>From your personal settings, enter Advanced User Details in the Quick Find box, then select Advanced User Details.
-        No results? Enter Personal Information in the Quick Find box, then select Personal Information.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. From your personal settings, enter Advanced User Details in the Quick Find box, then select Advanced User Details. No
+   results? Enter Personal Information in the Quick Find box, then select Personal Information.
+2. Click Register next to the Security Key (U2F) field.
+3. If you don’t see this option, your Salesforce admin has disallowed the use of security keys.
+4. For security purposes, you’re prompted to log in to your account.
+5. At the prompt:
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Register next to the Security Key (U2F) field.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which
+starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you don’t see this option, your Salesforce admin has disallowed the use of security keys.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with
+your computer.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>For security purposes, you’re prompted to log in to your account.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>At the prompt:</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container mx-3">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>After successful registration, click Continue to dismiss the confirmation message.</p>
-      </div>
-    </div>
-  </div>
-</div>
+6. After successful registration, click Continue to dismiss the confirmation message.
 
 ### Shopify
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>From your Shopify admin, click your username and account picture.</p>
-      </div>
-    </div>
-  </div>
-</div>
+From your Shopify admin, click your username and account picture.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Manage account > Security.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>In the Two-step authentication section, click Turn on two-step.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Select Security key or Biometrics, then click Next.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enter a name for your security key.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enter your password.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Add device.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">7</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Activate your security key:</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Click Manage account > Security.
+2. In the Two-step authentication section, click Turn on two-step.
+3. Select Security key or Biometrics, then click Next.
+4. Enter a name for your security key.
+5. Enter your password.
+6. Click Add device.
+7. Activate your security key:
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which
+starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with
+your computer.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>You are provided with a list of 10 recovery codes. Save your recovery codes in case you lose access to your mobile device. Make sure that you store them in a safe location offline that you can access in multiple ways, such as from your mobile device, your desktop computer, and from a printed document.</p>
-      </div>
-    </div>
-  </div>
-</div>
+You are provided with a list of 10 recovery codes. Save your recovery codes in case you lose access to your mobile
+device. Make sure that you store them in a safe location offline that you can access in multiple ways, such as from your
+mobile device, your desktop computer, and from a printed document.
 
 ### Yahoo
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Sign in to the Yahoo Account security page.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Sign in to the Yahoo Account security page.
+2. Next to 2-Step Verification, click Turn on 2SV.
+3. Click Get started.
+4. Select Security key.
+5. Click Set up Key.
+6. Follow the on-screen prompts to finish setting up your Security Key.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Next to 2-Step Verification, click Turn on 2SV.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which
+starts blinking blue for a few seconds to receive the notification.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Get started.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Select Security key.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Set up Key.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Follow the on-screen prompts to finish setting up your Security Key:</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
+If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with
+your computer.
