@@ -122,8 +122,8 @@ To create a personal account users have two ways, the first way is through <span
       <div class="card-body">
         <p>Pay attention to this page, because this page informs on how use login using your smartphone security key. You should either download <span style="font-weight:bold">IDmenlon Piring Tool</span> or have an <span style="font-weight:bold">IDmelon Reader</span> to login to your panel by your smartphone as your security key.<br><br>
         Click <span style="font-weight:bold">Login</span> to move to login page and login with your smart phone.<br><br>
-        For more information about <span style="font-weight:bold">Pairing Tool</span> refer to <a href="https://docs.idmelon.com/docs/pairingtool/ourparigintool/" target="_blank" style="font-size:16px;">this page</a>.<br><br>
-        For more information about <span style="font-weight:bold">Reader</span> refer to <a href="https://docs.idmelon.com/docs/readeguide/reader/" target="_blank" style="font-size:16px;">this page</a>.<br>
+        For more information about <span style="font-weight:bold">Pairing Tool</span> refer to <a href="/docs/pairingtool/ourparigintool/" target="_blank" style="font-size:16px;">this page</a>.<br><br>
+        For more information about <span style="font-weight:bold">Reader</span> refer to <a href="/docs/readeguide/reader/" target="_blank" style="font-size:16px;">this page</a>.<br>
         </p>
       </div>
     </div>

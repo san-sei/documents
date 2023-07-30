@@ -22,7 +22,7 @@ From your Shopify admin, click your username and account picture.
 
 You are provided with a list of 10 recovery codes. Save your recovery codes in case you lose access to your mobile device. Make sure that you store them in a safe location offline that you can access in multiple ways, such as from your mobile device, your desktop computer, and from a printed document.
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="http://docs.idmelon.com/pages/whichplatform/index.html">Back</a>
+<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="/pages/whichplatform/index.html">Back</a>
 
 <style>
 
