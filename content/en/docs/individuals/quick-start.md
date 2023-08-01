@@ -27,15 +27,15 @@ PC quickly by scanning a QR code.
 
 * Install IDmelon Authenticator on your smartphone from App Store or Google Play.
 
-Apple Store             |  Google Play
-:-------------------------:|:-------------------------:
-{{< figure src="/images/vendor/App_Store/White_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" target="_blank" link="https://apps.apple.com/ca/app/idmelon/id1511376376" class="logo-light">}}{{< figure src="/images/vendor/App_Store/Black_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" target="_blank" link="https://apps.apple.com/ca/app/idmelon/id1511376376" class="logo-dark d-none">}}|{{< figure src="/images/vendor/Google_Play/google-play-badge.svg" target="_blank" link="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&hl=en_CA&gl=US">}}
+|                                                                                           Apple Store                                                                                           |                                                                                 Google Play                                                                                  |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <a href="https://apps.apple.com/ca/app/idmelon/id1511376376" target="_blank"><img src="/images/vendor/App_Store/Black_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a> | <a href="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business" target="_blank"><img src="/images/vendor/Google_Play/google-play-badge.svg"></a> |
 
 * Download Pairing Tool for your PC and install it.
 
-Windows 10 (or higher)             |  Mac OS
-:-------------------------:|:-------------------------:
-{{< figure src="/images/vendor/Windows/Windows_logo.png" target="_blank" link="https://www.idmelon.com/downloads/" >}}|{{< figure src="/images/vendor/Mac/mac-os.png" target="_blank" link="https://www.idmelon.com/downloads/">}}
+|                                                Windows 10 (or higher)                                                |                                                   Mac OS                                                   |
+|:--------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|
+| <a href="https://idmelon.com/docs/downloads" target="_blank"><img src="/images/vendor/Windows/Windows_logo.png"></a> | <a href="https://idmelon.com/docs/downloads" target="_blank"><img src="/images/vendor/Mac/mac-os.png"></a> |
 
 ## Set up a security key
 
@@ -52,7 +52,7 @@ key.
 Run the IDmelon Pairing Tool on your PC.
 
 * If you are running this tool for the first time, you will be asked to scan the QR code using IDmelon app on your
-smartphone.
+  smartphone.
 
 * Otherwise, click on Pair a new Smartphone to generate and show a QR code on the screen
 
@@ -88,7 +88,8 @@ You can use security keys as a passwordless sign-in method within your organizat
 
 ### How to add security key to your account
 
-1. Go to the My Profile page at [My Account](https://myaccount.microsoft.com/s) and sign in if you haven't already done so.
+1. Go to the My Profile page at [My Account](https://myaccount.microsoft.com/s) and sign in if you haven't already done
+   so.
 
 2. Select Security Info, select Add sign-in method, and then select Security key from the Add a method list.
 
@@ -97,7 +98,7 @@ You can use security keys as a passwordless sign-in method within your organizat
 4. On the Security key page, select Next to see another window asking you to Touch your security key.
 
 5. You then right after will get a notification on your phone. Tap on the notification to open the app and then tap
-Approve.
+   Approve.
 
 6. Then a biometric confirmation will pop up on you smartphone, do the biometric confirmation to complete registration.
 
@@ -107,11 +108,13 @@ Approve.
 
 ### How to login with security key
 
-Now that you've added your phone as a security key to your account, you can use it to get access to your account. To see how it works:
+Now that you've added your phone as a security key to your account, you can use it to get access to your account. To see
+how it works:
 
 1. Visit sign-in page on [office.com](http://office.com), and click Sign-in options.
 
-2. Click Sign in with a security key in the Sign-in options window to see another window asking to Touch your security key.
+2. Click Sign in with a security key in the Sign-in options window to see another window asking to Touch your security
+   key.
 
 3. Check your phone for the Login notification, tap on the notification to open the app.
 
