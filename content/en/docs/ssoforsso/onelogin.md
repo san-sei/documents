@@ -5,7 +5,7 @@ lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
-images: []
+images: [ ]
 menu:
   docs:
     parent: "ssoforsso"
@@ -18,699 +18,169 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-In this document you are going to set up ``IDmelon`` as an external IdP to the ``OneLogin``.
+In this document you are going to set up IDmelon as an external IdP to the OneLogin.
 
-## Login to  OneLogin administration panel
+## Login to OneLogin administration panel
 
-<hr class="hr-line">
+* * *
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Login to</span> <a href="https://onelogin.com" style="font-size:16px;"> OneLogin</a>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Login to [OneLogin](https://onelogin.com).
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Open</span> OneLogin dashboard.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Open OneLogin dashboard.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>on the rightside of navbar Click on<span style="font-weight:bold;">Administration</span></p>
-      </div>
-    </div>
-  </div>
-</div>
+- On the right side of navbar click onAdministration
 
-<div align="center">
-    <img src="/images/vendor/sso/onelogin_sso.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/onelogin_sso.png" class="doc-img-frame">
 
 ## Add Identity Provider
 
-<hr class="hr-line">
+* * *
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Tab <span style="font-weight:bold;">then click on </span><span style="font-weight:bold;">Trusted idps</span></p>
-      </div>
-    </div>
-  </div>
-</div>
+- Tab then click on Trusted idps
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>colick on <span style="font-weight:bold;">New Trust</span></p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on New Trust
 
-<div align="center">
-    <img src="/images/vendor/sso/onelogin_sso1.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/onelogin_sso1.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Choose</span> a custom name at the left side of page</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Choose a custom name at the left side of page
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Enable</span> Trusted IDP, for this action certificate validation is necessary</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Enable Trusted IDP, for this action certificate validation is necessary
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Enable</span> Show in Login panel, <span style="font-weight:bold;">Choose</span> Custom logo</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Enable Show in Login panel, Choose Custom logo
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">IDmelon Logo Domain :</span></p>
-        <div align="center">
-            <img src="https://idmelon.com/wp-content/uploads/2020/05/IDmelon-Logo-213x60-1-e1629841318864.png" class="doc-img-frame">
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+- IDmelon Logo Domain :
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
-If you are currently login here, you will see the replaced values instead.</p>
+<img src="https://idmelon.com/wp-content/uploads/2020/05/IDmelon-Logo-213x60-1-e1629841318864.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Issuer :</span> Show in Login panel, idp_issuer_uri</p>
-      </div>
-    </div>
-  </div>
-</div>
+Get all values for {..} from your IDmelon panel.
+If you are currently login here, you will see the replaced values instead.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Email Domains :</span> The Email Domains field is used to automatically invoke this Trusted IdP when a user enters their email address at login time - if the email address is unrecognized, but belongs to one of the domains listed, then this TIdP will be invoked via an authentication request (SAML, OIDC or OAuth as appropriate), <span style="font-weight:bold;">Example</span> = idmelon.com</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Issuer : Show in Login panel, idp\_issuer\_uri
 
-<div align="center">
-    <img src="/images/vendor/sso/onelogin_sso2.png" class="doc-img-frame">
-</div>
+- Email Domains : The Email Domains field is used to automatically invoke this Trusted IdP when a user enters their
+  email
+  address at login time - if the email address is unrecognized, but belongs to one of the domains listed, then this TIdP
+  will be invoked via an authentication request (SAML, OIDC or OAuth as appropriate), Example = idmelon.com
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>To enable Standard mode, check Sign users into OneLogin. This allows inbound identities from the Identity Provider to be matched to local user accounts within the tenant, via responses to the /access/idp endpoint.</p>
-      </div>
-    </div>
-  </div>
-</div>
+<img src="/images/vendor/sso/onelogin_sso2.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>To send the user identity within the authentication request sent to the Trusted Identity Provider, check Send Subject Name ID or Login Hint in Auth Request: if the Trusted IdP is configured to use SAML, then the authentication request is sent as a Subject NameID parameter whilst if OIDC or OAuth is used, the same information is sent as a query string parameter called login\_hint. This feature is to provide an improved user experience by avoiding the need for the user to provide an identifier to both OneLogin and the Trusted IdP.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- To enable Standard mode, check Sign users into OneLogin. This allows inbound identities from the Identity Provider to
+  be
+  matched to local user accounts within the tenant, via responses to the /access/idp endpoint.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Sign users into OneLogin</p>
-      </div>
-    </div>
-  </div>
-</div>
+- To send the user identity within the authentication request sent to the Trusted Identity Provider, check Send Subject
+  Name ID or Login Hint in Auth Request: if the Trusted IdP is configured to use SAML, then the authentication request
+  is
+  sent as a Subject NameID parameter whilst if OIDC or OAuth is used, the same information is sent as a query string
+  parameter called login\\\_hint. This feature is to provide an improved user experience by avoiding the need for the
+  user
+  to provide an identifier to both OneLogin and the Trusted IdP.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Send Subject Name ID or Login Hint in Auth Request</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Sign users into OneLogin
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>SAML - hard-coded to extract the SAML Subject NameID. It can't be changed.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Send Subject Name ID or Login Hint in Auth Request
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">User Attribute Mapping :</span> Email</p>
-      </div>
-    </div>
-  </div>
-</div>
+- SAML - hard-coded to extract the SAML Subject NameID. It can't be changed.
 
-<div align="center">
-    <img src="/images/vendor/sso/onelogin_sso3.png" class="doc-img-frame">
-</div>
+- User Attribute Mapping : Email
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
-If you are currently login here, you will see the replaced values instead.</p>
+<img src="/images/vendor/sso/onelogin_sso3.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">IdP Login URL :</span> idp_single_sign_on_url</p>
-      </div>
-    </div>
-  </div>
-</div>
+Get all values for {..} from your IDmelon panel.
+If you are currently login here, you will see the replaced values instead.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">IdP Logout URL :</span> idp_single_sign_on_url</p>
-      </div>
-    </div>
-  </div>
-</div>
+- IdP Login URL : idp\_single\_sign\_on\_url
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">IdP Issuer URI</span> idp_issuer_uri</p>
-      </div>
-    </div>
-  </div>
-</div>
+- IdP Logout URL : idp\_single\_sign\_on\_url
 
-<p class="note-body"><span style="font-weight:bold;">Note :</span> please save the configuration then scroll it to continue with certificate part.</p>
+- IdP Issuer URI idp\_issuer\_uri
+
+Note : please save the configuration then scroll it to continue with certificate part.
 
 ## IDmelon SAML configuration
 
-<hr class="hr-line">
+* * *
 
 You should copy values of below fields from the Okta panel to the IDmelon Panel:
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">entity id:</span> <span style="font-weight:bold;">Copy</span> SP Entity ID</p>
-      </div>
-    </div>
-  </div>
-</div>
+- entity id: Copy SP Entity ID
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">single log out:</span> <span style="font-weight:bold;">Copy</span> SP logout url</p>
-      </div>
-    </div>
-  </div>
-</div>
+- single log out: Copy SP logout url
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Assertion Consumer Service URL :</span> <code class="code-back">https://{your custom subdomain}.onelogin.com/access/idp</code></p>
-      </div>
-    </div>
-  </div>
-</div>
+- Assertion Consumer Service URL : `https://{your custom subdomain}.onelogin.com/access/idp`
 
-<div align="center">
-    <img src="/images/vendor/sso/onelogin_sso4.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/onelogin_sso4.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Choose :</span> X.509 Certificate = Standard Strength Certificate (2048-bit)</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Choose : X.509 Certificate = Standard Strength Certificate (2048-bit)
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Choose :</span> X.509 Certificate = Standard Strength Certificate (2048-bit)</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Choose : X.509 Certificate = Standard Strength Certificate (2048-bit)
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Click on</span> View Details</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on View Details
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Choose :</span> SHA256</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Choose : SHA256
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Download :</span> X.509 Certificate</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Download : X.509 Certificate
 
-<div align="center">
-    <img src="/images/vendor/sso/onelogin_cert.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/onelogin_cert.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on <span style="font-weight:bold;">Save</span></p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on Save
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Trusted IdP Certificate :<code class="code-back">idp_certificate_download_url</code></p>
-      </div>
-    </div>
-  </div>
-</div>
+- Trusted IdP Certificate :`idp_certificate_download_url`
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">JIT :</span> Enable, Set User TIDP after user creation</p>
-      </div>
-    </div>
-  </div>
-</div>
+- JIT : Enable, Set User TIDP after user creation
 
-<div align="center">
-    <img src="/images/vendor/sso/onelogin_jit.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/onelogin_jit.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enable</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Enable
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Set User TIDP after user creation</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Set User TIDP after user creation
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on <span style="font-weight:bold;">Save</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on Save.
 
 ## Enable SSO
 
-<hr class="hr-line">
+* * *
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on <span style="font-weight:bold;">More Actions</span> then Click on <span style="font-weight:bold;">Set as default Trusted Idp</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on More Actions then click on Set as default Trusted Idp.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>this option will activate sso for<span style="font-weight:bold;">all users.</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- this option will activate sso for all users..
 
-<div align="center">
-    <img src="/images/vendor/sso/sso_onelogin.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/sso_onelogin.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">OR</span> <span style="font-weight:bold;">Enable sso</span> for special users.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- OR Enable sso for special users.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on special<span style="font-weight:bold;">user</span> then Click on <span style="font-weight:bold;">Authentication</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on specialuser then Click on Authentication.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Choose<span style="font-weight:bold;"> Custom Trusted IDP</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Choose Custom Trusted IDP.
 
-<div align="center">
-    <img src="/images/vendor/sso/sso_onelogin1.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/sso_onelogin1.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on<span style="font-weight:bold;"> Save</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on Save.
 
 ## API Token
 
-<hr class="hr-line">
+* * *
 
-<p style="font-weight:bold;">GET API Token for user provisioning in OneLogin<p>
+- GET API Token for user provisioning in OneLogin
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on<span style="font-weight:bold;"> Developers </span>then <span style="font-weight:bold;">API Credentials</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on Developers then API Credentials.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on<span style="font-weight:bold;"> New Credential </span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on New Credential .
 
-<div align="center">
-    <img src="/images/vendor/sso/onelogin_api.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/onelogin_api.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Choose Custom<span style="font-weight:bold;"> Name</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Choose Custom Name.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click on<span style="font-weight:bold;"> Manage all</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on Manage all.
 
-<div align="center">
-    <img src="/images/vendor/sso/onelogin_api1.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/onelogin_api1.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Save</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+Save.
 
-**Custom name API**   **Copy** Client ID
+**Custom name API Copy** Client ID
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Copy <span style="font-weight:bold;">Client Secret</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div align="center">
-    <img src="/images/vendor/sso/onelogin_api2.png" class="doc-img-frame">
-</div>
+- Copy Client Secret.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Done</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+<img src="/images/vendor/sso/onelogin_api2.png" class="doc-img-frame">
+
+- Done.

@@ -5,7 +5,7 @@ lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
-images: []
+images: [ ]
 menu:
   docs:
     parent: "ssoforsso"
@@ -18,80 +18,79 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-<p>In this document you are going to set up <span class="code-back">IDmelon</span> as an external IdP to the <span class="code-back">Office</span>.</p>
+In this document you are going to set up IDmelon as an external IdP to the Office.
 
 ## Execute these commands in the Windows Power Shell
 
-<hr class="hr-line">
+* * *
 
-<p><span class="code-back">$cred = Get-Credential</span></p>
+`$cred = Get-Credential`
 
-<p><span class="code-back">Connect-MsolService -Credential $cred</span></p>
+`Connect-MsolService -Credential $cred`
 
-<p>Get-MsolDomain</p>
+`Get-MsolDomain`
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.</br>
-If you are currently login here, you will see the replaced values instead.</p>
+Get all values for {..} from your IDmelon panel.
+If you are currently login here, you will see the replaced values instead.
 
-<div>
-<pre class="code-back">
-$dom = domain</br>
-$uri = idp_issuer_uri <br>
-$url = idp_single_sign_on_ur<br>
-$logouturl = idp_single_sign_on_url<br>
-$cert = idp_certificate_download_url <br>
-</pre>
-</div>
+```
+$dom = domain
 
-<div>
-<pre class="code-back">
+$uri = idp_issuer_uri
+
+$url = idp_single_sign_on_ur
+
+$logouturl = idp_single_sign_on_url
+
+$cert = idp_certificate_download_url
+```
+
+```
 Set-MsolDomainAuthentication -DomainName $dom -FederationBrandName $dom -Authentication Federated
 -PassiveLogOnUri $url -SigningCertificate $cert -IssuerUri $uri -LogOffUri $logouturl
--PreferredAuthenticationProtocol SAMLP</pre>
-</div>
+-PreferredAuthenticationProtocol SAMLP
+```
 
-<p>Check your SAML configuration</p>
+Check your SAML configuration
 
-<p style="font-weight:bold;">the result is :</p>
+the result is :
 
-<div>
-<pre class="code-back">
+```
 $dom = domain
 Get-MSolDomainFederationSettings -DomainName $dom | Format-List *
-</pre>
-</div>
+```
 
-### You need to set Set ImmutableID for your current user
+### You need to Set ImmutableID for your current user
 
-<hr class="hr-line">
+* * *
 
-<p>Example of users.csv csv file:</p>
+Example of users.csv file:
 
 UserPrincipalName
-<div class="code-back">
-<code>sample@vancosys.com; </code></br>
-<code>example@vancosys.com; </code>
-</div>
+
+```
+sample@vancosys.com;
+example@vancosys.com;
+```
 
 ### Load CSV
 
-<hr class="hr-line">
+* * *
 
-<div class="code-back">
-<code>$csvFile = Import-Csv C:\\idmelon\\users.csv -Delimiter ";"</code>
-</div>
+`$csvFile = Import-Csv C:\\idmelon\\users.csv -Delimiter ";"`
 
 ### Create arrays for skipped and failed users
 
-<div class="code-back">
-<code>$SkippedUsers = @()</code></br>
-<code>$FailedUsers = @()</code>
-</div>
+```
+$SkippedUsers = @()
+$FailedUsers = @()
+```
 
 ### Loop through CSV records
 
-<hr class="hr-line">
-<pre class="code-back">
+* * *
+
+```
     foreach ($item in $csvFile) {
         $upn = $item.UserPrincipalName
         $UserPrincipalName =  (Get-MsolUser -UserPrincipalName  $upn  | select UserPrincipalName).UserPrincipalName
@@ -110,233 +109,70 @@ UserPrincipalName
         }
     }
     foo()
-
-</pre>
+```
 
 ### Show result
 
-<hr class="hr-line">
+* * *
 
-<pre class="code-back">
-Get-MsolUser -all | Select-Object UserprincipalName,objectID,ImmutableID
-</pre>
+`Get-MsolUser -all | Select-Object UserprincipalName,objectID,ImmutableID`
 
 ## Passwordless
 
-<hr class="hr-line">
+* * *
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Open</span> Azure directory admin.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Open Azure directory admin.
 
-<div align="center">
-    <img src="/images/vendor/sso/office_passless.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/office_passless.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Click on</span> users.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on users.
 
-<div align="center">
-    <img src="/images/vendor/sso/office_passless1.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/office_passless1.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Choose</span> a user.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Choose a user.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Click on</span> Authentication methods.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Click on Authentication methods.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Delete</span> Authentication method option.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Delete Authentication method option.
 
-<div align="center">
-    <img src="/images/vendor/sso/office_passless2.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/office_passless2.png" class="doc-img-frame">
 
 ## API Token
 
-<p>From the side menu, navigate to the <span class="code-back">App registrations</span> menu and click <span class="code-back">New registrations</span>.</p>
+From the side menu, navigate to the App registrations menu and click New registrations.
 
-<div align="center">
-    <img src="/images/vendor/sso/office_token_01.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/office_token_01.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enter the desired name for your Application.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Enter the desired name for your Application.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Then from <span class="code-back">Supported account types</span> select who can use your API.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="mx-3">
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Tip :</span> for more information of the choices please select <span style="font-weight:bold;">Help me Choose...</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+- Then from Supported account types select who can use your API.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click <span style="font-weight:bold;">Register</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+**Tip :** for more information of the choices please select **Help me Choose....**
 
-<div align="center">
-    <img src="/images/vendor/sso/office_token_02.png" class="doc-img-frame">
-</div>
+- Click Register.
 
-<p>Then you can see your API information, which you have Copy and send these informations to idmelon.</p>
+<img src="/images/vendor/sso/office_token_02.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Copy <span style="font-weight:bold;">Application (client) ID</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+Then you can see your API information, which you have Copy and send these informations to idmelon.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Copy <span style="font-weight:bold;">Directory (tenant) ID</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Copy **Application (client) ID**.
 
-<p>Then please for accessing to <span style="font-weight:bold;">Client Secret</span> click <span style="font-weight:bold;">Add a certificate or secret</span> in Client credentials field.</p>
+- Copy **Directory (tenant) ID**.
 
-<div align="center">
-    <img src="/images/vendor/sso/office_token_03.png" class="doc-img-frame">
-</div>
+Then please for accessing to Client Secret click Add a certificate or secret in Client credentials field.
 
-<p>From <span style="font-weight:bold;">Certificate & secrets</span> panel please click on <span style="font-weight:bold;">New client secret</span> :</p>
+<img src="/images/vendor/sso/office_token_03.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enter the desired description for your client secret.</p>
-      </div>
-    </div>
-  </div>
-</div>
+From **Certificate & secrets** panel please click on **New client secret** :
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click <span class="code-back">Add</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Enter the desired description for your client secret.
 
-<div align="center">
-    <img src="/images/vendor/sso/office_token_04.png" class="doc-img-frame">
-</div>
+- Click Add.
 
-<p>Finally you can Copy your <span style="font-weight:bold;">client secret</span> from Client credentials field.</p>
+<img src="/images/vendor/sso/office_token_04.png" class="doc-img-frame">
 
-<div align="center">
-    <img src="/images/vendor/sso/office_token_05.png" class="doc-img-frame">
-</div>
+Finally, you can Copy your client secret from Client credentials field.
 
-<p class="note-body"><span style="font-weight:bold;">Please send these infromation to idmelon, in order to get your users from office panel.</span></p>
+<img src="/images/vendor/sso/office_token_05.png" class="doc-img-frame">
+
+Please send these information to IDmelon, in order to get your users from office panel.

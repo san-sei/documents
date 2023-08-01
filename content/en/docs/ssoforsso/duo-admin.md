@@ -5,7 +5,7 @@ lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
 draft: false
-images: []
+images: [ ]
 menu:
   docs:
     parent: "ssoforsso"
@@ -18,316 +18,75 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-<p>In this document you are going to set up <span class="code-back">IDmelon</span> as an external IdP to the <span class="code-back">Duo Admin</span>.</p>
+In this document you are going to set up IDmelon as an external IdP to the Duo Admin.
 
-### Login to  Duo Admin administration panel
+### Login to Duo Admin administration panel
 
-<hr class="hr-line">
+---
 
-<p>To enable administrator SSO:<p>
+To enable administrator SSO:
 
-<p><span style="font-style: italic;">Role required<span> : Owner</p>
+*Role required*: Owner
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Log in to the <a href="https://admin.duosecurity.com" style="font-size:16px;">Duo Admin Panel</a>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Log in to the [Duo Admin Panel](https://admin.duosecurity.com).
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click <span style="font-weight:bold">Administrators</span> in the left sidebar, and then click <span style="font-weight:bold">Admin Login Settings</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+2. Click **Administrators** in the left sidebar, and then click **Admin Login Settings**.
 
-<div align="center">
-    <img src="/images/vendor/sso/duo_idp_01.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/duo_idp_01.png" class="doc-img-frame">
 
 ### Add Identity Provider
 
-<hr class="hr-line">
+---
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Then Scroll to the <span style="font-weight:bold">Single Sign-On with SAML Configuration</span> section of the "Administrator Login Settings" page.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Scroll to the **Single Sign-On with SAML Configuration** section of the "Administrator Login Settings" page.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Enable SSO by changing the "Authentication with SAML" setting. The options for this setting are:</p>
-      </div>
-    </div>
-  </div>
-</div>
+2. Enable SSO by changing the "Authentication with SAML" setting. The options for this setting are:
 
-<div class="mx-3">
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold">Disabled</span></p>
-      </div>
-    </div>
-  </div>
-</div>
+- **Disabled**
+- **Optional**
+- **Required**
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold">Optional</span></p>
-      </div>
-    </div>
-  </div>
-</div>
+<img src="/images/vendor/sso/duo_idp_02.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold">Required</span></p>
-      </div>
-    </div>
-  </div>
-</div>  
-</div>
+Selecting the **Optional** or **Required** SAML authentication option exposes the rest of the SSO configuration form.
+You'll need to enter below information about **IDmelon identity provider** in the **SAML Identity Provider Settings**
+section:
 
-<div align="center">
-    <img src="/images/vendor/sso/duo_idp_02.png" class="doc-img-frame">
-</div>
-
-Selecting the **Optional** or **Required** SAML authentication option exposes the rest of the SSO configuration form. You'll need to enter below information about **IDmelon identity provider** in the **SAML Identity Provider Settings** section:
-
-Identity provider: Custom Identity Provider
-
-Configuration method: **Manual entry**
+- Identity provider: Custom Identity Provider
+- Configuration method: **Manual entry**
 
 ### Configure SAML 2.0 IdP
 
-<hr class="hr-line">
+---
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
-If you are currently login here, you will see the replaced values instead.
-</p>
+> Get all values for `{..}` from your IDmelon panel.
+> If you are currently login here, you will see the replaced values instead.
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Entity ID or issuer ID: idp_issuer_uri</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Entity ID or issuer ID: idp_issuer_uri
+2. Assertion consumer service URL or single sign-on URL: idp_single_sign_on_url
+3. Single logout URL: idp_single_sign_on_url
+4. Certificate: idp_certificate_download_url
+5. Encrypt assertions: Require unencrypted assertions
+6. Request signing: sign messages from Duo
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Assertion consumer service URL or single sign-on URL: idp_single_sign_on_url</p>
-      </div>
-    </div>
-  </div>
-</div>
+<img src="/images/vendor/sso/duo_idp_03.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Single logout URL: idp_single_sign_on_url</p>
-      </div>
-    </div>
-  </div>
-</div>
+7. SHA-1 signatures: Uncheck
+8. Signed elements: Everything must be signed
+9. Click Save
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Certificate: idp_certificate_download_url</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Encrypt assertions: Require unencrypted assertions</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Request signing: sign messages from Duo</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/sso/duo_idp_03.png" class="doc-img-frame">
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>SHA-1 signatures: Uncheck</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Signed elements: Everything must be signed</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click Save</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/sso/duo_idp_04.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/duo_idp_04.png" class="doc-img-frame">
 
 ## IDmelon SAML configuration
 
-<hr class="hr-line">
+---
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>You should Download <span class="code-back" style="font-weight:bold">metadata</span> file(XML file) and <span class="code-back" style="font-weight:bold">copy values</span> of below fields from this <span  style="font-weight:bold">Duo panel</span> to <span style="font-weight:bold">IDmelon Panel</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+You should Download `metadata` file (XML file) and `copy values` of below fields from this **Duo panel** to **IDmelon
+Panel**.
 
-<div align="center">
-    <img src="/images/vendor/sso/duo_idp_05.png" class="doc-img-frame">
-</div>
+<img src="/images/vendor/sso/duo_idp_05.png" class="doc-img-frame">
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Copy <span style="font-weight:bold">Entity ID or Issuer ID</span></p>
-      </div>
-    </div>
-  </div>
-</div>
+1. Copy **Entity ID or Issuer ID**
+2. Copy **Assertion consumer service or single sign-on URL**
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Copy <span style="font-weight:bold">Assertion consumer service or single sign-on URL</span></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>You should copy values of below fields from this <span style="font-weight:bold">Duo panel</span> to <span style="font-weight:bold">IDmelon Panel</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+You should copy values of above fields from Duo panel to IDmelon Panel.
