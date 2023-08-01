@@ -5,7 +5,7 @@ lead: ""
 date: 2022-01-25T14:40:56+01:00
 lastmod: 2022-01-25T14:40:56+01:00
 draft: false
-images: []
+images: [ ]
 menu:
   docs:
     parent: "versionsupport"
@@ -13,123 +13,29 @@ type: docs
 weight: 71
 ---
 
-Browser support for WebAuthn is constantly improving. You can find an overview of  IDmelon Authenticator support as a FIDO2.0 Authenticator on this page.
+Browser support for WebAuthn is constantly improving. You can find an overview of IDmelon Authenticator support as a
+FIDO2.0 Authenticator on this page.
 
 ## Version Table
 
-<hr class="hr-line">
+* * *
 
-<div class="tableV2">
-<table class="tableV2">
-        <thead class="theadV2">
-          <tr class = "trV2">
-          <th class="thw_s thV2"></th>
-          <th class=" thV2 ">Windows 10 <span class="small">(V 18362+)</span></th>
-          <th class=" thV2 ">Windows 11 </th>
-          <th class=" thV2 ">macOS 13 ventura</th>
-          <th class=" thV2 ">Desktop Linux</th>
-          <th class="thw_e thV2 lastChild ">Chrome OS</th>
-        </tr></thead>
-        <tbody class="tbodyV2">
-          <tr class = "trV2">
-            <td class="firstChild">Chrome</th>
-            <td class="tdV2 tdV2y">Yes<span class="small">(v 107)</span></td>
-            <td class="tdV2 tdV2y">Yes</td>
-            <td class="tdV2 tdV2y">Yes<span class="small">(v 107)</span></td>
-            <td class="tdV2 tdV2y">Yes</td>
-            <td class="tdV2"></td>
-          </tr>
-          <tr class="trV2">
-            <td class="firstChild">Safari</th>
-            <td class="tdV2 tdV2y">Yes</td>
-            <td class="tdV2 tdV2y">Yes</td>
-            <td class="tdV2 tdV2y">Yes<span class="small">(v 16.1)</span></td>
-            <td class="tdV2"></td>
-            <td class="tdV2"></td>
-          </tr>
-          <tr class = "trV2">
-            <td class="firstChild">Firefox</th>
-            <td class="tdV2 tdV2y">Yes</td>
-            <td class="tdV2 tdV2y">Yes</td>
-            <td class="tdV2 tdV2n">No</td>
-            <td class="tdV2"></td>
-            <td class="tdV2"></td>
-          </tr>
-          <tr class = "trV2">
-            <td class="firstChild">Brave</th>
-            <td class="tdV2 tdV2y">Yes</td>
-            <td class="tdV2 tdV2y">Yes</td>
-            <td class="tdV2"></td>
-            <td class="tdV2"></td>
-            <td class="tdV2"></td>
-          </tr>
-          <tr class = "trV2">
-            <td class="firstChild">Edge</th>
-            <td class="tdV2 tdV2y">Yes</td>
-            <td class="tdV2 tdV2y">Yes</td>
-            <td class="tdV2"></td>
-            <td class="tdV2"></td>
-            <td class="tdV2"></td>
-          </tr>
-        </tbody>
-      </table>
-</div>
-
-<style>
-</style>
+|         | Windows 10<br/>(v18362+) | Windows 11 | macOS 13 ventura | Desktop Linux | Chrome OS |
+|---------|:------------------------:|:----------:|:----------------:|:-------------:|:---------:|
+| Chrome  |      Yes<br/>(v107)      |    Yes     |  Yes<br/>(v107)  |      Yes      |           |
+| Safari  |           Yes            |    Yes     | Yes<br/>(v16.1)  |               |           |
+| Firefox |           Yes            |    Yes     |        No        |               |           |
+| Brave   |           Yes            |    Yes     |                  |               |           |
+| Edge    |           Yes            |    Yes     |                  |               |           |
 
 ## Read more
 
-<hr class="hr-line">
+* * *
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <a href="https://fidoalliance.org/fido2/fido2-web-authentication-webauthn/" style="font-size:16px;">Fido Aliance</a>
-      </div>
-    </div>
-  </div>
-</div>
+[Fido Aliance](https://fidoalliance.org/fido2/fido2-web-authentication-webauthn/)
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API#authenticatorresponse" style="font-size:16px;">Mozilla Developer Network</a>
-      </div>
-    </div>
-  </div>
-</div>
+[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API#authenticatorresponse)
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <a href="https://caniuse.com/?search=webauthn" style="font-size:16px;">Caniuse</a>
-      </div>
-    </div>
-  </div>
-</div>
+[Caniuse](https://caniuse.com/?search=webauthn)
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <a href="https://webauthn.me/browser-support" style="font-size:16px;">Webauthn.me</a>
-      </div>
-    </div>
-  </div>
-</div>
+[Webauthn.me](https://webauthn.me/browser-support)
