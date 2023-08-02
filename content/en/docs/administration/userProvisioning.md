@@ -1,6 +1,6 @@
 ---
 title: "User Provisioning"
-description: "provisioning,OBR, login on behalf of an other user"
+description: "Provisioning, OBR, login on behalf of another user"
 lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
@@ -18,111 +18,62 @@ toc: true
   <img class="modal-content" id="img01">
 </div>
 
-## Prerequisite for Azure User Provisioning
+## Prerequisites for Azure User Provisioning
 
 <hr class="hr-line">
 
-<p>This feature will help administrators register their user's security key on their account on their behalf, so the user can immediately use the security key to access their account without any registration efforts.To use this feature, the following conditions should be met:</p>
+This feature helps administrators register their users' security keys on their accounts on their behalf, so the users can immediately use the security keys to access their accounts without any registration efforts.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Pairing App Software</span>  should be installed on the PC you want to use to register a credential for user. Download from <a href="https://idmelon.com/docs/downloads" style="font-size:16px;" target="_blank">here</a>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+## RP Provisioning
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Temporary access pass</span>  should be enabled for your Azure AD workspace for all users or at least for the ones you want to register on their behalf. You can find more details on this <a href="https://learn.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-temporary-access-pass" style="font-size:16px;" target="_blank">here</a>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+Azure user provisioning can be done in two ways: automatically or manually. Right now, the automatic method is still in the preview phase, but it offers a big advantage by saving you the trouble of manually registering a credential for multiple users. In the rest of this document, we'll guide you through the steps for both automatic and manual user provisioning in Microsoft.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>The target user should be imported from Azure AD, using <span style="font-weight:bold;">Import from Azure AD</span> option in <span style="font-weight:bold;">Users & Security Keys</span>, or be synced with Azure AD, so that there is an equivalent user in your Azure AD.</p>
-      </div>
-    </div>
-  </div>
-</div>
+> To register Microsoft credentials for users, you should start by importing your users from Azure AD following the instructions provided in this guideline: [Import from Azure AD](../administration/enrollment.md/#import-from-azure-ad).
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>When an IDmelon administrator tries to import users from Azure AD for the first time, they will be asked to log in to Azure to grant necessary permissions. The admin who is doing so cannot provision themself in IDmelon, as Azure prevents this action. For example, if <a style="font-size:16px;">michael@sunstore.ca</a> is used to import users from Azure AD, this user can't be provisioned from IDmelon Panel.</p>
-      </div>
-    </div>
-  </div>
-</div>
+## Automated RP Provisioning
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>The target user should be assigned a passkey security key, but it is not necessary to be activated in IDmelon Admin Panel.</p>
-      </div>
-    </div>
-  </div>
-</div>
+After importing users from Azure AD, you can easily register a Microsoft credential for a user by following these simple steps:
 
-## Azure User Provisioning Steps
+1. Go to **Security Key Management** and click on the **Users** menu.
+
+2. Select the checkbox next to a non-*new user* (ensure the user has been imported from Azure AD).
+
+    > By non-new user we simply mean the target user should be assigned a passkey security key, but activation in the IDmelon Admin Panel is not necessary.
+
+3. Once the user is checked, click on **Automated RP Provisioning** in the action bar above the table.
+
+4. In the dialog that opens, choose **Microsoft** and click the **Submit** button.
+
+Once you've completed these steps, you'll see a loading bar at the top of the page indicating the status of your request. Please be patient as the process may take a few seconds to a couple of minutes.
+
+> **Notice:** The automated process is still in preview. If it fails, don't worry, just try again. We are continuously working to make the process faster and more reliable.
+
+## Manual RP Provisioning
 
 <hr class="hr-line">
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click a user you have imported from Azure AD to see user's details page and from the top choose <strong>User Provisionin</strong>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+### Prerequisite
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>A wizard will ask you to select a service and say that OBR will be enabled, and as long as it is so, any credential registration will take place on the selected user's security key. Select <strong>Microsoft Azure</strong> and follow the instructions.</p>
-      </div>
-    </div>
-  </div>
-</div>
+Before you begin the manual RP provisioning process, make sure you have completed the following steps:
 
-<div align="center">
-  <img src="/images/vendor/Panel/userprovisioning/user_prov_2.png" class="doc-img-frame">
-</div>
+1. Install the **Pairing Tool Software** on your PC. You can download it from [here](https://idmelon.com/docs/downloads).
 
-<div align="center">
-  <img src="/images/vendor/Panel/userprovisioning/user_prov_3.png" class="doc-img-frame">
-</div>
+2. Enable **Temporary Access Pass** for your Azure AD workspace. This should be enabled for all users or at least for the ones you want to register on their behalf. For more details, refer to [this link](https://learn.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-temporary-access-pass).
+
+3. Note that when an IDmelon administrator imports users from Azure AD for the first time, they will be required to log in to Azure to grant necessary permissions. The admin who performs this action cannot provision themselves in IDmelon because Azure restricts this action. For example, if the email used for importing users is [michael@sunstore.ca](mailto:michael@sunstore.ca), this user cannot be provisioned from the IDmelon Panel.
+
+4. The target user should be assigned a passkey security key, but activation in the IDmelon Admin Panel is not necessary.
+
+### Steps to Perform
+
+Follow these steps to manually register a Microsoft credential for a user:
+
+1. Go to **Security Key Management** and click on the **Users** menu.
+
+2. Click on a user that you have previously imported from Azure AD to access the user's details page.
+
+3. From the top of the page, choose **Automated RP Provisioning**.
+
+4. Select **Microsoft** and check the **Manual** checkbox.
+
+5. Follow the instructions provided to complete the manual RP provisioning process.
