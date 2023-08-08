@@ -1,11 +1,23 @@
+{{/*  The conditional replacement of IDmelon based on buildFor parameter is messy. As a TODO fix someone should find a clean way to replace this. This was done due to time constraints. */}}
+
 {{ define "main" }}
 <section class="section mt-n3 pb-0">
   <div class="row justify-content-start">
     <div class="home-top-holder">
-      <h1 class="justify-content-start mt-0">IDmelon Documentation</h1>
+    <h1 class="justify-content-start mt-0">{{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }} Documentation</h1>
     </div>
     <div class="text-center">
-      <p class="lead text-start" style="font-size:18px;">IDmelon provides Security Key as a Service based on FIDO2 standard. {{ .Params.lead | safeHTML }}</p>
+      <p class="lead text-start" style="font-size:18px;">{{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }} provides Security Key as a Service based on FIDO2 standard. {{ .Params.lead | safeHTML }}</p>
     </div>
   </div>
 </section>
@@ -14,7 +26,12 @@
     <div class="home-page-card card-transition text-dark my-2 home-card-body" >
       <div class="card-body">
         <h3 class="card-title my-3 text-lg-start" style="font-size:18px;">For Adminstrators</h3>
-        <p class="card-text my-3 text-start fs-6" style="font-size:18px;">IDmelon Administration panel gives admins the ability to manage users and groups, assign security keys based on different devices (smartphone, contactless card, and any other type of hardware security keys), apply security policies and make necessary changes by viewing reports.</p>
+        <p class="card-text my-3 text-start fs-6" style="font-size:18px;">{{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }} Administration panel gives admins the ability to manage users and groups, assign security keys based on different devices (smartphone, contactless card, and any other type of hardware security keys), apply security policies and make necessary changes by viewing reports.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}administration/introduction/" class="stretched-link"></a>
       </div>
       <a class="read-more">Read more...</a>
@@ -27,18 +44,33 @@
       </div>
       <a class="read-more">Read more...</a>
     </div>
-    <div class="home-page-card card-transition text-dark text-center my-2 home-card-body" >
+    {{/*  <div class="home-page-card card-transition text-dark text-center my-2 home-card-body" >
       <div class="card-body">
         <h3 class="card-title my-3 text-start" style="font-size:18px;">For Personal Users</h3>
-        <p class="card-text my-3 text-start fs-6" style="font-size:18px;">IDmelon Security Key as a Service also allows you as an individual user to easily turn your smartphones into a security key and use it to protect your online accounts on a daily basis.</p>
+        <p class="card-text my-3 text-start fs-6" style="font-size:18px;">{{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }} Security Key as a Service also allows you as an individual user to easily turn your smartphones into a security key and use it to protect your online accounts on a daily basis.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}individuals/quick-start/" class="stretched-link"></a>
       </div>
       <a class="read-more">Read more...</a>
-    </div>
+    </div>  */}}
     <div class="home-page-card text-dark card-transition text-center my-2 home-card-body" >
       <div class="card-body">
         <h3 class="card-title my-3 text-start" style="font-size:18px;">For Security Experts</h3>
-        <p class="card-text my-3 text-start fs-6" style="font-size:18px;">In addition to all the security measures observed in the design and development of IDmelon solutions, the security details considered in the FIDO standard can also help you as a security expert to ensure the security of passwordless solutions based on FIDO, such as IDmelon.</p>
+        <p class="card-text my-3 text-start fs-6" style="font-size:18px;">In addition to all the security measures observed in the design and development of {{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }} solutions, the security details considered in the FIDO standard can also help you as a security expert to ensure the security of passwordless solutions based on FIDO, such as {{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }}.</p>
         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}scrty/fido/" class="stretched-link"></a>
       </div>
       <a class="read-more">Read more...</a>
@@ -53,10 +85,20 @@
       <div class="row justify-content-start row-cols-1 mb-3">
         <div class="text-center">
           <!--<p class="lead">{{ .Params.lead | safeHTML }}</p>-->
-          <p class="lead text-start" style="font-size:18px;">You can pair your Mobile App to IDmelon Pairing Tool or you can use IDmelon Reader to experianace passwordless authentication.</p>
+          <p class="lead text-start" style="font-size:18px;">You can pair your Mobile App to {{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }} Pairing Tool or you can use {{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }} Reader to experianace passwordless authentication.</p>
         </div>
       </div>
-      <div class="row">
+      {{/*  <div class="row">
         <div class="mt-3">
             <div class="home-page-card card-transition-2">
                 <div class="card-horizontal">
@@ -64,7 +106,12 @@
                         <img alt="Card image cap" class="card-img-size mobile-app-logo-container">
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title pt-3" style="font-size:18px;">IDmelon Moblie App</h4>
+                        <h4 class="card-title pt-3" style="font-size:18px;">{{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }} Moblie App</h4>
                         <p class="card-text card-text-container" style="font-size:18px;">Use your smartphones as a FIDO2 hardware security key and enjoy passwordless login experience with only a single tap or a single click on a push notification.
                          <br>
                          <a class="wide-car-read-more">Read more...</a>
@@ -74,8 +121,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
+    </div>  */}}
+    {{/*  <div class="row">
         <div class="mt-3">
             <div class="home-page-card card-transition-2">
                 <div class="card-horizontal">
@@ -83,7 +130,12 @@
                         <img alt="Card image cap" class="card-img-size paring-tool-logo-container">
                     </div>
                     <div class="card-body">
-                        <h3 class="card-title pt-3" style="font-size:18px;">IDmelon Pairing Tool</h3>
+                        <h3 class="card-title pt-3" style="font-size:18px;">{{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }} Pairing Tool</h3>
                         <p class="card-text card-text-container" style="font-size:18px;">A piece of software which acts as a completely hardware-less authentication method to ensure you, that you are the only one who can have authorized access through your smartphone.
                          <br>
                          <a class="wide-car-read-more">Read more...</a>
@@ -93,8 +145,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
+    </div>  */}}
+    {{/*  <div class="row">
         <div class="mt-3">
             <div class="home-page-card card-transition-2">
                 <div class="card-horizontal">
@@ -102,17 +154,22 @@
                         <img alt="Card image cap" class="card-img-size reader-logo-container">
                     </div>
                     <div class="card-body">
-                        <h3 class="card-title pt-3" style="font-size:18px;">IDmelon Reader</h3>
+                        <h3 class="card-title pt-3" style="font-size:18px;">{{ with .Site.Params.buildFor }}
+        {{ $variables := getJSON (printf "data/%s-variables.json" .) }}
+        {{ $key := "IDmelon" }}
+        {{ $value := index $variables $key }}
+        {{ $value | safeHTML }}
+    {{ end }} Reader</h3>
                         <p class="card-text card-text-container" style="font-size:18px;">A piece of hardware with different modes of operation to let you use your smartphones as a security key. Enjoy the passwordless login experience with a single tap with a smartphone on the reader.
                          <br>
-                         <a class="wide-car-read-more">Read more...</a> 
+                         <a class="wide-car-read-more">Read more...</a>
                         </p>
                         <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}readeguide/reader/" class="stretched-link"></a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>  */}}
     </div>
   </section>
   {{ end }}

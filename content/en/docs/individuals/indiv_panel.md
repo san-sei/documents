@@ -11,6 +11,8 @@ menu:
     parent: "individuals"
 weight: 31
 toc: true
+display:
+  rfideas: false
 ---
 
 <div id="_modal" class="modal">
