@@ -1144,11 +1144,18 @@ tr.trV2 {
 }
 
 .logo-container{
-  content: url('/images/vendor/Homepage/IDmelonLogo.svg');
   background-repeat: no-repeat;
   background-size: 100px 28px;
   height: 28px;
   width: 100px;
+}
+
+.idmelon-logo {
+    content: url('/images/vendor/Homepage/IDmelonLogo-light.svg');
+}
+
+.rfideas-logo {
+    content: url('/images/vendor/Homepage/rfIdeasLogo-light.svg');
 }
 
 .mobile-app-logo-container{

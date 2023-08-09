@@ -467,12 +467,21 @@ line-height: 142.19%;
   }
 
   [data-dark-mode] .logo-container{
-    content: url('/images/vendor/Homepage/IDmelonLogo-light.Svg');
     background-repeat: no-repeat;
     background-size: 100px 28px;
     height: 28px;
     width: 100px;
   }
+
+
+
+[data-dark-mode] .idmelon-logo {
+    content: url('/images/vendor/Homepage/IDmelonLogo.svg');
+}
+
+[data-dark-mode] .rfideas-logo {
+    content: url('/images/vendor/Homepage/rfIdeasLogo.svg');
+}
 
   [data-dark-mode] .mobile-app-logo-container{
     content: url('/images/vendor/Homepage/IDmelon-Mobile-App-dark.svg');

@@ -8,10 +8,19 @@
 
 <div class="header-bar"></div>
 
+
+{{ $logoClass := "" }}
+{{ if eq .Site.Params.buildFor "idmelon" }}
+    {{ $logoClass = "idmelon-logo" }}
+{{ else if eq .Site.Params.buildFor "rfideas" }}
+    {{ $logoClass = "rfideas-logo" }}
+{{ end }}
+
+
 <header class="navbar navbar-expand-md navbar-light doks-navbar sticky-lg-top">
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-md-nowrap" aria-label="Main navigation">
     <a href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
-      <img class="p-0 logo-container" width="100px" height="25px"/>
+      <img class="p-0 logo-container {{ $logoClass }}" width="100px" height="25px"/>
     </a>
 
     <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
