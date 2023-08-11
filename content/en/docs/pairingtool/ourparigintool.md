@@ -13,7 +13,7 @@ weight: 50
 toc: true
 ---
 
-IDmelon Pairing Tool is a completely hardware-less authentication method that adds to ensure  that you, and only you, are the person who can have authorized access through your smartphone.
+{{< params "IDmelon" >}} Pairing Tool is a completely hardware-less authentication method that adds to ensure  that you, and only you, are the person who can have authorized access through your smartphone.
 
 You will need to downlad and install:
 

@@ -14,7 +14,7 @@ toc: true
 ---
 
 <p class="note-body">
-<span style="font-weight:bold;">Note</span>: IDmelon Pairing Tool is supported by windows 10.</p>
+<span style="font-weight:bold;">Note</span>: {{< params "IDmelon" >}} Pairing Tool is supported by windows 10.</p>
 
 ## Perpare
 
@@ -38,7 +38,7 @@ To set up, you will need to:
 ## Pair
 
 <hr class="hr-line">
-<p>To pair and use your smartphone as a security key with IDmelon Pairing Tool, follow below steps:</p>
+<p>To pair and use your smartphone as a security key with {{< params "IDmelon" >}} Pairing Tool, follow below steps:</p>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -47,7 +47,7 @@ To set up, you will need to:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Open IDmelon Pairing Tool on your computer and click on the <span style="font-weight:bold;">pair a new smartphone</span>.</p>
+        <p>Open {{< params "IDmelon" >}} Pairing Tool on your computer and click on the <span style="font-weight:bold;">pair a new smartphone</span>.</p>
       </div>
     </div>
   </div>

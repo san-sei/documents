@@ -177,7 +177,7 @@ Personal users have the option to upgrade their accounts:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you clicked on <span style="font-weight:bold;">Open email app</span> you will see an email from IDmelon which cintains the same content as you see in this image.</p>
+        <p>If you clicked on <span style="font-weight:bold;">Open email app</span> you will see an email from {{< params "IDmelon" >}} which cintains the same content as you see in this image.</p>
       </div>
     </div>
   </div>
@@ -535,7 +535,7 @@ If you did not receive any code, tap on **Resend**.
 
 <hr class="hr-line">
 
-<p>To use IDmelon Mobile App in combination with IDmelon Pairing Tool without the need for any hardware, download IDmelon Pairing Tool <a href="https://www.idmelon.com/download/" style="font-size:16px;">here</a> and follow below steps:<p>
+<p>To use IDmelon Mobile App in combination with {{< params "IDmelon" >}} Pairing Tool without the need for any hardware, download {{< params "IDmelon" >}} Pairing Tool <a href="https://www.idmelon.com/download/" style="font-size:16px;">here</a> and follow below steps:<p>
 
 <div class="step-row-container">
   <div class="step-column step-count-size">
@@ -557,7 +557,7 @@ If you did not receive any code, tap on **Resend**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Open IDmelon Pairing Tool on your computer and click on the pair a new smartphone.</p>
+        <p>Open {{< params "IDmelon" >}} Pairing Tool on your computer and click on the pair a new smartphone.</p>
       </div>
     </div>
   </div>
@@ -583,7 +583,7 @@ If you did not receive any code, tap on **Resend**.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Enter a name for your smartphone in the popup window on your computer screen and press OK to connect your smartphone to the IDmelon Pairing Tool.</p>
+        <p>Enter a name for your smartphone in the popup window on your computer screen and press OK to connect your smartphone to the {{< params "IDmelon" >}} Pairing Tool.</p>
       </div>
     </div>
   </div>

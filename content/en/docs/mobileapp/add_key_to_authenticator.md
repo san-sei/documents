@@ -1,5 +1,5 @@
 ---
-title: "Add a Key to IDmelon Authenticator"
+title: "Add a Key to ConvergeID Authenticator"
 description: ""
 lead: ""
 date: 2022-02-16T18:14:02-08:00
@@ -122,7 +122,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p>If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -267,7 +267,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p>If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -367,7 +367,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p>If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -509,7 +509,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p>If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -628,7 +628,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p>If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -770,7 +770,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p>If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -850,7 +850,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p>If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -1109,7 +1109,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p> If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p> If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -1230,7 +1230,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p> If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p> If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -1337,7 +1337,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p> If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p> If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -1476,7 +1476,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p>If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
@@ -1595,7 +1595,7 @@ You can add the following platforms to your securiy key.
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
+        <p>If you are using {{< params "IDmelon" >}} Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.</p>
       </div>
     </div>
   </div>
