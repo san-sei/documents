@@ -18,7 +18,7 @@ weight: 70
   <li class="v-card-bullet">Paring Tool</li>
   </ol>
   <p class="v-card-p">
-  IDmelon Pairing Tool is compatible with <b>windows 10 build 18362+</b> and <b>windows 11</b>.
+  {{< params "IDmelon" >}} Pairing Tool is compatible with <b>windows 10 build 18362+</b> and <b>windows 11</b>.
   It is also compatible with <b>OSX 11.4</b> above.
   </p>
 </div>

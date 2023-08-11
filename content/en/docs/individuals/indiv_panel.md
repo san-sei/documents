@@ -172,7 +172,7 @@ When you log in to your {{< params "IDmelon Panel" >}}, you can see your usernam
 ### Security
 
 <p>This page shows all the security keys that a user has connected to his/her account.<br></p>
-<p class="note-body"><span style="font-weight:bold;">Note : </span>Before trying to add a security key device to your account, install IDmelon Pairing Tool on your computer and pair your smartphone with it or have a Reader ready to use. To download <span style="font-weight:bold;">Pairing Tool</span> visit <a href="https://www.idmelon.com/downloads/" target="_blank" style="font-size:16px;">this link</a>. To ready your <span style="font-weight:bold;">Reader</span> visit <a href="https://www.idmelon.com/idmelon-reader/" target="_blank" style="font-size:16px;">this link</a>.</p>
+<p class="note-body"><span style="font-weight:bold;">Note : </span>Before trying to add a security key device to your account, install {{< params "IDmelon" >}} Pairing Tool on your computer and pair your smartphone with it or have a Reader ready to use. To download <span style="font-weight:bold;">Pairing Tool</span> visit <a href="https://www.idmelon.com/downloads/" target="_blank" style="font-size:16px;">this link</a>. To ready your <span style="font-weight:bold;">Reader</span> visit <a href="https://www.idmelon.com/idmelon-reader/" target="_blank" style="font-size:16px;">this link</a>.</p>
 <div class="step-row-container">
   <div class="step-column step-count-size">
     <p class="step-counter">1</p>

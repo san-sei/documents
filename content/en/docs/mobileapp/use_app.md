@@ -63,7 +63,7 @@ See the instructions below:
   <div class="card-column">
     <div class="step-text" >
       <div class="card-body">
-        <p>Scan a QR code from IDmelon Client app on the PC screen once on the first try to pair your smartphone with the PC and start experiencing Push Authentication!</p>
+        <p>Scan a QR code from {{< params "IDmelon" >}} Client app on the PC screen once on the first try to pair your smartphone with the PC and start experiencing Push Authentication!</p>
       </div>
     </div>
   </div>
@@ -400,7 +400,7 @@ If you did not receive any code, tap on **Resend**.
 </p>
 
 <p class="note-body">
-<span style="font-weight:bold;">Note</span>: IDmelon has set a time limit. If it takes too long to complete the activation process, the activation link in your email will expire, and you will have to start over again.
+<span style="font-weight:bold;">Note</span>: {{< params "IDmelon" >}} has set a time limit. If it takes too long to complete the activation process, the activation link in your email will expire, and you will have to start over again.
 </p>
 
 ## Upgrade to Business Account
