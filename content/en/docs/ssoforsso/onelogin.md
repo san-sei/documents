@@ -315,7 +315,7 @@ If you are currently login here, you will see the replaced values instead.</p>
 
 <p class="note-body"><span style="font-weight:bold;">Note :</span> please save the configuration then scroll it to continue with certificate part.</p>
 
-## {{< params "IDmelon" >}} SAML configuration
+## ConvergeID SAML configuration
 
 <hr class="hr-line">
 

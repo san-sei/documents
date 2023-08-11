@@ -272,7 +272,7 @@ If you are currently login here, you will see the replaced values instead.
     <img src="/images/vendor/sso/duo_idp_04.png" class="doc-img-frame">
 </div>
 
-## {{< params "IDmelon" >}} SAML configuration
+## ConvergeID SAML configuration
 
 <hr class="hr-line">
 

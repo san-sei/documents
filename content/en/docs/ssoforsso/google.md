@@ -230,7 +230,7 @@ If you are currently login here, you will see the replaced values instead.</p>
     <img src="/images/vendor/sso/google_dashboard_05.png" class="doc-img-frame">
 </div>
 
-## {{< params "IDmelon" >}} SAML configuration
+## ConvergeID SAML configuration
 
 <hr class="hr-line">
 

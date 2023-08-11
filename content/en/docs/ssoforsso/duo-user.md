@@ -58,7 +58,7 @@ toc: true
     <img src="/images/vendor/sso/duo_user-sso.png" class="doc-img-frame">
 </div>
 
-## {{< params "IDmelon" >}} SAML configuration
+## ConvergeID SAML configuration
 
 <hr class="hr-line">
 

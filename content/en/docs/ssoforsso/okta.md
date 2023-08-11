@@ -346,7 +346,7 @@ Then configs are:
 
 Activate your new idp rule by clicking on ``Active`` button.
 
-## {{< params "IDmelon" >}} SAML configuration
+## ConvergeID SAML configuration
 
 <hr class="hr-line">
 

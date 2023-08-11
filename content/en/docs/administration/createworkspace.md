@@ -20,7 +20,7 @@ toc: true
 
 {{< params "IDmelon Admin Panel" >}} is a platform where you can manage users, activate users' security keys, instantly grant or restrict access, carefully monitor users' access, and do many more things.
 
-## Access the {{< params "IDmelon Admin Panel" >}}
+## Access the ConvergeID Admin Panel
 
 <hr class="hr-line">
 

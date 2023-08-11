@@ -807,7 +807,7 @@ for **users** IdP init Login:
     <img src="/images/vendor/sso/ping_idp_init7.png" class="doc-img-frame">
 </div>
 
-## {{< params "IDmelon" >}} SAML configuration
+## ConvergeID SAML configuration
 
 <hr class="hr-line">
 

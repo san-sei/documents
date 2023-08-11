@@ -421,7 +421,7 @@ If you are currently login here, you will see the replaced values instead.
   </div>
 </div>
 
-## {{< params "IDmelon" >}} SAML configuration
+## ConvergeID SAML configuration
 
 <hr class="hr-line">
 

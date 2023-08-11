@@ -139,7 +139,7 @@ If you are currently login here, you will see the replaced values instead.
 
 <p><span class="code-back" style="font-weight:bold">Then Click Outbound Metadata option</span><p>
 
-## {{< params "IDmelon" >}} SAML configuration
+## ConvergeID SAML configuration
 
 <hr class="hr-line">
 
