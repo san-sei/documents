@@ -19,22 +19,20 @@ The IDmelon Android app offers a feature called QR Code Based Cross-Device Authe
 
 ## How It Works
 
-Requirements: An __Android__ smartphone with the IDmelon app installed.
+Requirements: An **Android** smartphone with the IDmelon app installed.
 
 ## Registration
 
 1. **Get the App**: Download and open the IDmelon app from the [Play Store](https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business).
 2. **Security Key**: Activate a security key. Need help? Check [this guide](https://docs.idmelon.com/docs/for_users/activate_work_account/).
-3. **Website Setup**: Go to your desired website and add a security key to see the __create a passkey__ browser dialog.
+3. **Website Setup**: Go to your desired website and add a security key to see the **create a passkey** browser dialog.
 
     > Example: For Microsoft choose Add sign-in method -> Add Security key -> USB device -> Next.
 
     <img src="/images/vendor/MobileApp/hybrid_transport_1.png" width="400" style="display: block; margin: 0 auto;"/>
 
-
-4. **Scan the Code**: A __Create a passkey__ window will pop up. Choose **Use a different phone or tablet** and scan the QR code using the IDmelon app.
+4. **Scan the Code**: A **Create a passkey** window will pop up. Choose **Use a different phone or tablet** and scan the QR code using the IDmelon app.
 5. **Complete Registration**: Follow the prompts on your phone. Once done, your account (like Microsoft) will be listed in the IDmelon app.
-
 
 ## Login
 
