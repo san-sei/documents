@@ -1,11 +1,11 @@
 ---
-title: "How to use hybrid transport"
-description: ""
-lead: ""
+title: "QR Code Based Cross-Device Authentication"
+description: "Easily authenticate on desktop browsers using the IDmelon Android app's QR Code feature."
+lead: "Experience seamless passwordless authentication with the IDmelon Android app."
 date: 2022-07-23T18:14:02-08:00
 lastmod: 2022-07-23T18:14:02-08:00
 draft: false
-images: [ ]
+images: []
 menu:
   docs:
     parent: "mobileapp"
@@ -13,53 +13,37 @@ weight: 44
 toc: true
 ---
 
-### Hybrid Transport
+## Introduction
 
-When it comes to performing FIDO (Fast Identity Online) authentication on a desktop browser, the IDmelon Android app
-offers a convenient solution. This feature allows for passwordless authentication, eliminating the need for additional
-software installation on the PC/Laptop. By initially pairing your mobile device and browser, subsequent uses only
-require a single click for registration or login, making the process seamless and efficient. This powerful feature,
-known as hybrid transport, is specifically designed for scenarios where FIDO authentication is required on a desktop
-browser, providing a secure and user-friendly solution for passwordless authentication.
+The IDmelon Android app offers a feature called QR Code Based Cross-Device Authentication. This is a method recognized by FIDO 2 standards as "Hybrid Transport". It's designed to make logging in on desktop browsers easy and secure without needing passwords or additional software.
 
-#### How Hybrid Transport Works?
+## How It Works
 
-After scanning the QR code, the IDmelon app and the web browser start sending data via Bluetooth to ensure that the
-mobile device and the computer are in close proximity.
-During the handshaking process, the browser sends data to the mobile device, and the mobile device responds with a
-handshake acknowledgement.
+Requirements: An __Android__ smartphone with the IDmelon app installed.
 
-#### How to use with an example:
+## Registration
 
-To use hybrid transport, you only need a smartphone and no other tools are needed.
+1. **Get the App**: Download and open the IDmelon app from the [Play Store](https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business).
+2. **Security Key**: Activate a security key. Need help? Check [this guide](https://docs.idmelon.com/docs/for_users/activate_work_account/).
+3. **Website Setup**: Go to your desired website and add a security key to see the __create a passkey__ browser dialog.
 
-##### Registration
+    > Example: For Microsoft choose Add sign-in method -> Add Security key -> USB device -> Next.
 
-1. Install IDmelon app
-   from [Play Store](https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business).
-2. Open IDmelon app.
-3. Activate a security key (refer to [this link](https://docs.idmelon.com/docs/for_users/activate_work_account/) for how
-   to activate a security key).
-4. Open the website you want (e.g. Microsoft). Click on the Add sign-in method -> Add Security key -> USB device -> Next
-5. A new window named “Create a passkey” will open
+    <img src="/images/vendor/MobileApp/hybrid_transport_1.png" width="400" style="display: block; margin: 0 auto;"/>
 
-<img src="../../../../static/images/vendor/MobileApp/hybrid_transport_1.png" width="400" style="display: block; margin: 0 auto;"/>
 
-6. Click on "Use a different phone or tablet"
-7. Open QR scanner in IDmelon app.
-8. Scan and pair your phone with browser.
-9. And complete the registration process from the phone.
-10. Now, Microsoft account has been added in IDmelon app account section.
+4. **Scan the Code**: A __Create a passkey__ window will pop up. Choose **Use a different phone or tablet** and scan the QR code using the IDmelon app.
+5. **Complete Registration**: Follow the prompts on your phone. Once done, your account (like Microsoft) will be listed in the IDmelon app.
 
-##### Login
 
-1. Select your desired account on the website, for example Microsoft account
-2. Choose Use a security key to sign in
-3. Select your device prefixed with "IDmelon" from list (If you've paired before)
+## Login
 
-<img src="../../../../static/images/vendor/MobileApp/hybrid_transport_2.png" width="400" style="display: block; margin: 0 auto;"/>
+1. **Choose Account**: On the website, pick the account you want to access.
+2. **Security Key Option**: Click on **Use a security key to sign in.**
+3. **Select Device**: Choose the device name starting with "IDmelon" (if you have paired it before).
 
-4. And complete the login process from the phone
+    <img src="/images/vendor/MobileApp/hybrid_transport_2.png" width="400" style="display: block; margin: 0 auto;"/>
 
-**Note:** This feature is currently supported on the latest version of Google Chrome, Microsoft Edge, and Apple Safari
-browsers.
+4. **Finish Login**: Follow the prompts on your phone to log in.
+
+> **Compatibility**: This feature works best with the latest Google Chrome, Microsoft Edge, and Apple Safari browsers.
