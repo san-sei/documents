@@ -1,5 +1,5 @@
 ---
-title: "For Administrators - New"
+title: "For Administrators"
 description: "Admin Panel for IDmelon."
 lead: ""
 date: 2023-09-11T11:05:35+03:30
