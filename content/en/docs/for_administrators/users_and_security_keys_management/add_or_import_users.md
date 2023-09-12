@@ -13,6 +13,11 @@ weight: 10
 toc: true
 ---
 
+<div id="_modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+
 ## Add a single user
 
 Steps for adding a single user:
@@ -110,11 +115,11 @@ Here is the markdown code for your text:
 11. **User attribute mapping - advance options:** Expand the **Mapping** section and click on **Provision Entra ID Users** and check the **Show advanced options**. Update the values as the picture below and then click **Save**.
 
 <p align="center">
-    <img src="/images/vendor/add_or_import_users/Picture1.png" alt="Picture1" />
+    <img src="/images/vendor/add_or_import_users/user_attribute_mapping.png" class="doc-img-frame" />
 </p>
 
 12. **Group attribute mapping - advance options:** Expand the **Mapping** section and click on **Provision Entra ID Groups** and check the **Show advanced options**. Update the values as picture below and then click **Save**.
 
 <p align="center">
-    <img src="/images/vendor/add_or_import_users/Picture2.png" alt="Picture2" />
+    <img src="/images/vendor/add_or_import_users/group_attribute_mapping.png" class="doc-img-frame" />
 </p>
