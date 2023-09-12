@@ -1,15 +1,15 @@
 ---
 title: "Google"
-description: "This page is about integration IDmelon and Google."
+description: ""
 lead: ""
-date: 2022-02-16T18:14:02-08:00
-lastmod: 2022-02-16T18:14:02-08:00
+date: 2023-09-13T00:58:07+03:30
+lastmod: 2023-09-13T00:58:07+03:30
 draft: false
 images: []
 menu:
   docs:
-    parent: "ssoforsso"
-weight: 28
+    parent: "integrate_idmelon_with_your_current_idp"
+weight: 60
 toc: true
 ---
 

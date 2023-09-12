@@ -1,15 +1,15 @@
 ---
 title: "Okta"
-description: "This page is about integration IDmelon and Okta."
+description: ""
 lead: ""
-date: 2022-02-16T18:14:02-08:00
-lastmod: 2022-02-16T18:14:02-08:00
+date: 2023-09-13T00:58:15+03:30
+lastmod: 2023-09-13T00:58:15+03:30
 draft: false
 images: []
 menu:
   docs:
-    parent: "ssoforsso"
-weight: 29.1
+    parent: "integrate_idmelon_with_your_current_idp"
+weight: 70
 toc: true
 ---
 
