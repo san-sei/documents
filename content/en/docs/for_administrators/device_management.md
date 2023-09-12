@@ -40,11 +40,11 @@ To manage shared mobile devices in the admin panel, follow these steps:
 
 Remember that the process of designating a mobile device as shared begins from the device itself, using the IDmelon authenticator app. By utilizing the "Shared Mobile Devices" section in the admin panel, you can effectively manage the devices that have been designated as shared resources. This functionality enhances the flexibility of authentication within your system, providing users with the convenience of using shared devices while maintaining security through their ID badges or contactless cards.
 
-## Manage non-Entra ID devices for AD domain logon
+## Manage non-Entra ID devices for [AD domain logon](https://learn.microsoft.com/en-us/windows/win32/ad/domain-user-accounts/)
 
-IDmelon implemented the IDmelon FIDO Credential Provider (FCP) service to address a specific limitation in On-premise Active Directory environments. PCs on On-premise Active Directory traditionally lack the native ability to log in using security keys, which can be a more secure and convenient method of authentication. To overcome this limitation and enable security key-based logins for such devices, IDmelon introduced the FCP solution. Here are the overall steps to manage non-Entra ID devices for AD domain logon using IDmelon FCP (for technical details about the deployment of IDmelon FCP, refer to [here](link to the on-premise domain logon in previous section)):
+IDmelon implemented the IDmelon FIDO Credential Provider (FCP) service to address a specific limitation in On-premise Active Directory environments. PCs on On-premise Active Directory traditionally lack the native ability to log in using security keys, which can be a more secure and convenient method of authentication. To overcome this limitation and enable security key-based logins for such devices, IDmelon introduced the FCP solution. Here are the overall steps to manage non-Entra ID devices for AD domain logon using IDmelon FCP (for technical details about the deployment of IDmelon FCP, refer to [here](https://idmelon.com/docs/for_administrators/windows_passwordless_deployment/nonentra_id_local_and_onpremise_domain_logon/)):
 
-### Managing Non-Entra ID Devices for [AD Domain Logon](https://learn.microsoft.com/en-us/windows/win32/ad/domain-user-accounts/):
+### Managing Non-Entra ID Devices for AD Domain Logon:
 
 1. **Access Device Management:** Begin by logging in to the admin panel and navigate to the "Device Management" section.
 2. **Navigate to IDmelon Connected Computers:** Within the "Device Management" section, find and click on the "IDmelon Connected Computers" section. This section is specifically for managing the On-premise Active Directory PCs that will be configured for login using security keys through IDmelon FCP.
