@@ -1165,3 +1165,12 @@ tr.trV2 {
   content: url('/images/vendor/Homepage/IDmelon-Reader.svg');
   background-repeat: no-repeat;
 }
+
+[data-dark-mode] .docs-content a {
+  font-size: 16px;
+}
+
+.btn-toggle {
+  text-align: left;
+  font-size: 14px;
+}
