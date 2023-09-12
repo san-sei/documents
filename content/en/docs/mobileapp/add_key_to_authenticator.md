@@ -42,7 +42,7 @@ You can add the following platforms to your securiy key.
   </div>
 </div>
 
-<p>Note: Administrators for a tecnical guide can refer to this <a href="/docs/integration-guides/azure-ad/" style="font-size:16px;" target="_blank">link</a>.</p>
+<p>Note: Administrators for a tecnical guide can refer to this <a href="/docs/for_administrators/windows_passwordless_deployment/entra_id_connected_pcs/" style="font-size:16px;" target="_blank">link</a>.</p>
 <br></br>
 
 ### Office 365
