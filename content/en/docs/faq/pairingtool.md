@@ -56,4 +56,18 @@ toc: true
       </div>
     </div>
   </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Is there any way to silently install pairing tool?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p class="faq-p">
+          Yes. "<a href="https://www.pdq.com/">PDQ</a>" can be used with “setup.exe /S” command with capital S to deploy silently. For more information you can visit <a href="https://www.pdq.com/blog/deploying-exe-installers-in-pdq-deploy/">here</a>.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
