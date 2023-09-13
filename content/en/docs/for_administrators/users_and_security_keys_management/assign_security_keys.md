@@ -1,5 +1,5 @@
 ---
-title: "Assign_security_keys"
+title: "Assign security keys"
 description: ""
 lead: ""
 date: 2023-09-11T13:45:01+03:30
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "users_and_security_keys_management"
-weight: 30
+weight: 303
 toc: true
 ---
 

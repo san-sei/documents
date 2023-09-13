@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "for_administrators"
-weight: 60
+weight: 600
 toc: true
 ---
 

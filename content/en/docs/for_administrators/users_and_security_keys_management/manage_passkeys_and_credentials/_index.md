@@ -9,6 +9,6 @@ images: []
 menu:
   docs:
     parent: "manage_passkeys_and_credentials"
-weight: 40
+weight: 310
 toc: true
 ---

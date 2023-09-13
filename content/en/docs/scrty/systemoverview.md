@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "scrty"
-weight: 100
+weight: 10000
 toc: true
 ---
 <div id="_modal" class="modal">

@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "versionsupport"
 type: docs
-weight: 70
+weight: 7000
 ---
 
 <div class="version-card">
