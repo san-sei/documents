@@ -1,5 +1,5 @@
 ---
-title: "Add_or_import_users"
+title: "Add or import users"
 description: ""
 lead: ""
 date: 2023-09-11T13:23:14+03:30
@@ -12,11 +12,6 @@ menu:
 weight: 301
 toc: true
 ---
-
-<div id="_modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-</div>
 
 ## Add a single user
 
@@ -113,13 +108,6 @@ Here is the markdown code for your text:
 | displayName        | displayName            |                     |
 | members            | members                |                     |
 11. **User attribute mapping - advance options:** Expand the **Mapping** section and click on **Provision Entra ID Users** and check the **Show advanced options**. Update the values as the picture below and then click **Save**.
-
-<p align="center">
-    <img src="/images/vendor/add_or_import_users/user_attribute_mapping.png" class="doc-img-frame" />
-</p>
-
+![user attribute mapping](/images/vendor/add_or_import_users/user_attribute_mapping.png)
 12. **Group attribute mapping - advance options:** Expand the **Mapping** section and click on **Provision Entra ID Groups** and check the **Show advanced options**. Update the values as picture below and then click **Save**.
-
-<p align="center">
-    <img src="/images/vendor/add_or_import_users/group_attribute_mapping.png" class="doc-img-frame" />
-</p>
+![group attribute mapping](/images/vendor/add_or_import_users/group_attribute_mapping.png)

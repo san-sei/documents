@@ -1004,6 +1004,7 @@ tr.trV2 {
   height: 90%;
   object-fit: contain;
   background-color: transparent;
+  max-width: 100%;
 }
 
 /* Add Animation */
@@ -1173,4 +1174,17 @@ tr.trV2 {
 .btn-toggle {
   text-align: left;
   font-size: 14px;
+}
+
+.content img {
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.content img:hover {
+  opacity: 0.7;
 }

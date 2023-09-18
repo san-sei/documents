@@ -12,10 +12,6 @@ menu:
 weight: 10001
 toc: true
 ---
-<div id="_modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-</div>
 
 ## What is FIDO?
 

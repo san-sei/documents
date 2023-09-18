@@ -13,11 +13,6 @@ weight: 501
 toc: true
 ---
 
-<div id="_modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-</div>
-
 <div align="center">
     <img src="/images/vendor/DirectoryServicesIntegration/AzureAD/baner.png" class="doc-img-frame">
 </div>

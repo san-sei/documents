@@ -13,11 +13,6 @@ weight: 3002
 toc: true
 ---
 
-<div id="_modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-</div>
-
 <p>All IDmelon perosnal users have an individual panel at IDmelon which they can access through <a href="https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6" style="font-size:16px;" target="_blank">this link</a>.</p>
 
 ## Create Personal Account

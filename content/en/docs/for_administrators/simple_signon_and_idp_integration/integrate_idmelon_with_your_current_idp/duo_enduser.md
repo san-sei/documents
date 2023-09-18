@@ -13,11 +13,6 @@ weight: 715
 toc: true
 ---
 
-<div id="_modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-</div>
-
 <p>In this document you are going to set up <span class="code-back">IDmelon</span> as an external IdP to the <span class="code-back">Duo-user</span>.</p>
 
 ## Login to  Duo administration panel

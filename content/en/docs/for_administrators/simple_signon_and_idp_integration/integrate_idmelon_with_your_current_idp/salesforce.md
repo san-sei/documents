@@ -13,11 +13,6 @@ weight: 720
 toc: true
 ---
 
-<div id="_modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-</div>
-
 In this document you are going to set up ``IDmelon`` as an external IdP to the ``Salesforce``.
 
 ## Login to  Salesforce administration panel

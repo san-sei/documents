@@ -13,11 +13,6 @@ weight: 717
 toc: true
 ---
 
-<div id="_modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-</div>
-
 In this document you are going to set up ``IDmelon`` as an external IdP to the ``Okta``.
 
 ## Login to  Okta administration panel

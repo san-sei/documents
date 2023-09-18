@@ -15,11 +15,6 @@ toc: true
 
 ## Automatic provisioning for Entra ID
 
-<div id="_modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-</div>
-
 ### Prerequisites for Azure User Provisioning
 
 <hr class="hr-line">
