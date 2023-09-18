@@ -1188,3 +1188,74 @@ tr.trV2 {
 .content img:hover {
   opacity: 0.7;
 }
+
+.docs-content ol {
+  list-style: none;
+  counter-reset: item;
+  padding-left: 0;
+}
+
+.docs-content ol li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.docs-content ol li:last-child {
+  margin-bottom: 0;
+}
+
+.docs-content ol > li:before {
+  content: counter(item);
+  counter-increment: item;
+  background-color: rgba(38, 48, 53, 0.6);
+  color: #0186c2;
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  padding-left: 6.5px;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.docs-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.docs-content ul li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.docs-content ul li:before {
+  content: '';
+  background-color: rgba(38, 48, 53, 0.6);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.docs-content ul li:after {
+  content: '';
+  background-color: #0186c2;
+  width: 5px;
+  height: 5px;
+  margin-left: 7.5px;
+  margin-top: 7.5px;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
