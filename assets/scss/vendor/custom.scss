@@ -1167,7 +1167,7 @@ tr.trV2 {
   background-repeat: no-repeat;
 }
 
-[data-dark-mode] .docs-content a {
+.docs-content a {
   font-size: 16px;
 }
 
@@ -1209,7 +1209,7 @@ tr.trV2 {
 .docs-content ol > li:before {
   content: counter(item);
   counter-increment: item;
-  background-color: rgba(38, 48, 53, 0.6);
+  background-color: #e6f7ff;
   color: #0186c2;
   font-size: 14px;
   width: 20px;
@@ -1218,8 +1218,12 @@ tr.trV2 {
   display: inline-block;
   border-radius: 50%;
   position: absolute;
-  top: 0;
+  top: 2px;
   left: 0;
+}
+
+[data-dark-mode] .docs-content ol > li:before {
+  background-color: rgba(38, 48, 53, 0.6);
 }
 
 .docs-content ul {
@@ -1236,14 +1240,18 @@ tr.trV2 {
 
 .docs-content ul li:before {
   content: '';
-  background-color: rgba(38, 48, 53, 0.6);
   width: 20px;
   height: 20px;
   display: inline-block;
+  background-color: #e6f7ff;
   border-radius: 50%;
   position: absolute;
-  top: 0;
+  top: 2px;
   left: 0;
+}
+
+[data-dark-mode] .docs-content ul li:before {
+  background-color: rgba(38, 48, 53, 0.6);
 }
 
 .docs-content ul li:after {
@@ -1256,6 +1264,6 @@ tr.trV2 {
   display: inline-block;
   border-radius: 50%;
   position: absolute;
-  top: 0;
+  top: 2px;
   left: 0;
 }
