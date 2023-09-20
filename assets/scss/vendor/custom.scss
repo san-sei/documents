@@ -1171,18 +1171,26 @@ tr.trV2 {
   font-size: 16px;
 }
 
+.docs-content li p {
+  margin-bottom: 0;
+}
+
 .btn-toggle {
   text-align: left;
   font-size: 14px;
 }
 
 .content img {
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
   border-radius: 4px;
   margin-top: 24px;
   margin-bottom: 24px;
   transition: 0.3s;
   cursor: pointer;
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .content img:hover {
@@ -1193,6 +1201,7 @@ tr.trV2 {
   list-style: none;
   counter-reset: item;
   padding-left: 0;
+  margin-top: 20px;
 }
 
 .docs-content ol li {
@@ -1229,6 +1238,7 @@ tr.trV2 {
 .docs-content ul {
   list-style: none;
   padding-left: 0;
+  margin-top: 20px;
 }
 
 .docs-content ul li {
@@ -1266,4 +1276,19 @@ tr.trV2 {
   position: absolute;
   top: 2px;
   left: 0;
+}
+
+.docs-content blockquote {
+  background-color: rgba(230, 247, 255, 0.6);
+  margin: 16px 0;
+  border-left: 5px solid #0186c2 !important;
+  padding: 13px 27px 14px 21px;
+}
+
+[data-dark-mode] .docs-content blockquote {
+  background-color: rgba(38, 48, 53, 0.6);
+}
+
+.docs-content blockquote p {
+  margin-bottom: 0;
 }
