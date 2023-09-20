@@ -1,19 +1,17 @@
 ---
-title: "Register a passkey on users' behalf"
+title: "Automatic provisioning for Entra ID"
 description: ""
 lead: ""
-date: 2023-09-11T13:50:05+03:30
-lastmod: 2023-09-11T13:50:05+03:30
+date: 2023-09-20T13:57:08+03:30
+lastmod: 2023-09-20T13:57:08+03:30
 draft: false
 images: []
 menu:
   docs:
-    parent: "manage_passkeys_and_credentials"
-weight: 312
+    parent: "register_a_passkey_on_users_behalf"
+weight: 312.1
 toc: true
 ---
-
-## Automatic provisioning for Entra ID
 
 ### Prerequisites for Azure User Provisioning
 
@@ -74,16 +72,3 @@ Follow these steps to manually register a Microsoft credential for a user:
 4. Select **Microsoft** and check the **Manual** checkbox.
 
 5. Follow the instructions provided to complete the manual RP provisioning process.
-
-## Manual provisioning by connecting to a user’s security key
-
-### Except Entra ID, to register credentials manually on behalf of a user on any other RP, follow the steps below:
-
-1. Access Security Key Management: Go to the Security Key Management section.
-2. Navigate to Users: Click on the Users menu within the Security Key Management section.
-3. Select User for Manual RP Provisioning: Click on a user that you want to create credential on his behalf.
-4. Initiate RP Provisioning: From the top of the user's details page, choose "Connect to register passkeys". Now it is like the selected users’ security key is attached to your PC.
-5. Register on user’s behalf: You can now register credentials on user’s behalf anywhere you want.
-6. Completion: Once you've completed the provisioning process, disconnect the user by choosing the same button on top of user’s details page.
-
-Before starting the provisioning process, ensure you've completed the prerequisites such as installing the Pairing Tool Software.
