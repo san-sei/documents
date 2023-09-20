@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "common_conditions_signals"
-weight: 402.6
+weight: 42600
 toc: true
 ---
 

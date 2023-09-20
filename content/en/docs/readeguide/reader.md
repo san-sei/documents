@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "readerguide"
-weight: 6000
+weight: 500000
 toc: true
 ---
 IDmelon Reader is a hardware technology designed and developed by IDmelon Technologies to let users use their smartphones as a security key.

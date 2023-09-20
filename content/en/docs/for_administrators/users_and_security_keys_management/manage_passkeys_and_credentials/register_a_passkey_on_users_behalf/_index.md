@@ -9,6 +9,6 @@ images: []
 menu:
   docs:
     parent: "register_a_passkey_on_users_behalf"
-weight: 312
+weight: 34200
 toc: true
 ---

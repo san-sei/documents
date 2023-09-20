@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "device_management"
-weight: 600.1
+weight: 61000
 toc: true
 ---
 

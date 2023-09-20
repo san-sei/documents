@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "versionsupport"
 type: docs
-weight: 7001
+weight: 610000
 ---
 
 Browser support for WebAuthn is constantly improving. You can find an overview of  IDmelon Authenticator support as a FIDO2.0 Authenticator on this page.
