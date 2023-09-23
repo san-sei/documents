@@ -1,15 +1,15 @@
 ---
-title: "Organization's Admins"
+title: "Manage workspace admins"
 description: ""
 lead: ""
-date: 2023-09-23T03:37:30+03:30
-lastmod: 2023-09-23T03:37:30+03:30
+date: 2023-09-23T14:43:56+03:30
+lastmod: 2023-09-23T14:43:56+03:30
 draft: false
 images: []
 menu:
   docs:
-    parent: "for_administrators"
-weight: 80000
+    parent: "organization's_admins"
+weight: 81000
 toc: true
 ---
 
