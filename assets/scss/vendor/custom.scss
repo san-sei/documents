@@ -1331,3 +1331,85 @@ a.docs-link {
 .docs-content blockquote p {
   margin-bottom: 0;
 }
+
+.accordion {
+  width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+  padding: 16px 12px 16px 38.63px;
+  background-color: #ececec;
+  color: #444;
+  border-left: 1px solid #ececec;
+  border-top: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  outline: none;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+[data-dark-mode] .accordion {
+  background-color: #1e2021;
+  color: #fff;
+  border-left: 1px solid #5d5f62;
+  border-top: 1px solid #5d5f62;
+  border-right: 1px solid #5d5f62;
+}
+
+.accordion:before {
+  content: "\f158";
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #5d5f62;
+  font: normal normal normal 18px/1 'Ionicons';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.accordion.active {
+  color: #4594dc;
+}
+
+[data-dark-mode] .accordion.active {
+  color: #8ed6fb;
+}
+
+.accordion.active:before {
+  content: "\f176";
+}
+
+.panel {
+  max-height: 8px;
+  overflow: hidden;
+  margin-top: -24px;
+  margin-bottom: 16px;
+  background-color: #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+[data-dark-mode] .panel {
+  background: #1e2021;
+  color: #fff;
+  border-left: 1px solid #5d5f62;
+  border-right: 1px solid #5d5f62;
+  border-bottom: 1px solid #5d5f62;
+}
+
+.panel p {
+  margin: 0;
+  padding: 16px;
+}

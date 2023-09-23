@@ -62,6 +62,10 @@
 {{ $zoomimg := $zoomimg | js.Build -}}
 {{ $slice = $slice | append $zoomimg -}}
 
+{{ $accordion := resources.Get "js/accordion.js" -}}
+{{ $accordion := $accordion | js.Build -}}
+{{ $slice = $slice | append $accordion -}}
+
 {{ $js := $slice | resources.Concat "main.js" -}}
 
 {{ if eq (hugo.Environment) "development" -}}
