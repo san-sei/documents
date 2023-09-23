@@ -1,5 +1,5 @@
 ---
-title: "Audit_user_activities"
+title: "Audit user activities"
 description: ""
 lead: ""
 date: 2023-09-20T14:05:30+03:30

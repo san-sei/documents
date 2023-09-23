@@ -13,23 +13,18 @@ weight: 400000
 toc: true
 ---
 
-IDmelon Pairing Tool is a completely hardware-less authentication method that adds to ensure  that you, and only you, are the person who can have authorized access through your smartphone.
+IDmelon Pairing Tool is a completely hardware-less authentication method that ensures that you, and only you, can have
+authorized access through your smartphone.
 
-You will need to downlad and install:
+You will need to download and install two applications:
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>IDmelon Authenticator app from <a href="https://apps.apple.com/ca/app/idmelon/id1511376376" style="font-size:16px;">App Store</a> or <a href="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&pli=1" style="font-size:16px;">Google Play</a> on your smartphone as well as IDmelon Pairing Tool from our website on your computer.</p>
-      </div>
-    </div>
-  </div>
-</div>
+1. IDmelon Authenticator app from [App Store](https://apps.apple.com/ca/app/idmelon/id1511376376) (for iOS users)
+   or [Google Play](https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business&pli=1) (for
+   Android users) on your smartphone.
 
-After users complete the setup, they will be able to access Microsoft, Office 365, GitHub, and many more FIDO2 supported platforms and simply and securely log into Windows, websites, and applications without having to type a password.
+2. IDmelon Pairing Tool from the IDmelon website on your computer.
+
+After users complete the setup, they will be able to access Microsoft, Office 365, GitHub, and many more FIDO2 supported
+platforms and simply and securely log into Windows, websites, and applications without having to type a password.
 
 In the next section, we will describe how you can get started with the Pairing Tool.

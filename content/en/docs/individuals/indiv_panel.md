@@ -13,251 +13,90 @@ weight: 210000
 toc: true
 ---
 
-<p>All IDmelon perosnal users have an individual panel at IDmelon which they can access through <a href="https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6" style="font-size:16px;" target="_blank">this link</a>.</p>
+All IDmelon personal users have an individual panel at IDmelon which they can access through [this link](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6).
 
 ## Create Personal Account
 
-<hr class="hr-line">
+---
 
-<p>
-If users already have an IDmelon account on their smartphone they can login to their panel by opening <a href="https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6" style="font-size:16px;" target="_blank">this link</a> and clicking on <span style="font-weight:bold;">Sign in with a security key</span> tapping on their IDmelon Mobile App Security Key.<br>
-To create a personal account users have two ways, the first way is through <span style="font-weight:bold;">a smartphone</span> and the second way is through <span style="font-weight:bold;">IDmelon Website</span>.<br>
-</p>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>To create an IDmelon account by <span style="font-weight:bold;">a smartphone</span>, please visit <a href="/docs/mobileapp/use_app/#psersonal-users" style="font-size:16px;font-wieght:bold;" target="_blank">Mobile App Guide</a> page.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>To create an IDmelon account in <span style="font-weight:bold;">IDmelon Website</span>, please reade the following instructoins.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>First open <a href="https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6" style="font-size:16px;" target="_blank">IDmelon Panel's Login</a> page and click on <span style="font-weight:bold;">Create one!</span></p>
-      </div>
-    </div>
-  </div>
-</div>
-<p align="center">
-    <img src="/images/vendor/Panel/workspace/1.png" class="doc-img-frame">
-</p>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> Choose <span style="font-weight:bold">Personal</span> because you want to create a personal account.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<p align="center">
-    <img src="/images/vendor/Panel/workspace/2.png" class="doc-img-frame">
-</p>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Fill in all the fields and click on <span style="font-weight:bold">Continue</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<p align="center">
-    <img src="/images/vendor/Individuals/individual-01.png" class="doc-img-frame">
-</p>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If you like to sync your panel with your smartphone, scan the QR code that is shown on your browser, this will add your account to <span style="font-weight:bold">IDmelon Mobile App</span> on your smartphone, remember that you have to approve adding this account to your mobile app by tapping on <span style="font-weight:bold">Approve</span>. After that click on <span style="font-weight:bold">Next</span>.</p>
-        <p>It is also possible to skip this step.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<p align="center">
-    <img src="/images/vendor/Individuals/individual_02.png" class="doc-img-frame">
-</p>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Pay attention to this page, because this page informs on how use login using your smartphone security key. You should either download <span style="font-weight:bold">IDmenlon Piring Tool</span> or have an <span style="font-weight:bold">IDmelon Reader</span> to login to your panel by your smartphone as your security key.<br><br>
-        Click <span style="font-weight:bold">Login</span> to move to login page and login with your smart phone.<br><br>
-        For more information about <span style="font-weight:bold">Pairing Tool</span> refer to <a href="/docs/pairingtool/ourparigintool/" target="_blank" style="font-size:16px;">this page</a>.<br><br>
-        For more information about <span style="font-weight:bold">Reader</span> refer to <a href="/docs/readeguide/reader/" target="_blank" style="font-size:16px;">this page</a>.<br>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-<p align="center">
-    <img src="/images/vendor/Panel/workspace/9-2-4.png" class="doc-img-frame">
-</p>
+If users already have an IDmelon account on their smartphone, they can log in to their panel by opening [this link](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6) and clicking on **Sign in with a security key** tapping on their IDmelon Mobile App Security Key.\
+To create a personal account users have two ways, the first way is through **a smartphone**, and the second way is through **IDmelon Website**.
+
+- To create an IDmelon account by **a smartphone**, please visit the [Mobile App Guide](/docs/mobileapp/use_app/#psersonal-users) page.
+
+- To create an IDmelon account on **IDmelon Website**, please read the following instructions.
+
+1. First open [IDmelon Panel's Login](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6) page and click on **Create one!**
+![alt](/images/vendor/Panel/workspace/1.png)
+2. Choose **Personal** because you want to create a personal account.
+![alt](/images/vendor/Panel/workspace/2.png)
+3. Fill in all the fields and click on **Continue**.
+![alt](/images/vendor/Individuals/individual-01.png)
+4. If you like to sync your panel with your smartphone, scan the QR code that is shown on your browser. This will add your account to **IDmelon Mobile App** on your smartphone. Remember that you have to approve adding this account to your mobile app by tapping on **Approve**. After that click on **Next**.
+
+    It is also possible to skip this step.
+    ![alt](/images/vendor/Individuals/individual_02.png)
+5. Pay attention to this page, as it informs you on how to use login using your smartphone security key. You should either download **IDmelon Pairing Tool** or have an **IDmelon Reader** to log in to your panel using your smartphone as your security key.
+
+    Click **Login** to move to the login page and log in with your smartphone.
+
+    For more information about **Pairing Tool** refer to [this page](https://docs.idmelon.com/docs/pairingtool/ourparigintool/).
+
+    For more information about **Reader** refer to [this page](https://docs.idmelon.com/docs/readeguide/reader/).
+
+![alt](/images/vendor/Panel/workspace/9-2-4.png)
 
 ## Panel
 
-<hr class="hr-line">
+---
 
 ### My Security Key
 
-In this tab you can see your **Current Plan** and account status.
+In this tab, you can see your **Current Plan** and account status.
 
-<p align="center">
-    <img src="/images/vendor/Individuals/individual_1.png" class="doc-img-frame">
-</p>
+![alt](/images/vendor/Individuals/individual_1.png)
 
 ### Activity Logs
 
 In this page, users can see their login activities.
 
-<p align="center">
-    <img src="/images/vendor/Individuals/individual_2.png" class="doc-img-frame">
-</p>
+![alt](/images/vendor/Individuals/individual_2.png)
 
 ### Settings
 
-As you can see in this page, by clicking on **Send an Activation Email** you will receive and email which contains an activation link, by tapping on the link on your smartphone you can activate your security key.
+As you can see in this page, by clicking on **Send an Activation Email** you will receive an email which contains an activation link. By tapping on the link on your smartphone, you can activate your security key.
 
-<p align="center">
-    <img src="/images/vendor/Individuals/individual_3.png" class="doc-img-frame">
-</p>
+![alt](/images/vendor/Individuals/individual_3.png)
 
 ## User Options
 
-<hr class="hr-line">
+---
 
-When you log in to your IDmelon panel, you can see your username on the top right of the panel alongside a blue box and a small arrow pointing down. If you click on the box or arrow or your username, a Dropdown menu will be opened with 3 options. The first option is **Security**, the second is **Profile Info**, and the third is **Logout**.
+When you log in to your IDmelon panel, you can see your username on the top right of the panel alongside a blue box and
+a small arrow pointing down. If you click on the box or arrow or your username, a Dropdown menu will be opened with 3
+options. The first option is **Security**, the second is **Profile Info**, and the third is **Logout**.
 
 ### Security
 
-<p>This page shows all the security keys that a user has connected to his/her account.<br></p>
-<p class="note-body"><span style="font-weight:bold;">Note : </span>Before trying to add a security key device to your account, install IDmelon Pairing Tool on your computer and pair your smartphone with it or have a Reader ready to use. To download <span style="font-weight:bold;">Pairing Tool</span> visit <a href="https://www.idmelon.com/downloads/" target="_blank" style="font-size:16px;">this link</a>. To ready your <span style="font-weight:bold;">Reader</span> visit <a href="https://www.idmelon.com/idmelon-reader/" target="_blank" style="font-size:16px;">this link</a>.</p>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>By clicking on <span style="font-weight:bold">Add Security Key</span>, a user can add a new security key to his/her account. After clicking on <span style="font-weight:bold">Add Security Key</span>, a wizard will open and asks about how a user wants to create a new security key. Here we recommend to choose <span style="font-weight:bold">External Security Key or built-in sensor</span>, because this document is for personal users and most personal users do not have other devices such as <span style="font-weight:bold">Reader</span> or <span style="font-weight:bold">Contactless Card</span> and this option enables user to user their smartphone as a security key.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>There will be two wizards shown by user's operating system which ask user for <span style="font-weight:bold;">Security Key Setup</span> permission. Users have to give this permission.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If user's smartphone is already paired with <span style="font-weight:bold;">Pairing Tool</span>, then IDmelon application pop up a screen which looks like the screen below, tap on the security key that you want to rejister your account on.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<p align="center">
-    <img src="/images/vendor/Individuals/indiv_m_1.jpg" class="doc-img-frame">
-</p>
+This page shows all the security keys that a user has connected to his/her account.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Tap on <span style="font-weight:bold;">Approve</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<p align="center">
-    <img src="/images/vendor/Individuals/indiv_m_2.jpg" class="doc-img-frame">
-</p>
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">5</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>On this step, smartphone's <span style="font-weight:bold;">GPS</span> and <span style="font-weight:bold;">Bluetooth</span> must be turned on as well as the <span style="font-weight:bold;">Bluetooth</span> of user's computer. This helps IDmelon application to prove that the user who is using a certain phone is close to the computer that he or she is using and thus adds the device to user's account.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<p align="center">
-    <img src="/images/vendor/Individuals/indiv_m_3.jpg" class="doc-img-frame">
-</p>
+> **Note:** Before trying to add a security key device to your account, install IDmelon Pairing Tool on your computer and pair your smartphone with it or have a Reader ready to use.
+To download **Pairing Tool** visit [this link](https://www.idmelon.com/downloads/).
+To ready your **Reader** visit [this link](https://www.idmelon.com/idmelon-reader/).
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">6</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>If everything is done as explained, user's smartphone will be added to the account.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<p align="center">
-    <img src="/images/vendor/Individuals/individual_45.png" class="doc-img-frame">
-</p>
+1. By clicking on **Add Security Key**, a user can add a new security key to his/her account. After clicking on **Add Security Key**, a wizard will open and ask about how a user wants to create a new security key. Here we recommend choosing **External Security Key or built-in sensor**, because this document is for personal users and most personal users do not have other devices such as **Reader** or **Contactless Card**, and this option enables the user to use their smartphone as a security key.
+2. There will be two wizards shown by the user's operating system that ask the user for **Security Key Setup** permission. Users have to give this permission.
+3. If the user's smartphone is already paired with **Pairing Tool**, then IDmelon application will pop up a screen which looks like the screen below, tap on the security key that you want to register your account on.
+![alt](/images/vendor/Individuals/indiv_m_1.jpg)
+4. Tap on **Approve**.
+![alt](/images/vendor/Individuals/indiv_m_2.jpg)
+5. On this step, the smartphone's **GPS** and **Bluetooth** must be turned on, as well as the  **Bluetooth** of the user's computer. This helps the IDmelon application to prove that the user who is using a certain phone is close to the computer that he or she is using and thus adds the device to the user's account.
+![alt](/images/vendor/Individuals/indiv_m_3.jpg)
+6. If everything is done as explained, the user's smartphone will be added to the account.
+![alt](/images/vendor/Individuals/individual_45.png)
 
 ### Profile Info
 
-This page shows user's information.
-Here is a sample image.
+This page shows the user's information. Here is a sample image.
 
-<p align="center">
-    <img src="/images/vendor/Individuals/individual_5.png" class="doc-img-frame">
-</p>
+![alt](/images/vendor/Individuals/individual_5.png)

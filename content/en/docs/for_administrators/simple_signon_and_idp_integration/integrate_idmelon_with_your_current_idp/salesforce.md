@@ -13,354 +13,90 @@ weight: 72900
 toc: true
 ---
 
-In this document you are going to set up ``IDmelon`` as an external IdP to the ``Salesforce``.
+In this document you are going to set up `IDmelon` as an external IdP to the `Salesforce`.  
 
-## Login to  Salesforce administration panel
+## Login to  Salesforce administration panel  
 
-<hr class="hr-line">
+---
 
-In order to set up the connection, you will need to log into to your ``Salesforce administration panel``.
+In order to set up the connection, you will need to log into to your `Salesforce administration panel`.  
 
-To login to the ``Salesforce administration panel``, click the ``Setting`` icon on the top right corner of Salesforce
-user panel page then Click ``Setup``.
+To login to the `Salesforce administration panel`, click the `Setting` icon on the top right corner of Salesforce user panel page then Click `Setup`.  
 
-<div align="center">
-    <img src="/images/vendor/sso/salesforce_dashboard_01.png" class="doc-img-frame">
-</div>
+![alt](/images/vendor/sso/salesforce_dashboard_01.png)  
 
-## Add Identity Provider
+## Add Identity Provider  
 
-<hr class="hr-line">
+---
 
-In the ``Salesforce administration panel``, from the side menu, navigate to the ``Security`` menu, then Click
-``identity`` and finally select ``Single Sign-On Settings``.
+In the `Salesforce administration panel`, from the side menu, navigate to the `Security` menu, then Click `identity` and finally select `Single Sign-On Settings`.  
 
-<div align="center">
-    <img src="/images/vendor/sso/salesforce_dashboard_02.png" class="doc-img-frame">
-</div>
+![alt](/images/vendor/sso/salesforce_dashboard_02.png)  
 
-Then Check ``SAML Enable`` box from the main panel.
+Then Check `SAML Enable` box from the main panel.  
+Under `Single Sign-On Settings` Click New.  
 
-Under ``Single Sign-On Settings`` Click New.
+![alt](/images/vendor/sso/salesforce_dashboard_03.png)  
 
-<div align="center">
-    <img src="/images/vendor/sso/salesforce_dashboard_03.png" class="doc-img-frame">
-</div>
+## Configure SAML 2.0 IdP  
 
-## Configure SAML 2.0 IdP
+---
 
-<hr class="hr-line">
+To configure SAML 2.0 IdP, fill the values of settings as below.  
 
-To configure SAML 2.0 IdP, fill the values of settings as below.
+- Click **Name:** Your custom name  
+- **API Name:** Your custom api name  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click <span style="font-weight:bold;">Name: </span> Your custom name</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">API Name: </span>Your custom api name</p>
-      </div>
-    </div>
-  </div>
-</div>
+> Get all values for {..} from your IDmelon panel.  
+> If you are currently login here, you will see the replaced values instead.  
 
-<p class="note-body">Get all values for <span class="code-back">{..}</span> from your IDmelon panel.<br>
-If you are currently login here, you will see the replaced values instead.</p>
+- **Issuer:** `{{idp_issuer_uri}}`  
+- **Entity ID:** `Your custom salesforce portal`  
+  - **Example:** https://idmelon\_test\_sso.my.salesforce.com/  
+- **IdP Signature Certificate :**`{{idp_certificate_download_url}}`  
+- **Request Signing Certificate :**`Your salesforce certificate`  
+- **Request Signature Method :**`RSA_SHA256`  
+- **Assertion Decryption Certificate :** `Assertion not encrypted` **or** `Your salesforce certificate`  
+- **SAML Identity Type :** `SAML Identity Type`  
+- **SAML Identity Location :**`Identity is in the NameIdentifier element of the Subject statement`  
+- **Service Provider Initiated Request Binding : HTTP POST**  
+- **Identity Provider Login URL :**`{{idp_single_sign_on_url}}`  
+- **Custom Logout URL :**`{{idp_single_sign_on_url}}`  
+- Click **Save.**  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Issuer: </span><code class="code-back">{{idp_issuer_uri}}</code></p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Entity ID: </span><code class="code-back">Your custom salesforce portal</code></p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="mx-3">
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Example: </span><a heref="https://idmelon_test_sso.my.salesforce.com/" style="font-size:16px;">https://idmelon_test_sso.my.salesforce.com/</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+![alt](/images/vendor/sso/salesforce_dashboard_04.png)  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">IdP Signature Certificate :</span><code class="code-back">{{idp_certificate_download_url}}</code></p>
-      </div>
-    </div>
-  </div>
-</div>
+## IDmelon SAML configuration  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Request Signing Certificate :</span><code class="code-back">Your salesforce certificate</code></p>
-      </div>
-    </div>
-  </div>
-</div>
+---
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Request Signature Method :</span><code class="code-back">RSA_SHA256</code></p>
-      </div>
-    </div>
-  </div>
-</div>
+After completing previous `SAML Single Sign-On Settings` section and submitting the form, you can see a new IdP added to your list.  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Assertion Decryption Certificate : <code class="code-back">Assertion not encrypted</code> <span style="font-weight:bold;">or</span> </span><code class="code-back">Your salesforce certificate</code></p>
-      </div>
-    </div>
-  </div>
-</div>
+You should upload **`metadata`** file from this **Salesforce panel** to **IDmelon Panel**.  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">SAML Identity Type :</span><code class="code-back"> SAML Identity Type</code></p>
-      </div>
-    </div>
-  </div>
-</div>
+- Download -> Download Metadata File  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">SAML Identity Location :</span><code class="code-back">Identity is in the NameIdentifier element of the Subject statement</code></p>
-      </div>
-    </div>
-  </div>
-</div>
+You should copy values of below fields from the `Salesforce` panel to the `IDmelon` Panel:  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Service Provider Initiated Request Binding : HTTP POST</span></p>
-      </div>
-    </div>
-  </div>
-</div>
+- **Entity ID**`Your custom salesforce portal`  
+  - **Example**[https://idmelon\_test\_sso.my.salesforce.com/](https://idmelon_test_sso.my.salesforce.com/)  
+- **Login URL :** Copy and Paste to **Assertion consumer service url**  
+- **Logout URL :** Copy and Paste to **Single Sign Logout url**  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Identity Provider Login URL :</span><code class="code-back">{{idp_single_sign_on_url}}</code></p>
-      </div>
-    </div>
-  </div>
-</div>
+![alt](/images/vendor/sso/salesforce_dashboard_05.png)  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Custom Logout URL :</span><code class="code-back">{{idp_single_sign_on_url}}</code></p>
-      </div>
-    </div>
-  </div>
-</div>
+## Add IDmelon to Salesforce Login Panel  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Click <span style="font-weight:bold;">Save.</span></p>
-      </div>
-    </div>
-  </div>
-</div>
+In the `Salesforce administration panel`, from the side menu, navigate to the `Company Settings` menu, then Click `My Domain`.  
 
-<div align="center">
-    <img src="/images/vendor/sso/salesforce_dashboard_04.png" class="doc-img-frame">
-</div>
+![alt](/images/vendor/sso/salesforce_dashboard_06.png)  
 
-## IDmelon SAML configuration
+Scroll down to `Authentication Configuration` menu, then Click `Edit`.  
 
-<hr class="hr-line">
+![alt](/images/vendor/sso/salesforce_dashboard_07.png)  
 
-After completing previous ``SAML Single Sign-On Settings`` section and submitting the form, you can see a new IdP added to your list.
+Under `Authentication Configuration` Dashboard, Check your custom IDP from `Authentication Service` check boxes.  
 
-You should upload **``metadata``** file from this **Salesforce panel** to **IDmelon Panel**.
+![alt](/images/vendor/sso/salesforce_dashboard_08.png)  
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Download -><span style="font-weight:bold;"> Download Metadata</span> File</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-You should copy values of below fields from the ``Salesforce`` panel to the ``IDmelon`` Panel:
-
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Entity ID</span><code class="code-back">Your custom salesforce portal</code></p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="mx-3">
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Example</span><a href="https://idmelon_test_sso.my.salesforce.com/" style="font-size:16px;">https://idmelon_test_sso.my.salesforce.com/</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Login URL : </span> Copy and Paste to <span style="font-weight:bold;">Assertion consumer service url</span></p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Logout URL : </span> Copy and Paste to <span style="font-weight:bold;">Single Sign Logout url</span></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div align="center">
-    <img src="/images/vendor/sso/salesforce_dashboard_05.png" class="doc-img-frame">
-</div>
-
-## Add IDmelon to Salesforce Login Panel
-
-In the ``Salesforce administration panel``, from the side menu, navigate to the ``Company Settings`` menu, then Click ``My Domain``.
-
-<div align="center">
-    <img src="/images/vendor/sso/salesforce_dashboard_06.png" class="doc-img-frame">
-</div>
-
-Scroll down to ``Authentication Configuration`` menu, then Click ``Edit``.
-
-<div align="center">
-    <img src="/images/vendor/sso/salesforce_dashboard_07.png" class="doc-img-frame">
-</div>
-
-Under ``Authentication Configuration`` Dashboard, Check your custom IDP from ``Authentication Service``
-check boxes.
-
-<div align="center">
-    <img src="/images/vendor/sso/salesforce_dashboard_08.png" class="doc-img-frame">
-</div>
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p><span style="font-weight:bold;">Done</span></p>
-      </div>
-    </div>
-  </div>
-</div>
+- **Done**  
