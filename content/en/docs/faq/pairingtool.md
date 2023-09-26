@@ -19,4 +19,4 @@ toc: true
 
 {{< faq question=`Do I need an IDmelon Reader to be able to use IDmelon Pairing Tool?` answer=`No.` >}}
 
-{{< faq question=`Is there any way to silently install pairing tool?` answer=`Yes. "[PDQ](https://www.pdq.com/)" can be used with “setup.exe /S” command with capital S to deploy silently. For more information you can visit [here](https://www.pdq.com/blog/deploying-exe-installers-in-pdq-deploy/).` >}}
+{{< faq question=`Is there any way to silently install pairing tool?` answer=`Yes. "[PDQ](https://www.pdq.com)" can be used with “setup.exe /S” command with capital S to deploy silently. For more information you can visit [here](https://www.pdq.com/blog/deploying-exe-installers-in-pdq-deploy).` >}}

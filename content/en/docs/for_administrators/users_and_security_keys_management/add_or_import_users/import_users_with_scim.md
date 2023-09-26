@@ -32,7 +32,7 @@ To synchronize SSO SCIM with Entra ID, follow the steps below.
     And next in the **Admin Credentials** section as follow:  
 
     - Tenant URL  
-    - <https://sso.idmelon.com/api/scim/v2/>  
+    - <https://sso.idmelon.com/api/scim/v2>  
     - Secret Token  
     - PASTE THIS VALUE FROM IDMELON PANEL  
 

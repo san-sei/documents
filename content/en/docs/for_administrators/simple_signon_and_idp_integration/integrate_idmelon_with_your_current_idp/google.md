@@ -21,7 +21,7 @@ In this document you are going to set up `IDmelon` as an external IdP to the `Go
 
 In order to set up the connection, you will need to log into your [Google administration panel](https://admin.google.com).  
 
-[Add Identity Provider](https://admin.google.com)  
+## Add Identity Provider  
 
 ---
 
@@ -110,7 +110,7 @@ Click `Save`.
 
 ---
 
-- In the [Google Cloud console](https://console.cloud.google.com/apis/), enable **the People API**.  
+- In the [Google Cloud console](https://console.cloud.google.com/apis), enable **the People API**.  
 - Create **New Project** :  
   - Choose a custom name in **Project name**  
   - Choose an organization in **Location**  

@@ -32,7 +32,7 @@ FIDO2.0 Authenticator on this page.
 
 ---
 
-- [Fido Aliance](https://fidoalliance.org/fido2/fido2-web-authentication-webauthn/)
+- [Fido Aliance](https://fidoalliance.org/fido2/fido2-web-authentication-webauthn)
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API#authenticatorresponse)
 - [Caniuse](https://caniuse.com/?search=webauthn)
 - [Webauthn.me](https://webauthn.me/browser-support)

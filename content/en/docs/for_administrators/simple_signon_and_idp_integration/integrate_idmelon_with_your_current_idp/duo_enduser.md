@@ -53,7 +53,7 @@ In this document you are going to set up `IDmelon` as an external IdP to the `Du
   2. **Paste Entity ID :** idp_issuer_uri  
   3. **Paste Single Sign-On URL :** idp_single_sign_on_url  
   4. **Paste Single Single Logout URL :** idp_single_sign_on_url  
-  5. **Paste Single Logout Redirect URL :** https://duo.com/  
+  5. **Paste Single Logout Redirect URL :** <https://duo.com>  
   6. **Import Certificate :** idp_certificate_download_url  
   7. **Choose Username normalization :** Simple  
 

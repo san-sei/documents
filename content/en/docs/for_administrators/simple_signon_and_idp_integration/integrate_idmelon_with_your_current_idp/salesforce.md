@@ -52,7 +52,7 @@ To configure SAML 2.0 IdP, fill the values of settings as below.
 
 - **Issuer:** `{{idp_issuer_uri}}`  
 - **Entity ID:** `Your custom salesforce portal`  
-  - **Example:** https://idmelon\_test\_sso.my.salesforce.com/  
+  - **Example:** https://idmelon\_test\_sso.my.salesforce.com  
 - **IdP Signature Certificate :**`{{idp_certificate_download_url}}`  
 - **Request Signing Certificate :**`Your salesforce certificate`  
 - **Request Signature Method :**`RSA_SHA256`  
@@ -79,7 +79,7 @@ You should upload **`metadata`** file from this **Salesforce panel** to **IDmelo
 You should copy values of below fields from the `Salesforce` panel to the `IDmelon` Panel:  
 
 - **Entity ID**`Your custom salesforce portal`  
-  - **Example**[https://idmelon\_test\_sso.my.salesforce.com/](https://idmelon_test_sso.my.salesforce.com/)  
+  - **Example** [https://idmelon\_test\_sso.my.salesforce.com](https://idmelon_test_sso.my.salesforce.com)  
 - **Login URL :** Copy and Paste to **Assertion consumer service url**  
 - **Logout URL :** Copy and Paste to **Single Sign Logout url**  
 

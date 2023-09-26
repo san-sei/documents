@@ -13,7 +13,7 @@ weight: 21000
 toc: true
 ---
 
-IDmelon Admin Panel is a platform where you can manage users, activate users' security keys, instantly grant or restrict access, carefully monitor users' access, and do many more things. To access the IDmelon Admin Panel, click [here](https://admin.idmelon.com/). Present your security key to experience a frictionless login or create a workspace on behalf of your organization if it is your first try.
+IDmelon Admin Panel is a platform where you can manage users, activate users' security keys, instantly grant or restrict access, carefully monitor users' access, and do many more things. To access the IDmelon Admin Panel, click [here](https://panel.idmelon.com). Present your security key to experience a frictionless login or create a workspace on behalf of your organization if it is your first try.
 
 ## Create an administration panel
 
@@ -28,7 +28,7 @@ To activate your security key, based on your device, please follow one of the be
     a. Choose **Smartphone** as your security key device and click on **Save & Continue**.  
     b. Use IDmelon Authenticator app or the camera on your smartphone to scan the QR code on your PC screen. Open IDmelon application on your phone and click on the **three line menu** on the top left of your screen. Then tap on **Pair with a new PC** and scan the QR code.  
     c. Click next and either download **IDmelon Pairing Tool** or use your **IDmelon Reader** to log in to panel by your smartphone as your security key. Click **Login** to move to login page.  
-    For more information about **IDmelon Pairing Tool** refer to [this page](https://idmelon.com/idmelon-pairing-tool/) and for more information about **IDmelon Reader** refer to [this page](https://idmelon.com/idmelon-reader/).  
+    For more information about **IDmelon Pairing Tool** refer to [this page](https://idmelon.com/products/pairingtool) and for more information about **IDmelon Reader** refer to [this page](https://idmelon.com/products/reader).  
 2. Contactless Card  
     a. Choose Contactless Card as your security key device and click on Save & Continue.  
     b. Based on your own card reader model click on rfIDEAS or acs to download the driver. Install the downloaded driver and click on Next.  

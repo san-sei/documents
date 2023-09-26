@@ -17,7 +17,7 @@ toc: true
 
 You can use security keys as a passwordless sign-in method within your organization. A security key is a physical device that's used with a unique PIN to sign in to your work or school account. Because security keys require you to have the physical device and something that only you know, it's considered a stronger verification method than a username and password.  
 
-Using a security key as a passwordless authentication method is currently in public preview. If what you're seeing on your screen doesn't match what's being covered in this article, it means that your administrator hasn't turned on this feature yet. Until this feature is turned on, you must [choose another authentication method from the Security Info page](https://support.microsoft.com/en-us/account-billing/set-up-security-info-from-a-sign-in-page-28180870-c256-4ebf-8bd7-5335571bf9a8). For more information about previews, see [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/support/legal/preview-supplemental-terms/).  
+Using a security key as a passwordless authentication method is currently in public preview. If what you're seeing on your screen doesn't match what's being covered in this article, it means that your administrator hasn't turned on this feature yet. Until this feature is turned on, you must [choose another authentication method from the Security Info page](https://support.microsoft.com/en-us/account-billing/set-up-security-info-from-a-sign-in-page-28180870-c256-4ebf-8bd7-5335571bf9a8). For more information about previews, see [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/support/legal/preview-supplemental-terms).  
 
 ## Before you begin  
 
@@ -165,7 +165,7 @@ To apply a provisioning package directly, such as from a USB drive, folder, netw
 
 You must create your security key and give it a unique PIN before you can sign in to your work or school account using the key. You may have up to 10 keys registered with your account.  
 
-1. Go to the My Profile page at [My Account](https://myaccount.microsoft.com/) and sign in if you haven't already done so.  
+1. Go to the My Profile page at [My Account](https://myaccount.microsoft.com) and sign in if you haven't already done so.  
 2. Select **Security Info**, select **Add method**, and then select **Security key** from the **Add a method** list.  
 ![alt](/images/vendor/DirectoryServicesIntegration/AzureAD/reg-1.png)  
 3. Select **Add**, and then select the type of security key you have, either **USB** device or **NFC** device.  

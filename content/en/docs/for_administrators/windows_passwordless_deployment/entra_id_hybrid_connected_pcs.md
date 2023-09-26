@@ -17,7 +17,7 @@ toc: true
 
 ## Requirements  
 
-- Windows Server 2016 ([patch KB4534307](https://support.microsoft.com/en-us/topic/ january-23-2020-kb4534307-os-build-14393-3474-b181594e-2c6a-14ea-e75b-678efea9d27e)), 2019 ([patch KB4534321](https://support.microsoft.com/en-us/topic/january-23-2020-kb4534321-os-build-17763-1012-023e84c3-f9aa-3b55-8aff-d512911c459f)), and 2022  
+- Windows Server 2016 ([patch KB4534307](https://support.microsoft.com/en-us/topic/january-23-2020-kb4534307-os-build-14393-3474-b181594e-2c6a-14ea-e75b-678efea9d27e)), 2019 ([patch KB4534321](https://support.microsoft.com/en-us/topic/january-23-2020-kb4534321-os-build-17763-1012-023e84c3-f9aa-3b55-8aff-d512911c459f)), and 2022  
 - Windows 10 or 11 clients (version 2004 or later)  
 - Azure AD Connect (version 1.4.32.0 or later)  
 - FIDO2 Security Keys  
@@ -69,7 +69,7 @@ After these steps, you can now check the Azure portal to ensure that the local u
 
 ## Enable FIDO2 security key method  
 
-1. Sign in to the [Azure portal](https://portal.azure.com/)  
+1. Sign in to the [Azure portal](https://portal.azure.com)  
 2. Browse to **Azure Active Directory > Security > Authentication methods > Authentication method policy**.  
 3. Under the method **FIDO2 Security Key**, click **All users**, or click **Add groups** to select specific groups. _Only security groups are supported._  
 4. Save the configuration.  
@@ -220,7 +220,7 @@ To enable FIDO security key sign-in. The setting can be found under **Computer C
 
 ## Register a Security Key  
 
-1. Go to the My Profile page at [My Account](https://myaccount.microsoft.com/) and sign in if you haven't already done so.  
+1. Go to the My Profile page at [My Account](https://myaccount.microsoft.com) and sign in if you haven't already done so.  
 2. Select **Security Info**, select **Add method**, and then select **Security key** from the **Add a method** list.  
 3. Select **Add**, and then select the type of security key you have, either **USB** device or **NFC** device.  
 

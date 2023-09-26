@@ -13,9 +13,9 @@ weight: 130000
 toc: true
 ---
 
-In order to login, you need to have an active account in [IDmelon Panel](https://panel.idmelon.com/).
+In order to login, you need to have an active account in [IDmelon Panel](https://panel.idmelon.com).
 
-The first step to log in is to open [this link](https://panel.idmelon.com/). So after opening IDmelon panel, you will see the image below, which shows multiple ways to log in.
+The first step to log in is to open [this link](https://panel.idmelon.com). So after opening IDmelon panel, you will see the image below, which shows multiple ways to log in.
 
 ## Login page
 

@@ -23,7 +23,7 @@ You can add the following platforms to your security key.
 - To enable this feature on your Azure AD joined PCs, call your IT administrator.
 
 Note: Administrators for a technical guide can refer to
-this [link](https://example.com/docs/integration-guides/azure-ad/).
+this [link](https://example.com/docs/integration-guides/azure-ad).
 
 ### Office 365
 
@@ -196,7 +196,7 @@ To set up your security key:
 3. Select Security Key under 2-step verification.
 
 For more information
-check [this article](#https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys).
+check [this article](https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys).
 
 ### Dropbox
 

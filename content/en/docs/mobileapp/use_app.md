@@ -149,7 +149,7 @@ To upgrade a **Basic** account to an **Standard** account or a **Premium** accou
 ## Pair with a new PC
 
 To use IDmelon Mobile App in combination with IDmelon Pairing Tool without the need for any hardware, download IDmelon
-Pairing Tool [here](https://www.idmelon.com/download/) and follow below steps:
+Pairing Tool [here](https://www.idmelon.com/download) and follow below steps:
 
 1. Open IDmelon app on your smartphone, go to the setting and click on the Pair with a New PC.
 
