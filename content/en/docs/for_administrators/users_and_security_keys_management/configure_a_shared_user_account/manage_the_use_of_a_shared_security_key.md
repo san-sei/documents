@@ -29,4 +29,4 @@ To address this issue, you can employ policies to establish a default user/crede
 
 After implementing the policy, any attempts to log in to the specified computer using a contactless card that is not linked to the selected user/shared account will be denied or blocked. Using shared accounts, only contactless cards associated with the selected shared account are allowed to login to Windows on the specified computer.  
 
-To further study policies and how to use them, please refer to the [policies section](https://docs.ipop.com/security-key-policies).  
+To further study policies and how to use them, please refer to the [policies section](/docs/for_administrators/conditional_access_for_security_keys/what_are_the_security_key_policies).  

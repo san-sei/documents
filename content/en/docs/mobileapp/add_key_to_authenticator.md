@@ -23,7 +23,7 @@ You can add the following platforms to your security key.
 - To enable this feature on your Azure AD joined PCs, call your IT administrator.
 
 Note: Administrators for a technical guide can refer to
-this [link](https://example.com/docs/integration-guides/azure-ad).
+this [link](/docs/for_administrators/windows_passwordless_deployment/entra_id_connected_pcs).
 
 ### Office 365
 
@@ -50,7 +50,7 @@ this [link](https://example.com/docs/integration-guides/azure-ad).
 ### GitHub
 
 1. Before adding a security key to your GitHub account, you must first enable 2FA via a TOTP mobile app or via
-   SMS. [Check here](https://example.com/docs/github-2fa).
+   SMS. [Check here](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication).
 
 2. Sign in to your GitHub account.
 

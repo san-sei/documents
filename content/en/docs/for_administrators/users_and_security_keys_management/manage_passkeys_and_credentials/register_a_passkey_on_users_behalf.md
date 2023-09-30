@@ -25,7 +25,7 @@ This feature helps administrators register their users' security keys on their a
 
 Azure user provisioning can be done in two ways: automatically or manually. Right now, the automatic method is still in the preview phase, but it offers a big advantage by saving you the trouble of manually registering a credential for multiple users. In the rest of this document, we'll guide you through the steps for both automatic and manual user provisioning in Microsoft.  
 
-> To register Microsoft credentials for users, you should start by importing your users from Azure AD following the instructions provided in this guideline: [Import from Azure AD](../administration/enrollment.md/#import-from-azure-ad).  
+> To register Microsoft credentials for users, you should start by importing your users from Azure AD following the instructions provided in this guideline: [Import from Entra ID](/docs/for_administrators/users_and_security_keys_management/add_or_import_users/import_users_from_entra_id).  
 
 ### Automated RP Provisioning
 

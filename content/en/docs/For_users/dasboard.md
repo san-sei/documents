@@ -13,7 +13,7 @@ weight: 120000
 toc: true
 ---
 
-Every user has 2 sections in their panel. On section is [SSO (Simple Sign-On)](#sso-simple-sign-on) which enables them to login by using their active accounts and security keys. The other section is the [Dropdown menu](#dropdown-menu) which enables users to access their profile and settings.
+Every user has 2 sections in their panel. On section is [SSO (Simple Sign-On)](#sso-simple-sign-on) which enables them to login by using their active accounts and security keys. The other section is [User Options](#user-options) which enables users to access their profile and settings.
 
 ## SSO (Simple Sign-On)
 

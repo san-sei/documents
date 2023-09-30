@@ -79,7 +79,7 @@ You should upload **`metadata`** file from this **Salesforce panel** to **IDmelo
 You should copy values of below fields from the `Salesforce` panel to the `IDmelon` Panel:  
 
 - **Entity ID**`Your custom salesforce portal`  
-  - **Example** [https://idmelon\_test\_sso.my.salesforce.com](https://idmelon_test_sso.my.salesforce.com)  
+  - **Example** https://idmelon_test_sso.my.salesforce.com  
 - **Login URL :** Copy and Paste to **Assertion consumer service url**  
 - **Logout URL :** Copy and Paste to **Single Sign Logout url**  
 
