@@ -17,7 +17,7 @@ toc: true
 
 Run the command below in Command Prompt to see the status:
 
-```
+```cmd
 Accesskeycli status
 ```
 

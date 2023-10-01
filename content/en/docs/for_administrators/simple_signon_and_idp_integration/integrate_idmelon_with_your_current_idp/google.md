@@ -48,7 +48,7 @@ Then scroll down and navigate to `Set up Single Sign-On (SSO) with a third-party
 
 ![alt](/images/vendor/sso/google_dashboard_03.png)  
 
-**Create an SSO profile**  
+### Create an SSO profile  
 
 - In the **Single Sign-On (SSO) with third-party Identity Providers (IDPs)** panel.  
 - Scroll down to **Third-party SSO profiles**, click **Add SAML profile**.  

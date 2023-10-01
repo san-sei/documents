@@ -102,7 +102,7 @@ In order to map IDmelon and CyberArk users, choose Optional in the `Map federate
 
 - Click **Save**.  
 
-**Tips**  
+### Tips  
 
 - **Optional**: Selecting `Optional` means authentication of a mapped federation user results in the user of the mapped directory service. If a user cannot be mapped, a new federated user is created.  
 - **Required**: Selecting `Required` means the user of a federation will authenticate as the matching user of another directory service. If no match is found, login is denied. If `Create cloud user if unable to map` is also enabled, a matched CyberArk Cloud Directory user is created and login is permitted.  

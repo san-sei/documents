@@ -20,7 +20,7 @@ toc: true
 **Step 3:** If you have administrator rights on the device, you can set the policy in the IDmelon Access Key.  
 To do this, run the following command:  
 
-```
+```cmd
 accesskeycli set-pin-policy -p pin_prohibited
 ```
 
@@ -47,7 +47,7 @@ If you have previously added some contactless cards, you can change their verifi
 
 To view the current policy, use the command:  
 
-```
+```cmd
 accesskeycli get-pin-policy  
 ```
 
@@ -57,7 +57,7 @@ accesskeycli get-pin-policy
 
 **Step 1:** With administrative rights on the device, change the IDmelon Access Key policy using the command:  
 
-```
+```cmd
 accesskeycli set-pin-policy -p pin_required  
 ```
 
@@ -71,13 +71,13 @@ accesskeycli set-pin-policy -p pin_required
 
 **Step 2:** To install the access key with a required PIN, use the command:  
 
-```
+```cmd
 installer.exe /S set-pin-policy -p pin_required  
 ```
 
 To install with a prohibited PIN, use the command:  
 
-```
+```cmd
 installer.exe /S set-pin-policy -p pin_prohibited  
 ```
 

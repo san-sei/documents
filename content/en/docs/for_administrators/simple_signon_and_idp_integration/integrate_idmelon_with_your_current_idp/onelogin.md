@@ -118,7 +118,7 @@ You should copy values of below fields from the Okta panel to the IDmelon Panel:
 
 ---
 
-**GET API Token for user provisioning in OneLogin**  
+### GET API Token for user provisioning in OneLogin  
 
 - Click on **Developers** then **API Credentials**.  
 - Click on **New Credential** .  
