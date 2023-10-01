@@ -18,7 +18,7 @@ The "Target Computer" condition in security key policies refers to the ability t
 Here's how the "Target Computer" condition works within security key policies:
 
 - Device Identification: Each device, such as a computer or workstation, has a unique identifier (name) that can be recognized by the system. This identifier is used to differentiate one device from another.
-- Access Control: With the "Target Computer" condition, administrators can configure policies that dictate whether or not a user can access a particular computer or an RP using their security key from a particular computer. 
+- Access Control: With the "Target Computer" condition, administrators can configure policies that dictate whether or not a user can access a particular computer or an RP using their security key from a particular computer.  
 - Enhanced Security: By implementing policies based on the "Target Computer" condition, organizations can enhance security by ensuring that users can only access approved computers or RPs from approved computers. This prevents unauthorized access from/to computers that are not recognized or trusted.
 - Use Cases: For instance, an organization might configure a policy that allows users to authenticate using their security key only from computers that are within the company's physical premises or within the corporate network. This way, even if a user's security key is compromised, the potential for unauthorized access is limited to approved computers.
 

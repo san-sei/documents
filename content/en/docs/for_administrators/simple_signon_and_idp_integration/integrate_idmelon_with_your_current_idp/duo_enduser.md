@@ -73,7 +73,7 @@ In this document you are going to set up `IDmelon` as an external IdP to the `Du
 
 ![alt](/images/vendor/sso/duo_user-sso3.png)
 
-**Add IDmelon to Duo-user as passwordless and/or one Factor access**  
+### Add IDmelon to Duo-user as passwordless and/or one Factor access  
 
 - **Scroll down** to policy options Click **Edit Global Policy**  
 
