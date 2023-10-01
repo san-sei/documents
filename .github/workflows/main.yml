@@ -2,7 +2,7 @@ name: aws-storage-sync
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
