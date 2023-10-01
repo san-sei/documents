@@ -9,106 +9,61 @@ images: []
 menu:
   docs:
     parent: "scrty"
-weight: 100
+weight: 900000
 toc: true
 ---
-<div id="_modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-</div>
 
 ## Abstracted System Overview
 
-<hr class="hr-line">
+---
 
-<p>This abstracted system architecture overview outlines the components and services used to build and run IDmelon Passwordless Orchestration Platform (IPOP) on Google Cloud Platform (GCP). It explains how the components interact with each other to provide the application’s functionalities. It also provides an overview of how the application is deployed and configured on the Cloud.<p>
+This abstracted system architecture overview outlines the components and services used to build and run IDmelon
+Passwordless Orchestration Platform (IPOP) on Google Cloud Platform (GCP). It explains how the components interact with
+each other to provide the application’s functionalities. It also provides an overview of how the application is deployed
+and configured on the Cloud.
 
-<div align="center">
-    <img src="/images/vendor/Security/Security_5.png" class="doc-img-frame">
-</div>
+![alt](/images/vendor/Security/Security_5.png)
 
 ## System Security
 
-<hr class="hr-line">
+---
 
-<p>
-IPOP has a comprehensive security strategy that provides confidentiality, integrity, and availability; all designed by our security experts. <br></br>
-On the layer of data security, we address latest security measures. Credentials are stored encrypted or in Google Hardware Security Module (HSM) and keys are securely managed by Google Secret Manager to ensure latest security measures are always applied. <br></br>
-Concerning data transfer, we have made sure to implement best practices such as input validations, TLS, Cloudflare protections, data encryption, CORS, sanitization, and many more.
-</p>
+IPOP has a comprehensive security strategy that provides confidentiality, integrity, and availability; all designed by
+our security experts.
+
+On the layer of data security, we address the latest security measures. Credentials are stored encrypted or in Google
+Hardware Security Module (HSM), and keys are securely managed by Google Secret Manager to ensure the latest security
+measures are always applied.
+
+Concerning data transfer, we have made sure to implement best practices such as input validations, TLS, Cloudflare
+protections, data encryption, CORS, sanitization, and many more.
 
 ## Sync with Azure AD
 
-<hr class="hr-line">
+---
 
-<p>
-To sync groups, users, and devices with Microsoft Azure Active Directory, we safely follow the official Microsoft GraphAPI and documentation. The following diagram depicts an overview of the sync process:
-</p>
+To sync groups, users, and devices with Microsoft Azure Active Directory, we safely follow the official Microsoft
+GraphAPI and documentation. The following diagram depicts an overview of the sync process:
 
-<div align="center">
-    <img src="/images/vendor/Security/Security_6.png" class="doc-img-frame">
-</div>
+![alt](/images/vendor/Security/Security_6.png)
 
-<p>Briefly, the permissions and APIs are as follows:</p>
+Briefly, the permissions and APIs are as follows:
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> <span style="font-weight:bold">Read all groups:</span> Permission: GroupMember.Read.All <br></br> URL: <a href="https://graph.microsoft.com/v1.0/groups" style="font-size:16px;">https://graph.microsoft.com/v1.0/groups</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> <span style="font-weight:bold">Read all groups members:</span> Permission: GroupMember.Read.All <br></br> URL: <a href="https://graph.microsoft.com/v1.0/groups/${GROUP_ID}/members" style="font-size:16px;">https://graph.microsoft.com/v1.0/groups/${GROUP_ID}/members</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> <span style="font-weight:bold">Read connected devices (Windows devices only):</span> Permissions: Directory.Read.All,Device.Read.All <br></br> URL: <a href="https://graph.microsoft.com/v1.0/devices?$filter=operatingSystem" style="font-size:16px;">https://graph.microsoft.com/v1.0/devices?$filter=operatingSystem eq 'Windows'</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">4</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p> <span style="font-weight:bold">Get temporary access pass:</span> Permission: UserAuthenticationMethod.ReadWrite.All <br></br> URL: <a href="https://graph.microsoft.com/v1.0/users/${USER_GUID}/authentication/temporaryAccessPassMethods" style="font-size:16px;">https://graph.microsoft.com/v1.0/users/${USER_GUID}/authentication/temporaryAccessPass</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+1. **Read all groups:** Permission: GroupMember.Read.All\
+   URL: [https://graph.microsoft.com/v1.0/groups](https://graph.microsoft.com/v1.0/groups)
+2. **Read all groups members:** Permission: GroupMember.Read.All\
+   URL: [https://graph.microsoft.com/v1.0/groups/${GROUP_ID}/members](https://graph.microsoft.com/v1.0/groups/${GROUP_ID}/members)
+3. **Read connected devices (Windows devices only):** Permissions: Directory.Read.All, Device.Read.All\
+   URL: [https://graph.microsoft.com/v1.0/devices?$filter=operatingSystem](<https://graph.microsoft.com/v1.0/devices?$filter=operatingSystem eq 'Windows'>)
+4. **Get temporary access pass:** Permission: UserAuthenticationMethod.ReadWrite.All\
+   URL: [https://graph.microsoft.com/v1.0/users/${USER_GUID}/authentication/temporaryAccessPassMethods](https://graph.microsoft.com/v1.0/users/${USER_GUID}/authentication/temporaryAccessPass)
 
 ## System Updates
 
-<hr class="hr-line">
+---
 
-<p>IDmelon leverages automation CI/CD and GCP tools to ensure that all components are updated in a coordinated and timely manner. To ensure that the system remains stable during the upgrade process, we will use backup and rollback strategies to ensure that any unexpected issues can be quickly addressed. Additionally, our rolling release strategy ensures that users always receive the latest updates as quickly as possible. Finally, we use monitoring tools to ensure that the system is performing as expected and that any potential problems are quickly identified and addressed.</p>
+IDmelon leverages automation CI/CD and GCP tools to ensure that all components are updated in a coordinated and timely
+manner. To ensure that the system remains stable during the upgrade process, we will use backup and rollback strategies
+to ensure that any unexpected issues can be quickly addressed. Additionally, our rolling release strategy ensures that
+users always receive the latest updates as quickly as possible. Finally, we use monitoring tools to ensure that the
+system is performing as expected and that any potential problems are quickly identified and addressed.

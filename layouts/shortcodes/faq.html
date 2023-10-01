@@ -1,0 +1,4 @@
+<button class="accordion">{{ .Get `question` | markdownify }}</button>
+<div class="panel">
+  <p>{{ .Get `answer` | markdownify }}</p>
+</div>

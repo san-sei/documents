@@ -1,8 +1,8 @@
 [[docs]]
-  name = "Administration"
+  name = "For Administrators"
   weight = 10
-  identifier = "administration"
-  url = "/docs/administration/"
+  identifier = "for_administrators"
+  url = "/docs/for_administrators/"
 
 [[docs]]
   name = "Help"
@@ -12,7 +12,7 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/administration/introduction/"
+  url = "/docs/for_administrators/introduction/idmelon_passwordless_orchestration_platform/offering_managed_security_keys/"
   weight = 10
 
 # [[main]]

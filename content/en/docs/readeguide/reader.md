@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "readerguide"
-weight: 60
+weight: 500000
 toc: true
 ---
 IDmelon Reader is a hardware technology designed and developed by IDmelon Technologies to let users use their smartphones as a security key.
@@ -19,15 +19,13 @@ we will describe how the reader works in different modes and how you can switch 
 
 ## Hardware
 
-<hr class="hr-line">
+---
 
-<p align="center">
-    <img src="/images/vendor/ReaderGuide/reader_guide_1.png" class="doc-img-frame">
-</p>
+![alt](/images/vendor/ReaderGuide/reader_guide_1.png)
 
 ## Basic Concepts
 
-<hr class="hr-line">
+---
 
 IDmelon Reader supports 3 different working modes.
 Each mode has different capabilities and designed for a use case. Users can switch and choose their working mode according to their needs and use cases.

@@ -5,10 +5,10 @@
 #  url = "/docs/prologue/"
 
 [[docs]]
-  name = "Administration"
+  name = "For Administrators"
   weight = 20
-  identifier = "administration"
-  url = "/docs/administration/"
+  identifier = "for_administrators"
+  url = "/docs/for_administrators/"
 
 [[docs]]
   name = "Help"
@@ -36,7 +36,7 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/administration/introduction/"
+  url = "/docs/for_administrators/introduction/idmelon_passwordless_orchestration_platform/offering_managed_security_keys/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
@@ -54,7 +54,7 @@
   name = "Get Started"
   weight = 30
   identifier = "get-started"
-  url = "/docs/administration/introduction/"
+  url = "/docs/for_administrators/get_started/create_your_administration_panel/"
 
 [[main]]
   name = "Quick Start"

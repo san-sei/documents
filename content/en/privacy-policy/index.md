@@ -20,7 +20,7 @@ __TLDR__: We do not use cookies and we do not collect any personal data.
 
 ### Information we collect and what we use it for
 
-We run [Plausible](https://plausible.io/) analytics on getdoks.org. The following information is collected:
+We run [Plausible](https://plausible.io) analytics on getdoks.org. The following information is collected:
 
 - __Page URL__. We track the page URL of each page view on this website. We use this to understand which pages have been viewed and how many times a particular page has been viewed. For example: _https://getdoks.org/_.
 - __HTTP Referrer__. We use the referrer string to understand the number of visitors referred to this website from links on other sites. For example: _https://github.com/_.

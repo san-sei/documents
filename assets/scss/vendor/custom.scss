@@ -1004,6 +1004,7 @@ tr.trV2 {
   height: 90%;
   object-fit: contain;
   background-color: transparent;
+  max-width: 100%;
 }
 
 /* Add Animation */
@@ -1164,4 +1165,251 @@ tr.trV2 {
 .reader-logo-container{
   content: url('/images/vendor/Homepage/IDmelon-Reader.svg');
   background-repeat: no-repeat;
+}
+
+a {
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1200px) {
+  .right-side-links h4,
+  .right-side-links li {
+    padding-left: 24px !important;
+  }
+}
+
+.doc-nav-btn-body {
+  align-items: center;
+}
+
+.nav-arr {
+  margin-top: -1px
+}
+
+.docs-sidebar {
+  flex: 0 0 auto;
+  padding-right: 0;
+}
+
+.btn-toggle::before,
+[data-dark-mode] .btn-toggle::before {
+  width: auto !important;
+  padding-right: 10px;
+}
+
+.docs-links {
+  width: 100%;
+}
+
+a.docs-link {
+  padding-left: 20px;
+}
+
+.docs-content a:not(.docs-content .right-side-links a) {
+  font-size: 16px;
+  word-break: break-all;
+}
+
+.docs-content li p {
+  margin-bottom: 0;
+}
+
+.btn-toggle {
+  text-align: left;
+  font-size: 14px;
+}
+
+.content img {
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  transition: 0.3s;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.content img:hover {
+  opacity: 0.7;
+}
+
+.docs-content ol {
+  list-style: none;
+  counter-reset: item;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.docs-content ol li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.docs-content ol li:last-child {
+  margin-bottom: 0;
+}
+
+.docs-content ol > li:before {
+  content: counter(item);
+  counter-increment: item;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 3.5px;
+  left: 0;
+  background-color: #e6f7ff;
+  color: #0186c2;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  border-radius: 50%;
+}
+
+[data-dark-mode] .docs-content ol > li:before {
+  background-color: rgba(38, 48, 53, 0.6);
+}
+
+.docs-content ul:not(.docs-content .right-side-links ul) {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.docs-content ul li:not(.docs-content .right-side-links ul li) {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.docs-content ul li:not(.docs-content .right-side-links ul li):before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #e6f7ff;
+  border-radius: 50%;
+  position: absolute;
+  top: 3.5px;
+  left: 0;
+}
+
+[data-dark-mode] .docs-content ul li:not(.docs-content .right-side-links ul li):before {
+  background-color: rgba(38, 48, 53, 0.6);
+}
+
+.docs-content ul li:not(.docs-content .right-side-links ul li):after {
+  content: '';
+  background-color: #0186c2;
+  width: 5px;
+  height: 5px;
+  margin-left: 7.5px;
+  margin-top: 7.5px;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 3.5px;
+  left: 0;
+}
+
+.docs-content blockquote {
+  background-color: rgba(230, 247, 255, 0.6);
+  margin: 16px 0;
+  border-left: 5px solid #0186c2 !important;
+  padding: 13px 27px 14px 21px;
+}
+
+[data-dark-mode] .docs-content blockquote {
+  background-color: rgba(38, 48, 53, 0.6);
+}
+
+.docs-content blockquote p {
+  margin-bottom: 0;
+}
+
+.accordion {
+  width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+  padding: 16px 12px 16px 38.63px;
+  background-color: #ececec;
+  color: #444;
+  border-left: 1px solid #ececec;
+  border-top: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  outline: none;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+[data-dark-mode] .accordion {
+  background-color: #1e2021;
+  color: #fff;
+  border-left: 1px solid #5d5f62;
+  border-top: 1px solid #5d5f62;
+  border-right: 1px solid #5d5f62;
+}
+
+.accordion:before {
+  content: "\f158";
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #5d5f62;
+  font: normal normal normal 18px/1 'Ionicons';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.accordion.active {
+  color: #4594dc;
+}
+
+[data-dark-mode] .accordion.active {
+  color: #8ed6fb;
+}
+
+.accordion.active:before {
+  content: "\f176";
+}
+
+.panel {
+  max-height: 8px;
+  overflow: hidden;
+  margin-top: -24px;
+  margin-bottom: 16px;
+  background-color: #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+[data-dark-mode] .panel {
+  background: #1e2021;
+  color: #fff;
+  border-left: 1px solid #5d5f62;
+  border-right: 1px solid #5d5f62;
+  border-bottom: 1px solid #5d5f62;
+}
+
+.panel p {
+  margin: 0;
+  padding: 16px;
 }

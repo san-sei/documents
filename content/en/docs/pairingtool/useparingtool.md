@@ -9,120 +9,57 @@ images: []
 menu:
   docs:
     parent: "pairingtool"
-weight: 51
+weight: 410000
 toc: true
 ---
 
-<p class="note-body">
-<span style="font-weight:bold;">Note</span>: IDmelon Pairing Tool is supported by windows 10.</p>
+> **Note**: IDmelon Pairing Tool is supported by Windows 10.
 
-## Perpare
+## Prepare
 
-<hr class="hr-line">
+---
 
 To set up, you will need to:
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Check your Internet connection on both your computer and your smartphone.</p>
-      </div>
-    </div>
-  </div>
-</div>
+- Check your Internet connection on both your computer and your smartphone.
 
 ## Pair
 
-<hr class="hr-line">
-<p>To pair and use your smartphone as a security key with IDmelon Pairing Tool, follow below steps:</p>
+---
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">1</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Open IDmelon Pairing Tool on your computer and click on the <span style="font-weight:bold;">pair a new smartphone</span>.</p>
-      </div>
-    </div>
-  </div>
-</div>
+To pair and use your smartphone as a security key with IDmelon Pairing Tool, follow the below steps:
 
-<p align="center">
-    <img src="/images/vendor/PairingTool/pairingtool_1.png" class="doc-img-frame">
-</p>
+1. Open IDmelon Pairing Tool on your computer and click on **pair a new smartphone**.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">2</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Point your smartphone camera at the QR code on your computer screen.</p>
-      </div>
-    </div>
-  </div>
-</div>
+![alt](/images/vendor/PairingTool/pairingtool_1.png)
 
-<p align="center">
-    <img src="/images/vendor/PairingTool/pairingtool_2.png" class="doc-img-frame">
-</p>
+2. Point your smartphone camera at the QR code on your computer screen.
 
-<div class="step-row-container">
-  <div class="step-column step-count-size">
-    <p class="step-counter">3</p>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>Congratulations!</p>
-      </div>
-    </div>
-  </div>
-</div>
+![alt](/images/vendor/PairingTool/pairingtool_2.png)
 
-<p align="center">
-    <img src="/images/vendor/PairingTool/pairingtool_3.png" class="doc-img-frame">
-</p>
+3. Congratulations!
 
-Having been paired with your smartphone successfully, your computer shows the model of your smartphone on your computer screen:
+![alt](/images/vendor/PairingTool/pairingtool_3.png)
 
-<p align="center">
-    <img src="/images/vendor/PairingTool/pairingtool_4.png" class="doc-img-frame">
-</p>
+Having been paired with your smartphone successfully, your computer shows the model of your smartphone on your computer
+screen:
 
-<div class="step-row-container">
-  <div class="step-column bullet-container">
-    <div class="bullet"></div>
-  </div>
-  <div class="card-column">
-    <div class="step-text" >
-      <div class="card-body">
-        <p>For each login or registration, you will receive an alert that you can approve and then verify your identity with using your desired unlocking method on your smartphone.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<p class="note-body">
-<span style="font-weight:bold;">Note</span>: You have to take all the steps in the Pairing section for each mobile device.</p>
-<p class="note-body">
-<span style="font-weight:bold;">Note</span>: One and only one mobile device can be connected at a time.</p>
+![alt](/images/vendor/PairingTool/pairingtool_4.png)
+
+- For each login or registration, you will receive an alert that you can approve and then verify your identity using
+  your desired unlocking method on your smartphone.
+
+> **Note**: You have to take all the steps in the Pairing section for each mobile device.
+
+> **Note**: One and only one mobile device can be connected at a time.
 
 ## Disable smartphone as a FIDO2 key
 
-<hr class="hr-line">
+---
 
-You can disable your smartphone as a security key by cliking on the toggle button.
+You can disable your smartphone as a security key by clicking on the toggle button.
 
-<p align="center">
-    <img src="/images/vendor/PairingTool/pairingtool_5.png" class="doc-img-frame">
-</p>
+![alt](/images/vendor/PairingTool/pairingtool_5.png)
 
-<p class="note-body">
-<span style="font-weight:bold;">Note</span>: Once you turn this button off, you will no longer recieve any requests on your smartphone untill you turn in on again.</p>
+> **Note**: Once you turn this button off, you will no longer receive any requests on your smartphone until you turn it on
+again.

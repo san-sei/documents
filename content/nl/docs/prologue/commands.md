@@ -23,7 +23,7 @@ Create new content for your site:
 npm run create [path] [flags]
 ```
 
-See also the Hugo docs: [hugo new](https://gohugo.io/commands/hugo_new/).
+See also the Hugo docs: [hugo new](https://gohugo.io/commands/hugo_new).
 
 ## lint
 
