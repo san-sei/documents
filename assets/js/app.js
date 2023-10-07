@@ -61,3 +61,55 @@ addEventListener('resize',()=>{
     }
   
 });
+
+
+function findOccurrences(str, word) {
+  const occurrences = [];
+  for (let j = 0; j < str.length; j++) {
+    if (str.substring(j, j + word.length) === word) {
+      occurrences.push(j);
+    }
+  }
+  return occurrences;
+}
+
+(function() {
+  const letteredLists = document.querySelectorAll(".docs-content ol li");
+
+  for (let i = 0; i < letteredLists.length; i++) {
+    let letteredListsPattern = /[\r\n|\r|\n]+([A-Za-z]+)\. /g;
+    if (letteredListsPattern.exec(letteredLists[i].innerHTML)) {
+      letteredLists[i].innerHTML = letteredLists[i].innerHTML.replace(letteredListsPattern, `<span>$1</span>`);
+
+      const openSpan = "<span>", closeSpan = "</span>";
+      const openSpanIndices = findOccurrences(letteredLists[i].innerHTML, openSpan);
+      const closeSpanIndices = findOccurrences(letteredLists[i].innerHTML, closeSpan);
+
+      const letteredList = document.createElement("div");
+      letteredList.classList.add("lettered-list");
+
+      for (let j = 0; j < openSpanIndices.length; j++) {
+        const k = j == openSpanIndices.length - 1 ? letteredLists[i].innerHTML.length : j + 1;
+
+        const content = document.createElement("div");
+        content.innerHTML = letteredLists[i].innerHTML.substring(closeSpanIndices[j] + closeSpan.length, openSpanIndices[k]);
+        content.classList.add("lettered-list__content");
+
+        const itemNo = document.createElement("div");
+        itemNo.innerHTML = letteredLists[i].innerHTML.substring(openSpanIndices[j] + openSpan.length, closeSpanIndices[j]);
+        itemNo.classList.add("lettered-list__item-no");
+
+        const item = document.createElement("div");
+        item.classList.add("lettered-list__item");
+
+        item.append(itemNo);
+        item.append(content);
+
+        letteredList.append(item);
+      }
+
+      letteredLists[i].innerHTML = letteredLists[i].innerHTML.substring(0, openSpanIndices[0]);
+      letteredLists[i].append(letteredList);
+    }
+  }
+})();
