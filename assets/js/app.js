@@ -77,9 +77,12 @@ function findOccurrences(str, word) {
   const letteredLists = document.querySelectorAll('.docs-content ol li');
 
   for (let i = 0; i < letteredLists.length; i++) {
-    let letteredListsPattern = /[\r\n|\r|\n]+([A-Za-z]+)\. /g;
-    if (letteredListsPattern.exec(letteredLists[i].innerHTML)) {
-      letteredLists[i].innerHTML = letteredLists[i].innerHTML.replace(letteredListsPattern, '<span>$1</span>');
+    const breakPattern = /<br>/g;
+    letteredLists[i].innerHTML = letteredLists[i].innerHTML.replace(breakPattern, '\n');
+
+    const letteredListPattern = /[\r\n|\r|\n]+([A-Za-z]+)\. /g;
+    if (letteredListPattern.exec(letteredLists[i].innerHTML)) {
+      letteredLists[i].innerHTML = letteredLists[i].innerHTML.replace(letteredListPattern, '<span>$1</span>');
 
       const openSpan = '<span>', closeSpan = '</span>';
       const openSpanIndices = findOccurrences(letteredLists[i].innerHTML, openSpan);
