@@ -23,6 +23,11 @@ if (mode !== null) {
     document.documentElement.toggleAttribute('data-dark-mode');
     localStorage.setItem('theme', document.documentElement.hasAttribute('data-dark-mode') ? 'dark' : 'light');
 
+    const letteredListItemNos = document.querySelectorAll('.lettered-list__item-no');
+    for (let i = 0; i < letteredListItemNos.length; i++) {
+      letteredListItemNos[i].style.backgroundColor = document.documentElement.hasAttribute('data-dark-mode') ? 'rgba(38, 48, 53, 0.6)' : 'rgb(230, 247, 255)';
+    }
+
   });
 
   if (localStorage.getItem('theme') === 'dark') {
