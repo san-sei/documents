@@ -77,8 +77,7 @@ function findOccurrences(str, word) {
   const letteredLists = document.querySelectorAll('.docs-content ol li');
 
   for (let i = 0; i < letteredLists.length; i++) {
-    const breakPattern = /<br>/g;
-    letteredLists[i].innerHTML = letteredLists[i].innerHTML.replace(breakPattern, '\n');
+    letteredLists[i].innerHTML = letteredLists[i].innerHTML.replace(/<br>/g, '\n');
 
     const letteredListPattern = /[\r\n|\r|\n]+([A-Za-z]+)\. /g;
     if (letteredListPattern.exec(letteredLists[i].innerHTML)) {
@@ -90,6 +89,7 @@ function findOccurrences(str, word) {
 
       const letteredList = document.createElement('div');
       letteredList.classList.add('lettered-list');
+      letteredList.style.marginTop = '20px';
 
       for (let j = 0; j < openSpanIndices.length; j++) {
         const k = j == openSpanIndices.length - 1 ? letteredLists[i].innerHTML.length : j + 1;
@@ -97,13 +97,28 @@ function findOccurrences(str, word) {
         const content = document.createElement('div');
         content.innerHTML = letteredLists[i].innerHTML.substring(closeSpanIndices[j] + closeSpan.length, openSpanIndices[k]);
         content.classList.add('lettered-list__content');
+        content.style.paddingLeft = '40px';
 
         const itemNo = document.createElement('div');
         itemNo.innerHTML = letteredLists[i].innerHTML.substring(openSpanIndices[j] + openSpan.length, closeSpanIndices[j]);
         itemNo.classList.add('lettered-list__item-no');
+        itemNo.style.width = '20px';
+        itemNo.style.height = '20px';
+        itemNo.style.position = 'absolute';
+        itemNo.style.top = '3.5px';
+        itemNo.style.left = '0';
+        itemNo.style.backgroundColor = document.documentElement.hasAttribute('data-dark-mode') ? 'rgba(38, 48, 53, 0.6)' : 'rgb(230, 247, 255)';
+        itemNo.style.color = '#0186c2';
+        itemNo.style.fontSize = '14px';
+        itemNo.style.lineHeight = '1.5';
+        itemNo.style.textAlign = 'center';
+        itemNo.style.borderRadius = '50%';
 
         const item = document.createElement('div');
         item.classList.add('lettered-list__item');
+        item.style.display = 'flex';
+        item.style.marginBottom = '20px';
+        item.style.position = 'relative';
 
         item.append(itemNo);
         item.append(content);
