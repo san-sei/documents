@@ -22,7 +22,7 @@ You can enable a FIDO security key for your own IAM user from the AWS Management
     - If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.  
 
     - If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.  
-    
+
 6. Say yes to the notification and choose **Close** when setup is complete.  
 
 The IDmelon FIDO2 security key is ready for use with AWS.  

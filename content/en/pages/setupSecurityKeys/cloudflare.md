@@ -16,7 +16,7 @@ To enable 2FA security key authentication after [enabling 2FA on your Cloudflare
 3. A dialog appears. **Interact with** your security key to add it to your Cloudflare account.  
 
     - If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.  
-    
+
     - If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.  
 
 4. **Enter** a name for the security key. If this is the initial setup, you will be prompted to generate backup codes. If not, skip to Step 8.  

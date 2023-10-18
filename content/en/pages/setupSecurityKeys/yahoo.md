@@ -20,7 +20,7 @@ images: []
 6. Follow the on-screen prompts to finish setting up your Security Key:  
 
     - If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.  
-    
+
     - If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.  
 
 {{< btn value=`Back` href=`/pages/whichplatform/index.html` >}}

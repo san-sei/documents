@@ -18,8 +18,8 @@ You can find the steps to add your IDmelon Security key to your Gitlab account b
 4. Select **Set up New WebAuthn Device**.  
 
     - If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.  
-    
-    - If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer. 
+
+    - If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.  
 
 A message displays indicating that your device was successfully set up.  
 

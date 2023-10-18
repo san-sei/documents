@@ -22,7 +22,7 @@ To add a security key:
     - If you are using an IDmelon Reader, insert it into the USB port of your device, tap your smartphone to the Reader which starts blinking blue for a few seconds to receive the notification.  
 
     - If you are using IDmelon Pairing Tool, you will receive the notification on the smartphone which is already paired with your computer.  
-    
+
 5. Once you’ve successfully added a security key to your account, you can start using it when you log in.  
 
 {{< btn value=`Back` href=`/pages/whichplatform/index.html` >}}
