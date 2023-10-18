@@ -7,24 +7,10 @@ draft: false
 images: []
 ---
 
-This feature is only available for Azure Active Directory joined PCs.
+This feature is only available for Azure Active Directory joined PCs.  
 
-Standalone PCs or even on-premise AD do not support this feature.
+Standalone PCs or even on-premise AD do not support this feature.  
 
-To enable this feature on your Azure AD joined PCs, call your IT administrator. You can also read [this document](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-passwordless-security-key-windows).
+To enable this feature on your Azure AD joined PCs, call your IT administrator. You can also read [this document](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-passwordless-security-key-windows).  
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="/pages/whichplatform/index.html">Back</a>
-
-<style>
-
-@media (max-width: 480px) {.navbar, .footer { display: none; }}
-h1{
-    color : #4395ec;
-}
-p{
-    font-size:20px;
-}
-li{
-    font-size:20px;
-}
-</style>
+{{< btn value=`Back` href=`/pages/whichplatform/index.html` >}}

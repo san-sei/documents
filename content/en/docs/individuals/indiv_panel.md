@@ -40,9 +40,9 @@ To create a personal account users have two ways, the first way is through **a s
 
     Click **Login** to move to the login page and log in with your smartphone.
 
-    For more information about **Pairing Tool** refer to [this page](https://docs.idmelon.com/docs/pairingtool/ourparigintool).
+    For more information about **Pairing Tool** refer to [this page](/docs/pairingtool/ourparigintool).
 
-    For more information about **Reader** refer to [this page](https://docs.idmelon.com/docs/readeguide/reader).
+    For more information about **Reader** refer to [this page](/docs/readeguide/reader).
 
 ![alt](/images/vendor/Panel/workspace/9-2-4.png)
 

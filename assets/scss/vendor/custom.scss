@@ -1171,7 +1171,7 @@ a {
   font-weight: 300;
 }
 
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .right-side-links h4,
   .right-side-links li {
     padding-left: 24px !important;
@@ -1449,3 +1449,47 @@ a.docs-link {
 // .lettered-list__content {
 //   padding-left: 40px;
 // }
+
+.pages h1 {
+  color : #4395ec;
+}
+
+.pages p,
+.pages li,
+.pages a {
+  font-size:20px;
+}
+
+.pages a {
+  word-break: break-word;
+  text-decoration: none;
+}
+
+.pages .rounded-btn {
+  height: 80px;
+  width: 100%;
+  position: relative;
+  border-radius: 50px;
+  background-color: #c7eaff;
+  align-items: center;
+  align-content: space-around;
+}
+
+.pages .rounded-btn_img {
+  width: 70px;
+  height: 70px;
+  margin-left: 22px;
+}
+
+.pages .rounded-btn_txt {
+  font-size: 20px;
+  color: #4395ec;
+  margin-left: -50px;
+}
+
+@media only screen and (max-width: 480px) {
+  .pages .navbar,
+  .pages .footer {
+    display: none;
+  }
+}

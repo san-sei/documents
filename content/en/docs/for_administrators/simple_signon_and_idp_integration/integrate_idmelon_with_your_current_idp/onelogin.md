@@ -39,7 +39,7 @@ In this document you are going to set up `IDmelon` as an external IdP to the `On
 - **Enable** Show in Login panel, **Choose** Custom logo  
 - **IDmelon Logo Domain :**  
 
-![alt](https://idmelon.com/wp-content/uploads/2020/05/IDmelon-Logo-213x60-1-e1629841318864.png)  
+![alt](https://uploads-ssl.webflow.com/63c6ee71910e8ac258ffc84e/652f86c1521cc726e660b767_IDmelon-Logo-213x60.svg)  
 
 > Get all values for `{..}` from your IDmelon panel.  
 > If you are currently login here, you will see the replaced values instead.  

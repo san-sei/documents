@@ -11,5 +11,5 @@ images: []
 
 ## Pair smartphone with PC.
 
-After installing and running IDmelon Pairing Tool, the app will show you a pairing QR code.
-Scan the QR code with the smartphone.
+After installing and running IDmelon Pairing Tool, the app will show you a pairing QR code.  
+Scan the QR code with the smartphone.  

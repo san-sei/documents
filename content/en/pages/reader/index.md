@@ -7,32 +7,16 @@ draft: false
 images: []
 ---
 
-<img src='reader.png' class='d-block m-auto' width="150">
+![alt](./reader.png)
 
-<p>IDmelon Reader is a plug and play hardware, which enables users to have <b>Tap-n-Login</b> experience with their smartphones.</p>
-<p class='mb-6'>Workspaces with shared computers need to use IDmelon Readers.</p>
+IDmelon Reader is a plug and play hardware, which enables users to have **Tap-n-Login** experience with their smartphones.  
 
-<div class='d-flex column flex-column mt-5'>
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="https://www.idmelon.com/idmelon-reader/">Learn More</a>
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="https://www.idmelon.com/pricing/">Buy an IDmelon Reader</a>
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3">Back</a>
-</div>
+Workspaces with shared computers need to use IDmelon Readers.  
 
-<style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
-h1{
-    color : #4395ec;
-}
-p{
-    font-size:20px;
-}
-li{
-    font-size:20px;
-}
-</style>
+<br>
 
-<script>
-    const btnQRCodeScan = document.getElementById('back')
-    btnQRCodeScan.addEventListener('click', (ev) => {
-      history.back();  
-    });
-</script>
+{{< btn value=`Learn More` href=`https://idmelon.com/idmelon-reader` >}}
+
+{{< btn value=`Buy an IDmelon Reader` href=`https://idmelon.com/pricing` >}}
+
+{{< btn value=`Back` href=`/pages/how-it-works` >}}

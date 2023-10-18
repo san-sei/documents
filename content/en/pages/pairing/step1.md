@@ -7,26 +7,12 @@ draft: false
 images: []
 ---
 
-<p align="center">
-    <img src="/images/vendor/arts/ptdl2.png">
-</p></br>
+![alt](/images/vendor/arts/ptdl2.png)
 
-You need to install the IDmelon Pairing Tool App on your computer.
+You need to install the IDmelon Pairing Tool App on your computer.  
 
-You can download it from the following link on the IDmelon website.
+You can download it from the following link on the IDmelon website.  
 
-[https://www.idmelon.com/download](https://www.idmelon.com/download)
+[https://www.idmelon.com/download](https://www.idmelon.com/download)  
 
-<a role="button" class="btn btn-primary btn-lg d-block mb-3" href="/pages/pairingsteps">Next</a>
-
-<style>@media (max-width: 480px) {.navbar, .footer { display: none; }}
-h1{
-    color : #4395ec;
-}
-p{
-    font-size:20px;
-}
-li{
-    font-size:20px;
-}
-</style>
+{{< btn value=`Next` href=`/pages/pairingsteps` >}}
