@@ -13,7 +13,7 @@ weight: 63000
 toc: true
 ---
 
-IDmelon implemented the IDmelon FIDO Credential Provider (FCP) service to address a specific limitation in On-premise Active Directory environments. PCs on On-premise Active Directory traditionally lack the native ability to log in using security keys, which can be a more secure and convenient method of authentication. To overcome this limitation and enable security key-based logins for such devices, IDmelon introduced the FCP solution. Here are the overall steps to manage non-Entra ID devices for AD domain logon using IDmelon FCP (for technical details about the deployment of IDmelon FCP, refer to [here](https://idmelon.com/docs/for_administrators/windows_passwordless_deployment/nonentra_id_local_and_onpremise_domain_logon)):  
+IDmelon implemented the IDmelon FIDO Credential Provider (FCP) service to address a specific limitation in On-premise Active Directory environments. PCs on On-premise Active Directory traditionally lack the native ability to log in using security keys, which can be a more secure and convenient method of authentication. To overcome this limitation and enable security key-based logins for such devices, IDmelon introduced the FCP solution. Here are the overall steps to manage non-Entra ID devices for AD domain logon using IDmelon FCP (for technical details about the deployment of IDmelon FCP, refer to [here](/docs/for_administrators/windows_passwordless_deployment/nonentra_id_local_and_onpremise_domain_logon)):  
 
 ## Managing Non-Entra ID Devices for AD Domain Logon:  
 
