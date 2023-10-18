@@ -7,26 +7,14 @@ draft: false
 images: []
 ---
 
-To set up your security key:
+To set up your security key:  
 
-1. Sign into your Coinbase account from a web browser. (You cannot change your 2-step method from the Coinbase mobile app.)
-2. Go to **Settings** > **Security**
-3. Select **Security Key** under **2-step verification**.
+1. Sign into your Coinbase account from a web browser. (You cannot change your 2-step method from the Coinbase mobile app.)  
 
-For more information check [this article](https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys).
+2. Go to **Settings** > **Security**  
 
-<a id="back" role="button" class="btn btn-primary btn-lg d-block mb-3" href="/pages/whichplatform/index.html">Back</a>
+3. Select **Security Key** under **2-step verification**.  
 
-<style>
+For more information check [this article](https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys).  
 
-@media (max-width: 480px) {.navbar, .footer { display: none; }}
-h1{
-    color : #4395ec;
-}
-p{
-    font-size:20px;
-}
-li{
-    font-size:20px;
-}
-</style>
+{{< btn value=`Back` href=`/pages/whichplatform/index.html` >}}

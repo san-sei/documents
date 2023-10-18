@@ -7,15 +7,11 @@ draft: true
 images: []
 ---
 
-<p align="center">
-    <img src="/images/vendor/arts/pt-dl.png">
-</p>
+![alt](/images/vendor/arts/pt-dl.png)
 
-<p>You can use IDmelon Authenticator as a passwordless sign-in method within various web accounts, services, and systems.
-We will help you learn how to add IDmelon security key to different platforms like Microsoft, Windows Login, Twitter, Dropbox and more ...</p>
+You can use IDmelon Authenticator as a passwordless sign-in method within various web accounts, services, and systems.  
+We will help you learn how to add IDmelon security key to different platforms like Microsoft, Windows Login, Twitter, Dropbox and more ...  
 
-[https://www.idmelon.com/download](https://www.idmelon.com/download)
+[https://idmelon.com/docs/downloads](https://idmelon.com/docs/downloads)
 
-<a role="button" class="btn btn-outline-primary">Next</a>
-
-<style>@media (max-width: 480px) {.navbar, .footer { display: none; }}</style>
+{{< btn value=`Next` href=`#` >}}
