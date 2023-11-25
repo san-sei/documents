@@ -23,7 +23,7 @@ IDmelon Accesskey is an extension which enables you to leverage your card as a F
 
 3. If you are asked to give permission, click on the **Allow** button (it will happen only once):  
 
-    ![alt](/images/vendor/idmelon_accesskey/Picture1.png)
+    ![alt](/images/vendor/idmelon_accesskey/Picture1.jpg)
 
 ## Managed Chromebooks (Business/School):  
 
@@ -31,21 +31,21 @@ IDmelon Accesskey is an extension which enables you to leverage your card as a F
 
 2. Navigate to **Device -> Chrome -> Apps & Extensions -> Users & browsers**  
 
-    ![alt](/images/vendor/idmelon_accesskey/Picture2.png)
+    ![alt](/images/vendor/idmelon_accesskey/Picture2.jpg)
 
 3. Click on **+** button in the lower right corner and select **Add Chrome app or extension by ID**.  
 
-    ![alt](/images/vendor/idmelon_accesskey/Picture3.png)
+    ![alt](/images/vendor/idmelon_accesskey/Picture3.jpg)
 
 4. In the **Extension ID** enter **naabfciimcjlmnohcligmgihhpihloah** and click **Save**.  
 
-    ![alt](/images/vendor/idmelon_accesskey/Picture4.png)
+    ![alt](/images/vendor/idmelon_accesskey/Picture4.jpg)
 
 5. Once the extension is added, configure it to Force install **+** pin to browser toolbar  
 
 6. Click on **Save** button on the top right corner.  
 
-    ![alt](/images/vendor/idmelon_accesskey/Picture5.png)
+    ![alt](/images/vendor/idmelon_accesskey/Picture5.jpg)
 
 7. Click on **+** button in the lower right corner and select **Add Chrome app or extension by ID**.  
 
