@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "for_individual_users"
+    parent: "for_personal_users"
 weight: 210000
 toc: true
 ---
@@ -22,7 +22,7 @@ All IDmelon personal users have an individual panel at IDmelon which they can ac
 If users already have an IDmelon account on their smartphone, they can log in to their panel by opening [this link](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6) and clicking on **Sign in with a security key** tapping on their IDmelon Mobile App Security Key.\
 To create a personal account users have two ways, the first way is through **a smartphone**, and the second way is through **IDmelon Website**.
 
-- To create an IDmelon account by **a smartphone**, please visit the [Mobile App Guide](/docs/mobileapp/use_app/#psersonal-users) page.
+- To create an IDmelon account by **a smartphone**, please visit the [Mobile App Guide](/docs/software_and_hardware/idmelon_authenticator/how_to_use_mobile_app/#personal-users) page.
 
 - To create an IDmelon account on **IDmelon Website**, please read the following instructions.
 
@@ -40,9 +40,9 @@ To create a personal account users have two ways, the first way is through **a s
 
     Click **Login** to move to the login page and log in with your smartphone.
 
-    For more information about **Pairing Tool** refer to [this page](/docs/pairingtool/ourparigintool).
+    For more information about **Pairing Tool** refer to [this page](/docs/software_and_hardware/idmelon_pairing_tool/what_is_pairing_tool).
 
-    For more information about **Reader** refer to [this page](/docs/readeguide/reader).
+    For more information about **Reader** refer to [this page](/docs/software_and_hardware/idmelon_reader/what_is_a_reader).
 
 ![alt](/images/vendor/Panel/workspace/9-2-4.png)
 
@@ -82,7 +82,7 @@ This page shows all the security keys that a user has connected to his/her accou
 
 > **Note:** Before trying to add a security key device to your account, install IDmelon Pairing Tool on your computer and pair your smartphone with it or have a Reader ready to use.
 To download **Pairing Tool** visit [this link](https://idmelon.com/docs/downloads).
-To ready your **Reader** visit [this link](https://www.idmelon.com/idmelon-reader).
+To ready your **Reader** visit [this link](https://idmelon.com/idmelon-reader).
 
 1. By clicking on **Add Security Key**, a user can add a new security key to his/her account. After clicking on **Add Security Key**, a wizard will open and ask about how a user wants to create a new security key. Here we recommend choosing **External Security Key or built-in sensor**, because this document is for personal users and most personal users do not have other devices such as **Reader** or **Contactless Card**, and this option enables the user to use their smartphone as a security key.
 2. There will be two wizards shown by the user's operating system that ask the user for **Security Key Setup** permission. Users have to give this permission.

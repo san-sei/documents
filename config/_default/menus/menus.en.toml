@@ -60,7 +60,7 @@
   name = "Quick Start"
   weight = 40
   identifier = "quick-start"
-  url = "/docs/individuals/quick-start/"
+  url = "/docs/for_personal_users/quick_start/"
   parent = "get-started"
 
 [[main]]
