@@ -15,7 +15,7 @@ toc: true
 
 IDmelon Accesskey is an extension which enables you to leverage your card as a FIDO security key to protect your online accounts, such as Microsoft and GitHub on Chrome OS based on WebAuthn standard. Therefore, you will no longer be threatened by password or credential-related attacks. As a requirement, it needs the Smart Card Connector app to be installed.  
 
-## Individual Chromebooks:  
+## Individual Chromebooks  
 
 1. Install IDmelon Accesskey from [Chrome Store](https://chromewebstore.google.com/detail/idmelon-accesskey/naabfciimcjlmnohcligmgihhpihloah)  
 
@@ -25,7 +25,7 @@ IDmelon Accesskey is an extension which enables you to leverage your card as a F
 
     ![alt](/images/vendor/idmelon_accesskey/Picture1.jpg)
 
-## Managed Chromebooks (Business/School):  
+## Managed Chromebooks (Business/School)  
 
 1. Open Google [admin console](https://admin.google.com)  
 

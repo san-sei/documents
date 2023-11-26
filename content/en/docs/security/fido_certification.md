@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "scrty"
+    parent: "security"
 weight: 910000
 toc: true
 ---

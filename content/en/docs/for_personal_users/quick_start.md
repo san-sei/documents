@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "for_individual_users"
+    parent: "for_personal_users"
 weight: 200000
 toc: true
 ---
