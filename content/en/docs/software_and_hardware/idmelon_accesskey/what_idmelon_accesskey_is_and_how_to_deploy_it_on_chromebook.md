@@ -41,7 +41,7 @@ IDmelon Accesskey is an extension which enables you to leverage your card as a F
 
     ![alt](/images/vendor/idmelon_accesskey/Picture4.jpg)
 
-5. Once the extension is added, configure it to Force install **+** pin to browser toolbar  
+5. Once the extension is added, configure it to **Force install + pin to browser toolbar**  
 
 6. Click on **Save** button on the top right corner.  
 
@@ -51,7 +51,7 @@ IDmelon Accesskey is an extension which enables you to leverage your card as a F
 
 8. In the **Extension ID** enter **khpfeaanjngmcnplbdlpegiifgpfgdco** and click **Save**.  
 
-9. Once the app is created, configure it to Force install, and under **Policy for extensions**, write the following:  
+9. Once the app is created, configure it to **Force install**, and under **Policy for extensions**, write the following:  
 
     ```json
     {
