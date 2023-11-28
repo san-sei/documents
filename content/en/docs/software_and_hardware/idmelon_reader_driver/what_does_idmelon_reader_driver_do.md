@@ -1,5 +1,5 @@
 ---
-title: "What IDmelon Accesskey is and how to deploy it on Chromebook"
+title: "What does IDmelon reader driver do?"
 description: ""
 lead: ""
 date: 2023-09-11T12:58:04+03:30
@@ -8,12 +8,18 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "idmelon_accesskey"
+    parent: "idmelon_reader_driver"
 weight: 321000
 toc: true
 ---
 
-IDmelon Accesskey is an extension which enables you to leverage your card as a FIDO security key to protect your online accounts, such as Microsoft and GitHub on Chrome OS based on WebAuthn standard. Therefore, you will no longer be threatened by password or credential-related attacks. As a requirement, it needs the Smart Card Connector app to be installed.  
+IDmelon reader driver is a piece of software which enables you to leverage your card as a FIDO security key to protect your online accounts, such as Microsoft and GitHub on desktop based on WebAuthn standard. Therefore, you will no longer be threatened by password or credential-related attacks. To install it on Windows or macOS, you can visit [our website](https://idmelon.com/docs/downloads#contactless-card-reader-drivers).  
+
+## How to deploy it on Chromebook
+
+IDmelon Accesskey, which is an extension, is designed and developed to work for the same purpose on Chrome OS. Let's see how you can deploy it on Chromebook.  
+
+> Note: As a requirement, it needs the Smart Card Connector app to be installed.  
 
 ## Individual Chromebooks  
 
