@@ -1493,3 +1493,8 @@ a.docs-link {
     display: none;
   }
 }
+
+.docs-content table th, 
+.docs-content table td {
+  word-break: break-word;
+} 
