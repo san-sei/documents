@@ -1,5 +1,5 @@
 ---
-title: "IDmelon connector for PingOne DaVinci"
+title: "Integrate IDmelon Connector with PingOne DaVinci"
 description: ""
 lead: ""
 date: 2023-12-15T23:05:00+03:30
@@ -13,7 +13,7 @@ weight: 73000
 toc: true
 ---
 
-You can use the IDmelon connector as part of a PingOne DaVinci flow in order to improve user experience.  
+You can use the IDmelon connector as part of a PingOne DaVinci flow in order to improve user experience by allowing users to go passwordless and authenticate with their smartphones, ID badges, or access cards as a FIDO security key.  
 
 In this guide, we'll walk you through the process of integrating and using the IDmelon Connector in Davinci, with a simple example to display user information after successful login.  
 
