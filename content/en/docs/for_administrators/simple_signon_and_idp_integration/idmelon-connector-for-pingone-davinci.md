@@ -77,7 +77,9 @@ In this guide, we'll walk you through the process of integrating and using the I
 
     Client Secret: Get this value from the IDmelon Panel, mentioned in step `24`  
 
-    Scope: `openid`  
+    Scope: `openid email profile`  
+
+    Note: Minimum valid value for `Scope` is `openid`  
 
     ![alt](/images/vendor/davinci/11.png)
 
@@ -133,7 +135,7 @@ In this guide, we'll walk you through the process of integrating and using the I
 
     ![alt](/images/vendor/davinci/25.png)
 
-## IDmelon Panel Configuration
+## IDmelon Panel configuration
 
 1. You need to create an OIDC Application, to do it, go to this address:  
 
@@ -163,6 +165,6 @@ In this guide, we'll walk you through the process of integrating and using the I
 
 ## Tips
 
-OpenID Connect Well-Known configuration:  
+OpenID Connect Well-Known Configuration:  
 
 <https://sso.idmelon.com/api/oidc/idp/.well-known/openid-configuration/>
