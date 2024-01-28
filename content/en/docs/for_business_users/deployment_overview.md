@@ -35,7 +35,7 @@ toc: true
 
 2. If it has not been done and your IT Admin requires you to do it,
 
-    ![alt](/images/vendor/deployment_overview/4.jpg)
+    ![alt](/images/vendor/deployment_overview/2.jpg)
 
     If a QR Code pops up at the last step once security key is selected, select other method and select security key (this UI gets changed often by MS, the end goal is to select security key) -> Approve the push notification on IDmelon Authenticator. [Refer to this video for an easy setup.](https://www.youtube.com/watch?v=24VjAD32xi0&ab_channel=IDmelonTechnologiesInc.)
 
