@@ -27,29 +27,29 @@ This document will show you how to deploy the IDmelon solution from A to Z. Plea
 
 #### Single User Devices
 
-Install the IDmelon Authenticator app on your smartphone,
+- Install the IDmelon Authenticator app on your smartphone,
 
-Install the IDmelon Pairing Tool on your computer,
+- Install the IDmelon Pairing Tool on your computer,
 
-Pair your phone with computer using both apps,
+- Pair your phone with computer using both apps,
 
-As soon as a security key is assigned to you over the admin panel, your phone will receive a notification each time you want to log in. Approving it will log you in.
+- As soon as a security key is assigned to you over the admin panel, your phone will receive a notification each time you want to log in. Approving it will log you in.
 
 #### Shared Devices
 
-Install the IDmelon Authenticator app on your smartphone,
+- Install the IDmelon Authenticator app on your smartphone,
 
-Purchase the IDmelon Reader and plug it into a USB port on your computer
+- Purchase the IDmelon Reader and plug it into a USB port on your computer
 
-As soon as a security key is assigned to you over the admin panel, you can tap your phone on the Reader to log in.
+- As soon as a security key is assigned to you over the admin panel, you can tap your phone on the Reader to log in.
 
 ### ID Badge as a Security Key
 
-Depending on the type of reader you have, install the adequate reader driver on your computer,
+- Depending on the type of reader you have, install the adequate reader driver on your computer,
 
-Plug your reader into your computer,
+- Plug your reader into your computer,
 
-Once a security key is assigned to you over the admin panel, you can tap your card on the reader to log in.
+- Once a security key is assigned to you over the admin panel, you can tap your card on the reader to log in.
 
 ## Step 1: Creating the Workspace
 
