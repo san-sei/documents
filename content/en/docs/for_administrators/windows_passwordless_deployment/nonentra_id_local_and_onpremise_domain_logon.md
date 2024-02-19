@@ -17,66 +17,36 @@ While Microsoft solutions are available for Azure and Hybrid-Azure environments,
 
 ## Getting Started  
 
-To begin using IDmelon FCP, follow these simple steps:  
+1. Install IDmelon FCP, accessible on the IDmelon website's Downloads page.  
+2. You are presented with two options for setup:  
+    a. You can create a password from inside the IDmelon Panel. (Go to [Set Password from inside IDmelon Panel](/docs/for_administrators/windows_passwordless_deployment/nonentra_id_local_and_onpremise_domain_logon/#option-a-set-password-from-inside-idmelon-panel))  
+    b. Alternatively, you can use FCP to log into Windows, so everything will be taken care of automatically. (Go to [Onboarding](/docs/for_administrators/windows_passwordless_deployment/nonentra_id_local_and_onpremise_domain_logon/#option-b-onboarding))  
+3. Now, you or the user you took the steps above for can use a FIDO security key to log into Windows using IDmelon FCP.  
 
-1. Download the FCP setup file (contact support@idmelon.com to receive the installer).  
-2. Install the downloaded setup file on your computer.  
-3. Log in to your administration panel at [https://panel.idmelon.com](https://panel.idmelon.com).  
-4. In the device management section, select "IDmelon Connected Devices."  
-5. Click on "Get Configuration" to obtain your configuration token.  
-6. Copy the configuration token (Ctrl + C) as it will be required during the configuration process.  
+## Option a: Set Password from inside IDmelon Panel  
 
-## Installation and Configuration  
+1. When logged into IDmelon Panel as an admin, choose a user from the **Users** section and go to the **Passwords** tab.  
+2. Click the **Add Password** button and select either **Windows (Local account)** or **Domain** from the list.  
+Note that by **Domain**, we mean that the user’s account is joined to an Active Directory.  
+3. Follow the instructions to set the password.  
 
-To install and configure IDmelon FCP on your computer, follow these steps:  
+![alt](/images/vendor/DirectoryServicesIntegration/FCP/1.jpg)
+![alt](/images/vendor/DirectoryServicesIntegration/FCP/2.jpg)
+![alt](/images/vendor/DirectoryServicesIntegration/FCP/3.jpg)
+![alt](/images/vendor/DirectoryServicesIntegration/FCP/4.jpg)
 
-1. Open a command prompt with administrator privileges (Run As Admin).  
-2. Type the following commands in the command prompt:  
+## Option b: Onboarding  
 
-    ```commandline
-    fcp-cli init --token "PLACE-YOUR-TOKEN-HERE"
-    fcp-cli start
-    ```
+On the Windows lockscreen, when you are trying to log into Windows using a security key and the security key owner doesn’t have a password, with neither type of Domain or Windows local, you will see the onboarding page on the lockscreen as follows:  
 
-3. Replace "PLACE-YOUR-TOKEN-HERE" with the configuration token you obtained earlier.  
-4. Press Enter to execute the commands.  
+![alt](/images/vendor/DirectoryServicesIntegration/FCP/5.jpg)
 
-Once you have completed the installation and configuration steps, IDmelon FCP will be set up on your computer.  
+If the user's system is linked to either an Active Directory or an Azure Active Directory, and their User ID in the IDmelon Panel account follows an email format (username@domain.com), they will be prompted to enter a password for that account. Upon entering the password and if the domain to which the system is connected matches the valid domain of the user's User ID, they will be logged in. Subsequently, during next login attempts, they can log in using their security key.  
 
-## Management Panel  
+Alternatively, if the user's User ID in the IDmelon Panel account is not in email format, FCP identifies it as a local account and requests the user to input the password for that local account on the system. If the user is a valid username on that PC, the same process as above applies.  
 
-To enable login using a security key for a specific user, follow these instructions:  
+If local users are currently logged into the system, a link appears to log into the last account they were logged into. Upon entering the password for that account, the same process as above ensues.  
+Additionally, users have the option to sign in to a specific account by clicking the "Sign in with another account" link. This prompts them to enter a valid username and password for login into that account. Users must adhere to the following rules for username formats in this scenario:  
 
-1. Go to the administration panel.  
-2. Click on "Users" and select the user you want to enable login with a security key for.  
-3. Navigate to the credentials section and click on **Add Domain Logon**.  
-
-> Note: Currently, this feature only works for Reader Driver. Ensure that you select a user who has a contactless security key device.  
-
-If you want to enable sign-in access to a your account, follow these steps:  
-
-1. Type the Domain and Account name separated by a '`/`'.  
-
-    - > If you don't know your domain name, run the following command on your computer, it prints out the `DOMAIN` and `ACCOUNT_NAME` of the current user.
-
-    ```commandLine
-    whoami  # prints DOMAIN\ACCOUNT_NAME
-    ```
-
-2. Type the account password.  
-3. Click **Ok**.  
-
-    ![alt](/images/vendor/DirectoryServicesIntegration/FCP/domain-user-pass.png)  
-
-> **Note:** For local accounts, a single dot (.) can be used as the domain name of the account. (e.g., `./Dwight`)  
-> **Note:** Make sure to enter the account password correctly, as it is necessary for successful login.
-
-Congratulations! You have now installed and configured IDmelon FCP on your computer.  
-
-## Login Experience  
-
-After you have successfully installed and configured IDmelon FCP on your computer, each time you want to login to your computer, on the lock screen, select IDmelon FCP, Tap your card on the reader and enter your PIN and press Enter and enjoy the seamless login experience.  
-
-![alt](/images/vendor/DirectoryServicesIntegration/FCP/fcp-login.png)  
-
-For further assistance or inquiries, please contact our support team at support@idmelon.com.  
+1. For a local account: Enter only the username without using '@' or '\\'. They can also include the PC name, such as 'PCNAME\username'.  
+2. For an AD-joined account: Use the format username@domain.  
