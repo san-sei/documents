@@ -1,5 +1,5 @@
 ---
-title: "How to Deploy Products Using PDQ"
+title: "Deploy with PDQ software"
 description: ""
 lead: ""
 date: 2023-09-17T13:26:06+03:30
@@ -8,8 +8,8 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "windows_passwordless_deployment"
-weight: 64000
+    parent: "automatic_software_deployment_script"
+weight: 64200
 toc: true
 ---
 
