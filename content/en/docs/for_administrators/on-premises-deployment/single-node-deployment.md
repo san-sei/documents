@@ -15,7 +15,7 @@ toc: true
 
 ## Deploy of IDmelon platform on the Single node  
 
-## Requirements:  
+## Requirements  
 
 In this section, we review all the necessary requirements and initial settings that need to be addressed before installing and setting up the `IDmelon platform`.  
 
