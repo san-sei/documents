@@ -1,5 +1,5 @@
 ---
-title: "Add a smartphone as a security key"
+title: "Add a Smartphone as a Security Key"
 description: ""
 lead: ""
 date: 2023-09-20T13:46:52+03:30

@@ -1,5 +1,5 @@
 ---
-title: "Deploy with Windows scripts"
+title: "Deploy with Windows Scripts"
 description: ""
 lead: ""
 date: 2024-02-29T01:00:00+03:30

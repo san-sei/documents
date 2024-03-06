@@ -1,5 +1,5 @@
 ---
-title: "Restricting organization’s security keys on some RPs (Relying Parties)"
+title: "Restricting Organization’s Security Keys on Some RPs (Relying Parties)"
 description: ""
 lead: ""
 date: 2023-09-20T14:59:38+03:30

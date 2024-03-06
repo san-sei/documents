@@ -1,5 +1,5 @@
 ---
-title: "Block access out of working hours for specific group of users"
+title: "Block Access out of Working Hours for Specific Group of Users"
 description: ""
 lead: ""
 date: 2023-09-20T14:57:41+03:30

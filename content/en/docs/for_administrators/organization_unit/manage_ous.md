@@ -1,5 +1,5 @@
 ---
-title: "Manage OUs (create, delete, edit and assign users)"
+title: "Manage OUs (Create, Delete, Edit and Assign Users)"
 description: ""
 lead: ""
 date: 2023-12-24T15:00:00+03:30

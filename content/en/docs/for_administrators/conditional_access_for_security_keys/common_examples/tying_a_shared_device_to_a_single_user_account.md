@@ -1,5 +1,5 @@
 ---
-title: "Tying a shared device to a single user account"
+title: "Tying a Shared Device to a Single User Account"
 description: ""
 lead: ""
 date: 2023-09-20T14:58:32+03:30

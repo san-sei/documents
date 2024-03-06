@@ -1,5 +1,5 @@
 ---
-title: "Relying party (or web)"
+title: "Relying Party (or Web)"
 description: ""
 lead: ""
 date: 2023-09-20T14:35:13+03:30

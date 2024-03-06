@@ -1,5 +1,5 @@
 ---
-title: "Import users with SCIM"
+title: "Import Users with SCIM"
 description: ""
 lead: ""
 date: 2023-09-20T13:36:09+03:30

@@ -1,5 +1,5 @@
 ---
-title: "Security key device"
+title: "Security Key Device"
 description: ""
 lead: ""
 date: 2023-09-20T14:33:55+03:30

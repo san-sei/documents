@@ -1,5 +1,5 @@
 ---
-title: "Geographical information"
+title: "Geographical Information"
 description: ""
 lead: ""
 date: 2023-09-20T14:35:27+03:30

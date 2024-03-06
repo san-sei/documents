@@ -1,5 +1,5 @@
 ---
-title: "What is an organization unit?"
+title: "What is an Organization Unit?"
 description: ""
 lead: ""
 date: 2023-12-24T15:00:00+03:30

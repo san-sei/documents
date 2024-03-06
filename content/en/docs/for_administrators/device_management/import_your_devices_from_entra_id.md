@@ -1,5 +1,5 @@
 ---
-title: "Import your devices from Entra ID"
+title: "Import your Devices from Entra ID"
 description: ""
 lead: ""
 date: 2023-09-20T15:18:44+03:30

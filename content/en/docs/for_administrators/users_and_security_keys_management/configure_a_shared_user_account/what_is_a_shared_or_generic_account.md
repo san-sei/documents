@@ -1,5 +1,5 @@
 ---
-title: "What is a shared (or generic) account"
+title: "What is a Shared (or Generic) Account"
 description: ""
 lead: ""
 date: 2023-09-11T15:02:25+03:30

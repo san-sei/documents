@@ -1,5 +1,5 @@
 ---
-title: "Manage workspace admins"
+title: "Manage Workspace Admins"
 description: ""
 lead: ""
 date: 2023-09-23T14:43:56+03:30

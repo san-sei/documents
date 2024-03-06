@@ -1,5 +1,5 @@
 ---
-title: "Add a single user"
+title: "Add a Single User"
 description: ""
 lead: ""
 date: 2023-09-20T13:33:36+03:30

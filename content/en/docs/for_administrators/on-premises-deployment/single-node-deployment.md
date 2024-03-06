@@ -1,5 +1,5 @@
 ---
-title: "Single-node deployment"
+title: "Single-node Deployment"
 description: ""
 lead: ""
 date: 2024-03-05T14:30:00+03:30

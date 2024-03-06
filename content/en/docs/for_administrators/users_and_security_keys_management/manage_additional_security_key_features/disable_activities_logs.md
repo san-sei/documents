@@ -1,5 +1,5 @@
 ---
-title: "Disable activities logs"
+title: "Disable Activities Logs"
 description: ""
 lead: ""
 date: 2023-09-20T14:16:12+03:30

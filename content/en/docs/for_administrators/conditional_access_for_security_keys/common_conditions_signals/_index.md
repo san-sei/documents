@@ -1,5 +1,5 @@
 ---
-title: "Common conditions (signals)"
+title: "Common Conditions (Signals)"
 description: ""
 lead: ""
 date: 2023-09-20T14:26:33+03:30

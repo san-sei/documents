@@ -1,5 +1,5 @@
 ---
-title: "Assign security keys"
+title: "Assign Security Keys"
 description: ""
 lead: ""
 date: 2023-09-20T13:46:15+03:30

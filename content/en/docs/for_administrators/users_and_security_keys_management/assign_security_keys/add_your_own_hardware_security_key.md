@@ -1,5 +1,5 @@
 ---
-title: "Add your own hardware security key"
+title: "Add your Own Hardware Security Key"
 description: ""
 lead: ""
 date: 2023-09-20T13:47:52+03:30

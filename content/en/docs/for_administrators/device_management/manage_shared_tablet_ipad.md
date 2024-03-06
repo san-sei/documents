@@ -1,5 +1,5 @@
 ---
-title: "Manage shared tablet/iPad"
+title: "Manage Shared Tablet/iPad"
 description: ""
 lead: ""
 date: 2023-09-20T15:19:33+03:30

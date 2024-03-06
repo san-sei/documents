@@ -1,5 +1,5 @@
 ---
-title: "Register a passkey on users' behalf"
+title: "Register a Passkey on Users' Behalf"
 description: ""
 lead: ""
 date: 2023-09-23T14:50:20+03:30
