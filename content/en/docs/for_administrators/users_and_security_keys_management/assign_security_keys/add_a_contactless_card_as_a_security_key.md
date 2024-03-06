@@ -1,5 +1,5 @@
 ---
-title: "Add a contactless card as a security key"
+title: "Add a Contactless Card as a Security Key"
 description: ""
 lead: ""
 date: 2023-09-20T13:47:24+03:30

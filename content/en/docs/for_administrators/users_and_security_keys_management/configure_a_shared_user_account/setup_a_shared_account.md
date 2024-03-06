@@ -1,5 +1,5 @@
 ---
-title: "Setup a shared account"
+title: "Setup a Shared Account"
 description: ""
 lead: ""
 date: 2023-09-11T15:03:59+03:30

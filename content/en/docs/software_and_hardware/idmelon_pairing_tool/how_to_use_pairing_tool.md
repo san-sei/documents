@@ -1,5 +1,5 @@
 ---
-title: "How to use Pairing Tool?"
+title: "How to Use Pairing Tool?"
 description: ""
 lead: ""
 date: 2022-02-16T18:14:02-08:00

@@ -1,5 +1,5 @@
 ---
-title: "Manage user groups"
+title: "Manage User Groups"
 description: ""
 lead: ""
 date: 2023-09-11T13:40:21+03:30

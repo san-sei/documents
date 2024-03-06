@@ -1,5 +1,5 @@
 ---
-title: "What does our mobile app do?"
+title: "What does our Mobile App Do?"
 description: ""
 lead: ""
 date: 2022-02-16T18:14:02-08:00

@@ -1,5 +1,5 @@
 ---
-title: "Assign an admin to an OU"
+title: "Assign an Admin to an OU"
 description: ""
 lead: ""
 date: 2023-12-24T15:00:00+03:30

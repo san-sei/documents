@@ -1,5 +1,5 @@
 ---
-title: "Manage passkeys and credentials"
+title: "Manage Passkeys and Credentials"
 description: ""
 lead: ""
 date: 2023-09-11T13:46:55+03:30

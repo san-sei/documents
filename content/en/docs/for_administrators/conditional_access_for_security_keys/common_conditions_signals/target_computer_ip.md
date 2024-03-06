@@ -1,5 +1,5 @@
 ---
-title: "Target computer IP"
+title: "Target Computer IP"
 description: ""
 lead: ""
 date: 2023-09-20T14:34:48+03:30

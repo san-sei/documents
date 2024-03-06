@@ -1,5 +1,5 @@
 ---
-title: "Target computer name"
+title: "Target Computer Name"
 description: ""
 lead: ""
 date: 2023-09-20T14:34:08+03:30

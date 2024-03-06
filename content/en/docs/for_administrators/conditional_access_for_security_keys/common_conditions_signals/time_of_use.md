@@ -1,5 +1,5 @@
 ---
-title: "Time of use"
+title: "Time of Use"
 description: ""
 lead: ""
 date: 2023-09-20T14:33:37+03:30

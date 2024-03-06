@@ -1,5 +1,5 @@
 ---
-title: "Allow access just from a city or country"
+title: "Allow Access Just from a City or Country"
 description: ""
 lead: ""
 date: 2023-09-20T14:56:34+03:30

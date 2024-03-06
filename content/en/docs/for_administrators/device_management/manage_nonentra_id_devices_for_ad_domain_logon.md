@@ -1,5 +1,5 @@
 ---
-title: "Manage non-Entra ID devices for AD domain logon"
+title: "Manage Non-Entra ID Devices for AD Domain Logon"
 description: ""
 lead: ""
 date: 2023-09-20T15:21:23+03:30

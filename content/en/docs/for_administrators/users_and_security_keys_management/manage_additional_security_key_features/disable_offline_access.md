@@ -1,5 +1,5 @@
 ---
-title: "Disable offline access"
+title: "Disable Offline Access"
 description: ""
 lead: ""
 date: 2023-09-20T14:16:48+03:30

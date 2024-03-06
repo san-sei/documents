@@ -1,5 +1,5 @@
 ---
-title: "Conditional access for security keys"
+title: "Conditional Access for Security Keys"
 description: ""
 lead: ""
 date: 2023-09-11T11:40:57+03:30

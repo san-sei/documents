@@ -1,5 +1,5 @@
 ---
-title: "Block access from a specific type of security key device"
+title: "Block Access from a Specific Type of Security Key Device"
 description: ""
 lead: ""
 date: 2023-09-20T15:01:20+03:30

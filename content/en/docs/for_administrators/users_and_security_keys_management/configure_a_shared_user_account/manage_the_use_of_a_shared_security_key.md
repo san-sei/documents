@@ -1,5 +1,5 @@
 ---
-title: "Manage the use of a shared security key"
+title: "Manage the Use of a Shared Security Key"
 description: ""
 lead: ""
 date: 2023-09-11T15:05:53+03:30

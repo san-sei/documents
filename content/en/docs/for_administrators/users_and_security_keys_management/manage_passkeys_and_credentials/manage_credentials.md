@@ -1,5 +1,5 @@
 ---
-title: "Manage credentials"
+title: "Manage Credentials"
 description: ""
 lead: ""
 date: 2023-09-11T13:48:48+03:30

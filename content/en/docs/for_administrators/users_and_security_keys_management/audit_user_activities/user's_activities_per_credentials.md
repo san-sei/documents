@@ -1,5 +1,5 @@
 ---
-title: "User’s activities per credentials"
+title: "User’s Activities per Credentials"
 description: ""
 lead: ""
 date: 2023-09-20T14:06:22+03:30

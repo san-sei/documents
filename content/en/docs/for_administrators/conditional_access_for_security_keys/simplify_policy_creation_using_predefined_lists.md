@@ -1,5 +1,5 @@
 ---
-title: "Simplify policy creation using pre-defined lists"
+title: "Simplify Policy Creation using Pre-defined Lists"
 description: ""
 lead: ""
 date: 2023-09-11T15:18:54+03:30

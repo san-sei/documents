@@ -1,5 +1,5 @@
 ---
-title: "Deploy with PDQ software"
+title: "Deploy with PDQ Software"
 description: ""
 lead: ""
 date: 2023-09-17T13:26:06+03:30

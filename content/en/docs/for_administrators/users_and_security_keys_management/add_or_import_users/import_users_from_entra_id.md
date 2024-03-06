@@ -1,5 +1,5 @@
 ---
-title: "Import users from Entra ID"
+title: "Import Users from Entra ID"
 description: ""
 lead: ""
 date: 2023-09-20T13:34:58+03:30

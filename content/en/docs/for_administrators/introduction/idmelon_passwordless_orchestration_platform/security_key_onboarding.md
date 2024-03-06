@@ -1,5 +1,5 @@
 ---
-title: "Security key onboarding"
+title: "Security Key Onboarding"
 description: ""
 lead: ""
 date: 2023-09-11T12:43:32+03:30

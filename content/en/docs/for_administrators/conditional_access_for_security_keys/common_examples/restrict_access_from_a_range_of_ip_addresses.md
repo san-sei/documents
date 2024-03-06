@@ -1,5 +1,5 @@
 ---
-title: "Restrict access from a range of IP addresses"
+title: "Restrict Access from a Range of IP Addresses"
 description: ""
 lead: ""
 date: 2023-09-20T15:00:22+03:30

@@ -1,5 +1,5 @@
 ---
-title: "Create your administration panel"
+title: "Create your Administration Panel"
 description: ""
 lead: ""
 date: 2023-09-11T12:58:04+03:30

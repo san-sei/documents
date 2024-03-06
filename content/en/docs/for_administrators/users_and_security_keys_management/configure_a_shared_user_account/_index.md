@@ -1,5 +1,5 @@
 ---
-title: "Configure a shared user account"
+title: "Configure a Shared User Account"
 description: ""
 lead: ""
 date: 2023-09-11T14:59:22+03:30

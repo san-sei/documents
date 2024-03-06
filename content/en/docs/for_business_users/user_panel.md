@@ -1,5 +1,5 @@
 ---
-title: "User panel"
+title: "User Panel"
 description: ""
 lead: ""
 date: 2022-04-25T19:13:04+03:00
