@@ -1,5 +1,5 @@
 ---
-title: "Automatic Software Deployment Script"
+title: "Automatic Software Deployment"
 description: ""
 lead: ""
 date: 2024-02-29T01:00:00+03:30
@@ -9,6 +9,6 @@ images: []
 menu:
   docs:
     parent: "windows_passwordless_deployment"
-weight: 64000
+weight: 65000
 toc: true
 ---
