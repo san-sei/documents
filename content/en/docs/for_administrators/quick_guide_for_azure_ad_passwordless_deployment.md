@@ -1,5 +1,5 @@
 ---
-title: "Deployment Overview"
+title: "Quick Guide for Azure AD Passwordless Deployment"
 description: ""
 lead: ""
 date: 2024-01-27T15:00:00+03:30
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "introduction"
-weight: 12000
+weight: 15000
 toc: true
 ---
 
