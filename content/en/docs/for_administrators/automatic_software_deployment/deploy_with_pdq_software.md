@@ -8,8 +8,8 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "automatic_software_deployment_script"
-weight: 64200
+    parent: "automatic_software_deployment"
+weight: 65200
 toc: true
 ---
 
