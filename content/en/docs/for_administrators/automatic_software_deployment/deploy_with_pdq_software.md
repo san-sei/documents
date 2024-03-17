@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "automatic_software_deployment"
-weight: 65200
+weight: 92000
 toc: true
 ---
 

@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "integrate_idmelon_with_your_current_idp"
-weight: 82400
+weight: 72400
 toc: true
 ---
 
