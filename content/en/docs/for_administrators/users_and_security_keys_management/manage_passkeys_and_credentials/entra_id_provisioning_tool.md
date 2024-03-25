@@ -31,7 +31,7 @@ Before using the `provisioning.exe` tool, ensure the following:
     - Navigate to the "Users" menu.
     - Select the users for whom you want to perform the provisioning action.
     - Once you have selected the users, click on the export users icon.
-    - From the dropdown, choose the "Export for Provisioning Tool" option.
+    - From the dropdown, choose the "Export for Bulk Provisioning" option.
     - This action will initiate the download of a CSV file containing the information of the selected users.
 
 4. **Downloading and Preparing the Tool:**
