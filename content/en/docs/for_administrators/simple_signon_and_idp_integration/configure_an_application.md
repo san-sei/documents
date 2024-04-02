@@ -14,7 +14,7 @@ toc: true
 ---
 
 
-# IDmelon custom SAML Integration
+## IDmelon custom SAML Integration
 
 You can connect IDmelon as a IDP to any service provider supported by SAML.
 
