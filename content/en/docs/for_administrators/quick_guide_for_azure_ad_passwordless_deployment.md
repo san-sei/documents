@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "introduction"
+    parent: "for_administrators"
 weight: 15000
 toc: true
 ---
