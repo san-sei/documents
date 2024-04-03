@@ -28,7 +28,7 @@ Follow the steps below to create a custom integration:
 
 Go to the `App Management` section under `Simple Sign-On`.
 
-![alt](/images/vendor/sso/custom_01.png)
+![alt](/images/vendor/sso/custom/custom_01.png)
 
 Click on `Integrate with a new app`, Then click on `Create a custom integration`.
 
