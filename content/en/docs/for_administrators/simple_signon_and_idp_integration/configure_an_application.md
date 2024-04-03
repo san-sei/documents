@@ -1,6 +1,6 @@
 ---
 title: "Configure an Application"
-description: ""
+description: "Configuring an application to use IDmelon IdP for single sign on"
 lead: ""
 date: 2023-12-15T23:05:00+03:30
 lastmod: 2023-12-15T23:05:00+03:30
@@ -12,9 +12,6 @@ menu:
 weight: 73000
 toc: true
 ---
-
-
-## IDmelon custom SAML Integration
 
 You can connect IDmelon as a IDP to any service provider supported by SAML.
 
