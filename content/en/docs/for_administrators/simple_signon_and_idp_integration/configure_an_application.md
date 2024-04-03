@@ -28,11 +28,11 @@ Follow the steps below to create a custom integration:
 
 Go to the `App Management` section under `Simple Sign-On`.
 
-    ![alt](/images/vendor/sso/custom/custom_01.png)
+![alt](/images/vendor/sso/custom/custom_01.png)
 
 Click on `Integrate with a new app`, Then click on `Create a custom integration`.
 
-    ![alt](/images/vendor/sso/custom/custom_02.png)
+![alt](/images/vendor/sso/custom/custom_02.png)
 
 Fill in the required fields in the `APP Profile` section,
 
@@ -40,7 +40,7 @@ Choose a desired name for the `Name` field.
 
 Then click `Next`.
 
-    ![alt](/images/vendor/sso/custom/custom_03.png)
+![alt](/images/vendor/sso/custom/custom_03.png)
 
 Enter the requested information in the `App Settings` section.
 
@@ -60,8 +60,8 @@ Upload the metadata corresponding to your service provider for the `Metadata` fi
 
 Click `Next`.
 
-    ![alt](/images/vendor/sso/custom/custom_04.png)
-    ![alt](/images/vendor/sso/custom/custom_05.png)
+![alt](/images/vendor/sso/custom/custom_04.png)
+![alt](/images/vendor/sso/custom/custom_05.png)
 
 In the `App Attributes Mapping` section, add the required fields for mapping attributes.
 
@@ -69,15 +69,15 @@ The valid values for the `IDP variable name` section are: email, surname, given_
 
 Click `Confirm`.
 
-    ![alt](/images/vendor/sso/custom/custom_06.png)
+![alt](/images/vendor/sso/custom/custom_06.png)
 
 Now, from the `Simple Sign-on` menu, click on `App Management`.
 
 Then, from the list of applications, select the created application and click on `Edit`.
 
-    ![alt](/images/vendor/sso/custom/custom_07.png)
+![alt](/images/vendor/sso/custom/custom_07.png)
 
 In the `General Settings` section, information related to `IdP Entity ID` and `IdP Single Sign-on URL` is displayed.
 You need to enter these values in your service provider.
 
-    ![alt](/images/vendor/sso/custom/custom_08.png)
+![alt](/images/vendor/sso/custom/custom_08.png)
