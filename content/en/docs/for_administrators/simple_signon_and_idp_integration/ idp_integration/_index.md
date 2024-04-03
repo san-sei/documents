@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "simple_signon_and_idp_integration"
+    parent: "idp_integration"
 weight: 72000
 toc: true
 ---
