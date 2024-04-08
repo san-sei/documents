@@ -27,15 +27,15 @@ To create a personal account users have two ways, the first way is through **a s
 - To create an IDmelon account on **IDmelon Website**, please read the following instructions.
 
 1. First open [IDmelon Panel's Login](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6) page and click on **Create one!**
-![alt](/images/vendor/Panel/workspace/1.png)
+![Individuals](/images/vendor/Individuals/1.jpg)
 2. Choose **Personal** because you want to create a personal account.
-![alt](/images/vendor/Panel/workspace/2.png)
+![Individuals](/images/vendor/Individuals/2.jpg)
 3. Fill in all the fields and click on **Continue**.
-![alt](/images/vendor/Individuals/individual-01.png)
+![Individuals](/images/vendor/Individuals/3.jpg)
 4. If you like to sync your panel with your smartphone, scan the QR code that is shown on your browser. This will add your account to **IDmelon Mobile App** on your smartphone. Remember that you have to approve adding this account to your mobile app by tapping on **Approve**. After that click on **Next**.
 
     It is also possible to skip this step.
-    ![alt](/images/vendor/Individuals/individual_02.png)
+    ![Individuals](/images/vendor/Individuals/4.jpg)
 5. Pay attention to this page, as it informs you on how to use login using your smartphone security key. You should either download **IDmelon Pairing Tool** or have an **IDmelon Reader** to log in to your panel using your smartphone as your security key.
 
     Click **Login** to move to the login page and log in with your smartphone.
@@ -44,7 +44,7 @@ To create a personal account users have two ways, the first way is through **a s
 
     For more information about **Reader** refer to [this page](/docs/software_and_hardware/idmelon_reader/what_is_a_reader).
 
-![alt](/images/vendor/Panel/workspace/9-2-4.png)
+![Individuals](/images/vendor/Panel/workspace/9-2-4.png)
 
 ## Panel
 
@@ -54,19 +54,19 @@ To create a personal account users have two ways, the first way is through **a s
 
 In this tab, you can see your **Current Plan** and account status.
 
-![alt](/images/vendor/Individuals/individual_1.png)
+![Individuals](/images/vendor/Individuals/8.jpg)
 
 ### Activity Logs
 
 In this page, users can see their login activities.
 
-![alt](/images/vendor/Individuals/individual_2.png)
+![Individuals](/images/vendor/Individuals/9.jpg)
 
 ### Settings
 
 As you can see in this page, by clicking on **Send an Activation Email** you will receive an email which contains an activation link. By tapping on the link on your smartphone, you can activate your security key.
 
-![alt](/images/vendor/Individuals/individual_3.png)
+![Individuals](/images/vendor/Individuals/10.jpg)
 
 ## User Options
 
@@ -87,16 +87,16 @@ To ready your **Reader** visit [this link](https://idmelon.com/idmelon-reader).
 1. By clicking on **Add Security Key**, a user can add a new security key to his/her account. After clicking on **Add Security Key**, a wizard will open and ask about how a user wants to create a new security key. Here we recommend choosing **External Security Key or built-in sensor**, because this document is for personal users and most personal users do not have other devices such as **Reader** or **Contactless Card**, and this option enables the user to use their smartphone as a security key.
 2. There will be two wizards shown by the user's operating system that ask the user for **Security Key Setup** permission. Users have to give this permission.
 3. If the user's smartphone is already paired with **Pairing Tool**, then IDmelon application will pop up a screen which looks like the screen below, tap on the security key that you want to register your account on.
-![alt](/images/vendor/Individuals/indiv_m_1.jpg)
+![Individuals Mobile Screenshot](/images/vendor/Individuals/11.jpg)
 4. Tap on **Approve**.
-![alt](/images/vendor/Individuals/indiv_m_2.jpg)
+![Individuals Mobile Screenshot](/images/vendor/Individuals/12.jpg)
 5. On this step, the smartphone's **GPS** and **Bluetooth** must be turned on, as well as the  **Bluetooth** of the user's computer. This helps the IDmelon application to prove that the user who is using a certain phone is close to the computer that he or she is using and thus adds the device to the user's account.
-![alt](/images/vendor/Individuals/indiv_m_3.jpg)
+![Individuals Mobile Screenshot](/images/vendor/Individuals/13.jpg)
 6. If everything is done as explained, the user's smartphone will be added to the account.
-![alt](/images/vendor/Individuals/individual_45.png)
+![Individuals](/images/vendor/Individuals/14.jpg)
 
 ### Profile Info
 
 This page shows the user's information. Here is a sample image.
 
-![alt](/images/vendor/Individuals/individual_5.png)
+![Individuals](/images/vendor/Individuals/15.jpg)

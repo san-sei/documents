@@ -1207,7 +1207,7 @@ a.docs-link {
 
 .docs-content a:not(.docs-content .right-side-links a) {
   font-size: 16px;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .docs-content li p {
@@ -1221,8 +1221,6 @@ a.docs-link {
 }
 
 .content img {
-  border: 1px solid #e1e1e1;
-  border-radius: 4px;
   margin-top: 24px;
   margin-bottom: 24px;
   transition: 0.3s;
@@ -1231,6 +1229,15 @@ a.docs-link {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.content img[alt="Mobile App"],
+.content img[alt="Individuals Mobile Screenshot"] {
+  width: 50%;
+}
+
+.content img[alt="Individuals Mobile Screenshot"] {
+  width: 50%;
 }
 
 .content img:hover {

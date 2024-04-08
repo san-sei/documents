@@ -13,7 +13,7 @@ weight: 15000
 toc: true
 ---
 
-This document will show you how to deploy the IDmelon solution from A to Z. Please follow the instructions step by step and make sure no step is skipped. The following steps are documented for the workspace admins. For further assistance at any time, please contact support@idmelon.com. Furthermore, a chatbot which will connect you with our team is available on the top right of the admin panel.
+This document will show you how to deploy the IDmelon solution from A to Z. Please follow the instructions step by step and make sure no step is skipped. The following steps are documented for the workspace admins. For further assistance at any time, please contact support@idmelon.com.
 
 ![alt](/images/vendor/deployment_overview/1.jpg)
 
@@ -21,7 +21,7 @@ This document will show you how to deploy the IDmelon solution from A to Z. Plea
 
 - Enabling FIDO security keys from the Azure Portal.
 
-- Installing the following apps or drivers according to what type of security keys (either smartphone or contactless card) you choose to use. The downloadable items can be found here.
+- Installing the following apps or drivers according to what type of security keys (either smartphone or contactless card) you choose to use. The downloadable items can be found [here](https://idmelon.com/docs/downloads/).
 
 ### Smartphone as a Security Key
 
@@ -75,27 +75,21 @@ This document will show you how to deploy the IDmelon solution from A to Z. Plea
 
 You can add users in different ways:
 
-1. The “New User” button on the top right of the “Users” section is one option. To see this page, go to “Security Key Management” (on the side menu on the left) => “Users”
+1. The **New User** button on the top right of the **All Users** section is one option. To see this page, go to **Users** on the side menu on the left.
 
-2. Second option is bulk import. Next to the “New User” button of the same page, you can see the “Import Users” Option. Under the Import Users button, there are 3 options: you can import users from a CSV file, Azure AD (Microsoft Entra ID), or Azure SCIM. For further help on these, please reach out to support@idmelon.com
+2. Second option is bulk import. Next to the **New User** button on the same page, you can see the **Import Users** Option. Under the Import Users button, there are 3 options: you can import users from a **CSV file**, **Entra ID (Azure AD)**, or **SCIM Connector**. For further help on these, please reach out to support@idmelon.com
 
-Using the second option will automatically import the users and you will be able to view them on “Security Key Management” (on the left) => “Users”
+Using the second option will automatically import the users and you will be able to view them on the **All Users**.
 
 ## Step 3: Assigning Security Keys to Users (One by One)
 
-From the Users page, you can see the security keys that have been assigned to users. Green coloured security keys mean the security key is assigned, while amber means it is pending.
-**In order to assign a security key to a user (one by one) the following steps have to be completed, assuming that the adequate downloadable items discussed in the prerequisites have been installed.**
+From the Users page, you can see the security keys that have been assigned to users. **In order to assign a security key to a user (one by one) one of the following ways have to be followed, assuming that the adequate downloadable items discussed in the prerequisites have been installed.**
 
-**1. To assign a Smartphone as a security key to a user:**
-Select the user and click on the key icon on the top or click the user’s name and then click “New Device”. And then select Smartphone and confirm.
-The user will receive an email which contains the “Activate” button. The user must open the email on the smartphone that they will be using as a security key. Clicking the “Activate” button will take the user to the IDmelon Authenticator app, where they should click “Approve”, and they will be good to use the security key.
+1. Go to the **Users** section on the left-side menu, click the **All Users**, select the users you would like to assign a security key to by ticking the box next to them, and then click on the security key icon on the top. A pop-up will appear where you can choose the type of security key you want: Card, Smartphone, Fingerprint, USB Key.  
 
-**2. To assign an ID Badge as a security key to a user:**
-Select the user and click on the key icon on the top or click to the user’s name and then click “New Device”. Select Contactless Card and confirm. From here, there are two methods: activating now or activating by user.
+2. Go to the **Users** section on the left-side menu, click the **All Users**, the users you would like to assign a security key to is in a row whose end contains a +. Click on the + button, so that a pop-up will appear where you can choose the type of security key you want: Card, Smartphone, Fingerprint, USB Key.  
 
-If you have the contactless card with you, select “Activate Now”, tap the card on your reader and tap confirm. You will see a randomly generated PIN, and the PIN will be sent via an email as well.
-
-If “Activate by User” is selected, the user will receive an email with a “Register” button. All they have to do is tap their card after pressing that button.
+3. Go to the **Users** section on the left-side menu, click the **All Users**, click the users you would like to assign a security key to, so that you will be taken to a page where you can read the user's information. There, from the top menu, click the **Security keys** tab, and then click the **New Security key** button on the right. A pop-up will appear where you can choose the type of security key you want: Card, Smartphone, Fingerprint, USB Key.  
 
 ## Step 4: Assigning Security Keys to Users in Bulk
 
@@ -105,7 +99,7 @@ This file should include the “user principal name”, which is the email of th
 
 ## Step 5: Registering Credentials for Users
 
-Once the steps above are followed and users have their security keys, it is possible for them to log into the IDmelon panel and Windows machines. In order to start signing into other web applications, it is necessary to add credentials to user. As an example, this guide will tell you how to add Microsoft credentials into IDmelon. There are two ways for this. One manual and one automated.
+Once the steps above are followed and users have their security keys, it is possible for them to log into the IDmelon panel and Windows machines. In order to start signing into other web applications, it is necessary to register a passkey for the user. As an example, this guide will tell you how to add IDmelon to Microsoft accounts. There are two ways for this. One manual and one automated.
 
 - **The first way to add IDmelon to Microsoft 365**
 
@@ -115,19 +109,19 @@ Once this step is done, the user can log in to their account by IDmelon. Every s
 
 - **The second and easier method to add IDmelon to Microsoft**
 
-Use Automated RP Provisioning. This can only be done if the user has been imported from Azure AD.
+Use Automated RP Provisioning. This can only be done if the user has been imported from Microsoft Entra ID (Azure AD).  
 
-If a user if imported from Azure AD, the provisioning can be done and the credential would be added automatically. To do this, contact the IDmelon team to get help with this.
+If a user is imported from Entra ID (Azure AD), the provisioning can be done and the credential or passkey would be registered automatically. To do this, contact the IDmelon team to get help with this.  
 
 ## Step 6: Managing Security Keys
 
-IDmelon Admin Panel gives complete control over security keys to admins. Admins are able to view security key activities, add/restrict/delete security keys and users.
+IDmelon Admin Panel gives complete control over security keys to admins. Admins are able to view security key activities, add/restrict/delete security keys and users.  
 
-On the “Users” page, by clicking to the clock icon on the right of a user, it is possible to see all logins of that user, which security key they used and which website they logged into. From the top right of the same page, it is possible to edit, suspend or delete the user.
+On the **Security keys** page, by clicking on the clock icon on the right side of each user's row, it is possible to see all login activities of that user, which security keys they have been used, and which websites or applications they have logged in to. From the top right of the same page, it is possible to suspend or delete the security key. Also, you can select a security key by ticking the checkbox next to it, then you can use the icons on the top menu to , delete, suspend or reset the PIN of that specific security key.  
 
-To manage the security keys, the admins should click on the user’s email from the “Users” section. After clicking on the three dots under “Action”, the admin can edit, delete, suspend or change the PIN of that specific security key.
+To change a user's information, the admins should click on a user’s email from the **User ID** column from the **All Users** section in the **Users**. The Edit button allows admin to edit the user's information.  
 
-From the “Groups” tab above, you can see which groups that user belongs to, “Policies” shows what policies have been assigned to that user, and “Credentials” shows which credentials of the user are enrolled in IDmelon.
+From the **Groups** tab, you can see all groups, to which groups each user belongs, and also suspend or delete a group.  
 
 ## Step 7: Creating Security Policies
 

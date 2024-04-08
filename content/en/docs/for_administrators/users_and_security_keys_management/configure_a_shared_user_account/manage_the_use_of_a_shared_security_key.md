@@ -13,20 +13,24 @@ weight: 35300
 toc: true
 ---
 
-When attempting to log in to Windows using a contactless card that is linked to multiple users/accounts, Windows will not prompt you to select a specific user/credential, instead choosing a user/credential on its own accord.  
+When attempting to log in to Windows using a security key device of a user linked to multiple users/accounts, Windows may automatically select a user/passkey without prompting for selection.  
 
-To address this issue, you can employ policies to establish a default user/credential for Windows login. **The following section offers an illustrative example of associating a shared account with a computer through IPOP policies.**  
+To address this issue, you can employ default account or policies to establish a default user/passkey for Windows login.  
 
-### Associate a Shared Account with a Computer  
+## Default Account  
 
-1. Navigate to the **Security > Security Key Policies** menu and click on the **New Policy** button. (We assume that the default policy of our workspace is Block, which blocks all user activities by default).  
-2. Fill in the required information and proceed to step 2, which is *Set Conditions*.  
-3. In the **Security Key Device Type** section, select Contactless Card.  
-4. In the **Users and Groups** section, select the user/shared account that you want to use as the default account for login.  
-5. In the **Access Restriction on PCs** section, select the PCs on which you want this policy to take effect.  
-6. In the third step, choose *Allow* as your policy's action. This way, the chose user/shared account will be the only account capable of logging into Windows on the selected computer.  
-7. Submit your changes, and you will have a new policy in the policies table.  
+To set a user as the default account, follow these steps:  
 
-After implementing the policy, any attempts to log in to the specified computer using a contactless card that is not linked to the selected user/shared account will be denied or blocked. Using shared accounts, only contactless cards associated with the selected shared account are allowed to login to Windows on the specified computer.  
+1. Log in to your workspace.  
+2. Under Users, navigate to the All Users menu.  
+3. Select the user which recieved login credentials from other users.  
+4. Go to the Shared Passkeys tab. You will notice a Default column for each shared account.  
+5. Activate Default for the desired shared account.  
+
+Following these steps, you have successfully set a shared account as the default for this user. by that, whenever there are more than one login credentials available to use, Windows will select the default account's login credential.  
+
+## Policies  
+
+By adding a policy, you can control attempts to allow or block the use of login credentials for specific users in specific circumstances.  
 
 To further study policies and how to use them, please refer to the [policies section](/docs/for_administrators/conditional_access_for_security_keys/what_are_the_security_key_policies).  
