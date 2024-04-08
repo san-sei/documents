@@ -20,7 +20,7 @@ IDmelon Admin Panel is a platform where you can manage users, activate users' se
 1. Choose Work or School on behalf of your organization.
 2. Fill in all the fields with your information including your email address and phone number  
 3. Enter your company's URL and Name. You can also add your company's logo.  
-4. In this step choose the device that you like to use as your security key. Click on **Save & Continue** to see a page based on the security key device that you have chosen.  
+4. In this step, choose the device that you like to use as your security key to see a page based on the security key device that you have chosen, or you can **Skip** it for later.
 
 To activate your security key, based on your device, please follow one of the bellow sections:
 
