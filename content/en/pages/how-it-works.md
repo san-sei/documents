@@ -1,6 +1,6 @@
 ---
 title: "How it works?"
-description: "How to use IDmelon app"
+description: "How to use IDmelon Authenticator"
 date: 2022-02-22T15:33:45-08:00
 lastmod: 2022-02-22T15:33:45-08:00
 draft: false

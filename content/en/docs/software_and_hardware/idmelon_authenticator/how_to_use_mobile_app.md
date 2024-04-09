@@ -13,17 +13,17 @@ weight: 302000
 toc: true
 ---
 
-IDmelon Mobile App works in combination with either IDmelon Client App or an IDmelon Reader and enables users to use their smartphones as a security key.  
+IDmelon Mobile App works in combination with either IDmelon Pairing Tool or an IDmelon Reader and enables users to use their smartphones as a security key.  
 
 **Instructions:**  
 
-1. First, download and install IDmelon app from App Store or Google Play.  
+1. First, download and install IDmelon Authenticator from App Store or Google Play.  
 
 2. Then, go with one of the options below:  
 
     - Plug an IDmelon Reader to a USB port of the PC and start experiencing Tap & Go!  
 
-    - Scan a QR code from IDmelon Client app on the PC screen once on the first try to pair your smartphone with the PC and start experiencing Push Authentication!  
+    - Scan a QR code from IDmelon Pairing Tool on the PC screen once on the first try to pair your smartphone with the PC and start experiencing Push Authentication!  
 
 After users complete the setup, they will be able to access Microsoft, Office 365, GitHub, and many more FIDO2 supported platforms and simply and securely log into Windows, websites, and applications without having to type a password.  
 
@@ -126,7 +126,7 @@ To upgrade a **Basic** account to an **Standard** account or a **Premium** accou
 
 3. Expand **License Type** to see the available plans.  
 
-- Choose one of the available plans and tap on **Upgrade**. Then you will be redirected to your platform's payment page to choose your payment method for **IDmelon Application**.  
+- Choose one of the available plans and tap on **Upgrade**. Then you will be redirected to your platform's payment page to choose your payment method for **IDmelon Authenticator**.  
 
 ![Mobile App](/images/vendor/MobileApp/setting.jpg)  
 
@@ -136,7 +136,7 @@ To upgrade a **Basic** account to an **Standard** account or a **Premium** accou
 
 To use IDmelon Mobile App in combination with IDmelon Pairing Tool without the need for any hardware, download IDmelon Pairing Tool [here](https://www.idmelon.com/download) and follow below steps:  
 
-1. Open IDmelon app on your smartphone, go to the setting and click on the Pair with a New PC.  
+1. Open IDmelon Authenticator on your smartphone, go to the setting and click on the Pair with a New PC.  
 
 2. Open IDmelon Pairing Tool on your computer and click on the pair a new smartphone.  
 

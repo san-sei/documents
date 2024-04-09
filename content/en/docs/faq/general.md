@@ -21,4 +21,4 @@ toc: true
 
 {{< faq question=`How is IDmelon different from from other smartphone-based authentication solutions?` answer=`In addition to management panel, IDmelon allows users to share a PC by a single tap of their smartphones on an IDmelon Reader to go login without having to pair their smartphones with the PC via Bluetooth.` >}}
 
-{{< faq question=`Is there a standalone IDmelon app for smarth watches?` answer=`Not yet.` >}}
+{{< faq question=`Is there a standalone IDmelon Authenticator for smarth watches?` answer=`Not yet.` >}}

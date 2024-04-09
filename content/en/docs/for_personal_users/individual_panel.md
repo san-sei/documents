@@ -19,14 +19,14 @@ All IDmelon personal users have an individual panel at IDmelon which they can ac
 
 ---
 
-If users already have an IDmelon account on their smartphone, they can log in to their panel by opening [this link](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6) and clicking on **Sign in with a security key** tapping on their IDmelon Mobile App Security Key.\
+If users already have an IDmelon account on their smartphone, they can log in to their panel by opening [this link](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6) and clicking on **Sign in with a Passkey** tapping on their IDmelon Mobile App Security Key.\
 To create a personal account users have two ways, the first way is through **a smartphone**, and the second way is through **IDmelon Website**.
 
 - To create an IDmelon account by **a smartphone**, please visit the [Mobile App Guide](/docs/software_and_hardware/idmelon_authenticator/how_to_use_mobile_app/#personal-users) page.
 
 - To create an IDmelon account on **IDmelon Website**, please read the following instructions.
 
-1. First open [IDmelon Panel's Login](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6) page and click on **Create one!**
+1. First open [IDmelon Panel's Login](https://login.idmelon.com/?sp=panel.idmelon.com&idp_init=False&req=18353303-1f5d-4f38-9197-2eb0bd54edb6) page and click on **Sign up!**
 ![Individuals](/images/vendor/Individuals/1.jpg)
 2. Choose **Personal** because you want to create a personal account.
 ![Individuals](/images/vendor/Individuals/2.jpg)
@@ -86,11 +86,11 @@ To ready your **Reader** visit [this link](https://idmelon.com/idmelon-reader).
 
 1. By clicking on **Add Security Key**, a user can add a new security key to his/her account. After clicking on **Add Security Key**, a wizard will open and ask about how a user wants to create a new security key. Here we recommend choosing **External Security Key or built-in sensor**, because this document is for personal users and most personal users do not have other devices such as **Reader** or **Contactless Card**, and this option enables the user to use their smartphone as a security key.
 2. There will be two wizards shown by the user's operating system that ask the user for **Security Key Setup** permission. Users have to give this permission.
-3. If the user's smartphone is already paired with **Pairing Tool**, then IDmelon application will pop up a screen which looks like the screen below, tap on the security key that you want to register your account on.
+3. If the user's smartphone is already paired with **Pairing Tool**, then IDmelon Authenticator will pop up a screen which looks like the screen below, tap on the security key that you want to register your account on.
 ![Individuals Mobile Screenshot](/images/vendor/Individuals/11.jpg)
 4. Tap on **Approve**.
 ![Individuals Mobile Screenshot](/images/vendor/Individuals/12.jpg)
-5. On this step, the smartphone's **GPS** and **Bluetooth** must be turned on, as well as the  **Bluetooth** of the user's computer. This helps the IDmelon application to prove that the user who is using a certain phone is close to the computer that he or she is using and thus adds the device to the user's account.
+5. On this step, the smartphone's **GPS** and **Bluetooth** must be turned on, as well as the  **Bluetooth** of the user's computer. This helps the IDmelon Authenticator to prove that the user who is using a certain phone is close to the computer that he or she is using and thus adds the device to the user's account.
 ![Individuals Mobile Screenshot](/images/vendor/Individuals/13.jpg)
 6. If everything is done as explained, the user's smartphone will be added to the account.
 ![Individuals](/images/vendor/Individuals/14.jpg)

@@ -34,7 +34,7 @@ Each mode has different capabilities and designed for a use case. Users can swit
 
 In this mode, the hardware works as a BLE reader and can distinguish the TAP of the user’s smartphone, similar to the experience of TAP
 with access cards on NFC or RFID readers or Tap to Pay for iPhone and Android phone.
-There is no need to pair the smartphone with the reader and only having the IDmelon app installed on the smartphone and keeping
+There is no need to pair the smartphone with the reader and only having the IDmelon Authenticator installed on the smartphone and keeping
 the smartphone’s Bluetooth on is enough to work.
 
 ### FIDO2 USB Security Key

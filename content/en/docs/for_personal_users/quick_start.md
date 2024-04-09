@@ -45,12 +45,12 @@ key.
 
 Run the IDmelon Pairing Tool on your PC.
 
-* If you are running this tool for the first time, you will be asked to scan the QR code using IDmelon app on your
+* If you are running this tool for the first time, you will be asked to scan the QR code using IDmelon Authenticator on your
   smartphone.
 
 * Otherwise, click on Pair a new Smartphone to generate and show a QR code on the screen
 
-Open the IDmelon app on your phone
+Open the IDmelon Authenticator on your phone
 
 * Tap the QR icon displayed on the top, OR
 
