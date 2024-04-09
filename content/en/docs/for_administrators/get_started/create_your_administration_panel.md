@@ -26,7 +26,7 @@ To activate your security key, based on your device, please follow one of the be
 
 1. Smartphone  
     a. Choose **Smartphone** as your security key device and click on **Save & Continue**.  
-    b. Use IDmelon Authenticator app or the camera on your smartphone to scan the QR code on your PC screen. Open IDmelon application on your phone and click on the **three line menu** on the top left of your screen. Then tap on **Pair with a new PC** and scan the QR code.  
+    b. Use IDmelon Authenticator app or the camera on your smartphone to scan the QR code on your PC screen. Open IDmelon Authenticator on your phone and click on the **three line menu** on the top left of your screen. Then tap on **Pair with a new PC** and scan the QR code.  
     c. Click next and either download **IDmelon Pairing Tool** or use your **IDmelon Reader** to log in to panel by your smartphone as your security key. Click **Login** to move to login page.  
     For more information about **IDmelon Pairing Tool** refer to [this page](https://idmelon.com/products/pairingtool) and for more information about **IDmelon Reader** refer to [this page](https://idmelon.com/products/reader).  
 2. Contactless Card  

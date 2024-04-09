@@ -13,7 +13,7 @@ Please, take the following easy steps to turn your smartphone into a FIDO2 USB s
 
 {{< figure src="/images/vendor/arts/try-now-1.png" title="These 3 are all you need!" >}}
 
-1. Install IDmelon App on your smartphone from [Google Play](https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business) or [App Store](https://apps.apple.com/ca/app/idmelon/id1511376376).
+1. Install IDmelon Authenticator on your smartphone from [Google Play](https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business) or [App Store](https://apps.apple.com/ca/app/idmelon/id1511376376).
 2. Run the App; follow the registration steps and activate your security key.
 3. [Download](https://idmelon.com/docs/downloads) and install the IDmelon Pairing Tool on your PC.
 4. Run the Pairing Tool and follow the instruction to pair the smartphone.
