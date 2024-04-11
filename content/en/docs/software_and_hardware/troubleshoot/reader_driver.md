@@ -8,8 +8,8 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "readerguide"
-weight: 800000
+    parent: "troubleshoot"
+weight: 800001
 toc: true
 ---
 
