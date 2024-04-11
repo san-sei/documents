@@ -71,7 +71,6 @@ The list of IPs to which the system must have access is given in the table below
 
 | IP            |
 |---------------|
-| 216.239.32.21 |
-| 216.239.34.21 |
-| 216.239.36.21 |
-| 216.239.38.21 |
+| 34.218.113.8  |
+| 54.200.17.238 |
+| 52.88.123.81  |
