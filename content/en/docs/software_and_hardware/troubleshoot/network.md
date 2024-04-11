@@ -1,6 +1,6 @@
 ---
-title: "Network"
-description: ""
+title: "Network Configuration"
+description: "Network Configuration"
 lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
@@ -13,8 +13,6 @@ weight: 800000
 toc: true
 ---
 
-
-## Network configuration
 
 Client applications need to be able to access the following addresses and IP addresses,
 so you should configure your firewall settings to allow access to these addresses.
@@ -35,7 +33,7 @@ You need to grant access to the following IP addresses:
 * 54.200.17.238
 * 52.88.123.81
 
-## Network troubleshooting:
+## Network troubleshooting
 
 If you encounter any issues accessing the services,
 please execute the following commands for troubleshooting and examine the results.
