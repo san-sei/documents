@@ -21,7 +21,7 @@ Run the command below in Command Prompt to see the status:
 Accesskeycli status
 ```
 
-In a healthy situation it should return the status below and also list the plugged Readers.
+In a healthy situation, it should return the status below and also list the plugged Readers.
 
 ![alt](/images/vendor/Troubleshoot/AccesskeyCliStatus.png)
 
@@ -34,13 +34,11 @@ In the table below we have listed all known errors and resolutions to tackle the
 
 ## Network Requirements
 
-RFIDEAS Reader driver needs to be installed on every computer device to read the users' RFID/NFC badges data and communicate through the network with the ConvergeID server. To ensure smooth operation and communication between the RFIDEAS Reader driver and the ConvergeID server, minimal networking requirements need to be met on client computers. The ConvergeID software relies on standard network protocols and commonly used ports to function correctly. The ConvergeID application requires the ability to establish HTTP connections over ports 443 and 80.
+The Reader driver needs to be installed on every computer device to read the users' RFID/NFC badges data and communicate through the network with the server. To ensure smooth operation and communication between the Reader driver and the server, minimal networking requirements need to be met on client computers. The software relies on standard network protocols and commonly used ports to function correctly. The application requires the ability to establish HTTP connections over ports 443 and 80.
 
-![alt](/images/vendor/Troubleshoot/AccesskeyCliConverge.png)
+Furthermore, if you are employing a more restricted policy than only allowing traffic through ports 80 and 443 and would like to put restrictions on a specific IP address, check out the list of IPs at the end of this document and whitelist them in the firewall.
 
-Furthermore, if you are employing a more restricted policy than only allowing traffic through ports 80 and 443 and would like to put restrictions on a specific IP address, the following IP should also be whitelisted in the firewall: 216.239.38.21
-
-It is essential to ensure that firewalls, proxy servers, or any network infrastructure do not block access to these ports and/or IP address. Please note that these networking requirements are sufficient for the smooth operation of the ConvergeID software and do not require any additional network configuration.
+It is essential to ensure that firewalls, proxy servers, or any network infrastructure do not block access to these ports and/or IP address. Please note that these networking requirements are sufficient for the smooth operation of the software and do not require any additional network configuration.
 
 ### Firewall Configuration Instructions for Windows 10 and Above
 
@@ -57,7 +55,7 @@ and 443, please follow these steps:
 8. Select "Allow the connection"and click "Next."
 9. Choose when the rule applies (Domain, Private, or Public networks) and click "Next."
 10. Provide a name for the rule (e.g., "Allow idmelon.com HTTP traffic") and an optional description. Click "Finish" to create the rule.
-11. Repeat steps 5-10 to create another outbound rule for port "443" and specify the same name but with "HTTPS" in the name (e.g., "Allow idmelon.com HTTPS traffic"). By following these instructions, you will configure the Windows Firewall to allow outbound traffic on ports 80 and 443, enabling the ConvergeID software to establish proper connections.
+11. Repeat steps 5-10 to create another outbound rule for port "443" and specify the same name but with "HTTPS" in the name (e.g., "Allow idmelon.com HTTPS traffic"). By following these instructions, you will configure the Windows Firewall to allow outbound traffic on ports 80 and 443, enabling the software to establish proper connections.
 
 ### Check Manual Proxy Setup
 
