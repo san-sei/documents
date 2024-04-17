@@ -64,6 +64,7 @@ Ideal for smaller-scale deployments, the single node deployment option involves 
 This streamlined approach offers simplicity and ease of management.
 
 #### Minimum System Requirements
+
 The minimum hardware and operating system requirements are:
 
 - Ubuntu server 23.10
