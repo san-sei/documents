@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "on-premises-deployment"
-weight: 96000
+weight: 95002
 toc: true
 ---
 
