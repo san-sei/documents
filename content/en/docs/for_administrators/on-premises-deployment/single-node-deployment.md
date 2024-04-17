@@ -45,11 +45,11 @@ The `yourprefix` section in the domain name is optional, you can directly set th
 
 Without prefix, it will be:
 
-- sso.yourdomain.com
+- panel.yourdomain.com
 
 Or with a prefix it will be:
 
-- sso.yourprefix.yourdomain.com
+- panel.yourprefix.yourdomain.com
 
 ### Open ports:
 
