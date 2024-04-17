@@ -53,7 +53,6 @@ For the source of user identities and access management for the IDmelon platform
 
 _This component is optional._
 
-
 ## Deployment Models
 
 When it comes to deploying the IDmelon platform, users have two options:
@@ -79,7 +78,6 @@ the cluster deployment option is recommended.
 
 This involves installing the platform on a minimum of three servers,
 ensuring redundancy and load balancing to handle increased traffic and workload.
-
 
 ### Private Tenant Cloud Deployment
 
