@@ -55,7 +55,7 @@ Or with a prefix it will be:
 
 The server should have the following open ports:
 
-- Port 23 for SSH.
+- Port 22 for SSH.
 - Port 80 for `Let's Encrypt` HTTP domain verification method.
 - Port 443 for the HTTPS protocol.
 - Port 6443 for connecting to the Kubernetes cluster.
