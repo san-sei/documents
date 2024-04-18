@@ -165,9 +165,9 @@ Back to the `Attribute Mappings` section, and from the default list, apply this 
 
 * Add `description` field by clicking the `Add New Mapping`.
 
-| customappsso Attribute  | Microsoft Entra ID Attribute | Matching precedence |
-|-------------------------|------------------------------|---------------------|
-| objectId                | externalId                   |                     |
+| customappsso Attribute | Microsoft Entra ID Attribute  | Matching precedence |
+|------------------------|-------------------------------|---------------------|
+| description            | description                   |                     |
 
 ![alt](/images/vendor/scim/azure/19.png)
 ![alt](/images/vendor/scim/azure/20.png)
