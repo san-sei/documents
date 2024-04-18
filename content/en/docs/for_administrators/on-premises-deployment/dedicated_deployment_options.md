@@ -59,7 +59,7 @@ When it comes to deploying the IDmelon platform, users have two options:
 
 ### Single Node Deployment
 
-Ideal for smaller-scale deployments, the single node deployment option involves installing all components on a single server.
+Ideal for small to medium-scale deployments, the single node deployment option involves installing all components on a single server.
 This streamlined approach offers simplicity and ease of management.
 
 #### Minimum System Requirements
