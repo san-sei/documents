@@ -43,9 +43,9 @@ Step 4 - Configure your own new application
 Fill fields of opened from as:
 
 * What's the name of your app?
-    * IDmelon
+  * IDmelon
 * What are you looking to do with your application?
-    * Integrate any other application you don't find in the gallery (Non-gallery)
+  * Integrate any other application you don't find in the gallery (Non-gallery)
 
 And then Click `Create` button.
 
@@ -71,15 +71,15 @@ Step 7 - Update credentials
 And then in the next page, fill fields of opened from as:
 
 * Provisioning mode
-    * Authomatic
+  * Authomatic
 
 And in the `Admin Credentials` section:
 
 * Tenant URL
-    * https://sso.idmelon.com/api/scim/v2/
+  * https://sso.idmelon.com/api/scim/v2/
 
 * Secret Token
-    * PASTE THIS VALUE FROM IDMELON PANEL
+  * PASTE THIS VALUE FROM IDMELON PANEL
 
 And click `Test connection` to check the connection to `IDmelon` is successful.
 
@@ -113,11 +113,9 @@ Add a new `immutableId` field based as picture and below table and then click th
 
 ![alt](/images/vendor/scim/azure/11.png){width=600}
 
-
 | Name                                                                 | Type   |
 |----------------------------------------------------------------------|--------|
 | urn:ietf:params:scim:schemas:extension:IDmelon:2.0:User:immutable_id | String |
-
 
 Step 10 - User attribute mapping
 --------------------------------
@@ -143,7 +141,6 @@ Step 11 - Group Attribute mapping
 Expand the `Mapping` section and click on `Provision Microsoft Entra ID Group`
 
 ![alt](/images/vendor/scim/azure/16.png){width=600}
-
 
 Step 12 - Group attribute mapping - advance options
 ---------------------------------------------------
