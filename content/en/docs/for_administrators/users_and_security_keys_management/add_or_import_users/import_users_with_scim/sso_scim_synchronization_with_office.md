@@ -122,8 +122,8 @@ Step 10 - User attribute mapping
 
 Back to the `Attribute Mappings` section, and from the default list, apply these two changes and then click the `Save`.
 
-- Change the  `objectId` field by clicking on the `Edit` button.
-- Add `immutableId` field by clicking the `Add New Mapping`.
+* Change the  `objectId` field by clicking on the `Edit` button.
+* Add `immutableId` field by clicking the `Add New Mapping`.
 
 | customappsso Attribute  | Microsoft Entra ID Attribute                                          | Matching precedence |
 |-------------------------|-----------------------------------------------------------------------|---------------------|
@@ -163,7 +163,7 @@ Step 13 - Group attribute mapping
 
 Back to the `Attribute Mappings` section, and from the default list, apply this change and then click the `Save`.
 
-- Add `description` field by clicking the `Add New Mapping`.
+* Add `description` field by clicking the `Add New Mapping`.
 
 | customappsso Attribute  | Microsoft Entra ID Attribute | Matching precedence |
 |-------------------------|------------------------------|---------------------|
@@ -172,4 +172,3 @@ Back to the `Attribute Mappings` section, and from the default list, apply this 
 ![alt](/images/vendor/scim/azure/19.png){width=600}
 ![alt](/images/vendor/scim/azure/20.png){width=600}
 ![alt](/images/vendor/scim/azure/21.png){width=600}
-
