@@ -66,7 +66,7 @@ This streamlined approach offers simplicity and ease of management.
 
 The minimum hardware and operating system requirements are:
 
-- Ubuntu server 23.10
+- OS: Ubuntu server 23.10 | Windows Server 2016+
 - CPU: 4 cores
 - RAM: 8 GB
 - Hard Drive: 50 GB
