@@ -97,7 +97,7 @@ It is possible to match users with security keys. This is possible in a scenario
 
 This file should include the “user principal name”, which is the email of the user (Required), HID badge numbers (Required), their names, (optional) phone numbers, (optional) and which should be known by the IT. Once this file is uploaded, the users will be assigned the cards they already have as FIDO security keys and will receive a PIN to start using them.
 
-## Step 5: Registering Credentials for Users
+## Step 5: Registering Passkeys for Users
 
 Once the steps above are followed and users have their security keys, it is possible for them to log into the IDmelon panel and Windows machines. In order to start signing into other web applications, it is necessary to register a passkey for the user. As an example, this guide will tell you how to add IDmelon to Microsoft accounts. There are two ways for this. One manual and one automated.
 
