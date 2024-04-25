@@ -71,6 +71,10 @@ The minimum hardware and operating system requirements are:
 - RAM: 8 GB
 - Hard Drive: 50 GB
 
+In the above specifications, when deployed in a Windows Server environment,
+the application is installed within a virtual machine or VMware,
+and the mentioned specifications refer to the allocated hardware within the virtual environment.
+
 ### Cluster Deployment
 
 For larger-scale deployments requiring high availability and scalability,
