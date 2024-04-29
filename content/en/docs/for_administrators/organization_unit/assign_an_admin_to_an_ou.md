@@ -15,14 +15,10 @@ toc: true
 
 To define administrators for Organization Units through the Administrative menu, follow the below steps:  
 
-- Access the Admin menu.  
-
-- Within the Admin menu, locate and select the "+ New Admin" button.  
-
-- Identify the specific Organization Unit for which you intend to assign a dedicated administrator.  
-
-- Choose the user or users who will serve as administrators for the selected Organization Unit.  
-
-- Select the necessary administrative privileges for the selected admin(s) within their designated OUs.  
-
-- Confirm and save the changes.  
+1. Log in to the admin panel.  
+2. Click the **Admin** section on the left-side menu.  
+3. Within the Admin menu, locate and select the **+New Admin** button.  
+4. Identify the specific **Organization Unit Name** for which you intend to assign a dedicated administrator.  
+5. Choose the **User ID** who will serve as administrators for the selected Organization Unit.  
+6. Select the necessary permissions for the new administrator.  
+7. save your changes by clicking the **Submit** button.  

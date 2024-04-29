@@ -13,7 +13,9 @@ weight: 81000
 toc: true
 ---
 
-To manage workspace admins, go to your panel settings and then click on "Admins". Here, you can see a list of admins, with the first one is the person who created the workspace. You can add a new admin by clicking "+ New Admin". When you click "+ New Admin", a form will pop up. The "Add a New Admin" process has 2 steps.  
-
-1. First, you should add their email address. Please note that the person must be a user first and have an active security key. If you haven't added them as a user yet, please refer to the instructions on how to [add a single user](link to the instructions).  
-2. After adding their email, the next step is specifying their "Additional Permission". You can adjust the new admin's permission from "User Management" to "Full Access".  
+1. Log in to the admin panel.  
+2. Click the **Admin** section on the left-side menu. Here, you can see a list of admins, among whom the first one is the person that created the workspace.  
+3. You can add a new admin by clicking **+New Admin**. When you click **+New Admin**, a form will pop up. The **Add a New Admin** process has 2 steps.  
+    - First, you should enter a **User ID** that already exists in your workspace. If you haven’t added the intended user yet, please refer to the instructions on how to **add a single user** ([link](/docs/for_administrators/users_and_security_keys_management/add_or_import_users/add_a_single_user/) to the instructions).  
+    - After adding a **User ID**, the next step is specifying their **Additional Permission**. By default, the new administrator will not be able to perform any operation. Select the necessary permissions for the new administrator and Check the box to select all the options (equivalent to the owner's permissions).  
+4. save your changes by clicking the **Submit** button.  
