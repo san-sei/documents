@@ -62,7 +62,12 @@ Click `Next`.
 
 In the `App Attributes Mapping` section, add the required fields for mapping attributes.
 
-The valid values for the `IDP variable name` section are: email, surname, given_name, full_name.
+The valid values for the `IDP variable name` section are:
+
+- `email`
+- `surname`
+- `given_name`
+- `full_name`
 
 Click `Confirm`.
 
