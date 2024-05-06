@@ -23,3 +23,5 @@ To manage **Organization Units** (OUs) in the workspace menu, you can use the **
 - In the user assignment area, select and assign the users who will be associated with this Organization Unit.
 - Save the changes to finalize the creation of the Organization Unit, incorporating the specified name, description, and assigned users.
   If you select an OU from your list (in the Organization unit section), you can simply use the delete icon in the cation bar to delete the selected OU. Also, the pencil icon in the cation bar, can be used for editing the OU information and changing its assigned users.
+
+If you select an OU from your list (in the Organization unit section), you can simply use the delete icon in the cation bar to delete the selected OU. Also, the pencil icon in the cation bar, can be used for editing the OU information and changing its assigned users.

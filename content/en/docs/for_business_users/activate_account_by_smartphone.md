@@ -13,9 +13,7 @@ weight: 110000
 toc: true
 ---
 
-When your organization rolls out IDmelon, one of your organization’s admins sends an invitation email to your work email
-address to activate your work account.
-From then on, you will be able to use your smartphone as a FIDO security key.
+When your organization rolls out IDmelon, one of your organization’s admins sends an invitation email to your work email address to activate your work account. From then on, you will be able to use your smartphone as a FIDO security key.
 
 ## Preparation
 
@@ -25,35 +23,38 @@ From then on, you will be able to use your smartphone as a FIDO security key.
 
 - After installing the app, open it to see the page below.
 
-- Then, choose "Business/School".
+- Then, choose **Work / Business**.
 
-![alt](/images/vendor/UserPanel/activate_b_1.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/1.png)
 
 ## Activation
 
 ---
 
+- You will be given two options: you can either sign in with email or scan a QR code.
 - In this page, enter your email and click **Send verification email**.
 
 > **Note:** Make sure that you receive an invitation email from one of your organization’s admins to be added to your organization’s panel.
 
-![alt](/images/vendor/UserPanel/activate_b_2.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/2.png)
+
+![Activate Account by Smartphone](/images/vendor/UserPanel/3.png)
 
 - In this page, you can access your email by tapping **Open email app** to see the verification code.
 
 - The email that you receive must contain the same contents as the image below.
 
-![alt](/images/vendor/UserPanel/activate_b_7.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/4.png)
 
 - Tap **Verify with code** to move to the next page and enter the 6-digit code.
 
 - If you did not receive any code, tap on **Resend**.
 
-![alt](/images/vendor/UserPanel/activate_b_3.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/5.png)
 
 - Enter the 6-digit code that you have received and then, tap on **Done**.
 
-![alt](/images/vendor/UserPanel/activate_b_4.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/6.png)
 
 ## Confirmation
 
@@ -61,8 +62,8 @@ From then on, you will be able to use your smartphone as a FIDO security key.
 
 - In this page, tap on **Approve** to activate your security key on your smartphone.
 
-![alt](/images/vendor/UserPanel/activate_b_5.jpg)
+![Activate Account by Smartphone](/images/vendor/UserPanel/7.png)
 
 - After approving, you will be moved to a page the same as the image below.
 
-![alt](/images/vendor/UserPanel/activate_b_6.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/8.png)

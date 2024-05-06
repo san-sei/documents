@@ -27,8 +27,7 @@ accesskeycli set-pin-policy -p pin_prohibited
 **Step 4:** To set a contactless card to **PINless** verification:
 
 - Go to the panel and select the option to add a contactless card.
-- Set the verification method to **PINless**. Please refer to Contactless Card section  
-  [https://docs.idmelon.com/docs/for_administrators/users_and_security_keys_management/assign_security_keys/add_a_contactless_card_as_a_security_key/](https://docs.idmelon.com/docs/for_administrators/users_and_security_keys_management/assign_security_keys/add_a_contactless_card_as_a_security_key/)
+- Set the verification method to **PINless**. Please refer to [Contactless Card section](https://docs.idmelon.com/docs/for_administrators/users_and_security_keys_management/assign_security_keys/add_a_contactless_card_as_a_security_key/)
 
 ![alt](/images/vendor/manage_additional_security_key_features/1.png "alt")
 
@@ -62,8 +61,7 @@ accesskeycli get-pin-policy
 accesskeycli set-pin-policy -p pin_required
 ```
 
-**Step 2:** Edit the verification method for your contactless card to **PIN verification**. please refer to Contactless Card section  
-[https://docs.idmelon.com/docs/for_administrators/users_and_security_keys_management/assign_security_keys/add_a_contactless_card_as_a_security_key/](https://docs.idmelon.com/docs/for_administrators/users_and_security_keys_management/assign_security_keys/add_a_contactless_card_as_a_security_key/)
+**Step 2:** Edit the verification method for your contactless card to **PIN verification**. please refer to [Contactless Card section](https://docs.idmelon.com/docs/for_administrators/users_and_security_keys_management/assign_security_keys/add_a_contactless_card_as_a_security_key/)
 
 ---
 
