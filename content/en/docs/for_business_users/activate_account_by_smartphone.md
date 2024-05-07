@@ -25,7 +25,7 @@ When your organization rolls out IDmelon, one of your organization’s admins se
 
 - Then, choose **Work / Business**.
 
-![Activate Account by Smartphone](/images/vendor/UserPanel/1.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/1-smartphone.png)
 
 ## Activation
 
@@ -36,25 +36,25 @@ When your organization rolls out IDmelon, one of your organization’s admins se
 
 > **Note:** Make sure that you receive an invitation email from one of your organization’s admins to be added to your organization’s panel.
 
-![Activate Account by Smartphone](/images/vendor/UserPanel/2.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/2-smartphone.png)
 
-![Activate Account by Smartphone](/images/vendor/UserPanel/3.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/3-smartphone.png)
 
 - In this page, you can access your email by tapping **Open email app** to see the verification code.
 
 - The email that you receive must contain the same contents as the image below.
 
-![Activate Account by Smartphone](/images/vendor/UserPanel/4.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/4-smartphone.png)
 
 - Tap **Verify with code** to move to the next page and enter the 6-digit code.
 
 - If you did not receive any code, tap on **Resend**.
 
-![Activate Account by Smartphone](/images/vendor/UserPanel/5.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/5-smartphone.png)
 
 - Enter the 6-digit code that you have received and then, tap on **Done**.
 
-![Activate Account by Smartphone](/images/vendor/UserPanel/6.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/6-smartphone.png)
 
 ## Confirmation
 
@@ -62,8 +62,8 @@ When your organization rolls out IDmelon, one of your organization’s admins se
 
 - In this page, tap on **Approve** to activate your security key on your smartphone.
 
-![Activate Account by Smartphone](/images/vendor/UserPanel/7.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/7-smartphone.png)
 
 - After approving, you will be moved to a page the same as the image below.
 
-![Activate Account by Smartphone](/images/vendor/UserPanel/8.png)
+![Activate Account by Smartphone](/images/vendor/UserPanel/8-smartphone.png)

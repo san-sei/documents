@@ -37,7 +37,11 @@ toc: true
 
    ![alt](/images/vendor/deployment_overview/2.jpg)
 
-   If a QR Code pops up at the last step once security key is selected, select other method and select security key (this UI gets changed often by MS, the end goal is to select security key) -> Approve the push notification on IDmelon Authenticator. Refer to this video for an easy setup. [Refer to this video for an easy setup.](https://www.youtube.com/watch?v=24VjAD32xi0&ab_channel=IDmelonTechnologiesInc.)
+   If a QR Code pops up at the last step once security key is selected, select other method and select security key (this UI gets changed often by MS, the end goal is to select security key) -> Approve the push notification on IDmelon Authenticator. Refer to this video for an easy setup. Check out this video for an easy setup.
+
+<video class="video" autoplay muted loop>
+  <source src="/videos/deployment_overview/4.mp4" type="video/mp4">
+</video>
 
 ## Step 5: Authenticating into Microsoft Account
 
@@ -49,4 +53,8 @@ toc: true
 
 4. Either select **use phone or tablet** and scan the QR Code with your IDmelon Authenticator. [This video](https://www.youtube.com/watch?v=9nb4xU0GNC8&ab_channel=IDmelonTechnologiesInc.) shows using the QR Code.
 
-5. OR select external security key and approve the prompt that is sent to your IDmelon Authenticator app on your smartphone.
+5. OR select external security key and approve the prompt that is sent to your IDmelon Authenticator app on your smartphone. The video below shows how to use the security keys.
+
+<video class="video" autoplay muted loop>
+  <source src="/videos/deployment_overview/5.mp4" type="video/mp4">
+</video>
