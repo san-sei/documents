@@ -84,7 +84,3 @@ installer.exe /S set-pin-policy -p pin_prohibited
 ---
 
 **Important Note:** For optimal functionality, ensure the contactless card is set to **PINless** while the access key is set to **prohibited**. A contactless card configured for PIN verification will not function with an Access key that is set to **prohibited** and vice versa.
-
-[https://docs.idmelon.com/docs/for_administrators/users_and_security_keys_management/manage_additional_security_key_features/disabling_pin_verification_for_contactless_card_and_idmelon_access_key/](https://docs.idmelon.com/docs/for_administrators/users_and_security_keys_management/manage_additional_security_key_features/disabling_pin_verification_for_contactless_card_and_idmelon_access_key/)
-
----

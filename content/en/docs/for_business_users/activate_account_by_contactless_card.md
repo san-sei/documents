@@ -1,5 +1,5 @@
 ---
-title: "Activate Account by Contacless Card"
+title: "Activate Account by Card"
 description: ""
 lead: ""
 date: 2022-04-25T19:13:04+03:00
@@ -13,33 +13,36 @@ weight: 120000
 toc: true
 ---
 
-When using IDmelon Security Key as a Service, Contactless Cards can be used as a security key. The admin of your
-organization can activate a card for you or he can send an invitation email which help you register your card.
+When using IDmelon Security Key as a Service, Contactless Cards can be used as a security key. The admin of your organization can activate a card for you or they can send an invitation email which helps you register your card.
 
 ## Activation by admin
 
 ---
 
-In case of activating the card by admin, you receive an email containing a PIN number and you can use your card right away.
+In case of activating the card by an admin, you receive an email containing a PIN number and you can use your card right away. Or if the admin activates the PIN-less verification method for you, your card will be activated without a PIN.
 
-![alt](/images/vendor/UserPanel/active_card_1.png)
+![alt](/images/vendor/UserPanel/1-card.png)
 
 ## Activation by user
 
 ---
 
-When you possess the card, admin only can send you an invitation email containing the registration link.
+When you possess the card, admins only can send you an invitation email containing the registration link.
 
-![alt](/images/vendor/UserPanel/active_card_2.png)
+![alt](/images/vendor/UserPanel/2-card.png)
 
-- Click on the Register your card button and then click on Register button in new tab.
+1. Click on the Register your card button and then click on Register button in new tab.
 
-![alt](/images/vendor/UserPanel/active_card_3.png)
+   ![alt](/images/vendor/UserPanel/3-card.png)
 
-- Tap your card to see the successful registration message.
+2. Your card is successfully detected.
 
-![alt](/images/vendor/UserPanel/active_card_5.png)
+3. Set a PIN based on on the PIN Complexity of your organization or press Skip button to activate it with a random PIN.
 
-- You will receive a message containing a PIN to use your contactless card.
+   ![alt](/images/vendor/UserPanel/4-card.png)
 
-![alt](/images/vendor/UserPanel/active_card_1.png)
+4. Your card is successfully activated.
+   ![alt](/images/vendor/UserPanel/5-card.png)
+
+5. You will receive a message containing a PIN to use your card.
+   ![alt](/images/vendor/UserPanel/6-card.png)
