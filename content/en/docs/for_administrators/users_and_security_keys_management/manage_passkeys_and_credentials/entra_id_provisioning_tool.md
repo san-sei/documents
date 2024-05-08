@@ -3,7 +3,7 @@ title: "Entra ID Provisioning Tool"
 description: ""
 lead: ""
 date: 2024-01-14T14:30:00+03:30
-lastmod: 2024-01-14T14:30:00+03:30
+lastmod: 2024-05-08T11:30:00+03:30
 draft: false
 images: []
 menu:
@@ -103,6 +103,19 @@ If you prefer to monitor the process in a visible browser window (headful mode),
 ```powershell
 .\provisioning.exe --version
 ```
+
+### Automatic Provisioning
+
+The automatic provisioning feature works the way that automatically receives newly added users who need to be provisioned from the server and performs the provisioning operation for them.
+In this case, everything will be done automatically by entering the following command:
+
+```powershell
+.\provisioning.exe --automatic-provision
+```
+
+**Note:** This operation is repeated for all users who need to be provisioned. Therefore, the amount of time it takes depends on the number of users. So, if you want to end the operation for any reason, just end it with the combination keys ``ctrl + c``. By typing the above command again, you can operate for the remaining users.
+
+**Note:** If for any reason the provisioning operation of any user encounters an error, the user's information is temporarily stored in the ``failures.csv`` file. and you can check the reason for the failure later.
 
 ### Troubleshooting Common Issues
 
