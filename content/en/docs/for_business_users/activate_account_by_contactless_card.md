@@ -31,13 +31,13 @@ When you possess the card, admins only can send you an invitation email containi
 
 ![alt](/images/vendor/UserPanel/2-card.png)
 
-1. Click on the Register your card button and then click on Register button in new tab.
+1. Click on the **Register your card** button and then click on **Tap your card activate** in new tab.
 
    ![alt](/images/vendor/UserPanel/3-card.png)
 
 2. Your card is successfully detected.
 
-3. Set a PIN based on on the PIN Complexity of your organization or press Skip button to activate it with a random PIN.
+3. Set a PIN based on on the PIN Complexity of your organization or press **Skip** button to activate it with a random PIN.
 
    ![alt](/images/vendor/UserPanel/4-card.png)
 
