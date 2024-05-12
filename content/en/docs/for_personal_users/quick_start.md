@@ -12,6 +12,7 @@ menu:
 weight: 200000
 toc: true
 ---
+
 ## Requirements
 
 ---
@@ -19,16 +20,16 @@ toc: true
 IDmelon uses a lightweight desktop application (named Pairing Tool) that will help you to pair your smartphone with your
 PC quickly by scanning a QR code.
 
-* Install IDmelon Authenticator on your smartphone from App Store or Google Play.
+- Install IDmelon Authenticator on your smartphone from App Store or Google Play.
 
 |                                                                                           Apple Store                                                                                           |                                                                                 Google Play                                                                                  |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <a href="https://apps.apple.com/ca/app/idmelon/id1511376376" target="_blank"><img src="/images/vendor/App_Store/Black_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a> | <a href="https://play.google.com/store/apps/details?id=com.vancosys.authenticator.business" target="_blank"><img src="/images/vendor/Google_Play/google-play-badge.svg"></a> |
 
-* Download Pairing Tool for your PC and install it.
+- Download Pairing Tool for your PC and install it.
 
 |                                                Windows 10 (or higher)                                                |                                                   Mac OS                                                   |
-|:--------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|
+| :------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: |
 | <a href="https://idmelon.com/docs/downloads" target="_blank"><img src="/images/vendor/Windows/Windows_logo.png"></a> | <a href="https://idmelon.com/docs/downloads" target="_blank"><img src="/images/vendor/Mac/mac-os.png"></a> |
 
 ## Set up a security key
@@ -45,24 +46,24 @@ key.
 
 Run the IDmelon Pairing Tool on your PC.
 
-* If you are running this tool for the first time, you will be asked to scan the QR code using IDmelon Authenticator on your
+- If you are running this tool for the first time, you will be asked to scan the QR code using IDmelon Authenticator on your
   smartphone.
 
-* Otherwise, click on Pair a new Smartphone to generate and show a QR code on the screen
+- Otherwise, click on Pair a new Smartphone to generate and show a QR code on the screen
 
 Open the IDmelon Authenticator on your phone
 
-* Tap the QR icon displayed on the top, OR
+- Tap the QR icon displayed on the top, OR
 
-* Tap More options, and choose Pair with a PC.
+- Tap More options, and choose Pair with a PC.
 
-* Tap Start Scanning.
+- Tap Start Scanning.
 
-* Unlock your phone:
+- Unlock your phone:
 
-* Point your phone at the screen of the PC to scan the QR code.
+- Point your phone at the screen of the PC to scan the QR code.
 
-* Click Done and you're all set to experience password-login experience.
+- Click Done and you're all set to experience password-login experience.
 
 ![alt](/images/vendor/gifs/pair_phone_pc.gif)
 
@@ -96,7 +97,9 @@ You can use security keys as a passwordless sign-in method within your organizat
 
 6. Then a biometric confirmation will pop up on you smartphone, do the biometric confirmation to complete registration.
 
-![alt](/images/vendor/gifs/registration_office365.gif)
+<video class="video" autoplay muted loop>
+  <source src="/videos/quick_start/2.mp4" type="video/mp4">
+</video>
 
 > **Note:** Make sure your administrator has turned on FIDO2 feature for use within your organization
 
@@ -114,7 +117,9 @@ how it works:
 
 4. Tap Approve to present your biometrics to authenticate.
 
-![alt](/images/vendor/gifs/sample_user_login.gif)
+<video class="video" autoplay muted loop>
+  <source src="/videos/quick_start/3.mp4" type="video/mp4">
+</video>
 
 ## Other accounts
 
