@@ -36,6 +36,8 @@ Every user has the **Security keys** option in their panel. By clicking this opt
 
 Every user has the **Passwords** option in their panel. IDmelon FIDO Password Vault provides a secure solution which helps users tap to fill their passwords. In this solution, the passwords are encrypted with a key which is only derivable from the security key.
 
+![alt](/images/vendor/user_panel/4.png)
+
 ## User Options
 
 ---
@@ -44,4 +46,4 @@ When you log in to your IDmelon panel, you can see your **Settings** on the top 
 
 - If you click on **Security**, you can see the page as shown below.
 
-![alt](/images/vendor/user_panel/4.png)
+![alt](/images/vendor/user_panel/5.png)
