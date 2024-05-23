@@ -68,6 +68,7 @@ The valid values for the `IDP variable name` section are:
 - `surname`
 - `given_name`
 - `full_name`
+- `group`
 
 Click `Confirm`.
 
