@@ -19,22 +19,15 @@ Shared mobile devices refer to mobile devices, such as tablets or iPads, that ha
 
 **Jamf** is a trusted solution for managing iPads in various organizations, including businesses, schools, and hospitals. With over 70,000 customers, Jamf provides robust iPad management capabilities.
 
-### Add IDmelon Authenticator to the Mobile Device Apps (Jamf Pro)
+## Prerequisites
 
-🔴***Important**: To use the shared iPad feature, the OS version of iPads must be **17 or later**.*
+- To use the shared iPad feature, the OS version of iPads must be **17 or later**.
+- IDmelon Authenticator app must be added to **Jamf Pro**. In case you are having issues with that, contact **Jamf Support**.
 
-Follow the steps below to add **IDmelon Authenticator** to the **Jamf Pro** panel:
+### How to Configure
 
-1. Select **Devices** > **Mobile Device Apps** from the menu on the left and then click the **New** button.
-![Jamf Panel](/images/vendor/shared_ipads/jamf_panel_devices.png)
-2. In the **Choose an App Type** section, select the **App Store app or apps purchased in volume** and then click the **Next** button.
-![Jamf Panel](/images/vendor/shared_ipads/jamf_panel_mobile_devices.png)
-3. From the **Search** field, enter the app name as shown in the image below and then click the **Next** button.
-![Jamf Panel](/images/vendor/shared_ipads/jamf_panel_search_app_name.png)
-4. Find the **IDmelon Authenticator** from the list and then click the **Add** button.
-![Jamf Panel](/images/vendor/shared_ipads/jamf_panel_add_idmelon.png)
-5. Configure **General**, **Scope** and **Self-Service** according to your organization's policies.
-6. Select the **App Configuration** tab from the menu, enter the following configuration as shown in the image below, and then click the **Save** button.
+1. Configure **General**, **Scope** and **Self-Service** according to your organization's policies.
+2. Select the **App Configuration** tab from the menu, enter the following configuration as shown in the image below, and then click the **Save** button.
 
 ```xml
 <dict>
