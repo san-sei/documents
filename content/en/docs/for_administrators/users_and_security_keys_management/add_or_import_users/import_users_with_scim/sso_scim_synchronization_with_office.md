@@ -71,7 +71,7 @@ Step 7 - Update credentials
 And then in the next page, fill fields of opened from as:
 
 * Provisioning mode
-  * Authomatic
+  * Automatic
 
 And in the `Admin Credentials` section:
 
