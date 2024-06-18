@@ -1,5 +1,5 @@
 ---
-title: "Device Management"
+title: "Shared Devices"
 description: ""
 lead: ""
 date: 2023-09-20T15:17:52+03:30
@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "device_management"
+    parent: "shared_devices"
 weight: 60000
 toc: true
 ---
