@@ -53,15 +53,15 @@ Then Click on “Integrate with a New App” button:
 
     Sample Entity ID:
 
-    http://srv8431835910.idmelon.ctx/Citrix/Authentication
+      http://srv8431835910.idmelon.ctx/Citrix/Authentication
 
     Sample ACS:
 
-    https://srv8431835910.idmelon.ctx/Citrix/Authentication/SamlForms/AssertionConsumerService
+      https://srv8431835910.idmelon.ctx/Citrix/Authentication/SamlForms/AssertionConsumerService
 
     Sample Default Relay State:
 
-    https://srv8431835910.idmelon.ctx/Citrix/Store
+      https://srv8431835910.idmelon.ctx/Citrix/Store
 
 5. To get the value for the “Assertion Consumer Service” field:
 
@@ -85,7 +85,8 @@ Then Click on “Integrate with a New App” button:
     ![alt](/images/vendor/sso/citrix/citrix_SP_07.png)
     Set the value of “Default Relay State” field based on your $storeVirtualPath value:
 
-    Sample: https://srv8431835910.idmelon.ctx/Citrix/Store
+    Sample:
+      https://srv8431835910.idmelon.ctx/Citrix/Store
 
 6. For the “Public Certificate” field, click “Upload Certificate File” and select the converted sp_enc.pem file in the step 5 of the Login to Citrix administration panel.
 ![alt](/images/vendor/sso/citrix/citrix_IDP_05.png)
