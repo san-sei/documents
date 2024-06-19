@@ -50,12 +50,18 @@ Then Click on “Integrate with a New App” button:
 4. Fill the all fields as describe in the picture.
   Set the “Entity ID” with value that you copied It as “Service Provider Identifier” in the step 4 of the Login to Citrix administration panel section .
   ![alt](/images/vendor/sso/citrix/citrix_IDP_04.png)
-  Sample Entity ID:
-  http://srv8431835910.idmelon.ctx/Citrix/Authentication
-  Sample ACS:
-  https://srv8431835910.idmelon.ctx/Citrix/Authentication/SamlForms/AssertionConsumerService
-  Sample Default Relay State:
-  https://srv8431835910.idmelon.ctx/Citrix/Store
+
+    Sample Entity ID:
+
+    http://srv8431835910.idmelon.ctx/Citrix/Authentication
+
+    Sample ACS:
+
+    https://srv8431835910.idmelon.ctx/Citrix/Authentication/SamlForms/AssertionConsumerService
+
+    Sample Default Relay State:
+
+    https://srv8431835910.idmelon.ctx/Citrix/Store
 
 5. To get the value for the “Assertion Consumer Service” field:
 
@@ -78,15 +84,20 @@ Then Click on “Integrate with a New App” button:
 
     ![alt](/images/vendor/sso/citrix/citrix_SP_07.png)
     Set the value of “Default Relay State” field based on your $storeVirtualPath value:
+
     Sample: https://srv8431835910.idmelon.ctx/Citrix/Store
+
 6. For the “Public Certificate” field, click “Upload Certificate File” and select the converted sp_enc.pem file in the step 5 of the Login to Citrix administration panel.
 ![alt](/images/vendor/sso/citrix/citrix_IDP_05.png)
 7. In the next page define all attributes as picture and click on the confirm button:
   ![alt](/images/vendor/sso/citrix/citrix_IDP_06.png)
-  SP variable name      IDP variable name
-  email                 email
-  username              email
-  userprincipalname     email
+
+    | SP variable name    | IDP variable name |
+    |---------------------|-------------------|
+    | email               | email             |
+    | username            | email             |
+    | userprincipalname   | email             |
+
 8. In the IDmelon Panel , Form the “Simple Sing-on” menu, navigate to the “App Management” menu and click on the “Edit” icon of created “Citrix” application:
   ![alt](/images/vendor/sso/citrix/citrix_IDP_07.png)
 9. Copy the value of “Idp Entity ID”. We will use in the Citrix Panel.
