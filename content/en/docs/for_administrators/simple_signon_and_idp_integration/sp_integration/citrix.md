@@ -1,5 +1,5 @@
 ---
-title: "Citrix SAML Integration"
+title: "Citrix"
 description: "Integrate Citrix with IDmelon"
 lead: ""
 date: 2023-12-15T23:05:00+03:30
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "simple_signon_and_idp_integration"
-weight: 2
+weight: 25
 toc: true
 ---
 

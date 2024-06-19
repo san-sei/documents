@@ -9,6 +9,6 @@ images: []
 menu:
   docs:
     parent: "simple_signon_and_idp_integration"
-weight: 1
+weight: 20
 toc: true
 ---
