@@ -20,7 +20,7 @@ Except Entra ID, to register credentials, including passkeys, manually on behalf
 3. Click on a user that you want to create a credential or passkey on their behalf.
 4. From the top of the user’s details page, choose **Passkeys**, and then click the **+Passkey** button on the right top corner.
 5. Choose the **Other Platforms/applications** option. Before the registration process begins, to make it as if the selected users’ security key is attached to your PC, you are required to click the **Open** button when a pop-up appears saying **The site is trying to open Pairing Tool**. Therefore, Pairing Tool becomes ready for a registration on behalf of this user.
-6. Click **Done** only after the provisioning is finished for the user. But if you don't want to continue the passkey registration, you can click **Cancel**.
+6. Only after the provisioning is finished for the user, click **Done**. But if you don't want to continue the passkey registration, you can click **Cancel**.
 7. You can now register credentials, including passkeys, on user’s behalf on whatever platform, such as Microsoft, you want.
 8. Once you’ve completed the provisioning process, open Pairing Tool, and disconnect the user by clicking the **Back to normal mode**.
 
