@@ -42,5 +42,4 @@ Once the user is marked for provisioning, you can proceed to the next step to pr
 3. **Finishing Up Provisioning for the User**:
    - Once done, click `Done` in the open modal from step 1 to unmark the user.
    - Change the `Pairing Tool` status back to `Normal mode`.
-   
 If you only use the pairing tool for provisioning, it is better to disable it to avoid conflicts if you are using other security key types like Card.
