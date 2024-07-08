@@ -30,8 +30,7 @@ Follow these steps to mark a user in the IDmelon Admin Panel for provisioning an
    - Go to the `Passkeys` tab
    - Click `+ Passkey`
    - Choose `Other platforms/Applications`. This option will automatically open the `Pairing Tool` and change its status to `On behalf registration mode`.
-   
-   Once the user is marked for provisioning, you can proceed to the next step to provision a passkey on behalf of the user.
+Once the user is marked for provisioning, you can proceed to the next step to provision a passkey on behalf of the user.
 2. **Registering Passkeys on Behalf of the User**:
    - Go to the [My Account](https://myaccount.microsoft.com) page and sign in if you haven’t already done so.
    - Select `Security Info`
@@ -44,4 +43,4 @@ Follow these steps to mark a user in the IDmelon Admin Panel for provisioning an
    - Once done, click `Done` in the open modal from step 1 to unmark the user.
    - Change the `Pairing Tool` status back to `Normal mode`.
    
-   If you only use the pairing tool for provisioning, it is better to disable it to avoid conflicts if you are using other security key types like Card.
+If you only use the pairing tool for provisioning, it is better to disable it to avoid conflicts if you are using other security key types like Card.
