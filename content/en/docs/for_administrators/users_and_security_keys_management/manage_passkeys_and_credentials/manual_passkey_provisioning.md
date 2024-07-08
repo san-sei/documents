@@ -13,28 +13,38 @@ weight: 34300
 toc: true
 ---
 
+# IDmelon Pairing Tool: Registering Passkeys for Users
+
+The IDmelon Pairing Tool can be used to register passkeys on behalf of users for every relying party, including Microsoft.
+
 ## Prerequisites
 
 - Download the Pairing Tool [here](https://idmelon.com/docs/downloads).
 
-## Provisioning Steps: IDmelon Panel
+## Provisioning Steps
 
-Except Entra ID, to register credentials, including passkeys, manually on behalf of a user on any other RP, follow the steps below:
+Follow these steps to mark a user in the IDmelon Admin Panel for provisioning and then, as an example, register a passkey for the user on Microsoft.
 
-1. Go to the [IDmelon](https://panel.idmelon.com/) admin panel.
-2. Go to the **All Users** section under the **Users**.
-3. Click on a user that you want to create a credential or passkey on their behalf.
-4. From the top of the user’s details page, choose **Passkeys**, and then click the **+Passkey** button on the right top corner.
-5. Choose the **Other Platforms/applications** option. Before the registration process begins, to make it as if the selected users’ security key is attached to your PC, you are required to click the **Open** button when a pop-up appears saying **The site is trying to open Pairing Tool**. Therefore, Pairing Tool becomes ready for a registration on behalf of this user.
-6. Only after the provisioning is finished for the user, click **Done**. But if you don't want to continue the passkey registration, you can click **Cancel**.
-7. You can now register credentials, including passkeys, on user’s behalf on whatever platform, such as Microsoft, you want.
-8. Once you’ve completed the provisioning process, open Pairing Tool, and disconnect the user by clicking the **Back to normal mode**.
+1. **Marking the User for Provisioning**:
+   - Visit the [IDmelon Admin Panel](https://panel.idmelon.com/)
+   - Navigate to `All Users`
+   - Open the `User`'s details page
+   - Go to the `Passkeys` tab
+   - Click `+ Passkey`
+   - Choose `Other platforms/Applications`. This option will automatically open the `Pairing Tool` and change its status to `On behalf registration mode`.
+   
+   Once the user is marked for provisioning, you can proceed to the next step to provision a passkey on behalf of the user.
 
-## Registration steps on Microsoft
+2. **Registering Passkeys on Behalf of the User**:
+   - Go to the [My Account](https://myaccount.microsoft.com) page and sign in if you haven’t already done so.
+   - Select `Security Info`
+   - Select `Add sign-in method`
+   - Choose `Security key` from the Add a method list
+   - Select `Add`, then choose `USB device` for the type of security key.
+   - Follow the prompts to register and name the passkey.
 
-1. Go to the My Profile page at [My Account](https://myaccount.microsoft.com) and sign in if you haven’t already done so.
-2. Select **Security Info**, select **Add sign-in method**, and then select **Security key** from the Add a method list.
-3. Select **Add**, and then select **USB device** for the type of security key.
-4. On the Security key page, select **Next** to see another window asking you to Touch your security key.
-5. Name the security key to make it distinguishable.
-6. The registration gets completed and a passkey gets created for the user on their Microsoft account.
+3. **Finishing Up Provisioning for the User**:
+   - Once done, click `Done` in the open modal from step 1 to unmark the user.
+   - Change the `Pairing Tool` status back to `Normal mode`.
+   
+   If you only use the pairing tool for provisioning, it is better to disable it to avoid conflicts if you are using other security key types like Card.
