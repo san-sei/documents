@@ -13,6 +13,12 @@ weight: 34300
 toc: true
 ---
 
+## Prerequisites
+
+- Download the Pairing Tool [here](https://idmelon.com/docs/downloads).
+
+## Provisioning Steps: IDmelon Panel
+
 Except Entra ID, to register credentials, including passkeys, manually on behalf of a user on any other RP, follow the steps below:
 
 1. Go to the [IDmelon](https://panel.idmelon.com/) admin panel.
@@ -23,8 +29,6 @@ Except Entra ID, to register credentials, including passkeys, manually on behalf
 6. Only after the provisioning is finished for the user, click **Done**. But if you don't want to continue the passkey registration, you can click **Cancel**.
 7. You can now register credentials, including passkeys, on user’s behalf on whatever platform, such as Microsoft, you want.
 8. Once you’ve completed the provisioning process, open Pairing Tool, and disconnect the user by clicking the **Back to normal mode**.
-
-*Note: Before starting the provisioning process, ensure you’ve considered the prerequisites such as installing the **Pairing Tool** Software. You can download Pairing Tool [here](https://idmelon.com/docs/downloads)*.
 
 ## Registration steps on Microsoft
 
