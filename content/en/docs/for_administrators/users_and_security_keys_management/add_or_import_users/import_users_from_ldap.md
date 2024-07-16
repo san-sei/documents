@@ -89,5 +89,5 @@ including users, groups, and devices, into the IDmelon panel via LDAP.
   - `SyncStream.exe healthcheck`
 - Add `--dump` to each command you run to save logs to a log file.
   - `SyncStream.exe sync --dump`
-- add `--log info` to each command you run to see more info.
-   - `SyncStream.exe sync --log info`
+- Add `--log info` to each command you run to see more info.
+  - `SyncStream.exe sync --log info`
