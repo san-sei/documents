@@ -40,17 +40,17 @@ If you encounter any issues accessing the services,
 please execute the following commands for troubleshooting and examine the results.
 
 ```bash
-  curl  -v https://skm.idmelon.com/
+curl  -v https://skm.idmelon.com/
 ```
 
 ```bash
-  wget  -v https://skm.idmelon.com/
+wget  -v https://skm.idmelon.com/
 ```
 
 In Linux OS:
 
 ```bash
-  dig +short skm.idmelon.com
+dig +short skm.idmelon.com
 ```
 
 ```bash
@@ -60,7 +60,7 @@ sudo tcpdump -i any host skm.idmelon.com
 In Windows OS:
 
 ```bash
-  nslookup -q=ns skm.idmelon.com
+nslookup -q=ns skm.idmelon.com
 ```
 
 ```bash
