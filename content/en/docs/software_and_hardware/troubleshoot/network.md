@@ -27,8 +27,10 @@ You need to grant access to the following addresses:
 * https://notify.idmelon.com
 * https://notifyservice.idmelon.com
 
+## Firewall Configuration Reminder
+
 Please ensure that your firewall rules and security policies are correctly configured
-and that connections to the above addresses, especially on port `443`, are allowed.
+and that connections to the above addresses (`FQDNs`), especially on port `443`, are allowed.
 
 The IP addresses of these addresses are based on Amazon's load balancer, and they are dynamic, so they are subject to change.
 
