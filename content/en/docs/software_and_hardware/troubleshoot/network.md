@@ -50,11 +50,19 @@ please execute the following commands for troubleshooting and examine the result
 In Linux OS:
 
 ```bash
-  dig +short panel.idmelon.com
+  dig +short skm.idmelon.com
+```
+
+```bash
+sudo tcpdump -i any host skm.idmelon.com
 ```
 
 In Windows OS:
 
 ```bash
-  nslookup -q=ns panel.idmelon.com
+  nslookup -q=ns skm.idmelon.com
+```
+
+```bash
+Test-NetConnection -ComputerName skm.idmelon.com -Port 443
 ```
