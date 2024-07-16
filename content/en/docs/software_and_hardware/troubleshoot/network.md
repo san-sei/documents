@@ -38,17 +38,23 @@ The IP addresses of these addresses are based on Amazon's load balancer, and the
 
 If you encounter any issues accessing the services,
 please execute the following commands for troubleshooting and examine the results.
+
 ```bash
   curl  -v https://skm.idmelon.com/
 ```
+
 ```bash
   wget  -v https://skm.idmelon.com/
 ```
+
 In Linux OS:
+
 ```bash
   dig +short panel.idmelon.com
 ```
+
 In Windows OS:
+
 ```bash
   nslookup -q=ns panel.idmelon.com
 ```
