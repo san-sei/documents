@@ -75,3 +75,19 @@ including users, groups, and devices, into the IDmelon panel via LDAP.
 
 5. Sync Groups:
    - `SyncStream.exe sync`
+
+6. Check version:
+   - `SyncStream.exe version`
+
+7. Log:
+   - `SyncStream.exe sync --dump`
+   - `SyncStream.exe sync --log info`
+
+### Troubleshooting
+
+- Run Health Check option to ensure this tool can communicate with AD and the remote API:
+  - `SyncStream.exe healthcheck`
+- Add `--dump` to each command you run to save logs to a log file.
+  - `SyncStream.exe sync --dump`
+- add `--log info` to each command you run to see more info.
+   - `SyncStream.exe sync --log info`
