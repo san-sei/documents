@@ -27,11 +27,10 @@ You need to grant access to the following addresses:
 * https://notify.idmelon.com
 * https://notifyservice.idmelon.com
 
-You need to grant access to the following IP addresses:
+Please ensure that your firewall rules and security policies are correctly configured
+and that connections to the above addresses, especially on port `443`, are allowed.
 
-* 34.218.113.8
-* 54.200.17.238
-* 52.88.123.81
+The IP addresses of these addresses are based on Amazon's load balancer, and they are dynamic, so they are subject to change.
 
 ## Network troubleshooting
 
