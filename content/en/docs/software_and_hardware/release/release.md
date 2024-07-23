@@ -22,7 +22,7 @@ and other modifications introduced in each version.
 
 ## SKM
 
-### skm-v2.28.0 (July 29, 2024)
+### v2.28.0 (July 29, 2024)
 
 Improvements
 
@@ -39,7 +39,7 @@ Features
 
 - [ID-6742] Add email field to assign security key API
 
-### skm-v2.24.0 (June 23, 2024)
+### v2.24.0 (June 23, 2024)
 
 Improvements
 
@@ -50,7 +50,7 @@ Features
 - [ID-6901] Add API Key Functionality on Backend
 - [ID-6860] Implement API for IDmelon Sync to Post Users
 
-### skm-v2.21.0 (June 10, 2024)
+### v2.21.0 (June 10, 2024)
 
 Improvements
 
@@ -61,7 +61,7 @@ Fixes
 - [ID-6851] Remove IDmelon RP From the Policy Whitelist
 - [ID-6853] Fix Duplicate IDmelon Passkey Issue in Pairing Tool
 
-### skm-v2.20.0 (May 27, 2024)
+### v2.20.0 (May 27, 2024)
 
 Improvements
 
@@ -81,7 +81,7 @@ Features
 - [ID-6792] Implement Phone and Email Verification
 - [ID-6790] Enable Verification in Self-Enrollment
 
-### skm-v2.19.0 (May 13, 2024)
+### v2.19.0 (May 13, 2024)
 
 Improvements
 
@@ -92,7 +92,7 @@ Fixes
 - [ID-6798] Resolve Phone Number Deletion Issue
 - [ID-6799] Backend API Fix Edit One User
 
-### skm-v2.18.3 (May 5, 2024)
+### v2.18.3 (May 5, 2024)
 
 Improvements
 
@@ -101,7 +101,7 @@ Improvements
 - [ID-6766] Merge Super Admin and Admin Import CSV Controllers
 - [ID-6770] Optimize User Loading Process
 
-### skm-v2.18.0 (April 30, 2024)
+### v2.18.0 (April 30, 2024)
 
 Improvements
 
@@ -117,7 +117,7 @@ Fixes
 
 ## Panel
 
-### panel-v2.21.0 (July 29, 2024)
+### v2.21.0 (July 29, 2024)
 
 Improvements
 
@@ -133,7 +133,7 @@ Features
 
 - [ID-6898] Kiosk company homepage
 
-### panel-v2.20.0 (June 23, 2024)
+### v2.20.0 (June 23, 2024)
 
 Improvements
 
@@ -148,7 +148,7 @@ Fixes
 
 - [ID-6876] Reset pin button works even when it's disabled
 
-### panel-v2.18.0 (June 10, 2024)
+### v2.18.0 (June 10, 2024)
 
 Improvements
 
@@ -162,7 +162,7 @@ Fixes
 - [ID-6798] Resolve Phone Number Deletion Issue
 - [ID-6800] Panel Interface Update Edit User
 
-### panel-v2.14.0 (May 27, 2024)
+### v2.14.0 (May 27, 2024)
 
 Improvements
 
@@ -178,7 +178,7 @@ Features
 - [ID-6791] Integrate CAPTCHA into Self-Enrollment
 - [ID-6834] Require Password Input on PIN Required Change
 
-### panel-v2.13.0 (May 13, 2024)
+### v2.13.0 (May 13, 2024)
 
 Improvements
 
@@ -189,7 +189,7 @@ Features
 
 - [ID-6794] Implement Add and Edit Password Functionality in Panel
 
-### panel-v2.12.2 (May 5, 2024)
+### v2.12.2 (May 5, 2024)
 
 Improvements
 
@@ -198,7 +198,7 @@ Improvements
 - [ID-6767] Simplify CSV Import Checkbox
 - [ID-6769] Optimize Data Loading Sequence for Statistics Page
 
-### panel-v2.12.0 (May 1, 2024)
+### v2.12.0 (May 1, 2024)
 
 Features
 
@@ -216,13 +216,13 @@ Fixes
 
 ## Passkey
 
-### passkey-v2.23.0 (July 22, 2024)
+### v2.23.0 (July 22, 2024)
 
 Improvements
 
 - [ID-6880] Self-Service PIN Recovery
 
-### passkey-v2.22.4 (May 27, 2024)
+### v2.22.4 (May 27, 2024)
 
 Improvements
 
@@ -234,7 +234,7 @@ Fixes
 
 - [ID-6818] Move Passkey's Check Policy Service to SKM
 
-### passkey-v2.18.0 (April 30, 2024)
+### v2.18.0 (April 30, 2024)
 
 Fixes
 
@@ -242,7 +242,7 @@ Fixes
 
 ## Billing
 
-### billing-v1.15.0 (July 22, 2024)
+### v1.15.0 (July 22, 2024)
 
 Features
 
