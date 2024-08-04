@@ -9,15 +9,25 @@ images: []
 menu:
   docs:
     parent: "manage_passkeys_and_credentials"
-weight: 34100
+weight: 34200
 toc: true
 ---
 
-## Managing User Passkeys:  
+Use the following instructions to view, delete, and review activities associated with users' passkeys.
 
-1. Click **All Users** under **Users** section of admin panel.  
-2. View User Details: In the **Users** section, locate the user for whom you want to manage passkeys. Click on the **User ID** or **Full Name** to access their detailed information.  
-3. Access Passkeys Tab: Within the user’s detail view, click on the **Passkeys** tab. This tab is specifically for managing user Passkeys.  
-4. View Existing Passkeys: In the **Passkeys** tab, you will see information about the user’s existing Passkeys which includes a list of RPs (Relying Parties) that user has registered his security key (he has a Passkeys to access to that RP).  
-5. Delete Passkeys: You have the option to delete specific Passkeys associated with an RP (Relying Party).  
-6. Passkey’s Activity: You can also view a list of activities associated with a specific passkey by clicking on an icon in the action column next to the delete icon.  
+## View Passkeys
+
+1. In IDmelon Admin Panel, go to the **Users** section and click on **All Users**.
+2. Find the user whose passkeys you want to manage. Click on their **User ID** or **Full Name** to access detailed information about the user.
+3. In the user's detail view, select the **Passkeys** tab. This tab is dedicated to managing the user's passkeys.
+4. In the **Passkeys** tab, you will see a list of the user's existing passkeys, which includes the Relying Parties (RPs) where the user has registered their security key, granting them access.
+
+## View Passkeys' Activities
+
+1. In the **Passkeys** tab, find the passkey whose activities you want to view.
+2. Click on the activity icon located in the action column, next to the delete icon. This will display a list of activities associated with that specific passkey.
+
+## Delete Passkeys
+
+1. In the **Passkeys** tab, locate the specific passkey you want to delete.
+2. Click on the delete icon next to the passkey to remove it. This will revoke access to the associated RPs.
