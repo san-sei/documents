@@ -57,9 +57,6 @@ To use the tool to register a Microsoft passkey for users to access their Micros
 
 You have two options for provisioning: **Automatic** and **Manual**.
 
-<<<<<<< Updated upstream
-### Troubleshooting Common Issues
-=======
 ### Automatic Provisioning
 
 In the automatic option, the tool performs all the necessary steps to create and assign the passkey. Note that this solution may not be supported in all languages. If you encounter any issues, try the manual mode.
@@ -126,7 +123,6 @@ The automatic bulk provisioning feature retrieves newly added users who need to 
 ### Manual Bulk Provisioning
 
 To manually provision selected users, follow these steps:
->>>>>>> Stashed changes
 
 1. Log in to the IDmelon Admin Panel and navigate to **Users -> All Users**.
 2. Select the users you want to provision.
@@ -166,24 +162,7 @@ To manually provision selected users, follow these steps:
   .\provisioning.exe --version
   ```
 
-<<<<<<< Updated upstream
-### Automatic Provisioning
-
-The automatic provisioning feature works the way that automatically receives newly added users who need to be provisioned from the server and performs the provisioning operation for them.
-In this case, everything will be done automatically by entering the following command:
-
-```powershell
-.\provisioning.exe --automatic-provision
-```
-
-**Note:** This operation is repeated for all users who need to be provisioned. Therefore, the amount of time it takes depends on the number of users. So, if you want to end the operation for any reason, just end it with the combination keys ``ctrl + c``. By typing the above command again, you can operate for the remaining users.
-
-**Note:** If for any reason the provisioning operation of any user encounters an error, the user's information is temporarily stored in the ``failures.csv`` file. and you can check the reason for the failure later.
-
-### Troubleshooting Common Issues
-=======
 ## Troubleshooting
->>>>>>> Stashed changes
 
 ### SSL Certificate Verification Error
 
