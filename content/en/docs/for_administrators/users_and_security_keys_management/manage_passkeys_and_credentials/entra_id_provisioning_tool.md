@@ -9,31 +9,36 @@ images: []
 menu:
   docs:
     parent: "manage_passkeys_and_credentials"
-weight: 34400
+weight: 34300
 toc: true
 ---
 
 ## Introduction
 
-This guide shows how to use the **IDmelon Entra ID Provisioning Tool**, which is designed to simplify the creation of security keys for users on the Microsoft Entra ID sign-in portal.
+This guide shows how to use the **IDmelon Entra ID Provisioning Tool**, designed to simplify the creation of security keys for users on the Microsoft Entra ID sign-in portal.
 
-## Requirements
+## Prerequisites
 
-The tool can be used to provision either a single user or multiple users. Here is how to use it to provision a single user:
+Before you start the passkey provisioning process, ensure the following requirements in `Azure Portal -> Entra ID Authentication Methods` are met:
 
-1. Ensure you have at least Chrome version `119.0.6045.200` installed.
-2. Ensure you are using Windows 8 or higher.
+- **Mandatory**: The `FIDO2 Security Key` must be available in the authentication methods for the targeted users.
+- **Optional**: If using automatic provisioning or manual provisioning with TAP, ensure that `Temporary Access Pass` is enabled for the targeted users with the `one-time use` option set to `Yes`.
+
+To get started, ensure you:
+
+1. Have **Chrome version 119.0.6045.200** or later installed.
+2. Are using **Windows 8** or a newer version.
 3. Download the **IDmelon Provisioning Tool** from the [Downloads](https://idmelon.com/docs/downloads) page and save it to a directory.
 
 ## Single Passkey Provisioning
 
-The tool can be used to either provision a single user or multiple users at once.
+You can use the tool to provision a single user or multiple users. Follow these steps to provision a single user:
 
 ### Getting Started
 
 To use the tool to register a Microsoft passkey for users to access their Microsoft accounts, follow these steps:
 
-1. Open `PowerShell` in that directory and enter the following command:
+1. Open `PowerShell` in the tool's directory and enter the following command:
 
    ```powershell
    .\provisioning.exe --register-deeplink
@@ -44,16 +49,11 @@ To use the tool to register a Microsoft passkey for users to access their Micros
 2. Log in to the IDmelon Admin Panel and navigate to **Users -> All Users**.
 3. Select the user you want to provision.
 4. Go to the **Passkeys** tab and from the **Add Passkey** dropdown, click on **Microsoft**.
-
-   ![User Passkeys](/images/vendor/provisioning/panel1.jpg)
-
+   ![User Passkeys](/images/vendor/provisioning/entra_id_provisioning_microsoft_1.jpg)
 5. In the first dialog, select the `Use IDmelon Provisioning Tool instead` option.
-
-   ![Provisioning Dialog](/images/vendor/provisioning/panel1.jpg)
-
+   ![Provisioning Dialog](/images/vendor/provisioning/entra_id_provisioning_microsoft_2.jpg)
 6. In the next dialog, click the `Next` button.
-
-   ![Provisioning Tool Dialog](/images/vendor/provisioning/panel1.jpg)
+   ![Provisioning Tool Dialog](/images/vendor/provisioning/entra_id_provisioning_microsoft_3.jpg)
 
 You have two options for provisioning: **Automatic** and **Manual**.
 
@@ -63,6 +63,7 @@ In the automatic option, the tool performs all the necessary steps to create and
 
 1. Follow the steps mentioned in the **Passkey Provisioning** section.
 2. In the provisioning dialog, click the `Create` button.
+   ![Provisioning Tool Dialog](/images/vendor/provisioning/entra_id_provisioning_microsoft_4.jpg)
 3. If redirected to the Microsoft login page, log in with a Microsoft admin account.
 
    > **Note**: To automatically assign a passkey to the user, a Temporary Access Pass (TAP) is required. You must log in using an account with sufficient permissions.
@@ -77,7 +78,9 @@ If errors occur during automatic provisioning, you can use the manual mode.
 
 1. Follow the steps mentioned in the **Passkey Provisioning** section.
 2. In the provisioning dialog, click on `registering manually`.
+   ![Provisioning Tool Dialog](/images/vendor/provisioning/entra_id_provisioning_microsoft_5.jpg)
 3. In the next dialog, click the `Create` button.
+   ![Provisioning Tool Dialog](/images/vendor/provisioning/entra_id_provisioning_microsoft_6.jpg)
 
    > **Note**: You can optionally request a Temporary Access Pass (TAP) for the user to log in. If so, you may be redirected to the Microsoft login page. Alternatively, you can use the user's other authentication methods if preferred.
 
@@ -87,7 +90,7 @@ If errors occur during automatic provisioning, you can use the manual mode.
 
 ## Bulk Passkey Provisioning
 
-The tool can be used to register passkeys for users in bulk mode. Here is how to use it to provision multiple users:
+The tool can be used to register passkeys for users in bulk mode. Follow these steps to provision multiple users:
 
 ### Getting Started
 
@@ -103,8 +106,6 @@ To use the tool to register a Microsoft passkey for multiple users, follow these
 3. The tool will guide you through the setup process. Once ready, press Enter.
 4. The tool will open your web browser and redirect you to the Microsoft portal for authorization.
 5. Upon successfully granting access, you will be redirected back to the IDmelon panel, and a success message will be displayed in PowerShell, confirming the successful login.
-
-Now you can proceed with the provisioning.
 
 > **Note**: The credentials remain valid for 12 hours. After this period, you will need to log in again using the procedure described above.
 

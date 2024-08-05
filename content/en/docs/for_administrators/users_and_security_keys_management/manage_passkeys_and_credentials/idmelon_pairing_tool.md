@@ -9,13 +9,13 @@ images: []
 menu:
   docs:
     parent: "manage_passkeys_and_credentials"
-weight: 34500
+weight: 34400
 toc: true
 ---
 
 ## Introduction
 
-This guide provides instructions for using the **IDmelon Pairing Tool** to register passkeys on behalf of users for various relying parties, including Microsoft.
+This guide shows how to use the **IDmelon Pairing Tool** to register passkeys on behalf of users for various relying parties, including Microsoft.
 
 ## Prerequisites
 
@@ -28,11 +28,11 @@ To use the Pairing Tool to register a passkey for users to access their accounts
 1. Log in to the IDmelon Admin Panel and navigate to **Users -> All Users**.
 2. Select the user you want to provision.
 3. Go to the **Passkeys** tab and select **Other RPs** from the **Add Passkey** dropdown.
-   ![User Passkeys](/images/vendor/provisioning/panel1.jpg)
+   ![User Passkeys](/images/vendor/provisioning/pairing_tool_provisioning_1.jpg)
 4. In the dialog, click the `Next` button.
-   ![Provisioning Dialog](/images/vendor/provisioning/panel1.jpg)
+   ![Provisioning Dialog](/images/vendor/provisioning/pairing_tool_provisioning_2.jpg)
 5. A popup will open in the browser. Click `Open Pairing Tool`.
-6. The IDmelon Pairing Tool will start in `On behalf registration` mode. In this mode, every passkey you register on this machine will be associated with the selected user's security key.
+6. The IDmelon Pairing Tool will start in `On behalf passkey registration` mode. In this mode, every passkey you register on this machine will be associated with the selected user's security key.
 
 ## Finishing Up Provisioning
 
