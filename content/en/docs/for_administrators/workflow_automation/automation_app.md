@@ -3,7 +3,7 @@ title: "Automation App"
 description: ""
 lead: ""
 date: 2024-05-08T10:30:55+03:30
-lastmod: 2024-05-08T10:30:55+03:30
+lastmod: 2024-08-12T10:30:55+03:30
 draft: false
 images: []
 menu:
@@ -17,8 +17,8 @@ The Workflow Automation application is an extension that can be installed on PC 
 
 ## Requirements
 
-- [Card Reader Drivers](https://idmelon.com/docs/downloads)
-- [Workflow Automation App](https://idmelon.com/docs/downloads)
+- [Card Reader Drivers](https://idmelon.com/docs/downloads) (3.4.0 and later)
+- [Workflow Automation App](https://idmelon.com/docs/downloads) (1.1.0 and later)
 
 ## Installation
 
@@ -29,15 +29,15 @@ First, install the latest version of the desired reader (Accesskey) and then the
 To switch to automation mode, you must first enter the following command in a PowerShell.
 
 ```shell
-accesskeycli workflow-automation -s -t automation-app -a login-logout -p microsoft-login -e kiosk-interactive -u https://myapps.microsoft.com?login_hint=${UserId}
+accesskeycli workflow-automation -s -t automation-app -a login-logout -e kiosk-interactive
 ```
 
 - `-s`: To activate automation and configure it.
 - `-t automation-app`: This value is always fixed.
 - `-a login-logout`: To set the automation actions. In this case, both the login and logout procedures can be automated. (Other possible actions: `-a login` , `-a logout`)
-- `-p microsoft-login`: To set the target platform. In this case, our goal is Microsoft 365 login and logout automation.
-- `-e kiosk-interactive`: To set the environment. In this case, we want to use the kiosk environment of Windows 10 and 11. (Other possible environments: `-e kioware`, `-e kiosk-browser`).
-- `-u https://myapps.microsoft.com?login_hint=${UserId}`: To set the target URL. In this case, we set the Microsoft 365 URL.
+- `-p microsoft-login` (Optional): To set the target platform. In this case, our goal is Microsoft 365 login and logout automation.
+- `-e kiosk-interactive`: To set the environment. In this case, we want to use the kiosk environment of Windows 10 and 11. (Other possible environments: `kioware`, `kiosk-multiapps`, `-e kiosk-browser`).
+- `-u https://myapps.microsoft.com?login_hint=${UserId}` (Optional): To set the target URL. In this case, we set the Microsoft 365 URL.
 
 ## Disable Automation App
 
@@ -47,39 +47,73 @@ To disable the Workflow Automation, enter the following command in a PowerShell.
 accesskeycli workflow-automation -r -t automation-app
 ```
 
-## Automation Train
+## Automation Training
 
 The training operation is performed only once by the admin.
-In this example, we are going to go through the steps to train the login operation for Microsoft 365.
+In this example, we are going to go through the steps to train the login process for Microsoft 365.
 
-- Enter the following command in a PowerShell:
+### Automatic Training
 
-```shell
-accesskeycli workflow-automation -c -a login
-```
+In this case, if no workflow is predefined for the target platform while tapping the card, the training hints window will be displayed and the training procedure will begin.
 
-- After entering the above-mentioned command, a message will be displayed. (Image below).
-
-![Automation Train](/images/vendor/workflow_automation/automation_app/train_start.png)
-
-Please note that before confirming this message, you must open the kiosk environment in full screen and after the desired page is fully loaded, confirm the displayed message.
-
-![Automation Train](/images/vendor/workflow_automation/automation_app/kiosk_env.png)
-
-- From this moment on, each mouse click indicates the desired point for training.
-Remember that if the input value is to be entered by you (e.g. email, etc.), first click on the desired field and then enter your value.
-
-- Finally, when all the steps are taken correctly, by pressing the right mouse button (on any point of the screen), this training will end and a message (image below) will be displayed to you.
-
-![Automation Train](/images/vendor/workflow_automation/automation_app/train_finish.png)
-
-- To train the logout operation, first, enter the following command in a PowerShell. The rest of the steps are completely similar to login.
+To enable automatic training, enter the following command in PowerShell.
 
 ```shell
-accesskeycli workflow-automation -c -a logout
+accesskeycli workflow-automation -c enable-auto-capture
 ```
 
-**Notice: Currently, for the kiosk environment (kiosk-interactive, kiosk-browser), the logout operation does not need to be trained, and when the user's card is tapped to log out, the kiosk environment is automatically restarted.**
+To disable automatic training, enter the following command in PowerShell.
+
+```shell
+accesskeycli workflow-automation -c disable-auto-capture
+```
+
+- Navigate to the website or application you need training for.
+- Tap a card on the reader.
+- Click the **Yes** button on the presented alert if you want to start the training.
+
+![Automation Train](/images/vendor/workflow_automation/automation_app/no_workflow_found.png)
+
+- The training hints window will appear as follows.
+
+![Automation Train](/images/vendor/workflow_automation/automation_app/training_hints_window.png)
+
+- Leave the toggle of the **Display Tap to Login Page** on to see the **Tap Your Card** alert on the top of the start page later for each login.
+
+![Automation Train](/images/vendor/workflow_automation/automation_app/tap_card_alert.png)
+
+- Toggle the **Enable Error Message for Unregistered Cards** on to display an error after tapping a card which is not enrolled yet.
+
+![Automation Train](/images/vendor/workflow_automation/automation_app/card_unregistered_alert.png)
+
+- Click the **Start** button to start the training.
+- The recording icon will appear in the bottom right corner of the screen which means that each click will be captured as a step.
+
+![Automation Train](/images/vendor/workflow_automation/automation_app/recording_icon.png)
+
+- During the recording process, try to click only on the icons, buttons, or links, and not on the white spaces. After all the clicks are captured as all the necessary steps, click on the recording icon to stop training.
+
+### Manual Training
+
+In this scenario, admins are required to take all the similar steps except for the command that they need to enter in PowerShell. Enter the following command so that the training hints window will be displayed and the training will begin.
+
+```shell
+accesskeycli workflow-automation -c start -a login
+```
+
+**Notice: Currently, for the kiosk environment (kiosk-interactive, kiosk-browser, kiosk-multiapps), the logout operation does not need to be trained, and when the user's card is tapped to log out, the kiosk environment is automatically restarted.**
+
+## Copying Workflows onto other Computers
+
+Workflows created on a PC can be copied onto others PCs. That is, the training steps are performed only once on one PC by an administrator, and after copying the workflow files onto other PCs, there is no need to training on each PC separately.<br>
+
+*Note: The **Monitor Dimensions**, **Scale** and **Display Resolution** of all systems must be the same.*
+
+![Automation Train](/images/vendor/workflow_automation/automation_app/screen_resolution.png)
+
+Copy the following folder to the same path in other PCs.
+
+`C:\Program Files (x86)\IDmelon\Accesskey\Extensions\WorkflowAutomation\Actions`
 
 ## KioWare
 
@@ -110,21 +144,20 @@ The only difference between KioWare and the Windows kiosk is the need to train t
 
 ![Automation Train](/images/vendor/workflow_automation/automation_app/kioware_menu3.png)
 
-### Automation Train
+### Automation Training
 
 Training the login steps is completely similar to the Windows kiosk. Follow the steps below to train logout steps.
 
-- Enter the following command in a PowerShell
+- Open **Kioware** software on your system.
+- Enter the following command in a PowerShell.
 
 ```shell
-accesskeycli workflow-automation -c -a logout
+accesskeycli workflow-automation -c start -a logout
 ```
 
-- Wait for the start training alert to appear.
+- Wait for the training hints window to appear and click the **Start** button.
 
-![Automation Train](/images/vendor/workflow_automation/automation_app/train_start2.png)
-
-- Open **Kioware** software on your system.
+![Automation Train](/images/vendor/workflow_automation/automation_app/training_hints_window.png)
 
 - Click on the specified point (image below) **four** times until the message to enter the **passcode** appears.
 
@@ -136,7 +169,7 @@ accesskeycli workflow-automation -c -a logout
 
 ![Automation Train](/images/vendor/workflow_automation/automation_app/kioware_passcode.png)
 
-- Press the right mouse button (on any point of the screen), this training will end, and a message (image below) will be displayed to you.
+- Click on the recording icon in the bottom right corner of the screen, this training will end, and a message (image below) will be displayed to you.
 
 ![Automation Train](/images/vendor/workflow_automation/automation_app/train_finish.png)
 
