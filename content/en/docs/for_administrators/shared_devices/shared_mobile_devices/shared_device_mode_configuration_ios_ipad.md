@@ -42,8 +42,24 @@ Shared mobile devices are widely used across many industries, including manufact
   <true/>
   <key>authentication_type</key>
   <string>onInit</string>
+  <key>device_id</key>
+  <string>$UDID</string>
+  <key>api_key</key>
+  <string>[API_KEY]</string>
 </dict>
 ```
+
+**Generate a New API Key:**
+
+The API Key is required to activate IDmellon Authenticator automatically when it is run for the first time. Therefore, there would be no need for manual activation to connect to the organization.<br>
+To generate a new API Key, take the following steps:
+
+- Sign in to the [IDmelon Admin Panel](https://panel.idmelon.com).
+- Navigate to **Workspace > Settings > API Key Management**.
+- Select **Create**.
+- Set a name.
+- Set the type to **Shared Mobile**.
+- Copy and replace the generated key with the **API_KEY** value in the app configuration, which can be found in the previous section [How to configure](#how-to-configure).
 
 ***Note**: The value of the **authentication_type** depends on the **Card Verification Method** that your organization's admins have set in the IDmelon admin panel.*
 
@@ -62,18 +78,10 @@ Finally, you should see the **IDmelon Authenticator** app in the Mobile Device A
 After adding the IDmelon Authenticator to the Jamf Pro panel, the application will be available on iPads as shown in the image below (or it can be installed through **Self Service** app).
 ![Shared iPad](/images/vendor/shared_ipads/shared_ipad_idmelon_app.PNG)
 
-***Note**: The activation steps should be taken only once by the admin.*
-
-1. Open the app and then select **Setup as the organization's shared device**.
-![Shared iPad](/images/vendor/shared_ipads/shared_ipad_add_company.PNG)
-2. Enter an admin's email address.
-![Shared iPad](/images/vendor/shared_ipads/shared_ipad_setup_profile.PNG)
-3. Select **Verify with code** and enter the code sent to the admin's email.
-![Shared iPad](/images/vendor/shared_ipads/shared_ipad_verify_email.PNG)
-4. After confirming the code, if everything went correctly, you will see the following view.
+Once the IDmelon Authenticator app opens, the activation process will be completed automatically.
+![Shared iPad](/images/vendor/shared_ipads/shared_ipad_shared_device_mode.PNG)
+If everything goes well, you will see the following view.
 ![Shared iPad](/images/vendor/shared_ipads/shared_ipad_tap_card.PNG)
-
-Once the activation steps are completed, the iPad will be ready to use.
 
 ### End User Experience
 
@@ -139,10 +147,25 @@ Microsoft Intune is a cloud-based endpoint management solution. It manages user 
 |------------------------|-------------|----------------------|
 | shared_device_passkeys | Boolean     | true                 |
 | authentication_type    | String      | onInit               |
-**Allowed values for authentication_type:**
-    - **onInit**: User is required to enter PIN once only after tapping the card on a reader.
-    - **onUse**: User is required to enter PIN for each login.
-    - **none**: The login process is done without entering any PIN (PINless mode).
+| device_id              | String      | {{deviceid}}         |
+| api_key                | String      | [API_KEY]            |
+
+**Generate a New API Key:**
+
+The API Key is required to activate IDmellon Authenticator automatically when it is run for the first time. Therefore, there would be no need for manual activation to connect to the organization.<br>
+To generate a new API Key, take the following steps:
+
+- Sign in to the [IDmelon Admin Panel](https://panel.idmelon.com).
+- Navigate to **Workspace > Settings > API Key Management**.
+- Select **Create**.
+- Set a name.
+- Set the type to **Shared Mobile**.
+- Copy and replace the generated key with the **API_KEY** value in the app configuration, which can be found in the table of the 11th step in the previous section.
+
+**Allowed values for authentication_type:**<br>
+    - **onInit**: User is required to enter PIN once only after tapping the card on a reader.<br>
+    - **onUse**: User is required to enter PIN for each login.<br>
+    - **none**: The login process is done without entering any PIN (PINless mode).<br><br>
 12. Configure the **Assignments** tab according to your organization's policies, and click the **Next** button.
 ![MS Intune](/images/vendor/shared_ipads/intune_panel_configuration_policies_assignments.png)
 13. Review the configurations you set and click the **Create** button.
