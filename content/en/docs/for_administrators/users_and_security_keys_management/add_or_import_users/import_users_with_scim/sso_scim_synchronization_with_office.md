@@ -76,7 +76,7 @@ And then in the next page, fill fields of opened from as:
 And in the `Admin Credentials` section:
 
 * Tenant URL
-  * https://sso.idmelon.com/api/scim/v2/
+  * https://skm.idmelon.com/api/scim/v2/
 
 * Secret Token
   * PASTE THIS VALUE FROM IDMELON PANEL
