@@ -49,6 +49,24 @@ Shared mobile devices are widely used across many industries, including manufact
 </dict>
 ```
 
+**One-Time Use Passkeys:**
+
+Add the following key to the above configurations to automatically log the user out after their first login with the passkey.
+
+```xml
+<key>one_time_use_passkeys</key>
+<true/>
+```
+
+**Dedicated Deployments Base API URL:**
+
+If you are using dedicated deployment, such as on-premises, add the following key-value to the configurations.
+
+```xml
+<key>base_api_url</key>
+<string>https://example.com/api/url</string>
+```
+
 **Generate a New API Key:**
 
 The API Key is required to activate IDmellon Authenticator automatically when it is run for the first time. Therefore, there would be no need for manual activation to connect to the organization.<br>
@@ -143,12 +161,29 @@ Microsoft Intune is a cloud-based endpoint management solution. It manages user 
 ![MS Intune](/images/vendor/shared_ipads/intune_panel_configuration_policies_app.png)
 11. In the **Settings** tab, select the **User configuration designer** as the **Configuration settings format**, Enter values for the XML property list as below, and click the **Next** button.
 ![MS Intune](/images/vendor/shared_ipads/intune_panel_configuration_policies_configurtion_keys.png)
+
 | Configuration key      | Value type  | Configuration value  |
 |------------------------|-------------|----------------------|
 | shared_device_passkeys | Boolean     | true                 |
 | authentication_type    | String      | onInit               |
 | device_id              | String      | {{deviceid}}         |
 | api_key                | String      | [API_KEY]            |
+
+**One-Time Use Passkeys:**
+
+Add the following key to the above configurations to automatically log the user out after their first login with the passkey.
+
+| Configuration key      | Value type  | Configuration value  |
+|------------------------|-------------|----------------------|
+| one_time_use_passkeys  | Boolean     | true                 |
+
+**Dedicated Deployments Base API URL:**
+
+If you are using dedicated deployment, such as on-premises, add the following key-value to the configurations.
+
+| Configuration key      | Value type  | Configuration value         |
+|------------------------|-------------|-----------------------------|
+| base_api_url           | String      | https://example.com/api/url |
 
 **Generate a New API Key:**
 
