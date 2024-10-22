@@ -15,30 +15,26 @@ toc: true
 
 This document is about SSO SCIM synchronization with Azure Active Directory.
 
-Step 1 - Login to azure
------------------------
+### Step 1 - Login to azure
 
 Login to the admin azure panel from here:  https://portal.azure.com/#home ,
     and click the `Enterprise applications`.
 
 ![alt](/images/vendor/scim/azure/01.png)
 
-Step 2 - Enterprise applications
---------------------------------
+### Step 2 - Enterprise applications
 
 From the `All appliacations` menu, click to the `New application` .
 
 ![alt](/images/vendor/scim/azure/02.png)
 
-Step 3 - Create your own new application
-----------------------------------------
+### Step 3 - Create your own new application
 
 Click on the `Create your own application`.
 
 ![alt](/images/vendor/scim/azure/03.png)
 
-Step 4 - Configure your own new application
-----------------------------------------
+### Step 4 - Configure your own new application
 
 Fill fields of opened from as:
 
@@ -51,22 +47,19 @@ And then Click `Create` button.
 
 ![alt](/images/vendor/scim/azure/04.png)
 
-Step 5 - Provisioning
----------------------
+### Step 5 - Provisioning
 
 In the opened page, click the `Get started` of the `Provision User Accounts` section.
 
 ![alt](/images/vendor/scim/azure/05.png)
 
-Step 6- Provisioning
---------------------
+### Step 6- Provisioning
 
 And then in the next page, click the `Get started` from main again.
 
 ![alt](/images/vendor/scim/azure/06.png)
 
-Step 7 - Update credentials
----------------------------
+### Step 7 - Update credentials
 
 And then in the next page, fill fields of opened from as:
 
@@ -87,22 +80,19 @@ Then click `Save`.
 
 ![alt](/images/vendor/scim/azure/07.png)
 
-Step 7 - Update Settings
-------------------------
+### Step 7 - Update Settings
 
 Based on your situation, change the Scope to `Sync all users and groups`
 
 ![alt](/images/vendor/scim/azure/08.png)
 
-Step 8 - User Attribute mapping
--------------------------------
+### Step 8 - User Attribute mapping
 
 Expand the `Mapping` section and click on `Provision Microsoft Entra ID Users`
 
 ![alt](/images/vendor/scim/azure/09.png)
 
-Step 9 - User attribute mapping - advance options
---------------------------------------------------
+### Step 9 - User attribute mapping - advance options
 
 In the `Attribute Mappings` section, check the `Show advanced options` option,
 and then click on the `Edit attribute list for customappsso`:
@@ -117,8 +107,7 @@ Add a new `immutableId` field based as picture and below table and then click th
 |----------------------------------------------------------------------|--------|
 | urn:ietf:params:scim:schemas:extension:IDmelon:2.0:User:immutable_id | String |
 
-Step 10 - User attribute mapping
---------------------------------
+### Step 10 - User attribute mapping
 
 Back to the `Attribute Mappings` section, and from the default list, apply these two changes and then click the `Save`.
 
@@ -135,15 +124,13 @@ Back to the `Attribute Mappings` section, and from the default list, apply these
 ![alt](/images/vendor/scim/azure/14.png)
 ![alt](/images/vendor/scim/azure/15.png)
 
-Step 11 - Group Attribute mapping
----------------------------------
+### Step 11 - Group Attribute mapping
 
 Expand the `Mapping` section and click on `Provision Microsoft Entra ID Group`
 
 ![alt](/images/vendor/scim/azure/16.png)
 
-Step 12 - Group attribute mapping - advance options
----------------------------------------------------
+### Step 12 - Group attribute mapping - advance options
 
 In the `Attribute Mappings` section, check the `Show advanced options` option,
 and then click on the `Edit attribute list for customappsso`:
@@ -158,8 +145,7 @@ Add a new `description` field based as picture and below table and then click th
 |----------------|--------|
 | description    | String |
 
-Step 13 - Group attribute mapping
----------------------------------
+### Step 13 - Group attribute mapping
 
 Back to the `Attribute Mappings` section, and from the default list, apply this change and then click the `Save`.
 
@@ -172,3 +158,22 @@ Back to the `Attribute Mappings` section, and from the default list, apply this 
 ![alt](/images/vendor/scim/azure/19.png)
 ![alt](/images/vendor/scim/azure/20.png)
 ![alt](/images/vendor/scim/azure/21.png)
+
+### Deprovisioning
+
+The rules of deprovisioning are as follows:
+
+#### Sync Only Assigned Users and Groups
+
+If you have set the SCIM sync to be dependent on specific users and groups (`Sync only assigned users and groups`), removing a user on the IDmelon side can be done in the following ways:
+
+* Method 1: Remove the user from the specified group on the Entra ID side.
+* Method 2: Disable the user on the Entra ID side.
+* Method 3: Delete the user on the Entra ID side.
+
+#### Sync All Users and Groups
+
+If the SCIM sync is set to include all users and groups (`Sync all users and groups`), removing a user on the IDmelon side can be done as follows:
+
+* Method 1: Disable the user on the Entra ID side.
+* Method 2: Delete the user on the Entra ID side.
