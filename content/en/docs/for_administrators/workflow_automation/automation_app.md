@@ -35,6 +35,20 @@ accesskeycli workflow-automation -s -t automation-app -a login-logout -e kiosk-i
 - `-p microsoft-login` (Optional): To set the target platform. In this case, our goal is Microsoft 365 login and logout automation.
 - `-u https://myapps.microsoft.com?login_hint=${UserId}` (Optional): To set the target URL. In this case, we set the Microsoft 365 URL.
 
+**App Configuration File:**
+
+The configuration file of the Workflow app is in the following path, which you can customize.
+
+```shell
+C:\Program Files (x86)\IDmelon\Accesskey\Extensions\WorkflowAutomation\configs.json
+```
+
+- **unregistered_card_title**: The title of the unregistered card error alert.
+- **unregistered_card_message**: The message of the unregistered card error alert.
+- **delete_linked_devices_on_start**: Delete the linked device list (A list of the smartphones that are displayed on the Windows Security prompt) on system startup.
+- **delete_linked_devices_on_each_tap**: Delete the linked device list on each card tap.
+- **template_matching_confidence**: The level of accuracy (a number between 0 and 1) in matching the templates for the points that should be clicked.
+
 ### Kiosk
 
 For **kiosk single app** (full-Screen kiosk), enter the following command in PowerShell:
