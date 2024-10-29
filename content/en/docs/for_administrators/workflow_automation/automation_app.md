@@ -17,8 +17,8 @@ The Workflow Automation application is an extension that can be installed on PC 
 
 ## Prerequisites
 
-- [Card Reader Drivers](https://idmelon.com/docs/downloads) (3.4.0 and later)
-- [Workflow Automation App](https://idmelon.com/docs/downloads) (1.1.0 and later)
+- [Card Reader Drivers](https://idmelon.com/docs/downloads) (3.5.2 and later)
+- [Workflow Automation App](https://idmelon.com/docs/downloads)
 
 ## Configuring a workflow
 
@@ -48,6 +48,8 @@ C:\Program Files (x86)\IDmelon\Accesskey\Extensions\WorkflowAutomation\configs.j
 - **delete_linked_devices_on_start**: Delete the linked device list (A list of the smartphones that are displayed on the Windows Security prompt) on system startup.
 - **delete_linked_devices_on_each_tap**: Delete the linked device list on each card tap.
 - **template_matching_confidence**: The level of accuracy (a number between 0 and 1) in matching the templates for the points that should be clicked.
+- **logout_on_tap_if_not_on_the_first_page** *(app version 1.2.1 and later)*: If the value is set to **true**, the user will log out every time the card taps on the reader, except on the first (login) page.
+- **logout_method** *(app version 1.2.1 and later)*: The program uses two methods(default is **0**) to close the kiosk window. If this does not happen correctly on some systems, set its value to **1**.
 
 ### Kiosk
 
