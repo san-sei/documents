@@ -126,21 +126,36 @@ If no workflow is predefined for the target platform while tapping the card, the
 
 ## Deploying a pre-trained workflow
 
-Workflows created on a PC can be copied onto others PCs. That is, the training steps are performed only once on one PC by an administrator, and after copying the workflow files onto other PCs, there is no need to training on each PC separately.<br>
+The workflow setup can be trained once on a single kiosk and then deployed to other kiosks with the same hardware configuration, including display settings. This means that the training steps are completed only once by an administrator, and the workflow files can then be copied to other kiosks without requiring separate training on each individual kiosk.
 
 *Note: The **Monitor Dimensions**, **Scale** and **Display Resolution** of all systems must be the same.*
 
 ![Automation Train](/images/vendor/workflow_automation/automation_app/screen_resolution.png)
 
-Admin needs to copy the following folder from their PC:
+To deploy the workflow files to additional kiosks, follow these steps:
 
-`C:\Program Files (x86)\IDmelon\Accesskey\Extensions\WorkflowAutomation\Actions`
+1. **Copy the Workflow Folder**  
+   Copy the following folder from the trained Kiosk/PC:
 
-Then, paste the folder in a path, such as `C:\kiosk\Actions`, in other PCs.
+   ```
+   C:\Program Files (x86)\IDmelon\Accesskey\Extensions\WorkflowAutomation\Actions
+   ```
 
-Finally, enter the following command in PowerShell on those target PCs:
+2. **Paste the Folder on Target PCs**  
+   On each target PC, paste the folder into a path such as:
 
-`Copy-Item -Path "C:\kiosk\Actions" -Destination "C:\Program Files (x86)\IDmelon\Accesskey\Extensions\WorkflowAutomation\Actions" -Recurse -Force`
+   ```
+   C:\kiosk\Actions
+   ```
+
+3. **Run PowerShell Command to Deploy**  
+   Open PowerShell on each target PC and run the following command to move the folder into the correct directory:
+
+   ```powershell
+   Copy-Item -Path "C:\kiosk\Actions" -Destination "C:\Program Files (x86)\IDmelon\Accesskey\Extensions\WorkflowAutomation\Actions" -Recurse -Force
+   ```
+
+This process allows the trained workflow to be used across kiosks with the same hardware configuration, eliminating the need for retraining on each device.
 
 ## Automation
 
