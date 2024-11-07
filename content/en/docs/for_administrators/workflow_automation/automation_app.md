@@ -134,7 +134,7 @@ The workflow setup can be trained once on a single kiosk and then deployed to ot
 
 To deploy the workflow files to additional kiosks, follow these steps:
 
-1. **Copy the Workflow Folder**  
+1. **Copy the Workflow Folder**<br>
    Copy the following folder from the trained Kiosk/PC:
 
    ```bash
@@ -145,11 +145,10 @@ To deploy the workflow files to additional kiosks, follow these steps:
    On each target PC, paste the folder into a path such as:
 
    ```bash
-   C:\kiosk\Actions
+   C:\Program Files (x86)\IDmelon\Accesskey\Extensions\WorkflowAutomation\Actions
    ```
 
-3. **Run PowerShell Command to Deploy**  
-   Open PowerShell on each target PC and run the following command to move the folder into the correct directory:
+   You can use the PowerShell code below to automatically copy the files for example:
 
    ```powershell
    Copy-Item -Path "C:\kiosk\Actions" -Destination "C:\Program Files (x86)\IDmelon\Accesskey\Extensions\WorkflowAutomation\Actions" -Recurse -Force
