@@ -137,14 +137,14 @@ To deploy the workflow files to additional kiosks, follow these steps:
 1. **Copy the Workflow Folder**  
    Copy the following folder from the trained Kiosk/PC:
 
-   ```
+   ```bash
    C:\Program Files (x86)\IDmelon\Accesskey\Extensions\WorkflowAutomation\Actions
    ```
 
 2. **Paste the Folder on Target PCs**  
    On each target PC, paste the folder into a path such as:
 
-   ```
+   ```bash
    C:\kiosk\Actions
    ```
 
