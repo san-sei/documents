@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "on-premises-deployment"
+    parent: "dedicated-deployment"
 weight: 95002
 toc: true
 ---
