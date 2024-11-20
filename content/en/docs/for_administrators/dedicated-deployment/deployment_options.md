@@ -38,20 +38,9 @@ Self-managed deployments cater to organizations that prefer full control over th
 - **Self-Managed Single Node Deployment**
 
   - Simplified deployment on a standalone server.
-  - Can be deployed on **Linux** or **Windows Server 2016+**.
   - Suitable for smaller-scale environments or non-critical applications.
   - Requires less setup effort compared to cluster deployments but lacks redundancy and scalability.
-
----
-
-#### Minimum System Requirements
-
-The minimum hardware and operating system requirements are:
-
-- OS: Ubuntu server 23.10 or Windows Server 2016+
-- CPU: 4 cores
-- RAM: 8 GB
-- Hard Drive: 50 GB
+  - Minimum Requirements: OS:**Linux** or **Windows Server 2016+**, CPU: 4 cores, RAM: 8 GB, Hard Drive: 50 GB.
 
 ### Cluster
 
