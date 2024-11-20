@@ -13,43 +13,32 @@ weight: 95002
 toc: true
 ---
 
-The IDmelon platform provides flexibility to suit the needs of different organizations and scenarios,
-ensuring optimal performance and reliability.
-
-## Deployment Options
+The flowchart outlines the decision-making process for selecting the most suitable **IDmelon Platform Deployment Option** based on your organization’s requirements. It guides you through choices like cloud-based managed deployments or self-managed on-premises setups, considering factors such as infrastructure, operating systems, and deployment type. Below is a detailed breakdown of the options.
 
 ![alt](/images/vendor/deploy/deployment-decision-flowchart.png)
 
-### Managed Deployment
+## Managed Deployment
+Managed deployments are designed for organizations looking to leverage public cloud infrastructure with minimal administrative effort. These deployments offer scalability, performance, and ease of management.
 
-For larger-scale deployments requiring high availability and scalability,
-the cluster deployment option is recommended.
+- **Managed Cluster Deployment**
+  - Hosted on cloud platforms like **MongoDB Atlas Cloud**.
+  - Ideal for organizations using **Azure**, **AWS**, or **GCP**.
+  - Features automatic scaling, backups, and optimizations, all managed by the cloud provider.
+  - Provides high availability and fault tolerance without requiring extensive operational expertise.
 
-This involves installing the platform on a minimum of three servers,
-ensuring redundancy and load balancing to handle increased traffic and workload.
+---
 
-#### Databases
+## Self-Managed Deployment
+Self-managed deployments cater to organizations that prefer full control over their infrastructure or have specific security and compliance requirements. These deployments are hosted in private environments or on-premises.
 
-For the required databases, including Redis, MongoDB, and PostgreSQL, you can leverage cloud services such as:
+### Single Node
+- **Self-Managed Single Node Deployment**
+  - Simplified deployment on a standalone server.
+  - Can be deployed on **Linux** or **Windows Server 2016+**.
+  - Suitable for smaller-scale environments or non-critical applications.
+  - Requires less setup effort compared to cluster deployments but lacks redundancy and scalability.
 
-- MongoDB Atlas: A fully managed cloud database service for MongoDB, providing automated backups, scaling, and security features.
-- Amazon RDS: Offers managed relational databases, including PostgreSQL, MySQL, and MariaDB.
-- Amazon ElastiCache: Provides scalable and high-performance Redis and Memcached-compatible in-memory data stores.
-- Azure Cache: Offers managed Redis and Memcached services on Microsoft Azure.
-- Azure PostgreSQL: Provides fully managed PostgreSQL database services on Microsoft Azure.
-
-#### Kubernetes
-
-For Kubernetes orchestration, you can utilize:
-
-- Amazon EKS (Elastic Kubernetes Service): A fully managed Kubernetes service provided by AWS, offering scalability, security, and high availability for containerized applications.
-- Azure AKS (Azure Kubernetes Service): A managed Kubernetes service provided by Microsoft Azure, enabling easy deployment, management, and scaling of containerized applications.
-- Google GKE (Google Kubernetes Engine): A managed Kubernetes service provided by Google Cloud Platform, offering automated operations, scalability, and security features
-
-### Single Node Deployment
-
-Ideal for small to medium-scale deployments, the single node deployment option involves installing all components on a single server.
-This streamlined approach offers simplicity and ease of management.
+---
 
 #### Minimum System Requirements
 
@@ -59,6 +48,15 @@ The minimum hardware and operating system requirements are:
 - CPU: 4 cores
 - RAM: 8 GB
 - Hard Drive: 50 GB
+
+### Cluster
+- **Self-Managed Cluster Deployment**
+  - Designed for larger environments that need **high availability** and **load balancing**.
+  - Utilizes a cluster of nodes for resilience and performance.
+  - Offers greater scalability compared to single-node setups, making it ideal for mission-critical workloads.
+  - Requires additional expertise to manage and maintain but ensures redundancy and fault tolerance.
+
+---
 
 ## Third-party Services
 
