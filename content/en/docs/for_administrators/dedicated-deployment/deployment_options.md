@@ -40,7 +40,7 @@ Self-managed deployments cater to organizations that prefer full control over th
   - Simplified deployment on a standalone server.
   - Suitable for smaller-scale environments or non-critical applications.
   - Requires less setup effort compared to cluster deployments but lacks redundancy and scalability.
-  - Minimum Requirements: OS:**Linux** or **Windows Server 2016+**, CPU: 4 cores, RAM: 8 GB, Hard Drive: 50 GB.
+  - Minimum Requirements: **Linux** or **Windows Server 2016+**, CPU: 4 cores, RAM: 8 GB, Hard Drive: 50 GB.
 
 ### Cluster
 
