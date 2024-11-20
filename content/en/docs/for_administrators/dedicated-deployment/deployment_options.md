@@ -16,47 +16,17 @@ toc: true
 The IDmelon platform provides flexibility to suit the needs of different organizations and scenarios,
 ensuring optimal performance and reliability.
 
-## Deployment Decision Flowchart
-
-This flowchart visually outlines the decision-making process for selecting the appropriate deployment option for the IDmelon platform.
-It highlights key considerations such as:
-
-- Deployment Environment: Choosing between private tenant cloud or on-premises deployment based on the organization's requirements.
-- Operating System: Determining the suitable OS for on-premises deployment (Linux or Windows Server 2016+).
-- Cluster Requirements: Deciding between single-node or cluster deployment based on scalability and redundancy needs.
-- Cloud Integration: Evaluating managed services (e.g., MongoDB Atlas Cloud) for private tenant deployments.
+## Deployment Options
 
 ![alt](/images/vendor/deploy/deployment-decision-flowchart.png)
 
-## Deployment Models
-
-When it comes to deploying the IDmelon platform, users have two options:
-
-### Single Node Deployment
-
-Ideal for small to medium-scale deployments, the single node deployment option involves installing all components on a single server.
-This streamlined approach offers simplicity and ease of management.
-
-#### Minimum System Requirements
-
-The minimum hardware and operating system requirements are:
-
-- OS: Ubuntu server 23.10 or Windows Server 2016+
-- CPU: 4 cores
-- RAM: 8 GB
-- Hard Drive: 50 GB
-
-### Cluster Deployment
+### Managed Deployment
 
 For larger-scale deployments requiring high availability and scalability,
 the cluster deployment option is recommended.
 
 This involves installing the platform on a minimum of three servers,
 ensuring redundancy and load balancing to handle increased traffic and workload.
-
-### Private Tenant Cloud Deployment
-
-The IDmelon platform seamlessly integrates with cloud services to meet various requirements, including:
 
 #### Databases
 
@@ -75,6 +45,20 @@ For Kubernetes orchestration, you can utilize:
 - Amazon EKS (Elastic Kubernetes Service): A fully managed Kubernetes service provided by AWS, offering scalability, security, and high availability for containerized applications.
 - Azure AKS (Azure Kubernetes Service): A managed Kubernetes service provided by Microsoft Azure, enabling easy deployment, management, and scaling of containerized applications.
 - Google GKE (Google Kubernetes Engine): A managed Kubernetes service provided by Google Cloud Platform, offering automated operations, scalability, and security features
+
+### Single Node Deployment
+
+Ideal for small to medium-scale deployments, the single node deployment option involves installing all components on a single server.
+This streamlined approach offers simplicity and ease of management.
+
+#### Minimum System Requirements
+
+The minimum hardware and operating system requirements are:
+
+- OS: Ubuntu server 23.10 or Windows Server 2016+
+- CPU: 4 cores
+- RAM: 8 GB
+- Hard Drive: 50 GB
 
 ## Third-party Services
 
