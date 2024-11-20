@@ -16,6 +16,18 @@ toc: true
 The IDmelon platform provides flexibility to suit the needs of different organizations and scenarios,
 ensuring optimal performance and reliability.
 
+## Deployment Decision Flowchart
+
+This flowchart visually outlines the decision-making process for selecting the appropriate deployment option for the IDmelon platform.
+It highlights key considerations such as:
+
+- Deployment Environment: Choosing between private tenant cloud or on-premises deployment based on the organization's requirements.
+- Operating System: Determining the suitable OS for on-premises deployment (Linux or Windows Server 2016+).
+- Cluster Requirements: Deciding between single-node or cluster deployment based on scalability and redundancy needs.
+- Cloud Integration: Evaluating managed services (e.g., MongoDB Atlas Cloud) for private tenant deployments.
+
+![alt](/images/vendor/deploy/deployment-decision-flowchart.png)
+
 ## Deployment Models
 
 When it comes to deploying the IDmelon platform, users have two options:
