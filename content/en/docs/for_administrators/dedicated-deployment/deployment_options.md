@@ -18,6 +18,7 @@ The flowchart outlines the decision-making process for selecting the most suitab
 ![alt](/images/vendor/deploy/deployment-decision-flowchart.png)
 
 ## Managed Deployment
+
 Managed deployments are designed for organizations looking to leverage public cloud infrastructure with minimal administrative effort. These deployments offer scalability, performance, and ease of management.
 
 - **Managed Cluster Deployment**
@@ -29,10 +30,13 @@ Managed deployments are designed for organizations looking to leverage public cl
 ---
 
 ## Self-Managed Deployment
+
 Self-managed deployments cater to organizations that prefer full control over their infrastructure or have specific security and compliance requirements. These deployments are hosted in private environments or on-premises.
 
 ### Single Node
+
 - **Self-Managed Single Node Deployment**
+
   - Simplified deployment on a standalone server.
   - Can be deployed on **Linux** or **Windows Server 2016+**.
   - Suitable for smaller-scale environments or non-critical applications.
@@ -50,7 +54,9 @@ The minimum hardware and operating system requirements are:
 - Hard Drive: 50 GB
 
 ### Cluster
+
 - **Self-Managed Cluster Deployment**
+  
   - Designed for larger environments that need **high availability** and **load balancing**.
   - Utilizes a cluster of nodes for resilience and performance.
   - Offers greater scalability compared to single-node setups, making it ideal for mission-critical workloads.
