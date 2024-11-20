@@ -1,5 +1,5 @@
 ---
-title: "Dedicated Deployment Options"
+title: "Deployment Options"
 description: "Dedicated Deployment Options"
 lead: ""
 date: 2024-03-05T14:30:00+03:30
