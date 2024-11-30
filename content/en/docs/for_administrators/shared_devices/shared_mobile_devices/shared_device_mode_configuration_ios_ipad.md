@@ -67,6 +67,25 @@ If you are using dedicated deployment, such as on-premises, add the following ke
 <string>https://example.com/api/url</string>
 ```
 
+**Self Service URL:**
+
+By adding the self-service URL (available in the [IDmelon Admin Panel](https://panel.idmelon.com) > Security Keys > Workflows > Self-Service Actions) to the configurations, users will be redirected to the enrollment page if their card is not yet registered.
+
+```xml
+<key>self_service_url</key>
+<string>https://panel.idmelon.com/self-service/{UID}</string>
+```
+
+**Auto Logout:**
+
+By adding this configuration, users will be automatically logged out of the app after a specified time or after the first use of the passkey.<br>
+*Allowed values: one-time use, 5m, 60m, 2h, 4h, 6h, 8h*
+
+```xml
+<key>auto_logout</key>
+<string>2h</string>
+```
+
 **Generate a New API Key:**
 
 The API Key is required to activate IDmellon Authenticator automatically when it is run for the first time. Therefore, there would be no need for manual activation to connect to the organization.<br>
@@ -185,6 +204,23 @@ If you are using dedicated deployment, such as on-premises, add the following ke
 |------------------------|-------------|-----------------------------|
 | base_api_url           | String      | https://example.com/api/url |
 
+**Self Service URL:**
+
+By adding the self-service URL (available in the [IDmelon Admin Panel](https://panel.idmelon.com) > Security Keys > Workflows > Self-Service Actions) to the configurations, users will be redirected to the enrollment page if their card is not yet registered.
+
+| Configuration key      | Value type  | Configuration value                          |
+|------------------------|-------------|----------------------------------------------|
+| self_service_url       | String      | https://panel.idmelon.com/self-service/{UID} |
+
+**Auto Logout:**
+
+By adding this configuration, users will be automatically logged out of the app after a specified time or after the first use of the passkey.<br>
+*Allowed values: one-time use, 5m, 60m, 2h, 4h, 6h, 8h*
+
+| Configuration key      | Value type  | Configuration value         |
+|------------------------|-------------|-----------------------------|
+| auto_logout            | String      | 2h                          |
+
 **Generate a New API Key:**
 
 The API Key is required to activate IDmellon Authenticator automatically when it is run for the first time. Therefore, there would be no need for manual activation to connect to the organization.<br>
@@ -238,3 +274,30 @@ The login steps are as follows: at the beginning of the shift, an employee will 
 1. Open the app you logged into, and log out of the account.
 2. Open the **IDmelon Authenticator** and then tap the logout icon on the top right corner of the app. Your user information and existing passkeys will be deleted from the iPad.
 ![Authenticator](/images/vendor/shared_ipads/shared_ipad_logout.PNG)
+
+## Shared Device Mode Configuration From the App Settings
+
+To manually adjust some of the shared iPad's configs, do it from the following path:<br>
+**App Menu > Security Key Settings > App Configs**.
+
+![App Configs](/images/vendor/shared_ipads/shared_ipad_app_configs.png)
+
+**Auto-Logout:**
+
+By enabling this config, users will be automatically logged out of the app after a specified time or after the first use of the passkey.<br>
+
+**Redirect After Login:**
+
+By enabling this config, users will be redirected to a specific app or URL after logging in. (e.g., msteams:// will open the Microsoft Teams app if it is available on the device).
+
+**Redirect After Logout:**
+
+Similar to "Redirect After Login," after users log out, they will be redirected to the desired app or address.
+
+**Require Authentication:**
+
+- **On Init**: Users must enter a PIN once after tapping the card on the reader.<br>
+- **On Use**: Users are required to enter a PIN for each login.<br>
+- **None**: The login process is completed without entering any PIN (PINless mode).<br><br>
+
+***Note**: The value of the **Require Authentication** depends on the **Card Verification Method** that your organization's admins have set in the IDmelon admin panel.*
