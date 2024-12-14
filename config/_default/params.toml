@@ -5,6 +5,7 @@ title = "IDmelon"
 titleSeparator = "-"
 titleAddition = "Password less authentication"
 description = "IDmelon offers FIDO certified solution through smartphone, FOB or hardware security keys"
+exactTitle = "Workforce Passwordless Authentication Docs"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -13,7 +14,7 @@ description = "IDmelon offers FIDO certified solution through smartphone, FOB or
 images = ["IDmelon.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+titleHome = "Workforce Passwordless Authentication Docs"
 
 ## Twitter Cards
 twitterSite = "@getdoks"
