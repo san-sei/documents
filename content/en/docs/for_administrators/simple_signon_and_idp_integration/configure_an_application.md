@@ -49,9 +49,11 @@ Enter the value provided by your service provider for the `Assertion Consumer Se
 
 Match the `Name Id Format` value with your service provider.
 
-Fill `Required Attributes` field , the valid values are `email` and `username`.
+Fill `Name ID Field` field , the valid values are `EMALI` and `AzureID`.
 
 Upload the public certificate corresponding to your service provider for the `Public Certificate` field.
+
+If you select `Is Assertion Encrypted?`, the `Encrypt Certificate` should be uploaded.
 
 Upload the metadata corresponding to your service provider for the `Metadata` field.
 
@@ -64,11 +66,11 @@ In the `App Attributes Mapping` section, add the required fields for mapping att
 
 The valid values for the `IDP variable name` section are:
 
-- `email`
-- `surname`
-- `given_name`
-- `full_name`
-- `group`
+- `EMAIL`
+- `LASTNAME`
+- `FIRSTNAME`
+- `USERNAME`
+- `GROUPS`
 
 Click `Confirm`.
 
@@ -80,7 +82,7 @@ Then, from the list of applications, select the created application and click on
 
 ![alt](/images/vendor/sso/custom/custom_07.png)
 
-In the `General Settings` section, information related to `IdP Entity ID` and `IdP Single Sign-on URL` is displayed.
+In the `General Settings` section, information related to `IdP Entity ID`, `IdP Single Sign-on URL` and `IdP Single Logout URL` is displayed.
 You need to enter these values in your service provider.
 
 ![alt](/images/vendor/sso/custom/custom_08.png)
