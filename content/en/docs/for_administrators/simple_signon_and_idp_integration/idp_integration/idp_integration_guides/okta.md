@@ -61,7 +61,8 @@ In the `Authentication Settings` section:
 - **IdP username:** idpuser.subjectNameId.
 
 In the `Account matching with Idp Username` section:
-- **Account link policy:** Authomatic
+
+- **Account link policy:** Authomatic.
 
 ![alt](/images/vendor/sso/okta_sso_only.png)
 ![alt](/images/vendor/sso/okta_sso_only_2.png)
