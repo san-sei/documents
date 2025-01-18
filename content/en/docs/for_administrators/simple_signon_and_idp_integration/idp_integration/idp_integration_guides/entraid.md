@@ -1,5 +1,5 @@
 ---
-title: "Office"
+title: "Microsoft Entra ID"
 description: ""
 lead: ""
 date: 2023-10-11T00:58:07+03:30
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "idp_integration_guides"
-weight: 72550
+weight: 72100
 toc: true
 ---
 

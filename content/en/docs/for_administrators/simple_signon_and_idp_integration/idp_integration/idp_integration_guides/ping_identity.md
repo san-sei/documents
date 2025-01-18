@@ -13,6 +13,10 @@ weight: 72800
 toc: true
 ---
 
+> **⚠️ Important Notice**
+>
+> The content in this document is currently under review and will be updated soon. We are actively working on providing you with the most accurate and up-to-date information. Thank you for your patience and understanding.
+
 In this document you are going to set up `IDmelon` as an external IdP to the `Ping Identity`.
 
 ## Login to Ping Identity administration panel
