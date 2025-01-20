@@ -1,9 +1,9 @@
 ---
-title: "Non-Entra ID Local and On-premise Domain Logon"
+title: "On-premise Domain Logon"
 description: ""
 lead: ""
 date: 2023-09-12T15:35:46+03:30
-lastmod: 2023-09-12T15:35:46+03:30
+lastmod: 2025-01-20T15:35:46+03:30
 draft: false
 images: []
 menu:

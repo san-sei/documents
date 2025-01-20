@@ -1,9 +1,9 @@
 ---
-title: "Entra ID Hybrid Connected PCs"
+title: "Entra ID Hybrid Joined PCs"
 description: ""
 lead: ""
-date: 2023-09-12T15:35:03+03:30
-lastmod: 2023-09-12T15:35:03+03:30
+date: 2025-01-15T15:35:03+03:30
+lastmod: 2025-01-15T15:35:03+03:30
 draft: false
 images: []
 menu:

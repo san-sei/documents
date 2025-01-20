@@ -1,9 +1,9 @@
 ---
-title: "Entra ID Connected PCs"
+title: "Entra ID Joined PCs"
 description: ""
 lead: ""
 date: 2023-09-12T15:34:30+03:30
-lastmod: 2023-09-12T15:34:30+03:30
+lastmod: 2025-01-20T15:34:30+03:30
 draft: false
 images: []
 menu:
@@ -12,8 +12,6 @@ menu:
 weight: 86000
 toc: true
 ---
-
-![alt](/images/vendor/DirectoryServicesIntegration/AzureAD/baner.png)  
 
 You can use security keys as a passwordless sign-in method within your organization. A security key is a physical device that's used with a unique PIN to sign in to your work or school account. Because security keys require you to have the physical device and something that only you know, it's considered a stronger verification method than a username and password.  
 
