@@ -20,6 +20,7 @@ Incorporating FIDO2 security keys into UAC sign-in and "Run as" experiences enha
 ---
 
 ## Requirements
+
 To use FIDO2 security keys for UAC sign-in, ensure the following prerequisites are met:
 
 1. **IDmelon FIDO2 Security Key (NFC/RFID Employee Badge)**:
@@ -57,5 +58,6 @@ When a UAC prompt is triggered (e.g., using "Run as" or accessing remote desktop
 ---
 
 ## Resources
+
 - [Download IDmelon Credential Provider](https://idmelon.com/docs/downloads)
 - [Learn more about FIDO2 Security Standards](https://fidoalliance.org/)

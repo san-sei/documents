@@ -13,7 +13,7 @@ weight: 89000
 toc: true
 ---
 
-The IDmelon FIDO2 Security Key offers a seamless and highly secure experience for accessing remote desktop sessions over RDP. By leveraging FIDO2 security protocols, users can authenticate with modern cryptographic methods that eliminate the need for traditional passwords, enhancing security and user convenience. 
+The IDmelon FIDO2 Security Key offers a seamless and highly secure experience for accessing remote desktop sessions over RDP. By leveraging FIDO2 security protocols, users can authenticate with modern cryptographic methods that eliminate the need for traditional passwords, enhancing security and user convenience.
 
 This innovative approach works across a wide variety of devices, including thin clients, and ensures that users can maintain secure access even when operating within a remote desktop session. For example, a user can use their IDmelon FIDO2 Security Key to sign into a web application while inside a remote desktop session, providing a consistent and secure experience across environments.
 
@@ -34,6 +34,7 @@ To set up and use the IDmelon FIDO2 Security Key for remote desktop sessions, en
    - Configure your reader to enable key-stroking mode. If you are using an **rf IDEAS reader**, follow these steps:
      - Use the **rf IDEAS Configuration Utility** to set the reader to key-stroking mode.
      - After configuration, execute the following shell command in the Command Prompt to enable the credential provider for key-stroking mode:
+
        ```shell
        idmelonfcp key-stroking -e
        ```
@@ -59,7 +60,7 @@ The IDmelon FIDO2 Security Key enhances the user experience by offering secure a
    - The IDmelon FCP captures the card information in key-stroking mode and prompts the user to enter their **Security Key PIN** to complete the FIDO2 authentication.
 
 3. **First-Time Login:**
-   - For the initial login, the user is required to enter their **Active Directory (AD) credentials**. 
+   - For the initial login, the user is required to enter their **Active Directory (AD) credentials**.
    - Subsequent logins will only require the **Security Key PIN**, streamlining the process.
 
 4. **Successful Authentication:**
