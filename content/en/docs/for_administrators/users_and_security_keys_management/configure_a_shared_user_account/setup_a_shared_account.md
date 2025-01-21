@@ -1,5 +1,5 @@
 ---
-title: "Setup a Shared Account"
+title: "Setup a User Shared Account"
 description: ""
 lead: ""
 date: 2023-09-11T15:03:59+03:30
@@ -13,27 +13,28 @@ weight: 35200
 toc: true
 ---
 
-Shared Accounts simplify access to workspace resources by allowing multiple users to use the same login credentials, such as passkeys and passwords.  
+Follow these steps to designate a user as a Shared Account:
 
-## How to setup a shared account  
+1. Log in to your workspace.
+2. Go to the Users section and navigate to the **All-Users** menu.
+3. Select the user you want to designate as a Shared Account.
+4. Open the **Shared with** tab and click the **Share** button.
+5. Choose how to share the account:
+   - To share with specific users, select **Shared with users** and pick from the drop-down list.
+   - To share with groups, select **Shared with group** and pick from the drop-down list.
+6. Confirm your changes by clicking the **Apply** button.
 
-To designate a user as a Shared Account, follow these steps:  
+---
 
-1. Log in to your workspace.  
-2. Under Users, navigate to the All Users menu.  
-3. Select a user you intend to designate as a Shared Account.  
-4. Go to the Shared with tab and click on the Share button.  
-5. Choose the users to grant access for login using the selected user's credentials.  
-6. Confirm your changes by clicking on the Apply button.  
+## What Happens Next?
 
-Following these steps, you have successfully granted access to one or multiple users, allowing them to utilize the selected user's login credentials with their Contactless Card or Smartphone devices, thereby transforming the user into a Shared Account.  
+- The user you designated will now appear as a Shared Account under the **Security Keys** column in the **All Users** menu.
+- For the users receiving the shared credentials, a new **Shared Passkeys** tab will show who shared their credentials and the corresponding passkeys.
 
-Upon returning to All Users, you will notice that under the Security keys column, the selected user is now labeled as Shared Account. This designation indicates that this user's credentials are employed by more than one user/account.  
+---
 
-When navigating to the user to whom you've shared the credentials, you will notice a new tab called Shared Passkeys where you can see a list of users who shared their login credentials with this user and their passkeys.  
+## Notes
 
-## Limitations on Shared Accounts  
-
-- Nested sharing isn't permitted.  
-- It does not work when passkeys are bound to a FIDO security key or platform.  
-- If you change the policies of a Contactless card, users will need to resync their PCs with our server to get the policy updates. We will do that eriodically, but to get the updates quickly, turning your device’s internet off and on will force the sync process.  
+- If the Contactless Card policy changes, affected users need to sync their PCs with the server to apply updates.
+- A manual sync can be triggered by toggling the internet connection off and on.
+- Shared accounts provide a secure way to allow access without exposing individual credentials.

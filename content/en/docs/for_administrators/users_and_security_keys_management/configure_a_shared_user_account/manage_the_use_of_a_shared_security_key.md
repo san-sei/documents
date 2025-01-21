@@ -1,5 +1,5 @@
 ---
-title: "Manage the Use of a Shared Security Key"
+title: "Configuring Policies for Shared Accounts"
 description: ""
 lead: ""
 date: 2023-09-11T15:05:53+03:30
@@ -13,24 +13,34 @@ weight: 35300
 toc: true
 ---
 
-When attempting to log in to Windows using a security key device of a user linked to multiple users/accounts, Windows may automatically select a user/passkey without prompting for selection.  
+Policies allow administrators to control and restrict access to shared accounts on specific devices. By setting allow and block policies, you can ensure that only authorized accounts are permitted to log in.
 
-To address this issue, you can employ default account or policies to establish a default user/passkey for Windows login.  
+## Allow and Block Policy
 
-## Default Account  
+1. Navigate to **Conditional Access > Security Key Policies** and click **+ New Policy**.
+2. Name the policy (e.g., **Allow Policy**) and set it as the highest priority.
+3. On the next page:
+   - Select **Card** as the Security Key Type.
+   - Under **Users and Groups**, choose the shared account.
+   - Under **Access Restriction on PCs**, select the target shared PC.
+   - Set the action to **Allow**.
+4. Submit and confirm.
 
-To set a user as the default account, follow these steps:  
+Another record as Block is required to deny any other user account on the target shared PC.
 
-1. Log in to your workspace.  
-2. Under Users, navigate to the All Users menu.  
-3. Select the user which recieved login credentials from other users.  
-4. Go to the Shared Passkeys tab. You will notice a Default column for each shared account.  
-5. Activate Default for the desired shared account.  
+1. Navigate to **Conditional Access > Security Key Policies** and click **+ New Policy**.
+2. Name the policy (e.g., **Block Policy**) and assign the next priority.
+3. On the next page:
+   - Select **Card** as the Security Key Type.
+   - Leave **Users and Groups** empty.
+   - Under **Access Restriction on PCs**, select the target shared PC.
+   - Set the action to **Block**.
+4. Submit and confirm.
 
-Following these steps, you have successfully set a shared account as the default for this user. by that, whenever there are more than one login credentials available to use, Windows will select the default account's login credential.  
+---
 
-## Policies  
+## Policy Features
 
-By adding a policy, you can control attempts to allow or block the use of login credentials for specific users in specific circumstances.  
+By defining conditions such as time restrictions, location-based access, and authentication methods, administrators can enhance security and compliance for shared accounts.
 
-To further study policies and how to use them, please refer to the [policies section](/docs/for_administrators/conditional_access_for_security_keys/what_are_the_security_key_policies).  
+For more information and examples, refer to the policies section.
