@@ -1,5 +1,5 @@
 ---
-title: "Simple Sign-On and IdP Integration  "
+title: "Single Sign-On and IdP Integration  "
 description: ""
 lead: ""
 date: 2023-09-11T11:43:39+03:30

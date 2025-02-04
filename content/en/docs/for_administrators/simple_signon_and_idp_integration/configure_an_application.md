@@ -23,7 +23,7 @@ If your service provider is not in that list, you can connect it by creating a c
 
 Follow the steps below to create a custom integration:
 
-Go to the `App Management` section under `Simple Sign-On`.
+Go to the `App Management` section under `Single Sign-On`.
 
 ![alt](/images/vendor/sso/custom/custom_01.png)
 
