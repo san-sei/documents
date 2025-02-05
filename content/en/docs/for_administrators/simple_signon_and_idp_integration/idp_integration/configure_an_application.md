@@ -3,7 +3,7 @@ title: "Configure an Application"
 description: "Configuring an application to use IDmelon IdP for single sign on"
 lead: ""
 date: 2023-12-15T23:05:00+03:30
-lastmod: 2023-12-15T23:05:00+03:30
+lastmod: 2025-02-04T16:39:00+03:30
 draft: false
 images: []
 menu:
@@ -23,11 +23,11 @@ If your service provider is not in that list, you can connect it by creating a c
 
 Follow the steps below to create a custom integration:
 
-Go to the `App Management` section under `Simple Sign-On`.
+Go to the `App Management` section under `Single Sign-On`.
 
 ![alt](/images/vendor/sso/custom/custom_01.png)
 
-Click on `Integrate with a new app`, Then click on `Create a custom integration`.
+Click on `New Application`, Then click on `Create a custom integration`.
 
 ![alt](/images/vendor/sso/custom/custom_02.png)
 

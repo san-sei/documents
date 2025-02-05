@@ -3,7 +3,7 @@ title: "Duo Admin"
 description: ""
 lead: ""
 date: 2023-09-13T00:57:39+03:30
-lastmod: 2023-09-13T00:57:39+03:30
+lastmod: 2025-02-05T14:57:39+03:30
 draft: false
 images: []
 menu:
@@ -12,9 +12,6 @@ menu:
 weight: 72300
 toc: true
 ---
-> **⚠️ Important Notice**
->
-> The content in this document is currently under review and will be updated soon. We are actively working on providing you with the most accurate and up-to-date information. Thank you for your patience and understanding.
 
 In this document you are going to set up `IDmelon` as an external IdP to the `Duo Admin`.
 
