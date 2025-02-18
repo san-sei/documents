@@ -8,8 +8,8 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "sp_integration_guides"
-weight: 25
+    parent: "identity_providers"
+weight: 40
 toc: true
 ---
 

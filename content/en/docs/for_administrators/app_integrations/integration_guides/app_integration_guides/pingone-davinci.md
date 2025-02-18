@@ -1,5 +1,5 @@
 ---
-title: "Integrate IDmelon Connector with PingOne DaVinci"
+title: "PingOne DaVinci"
 description: ""
 lead: ""
 date: 2023-12-15T23:05:00+03:30
@@ -8,8 +8,8 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "simple_signon_and_idp_integration"
-weight: 15
+    parent: "app_integration_guides"
+weight: 72610
 toc: true
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Configure an External IDP"
-description: "Configuring an External IDP to use for login to IDMelon"
+title: "Add a SAML 2.0 IdP"
+description: "Configuring an External IdP via SAML 2.0"
 lead: ""
 date: 2025-02-04T16:45:00+03:30
 lastmod: 2025-02-04T16:45:00+03:30
@@ -8,8 +8,8 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "configure_an_identifier"
-weight: 5
+    parent: "identity_providers"
+weight: 10
 toc: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Configure an Application"
+title: "Configure a custom application"
 description: "Configuring an application to use IDmelon IdP for single sign on"
 lead: ""
 date: 2023-12-15T23:05:00+03:30
@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "simple_signon_and_idp_integration"
+    parent: "integration_guides"
 weight: 5
 toc: true
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Single Sign-On and IdP Integration  "
-description: ""
+title: "App Integrations"
+description: "Single Sign-on and App Integrations"
 lead: ""
 date: 2023-09-11T11:43:39+03:30
 lastmod: 2023-09-11T11:43:39+03:30
