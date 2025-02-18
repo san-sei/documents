@@ -52,7 +52,9 @@ Create a `VMware Horizon` configuration by selecting this configuration from `Si
 In the `General Settings` section:
 
 - **Entity ID:** should be `https://<HORIZON_UAG_URL>/portal`.
-- **ACS URL:** should be `https://<HORIZON_UAG_FQDN>/portal/samlsso`.
+- **ACS URL:** should be `https://<HORIZON_UAG_URL>/portal/samlsso`.
+
+![alt](/images/vendor/sso/vmware_horizon/idmelon_01.png)
 
 Finally, copy the `SAML Metadata` for the `Horizon Panel`.
 
