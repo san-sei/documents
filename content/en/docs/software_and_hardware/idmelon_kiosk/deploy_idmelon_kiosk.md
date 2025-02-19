@@ -141,7 +141,7 @@ You can change the app configs by entering this command in a PowerShell:
 2. Available Command-Line Arguments
 The IDmelon Kiosk app accepts several command-line arguments that allow you to customize its behavior:
     - **-url:** Specifies the URL for the kiosk to load on startup.
-        - Usage: -url [YourDesireURL]
+        - Usage: -url https://example.com
     - **-selfservice:** Set it true if the **-url** is a custom url.
         - Usage: -selfservice <true|false>
     - **-multitab:** Enables or disables multi-tab mode.
