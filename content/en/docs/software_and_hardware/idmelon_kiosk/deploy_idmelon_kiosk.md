@@ -1,0 +1,170 @@
+---
+title: "Deployin IDmelon Kiosk"
+description: ""
+lead: ""
+date: 2022-02-16T18:14:02-08:00
+lastmod: 2022-02-16T18:14:02-08:00
+draft: false
+images: []
+menu:
+  docs:
+    parent: "idmelon_pairing_tool"
+weight: 20
+toc: true
+---
+
+## Deploying to the Microsoft Intune
+
+Deploying a Kiosk application using Mobile Device Management (MDM) providers like Microsoft Intune streamlines the process of configuring, managing, and securing devices in a kiosk environment. With Microsoft Intune, administrators can deploy the app to multiple devices simultaneously, ensuring consistency and compliance with organizational policies. The platform allows for the configuration of kiosk settings such as single-app or multi-app mode, automated updates, and remote troubleshooting.
+
+### Add Kiosk App from Microsoft Store
+
+1. Access the Endpoint Manager:
+    - Sign in to the [Microsoft Intune](https://intune.microsoft.com).
+2. Navigate to Apps:
+    - In the left-hand menu, select **Apps > All apps**.
+3. Add a New Microsoft Store App
+    - Click on **+ Add** at the top of the screen.
+    - From the dropdown, select **Microsoft Store app (new)**.
+4. Search for IDmelon Kiosk in the Microsoft Store
+    - In the **App Information** pane, click **Search the Microsoft Store app (new)**.
+    - A search window will appear.
+    - In the search field, type **IDmelon Kiosk**.
+    - Press **Enter**.
+    - Locate IDmelon Kiosk from the search results.
+    - Click on the app name to select it.
+5. Configure App Information
+    - Change the **Install behavior** to **System**
+    - Click **Next** to continue.
+6. Assignments:
+    - Decide who gets the app.
+        - Under **Required**, click **Add Group** and select the device or user groups you want to deploy the app to.
+    - Click **Next** when done.
+7. Review + Create:
+    - Review all the configurations you've made.
+    - Click **Create** to add the app and its dependencies to Intune.
+
+### Create a Kiosk Configuration Policy with Multi-App Mode
+
+1. Navigate to Configuration Profiles:
+    - Go to **Devices > Configurations**.
+2. Create a New Policy:
+    - Click **+ Create > New Policy**.
+    - Platform: Choose **Windows 10 and later**.
+    - Profile type: Select **Templates > Kiosk**.
+3. Configure Basics:
+    - Name: Enter **IDmelon Kiosk Configuration**.
+    - Description: Provide details to identify the profile (optional).
+    - Click **Next** to proceed.
+4. Configuration Settings:
+    - Kiosk mode: Select **Multi-app kiosk**.
+    - Target devices running Windows 10/11 in S mode: Select **No**.
+    - User logon type: Choose **Autologon**.
+    - Browsers and Applications: Select **Add by AUMID**.
+    - App Name: Enter **IDmelon Kiosk**.
+    - AUMID: Enter **Hellokey.45853B8ADE74A_kxcedb3gts26c!App**.
+    - Click **OK** to add the app to the kiosk profile.
+    - Click **Next** to continue.
+5. Assignments:
+    - Under Included groups, click **Add groups**.
+    - Select the device groups that should receive the kiosk configuration.
+6. Review + Create:
+    - Click **Create** to deploy the configuration profile.
+
+## App Configs
+
+**Manual configuration by updating config.xml:**
+
+Editing the **configs.xml** file enables you to tailor the IDmelon Kiosk app to your preferences
+
+*Note: Once the Kiosk app has been run, files and folders are visible.*
+
+1. Navigate to the App's Local State Folder:
+    - In the File Explorer address bar, type or paste the following path and press Enter:
+
+    ```shell
+    %LOCALAPPDATA%\Packages\Hellokey.45853B8ADE74A_kxcedb3gts26c\LocalState
+    ```
+
+    - This path directs you to the **LocalState** folder where the **configs.xml** file is stored.
+2. Configuration Parameters:
+    - The file contains the following parameters:
+
+    ```xml
+    <KioskURL>https://myapps.microsoft.com</KioskURL>
+    <SelfService>false</SelfService>
+    <MultiTabMode>true</MultiTabMode>
+    <ExtensionEnabled>true</ExtensionEnabled>
+    <EndSessionConfirmation>false</EndSessionConfirmation>
+    <ShowURLBar>false</ShowURLBar>
+    <ShowEndSessionButton>true</ShowEndSessionButton>
+    <ServerAddress env="prod" />
+    ```
+
+    - **KioskURL:** The default webpage the kiosk app loads upon startup.
+    - **SelfService:** Set it true if the **KioskURL** is a custom url (e.g., self-service url).
+    - **MultiTabMode:** Enables (true) or disables (false) multi-tab browsing. Setting this to false activates full-screen mode.
+    - **ExtensionEnabled:** Toggles browser extensions on (true) or off (false).
+        Note: The Browser extension is required for the automation process. (When a card taps on the reader, the login automation will start).
+    - **EndSessionConfirmation:** Prompts users for confirmation when ending a session if set to true.
+    - **ShowURLBar:** Displays (true) or hides (false) the browser's URL bar.
+    - **ShowEndSessionButton:** Display (true) or hides (false) the end session button.
+    - **ServerAddress:** Target server address (for dedicated environments).
+
+**Configuring Server Address:**
+
+The IDmelon Kiosk app allows you to specify the target server address using the ServerAddress tag in the configuration file. By default, it connects to the IDmelon server. If you need to connect to a dedicated environment, follow these steps:
+
+- Locate the ServerAddress tag in the config file. By default, it looks like this:
+
+```xml
+<ServerAddress env="prod" />
+```
+
+- To connect the app to a custom server (dedicated environments), modify the attributes as follows:
+
+```xml
+<ServerAddress env="onpremise" base-api="https://sub.domain.com/api/url" />
+```
+
+**Configuring App via Command-Line Arguments:**
+
+Follow these steps to modify the app's settings directly through the command prompt.
+
+1. Access the Command Prompt
+You can change the app configs by entering this command in a PowerShell:
+
+    ```shell
+    powershell -Command "& {Start-Process 'shell:appsFolder\Hellokey.45853B8ADE74A_kxcedb3gts26c!App' -ArgumentList '-arg1 value1 -arg2 value2'}"
+    ```
+
+2. Available Command-Line Arguments
+The IDmelon Kiosk app accepts several command-line arguments that allow you to customize its behavior:
+    - **-url:** Specifies the URL for the kiosk to load on startup.
+        - Usage: -url [YourDesireURL]
+    - **-selfservice:** Set it true if the **-url** is a custom url.
+        - Usage: -selfservice <true|false>
+    - **-multitab:** Enables or disables multi-tab mode.
+        - Usage: -multitab <true|false>
+    - **-extension:** Enables or disables browser extensions.
+        - Usage: -extension <true|false>
+    - **-confirm:** Enables or disables the end session confirmation prompt.
+        - Usage: -confirm <true|false>
+    - **-urlbar:** Shows or hides the URL bar in the browser.
+        - Usage: -urlbar <true|false>
+    - **-endsession:** Shows or hides the end session button.
+        - Usage: -endsession <true|false>
+    - **-serveraddress:** Target server address for dedicated environments.
+        - Usage: -serveraddress https://sub.domain.com/api/url
+
+## Configuring automation-workflow
+
+Run the below command in Command Prompt to configure login-logout flow for Microsoft.
+
+*Note: Make sure that IDmelon Accesskey is installed on the system.*
+
+```shell
+accesskeycli workflow-automation -s -t weblogin-extension -a login-logout -u https://myapps.microsoft.com?login_hint=${UserId} -m passkey
+```
+
+*Note: Because of the login_hint attribute being passed as param so this command needs to be run via Command Prompt. ${} has its special meaning in Powershell.*
