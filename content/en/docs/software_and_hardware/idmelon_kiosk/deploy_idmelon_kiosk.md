@@ -15,8 +15,6 @@ toc: true
 
 ## Deploying to the Microsoft Intune
 
-Deploying a Kiosk application using Mobile Device Management (MDM) providers like Microsoft Intune streamlines the process of configuring, managing, and securing devices in a kiosk environment. With Microsoft Intune, administrators can deploy the app to multiple devices simultaneously, ensuring consistency and compliance with organizational policies. The platform allows for the configuration of kiosk settings such as single-app or multi-app mode, automated updates, and remote troubleshooting.
-
 ### Add Kiosk App from Microsoft Store
 
 1. Access the Endpoint Manager:
