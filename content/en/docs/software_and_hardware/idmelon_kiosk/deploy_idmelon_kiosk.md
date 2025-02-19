@@ -1,6 +1,6 @@
 ---
-title: "Deployin IDmelon Kiosk"
-description: ""
+title: "Deploying IDmelon Kiosk Using Intune"
+description: "Deploying IDmelon Kiosk"
 lead: ""
 date: 2022-02-16T18:14:02-08:00
 lastmod: 2022-02-16T18:14:02-08:00
@@ -13,9 +13,9 @@ weight: 20
 toc: true
 ---
 
-## Deploying to the Microsoft Intune
+This guide provides step-by-step instructions for deploying IDmelon Kiosk for Kiosk Mode Policy using Microsoft Intune.
 
-### Add Kiosk App from Microsoft Store
+## Step 1: Add IDmelon Kiosk App to Intune
 
 1. Access the Endpoint Manager:
     - Sign in to the [Microsoft Intune](https://intune.microsoft.com).
@@ -42,7 +42,7 @@ toc: true
     - Review all the configurations you've made.
     - Click **Create** to add the app and its dependencies to Intune.
 
-### Create a Kiosk Configuration Policy with Multi-App Mode
+## Step 2: Create a Kiosk Configuration Policy
 
 1. Navigate to Configuration Profiles:
     - Go to **Devices > Configurations**.
@@ -69,7 +69,7 @@ toc: true
 6. Review + Create:
     - Click **Create** to deploy the configuration profile.
 
-## App Configs
+## Step 3: Configure the Kiosk Settings
 
 **Manual configuration by updating config.xml:**
 
@@ -155,7 +155,7 @@ The IDmelon Kiosk app accepts several command-line arguments that allow you to c
     - **-serveraddress:** Target server address for dedicated environments.
         - Usage: -serveraddress https://sub.domain.com/api/url
 
-## Configuring automation-workflow
+## Step 4: Configure the Automation Workflow (Optional)
 
 Run the below command in Command Prompt to configure login-logout flow for Microsoft.
 
