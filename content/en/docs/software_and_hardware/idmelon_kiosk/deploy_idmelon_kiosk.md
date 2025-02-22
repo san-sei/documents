@@ -133,7 +133,7 @@ Follow these steps to modify the app's settings directly through the command pro
 You can change the app configs by entering this command in a PowerShell:
 
     ```shell
-    powershell -Command "& {Start-Process 'shell:appsFolder\Hellokey.45853B8ADE74A_kxcedb3gts26c!App' -ArgumentList '-arg1 value1 -arg2 value2'}"
+    Start-Process 'shell:appsFolder\Hellokey.45853B8ADE74A_kxcedb3gts26c!App' -ArgumentList '-arg1 value1 -arg2 value2'
     ```
 
 2. Available Command-Line Arguments
