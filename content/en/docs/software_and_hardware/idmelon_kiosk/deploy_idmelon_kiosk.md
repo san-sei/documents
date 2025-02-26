@@ -161,7 +161,7 @@ Follow these steps to deploy the **configs.xml** file on devices.
 
 1. Make **Intune Package** file
 
-    - Download [this zip](https://idmelon.com/configs-zip-path) file and extract it.
+    - Download [this zip](https://idmeloncom-my.sharepoint.com/:u:/g/personal/hassan_idmelon_com/ERXDZw6hq7VInOOi-Hffw7IB2kMHr6ZT0sQ9EUpmId6naA?e=NR32Dy) file and extract it.
     - Go to **IntunePackage** folder, and edit the **configs.xml** file according to your requirements.
     ![IntunePackage](/images/vendor/idmelon_kiosk/idmelon_kiosk_package_folder.png)
     ![ConfigsFile](/images/vendor/idmelon_kiosk/idmelon_kiosk_configs_file.png)
