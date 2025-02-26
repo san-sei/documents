@@ -155,6 +155,49 @@ The IDmelon Kiosk app accepts several command-line arguments that allow you to c
     - **-serveraddress:** Target server address for dedicated environments.
         - Usage: -serveraddress https://sub.domain.com/api/url
 
+**Deploy App Configs on Kiosk Devices:**
+
+Follow these steps to deploy the **configs.xml** file on devices.
+
+1. Make **Intune Package** file
+
+    - Download [this zip](https://idmelon.com/configs-zip-path) file and extract it.
+    - Go to **IntunePackage** folder, and edit the **configs.xml** file according to your requirements.
+    ![IntunePackage](/images/vendor/idmelon_kiosk/idmelon_kiosk_package_folder.png)
+    ![ConfigsFile](/images/vendor/idmelon_kiosk/idmelon_kiosk_configs_file.png)
+    - In the root path open the **package.bat** file via a Command Line Prompt.
+    ![PackageBat](/images/vendor/idmelon_kiosk/idmelon_kiosk_package_bat.png)
+    - If successful, a file named **configurator.intunewin** will be created in the root path.
+    ![IntuneWinFile](/images/vendor/idmelon_kiosk/idmelon_kiosk_intunewin.png)
+
+2. Deploy Intune Package
+
+    - In the Intune panel, select **Apps > All apps**.
+    - Click on **+ Create** at the top of the screen.
+    - From the dropdown, select **Windows app (Win32)**.
+    - Click on **select app package file** and upload the **configurator.intunewin** file.
+    - After the file is uploaded, fill in the required fields.
+    - Click **Next**.
+    - Enter this command in **Install command** field:
+
+        ```shell
+        configurator.exe /S
+        ```
+
+    - For the **Uninstall command** you can enter the previous command.
+    - Set the **Allow available uninstall** to **No**.
+    - Set the **Install behavior** to **System**.
+    - Set the **Device restart behavior** to **No specific action**.
+    - Click **Next**.
+    - Choose both architectures for the **Operating system architecture**.
+    - Select the minimum Windows version required for the app to run.
+    - Click **Next**.
+    - Select the **Use a custom detection script** for the **Rules format** in the **Detection rules** section.
+    - Upload the **detect.ps1** script.
+    ![DetectScript](/images/vendor/idmelon_kiosk/idmelon_kiosk_detect.png)
+    - Assign the app to specific groups of users or devices where the configs will be automatically added.
+    - If everything looks correct, click **Create** to finalize the app deployment.
+
 ## Step 4: Configure the Automation Workflow (Optional)
 
 Run the below command in Command Prompt to configure login-logout flow for Microsoft.
