@@ -71,11 +71,7 @@ This guide provides step-by-step instructions for deploying IDmelon Kiosk for Ki
 
 ## Step 3: Configure the Kiosk Settings
 
-**Manual configuration by updating config.xml:**
-
-Editing the **configs.xml** file enables you to tailor the IDmelon Kiosk app to your preferences
-
-*Note: Once the Kiosk app has been run, files and folders are visible.*
+Editing the **configs.xml** file enables you to tailor the IDmelon Kiosk app to your preferences.
 
 1. Navigate to the App's Local State Folder:
     - In the File Explorer address bar, type or paste the following path and press Enter:
@@ -125,7 +121,7 @@ The IDmelon Kiosk app allows you to specify the target server address using the 
 <ServerAddress env="onpremise" base-api="https://sub.domain.com/api/url" />
 ```
 
-**Configuring App via Command-Line Arguments:**
+### Configuring App via Command-Line Arguments
 
 Follow these steps to modify the app's settings directly through the command prompt.
 
@@ -155,7 +151,7 @@ The IDmelon Kiosk app accepts several command-line arguments that allow you to c
     - **-serveraddress:** Target server address for dedicated environments.
         - Usage: -serveraddress https://sub.domain.com/api/url
 
-**Deploy App Configs on Kiosk Devices:**
+### Configure via Intune
 
 Follow these steps to deploy the **configs.xml** file on devices.
 
