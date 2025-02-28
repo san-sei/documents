@@ -38,7 +38,7 @@ including users, groups, and devices, into the IDmelon panel via LDAP.
    - `LDAP_PASSWORD`
 2. Set the `AUTH_TOKEN` value according to the copied token value from the token creation and obtaining step.
 
-### Running the Tool
+### Syncing with filtered groups
 
 1. Configure the `config.json` File
    - Ensure that the `config.json` file is correctly configured with the necessary settings.
@@ -51,12 +51,12 @@ including users, groups, and devices, into the IDmelon panel via LDAP.
    - Get the list of groups by using the `group` parameter. The result will be saved to a file named `group_list.txt`.
    - Command: `SyncStream.exe group`
 
-4. Prepare Groups for Syncing
+4. Filter Groups for Syncing
    - Open the `group_list.txt` file to review the list of groups.
    - Based on this list, create and save the groups you want to sync in the `group_filter.txt` file.
 
-5. Sync Selected Groups
-   - Run the sync process to synchronize all selected groups along with their users and the list of devices with the API.
+5. Sync Filtered Groups
+   - Run the sync process to synchronize users and devices from the groups defined in the `group_filter.txt` file.
    - Command: `SyncStream.exe sync`
 
 ### Quick Commands Reference
