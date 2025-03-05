@@ -53,9 +53,10 @@ In the `General Settings` section:
 
 - **Entity ID:** should be `https://<HORIZON_UAG_URL>/portal`.
 - **ACS URL:** should be `https://<HORIZON_UAG_URL>/portal/samlsso`.
-- **Horizon UAG Metadata:** should upload after downloading from UAG admin panel.
+- **Horizon UAG Metadata XML file:** should upload after downloading from UAG admin panel.
 
 ![alt](/images/vendor/sso/vmware_horizon/idmelon_01.png)
+![alt](/images/vendor/sso/vmware_horizon/idmelon_02.png)
 
 Finally, copy the `SAML Metadata` for the `Horizon Panel`.
 
