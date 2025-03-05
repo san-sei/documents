@@ -47,20 +47,60 @@ Use `Static` Configuration to create a connection with static configuration.
 
 ---
 
-Create a `VMware Horizon` configuration by selecting this configuration from `Single Sign-On` -> `App Management` -> `New Application` inside of the `IDmelon` panel.
+Create a `VMware Horizon` configuration by selecting this configuration from `App Integrations` -> `Single Sign-On` -> `New Application` inside of the `IDmelon` panel.
 
 In the `General Settings` section:
 
 - **Entity ID:** should be `https://<HORIZON_UAG_URL>/portal`.
 - **ACS URL:** should be `https://<HORIZON_UAG_URL>/portal/samlsso`.
+- **Horizon UAG Metadata:** should upload after downloading from UAG admin panel.
 
 ![alt](/images/vendor/sso/vmware_horizon/idmelon_01.png)
 
 Finally, copy the `SAML Metadata` for the `Horizon Panel`.
 
-## Connect Server to IDmelon
+## Connect Horizon Connection Server to IDmelon
 
 Put the XML metadata you copied before in `SAML Metadata` and fill `Label` with a name for the configuration.
 Now click on OK to submit all changes.
 
 ![alt](/images/vendor/sso/vmware_horizon/vmware_06.png)
+
+## Connect Unified Access Gateway to IDmelon
+
+Login to your UAG admin page (https://<HORIZON_UAG_FQDN>:9443/admin) and click `Select` of Configure Manually.
+
+![alt](/images/vendor/sso/vmware_horizon/uag_01.png)
+![alt](/images/vendor/sso/vmware_horizon/uag_02.png)
+
+Scroll down to the section named `Identity Bridging Settings` and click `Upload Identity Provider Metadata`.
+
+![alt](/images/vendor/sso/vmware_horizon/uag_03.png)
+
+Fill `Entity ID` with value provided by IDmelon and also Download Metadata from IDmelon Panel and click on select to Upload Metadata.
+After Uploading Metadata, click `Save`.
+
+![alt](/images/vendor/sso/vmware_horizon/uag_04.png)
+
+At the top of the page, next to `Edge Service Settings` click `SHOW`.
+
+![alt](/images/vendor/sso/vmware_horizon/uag_05.png)
+
+Next to Horizon Settings click the gear icon.
+
+![alt](/images/vendor/sso/vmware_horizon/uag_06.png)
+
+At the bottom of the page, click More.
+
+![alt](/images/vendor/sso/vmware_horizon/uag_07.png)
+
+In this form do following insstructions:
+
+- Find `Auth Methods` and change it to SAML.
+- Click on Identity Provider drop-down select box and find IDmelon provider link.
+- Download SAML service provider metadata and upload in IDmelon panel.
+- Scroll down and click `save`.
+
+![alt](/images/vendor/sso/vmware_horizon/uag_08.png)
+
+Now all configurations are completed. for debug other bugs you can download logs from buttom of the UAG admin panel.
