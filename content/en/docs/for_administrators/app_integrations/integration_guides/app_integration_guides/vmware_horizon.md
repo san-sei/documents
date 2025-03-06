@@ -17,10 +17,12 @@ toc: true
 
 This guide provides step-by-step instructions for integrating `IDmelon` as an external Identity Provider (IdP) with `VMware Horizon` using SAML authentication.
 
+![alt](/images/vendor/sso/vmware_horizon/horizon-saml-overview.png)
+
 To achieve this integration, we will:
 
-1. Configure `Unified Access Gateway (UAG)` and `Horizon Connection Server` in VMware.
-2. Create a SAML 2.0 configuration in the IDmelon panel.
+1. Create a SAML 2.0 configuration in the IDmelon Admin panel.
+2. Configure `Unified Access Gateway (UAG)` and `Horizon Connection Server` in VMware.
 3. Set up authentication settings in the VMware environment.
 
 ## Step 1: Create a SAML 2.0 IdP in IDmelon Panel
@@ -104,11 +106,11 @@ Click `OK` to save changes.
 8. Configure authentication settings:
    - Set `Auth Methods` to `SAML`.
    - In the `Identity Provider` drop-down, select the IDmelon provider.
-   - Download the SAML service provider metadata and upload it to the IDmelon panel.
+   - Download the SAML service provider metadata and upload it to the IDmelon panel (SP SAML Configuration - Horizon UAG Metadata XML file).
    - Scroll down and click `Save`.
 
    ![alt](/images/vendor/sso/vmware_horizon/uag_08.png)
 
-## Conclusion
+## Troubleshooting
 
 You have successfully integrated IDmelon as an Identity Provider (IdP) with VMware Horizon. To troubleshoot any issues, you can download logs from the bottom of the UAG admin panel.
