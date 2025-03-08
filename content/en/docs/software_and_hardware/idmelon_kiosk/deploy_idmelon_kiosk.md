@@ -17,28 +17,29 @@ This guide provides step-by-step instructions for deploying IDmelon Kiosk for Ki
 
 ## Step 1: Add IDmelon Kiosk App to Intune
 
-1. Access the Endpoint Manager:
-    - Sign in to the [Microsoft Intune](https://intune.microsoft.com).
-2. Navigate to Apps:
-    - In the left-hand menu, select **Apps > All apps**.
+1. Access the Endpoint Manager [Microsoft Intune](https://intune.microsoft.com).
+2. Navigate to **Apps > All apps**.
 3. Add a New Microsoft Store App
-    - Click on **+ Add** at the top of the screen.
+    - Click on **+ Create** at the top of the screen.
     - From the dropdown, select **Microsoft Store app (new)**.
-4. Search for IDmelon Kiosk in the Microsoft Store
+    - Search for **IDmelon Kiosk** in the Microsoft Store and select it.
     - In the **App Information** pane, click **Search the Microsoft Store app (new)**.
     - A search window will appear.
     - In the search field, type **IDmelon Kiosk**.
     - Press **Enter**.
     - Locate IDmelon Kiosk from the search results.
     - Click on the app name to select it.
-5. Configure App Information
+    ![IDmelon Kiosk from MS Store](/images/vendor/idmelon_kiosk/kiosk-app-choose-idemlon-store.png)
+4. Configure App Information
     - Change the **Install behavior** to **System**
     - Click **Next** to continue.
-6. Assignments:
+    ![IDmelon Kiosk Installation Behavior](/images/vendor/idmelon_kiosk/intune-kiosk-app-system.png)
+5. Assignments:
     - Decide who gets the app.
         - Under **Required**, click **Add Group** and select the device or user groups you want to deploy the app to.
     - Click **Next** when done.
-7. Review + Create:
+    ![IDmelon Kiosk Assignment](/images/vendor/idmelon_kiosk/Intune-device-group-assignment.png)
+6. Review + Create:
     - Review all the configurations you've made.
     - Click **Create** to add the app and its dependencies to Intune.
 
@@ -46,10 +47,11 @@ This guide provides step-by-step instructions for deploying IDmelon Kiosk for Ki
 
 1. Navigate to Configuration Profiles:
     - Go to **Devices > Configurations**.
-2. Create a New Policy:
+2. Create a Kiosk Policy:
     - Click **+ Create > New Policy**.
     - Platform: Choose **Windows 10 and later**.
     - Profile type: Select **Templates > Kiosk**.
+    ![Create Kiosk Policy](/images/vendor/idmelon_kiosk/Intune-adding-kiosk-policy.png)
 3. Configure Basics:
     - Name: Enter **IDmelon Kiosk Configuration**.
     - Description: Provide details to identify the profile (optional).
@@ -63,9 +65,11 @@ This guide provides step-by-step instructions for deploying IDmelon Kiosk for Ki
     - AUMID: Enter **Hellokey.45853B8ADE74A_kxcedb3gts26c!App**.
     - Click **OK** to add the app to the kiosk profile.
     - Click **Next** to continue.
+    ![Create Kiosk Policy](/images/vendor/idmelon_kiosk/Intune-adding-kiosk-policy-config-idmelon-kiosk-app.png)
 5. Assignments:
     - Under Included groups, click **Add groups**.
     - Select the device groups that should receive the kiosk configuration.
+    ![Create Kiosk Policy](/images/vendor/idmelon_kiosk/Intune-adding-kiosk-policy-config-assignment.png)
 6. Review + Create:
     - Click **Create** to deploy the configuration profile.
 
